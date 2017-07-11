@@ -1,0 +1,6695 @@
+.PTSProject_frmNewEMS {
+}
+.PTSProject_frmNewEMS .frmNewEMS {
+	background-color: Teal;
+	min-width: 812px;
+	min-height: 601px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmNewEMS .mnuPrintPayReport {
+}
+.PTSProject_frmNewEMS .mnuSpacer1 {
+}
+.PTSProject_frmNewEMS .mnuClose {
+}
+.PTSProject_frmNewEMS .mnuSystem {
+}
+.PTSProject_frmNewEMS .mnuEmpInfo {
+}
+.PTSProject_frmNewEMS .mnuImmune {
+}
+.PTSProject_frmNewEMS .mnuSeniorInq {
+}
+.PTSProject_frmNewEMS .mnu_transfer_req {
+}
+.PTSProject_frmNewEMS .mnuPMCerts {
+}
+.PTSProject_frmNewEMS .mnuPPE {
+}
+.PTSProject_frmNewEMS .mnupersonnel {
+}
+.PTSProject_frmNewEMS .mnuIndSchedule {
+}
+.PTSProject_frmNewEMS .mnuBattalion1 {
+}
+.PTSProject_frmNewEMS .mnuBattalion2 {
+}
+.PTSProject_frmNewEMS .mnuNewBatt3 {
+}
+.PTSProject_frmNewEMS .mnuBattalion3 {
+}
+.PTSProject_frmNewEMS .mnuBattalion4 {
+}
+.PTSProject_frmNewEMS .mnuEMSDaily {
+}
+.PTSProject_frmNewEMS .mnuHazmat {
+}
+.PTSProject_frmNewEMS .mnuMarine {
+}
+.PTSProject_frmNewEMS .mnuBattStaff {
+}
+.PTSProject_frmNewEMS .mnuDispatch {
+}
+.PTSProject_frmNewEMS .mnu_watch_duty {
+}
+.PTSProject_frmNewEMS .mnu_Vacation {
+}
+.PTSProject_frmNewEMS .mnu_PMVacationSched {
+}
+.PTSProject_frmNewEMS .mnu_HZMVacationSched {
+}
+.PTSProject_frmNewEMS .mnuNewBatt1 {
+}
+.PTSProject_frmNewEMS .mnuNewBatt2 {
+}
+.PTSProject_frmNewEMS .mnu_old {
+}
+.PTSProject_frmNewEMS .mnuSchedule {
+}
+.PTSProject_frmNewEMS .mnuAssign {
+}
+.PTSProject_frmNewEMS .mnuRoster {
+}
+.PTSProject_frmNewEMS .mnuFRoster {
+}
+.PTSProject_frmNewEMS .mnu_DDGroups {
+}
+.PTSProject_frmNewEMS .mnuProlist {
+}
+.PTSProject_frmNewEMS .mnuSenior {
+}
+.PTSProject_frmNewEMS .mnuBenefit {
+}
+.PTSProject_frmNewEMS .mnu_emp_facility {
+}
+.PTSProject_frmNewEMS .mnu_IndivPayrollSO {
+}
+.PTSProject_frmNewEMS .mnuIndTimeCard2 {
+}
+.PTSProject_frmNewEMS .mnuperson {
+}
+.PTSProject_frmNewEMS .mnu181 {
+}
+.PTSProject_frmNewEMS .mnu182 {
+}
+.PTSProject_frmNewEMS .mnu183 {
+}
+.PTSProject_frmNewEMS .mnuBDWork {
+}
+.PTSProject_frmNewEMS .mnuEMSPay {
+}
+.PTSProject_frmNewEMS .mnuHazPay {
+}
+.PTSProject_frmNewEMS .mnuMarPay {
+}
+.PTSProject_frmNewEMS .mnuBattPay {
+}
+.PTSProject_frmNewEMS .mnuDisPay {
+}
+.PTSProject_frmNewEMS .mnuPayroll {
+}
+.PTSProject_frmNewEMS .mnuIndTimeCard {
+}
+.PTSProject_frmNewEMS .mnuIndYearSched {
+}
+.PTSProject_frmNewEMS .mnuDailyStaff {
+}
+.PTSProject_frmNewEMS .mnuOvertime {
+}
+.PTSProject_frmNewEMS .mnu_sa_report {
+}
+.PTSProject_frmNewEMS .mnuShiftCal {
+}
+.PTSProject_frmNewEMS .mnuTransfer {
+}
+.PTSProject_frmNewEMS .mnuSchedul {
+}
+.PTSProject_frmNewEMS .mnuDailyLeave {
+}
+.PTSProject_frmNewEMS .mnuAnnual {
+}
+.PTSProject_frmNewEMS .mnu_dailysickleave {
+}
+.PTSProject_frmNewEMS .mnuIndLeave {
+}
+.PTSProject_frmNewEMS .mnu_sick_usage {
+}
+.PTSProject_frmNewEMS .mnu_PMLeave {
+}
+.PTSProject_frmNewEMS .mnuDispatchLeave {
+}
+.PTSProject_frmNewEMS .mnuLeaveReports {
+}
+.PTSProject_frmNewEMS .mnuTimeCard {
+}
+.PTSProject_frmNewEMS .mnuIndAnnualPayroll {
+}
+.PTSProject_frmNewEMS .mnupersonnelsignoff {
+}
+.PTSProject_frmNewEMS .mnuPayrollReports {
+}
+.PTSProject_frmNewEMS .mnu_QuarterlyMinimumDrill {
+}
+.PTSProject_frmNewEMS .mnu_FCCMinDrills {
+}
+.PTSProject_frmNewEMS .mnu_ReadingAssign {
+}
+.PTSProject_frmNewEMS .mnu_OTEPReport {
+}
+.PTSProject_frmNewEMS .mnu_PMRecertReport {
+}
+.PTSProject_frmNewEMS .mnu_PMBaseStaReport {
+}
+.PTSProject_frmNewEMS .mnu_TrainingReports {
+}
+.PTSProject_frmNewEMS .mnuReports {
+}
+.PTSProject_frmNewEMS .mnu_trainingtracker {
+}
+.PTSProject_frmNewEMS .mnu_IndTrainReport {
+}
+.PTSProject_frmNewEMS .mnu_IndPMRecert {
+}
+.PTSProject_frmNewEMS .mnuALSProc {
+}
+.PTSProject_frmNewEMS .mnuTrnReports {
+}
+.PTSProject_frmNewEMS .mnuTrainQuery {
+}
+.PTSProject_frmNewEMS .mnu_TrainingQuerynew {
+}
+.PTSProject_frmNewEMS .mnu_Queries {
+}
+.PTSProject_frmNewEMS .mnuTraining {
+}
+.PTSProject_frmNewEMS .mnuCascade {
+}
+.PTSProject_frmNewEMS .mnuPrintScreen {
+}
+.PTSProject_frmNewEMS .mnuWindow {
+}
+.PTSProject_frmNewEMS .mnuContents {
+}
+.PTSProject_frmNewEMS .mnuAbout {
+}
+.PTSProject_frmNewEMS .mnu_HelpPrntScrn {
+}
+.PTSProject_frmNewEMS .mnu_timecodes {
+}
+.PTSProject_frmNewEMS .mnu_payrolllegend {
+}
+.PTSProject_frmNewEMS .mnu_legend {
+}
+.PTSProject_frmNewEMS .mnu_IndLegend {
+}
+.PTSProject_frmNewEMS .mnu_payup_calc {
+}
+.PTSProject_frmNewEMS .mnuTrainCodeHelp {
+}
+.PTSProject_frmNewEMS .mnuHelp {
+}
+.PTSProject_frmNewEMS .mnuNewSched {
+}
+.PTSProject_frmNewEMS .mnuLeave {
+}
+.PTSProject_frmNewEMS .mnuPayUp {
+}
+.PTSProject_frmNewEMS .mnuPayDown {
+}
+.PTSProject_frmNewEMS .mnuKOT {
+}
+.PTSProject_frmNewEMS .mnuTrade {
+}
+.PTSProject_frmNewEMS .mnuRemove {
+}
+.PTSProject_frmNewEMS .mnuSendTo181 {
+}
+.PTSProject_frmNewEMS .mnuSendTo182 {
+}
+.PTSProject_frmNewEMS .mnuSendTo183 {
+}
+.PTSProject_frmNewEMS .mnu_viewtimecard {
+}
+.PTSProject_frmNewEMS .mnuReport {
+}
+.PTSProject_frmNewEMS .mnuViewDetail {
+}
+.PTSProject_frmNewEMS .mnuNewEMSPopup {
+}
+.PTSProject_frmNewEMS .MainMenu1 {
+	position: relative;
+	z-index: 16777271;
+}
+.PTSProject_frmNewEMS .Ctx_mnuNewEMSPopup {
+	width: 153px;
+	height: 26px;
+}
+.PTSProject_frmNewEMS .Ctx_mnuNewEMSPopup li.k-item {
+	border-width: 0;
+}
+.PTSProject_frmNewEMS .Ctx_mnuNewEMSPopup hr {
+	float: left;
+	border: none;
+	border-left: 1px black solid;
+	height: 15px;
+	margin-top: 0;
+	margin: 5px;
+	border-color: #c5c5c5;
+}
+.PTSProject_frmNewEMS .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 25px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS .calWeek:enabled {
+	color: Black;
+}
+.PTSProject_frmNewEMS .calWeek.k-datepicker {
+	left: 88px;
+	top: 25px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS .calWeek {
+}
+.PTSProject_frmNewEMS .picTrash {
+	background-color: Teal;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	background-image: url("/Resources/images/frmNewEMS.picTrash.Image.png");
+	background-repeat: no-repeat;
+	left: 232px;
+	top: 25px;
+	position: absolute;
+	width: 20px;
+	height: 18px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS .lbLocked {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 264px;
+	top: 25px;
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS .pnSelected {
+	background-color: rgba(240, 240, 240, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: rgba(0, 0, 0, 1);
+	left: 288px;
+	top: 25px;
+	position: absolute;
+	width: 102px;
+	height: 16px;
+}
+.PTSProject_frmNewEMS .Label5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 416px;
+	top: 25px;
+	position: absolute;
+	width: 99px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS .cboSelectName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 174px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS .cboSelectName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS .cboSelectNamePos {
+	top: 25px;
+	left: 520px;
+	position: absolute;
+	width: 174px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS .cmdPayroll {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 704px;
+	top: 25px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNewEMS .cmdPayroll:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS .cmdReport {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 704px;
+	top: 47px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNewEMS .cmdReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS .Label2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 4px;
+	top: 48px;
+	position: absolute;
+	width: 45px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS .Label3 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 48px;
+	top: 48px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbWeekDay_0 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbShiftArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 200px;
+	top: 48px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._lbWeekDay_1 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbShiftArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 280px;
+	top: 48px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._lbWeekDay_2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbShiftArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 360px;
+	top: 48px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._lbWeekDay_3 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbShiftArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 440px;
+	top: 48px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._lbWeekDay_4 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbShiftArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 520px;
+	top: 48px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._lbWeekDay_5 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbShiftArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 600px;
+	top: 48px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._lbWeekDay_6 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbShiftArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 680px;
+	top: 48px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 65px;
+	position: absolute;
+	width: 41px;
+	height: 13px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 65px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 65px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos1am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 65px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 65px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 65px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 65px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 65px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 65px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos1am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 65px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._shpP1am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS .cmdCSRCalc {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 704px;
+	top: 72px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNewEMS .cmdCSRCalc:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._lbUnitArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 80px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 80px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos1pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos1pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP1pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._Line1_0 {
+	background-color: Gray;
+	left: 8px;
+	top: 97px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 99px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 99px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 99px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos2am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 99px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 99px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 99px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 99px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 99px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 99px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 99px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 704px;
+	top: 101px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNewEMS .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._lbUnitArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 114px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 114px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 114px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos2pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 114px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 114px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 114px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 114px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 114px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 114px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos2pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 114px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP2pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS .Frame1 {
+	background-color: Teal;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 700px;
+	top: 120px;
+	position: absolute;
+	width: 111px;
+	height: 444px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmNewEMS .Frame1:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmNewEMS ._lstLeave_4 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: -8px;
+	top: 424px;
+	position: absolute;
+	width: 111px;
+	height: 19px;
+	visibility: hidden;
+}
+.PTSProject_frmNewEMS ._lbLeaveDay_0 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 16px;
+	position: absolute;
+	width: 111px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._cboLeave_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboLeave_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboLeave_0Pos {
+	top: 32px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._cboAvailable_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboAvailable_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboAvailable_0Pos {
+	top: 52px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._lbLeaveDay_1 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 78px;
+	position: absolute;
+	width: 111px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._cboLeave_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboLeave_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboLeave_1Pos {
+	top: 94px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._cboAvailable_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboAvailable_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboAvailable_1Pos {
+	top: 114px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._lbLeaveDay_2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 139px;
+	position: absolute;
+	width: 111px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._cboLeave_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboLeave_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboLeave_2Pos {
+	top: 155px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._cboAvailable_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboAvailable_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboAvailable_2Pos {
+	top: 175px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._lbLeaveDay_3 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 200px;
+	position: absolute;
+	width: 111px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._cboLeave_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboLeave_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboLeave_3Pos {
+	top: 216px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._cboAvailable_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboAvailable_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboAvailable_3Pos {
+	top: 236px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._lbLeaveDay_4 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 262px;
+	position: absolute;
+	width: 111px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._cboLeave_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboLeave_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboLeave_4Pos {
+	top: 278px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._cboAvailable_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboAvailable_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboAvailable_4Pos {
+	top: 298px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._lbLeaveDay_5 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 323px;
+	position: absolute;
+	width: 111px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._cboLeave_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboLeave_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboLeave_5Pos {
+	top: 339px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._cboAvailable_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboAvailable_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboAvailable_5Pos {
+	top: 359px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._lbLeaveDay_6 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 384px;
+	position: absolute;
+	width: 111px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmNewEMS ._cboLeave_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboLeave_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboLeave_6Pos {
+	top: 400px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._cboAvailable_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	width: 113px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmNewEMS ._cboAvailable_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewEMS ._cboAvailable_6Pos {
+	top: 420px;
+	left: 0px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmNewEMS ._lstLeave_3 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 424px;
+	position: absolute;
+	width: 111px;
+	height: 19px;
+	visibility: hidden;
+}
+.PTSProject_frmNewEMS ._lstLeave_2 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 424px;
+	position: absolute;
+	width: 111px;
+	height: 19px;
+	visibility: hidden;
+}
+.PTSProject_frmNewEMS ._lstLeave_1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 424px;
+	position: absolute;
+	width: 111px;
+	height: 19px;
+	visibility: hidden;
+}
+.PTSProject_frmNewEMS ._lstLeave_5 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 424px;
+	position: absolute;
+	width: 111px;
+	height: 19px;
+	visibility: hidden;
+}
+.PTSProject_frmNewEMS ._lstLeave_6 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 424px;
+	position: absolute;
+	width: 111px;
+	height: 19px;
+	visibility: hidden;
+}
+.PTSProject_frmNewEMS ._lstLeave_0 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 0px;
+	top: 424px;
+	position: absolute;
+	width: 111px;
+	height: 19px;
+	visibility: hidden;
+}
+.PTSProject_frmNewEMS .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmNewEMS ._Line1_1 {
+	background-color: Gray;
+	left: 8px;
+	top: 130px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 132px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 132px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 132px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos3am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 132px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 132px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 132px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 132px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 132px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 132px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 132px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 147px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 147px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 147px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos3pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 147px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 147px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 147px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 147px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 147px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 147px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos3pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 147px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP3pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._Line1_2 {
+	background-color: Gray;
+	left: 8px;
+	top: 164px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 165px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 165px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 165px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos4am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 180px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 180px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 180px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos4pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos4pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP4pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._Line1_3 {
+	background-color: Gray;
+	left: 8px;
+	top: 197px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 199px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 199px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 199px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos5am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 199px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 199px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 199px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 199px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 199px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 199px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 199px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 214px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 214px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos5pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 214px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 214px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 214px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 214px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 214px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 214px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos5pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 214px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP5pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 216px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 232px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 232px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 232px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos6am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 247px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 247px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos6pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 247px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 247px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 247px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 247px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 247px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos6pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 247px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP6pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._shpP6pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 248px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos6pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 248px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._Line1_5 {
+	background-color: Gray;
+	left: 8px;
+	top: 264px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 265px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 265px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 265px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos7am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 280px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 280px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 280px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos7pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos7pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP7pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 299px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 299px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 299px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos8am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 299px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 299px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 299px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 299px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 299px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 299px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 299px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 314px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 314px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 314px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos8pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 314px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 314px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 314px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 314px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 314px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 314px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos8pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 314px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP8pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._Line1_7 {
+	background-color: Gray;
+	left: 8px;
+	top: 330px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 332px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 332px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 332px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos9am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 332px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 332px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 332px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 332px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 332px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 332px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 332px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbAMPM_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 344px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 347px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 347px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos9pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 347px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 347px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 347px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 347px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 347px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 347px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos9pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 347px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP9pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 365px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 365px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 365px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos10am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 365px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 365px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 365px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 365px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 365px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 365px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 365px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 380px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 380px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 380px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos10pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos10pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP10pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._Line1_9 {
+	background-color: Gray;
+	left: 8px;
+	top: 397px;
+	position: absolute;
+	width: 688px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 399px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 399px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 111px;
+	top: 399px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos11am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 399px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 399px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 399px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 399px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 399px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 399px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 399px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_21 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 414px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_21 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 414px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos11pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 414px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 414px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 414px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 414px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 414px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos11pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 414px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos11pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 414px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_21 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 416px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP11pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 432px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 432px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #E0E0E0;
+	left: 111px;
+	top: 432px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos12am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_23 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 447px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_23 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 447px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_23 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 447px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos12pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 447px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 447px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 447px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 447px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 447px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 447px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos12pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 447px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP12pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_24 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 464px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._Line1_10 {
+	background-color: Gray;
+	left: 8px;
+	top: 464px;
+	position: absolute;
+	width: 688px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._shpP13am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_24 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 465px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_24 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 465px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos13am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 465px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 465px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 465px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos13am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 465px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 465px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 465px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 465px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_25 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 480px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_25 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 480px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_25 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 480px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos13pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos13pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP13pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_26 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 499px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_26 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 499px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_26 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 499px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos14am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 499px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 499px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 499px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 499px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 499px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 499px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 499px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_27 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 514px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_27 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 514px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_27 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 514px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos14pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 514px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 514px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 514px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 514px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 514px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 514px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos14pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 514px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP14pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._Line1_4 {
+	background-color: Gray;
+	left: 8px;
+	top: 530px;
+	position: absolute;
+	width: 680px;
+	height: 1px;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_28 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 532px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_28 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 532px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_28 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 532px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos15am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 532px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 532px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 532px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 532px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 532px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 532px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 532px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_29 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 548px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_29 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 548px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_29 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 548px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos15pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 548px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 548px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 548px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 548px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 548px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 548px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos15pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 548px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP15pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_30 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 566px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_30 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 566px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_30 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 566px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos16am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 566px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 566px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 566px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 566px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 566px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 566px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 566px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbUnitArray_31 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 582px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPositionArray_31 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 46px;
+	top: 582px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbAMPM_31 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFE0C0;
+	left: 111px;
+	top: 582px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._lbPos16pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 136px;
+	top: 582px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 582px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 582px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 582px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 582px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 536px;
+	top: 582px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmNewEMS ._lbPos16pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 616px;
+	top: 582px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmNewEMS ._shpP16pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+

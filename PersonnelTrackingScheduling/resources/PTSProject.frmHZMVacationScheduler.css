@@ -1,0 +1,60 @@
+.PTSProject_frmHZMVacationScheduler {
+}
+.PTSProject_frmHZMVacationScheduler .frmHZMVacationScheduler {
+	background-color: #400040;
+	min-width: 825px;
+	min-height: 645px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmHZMVacationScheduler .calYear {
+	font-family: Arial;
+	font-size: 8.1px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+}
+.PTSProject_frmHZMVacationScheduler .calYear:enabled {
+	color: #000040;
+}
+.PTSProject_frmHZMVacationScheduler .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	font-weight: bold;
+	left: 568px;
+	top: 600px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmHZMVacationScheduler .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmHZMVacationScheduler .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	font-weight: bold;
+	left: 680px;
+	top: 600px;
+	position: absolute;
+	width: 97px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmHZMVacationScheduler .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

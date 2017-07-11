@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="DownArrow" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2mAAAAAAAAAHYAAAAoAAAACgAAAAYAAAABAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAA/wAA
+        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP+AgID/AAD//wD/AP8A/////wAA//8A/////wD/////////
+        ////AAAA//8P//8AAAD/8AD//wAAAP8AAA//AAAA8AAAAP8AAAD//////wAAAA==
+</value>
+  </data>
+  <data name="FixedColumnLessThanColumnsCount" xml:space="preserve">
+    <value>FixedColumns must always be at least one less than ColumnsCount</value>
+  </data>
+  <data name="FixedRowsLessThanRowsCount" xml:space="preserve">
+    <value>FixedRows must always be at least one less than RowsCount</value>
+  </data>
+  <data name="HtmlTableFooterTemplate" xml:space="preserve">
+    <value>&lt;TD valign="MIDDLE" bgcolor="#D4D0C8" width="#width#%" NOWRAP&gt;&lt;font color="#000000" face="MS Sans Serif" size="-1" weight="400"&gt;#footer_Text#&lt;/TD&gt;</value>
+  </data>
+  <data name="HtmlTableHeaderTemplate" xml:space="preserve">
+    <value>&lt;TD valign="MIDDLE" bgcolor="#D4D0C8" width="#width#%"&gt;&lt;font color="#000000" face="MS Sans Serif" size="-1" weight="400"&gt;#header_Text#&lt;/TD&gt;</value>
+  </data>
+  <data name="HtmlTableRowTemplate" xml:space="preserve">
+    <value>&lt;tr valign="TOP"&gt;
+        #table_row_cells#
+&lt;/tr&gt;</value>
+  </data>
+  <data name="HtmlTableRowTemplate_Cell" xml:space="preserve">
+    <value>        &lt;TD valign="TOP" bgcolor="#FFFFFF" width="#width#%" NOWRAP&gt;&lt;font color="#000000" face="MS Sans Serif" size="-1" weight="400"&gt;#cell_Text#&lt;/font&gt;&lt;/td&gt;</value>
+  </data>
+  <data name="HtmlTableTemplate" xml:space="preserve">
+    <value>&lt;table border  #table_width#&gt;
+&lt;tr&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+   #table_headers#
+&lt;/tr&gt;
+#table_rows#
+&lt;tr&gt;
+   #table_footers#
+&lt;/tr&gt;
+&lt;/table&gt;</value>
+  </data>
+  <data name="InvalidCurrentRowIndex" xml:space="preserve">
+    <value>Index must be between 0 and the RowsCount</value>
+  </data>
+  <data name="MSFlexGridColumnEditor" xml:space="preserve">
+    <value>The column editor cannot be used to change an ExtendedDataGridView working in a FlexGrid Compatibility mode</value>
+  </data>
+  <data name="NoRemoveColumnsWithRows" xml:space="preserve">
+    <value>If there are rows it's imposible to remove all the columns</value>
+  </data>
+  <data name="ToolColumn" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////uZ1/uZ1/uZ1/uZ1/uZ1/
+        uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/////uZ1/////////////////////////////////
+        88ew88ewxKGO88ew88ewuZ1/////uZ1/////AAAAAAAAAAAA////AAAAAAAAAAAA88ewxKGOAAAAxKGO
+        88ewuZ1/////uZ1/AAAA////////AAAA////AAAA////AAAA88ewAAAA88ewAAAA88ewuZ1/////uZ1/
+        ////AAAAAAAAAAAA////AAAA////AAAA88ew88ew88ew88ew88ewuZ1/////uZ1/AAAA////////AAAA
+        ////AAAAAAAAAAAAuZ1/uZ1/uZ1/uZ1/uZ1/uZ1/////uZ1/////AAAAAAAA////////AAAA////////
+        88ew88ew88ew88ew88ewuZ1/////uZ1/////////////////////AAAA////////88ewAAAA88ewAAAA
+        88ewuZ1/////uZ1/AP8AAP8AAP8AAP8AAP8AAAAAAP8AAP8A88ewxKGOAAAAxKGO88ewuZ1/////uZ1/
+        AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8A88ew88ewxKGO88ew88ewuZ1/uZ1/gFEcgFEcgFEcgFEcgFEc
+        gFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcuZ1/////////////////////////////////////
+        ////gFEcgFEcwMDAgFEcgFEcuZ1/////////////////////////////////////////gFEcwMDAwMDA
+        wMDAgFEcuZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/gFEcgFEcgFEcgFEcgFEc////////
+        ////////////////////////////////////////////////////////
+</value>
+  </data>
+  <data name="ToolGrid" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wD/Y5al
+        a5alQnGMIWmMSoac/wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/Qpa1Utf/pe/3c9//Ib7vCJ7W
+        c5al/wD//wD//wD//wD//wD//wD//wD//wD//wD/UqbOUtf/rff/c9/3Kb73AJ7ec5al/wD//wD//wD/
+        /wD//wD//wD//wD//wD//wD/SqbGUtf/pe/3c9//Ib7vAJ7ec5al/wD//wD//wD//wD//wD//wD//wD/
+        /wD//wD/Uq7OUtf/pff/c9/3Kcf3AJ7eQlFjWkEpWkExWkEpWkExWkEpWkExWkEpWkExWkEpSqbOUtf/
+        pe/3c9//Ib7vAJbWY3mMzratxq6lxralva6cva6cvaaUvaactaaUWkEpWrbWY9//rff/c9/3Kcf/EK7n
+        a46c//f3//fv/+/exral/9/O/9/G99e9va6cWkEphL7Opff/rff/vf//tf//lOf3e5ac//////fv//fv
+        xq6l/+fe99/O/9/GvaaUWkEx/wD/lMfOhK69e669hLbGlLa9vce91r611se1zr6tzr6txralxralxq6c
+        va6cWkEp/wD//wD/xq6l////////////1se9////////////zrat//fv/+/e/+fetaaUWkEp/wD//wD/
+        zr6t////////////3s/G////////////1se1//f3//fv/+/eva6cWkEp/wD//wD/xral79/W3s/G59fG
+        3s/G3s/G1se91se9zr611r61zratzratvaaUWkEx/wD//wD/zr6t////////////59fG////////////
+        1se9//////////f3va6cWkEp/wD//wD/zrat////////////3s/G////////////1se9////////////
+        taaUWkEp/wD//wD/1r61zr6tzr6txralxralva6cva6ctaaUtaaUrZ6MrZaEpY57pZaEnI57/wD//wD/
+        /wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+</value>
+  </data>
+  <data name="ValueGreaterThanZero" xml:space="preserve">
+    <value>Value must be greater than 0</value>
+  </data>
+  <data name="ValueZeroOrGreater" xml:space="preserve">
+    <value>Value must be 0 or greater</value>
+  </data>
+</root>

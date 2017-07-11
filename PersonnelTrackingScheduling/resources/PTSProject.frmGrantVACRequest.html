@@ -1,0 +1,67 @@
+<div>
+  <div data-width="436" data-height="377" name="frmGrantVACRequest" data-title="Grant Vacation Request " class="PTSProject_frmGrantVACRequest" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmGrantVACRequest">
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend">Vacation Wanted</legend>
+        <div>
+          <label id="Label1" tabindex="4" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Filter by Name :</label>
+          <div class="cboReqNameListPos" id="cboReqNameListPos">
+            <select id="cboReqNameList" tabindex="2" class="cboReqNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboReqNameList.ComboBoxItems, customText : cboReqNameList.CustomText, comboSelectedIndex : cboReqNameList.SelectedIndex"></select>
+          </div>
+          <label id="Label18" tabindex="5" class="Label18" data-bind="text : Label18.Text, imagePath : Label18.ImagePath">* Timestamp Info as cell note</label>
+          <label id="Label19" tabindex="6" class="Label19" data-bind="text : Label19.Text, imagePath : Label19.ImagePath">* VAC/HOL Available as cell note </label>
+          <button id="cmdClearRequest" tabindex="1" class="cmdClearRequest" type="button">Clear Filter / Refresh Grid</button>
+          <div id="sprRequests" data-role="mobilizespread" tabindex="3" class="sprRequests" data-bind="widgetvalue: sprRequests"></div>
+        </div>
+      </fieldset>
+      <fieldset id="frmUpdateRequest" class="frmUpdateRequest">
+        <legend id="frmUpdateRequest_legend" class="frmUpdateRequest_legend"></legend>
+        <div>
+          <label id="Label9" tabindex="21" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Employee Name</label>
+          <div class="cboUpdateNameListPos" id="cboUpdateNameListPos">
+            <select id="cboUpdateNameList" tabindex="12" class="cboUpdateNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboUpdateNameList.ComboBoxItems, customText : cboUpdateNameList.CustomText, comboSelectedIndex : cboUpdateNameList.SelectedIndex"></select>
+          </div>
+          <button disabled="disabled" id="cmdUpdateDone" tabindex="16" class="cmdUpdateDone" type="button">Done</button>
+          <label id="Label10" tabindex="20" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Leave Date</label>
+          <label id="lbgiveup" tabindex="19" class="lbgiveup" data-bind="text : lbgiveup.Text, imagePath : lbgiveup.ImagePath">Give Up Date</label>
+          <label id="Label12" tabindex="18" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">Leave KOT</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calRequestDate" tabindex="18" class="calRequestDate" data-bind="dateTimePickerValue : calRequestDate.Value, DateTimeMinDate : calRequestDate.MinDate, DateTimeMaxDate : calRequestDate.MaxDate" />
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calGiveUpDate" tabindex="19" class="calGiveUpDate" data-bind="dateTimePickerValue : calGiveUpDate.Value, DateTimeMinDate : calGiveUpDate.MinDate, DateTimeMaxDate : calGiveUpDate.MaxDate" />
+          <div class="cboKOTPos" id="cboKOTPos">
+            <select id="cboKOT" tabindex="13" class="cboKOT" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboKOT.ComboBoxItems, customText : cboKOT.CustomText, comboSelectedIndex : cboKOT.SelectedIndex"></select>
+          </div>
+          <div class="chkUpdateAM">
+            <input id="chkUpdateAM" tabindex="14" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">AM</label>
+            </div>
+          </div>
+          <div class="chkUpdatePM">
+            <input id="chkUpdatePM" tabindex="15" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM</label>
+            </div>
+          </div>
+          <div class="chkGiveUpAM">
+            <input id="chkGiveUpAM" tabindex="11" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">AM</label>
+            </div>
+          </div>
+          <div class="chkGiveUpPM">
+            <input id="chkGiveUpPM" tabindex="10" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM</label>
+            </div>
+          </div>
+          <label id="Label8" tabindex="22" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Comment</label>
+          <textarea id="txtUpdateComment" tabindex="17" Value="txtUpdateComment" class="txtUpdateComment" data-bind="value : txtUpdateComment.Text"></textarea>
+          <label id="lbAvailAM" tabindex="25" class="lbAvailAM" data-bind="text : lbAvailAM.Text, imagePath : lbAvailAM.ImagePath">lbAvailAM</label>
+          <label id="lbAvailPM" tabindex="23" class="lbAvailPM" data-bind="text : lbAvailPM.Text, imagePath : lbAvailPM.ImagePath">lbAvailPM</label>
+          <label id="lbRequestPM" tabindex="24" class="lbRequestPM" data-bind="text : lbRequestPM.Text, imagePath : lbRequestPM.ImagePath">lbRequestPM</label>
+          <label id="lbRequestAM" tabindex="26" class="lbRequestAM" data-bind="text : lbRequestAM.Text, imagePath : lbRequestAM.ImagePath">lbRequestAM</label>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

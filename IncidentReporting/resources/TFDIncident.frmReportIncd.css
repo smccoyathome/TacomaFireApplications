@@ -1,0 +1,76 @@
+.TFDIncident_frmReportIncd {
+}
+.TFDIncident_frmReportIncd .frmReportIncd {
+	background-color: #9AB6AC;
+	min-width: 813px;
+	min-height: 573px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmReportIncd .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 496px;
+	top: 4px;
+	position: absolute;
+	width: 125px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportIncd .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportIncd .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 640px;
+	top: 4px;
+	position: absolute;
+	width: 125px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportIncd .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportIncd .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 16.56px;
+	font-weight: bold;
+	font-style: italic;
+	color: #004040;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 477px;
+	height: 25px;
+}
+.TFDIncident_frmReportIncd .sprIncidentRpt {
+	left: 4px;
+	top: 36px;
+	position: absolute;
+	width: 805px;
+	height: 533px;
+}
+.TFDIncident_frmReportIncd .sprIncidentRpt .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmReportIncd .sprIncidentRpt .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,59 @@
+<div>
+  <div data-width="352" data-height="478" data-removeControlBox="true" name="dlgTime" data-title="Select Type of Leave" class="PTSProject_dlgTime" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgTime">
+      <label id="lbEmpInfo" tabindex="17" class="lbEmpInfo" data-bind="text : lbEmpInfo.Text, imagePath : lbEmpInfo.ImagePath">lbEmpInfo</label>
+      <label id="lbTitle" tabindex="5" class="lbTitle" data-bind="visible : lbTitle.Visible, text : lbTitle.Text, imagePath : lbTitle.ImagePath">Leave Type</label>
+      <div class="cboLeavePos" id="cboLeavePos" data-bind="visible : cboLeave.Visible">
+        <select data-role="combobox" id="cboLeave" tabindex="1" class="cboLeave" data-text-field="Text" data-value-field="Value" data-bind="source : cboLeave.ComboBoxItems, customText : cboLeave.CustomText, comboSelectedIndex : cboLeave.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbJob" tabindex="6" class="lbJob" data-bind="visible : lbJob.Visible, text : lbJob.Text, imagePath : lbJob.ImagePath">Pay Upgrade</label>
+      <label id="lblDefault" tabindex="16" class="lblDefault" data-bind="visible : lblDefault.Visible, text : lblDefault.Text, imagePath : lblDefault.ImagePath">Position Job Code:  </label>
+      <div class="cboJobPos" id="cboJobPos" data-bind="visible : cboJob.Visible">
+        <select data-role="combobox" id="cboJob" tabindex="2" class="cboJob" data-text-field="Text" data-value-field="Value" data-bind="source : cboJob.ComboBoxItems, customText : cboJob.CustomText, comboSelectedIndex : cboJob.SelectedIndex, events : { change : cboJob_SelectionChangeCommitted }, "></select>
+      </div>
+      <div data-bind="spEnabled : boxAMPM.Enabled, spVisible : boxAMPM.Visible">
+        <svg version="1.1" class="boxAMPM_svg" style="left:80px;top:168px;width:257px;height:46px;position:absolute;">
+          <rect x="0" y="0" height="46" width="257" id="boxAMPM" class="boxAMPM"></rect>
+        </svg>
+      </div>
+      <label id="lbAMPM" tabindex="2" class="lbAMPM" data-bind="text : lbAMPM.Text, imagePath : lbAMPM.ImagePath"></label>
+      <div class="chkAMPM" data-bind="visible : chkAMPM.Visible">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkAMPM.Enabled">Schedule Both AM and PM Shifts</label>
+        </div>
+        <input id="chkAMPM" tabindex="8" type="checkbox" style="float: left" data-bind="enabled : chkAMPM.Enabled" />
+      </div>
+      <div data-bind="spEnabled : boxVacBank.Enabled, spVisible : boxVacBank.Visible">
+        <svg version="1.1" class="boxVacBank_svg" style="left:80px;top:216px;width:257px;height:52px;position:absolute;">
+          <rect x="0" y="0" height="52" width="257" id="boxVacBank" class="boxVacBank"></rect>
+        </svg>
+      </div>
+      <div class="chkVacBank" data-bind="visible : chkVacBank.Visible">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Use Banked Vacation</label>
+        </div>
+        <input id="chkVacBank" tabindex="9" type="checkbox" style="float: left" data-bind="events : { click : chkVacBank_CheckStateChanged }, " />
+      </div>
+      <div class="chkSCKflag" data-bind="visible : chkSCKflag.Visible">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Instead of SCK Leave</label>
+        </div>
+        <input id="chkSCKflag" tabindex="19" type="checkbox" style="float: left" data-bind="events : { click : chkSCKflag_CheckStateChanged }, " />
+      </div>
+      <label id="lbLeaveNotes" tabindex="15" class="lbLeaveNotes" data-bind="visible : lbLeaveNotes.Visible, text : lbLeaveNotes.Text, imagePath : lbLeaveNotes.ImagePath">Schedule/Leave Notes</label>
+      <input id="txtLeaveNotes" tabindex="15" class="txtLeaveNotes" data-bind="visible : txtLeaveNotes.Visible, value : txtLeaveNotes.Text" />
+      <div class="chkExtend" data-bind="visible : chkExtend.Visible">
+        <input id="chkExtend" tabindex="10" type="checkbox" style="float: left" data-bind="events : { click : chkExtend_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Extend Leave?</label>
+        </div>
+      </div>
+      <label id="lbStart" tabindex="10" class="lbStart" data-bind="visible : lbStart.Visible, text : lbStart.Text, imagePath : lbStart.ImagePath">Start Date</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calStartLeave" tabindex="13" class="calStartLeave" data-bind="dateTimePickerValue : calStartLeave.Value, visible : calStartLeave.Visible, DateTimeMinDate : calStartLeave.MinDate, DateTimeMaxDate : calStartLeave.MaxDate" />
+      <label id="lbEnd" tabindex="11" class="lbEnd" data-bind="visible : lbEnd.Visible, text : lbEnd.Text, imagePath : lbEnd.ImagePath">End Date</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calEndLeave" tabindex="14" class="calEndLeave" data-bind="dateTimePickerValue : calEndLeave.Value, visible : calEndLeave.Visible, DateTimeMinDate : calEndLeave.MinDate, DateTimeMaxDate : calEndLeave.MaxDate" />
+      <button id="cmdOK" tabindex="4" class="cmdOK" type="button" data-bind="buttonText : cmdOK.Text, events : { click : cmdOK_Click }, ">OK</button>
+      <button id="cmdCancel" tabindex="5" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+    </form>
+  </div>
+</div>

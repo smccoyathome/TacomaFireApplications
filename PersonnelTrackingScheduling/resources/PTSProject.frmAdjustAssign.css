@@ -1,0 +1,216 @@
+.PTSProject_frmAdjustAssign {
+}
+.PTSProject_frmAdjustAssign .frmAdjustAssign {
+	background-color: Silver;
+	min-width: 273px;
+	min-height: 337px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmAdjustAssign .Frame1 {
+	background-color: #804040;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 273px;
+	height: 337px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmAdjustAssign .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 259px;
+	height: 17px;
+}
+.PTSProject_frmAdjustAssign .lbUnit {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 50px;
+	top: 40px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmAdjustAssign .lbPosition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 104px;
+	top: 40px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmAdjustAssign .lbShift {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 176px;
+	top: 40px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmAdjustAssign .optAssigned {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 13.5px;
+	font-weight: bold;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 256px;
+	height: 225px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmAdjustAssign .optAssigned:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign ._opbEmp_0 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 12px;
+	top: 24px;
+	position: absolute;
+	width: 198px;
+	height: 27px;
+	cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign ._opbEmp_0 * {
+	Cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_1 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 16px;
+	top: 56px;
+	position: absolute;
+	width: 198px;
+	height: 27px;
+	cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign ._opbEmp_1 * {
+	Cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_2 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 13px;
+	top: 88px;
+	position: absolute;
+	width: 198px;
+	height: 27px;
+	cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign ._opbEmp_2 * {
+	Cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_3 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 13px;
+	top: 120px;
+	position: absolute;
+	width: 198px;
+	height: 27px;
+	cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign ._opbEmp_3 * {
+	Cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_4 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 13px;
+	top: 152px;
+	position: absolute;
+	width: 198px;
+	height: 27px;
+	cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign ._opbEmp_4 * {
+	Cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_5 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 13px;
+	top: 184px;
+	position: absolute;
+	width: 198px;
+	height: 27px;
+	cursor: default;
+}
+.PTSProject_frmAdjustAssign ._opbEmp_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign ._opbEmp_5 * {
+	Cursor: default;
+}
+.PTSProject_frmAdjustAssign .optAssigned_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmAdjustAssign .cmdDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 88px;
+	top: 296px;
+	position: absolute;
+	width: 89px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAdjustAssign .cmdDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAdjustAssign .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

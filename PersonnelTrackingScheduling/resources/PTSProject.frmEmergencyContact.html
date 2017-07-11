@@ -1,0 +1,49 @@
+<div>
+  <div data-width="637" data-height="336" data-removeControlBox="true" name="frmEmergencyContact" data-title="Emergency Contact Entry/Update" class="PTSProject_frmEmergencyContact" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmEmergencyContact">
+      <label id="Label1" tabindex="0" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Employee</label>
+      <div class="cboEmpListPos" id="cboEmpListPos">
+        <select data-role="combobox" id="cboEmpList" tabindex="2" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbEmpID" tabindex="27" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath">lbEmpID</label>
+      <label id="lbContactID" tabindex="28" class="lbContactID" data-bind="text : lbContactID.Text, imagePath : lbContactID.ImagePath">lbContactID</label>
+      <label id="lbPhoneID" tabindex="29" class="lbPhoneID" data-bind="text : lbPhoneID.Text, imagePath : lbPhoneID.ImagePath">lbPhoneID</label>
+      <button id="cmdClose" tabindex="12" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label2" tabindex="17" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Contact to Edit</label>
+      <label id="Label3" tabindex="18" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Select Phone Number to Edit</label>
+      <div id="lstContacts" tabindex="3" class="lstContacts" data-role="listbox" style="overflow:auto" data-bind="source : lstContacts.ListBoxItems, listBoxSelectedIndices : lstContacts.ListBoxSelectedIndices, events : { change : lstContacts_SelectedIndexChanged }, "></div>
+      <div id="lstPhone" tabindex="4" class="lstPhone" data-role="listbox" style="overflow:auto" data-bind="source : lstPhone.ListBoxItems, listBoxSelectedIndices : lstPhone.ListBoxSelectedIndices, events : { change : lstPhone_SelectedIndexChanged }, "></div>
+      <button id="cmdAdd" tabindex="13" data-tag="1" class="cmdAdd" type="button" data-bind="visible : cmdAdd.Visible, buttonText : cmdAdd.Text, events : { click : cmdAdd_Click }, ">New Contact</button>
+      <button id="cmdDelete" tabindex="14" class="cmdDelete" type="button" data-bind="visible : cmdDelete.Visible, events : { click : cmdDelete_Click }, ">Delete Contact</button>
+      <label id="Label9" tabindex="25" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Check Box if this is the Primary Contact for Employee</label>
+      <label id="Label4" tabindex="19" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Contact Name</label>
+      <label id="Label5" tabindex="20" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Relationship</label>
+      <div class="chkPrimary">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Primary Contact</label>
+        </div>
+        <input id="chkPrimary" tabindex="7" type="checkbox" checked="checked" style="float: left" />
+      </div>
+      <input id="txtName" tabindex="5" Value="txtName" class="txtName" data-bind="value : txtName.Text" />
+      <div class="cboRelationshipPos" id="cboRelationshipPos">
+        <select data-role="combobox" id="cboRelationship" tabindex="6" class="cboRelationship" data-text-field="Text" data-value-field="Value" data-bind="source : cboRelationship.ComboBoxItems, customText : cboRelationship.CustomText, comboSelectedIndex : cboRelationship.SelectedIndex"></select>
+      </div>
+      <label id="Label6" tabindex="21" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Phone Number</label>
+      <label id="Label7" tabindex="22" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Phone Type</label>
+      <label id="Label10" tabindex="24" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Time Available</label>
+      <button id="cmdUpdate" tabindex="15" class="cmdUpdate" type="button" data-bind="visible : cmdUpdate.Visible, events : { click : cmdUpdate_Click }, ">Update Info</button>
+      <input id="txtPhone" tabindex="8" Value="txtPhone" class="txtPhone" data-bind="value : txtPhone.Text, selectedRange : txtPhone.SelectedRange" />
+      <div class="cboPhoneTypePos" id="cboPhoneTypePos">
+        <select data-role="combobox" id="cboPhoneType" tabindex="9" class="cboPhoneType" data-text-field="Text" data-value-field="Value" data-bind="source : cboPhoneType.ComboBoxItems, customText : cboPhoneType.CustomText, comboSelectedIndex : cboPhoneType.SelectedIndex"></select>
+      </div>
+      <div class="cboBestTimePos" id="cboBestTimePos">
+        <select data-role="combobox" id="cboBestTime" tabindex="10" class="cboBestTime" data-text-field="Text" data-value-field="Value" data-bind="source : cboBestTime.ComboBoxItems, customText : cboBestTime.CustomText, comboSelectedIndex : cboBestTime.SelectedIndex"></select>
+      </div>
+      <label id="Label8" tabindex="23" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Comment</label>
+      <label id="Label11" tabindex="26" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">(optional)</label>
+      <button id="cmdDelPhone" tabindex="16" class="cmdDelPhone" type="button" data-bind="visible : cmdDelPhone.Visible, events : { click : cmdDelPhone_Click }, ">Delete Phone</button>
+      <input id="txtComment" tabindex="11" Value="txtComment" class="txtComment" data-bind="value : txtComment.Text" />
+      <button id="cmdAddPhone" tabindex="17" data-tag="1" class="cmdAddPhone" type="button" data-bind="visible : cmdAddPhone.Visible, buttonText : cmdAddPhone.Text, events : { click : cmdAddPhone_Click }, ">New Phone</button>
+    </form>
+  </div>
+</div>

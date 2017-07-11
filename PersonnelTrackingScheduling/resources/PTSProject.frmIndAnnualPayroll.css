@@ -1,0 +1,121 @@
+.PTSProject_frmIndAnnualPayroll {
+}
+.PTSProject_frmIndAnnualPayroll .frmIndAnnualPayroll {
+	background-color: Navy;
+	min-width: 734px;
+	min-height: 534px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmIndAnnualPayroll .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: #FFFFC0;
+	left: 200px;
+	top: 7px;
+	position: absolute;
+	width: 123px;
+	height: 22px;
+}
+.PTSProject_frmIndAnnualPayroll .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: #FFFFC0;
+	left: 4px;
+	top: 8px;
+	position: absolute;
+	width: 94px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmIndAnnualPayroll .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	width: 89px;
+	height: 24px;
+}
+.PTSProject_frmIndAnnualPayroll .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndAnnualPayroll .cboYearPos {
+	top: 8px;
+	left: 104px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+}
+.PTSProject_frmIndAnnualPayroll .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	width: 217px;
+	height: 24px;
+}
+.PTSProject_frmIndAnnualPayroll .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndAnnualPayroll .cboNameListPos {
+	top: 8px;
+	left: 328px;
+	position: absolute;
+	width: 217px;
+	height: 24px;
+}
+.PTSProject_frmIndAnnualPayroll .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 560px;
+	top: 8px;
+	position: absolute;
+	width: 80px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndAnnualPayroll .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndAnnualPayroll .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 648px;
+	top: 8px;
+	position: absolute;
+	width: 80px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndAnnualPayroll .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndAnnualPayroll .sprIndiv {
+	left: 4px;
+	top: 40px;
+	position: absolute;
+	width: 725px;
+	height: 481px;
+}
+.PTSProject_frmIndAnnualPayroll .sprIndiv .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmIndAnnualPayroll .sprIndiv .k-spreadsheet-action-bar {
+	display: none;
+}
+

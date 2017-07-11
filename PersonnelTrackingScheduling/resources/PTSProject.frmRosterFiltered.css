@@ -1,0 +1,369 @@
+.PTSProject_frmRosterFiltered {
+}
+.PTSProject_frmRosterFiltered .frmRosterFiltered {
+	background-color: #804000;
+	min-width: 1180px;
+	min-height: 686px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+}
+.PTSProject_frmRosterFiltered .Frame1 {
+	background-color: #804000;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 1160px;
+	height: 113px;
+	border: 2px groove;
+}
+.PTSProject_frmRosterFiltered .Frame1:enabled {
+	color: Yellow;
+}
+.PTSProject_frmRosterFiltered .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 800px;
+	top: 16px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmRosterFiltered .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered ._Label4_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 217px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 248px;
+	top: 24px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 387px;
+	top: 24px;
+	position: absolute;
+	width: 47px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 448px;
+	top: 24px;
+	position: absolute;
+	width: 47px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 512px;
+	top: 24px;
+	position: absolute;
+	width: 153px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 672px;
+	top: 24px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered .cboEmployee {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 225px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboEmployee:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered .cboEmployeePos {
+	top: 48px;
+	left: 8px;
+	position: absolute;
+	width: 225px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboRank {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 129px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboRank:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered .cboRankPos {
+	top: 48px;
+	left: 245px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboBatt {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 49px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboBatt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered .cboBattPos {
+	top: 48px;
+	left: 386px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboShift {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 49px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboShift:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered .cboShiftPos {
+	top: 48px;
+	left: 447px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboCity {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 153px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboCity:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered .cboCityPos {
+	top: 48px;
+	left: 508px;
+	position: absolute;
+	width: 153px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboZipCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 113px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cboZipCode:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered .cboZipCodePos {
+	top: 48px;
+	left: 672px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.PTSProject_frmRosterFiltered .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 800px;
+	top: 48px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmRosterFiltered .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 800px;
+	top: 80px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmRosterFiltered .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered .lbCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 632px;
+	top: 88px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmRosterFiltered .sprEmployeeList {
+	left: 8px;
+	top: 120px;
+	position: absolute;
+	width: 1160px;
+	height: 289px;
+}
+.PTSProject_frmRosterFiltered .sprEmployeeList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmRosterFiltered .sprEmployeeList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmRosterFiltered .Frame2 {
+	background-color: #804000;
+	left: 8px;
+	top: 416px;
+	position: absolute;
+	width: 1160px;
+	height: 257px;
+	border: 2px groove;
+}
+.PTSProject_frmRosterFiltered .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRosterFiltered ._Label4_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 401px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered ._Label4_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 432px;
+	top: 24px;
+	position: absolute;
+	width: 713px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmRosterFiltered .sprPhone {
+	left: 16px;
+	top: 48px;
+	position: absolute;
+	width: 402px;
+	height: 185px;
+}
+.PTSProject_frmRosterFiltered .sprPhone .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmRosterFiltered .sprPhone .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmRosterFiltered .sprContact {
+	left: 432px;
+	top: 48px;
+	position: absolute;
+	width: 713px;
+	height: 185px;
+}
+.PTSProject_frmRosterFiltered .sprContact .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmRosterFiltered .sprContact .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmRosterFiltered .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

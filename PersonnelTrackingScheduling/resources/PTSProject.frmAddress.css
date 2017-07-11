@@ -1,0 +1,366 @@
+.PTSProject_frmAddress {
+}
+.PTSProject_frmAddress .frmAddress {
+	background-color: #400040;
+	min-width: 460px;
+	min-height: 354px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmAddress .Label1 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.PTSProject_frmAddress .lbEmpID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 352px;
+	top: 16px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmAddress .cboEmpList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 289px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmAddress .cboEmpList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .cboEmpListPos {
+	top: 24px;
+	left: 8px;
+	position: absolute;
+	width: 289px;
+	height: 20px;
+}
+.PTSProject_frmAddress .lbAddressID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 344px;
+	top: 40px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmAddress .Label2 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.PTSProject_frmAddress .lstAddress {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 289px;
+	height: 58px;
+	visibility: inherit;
+}
+.PTSProject_frmAddress .Label3 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 160px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.PTSProject_frmAddress .Label4 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 352px;
+	top: 160px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmAddress .txtAddress {
+	background-color: #C0FFFF;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 176px;
+	position: absolute;
+	width: 329px;
+	height: 20px;
+}
+.PTSProject_frmAddress .txtAddress:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .cboType {
+	background-color: #C0FFFF;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 81px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmAddress .cboType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .cboTypePos {
+	top: 176px;
+	left: 352px;
+	position: absolute;
+	width: 81px;
+	height: 20px;
+}
+.PTSProject_frmAddress .Label5 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 200px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+}
+.PTSProject_frmAddress .Label9 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 224px;
+	top: 200px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.PTSProject_frmAddress .Label6 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 328px;
+	top: 200px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmAddress .txtCity {
+	background-color: #C0FFFF;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 216px;
+	position: absolute;
+	width: 209px;
+	height: 20px;
+}
+.PTSProject_frmAddress .txtCity:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .txtState {
+	background-color: #C0FFFF;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 224px;
+	top: 216px;
+	position: absolute;
+	width: 73px;
+	height: 20px;
+}
+.PTSProject_frmAddress .txtState:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .txtZip {
+	background-color: #C0FFFF;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 328px;
+	top: 216px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_frmAddress .txtZip:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .Label7 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 248px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.PTSProject_frmAddress .Label8 {
+	background-color: #400040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: Red;
+	left: 144px;
+	top: 248px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmAddress .txtComment {
+	background-color: #FFFFC0;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 264px;
+	position: absolute;
+	width: 441px;
+	height: 25px;
+}
+.PTSProject_frmAddress .txtComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .cmdAdd {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 8px;
+	top: 312px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddress .cmdAdd:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .cmdUpdate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 142px;
+	top: 312px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddress .cmdUpdate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .cmdDelete {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 251px;
+	top: 312px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddress .cmdDelete:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddress .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 360px;
+	top: 312px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddress .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

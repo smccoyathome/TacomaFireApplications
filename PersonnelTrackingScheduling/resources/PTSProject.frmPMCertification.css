@@ -1,0 +1,515 @@
+.PTSProject_frmPMCertification {
+}
+.PTSProject_frmPMCertification .frmPMCertification {
+	background-color: #400040;
+	min-width: 443px;
+	min-height: 440px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmPMCertification .frmFilter {
+	background-color: #400040;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 424px;
+	height: 113px;
+	border: 2px groove;
+}
+.PTSProject_frmPMCertification .frmFilter:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .Frame3 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 281px;
+	height: 41px;
+	border: 2px groove;
+}
+.PTSProject_frmPMCertification .Frame3:enabled {
+	color: Aqua;
+}
+.PTSProject_frmPMCertification ._optFGrp_0 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmPMCertification ._optFGrp_0:enabled {
+	color: Lime;
+}
+.PTSProject_frmPMCertification ._optFGrp_0 * {
+	Cursor: default;
+}
+.PTSProject_frmPMCertification ._optFGrp_1 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 64px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmPMCertification ._optFGrp_1:enabled {
+	color: Lime;
+}
+.PTSProject_frmPMCertification ._optFGrp_1 * {
+	Cursor: default;
+}
+.PTSProject_frmPMCertification ._optFGrp_2 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 136px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmPMCertification ._optFGrp_2:enabled {
+	color: Lime;
+}
+.PTSProject_frmPMCertification ._optFGrp_2 * {
+	Cursor: default;
+}
+.PTSProject_frmPMCertification ._optFGrp_3 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 208px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmPMCertification ._optFGrp_3:enabled {
+	color: Lime;
+}
+.PTSProject_frmPMCertification ._optFGrp_3 * {
+	Cursor: default;
+}
+.PTSProject_frmPMCertification .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPMCertification .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 296px;
+	top: 16px;
+	position: absolute;
+	width: 113px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPMCertification .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .Label1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 201px;
+	height: 17px;
+}
+.PTSProject_frmPMCertification ._lbSubTitle_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 224px;
+	top: 56px;
+	position: absolute;
+	width: 185px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmPMCertification .txtNameSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 201px;
+	height: 19px;
+}
+.PTSProject_frmPMCertification .txtNameSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmPMCertification .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .cboYearPos {
+	top: 72px;
+	left: 248px;
+	position: absolute;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmPMCertification .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 0px;
+	top: 96px;
+	position: absolute;
+	width: 209px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPMCertification .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .lbCount {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: Red;
+	left: 208px;
+	top: 96px;
+	position: absolute;
+	width: 207px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPMCertification .frmFilter_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPMCertification .sprEmployeeList {
+	left: 8px;
+	top: 112px;
+	position: absolute;
+	width: 431px;
+	height: 172px;
+}
+.PTSProject_frmPMCertification .sprEmployeeList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPMCertification .sprEmployeeList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmPMCertification .Frame1 {
+	background-color: #400040;
+	left: 8px;
+	top: 280px;
+	position: absolute;
+	width: 430px;
+	height: 153px;
+	border: 2px groove;
+}
+.PTSProject_frmPMCertification .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .Label7 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FF80;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.PTSProject_frmPMCertification .txtExpireDate {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 136px;
+	top: 16px;
+	position: absolute;
+	width: 89px;
+	height: 21px;
+}
+.PTSProject_frmPMCertification .txtExpireDate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 232px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPMCertification .cmdDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 328px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPMCertification .cmdDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .chkMedicFlag {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 305px;
+	height: 25px;
+	width: auto;
+}
+.PTSProject_frmPMCertification .chkMedicFlag:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPMCertification .Frame2 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 320px;
+	top: 64px;
+	position: absolute;
+	width: 97px;
+	height: 81px;
+	border: 2px groove;
+}
+.PTSProject_frmPMCertification .Frame2:enabled {
+	color: Aqua;
+}
+.PTSProject_frmPMCertification ._optGroup_0 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmPMCertification ._optGroup_0:enabled {
+	color: Lime;
+}
+.PTSProject_frmPMCertification ._optGroup_0 * {
+	Cursor: default;
+}
+.PTSProject_frmPMCertification ._optGroup_1 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmPMCertification ._optGroup_1:enabled {
+	color: Lime;
+}
+.PTSProject_frmPMCertification ._optGroup_1 * {
+	Cursor: default;
+}
+.PTSProject_frmPMCertification ._optGroup_2 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 65px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmPMCertification ._optGroup_2:enabled {
+	color: Lime;
+}
+.PTSProject_frmPMCertification ._optGroup_2 * {
+	Cursor: default;
+}
+.PTSProject_frmPMCertification ._optGroup_3 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 65px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmPMCertification ._optGroup_3:enabled {
+	color: Lime;
+}
+.PTSProject_frmPMCertification ._optGroup_3 * {
+	Cursor: default;
+}
+.PTSProject_frmPMCertification .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPMCertification .Label2 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPMCertification .txtNRNumber {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 80px;
+	top: 72px;
+	position: absolute;
+	width: 233px;
+	height: 21px;
+}
+.PTSProject_frmPMCertification .txtNRNumber:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .Label3 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPMCertification .txtStateNumber {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 80px;
+	top: 96px;
+	position: absolute;
+	width: 233px;
+	height: 21px;
+}
+.PTSProject_frmPMCertification .txtStateNumber:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .Label4 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 8px;
+	top: 120px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPMCertification .txtCountyNumber {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 80px;
+	top: 120px;
+	position: absolute;
+	width: 233px;
+	height: 21px;
+}
+.PTSProject_frmPMCertification .txtCountyNumber:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMCertification .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

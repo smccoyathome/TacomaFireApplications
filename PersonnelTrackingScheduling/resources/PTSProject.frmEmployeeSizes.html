@@ -1,0 +1,88 @@
+<div>
+  <div data-width="538" data-height="474" name="frmEmployeeSizes" data-title="Employee PPE Sizes" class="PTSProject_frmEmployeeSizes" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmEmployeeSizes">
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend"></legend>
+        <div>
+          <div class="optBunker">
+            <input id="optBunker" tabindex="24" type="radio" name="Frame2_radios" checked="checked" style="float: left" data-bind="customChecked : optBunker.Checked, events : { change : optBunker_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Bunker Gear</label>
+            </div>
+          </div>
+          <div class="optUniform">
+            <input id="optUniform" tabindex="25" type="radio" name="Frame2_radios" style="float: left" data-bind="customChecked : optUniform.Checked, events : { change : optUniform_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Uniform</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <label id="Label11" tabindex="12" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">Select Employee:</label>
+      <button id="cmdClose" tabindex="2" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div class="cboEmpListPos" id="cboEmpListPos">
+        <select id="cboEmpList" tabindex="1" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbEmpID" tabindex="28" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath">lbEmpID</label>
+      <label id="lbTotalCount" tabindex="14" class="lbTotalCount" data-bind="text : lbTotalCount.Text, imagePath : lbTotalCount.ImagePath">List Count:  0</label>
+      <div id="sprUniformList" data-role="mobilizespread" tabindex="27" class="sprUniformList" data-bind="widgetvalue: sprUniformList"></div>
+      <div id="sprBunkerList" data-role="mobilizespread" tabindex="13" class="sprBunkerList" data-bind="widgetvalue: sprBunkerList"></div>
+      <fieldset id="frmUniformDetail" class="frmUniformDetail" data-bind="visible : frmUniformDetail.Visible">
+        <legend id="frmUniformDetail_legend" class="frmUniformDetail_legend"></legend>
+        <div>
+          <label id="Label1" tabindex="31" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Item</label>
+          <div class="chkChangeDate">
+            <input id="chkChangeDate" tabindex="30" type="checkbox" style="float: left" data-bind="events : { click : chkChangeDate_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check to Change Date</label>
+            </div>
+          </div>
+          <button disabled="disabled" id="cmdEditUniformSize" tabindex="26" data-tag="1" class="cmdEditUniformSize" type="button" data-bind="enabled : cmdEditUniformSize.Enabled, buttonText : cmdEditUniformSize.Text, events : { click : cmdEditUniformSize_Click }, ">Add</button>
+          <div class="cboUniformItemPos" id="cboUniformItemPos">
+            <select id="cboUniformItem" tabindex="28" class="cboUniformItem" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboUniformItem.ComboBoxItems, customText : cboUniformItem.CustomText, comboSelectedIndex : cboUniformItem.SelectedIndex, events : { change : cboUniformItem_SelectionChangeCommitted }, "></select>
+          </div>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteDateSized" tabindex="31" class="dteDateSized" data-bind="dateTimePickerValue : dteDateSized.Value, DateTimeMinDate : dteDateSized.MinDate, DateTimeMaxDate : dteDateSized.MaxDate" />
+          <label id="Label6" tabindex="35" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Uniform Item Size Description</label>
+          <label id="lbRecordID" tabindex="29" class="lbRecordID" data-bind="text : lbRecordID.Text, imagePath : lbRecordID.ImagePath">lbRecordID</label>
+          <input id="txtItemSizeDesc" tabindex="32" Value="txtItemSizeDesc" class="txtItemSizeDesc" data-bind="value : txtItemSizeDesc.Text, events : { change : txtItemSizeDesc_TextChanged }, " />
+        </div>
+      </fieldset>
+      <fieldset id="frmBunkerDetail" class="frmBunkerDetail" data-bind="visible : frmBunkerDetail.Visible">
+        <legend id="frmBunkerDetail_legend" class="frmBunkerDetail_legend"></legend>
+        <div>
+          <button id="cmdNewRecord" tabindex="17" class="cmdNewRecord" type="button" data-bind="events : { click : cmdNewRecord_Click }, ">New Record</button>
+          <div class="chkInDate">
+            <input id="chkInDate" tabindex="23" type="checkbox" style="float: left" data-bind="events : { click : chkInDate_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Date</label>
+            </div>
+          </div>
+          <label id="Label14" tabindex="16" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">Coat/Jacket Size Information</label>
+          <label id="Label2" tabindex="17" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Pant Size</label>
+          <button disabled="disabled" id="cmdEdit" tabindex="16" data-tag="1" class="cmdEdit" type="button" data-bind="enabled : cmdEdit.Enabled, buttonText : cmdEdit.Text, events : { click : cmdEdit_Click }, ">Add</button>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteInDate" tabindex="8" class="dteInDate" data-bind="dateTimePickerValue : dteInDate.Value, visible : dteInDate.Visible, DateTimeMinDate : dteInDate.MinDate, DateTimeMaxDate : dteInDate.MaxDate" />
+          <div class="cboCoatSizePos" id="cboCoatSizePos">
+            <select id="cboCoatSize" tabindex="9" class="cboCoatSize" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboCoatSize.ComboBoxItems, customText : cboCoatSize.CustomText, comboSelectedIndex : cboCoatSize.SelectedIndex"></select>
+          </div>
+          <input id="txtCoatSizeDesc" tabindex="10" Value="txtCoatSizeDesc" class="txtCoatSizeDesc" data-bind="value : txtCoatSizeDesc.Text" />
+          <div class="cboPantSizePos" id="cboPantSizePos">
+            <select id="cboPantSize" tabindex="11" class="cboPantSize" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPantSize.ComboBoxItems, customText : cboPantSize.CustomText, comboSelectedIndex : cboPantSize.SelectedIndex"></select>
+          </div>
+          <label id="Label3" tabindex="18" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Glove Size</label>
+          <label id="Label4" tabindex="19" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Boot Brand</label>
+          <label id="Label5" tabindex="20" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Boot Size Information</label>
+          <div class="cboGloveSizePos" id="cboGloveSizePos">
+            <select id="cboGloveSize" tabindex="12" class="cboGloveSize" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboGloveSize.ComboBoxItems, customText : cboGloveSize.CustomText, comboSelectedIndex : cboGloveSize.SelectedIndex"></select>
+          </div>
+          <div class="cboBootBrandPos" id="cboBootBrandPos">
+            <select id="cboBootBrand" tabindex="13" class="cboBootBrand" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboBootBrand.ComboBoxItems, customText : cboBootBrand.CustomText, comboSelectedIndex : cboBootBrand.SelectedIndex"></select>
+          </div>
+          <div class="cboBootSizePos" id="cboBootSizePos">
+            <select id="cboBootSize" tabindex="14" class="cboBootSize" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboBootSize.ComboBoxItems, customText : cboBootSize.CustomText, comboSelectedIndex : cboBootSize.SelectedIndex"></select>
+          </div>
+          <input id="txtBootSizeDesc" tabindex="15" Value="txtBootSizeDesc" class="txtBootSizeDesc" data-bind="value : txtBootSizeDesc.Text" />
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

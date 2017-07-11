@@ -1,0 +1,704 @@
+<div>
+  <div data-width="814" data-height="544" data-removeControlBox="true" name="frmIncident" data-title="Form1" class="TFDIncident_frmIncident" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmIncident">
+      <fieldset id="picFireBar" class="picFireBar" data-bind="enabled : picFireBar.Enabled">
+        <label id="lbUnit" tabindex="142" class="lbUnit" data-bind="text : lbUnit.Text, imagePath : lbUnit.ImagePath">E12</label>
+        <label id="lbIncident" tabindex="3" class="lbIncident" data-bind="text : lbIncident.Text, imagePath : lbIncident.ImagePath">001230012</label>
+        <label id="Label2" tabindex="2" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Incident \#</label>
+        <button id="cmdViewReport" tabindex="9" class="cmdViewReport" type="button" data-bind="events : { click : cmdViewReport_Click }, ">Print</button>
+        <button id="_cmdSave_0" tabindex="6" index="0" class="_cmdSave_0" type="button" data-bind="enabled : _cmdSave_0.Enabled, visible : _cmdSave_0.Visible, events : { click : cmdSave_Click }, ">Save as Complete</button>
+        <button id="_cmdSave_1" tabindex="7" index="1" class="_cmdSave_1" type="button" data-bind="enabled : _cmdSave_1.Enabled, visible : _cmdSave_1.Visible, events : { click : cmdSave_Click }, ">Save as Incomplete</button>
+        <button id="_cmdSave_2" tabindex="8" index="2" class="_cmdSave_2" type="button" data-bind="enabled : _cmdSave_2.Enabled, visible : _cmdSave_2.Visible, events : { click : cmdSave_Click }, ">Cancel and Exit</button>
+        <label id="lbLockedMessage" tabindex="168" class="lbLockedMessage" data-bind="text : lbLockedMessage.Text, imagePath : lbLockedMessage.ImagePath">READ ONLY - Records Locked</label>
+        <label id="lbLocation" tabindex="1" class="lbLocation" data-bind="text : lbLocation.Text, imagePath : lbLocation.ImagePath">lbLocation</label>
+      </fieldset>
+      <fieldset id="frmSitFound" data-bind="enabled : frmSitFound.Enabled">
+        <div id="frmSitFound" class="frmSitFound" data-bind="visible : frmSitFound.Visible">
+          <label id="_lbFrameTitle_2" tabindex="33" index="2" class="_lbFrameTitle_2" data-bind="text : _lbFrameTitle_2.Text, imagePath : _lbFrameTitle_2.ImagePath">INCIDENT SITUATION FOUND REPORT</label>
+          <div class="chkAddressCorrection">
+            <input id="chkAddressCorrection" tabindex="108" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">   Incident Address          Correction Needed</label>
+            </div>
+          </div>
+          <label id="Label1" tabindex="31" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Situation(s) Found</label>
+          <label id="Label3" tabindex="32" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Unit Responsible for Report</label>
+          <label id="lbEMSTitle" tabindex="61" class="lbEMSTitle" data-bind="visible : lbEMSTitle.Visible, text : lbEMSTitle.Text, imagePath : lbEMSTitle.ImagePath">IRS Report</label>
+          <label id="lbSirenTitle" tabindex="192" class="lbSirenTitle" data-bind="visible : lbSirenTitle.Visible, text : lbSirenTitle.Text, imagePath : lbSirenTitle.ImagePath">Siren Report</label>
+          <fieldset id="frmSituation" class="frmSituation" data-bind="enabled : frmSituation.Enabled">
+            <legend id="frmSituation_legend" class="frmSituation_legend"></legend>
+            <div>
+              <div index="0" class="_chkSitFound_0">
+                <input id="_chkSitFound_0" tabindex="26" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_0.Checked, enabled : _chkSitFound_0.Enabled, events : { click : chkSitFound_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkSitFound_0.Enabled">FIRE</label>
+                </div>
+              </div>
+              <div class="_cboUnit_0Pos" id="_cboUnit_0Pos">
+                <select data-role="combobox" disabled="disabled" id="_cboUnit_0" tabindex="31" index="0" class="_cboUnit_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_0.ComboBoxItems, enabled : _cboUnit_0.Enabled, customText : _cboUnit_0.CustomText, comboSelectedIndex : _cboUnit_0.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdUnlock_0" tabindex="35" index="0" class="_cmdUnlock_0" type="button" data-bind="visible : _cmdUnlock_0.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_0.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="chkExposures">
+                <input id="chkExposures" tabindex="45" type="checkbox" style="float: left" data-bind="enabled : chkExposures.Enabled, events : { click : chkExposures_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkExposures.Enabled">\# OF STRUCTURE EXPOSURES</label>
+                </div>
+              </div>
+              <input id="txtNumberExposures" tabindex="44" class="txtNumberExposures" data-bind="visible : txtNumberExposures.Visible, value : txtNumberExposures.Text, events : { blur : txtNumberExposures_Leave, change : txtNumberExposures_TextChanged }, " />
+              <button id="cmdUnlockExp" tabindex="47" class="cmdUnlockExp" type="button">
+                <img src="/Resources/images/frmIncident.cmdUnlockExp.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div index="1" class="_chkSitFound_1">
+                <input id="_chkSitFound_1" tabindex="25" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_1.Checked, enabled : _chkSitFound_1.Enabled, events : { click : chkSitFound_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkSitFound_1.Enabled">RUPTURE/EXPLOSION</label>
+                </div>
+              </div>
+              <div class="_cboUnit_1Pos" id="_cboUnit_1Pos">
+                <select data-role="combobox" disabled="disabled" id="_cboUnit_1" tabindex="30" index="1" class="_cboUnit_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_1.ComboBoxItems, enabled : _cboUnit_1.Enabled, customText : _cboUnit_1.CustomText, comboSelectedIndex : _cboUnit_1.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdUnlock_1" tabindex="36" index="1" class="_cmdUnlock_1" type="button" data-bind="visible : _cmdUnlock_1.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_1.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div index="2" class="_chkSitFound_2">
+                <input id="_chkSitFound_2" tabindex="24" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_2.Checked, enabled : _chkSitFound_2.Enabled, events : { click : chkSitFound_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkSitFound_2.Enabled">HAZMAT</label>
+                </div>
+              </div>
+              <div class="_cboUnit_2Pos" id="_cboUnit_2Pos">
+                <select data-role="combobox" disabled="disabled" id="_cboUnit_2" tabindex="29" index="2" class="_cboUnit_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_2.ComboBoxItems, enabled : _cboUnit_2.Enabled, customText : _cboUnit_2.CustomText, comboSelectedIndex : _cboUnit_2.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdUnlock_2" tabindex="37" index="2" class="_cmdUnlock_2" type="button" data-bind="visible : _cmdUnlock_2.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_2.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="chkCivilianCasualty">
+                <input id="chkCivilianCasualty" tabindex="11" type="checkbox" style="float: left" data-bind="enabled : chkCivilianCasualty.Enabled, events : { click : chkCivilianCasualty_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkCivilianCasualty.Enabled">CIVILIAN CASUALTY COUNT</label>
+                </div>
+              </div>
+              <input id="txtNumberCivCasulties" tabindex="10" Value="1" class="txtNumberCivCasulties" data-bind="style : { backgroundColor : txtNumberCivCasulties.BackColor.Value, color : txtNumberCivCasulties.ForeColor.Value }, enabled : txtNumberCivCasulties.Enabled, visible : txtNumberCivCasulties.Visible, value : txtNumberCivCasulties.Text, events : { change : txtNumberCivCasulties_TextChanged }, " />
+              <button id="cmdUnlockCivC" tabindex="48" class="cmdUnlockCivC" type="button">
+                <img src="/Resources/images/frmIncident.cmdUnlockCivC.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div index="3" class="_chkSitFound_3">
+                <input id="_chkSitFound_3" tabindex="14" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_3.Checked, enabled : _chkSitFound_3.Enabled, events : { click : chkSitFound_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkSitFound_3.Enabled">EMS PATIENT (SINGLE)</label>
+                </div>
+              </div>
+              <button id="_cmdUnlock_3" tabindex="38" index="3" class="_cmdUnlock_3" type="button" data-bind="visible : _cmdUnlock_3.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_3.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboUnit_3Pos" id="_cboUnit_3Pos">
+                <select data-role="combobox" disabled="disabled" id="_cboUnit_3" tabindex="28" index="3" class="_cboUnit_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_3.ComboBoxItems, enabled : _cboUnit_3.Enabled, customText : _cboUnit_3.CustomText, comboSelectedIndex : _cboUnit_3.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <div class="chkSirenSingle">
+                <input id="chkSirenSingle" tabindex="46" type="checkbox" style="float: left" data-bind="enabled : chkSirenSingle.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkSirenSingle.Enabled">SIREN REPORT ?</label>
+                </div>
+              </div>
+              <button id="FDCaresBtn" tabindex="50" class="FDCaresBtn" type="button" data-bind="enabled : FDCaresBtn.Enabled, events : { click : FDCaresBtn_Click }, "></button>
+              <div index="4" class="_chkSitFound_4">
+                <input id="_chkSitFound_4" tabindex="13" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_4.Checked, enabled : _chkSitFound_4.Enabled, events : { click : chkSitFound_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkSitFound_4.Enabled">EMS PATIENTS -  \# OF PATIENTS</label>
+                </div>
+              </div>
+              <input disabled="disabled" id="txtNumberPatients" tabindex="12" class="txtNumberPatients" data-bind="style : { backgroundColor : txtNumberPatients.BackColor.Value, color : txtNumberPatients.ForeColor.Value }, enabled : txtNumberPatients.Enabled, value : txtNumberPatients.Text, selectedRange : txtNumberPatients.SelectedRange, events : { blur : txtNumberPatients_Leave, change : txtNumberPatients_TextChanged }, " />
+              <button id="cmdUnlockMulti" tabindex="49" class="cmdUnlockMulti" type="button">
+                <img src="/Resources/images/frmIncident.cmdUnlockMulti.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div index="5" class="_chkSitFound_5">
+                <input id="_chkSitFound_5" tabindex="23" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_5.Checked, enabled : _chkSitFound_5.Enabled, events : { click : chkSitFound_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkSitFound_5.Enabled">SEARCH AND/OR RESCUE</label>
+                </div>
+              </div>
+              <div class="_cboUnit_5Pos" id="_cboUnit_5Pos">
+                <select data-role="combobox" disabled="disabled" id="_cboUnit_5" tabindex="27" index="5" class="_cboUnit_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_5.ComboBoxItems, enabled : _cboUnit_5.Enabled, customText : _cboUnit_5.CustomText, comboSelectedIndex : _cboUnit_5.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdUnlock_5" tabindex="39" index="5" class="_cmdUnlock_5" type="button" data-bind="visible : _cmdUnlock_5.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_5.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div index="6" class="_chkSitFound_6">
+                <input id="_chkSitFound_6" tabindex="22" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_6.Checked, enabled : _chkSitFound_6.Enabled, events : { click : chkSitFound_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkSitFound_6.Enabled">HAZARDOUS CONDITION</label>
+                </div>
+              </div>
+              <div class="_cboUnit_6Pos" id="_cboUnit_6Pos">
+                <select data-role="combobox" disabled="disabled" id="_cboUnit_6" tabindex="32" index="6" class="_cboUnit_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_6.ComboBoxItems, enabled : _cboUnit_6.Enabled, customText : _cboUnit_6.CustomText, comboSelectedIndex : _cboUnit_6.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdUnlock_6" tabindex="40" index="6" class="_cmdUnlock_6" type="button" data-bind="visible : _cmdUnlock_6.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_6.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div index="7" class="_chkSitFound_7">
+                <input id="_chkSitFound_7" tabindex="34" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_7.Checked, enabled : _chkSitFound_7.Enabled, events : { click : chkSitFound_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkSitFound_7.Enabled">FALSE ALARM</label>
+                </div>
+              </div>
+              <div class="_cboUnit_7Pos" id="_cboUnit_7Pos">
+                <select data-role="combobox" disabled="disabled" id="_cboUnit_7" tabindex="33" index="7" class="_cboUnit_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_7.ComboBoxItems, enabled : _cboUnit_7.Enabled, customText : _cboUnit_7.CustomText, comboSelectedIndex : _cboUnit_7.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdUnlock_7" tabindex="41" index="7" class="_cmdUnlock_7" type="button" data-bind="visible : _cmdUnlock_7.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_7.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <fieldset id="frmServiceSit" data-bind="enabled : frmServiceSit.Enabled">
+                <div id="frmServiceSit" class="frmServiceSit" data-bind="enabled : frmServiceSit.Enabled">
+                  <div index="0" class="_optServiceReport_0">
+                    <input id="_optServiceReport_0" tabindex="18" type="radio" name="frmServiceSit_radios" style="float: left" data-bind="enabled : _optServiceReport_0.Enabled, customChecked : _optServiceReport_0.Checked, events : { change : optServiceReport_CheckedChanged }, " />
+                    <div style="float: left;overflow:hidden">
+                      <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optServiceReport_0.Enabled">INVESTIGATE ONLY</label>
+                    </div>
+                  </div>
+                  <div class="_cboUnit_8Pos" id="_cboUnit_8Pos">
+                    <select data-role="combobox" disabled="disabled" id="_cboUnit_8" tabindex="20" index="8" class="_cboUnit_8" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_8.ComboBoxItems, enabled : _cboUnit_8.Enabled, customText : _cboUnit_8.CustomText, comboSelectedIndex : _cboUnit_8.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <div index="1" class="_optServiceReport_1">
+                    <input id="_optServiceReport_1" tabindex="17" type="radio" name="frmServiceSit_radios" style="float: left" data-bind="enabled : _optServiceReport_1.Enabled, customChecked : _optServiceReport_1.Checked, events : { change : optServiceReport_CheckedChanged }, " />
+                    <div style="float: left;overflow:hidden">
+                      <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optServiceReport_1.Enabled">CLEAN UP ONLY</label>
+                    </div>
+                  </div>
+                  <div class="_cboUnit_9Pos" id="_cboUnit_9Pos">
+                    <select data-role="combobox" disabled="disabled" id="_cboUnit_9" tabindex="19" index="9" class="_cboUnit_9" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_9.ComboBoxItems, enabled : _cboUnit_9.Enabled, customText : _cboUnit_9.CustomText, comboSelectedIndex : _cboUnit_9.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <div index="2" class="_optServiceReport_2">
+                    <input id="_optServiceReport_2" tabindex="16" type="radio" name="frmServiceSit_radios" style="float: left" data-bind="enabled : _optServiceReport_2.Enabled, customChecked : _optServiceReport_2.Checked, events : { change : optServiceReport_CheckedChanged }, " />
+                    <div style="float: left;overflow:hidden">
+                      <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optServiceReport_2.Enabled">STANDBY/STAGING ONLY</label>
+                    </div>
+                  </div>
+                  <div class="_cboUnit_10Pos" id="_cboUnit_10Pos">
+                    <select data-role="combobox" disabled="disabled" id="_cboUnit_10" tabindex="15" index="10" class="_cboUnit_10" data-text-field="Text" data-value-field="Value" data-bind="source : _cboUnit_10.ComboBoxItems, enabled : _cboUnit_10.Enabled, customText : _cboUnit_10.CustomText, comboSelectedIndex : _cboUnit_10.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <button id="_cmdUnlock_10" tabindex="21" index="10" class="_cmdUnlock_10" type="button" data-bind="visible : _cmdUnlock_10.Visible">
+                    <img src="/Resources/images/frmIncident._cmdUnlock_10.Image.png" />
+                    <br />
+                    <span></span>
+                  </button>
+                </div>
+              </fieldset>
+              <button id="_cmdUnlock_8" tabindex="42" index="8" class="_cmdUnlock_8" type="button" data-bind="visible : _cmdUnlock_8.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_8.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <button id="_cmdUnlock_9" tabindex="43" index="9" class="_cmdUnlock_9" type="button" data-bind="visible : _cmdUnlock_9.Visible">
+                <img src="/Resources/images/frmIncident._cmdUnlock_9.Image.png" />
+                <br />
+                <span></span>
+              </button>
+            </div>
+          </fieldset>
+          <fieldset id="frmMultiEMS" class="frmMultiEMS" data-bind="visible : frmMultiEMS.Visible">
+            <legend id="frmMultiEMS_legend" class="frmMultiEMS_legend"></legend>
+            <div>
+              <div class="_cboEMSUnit_0Pos" id="_cboEMSUnit_0Pos" data-bind="visible : _cboEMSUnit_0.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_0" tabindex="63" index="0" class="_cboEMSUnit_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_0.ComboBoxItems, enabled : _cboEMSUnit_0.Enabled, customText : _cboEMSUnit_0.CustomText, comboSelectedIndex : _cboEMSUnit_0.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_0" tabindex="80" index="0" class="_cmdEMSUnlock_0" type="button" data-bind="visible : _cmdEMSUnlock_0.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_0.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_0" tabindex="60" index="0" class="_lbPatient_0" data-bind="visible : _lbPatient_0.Visible, text : _lbPatient_0.Text, imagePath : _lbPatient_0.ImagePath">PCR</label>
+              <div index="0" class="_chkSirenReport_0" data-bind="visible : _chkSirenReport_0.Visible">
+                <input id="_chkSirenReport_0" tabindex="93" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_0.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_1Pos" id="_cboEMSUnit_1Pos" data-bind="visible : _cboEMSUnit_1.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_1" tabindex="64" index="1" class="_cboEMSUnit_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_1.ComboBoxItems, enabled : _cboEMSUnit_1.Enabled, customText : _cboEMSUnit_1.CustomText, comboSelectedIndex : _cboEMSUnit_1.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_1" tabindex="81" index="1" class="_cmdEMSUnlock_1" type="button" data-bind="visible : _cmdEMSUnlock_1.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_1.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_1" tabindex="59" index="1" class="_lbPatient_1" data-bind="visible : _lbPatient_1.Visible, text : _lbPatient_1.Text, imagePath : _lbPatient_1.ImagePath">PCR</label>
+              <div index="1" class="_chkSirenReport_1" data-bind="visible : _chkSirenReport_1.Visible">
+                <input id="_chkSirenReport_1" tabindex="94" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_1.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_2Pos" id="_cboEMSUnit_2Pos" data-bind="visible : _cboEMSUnit_2.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_2" tabindex="65" index="2" class="_cboEMSUnit_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_2.ComboBoxItems, enabled : _cboEMSUnit_2.Enabled, customText : _cboEMSUnit_2.CustomText, comboSelectedIndex : _cboEMSUnit_2.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_2" tabindex="82" index="2" class="_cmdEMSUnlock_2" type="button" data-bind="visible : _cmdEMSUnlock_2.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_2.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_2" tabindex="58" index="2" class="_lbPatient_2" data-bind="visible : _lbPatient_2.Visible, text : _lbPatient_2.Text, imagePath : _lbPatient_2.ImagePath">PCR</label>
+              <div index="2" class="_chkSirenReport_2" data-bind="visible : _chkSirenReport_2.Visible">
+                <input id="_chkSirenReport_2" tabindex="95" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_2.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_3Pos" id="_cboEMSUnit_3Pos" data-bind="visible : _cboEMSUnit_3.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_3" tabindex="66" index="3" class="_cboEMSUnit_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_3.ComboBoxItems, enabled : _cboEMSUnit_3.Enabled, customText : _cboEMSUnit_3.CustomText, comboSelectedIndex : _cboEMSUnit_3.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_3" tabindex="83" index="3" class="_cmdEMSUnlock_3" type="button" data-bind="visible : _cmdEMSUnlock_3.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_3.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_3" tabindex="57" index="3" class="_lbPatient_3" data-bind="visible : _lbPatient_3.Visible, text : _lbPatient_3.Text, imagePath : _lbPatient_3.ImagePath">PCR</label>
+              <div index="3" class="_chkSirenReport_3" data-bind="visible : _chkSirenReport_3.Visible">
+                <input id="_chkSirenReport_3" tabindex="96" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_3.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_4Pos" id="_cboEMSUnit_4Pos" data-bind="visible : _cboEMSUnit_4.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_4" tabindex="62" index="4" class="_cboEMSUnit_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_4.ComboBoxItems, enabled : _cboEMSUnit_4.Enabled, customText : _cboEMSUnit_4.CustomText, comboSelectedIndex : _cboEMSUnit_4.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_4" tabindex="84" index="4" class="_cmdEMSUnlock_4" type="button" data-bind="visible : _cmdEMSUnlock_4.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_4.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_4" tabindex="56" index="4" class="_lbPatient_4" data-bind="visible : _lbPatient_4.Visible, text : _lbPatient_4.Text, imagePath : _lbPatient_4.ImagePath">PCR</label>
+              <div index="4" class="_chkSirenReport_4" data-bind="visible : _chkSirenReport_4.Visible">
+                <input id="_chkSirenReport_4" tabindex="97" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_4.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_5Pos" id="_cboEMSUnit_5Pos" data-bind="visible : _cboEMSUnit_5.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_5" tabindex="61" index="5" class="_cboEMSUnit_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_5.ComboBoxItems, enabled : _cboEMSUnit_5.Enabled, customText : _cboEMSUnit_5.CustomText, comboSelectedIndex : _cboEMSUnit_5.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_5" tabindex="85" index="5" class="_cmdEMSUnlock_5" type="button" data-bind="visible : _cmdEMSUnlock_5.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_5.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_5" tabindex="55" index="5" class="_lbPatient_5" data-bind="visible : _lbPatient_5.Visible, text : _lbPatient_5.Text, imagePath : _lbPatient_5.ImagePath">PCR</label>
+              <div index="5" class="_chkSirenReport_5" data-bind="visible : _chkSirenReport_5.Visible">
+                <input id="_chkSirenReport_5" tabindex="98" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_5.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_6Pos" id="_cboEMSUnit_6Pos" data-bind="visible : _cboEMSUnit_6.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_6" tabindex="60" index="6" class="_cboEMSUnit_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_6.ComboBoxItems, enabled : _cboEMSUnit_6.Enabled, customText : _cboEMSUnit_6.CustomText, comboSelectedIndex : _cboEMSUnit_6.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_6" tabindex="86" index="6" class="_cmdEMSUnlock_6" type="button" data-bind="visible : _cmdEMSUnlock_6.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_6.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_6" tabindex="54" index="6" class="_lbPatient_6" data-bind="visible : _lbPatient_6.Visible, text : _lbPatient_6.Text, imagePath : _lbPatient_6.ImagePath">PCR</label>
+              <div index="6" class="_chkSirenReport_6" data-bind="visible : _chkSirenReport_6.Visible">
+                <input id="_chkSirenReport_6" tabindex="99" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_6.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_7Pos" id="_cboEMSUnit_7Pos" data-bind="visible : _cboEMSUnit_7.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_7" tabindex="59" index="7" class="_cboEMSUnit_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_7.ComboBoxItems, enabled : _cboEMSUnit_7.Enabled, customText : _cboEMSUnit_7.CustomText, comboSelectedIndex : _cboEMSUnit_7.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_7" tabindex="87" index="7" class="_cmdEMSUnlock_7" type="button" data-bind="visible : _cmdEMSUnlock_7.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_7.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_7" tabindex="53" index="7" class="_lbPatient_7" data-bind="visible : _lbPatient_7.Visible, text : _lbPatient_7.Text, imagePath : _lbPatient_7.ImagePath">PCR</label>
+              <div index="7" class="_chkSirenReport_7" data-bind="visible : _chkSirenReport_7.Visible">
+                <input id="_chkSirenReport_7" tabindex="100" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_7.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_8Pos" id="_cboEMSUnit_8Pos" data-bind="visible : _cboEMSUnit_8.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_8" tabindex="58" index="8" class="_cboEMSUnit_8" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_8.ComboBoxItems, enabled : _cboEMSUnit_8.Enabled, customText : _cboEMSUnit_8.CustomText, comboSelectedIndex : _cboEMSUnit_8.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_8" tabindex="88" index="8" class="_cmdEMSUnlock_8" type="button" data-bind="visible : _cmdEMSUnlock_8.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_8.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_8" tabindex="52" index="8" class="_lbPatient_8" data-bind="visible : _lbPatient_8.Visible, text : _lbPatient_8.Text, imagePath : _lbPatient_8.ImagePath">PCR</label>
+              <div index="8" class="_chkSirenReport_8" data-bind="visible : _chkSirenReport_8.Visible">
+                <input id="_chkSirenReport_8" tabindex="101" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_8.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_9Pos" id="_cboEMSUnit_9Pos" data-bind="visible : _cboEMSUnit_9.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_9" tabindex="57" index="9" class="_cboEMSUnit_9" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_9.ComboBoxItems, enabled : _cboEMSUnit_9.Enabled, customText : _cboEMSUnit_9.CustomText, comboSelectedIndex : _cboEMSUnit_9.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <button id="_cmdEMSUnlock_9" tabindex="89" index="9" class="_cmdEMSUnlock_9" type="button" data-bind="visible : _cmdEMSUnlock_9.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_9.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_9" tabindex="51" index="9" class="_lbPatient_9" data-bind="visible : _lbPatient_9.Visible, text : _lbPatient_9.Text, imagePath : _lbPatient_9.ImagePath">PCR</label>
+              <div index="9" class="_chkSirenReport_9" data-bind="visible : _chkSirenReport_9.Visible">
+                <input id="_chkSirenReport_9" tabindex="102" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_9.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <div class="_cboEMSUnit_10Pos" id="_cboEMSUnit_10Pos" data-bind="visible : _cboEMSUnit_10.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_10" tabindex="56" index="10" class="_cboEMSUnit_10" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_10.ComboBoxItems, enabled : _cboEMSUnit_10.Enabled, customText : _cboEMSUnit_10.CustomText, comboSelectedIndex : _cboEMSUnit_10.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <div index="10" class="_chkSirenReport_10" data-bind="visible : _chkSirenReport_10.Visible">
+                <input id="_chkSirenReport_10" tabindex="103" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_10.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <button id="_cmdEMSUnlock_10" tabindex="90" index="10" class="_cmdEMSUnlock_10" type="button" data-bind="visible : _cmdEMSUnlock_10.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_10.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_10" tabindex="50" index="10" class="_lbPatient_10" data-bind="visible : _lbPatient_10.Visible, text : _lbPatient_10.Text, imagePath : _lbPatient_10.ImagePath">PCR</label>
+              <div class="_cboEMSUnit_11Pos" id="_cboEMSUnit_11Pos" data-bind="visible : _cboEMSUnit_11.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_11" tabindex="55" index="11" class="_cboEMSUnit_11" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_11.ComboBoxItems, enabled : _cboEMSUnit_11.Enabled, customText : _cboEMSUnit_11.CustomText, comboSelectedIndex : _cboEMSUnit_11.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <div index="11" class="_chkSirenReport_11" data-bind="visible : _chkSirenReport_11.Visible">
+                <input id="_chkSirenReport_11" tabindex="104" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_11.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <button id="_cmdEMSUnlock_11" tabindex="91" index="11" class="_cmdEMSUnlock_11" type="button" data-bind="visible : _cmdEMSUnlock_11.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_11.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_11" tabindex="49" index="11" class="_lbPatient_11" data-bind="visible : _lbPatient_11.Visible, text : _lbPatient_11.Text, imagePath : _lbPatient_11.ImagePath">PCR</label>
+              <div class="_cboEMSUnit_12Pos" id="_cboEMSUnit_12Pos" data-bind="visible : _cboEMSUnit_12.Visible">
+                <select data-role="combobox" id="_cboEMSUnit_12" tabindex="54" index="12" class="_cboEMSUnit_12" data-text-field="Text" data-value-field="Value" data-bind="source : _cboEMSUnit_12.ComboBoxItems, enabled : _cboEMSUnit_12.Enabled, customText : _cboEMSUnit_12.CustomText, comboSelectedIndex : _cboEMSUnit_12.SelectedIndex, events : { change : cboEMSUnit_SelectionChangeCommitted }, "></select>
+              </div>
+              <div index="12" class="_chkSirenReport_12" data-bind="visible : _chkSirenReport_12.Visible">
+                <input id="_chkSirenReport_12" tabindex="105" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_12.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                </div>
+              </div>
+              <button id="_cmdEMSUnlock_12" tabindex="92" index="12" class="_cmdEMSUnlock_12" type="button" data-bind="visible : _cmdEMSUnlock_12.Visible">
+                <img src="/Resources/images/frmIncident._cmdEMSUnlock_12.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <label id="_lbPatient_12" tabindex="48" index="12" class="_lbPatient_12" data-bind="visible : _lbPatient_12.Visible, text : _lbPatient_12.Text, imagePath : _lbPatient_12.ImagePath">PCR</label>
+            </div>
+          </fieldset>
+          <label id="Label7" tabindex="143" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Saved Reports Are Locked.  If Report Deletion is Required Please Contact Fire IS Staff</label>
+        </div>
+      </fieldset>
+      <fieldset id="frmIncidentAddressCorrection" data-bind="enabled : frmIncidentAddressCorrection.Enabled">
+        <div id="frmIncidentAddressCorrection" class="frmIncidentAddressCorrection" data-bind="visible : frmIncidentAddressCorrection.Visible">
+          <label id="_lbFrameTitle_9" tabindex="189" index="9" class="_lbFrameTitle_9" data-bind="text : _lbFrameTitle_9.Text, imagePath : _lbFrameTitle_9.ImagePath">INCIDENT ADDRESS CORRECTION</label>
+          <fieldset id="Frame2" class="Frame2">
+            <legend id="Frame2_legend" class="Frame2_legend"></legend>
+            <div>
+              <input id="txtXHouseNumber" tabindex="189" class="txtXHouseNumber" data-bind="style : { backgroundColor : txtXHouseNumber.BackColor.Value, color : txtXHouseNumber.ForeColor.Value }, value : txtXHouseNumber.Text, events : { change : txtXHouseNumber_TextChanged }, " />
+              <label id="Label4" tabindex="183" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">HOUSE\#</label>
+              <div class="cboXPrefixPos" id="cboXPrefixPos">
+                <select data-role="combobox" id="cboXPrefix" tabindex="191" class="cboXPrefix" data-text-field="Text" data-value-field="Value" data-bind="source : cboXPrefix.ComboBoxItems, customText : cboXPrefix.CustomText, comboSelectedIndex : cboXPrefix.SelectedIndex, events : { change : cboXPrefix_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label9" tabindex="184" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">PREFIX</label>
+              <input id="txtXStreetName" tabindex="190" class="txtXStreetName" data-bind="style : { backgroundColor : txtXStreetName.BackColor.Value, color : txtXStreetName.ForeColor.Value }, value : txtXStreetName.Text, events : { change : txtXStreetName_TextChanged }, " />
+              <label id="Label10" tabindex="185" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">STREET NAME</label>
+              <div class="cboXStreetTypePos" id="cboXStreetTypePos">
+                <select data-role="combobox" id="cboXStreetType" tabindex="192" class="cboXStreetType" data-text-field="Text" data-value-field="Value" data-bind="source : cboXStreetType.ComboBoxItems, customText : cboXStreetType.CustomText, comboSelectedIndex : cboXStreetType.SelectedIndex, events : { change : cboXStreetType_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label11" tabindex="186" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">STREET TYPE</label>
+              <div class="cboXSuffixPos" id="cboXSuffixPos">
+                <select data-role="combobox" id="cboXSuffix" tabindex="193" class="cboXSuffix" data-text-field="Text" data-value-field="Value" data-bind="source : cboXSuffix.ComboBoxItems, customText : cboXSuffix.CustomText, comboSelectedIndex : cboXSuffix.SelectedIndex, events : { change : cboXSuffix_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label12" tabindex="187" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">SUFFIX</label>
+              <div class="cboCityCodePos" id="cboCityCodePos">
+                <select data-role="combobox" id="cboCityCode" tabindex="188" class="cboCityCode" data-text-field="Text" data-value-field="Value" data-bind="source : cboCityCode.ComboBoxItems, customText : cboCityCode.CustomText, comboSelectedIndex : cboCityCode.SelectedIndex, events : { change : cboCityCode_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label13" tabindex="188" class="Label13" data-bind="text : Label13.Text, imagePath : Label13.ImagePath">CITY</label>
+            </div>
+          </fieldset>
+        </div>
+      </fieldset>
+      <fieldset id="frmUnit" data-bind="enabled : frmUnit.Enabled">
+        <div id="frmUnit" class="frmUnit" data-bind="visible : frmUnit.Visible">
+          <label id="_lbFrameTitle_0" tabindex="63" index="0" class="_lbFrameTitle_0" data-bind="text : _lbFrameTitle_0.Text, imagePath : _lbFrameTitle_0.ImagePath">UNIT RESPONSE REPORT</label>
+          <fieldset id="frmUnitStaffing" class="frmUnitStaffing">
+            <legend id="frmUnitStaffing_legend" class="frmUnitStaffing_legend">UNIT STAFFING</legend>
+            <div>
+              <label id="Label6" tabindex="113" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">PERSONNEL</label>
+              <label id="Label5" tabindex="112" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">POSITION  INJURY</label>
+              <button id="_cmdClearPerson_0" tabindex="131" index="0" class="_cmdClearPerson_0" type="button" data-bind="visible : _cmdClearPerson_0.Visible">
+                <img src="/Resources/images/frmIncident._cmdClearPerson_0.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboPersonnel_0Pos" id="_cboPersonnel_0Pos" data-bind="visible : _cboPersonnel_0.Visible">
+                <select data-role="combobox" id="_cboPersonnel_0" tabindex="149" index="0" class="_cboPersonnel_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPersonnel_0.ComboBoxItems, enabled : _cboPersonnel_0.Enabled, customText : _cboPersonnel_0.CustomText, comboSelectedIndex : _cboPersonnel_0.SelectedIndex, events : { blur : cboPersonnel_Leave }, "></select>
+              </div>
+              <div class="_cboPosition_0Pos" id="_cboPosition_0Pos" data-bind="visible : _cboPosition_0.Visible">
+                <select data-role="combobox" id="_cboPosition_0" tabindex="153" index="0" class="_cboPosition_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPosition_0.ComboBoxItems, enabled : _cboPosition_0.Enabled, customText : _cboPosition_0.CustomText, comboSelectedIndex : _cboPosition_0.SelectedIndex, events : { blur : cboPosition_Leave }, "></select>
+              </div>
+              <div index="0" class="_chkCasualty_0" data-bind="visible : _chkCasualty_0.Visible">
+                <input id="_chkCasualty_0" tabindex="150" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_0.Checked, enabled : _chkCasualty_0.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_0.Enabled"></label>
+                </div>
+              </div>
+              <div index="0" class="_chkExposure_0">
+                <input id="_chkExposure_0" tabindex="140" type="checkbox" style="float: left" data-bind="checkState : _chkExposure_0.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+                </div>
+              </div>
+              <button id="_cmdClearPerson_1" tabindex="130" index="1" class="_cmdClearPerson_1" type="button" data-bind="visible : _cmdClearPerson_1.Visible">
+                <img src="/Resources/images/frmIncident._cmdClearPerson_1.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboPosition_1Pos" id="_cboPosition_1Pos" data-bind="visible : _cboPosition_1.Visible">
+                <select data-role="combobox" id="_cboPosition_1" tabindex="154" index="1" class="_cboPosition_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPosition_1.ComboBoxItems, enabled : _cboPosition_1.Enabled, customText : _cboPosition_1.CustomText, comboSelectedIndex : _cboPosition_1.SelectedIndex, events : { blur : cboPosition_Leave }, "></select>
+              </div>
+              <div index="1" class="_chkCasualty_1" data-bind="visible : _chkCasualty_1.Visible">
+                <input id="_chkCasualty_1" tabindex="151" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_1.Checked, enabled : _chkCasualty_1.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_1.Enabled"></label>
+                </div>
+              </div>
+              <div class="_cboPersonnel_1Pos" id="_cboPersonnel_1Pos" data-bind="visible : _cboPersonnel_1.Visible">
+                <select data-role="combobox" id="_cboPersonnel_1" tabindex="148" index="1" class="_cboPersonnel_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPersonnel_1.ComboBoxItems, enabled : _cboPersonnel_1.Enabled, customText : _cboPersonnel_1.CustomText, comboSelectedIndex : _cboPersonnel_1.SelectedIndex, events : { blur : cboPersonnel_Leave }, "></select>
+              </div>
+              <div index="1" class="_chkExposure_1">
+                <input id="_chkExposure_1" tabindex="139" type="checkbox" style="float: left" data-bind="checkState : _chkExposure_1.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+                </div>
+              </div>
+              <button id="_cmdClearPerson_2" tabindex="129" index="2" class="_cmdClearPerson_2" type="button" data-bind="visible : _cmdClearPerson_2.Visible">
+                <img src="/Resources/images/frmIncident._cmdClearPerson_2.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboPersonnel_2Pos" id="_cboPersonnel_2Pos" data-bind="visible : _cboPersonnel_2.Visible">
+                <select data-role="combobox" id="_cboPersonnel_2" tabindex="147" index="2" class="_cboPersonnel_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPersonnel_2.ComboBoxItems, enabled : _cboPersonnel_2.Enabled, customText : _cboPersonnel_2.CustomText, comboSelectedIndex : _cboPersonnel_2.SelectedIndex, events : { blur : cboPersonnel_Leave }, "></select>
+              </div>
+              <div class="_cboPosition_2Pos" id="_cboPosition_2Pos" data-bind="visible : _cboPosition_2.Visible">
+                <select data-role="combobox" id="_cboPosition_2" tabindex="155" index="2" class="_cboPosition_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPosition_2.ComboBoxItems, enabled : _cboPosition_2.Enabled, customText : _cboPosition_2.CustomText, comboSelectedIndex : _cboPosition_2.SelectedIndex, events : { blur : cboPosition_Leave }, "></select>
+              </div>
+              <div index="2" class="_chkCasualty_2" data-bind="visible : _chkCasualty_2.Visible">
+                <input id="_chkCasualty_2" tabindex="152" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_2.Checked, enabled : _chkCasualty_2.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_2.Enabled"></label>
+                </div>
+              </div>
+              <div index="2" class="_chkExposure_2">
+                <input id="_chkExposure_2" tabindex="138" type="checkbox" style="float: left" data-bind="checkState : _chkExposure_2.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+                </div>
+              </div>
+              <button id="_cmdClearPerson_3" tabindex="128" index="3" class="_cmdClearPerson_3" type="button" data-bind="visible : _cmdClearPerson_3.Visible">
+                <img src="/Resources/images/frmIncident._cmdClearPerson_3.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboPersonnel_3Pos" id="_cboPersonnel_3Pos" data-bind="visible : _cboPersonnel_3.Visible">
+                <select data-role="combobox" id="_cboPersonnel_3" tabindex="146" index="3" class="_cboPersonnel_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPersonnel_3.ComboBoxItems, enabled : _cboPersonnel_3.Enabled, customText : _cboPersonnel_3.CustomText, comboSelectedIndex : _cboPersonnel_3.SelectedIndex, events : { blur : cboPersonnel_Leave }, "></select>
+              </div>
+              <div class="_cboPosition_3Pos" id="_cboPosition_3Pos" data-bind="visible : _cboPosition_3.Visible">
+                <select data-role="combobox" id="_cboPosition_3" tabindex="144" index="3" class="_cboPosition_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPosition_3.ComboBoxItems, enabled : _cboPosition_3.Enabled, customText : _cboPosition_3.CustomText, comboSelectedIndex : _cboPosition_3.SelectedIndex, events : { blur : cboPosition_Leave }, "></select>
+              </div>
+              <div index="3" class="_chkCasualty_3" data-bind="visible : _chkCasualty_3.Visible">
+                <input id="_chkCasualty_3" tabindex="142" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_3.Checked, enabled : _chkCasualty_3.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_3.Enabled"></label>
+                </div>
+              </div>
+              <div index="3" class="_chkExposure_3">
+                <input id="_chkExposure_3" tabindex="137" type="checkbox" style="float: left" data-bind="checkState : _chkExposure_3.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+                </div>
+              </div>
+              <button id="_cmdClearPerson_4" tabindex="127" index="4" class="_cmdClearPerson_4" type="button" data-bind="visible : _cmdClearPerson_4.Visible">
+                <img src="/Resources/images/frmIncident._cmdClearPerson_4.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboPersonnel_4Pos" id="_cboPersonnel_4Pos" data-bind="visible : _cboPersonnel_4.Visible">
+                <select data-role="combobox" id="_cboPersonnel_4" tabindex="145" index="4" class="_cboPersonnel_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPersonnel_4.ComboBoxItems, enabled : _cboPersonnel_4.Enabled, customText : _cboPersonnel_4.CustomText, comboSelectedIndex : _cboPersonnel_4.SelectedIndex, events : { blur : cboPersonnel_Leave }, "></select>
+              </div>
+              <div class="_cboPosition_4Pos" id="_cboPosition_4Pos" data-bind="visible : _cboPosition_4.Visible">
+                <select data-role="combobox" id="_cboPosition_4" tabindex="143" index="4" class="_cboPosition_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPosition_4.ComboBoxItems, enabled : _cboPosition_4.Enabled, customText : _cboPosition_4.CustomText, comboSelectedIndex : _cboPosition_4.SelectedIndex, events : { blur : cboPosition_Leave }, "></select>
+              </div>
+              <div index="4" class="_chkCasualty_4" data-bind="visible : _chkCasualty_4.Visible">
+                <input id="_chkCasualty_4" tabindex="141" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_4.Checked, enabled : _chkCasualty_4.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_4.Enabled"></label>
+                </div>
+              </div>
+              <button id="cmdAddStaff" tabindex="132" class="cmdAddStaff" type="button" data-bind="enabled : cmdAddStaff.Enabled, visible : cmdAddStaff.Visible, events : { click : cmdAddStaff_Click }, ">Additional Staff...</button>
+              <div index="4" class="_chkExposure_4">
+                <input id="_chkExposure_4" tabindex="136" type="checkbox" style="float: left" data-bind="checkState : _chkExposure_4.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+                </div>
+              </div>
+              <button id="_cmdClearPerson_5" tabindex="125" index="5" class="_cmdClearPerson_5" type="button" data-bind="visible : _cmdClearPerson_5.Visible">
+                <img src="/Resources/images/frmIncident._cmdClearPerson_5.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboPersonnel_5Pos" id="_cboPersonnel_5Pos" data-bind="visible : _cboPersonnel_5.Visible">
+                <select data-role="combobox" id="_cboPersonnel_5" tabindex="118" index="5" class="_cboPersonnel_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPersonnel_5.ComboBoxItems, enabled : _cboPersonnel_5.Enabled, customText : _cboPersonnel_5.CustomText, comboSelectedIndex : _cboPersonnel_5.SelectedIndex, events : { blur : cboPersonnel_Leave }, "></select>
+              </div>
+              <div class="_cboPosition_5Pos" id="_cboPosition_5Pos" data-bind="visible : _cboPosition_5.Visible">
+                <select data-role="combobox" id="_cboPosition_5" tabindex="119" index="5" class="_cboPosition_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPosition_5.ComboBoxItems, enabled : _cboPosition_5.Enabled, customText : _cboPosition_5.CustomText, comboSelectedIndex : _cboPosition_5.SelectedIndex, events : { blur : cboPosition_Leave }, "></select>
+              </div>
+              <div index="5" class="_chkCasualty_5" data-bind="visible : _chkCasualty_5.Visible">
+                <input id="_chkCasualty_5" tabindex="120" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_5.Checked, enabled : _chkCasualty_5.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_5.Enabled"></label>
+                </div>
+              </div>
+              <div index="5" class="_chkExposure_5">
+                <input id="_chkExposure_5" tabindex="124" type="checkbox" style="float: left" data-bind="checkState : _chkExposure_5.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+                </div>
+              </div>
+              <button id="_cmdClearPerson_6" tabindex="159" index="6" class="_cmdClearPerson_6" type="button" data-bind="visible : _cmdClearPerson_6.Visible">
+                <img src="/Resources/images/frmIncident._cmdClearPerson_6.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboPersonnel_6Pos" id="_cboPersonnel_6Pos" data-bind="visible : _cboPersonnel_6.Visible">
+                <select data-role="combobox" id="_cboPersonnel_6" tabindex="121" index="6" class="_cboPersonnel_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPersonnel_6.ComboBoxItems, enabled : _cboPersonnel_6.Enabled, customText : _cboPersonnel_6.CustomText, comboSelectedIndex : _cboPersonnel_6.SelectedIndex, events : { blur : cboPersonnel_Leave }, "></select>
+              </div>
+              <div class="_cboPosition_6Pos" id="_cboPosition_6Pos" data-bind="visible : _cboPosition_6.Visible">
+                <select data-role="combobox" id="_cboPosition_6" tabindex="122" index="6" class="_cboPosition_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPosition_6.ComboBoxItems, enabled : _cboPosition_6.Enabled, customText : _cboPosition_6.CustomText, comboSelectedIndex : _cboPosition_6.SelectedIndex, events : { blur : cboPosition_Leave }, "></select>
+              </div>
+              <div index="6" class="_chkCasualty_6" data-bind="visible : _chkCasualty_6.Visible">
+                <input id="_chkCasualty_6" tabindex="123" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_6.Checked, enabled : _chkCasualty_6.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_6.Enabled"></label>
+                </div>
+              </div>
+              <div index="6" class="_chkExposure_6">
+                <input id="_chkExposure_6" tabindex="160" type="checkbox" style="float: left" data-bind="checkState : _chkExposure_6.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+                </div>
+              </div>
+              <label id="Label8" tabindex="111" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">NON-TFD OPERATIONS PERSONNEL</label>
+              <button id="_cmdClearPerson_7" tabindex="126" index="7" class="_cmdClearPerson_7" type="button" data-bind="visible : _cmdClearPerson_7.Visible">
+                <img src="/Resources/images/frmIncident._cmdClearPerson_7.Image.png" />
+                <br />
+                <span></span>
+              </button>
+              <div class="_cboPersonnel_7Pos" id="_cboPersonnel_7Pos" data-bind="visible : _cboPersonnel_7.Visible">
+                <select data-role="combobox" id="_cboPersonnel_7" tabindex="135" index="7" class="_cboPersonnel_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboPersonnel_7.ComboBoxItems, enabled : _cboPersonnel_7.Enabled, customText : _cboPersonnel_7.CustomText, comboSelectedIndex : _cboPersonnel_7.SelectedIndex, events : { blur : cboPersonnel_Leave }, "></select>
+              </div>
+              <div index="7" class="_chkCasualty_7" data-bind="visible : _chkCasualty_7.Visible">
+                <input id="_chkCasualty_7" tabindex="134" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_7.Checked, enabled : _chkCasualty_7.Enabled" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_7.Enabled"></label>
+                </div>
+              </div>
+              <div index="7" class="_chkExposure_7">
+                <input id="_chkExposure_7" tabindex="133" type="checkbox" style="float: left" data-bind="checkState : _chkExposure_7.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="frmUnitTimes" class="frmUnitTimes">
+            <legend id="frmUnitTimes_legend" class="frmUnitTimes_legend">UNIT RESPONSE TIMES</legend>
+            <div>
+              <label id="lbURDate" tabindex="125" class="lbURDate" data-bind="text : lbURDate.Text, imagePath : lbURDate.ImagePath">lbURDate</label>
+              <label id="lbEventTitle" tabindex="135" class="lbEventTitle" data-bind="text : lbEventTitle.Text, imagePath : lbEventTitle.ImagePath">EVENT</label>
+              <label id="lbTimeTitle" tabindex="134" class="lbTimeTitle" data-bind="text : lbTimeTitle.Text, imagePath : lbTimeTitle.ImagePath">TIME</label>
+              <label id="lbAmendedTitle" tabindex="133" class="lbAmendedTitle" data-bind="text : lbAmendedTitle.Text, imagePath : lbAmendedTitle.ImagePath">AMENDED</label>
+              <label id="lbAmendedReason" tabindex="132" class="lbAmendedReason" data-bind="text : lbAmendedReason.Text, imagePath : lbAmendedReason.ImagePath">REASON</label>
+              <label id="Line1" class="Line1" data-bind="text : Line1.Text, imagePath : Line1.ImagePath"></label>
+              <label id="_lbActualTime_0" tabindex="126" data-tag="3" index="0" class="_lbActualTime_0" data-bind="text : _lbActualTime_0.Text, imagePath : _lbActualTime_0.ImagePath">55:55</label>
+              <label id="lbDispatch" tabindex="141" data-tag="3" class="lbDispatch" data-bind="text : lbDispatch.Text, imagePath : lbDispatch.ImagePath">DISPATCH</label>
+              <label id="_lbActualTime_1" tabindex="131" data-tag="4" index="1" class="_lbActualTime_1" data-bind="text : _lbActualTime_1.Text, imagePath : _lbActualTime_1.ImagePath">55:55</label>
+              <input id="_txtAmendTime_1" tabindex="170" index="1" class="_txtAmendTime_1" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_1.BackColor.Value, color : _txtAmendTime_1.ForeColor.Value }, enabled : _txtAmendTime_1.Enabled, value : _txtAmendTime_1.Text, maskedTextBoxMask : _txtAmendTime_1.Mask, maskedTextBoxPrompt : _txtAmendTime_1.PromptChar, maskedTextBoxFormat : _txtAmendTime_1.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+              <label id="lbEnroute" tabindex="140" class="lbEnroute" data-bind="text : lbEnroute.Text, imagePath : lbEnroute.ImagePath">ENROUTE</label>
+              <div class="_cboAmendReason_1Pos" id="_cboAmendReason_1Pos">
+                <select data-role="combobox" id="_cboAmendReason_1" tabindex="161" index="1" class="_cboAmendReason_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAmendReason_1.ComboBoxItems, enabled : _cboAmendReason_1.Enabled, customText : _cboAmendReason_1.CustomText, comboSelectedIndex : _cboAmendReason_1.SelectedIndex, events : { blur : cboAmendReason_Leave, change : cboAmendReason_SelectedIndexChanged }, "></select>
+              </div>
+              <label id="_lbActualTime_2" tabindex="130" data-tag="5" index="2" class="_lbActualTime_2" data-bind="text : _lbActualTime_2.Text, imagePath : _lbActualTime_2.ImagePath">55:55</label>
+              <input id="_txtAmendTime_2" tabindex="166" index="2" class="_txtAmendTime_2" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_2.BackColor.Value, color : _txtAmendTime_2.ForeColor.Value }, enabled : _txtAmendTime_2.Enabled, value : _txtAmendTime_2.Text, maskedTextBoxMask : _txtAmendTime_2.Mask, maskedTextBoxPrompt : _txtAmendTime_2.PromptChar, maskedTextBoxFormat : _txtAmendTime_2.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+              <label id="lbOnscene" tabindex="139" class="lbOnscene" data-bind="text : lbOnscene.Text, imagePath : lbOnscene.ImagePath">ONSCENE</label>
+              <div class="_cboAmendReason_2Pos" id="_cboAmendReason_2Pos">
+                <select data-role="combobox" id="_cboAmendReason_2" tabindex="162" index="2" class="_cboAmendReason_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAmendReason_2.ComboBoxItems, enabled : _cboAmendReason_2.Enabled, customText : _cboAmendReason_2.CustomText, comboSelectedIndex : _cboAmendReason_2.SelectedIndex, events : { blur : cboAmendReason_Leave, change : cboAmendReason_SelectedIndexChanged }, "></select>
+              </div>
+              <label id="_lbActualTime_3" tabindex="129" data-tag="6" index="3" class="_lbActualTime_3" data-bind="text : _lbActualTime_3.Text, imagePath : _lbActualTime_3.ImagePath">55:55</label>
+              <input id="_txtAmendTime_3" tabindex="167" index="3" class="_txtAmendTime_3" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_3.BackColor.Value, color : _txtAmendTime_3.ForeColor.Value }, enabled : _txtAmendTime_3.Enabled, value : _txtAmendTime_3.Text, maskedTextBoxMask : _txtAmendTime_3.Mask, maskedTextBoxPrompt : _txtAmendTime_3.PromptChar, maskedTextBoxFormat : _txtAmendTime_3.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+              <label id="lbTransport" tabindex="138" class="lbTransport" data-bind="text : lbTransport.Text, imagePath : lbTransport.ImagePath">TRANSPORT</label>
+              <div class="_cboAmendReason_3Pos" id="_cboAmendReason_3Pos">
+                <select data-role="combobox" id="_cboAmendReason_3" tabindex="163" index="3" class="_cboAmendReason_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAmendReason_3.ComboBoxItems, enabled : _cboAmendReason_3.Enabled, customText : _cboAmendReason_3.CustomText, comboSelectedIndex : _cboAmendReason_3.SelectedIndex, events : { blur : cboAmendReason_Leave, change : cboAmendReason_SelectedIndexChanged }, "></select>
+              </div>
+              <label id="lbTransportComplete" tabindex="137" class="lbTransportComplete" data-bind="text : lbTransportComplete.Text, imagePath : lbTransportComplete.ImagePath">TRANSPORT COMPLETE</label>
+              <label id="_lbActualTime_4" tabindex="128" data-tag="7" index="4" class="_lbActualTime_4" data-bind="text : _lbActualTime_4.Text, imagePath : _lbActualTime_4.ImagePath">55:55</label>
+              <input id="_txtAmendTime_4" tabindex="168" index="4" class="_txtAmendTime_4" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_4.BackColor.Value, color : _txtAmendTime_4.ForeColor.Value }, enabled : _txtAmendTime_4.Enabled, value : _txtAmendTime_4.Text, maskedTextBoxMask : _txtAmendTime_4.Mask, maskedTextBoxPrompt : _txtAmendTime_4.PromptChar, maskedTextBoxFormat : _txtAmendTime_4.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+              <div class="_cboAmendReason_4Pos" id="_cboAmendReason_4Pos">
+                <select data-role="combobox" id="_cboAmendReason_4" tabindex="164" index="4" class="_cboAmendReason_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAmendReason_4.ComboBoxItems, enabled : _cboAmendReason_4.Enabled, customText : _cboAmendReason_4.CustomText, comboSelectedIndex : _cboAmendReason_4.SelectedIndex, events : { blur : cboAmendReason_Leave, change : cboAmendReason_SelectedIndexChanged }, "></select>
+              </div>
+              <label id="_lbActualTime_5" tabindex="127" data-tag="8" index="5" class="_lbActualTime_5" data-bind="text : _lbActualTime_5.Text, imagePath : _lbActualTime_5.ImagePath">55:55</label>
+              <input id="_txtAmendTime_5" tabindex="169" index="5" class="_txtAmendTime_5" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_5.BackColor.Value, color : _txtAmendTime_5.ForeColor.Value }, enabled : _txtAmendTime_5.Enabled, value : _txtAmendTime_5.Text, maskedTextBoxMask : _txtAmendTime_5.Mask, maskedTextBoxPrompt : _txtAmendTime_5.PromptChar, maskedTextBoxFormat : _txtAmendTime_5.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+              <div class="_cboAmendReason_5Pos" id="_cboAmendReason_5Pos">
+                <select data-role="combobox" id="_cboAmendReason_5" tabindex="165" index="5" class="_cboAmendReason_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAmendReason_5.ComboBoxItems, enabled : _cboAmendReason_5.Enabled, customText : _cboAmendReason_5.CustomText, comboSelectedIndex : _cboAmendReason_5.SelectedIndex, events : { blur : cboAmendReason_Leave, change : cboAmendReason_SelectedIndexChanged }, "></select>
+              </div>
+              <label id="lbAvailable" tabindex="136" class="lbAvailable" data-bind="text : lbAvailable.Text, imagePath : lbAvailable.ImagePath">AVAILABLE</label>
+            </div>
+          </fieldset>
+          <fieldset id="frmUnitAction" class="frmUnitAction">
+            <legend id="frmUnitAction_legend" class="frmUnitAction_legend"></legend>
+            <div>
+              <label id="lbUnitComment" tabindex="69" class="lbUnitComment" data-bind="text : lbUnitComment.Text, imagePath : lbUnitComment.ImagePath">UNIT COMMENT</label>
+              <label id="lbActionsTakenTitle" tabindex="71" class="lbActionsTakenTitle" data-bind="text : lbActionsTakenTitle.Text, imagePath : lbActionsTakenTitle.ImagePath">UNIT ACTIONS - FIRE INCIDENTS</label>
+              <textarea id="rtxUnitNarration" tabindex="111" class="rtxUnitNarration" data-bind="enabled : rtxUnitNarration.Enabled"></textarea>
+              <div id="lstActionsTaken" tabindex="114" data-selectable="multiple" class="lstActionsTaken" data-role="listbox" style="overflow:auto" data-bind="source : lstActionsTaken.ListBoxItems, listBoxSelectedIndices : lstActionsTaken.ListBoxSelectedIndices"></div>
+              <label id="lbReasonsDelayTitle" tabindex="70" class="lbReasonsDelayTitle" data-bind="text : lbReasonsDelayTitle.Text, imagePath : lbReasonsDelayTitle.ImagePath">REASONS FOR DELAY</label>
+              <div id="lstReasonDelay" tabindex="113" data-selectable="multiple" class="lstReasonDelay" data-role="listbox" style="overflow:auto" data-bind="source : lstReasonDelay.ListBoxItems, listBoxSelectedIndices : lstReasonDelay.ListBoxSelectedIndices"></div>
+            </div>
+          </fieldset>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

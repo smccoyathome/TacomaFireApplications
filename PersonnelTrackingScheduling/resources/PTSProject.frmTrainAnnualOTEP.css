@@ -1,0 +1,401 @@
+.PTSProject_frmTrainAnnualOTEP {
+}
+.PTSProject_frmTrainAnnualOTEP .frmTrainAnnualOTEP {
+	background-color: #004000;
+	min-width: 1349px;
+	min-height: 776px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .frmTrainAnnualOTEP_frmTrainAnnualOTEP {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 1330px;
+	height: 121px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainAnnualOTEP .frmTrainAnnualOTEP_frmTrainAnnualOTEP:enabled {
+	color: #00C0C0;
+}
+.PTSProject_frmTrainAnnualOTEP .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 1112px;
+	top: 16px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainAnnualOTEP .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainAnnualOTEP ._lbSubTitle_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: #FFC080;
+	left: 32px;
+	top: 24px;
+	position: absolute;
+	width: 129px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmTrainAnnualOTEP .frmBattOpt {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 216px;
+	top: 24px;
+	position: absolute;
+	width: 185px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainAnnualOTEP .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainAnnualOTEP .optAll {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optAll:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .opt182 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 96px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .opt182:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .opt181 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .opt181:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .opt183 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 96px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .opt183:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainAnnualOTEP .Frame4 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 400px;
+	top: 24px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainAnnualOTEP .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainAnnualOTEP .optA {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optA:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optA * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optC {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optC:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optC * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optB {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optB:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optB * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optD {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optD:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optD * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainAnnualOTEP .Frame1 {
+	background-color: #004000;
+	left: 576px;
+	top: 24px;
+	position: absolute;
+	width: 297px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainAnnualOTEP .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp1 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 24px;
+	top: 24px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp1:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp1 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp2 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 116px;
+	top: 24px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp2:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp2 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp3 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 208px;
+	top: 24px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp3:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optGrp3 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainAnnualOTEP .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 129px;
+	height: 25px;
+}
+.PTSProject_frmTrainAnnualOTEP .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainAnnualOTEP .cboYearPos {
+	top: 40px;
+	left: 32px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.PTSProject_frmTrainAnnualOTEP .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 1112px;
+	top: 48px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainAnnualOTEP .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainAnnualOTEP .optPM {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 13.68px;
+	left: 32px;
+	top: 80px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .optPM:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainAnnualOTEP .optPM * {
+	Cursor: default;
+}
+.PTSProject_frmTrainAnnualOTEP .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 1112px;
+	top: 80px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainAnnualOTEP .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainAnnualOTEP .frmTrainAnnualOTEP_frmTrainAnnualOTEP_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainAnnualOTEP .sprReport {
+	left: 8px;
+	top: 136px;
+	position: absolute;
+	width: 1331px;
+	height: 633px;
+}
+.PTSProject_frmTrainAnnualOTEP .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTrainAnnualOTEP .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

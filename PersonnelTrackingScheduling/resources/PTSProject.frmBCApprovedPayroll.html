@@ -1,0 +1,18 @@
+<div>
+  <div data-width="562" data-height="323" name="frmBCApprovedPayroll" data-title="BC Approved Payroll " class="PTSProject_frmBCApprovedPayroll" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmBCApprovedPayroll">
+      <label id="_Label6_0" tabindex="4" index="0" class="_Label6_0" data-bind="text : _Label6_0.Text, imagePath : _Label6_0.ImagePath">Select a Pay Period:</label>
+      <label id="_Label3_1" tabindex="5" index="1" class="_Label3_1" data-bind="text : _Label3_1.Text, imagePath : _Label3_1.ImagePath">Year</label>
+      <button id="cboClose" tabindex="2" class="cboClose" type="button" data-bind="events : { click : cboClose_Click }, ">Close</button>
+      <div class="cboPayPeriodPos" id="cboPayPeriodPos">
+        <select id="cboPayPeriod" tabindex="1" class="cboPayPeriod" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPayPeriod.ComboBoxItems, customText : cboPayPeriod.CustomText, comboSelectedIndex : cboPayPeriod.SelectedIndex, events : { change : cboPayPeriod_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="cboYearPos" id="cboYearPos">
+        <select id="cboYear" tabindex="4" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdPayroll" tabindex="10" class="cmdPayroll" type="button" data-bind="enabled : cmdPayroll.Enabled, visible : cmdPayroll.Visible, events : { click : cmdPayroll_Click }, ">BC Payroll</button>
+      <button id="cmdPrint" tabindex="3" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print List</button>
+      <div id="sprEmployeeList" data-role="mobilizespread" tabindex="6" class="sprEmployeeList" data-bind="widgetvalue: sprEmployeeList"></div>
+    </form>
+  </div>
+</div>

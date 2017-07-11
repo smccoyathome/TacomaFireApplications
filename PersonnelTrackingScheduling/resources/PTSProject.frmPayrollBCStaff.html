@@ -1,0 +1,130 @@
+<div>
+  <div data-width="758" data-height="518" name="frmPayrollBCStaff" data-title="BC Payroll" class="PTSProject_frmPayrollBCStaff" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmPayrollBCStaff">
+      <fieldset id="frmFilterList" data-bind="enabled : frmFilterList.Enabled">
+        <div id="frmFilterList" class="frmFilterList">
+          <label id="Label1" tabindex="84" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Note:  OK Checked = Timecard has been Approved</label>
+          <label id="_Label6_0" tabindex="70" index="0" class="_Label6_0" data-bind="text : _Label6_0.Text, imagePath : _Label6_0.ImagePath">Select a Pay Period:</label>
+          <div class="cboPayPeriodPos" id="cboPayPeriodPos">
+            <select id="cboPayPeriod" tabindex="67" class="cboPayPeriod" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPayPeriod.ComboBoxItems, customText : cboPayPeriod.CustomText, comboSelectedIndex : cboPayPeriod.SelectedIndex, events : { change : cboPayPeriod_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cboClose" tabindex="65" class="cboClose" type="button" data-bind="events : { click : cboClose_Click }, ">Close</button>
+          <label id="_Label3_6" tabindex="87" index="6" class="_Label3_6" data-bind="text : _Label3_6.Text, imagePath : _Label3_6.ImagePath">Select Payroll Year</label>
+          <div class="cboYearPos" id="cboYearPos">
+            <select id="cboYear" tabindex="71" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdPrintList" tabindex="66" class="cmdPrintList" type="button" data-bind="events : { click : cmdPrintList_Click }, ">Print List</button>
+          <label id="lbApprovedOn" tabindex="85" class="lbApprovedOn" data-bind="text : lbApprovedOn.Text, imagePath : lbApprovedOn.ImagePath"></label>
+        </div>
+      </fieldset>
+      <div class="chkAll">
+        <input id="chkAll" tabindex="73" type="checkbox" style="float: left" data-bind="events : { click : chkAll_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Print All Timecards</label>
+        </div>
+      </div>
+      <div id="sprEmployeeList" data-role="mobilizespread" tabindex="78" class="sprEmployeeList" data-bind="widgetvalue: sprEmployeeList"></div>
+      <button id="cmdOKToPay" tabindex="74" class="cmdOKToPay" type="button" data-bind="enabled : cmdOKToPay.Enabled, events : { click : cmdOKToPay_Click }, ">Upload Payroll</button>
+      <button id="cmdPrint" tabindex="76" class="cmdPrint" type="button" data-bind="enabled : cmdPrint.Enabled, events : { click : cmdPrint_Click }, ">Print Time Card</button>
+      <button id="cmdSave" tabindex="75" class="cmdSave" type="button" data-bind="enabled : cmdSave.Enabled, visible : cmdSave.Visible, events : { click : cmdSave_Click }, ">Save Timecard</button>
+      <button disabled="disabled" id="cmdApprove" tabindex="134" class="cmdApprove" type="button" data-bind="enabled : cmdApprove.Enabled, events : { click : cmdApprove_Click }, ">Approve Timecard</button>
+      <label id="lbPayrollHrs" tabindex="79" class="lbPayrollHrs" data-bind="text : lbPayrollHrs.Text, imagePath : lbPayrollHrs.ImagePath">Total Hours:</label>
+      <label id="lbTotalHrs" tabindex="80" class="lbTotalHrs" data-bind="text : lbTotalHrs.Text, imagePath : lbTotalHrs.ImagePath">lbTotalHrs</label>
+      <label id="_Label2_1" tabindex="82" index="1" class="_Label2_1" data-bind="text : _Label2_1.Text, imagePath : _Label2_1.ImagePath">W E E K 1</label>
+      <div id="sprWeek1" data-role="mobilizespread" tabindex="75" class="sprWeek1" data-bind="widgetvalue: sprWeek1"></div>
+      <fieldset id="frmWeek1" class="frmWeek1" data-bind="visible : frmWeek1.Visible">
+        <legend id="frmWeek1_legend" class="frmWeek1_legend"></legend>
+        <div>
+          <label id="Label20" tabindex="50" class="Label20" data-bind="text : Label20.Text, imagePath : Label20.ImagePath">Activity</label>
+          <label id="Label11" tabindex="51" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">Cost Cntr</label>
+          <label id="Label8" tabindex="54" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">WBS Elemt</label>
+          <label id="Label7" tabindex="53" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Order</label>
+          <label id="Label5" tabindex="52" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Oper</label>
+          <label id="Label10" tabindex="56" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">A/A Type (KOT)</label>
+          <label id="Label9" tabindex="55" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">PS Group</label>
+          <label id="Label12" tabindex="57" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">Level</label>
+          <label id="Label19" tabindex="64" class="Label19" data-bind="text : Label19.Text, imagePath : Label19.ImagePath">MO</label>
+          <label id="Label18" tabindex="63" class="Label18" data-bind="text : Label18.Text, imagePath : Label18.ImagePath">TU</label>
+          <label id="Label17" tabindex="62" class="Label17" data-bind="text : Label17.Text, imagePath : Label17.ImagePath">WE</label>
+          <label id="Label14" tabindex="59" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">TH</label>
+          <label id="Label13" tabindex="58" class="Label13" data-bind="text : Label13.Text, imagePath : Label13.ImagePath">FR</label>
+          <label id="Label16" tabindex="61" class="Label16" data-bind="text : Label16.Text, imagePath : Label16.ImagePath">SA</label>
+          <label id="Label15" tabindex="60" class="Label15" data-bind="text : Label15.Text, imagePath : Label15.ImagePath">SU</label>
+          <input id="txtActivity1" tabindex="33" Value="txtActivity1" class="txtActivity1" data-bind="value : txtActivity1.Text" />
+          <input id="txtCostCenter1" tabindex="34" Value="txtCostCenter1" class="txtCostCenter1" data-bind="value : txtCostCenter1.Text" />
+          <input id="txtWBSElement1" tabindex="35" Value="txtWBSElement1" class="txtWBSElement1" data-bind="value : txtWBSElement1.Text" />
+          <div class="cboOrder1Pos" id="cboOrder1Pos">
+            <select id="cboOrder1" tabindex="48" class="cboOrder1" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboOrder1.ComboBoxItems, customText : cboOrder1.CustomText, comboSelectedIndex : cboOrder1.SelectedIndex"></select>
+          </div>
+          <input id="txtOper1" tabindex="36" Value="txtOper1" class="txtOper1" data-bind="value : txtOper1.Text" />
+          <div class="cboAAType1Pos" id="cboAAType1Pos">
+            <select id="cboAAType1" tabindex="39" class="cboAAType1" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAAType1.ComboBoxItems, customText : cboAAType1.CustomText, comboSelectedIndex : cboAAType1.SelectedIndex, events : { change : cboAAType1_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboJobCode1Pos" id="cboJobCode1Pos">
+            <select id="cboJobCode1" tabindex="40" class="cboJobCode1" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboJobCode1.ComboBoxItems, customText : cboJobCode1.CustomText, comboSelectedIndex : cboJobCode1.SelectedIndex, events : { change : cboJobCode1_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboStep1Pos" id="cboStep1Pos">
+            <select id="cboStep1" tabindex="41" class="cboStep1" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboStep1.ComboBoxItems, customText : cboStep1.CustomText, comboSelectedIndex : cboStep1.SelectedIndex"></select>
+          </div>
+          <input id="txtMo1" tabindex="44" Value="txtMo1" class="txtMo1" data-bind="value : txtMo1.Text" />
+          <input id="txtTu1" tabindex="45" Value="txtTu1" class="txtTu1" data-bind="value : txtTu1.Text" />
+          <input id="txtWe1" tabindex="46" Value="txtWe1" class="txtWe1" data-bind="value : txtWe1.Text" />
+          <input id="txtTh1" tabindex="42" Value="txtTh1" class="txtTh1" data-bind="value : txtTh1.Text" />
+          <input id="txtFr1" tabindex="43" Value="txtFr1" class="txtFr1" data-bind="value : txtFr1.Text" />
+          <input id="txtSa1" tabindex="37" Value="txtSa1" class="txtSa1" data-bind="value : txtSa1.Text" />
+          <input id="txtSu1" tabindex="38" Value="txtSu1" class="txtSu1" data-bind="value : txtSu1.Text" />
+          <button id="cmdApply1" tabindex="47" class="cmdApply1" type="button" data-bind="events : { click : cmdApply1_Click }, ">Apply Changes</button>
+          <label id="_Label35_0" tabindex="65" index="0" class="_Label35_0" data-bind="text : _Label35_0.Text, imagePath : _Label35_0.ImagePath">To Delete ~ set hours to zero</label>
+        </div>
+      </fieldset>
+      <label id="_Label2_0" tabindex="81" index="0" class="_Label2_0" data-bind="text : _Label2_0.Text, imagePath : _Label2_0.ImagePath">W E E K 2</label>
+      <div id="sprWeek2" data-role="mobilizespread" tabindex="76" class="sprWeek2" data-bind="widgetvalue: sprWeek2"></div>
+      <fieldset id="frmWeek2" class="frmWeek2" data-bind="visible : frmWeek2.Visible">
+        <legend id="frmWeek2_legend" class="frmWeek2_legend"></legend>
+        <div>
+          <label id="Label34" tabindex="31" class="Label34" data-bind="text : Label34.Text, imagePath : Label34.ImagePath">Activity</label>
+          <label id="Label33" tabindex="30" class="Label33" data-bind="text : Label33.Text, imagePath : Label33.ImagePath">Cost Cntr</label>
+          <label id="Label30" tabindex="27" class="Label30" data-bind="text : Label30.Text, imagePath : Label30.ImagePath">WBS Elemt</label>
+          <label id="Label31" tabindex="28" class="Label31" data-bind="text : Label31.Text, imagePath : Label31.ImagePath">Order</label>
+          <label id="Label32" tabindex="29" class="Label32" data-bind="text : Label32.Text, imagePath : Label32.ImagePath">Oper</label>
+          <label id="Label28" tabindex="25" class="Label28" data-bind="text : Label28.Text, imagePath : Label28.ImagePath">A/A Type (KOT)</label>
+          <label id="Label29" tabindex="26" class="Label29" data-bind="text : Label29.Text, imagePath : Label29.ImagePath">PS Group</label>
+          <label id="Label27" tabindex="24" class="Label27" data-bind="text : Label27.Text, imagePath : Label27.ImagePath">Level</label>
+          <label id="Label36" tabindex="17" class="Label36" data-bind="text : Label36.Text, imagePath : Label36.ImagePath">MO</label>
+          <label id="Label21" tabindex="18" class="Label21" data-bind="text : Label21.Text, imagePath : Label21.ImagePath">TU</label>
+          <label id="Label22" tabindex="19" class="Label22" data-bind="text : Label22.Text, imagePath : Label22.ImagePath">WE</label>
+          <label id="Label25" tabindex="22" class="Label25" data-bind="text : Label25.Text, imagePath : Label25.ImagePath">TH</label>
+          <label id="Label26" tabindex="23" class="Label26" data-bind="text : Label26.Text, imagePath : Label26.ImagePath">FR</label>
+          <label id="Label23" tabindex="20" class="Label23" data-bind="text : Label23.Text, imagePath : Label23.ImagePath">SA</label>
+          <label id="Label24" tabindex="21" class="Label24" data-bind="text : Label24.Text, imagePath : Label24.ImagePath">SU</label>
+          <input id="txtActivity2" tabindex="14" Value="txtActivity2" class="txtActivity2" data-bind="value : txtActivity2.Text" />
+          <input id="txtCostCenter2" tabindex="13" Value="txtCostCenter2" class="txtCostCenter2" data-bind="value : txtCostCenter2.Text" />
+          <input id="txtWBSElement2" tabindex="12" Value="txtWBSElement2" class="txtWBSElement2" data-bind="value : txtWBSElement2.Text" />
+          <div class="cboOrder2Pos" id="cboOrder2Pos">
+            <select id="cboOrder2" tabindex="16" class="cboOrder2" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboOrder2.ComboBoxItems, customText : cboOrder2.CustomText, comboSelectedIndex : cboOrder2.SelectedIndex"></select>
+          </div>
+          <input id="txtOper2" tabindex="11" Value="txtOper2" class="txtOper2" data-bind="value : txtOper2.Text" />
+          <div class="cboAAType2Pos" id="cboAAType2Pos">
+            <select id="cboAAType2" tabindex="8" class="cboAAType2" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAAType2.ComboBoxItems, customText : cboAAType2.CustomText, comboSelectedIndex : cboAAType2.SelectedIndex, events : { change : cboAAType2_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboJobCode2Pos" id="cboJobCode2Pos">
+            <select id="cboJobCode2" tabindex="7" class="cboJobCode2" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboJobCode2.ComboBoxItems, customText : cboJobCode2.CustomText, comboSelectedIndex : cboJobCode2.SelectedIndex, events : { change : cboJobCode2_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboStep2Pos" id="cboStep2Pos">
+            <select id="cboStep2" tabindex="6" class="cboStep2" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboStep2.ComboBoxItems, customText : cboStep2.CustomText, comboSelectedIndex : cboStep2.SelectedIndex"></select>
+          </div>
+          <input id="txtMo2" tabindex="3" Value="txtMo2" class="txtMo2" data-bind="value : txtMo2.Text" />
+          <input id="txtTu2" tabindex="2" Value="txtTu2" class="txtTu2" data-bind="value : txtTu2.Text" />
+          <input id="txtWe2" tabindex="1" Value="txtWe2" class="txtWe2" data-bind="value : txtWe2.Text" />
+          <input id="txtTh2" tabindex="5" Value="txtTh2" class="txtTh2" data-bind="value : txtTh2.Text" />
+          <input id="txtFr2" tabindex="4" Value="txtFr2" class="txtFr2" data-bind="value : txtFr2.Text" />
+          <input id="txtSa2" tabindex="10" Value="txtSa2" class="txtSa2" data-bind="value : txtSa2.Text" />
+          <input id="txtSu2" tabindex="9" Value="txtSu2" class="txtSu2" data-bind="value : txtSu2.Text" />
+          <button id="cmdApply2" tabindex="15" class="cmdApply2" type="button" data-bind="events : { click : cmdApply2_Click }, ">Apply Changes</button>
+          <label id="_Label35_1" tabindex="32" index="1" class="_Label35_1" data-bind="text : _Label35_1.Text, imagePath : _Label35_1.ImagePath">To Delete ~ set hours to zero</label>
+        </div>
+      </fieldset>
+      <div id="sprTimeSheet" data-role="mobilizespread" tabindex="77" class="sprTimeSheet" data-bind="widgetvalue: sprTimeSheet"></div>
+    </form>
+  </div>
+</div>

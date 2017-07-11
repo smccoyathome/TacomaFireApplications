@@ -1,0 +1,532 @@
+.PTSProject_frmUniformRepairHistory {
+}
+.PTSProject_frmUniformRepairHistory .frmUniformRepairHistory {
+	background-color: #400000;
+	min-width: 618px;
+	min-height: 367px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmUniformRepairHistory ._Label_9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory .txtTrackingNumber {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 136px;
+	top: 8px;
+	position: absolute;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmUniformRepairHistory .txtTrackingNumber:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformRepairHistory .cmdFind {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 272px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUniformRepairHistory .cmdFind:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformRepairHistory .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 480px;
+	top: 8px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUniformRepairHistory .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformRepairHistory .Frame1 {
+	background-color: #400000;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 600px;
+	height: 105px;
+	border: 2px groove;
+}
+.PTSProject_frmUniformRepairHistory .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformRepairHistory ._Label_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbItem {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 16px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory ._Label_5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 296px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbBrand {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 384px;
+	top: 16px;
+	position: absolute;
+	width: 201px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory ._Label_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbTrackingNumber {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 32px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory ._Label_6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 272px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbManufDate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 384px;
+	top: 32px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory ._Label_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbRetiredReason {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 48px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory ._Label_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 296px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbColorSize {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 384px;
+	top: 48px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory ._Label_8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbRetiredDate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 64px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory ._Label_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 296px;
+	top: 64px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbLocation {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 384px;
+	top: 64px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory ._Label_7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformRepairHistory .lbLastInspDate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 80px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory .lbUniformID {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 464px;
+	top: 80px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmUniformRepairHistory .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmUniformRepairHistory .sprRepairGrid {
+	left: 8px;
+	top: 136px;
+	position: absolute;
+	width: 600px;
+	height: 113px;
+}
+.PTSProject_frmUniformRepairHistory .sprRepairGrid .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmUniformRepairHistory .sprRepairGrid .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmUniformRepairHistory .chkDateIn {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 256px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmUniformRepairHistory .chkDateIn:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmUniformRepairHistory .chkDateOut {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 136px;
+	top: 256px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmUniformRepairHistory .chkDateOut:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmUniformRepairHistory .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 272px;
+	top: 256px;
+	position: absolute;
+	width: 153px;
+	height: 17px;
+}
+.PTSProject_frmUniformRepairHistory .cmdNewItem {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 488px;
+	top: 264px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUniformRepairHistory .cmdNewItem:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformRepairHistory .dteDateIn {
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_frmUniformRepairHistory .dteDateIn.k-datepicker {
+	left: 8px;
+	top: 272px;
+	position: absolute;
+	width: 121px;
+	height: 21px;
+}
+.PTSProject_frmUniformRepairHistory .dteDateOut {
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_frmUniformRepairHistory .dteDateOut.k-datepicker {
+	left: 136px;
+	top: 272px;
+	position: absolute;
+	width: 121px;
+	height: 21px;
+}
+.PTSProject_frmUniformRepairHistory .cboRepairer {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 177px;
+	height: 23px;
+}
+.PTSProject_frmUniformRepairHistory .cboRepairer:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformRepairHistory .cboRepairerPos {
+	top: 272px;
+	left: 272px;
+	position: absolute;
+	width: 177px;
+	height: 23px;
+}
+.PTSProject_frmUniformRepairHistory .cmdEdit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 488px;
+	top: 296px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUniformRepairHistory .cmdEdit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformRepairHistory .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 8px;
+	top: 304px;
+	position: absolute;
+	width: 129px;
+	height: 33px;
+}
+.PTSProject_frmUniformRepairHistory .txtComment {
+	left: 136px;
+	top: 304px;
+	position: absolute;
+	width: 313px;
+	height: 41px;
+}
+.PTSProject_frmUniformRepairHistory .chkVendor {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 472px;
+	top: 328px;
+	position: absolute;
+	width: 129px;
+	height: 33px;
+	width: auto;
+}
+.PTSProject_frmUniformRepairHistory .chkVendor:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmUniformRepairHistory .lbRepairID {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 32px;
+	top: 336px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: hidden;
+}
+

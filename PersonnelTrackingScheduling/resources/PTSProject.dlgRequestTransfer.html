@@ -1,0 +1,63 @@
+<div>
+  <div data-width="581" data-height="425" name="dlgRequestTransfer" data-title="Request Transfer" class="PTSProject_dlgRequestTransfer" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgRequestTransfer">
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend">Posted Positions</legend>
+        <div>
+          <label id="_Label_1" tabindex="24" index="1" class="_Label_1" data-bind="text : _Label_1.Text, imagePath : _Label_1.ImagePath">Note:  Postings end 1200 on Closing Date</label>
+          <label id="_Label_0" tabindex="23" index="0" class="_Label_0" data-bind="text : _Label_0.Text, imagePath : _Label_0.ImagePath">* = Paramedic Position</label>
+          <div id="sprPositions" data-role="mobilizespread" tabindex="22" class="sprPositions" data-bind="widgetvalue: sprPositions"></div>
+        </div>
+      </fieldset>
+      <button id="CancelButton_Renamed" tabindex="16" class="CancelButton_Renamed" type="button" data-bind="events : { click : CancelButton_Renamed_Click }, ">Close</button>
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Select Action</legend>
+        <div>
+          <div class="optRequest">
+            <input id="optRequest" tabindex="1" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optRequest.Checked, events : { change : optRequest_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Request Transfer</label>
+            </div>
+          </div>
+          <div class="optDelete">
+            <input id="optDelete" tabindex="2" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optDelete.Checked, events : { change : optDelete_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Delete Request</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset id="frmRequestTransfer" class="frmRequestTransfer" data-bind="visible : frmRequestTransfer.Visible">
+        <legend id="frmRequestTransfer_legend" class="frmRequestTransfer_legend"></legend>
+        <div>
+          <label id="lblName" tabindex="9" class="lblName" data-bind="text : lblName.Text, imagePath : lblName.ImagePath">Select Name</label>
+          <div class="cboNameListPos" id="cboNameListPos">
+            <select id="cboNameList" tabindex="6" class="cboNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboNameList.ComboBoxItems, customText : cboNameList.CustomText, comboSelectedIndex : cboNameList.SelectedIndex, events : { change : cboNameList_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="lbPosition" tabindex="12" class="lbPosition" data-bind="text : lbPosition.Text, imagePath : lbPosition.ImagePath">No Position Selected</label>
+          <label id="Label5" tabindex="10" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Select Priority Ranking</label>
+          <div class="cboPriorityPos" id="cboPriorityPos">
+            <select id="cboPriority" tabindex="4" class="cboPriority" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPriority.ComboBoxItems, customText : cboPriority.CustomText, comboSelectedIndex : cboPriority.SelectedIndex, events : { change : cboPriority_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="Label3" tabindex="8" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Add Comment (optional)</label>
+          <textarea id="txtComment" tabindex="3" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+          <button disabled="disabled" id="cmdReqDone" tabindex="5" class="cmdReqDone" type="button" data-bind="enabled : cmdReqDone.Enabled, events : { click : cmdReqDone_Click }, ">Add Request</button>
+        </div>
+      </fieldset>
+      <fieldset id="frmDeleteRequest" class="frmDeleteRequest" data-bind="visible : frmDeleteRequest.Visible">
+        <legend id="frmDeleteRequest_legend" class="frmDeleteRequest_legend"></legend>
+        <div>
+          <label id="Label6" tabindex="18" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Select Name</label>
+          <label id="Label1" tabindex="17" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">lbEmployeeID</label>
+          <div class="cboDelNameListPos" id="cboDelNameListPos">
+            <select id="cboDelNameList" tabindex="17" class="cboDelNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboDelNameList.ComboBoxItems, customText : cboDelNameList.CustomText, comboSelectedIndex : cboDelNameList.SelectedIndex, events : { change : cboDelNameList_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="lbRequest" tabindex="20" class="lbRequest" data-bind="text : lbRequest.Text, imagePath : lbRequest.ImagePath">No Request Selected</label>
+          <button disabled="disabled" id="cmdDelete" tabindex="18" class="cmdDelete" type="button" data-bind="enabled : cmdDelete.Enabled, events : { click : cmdDelete_Click }, ">Delete Request</button>
+        </div>
+      </fieldset>
+      <label id="Label2" tabindex="21" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Transfer Request for Deletion</label>
+      <div id="sprRequests" data-role="mobilizespread" tabindex="19" class="sprRequests" data-bind="widgetvalue: sprRequests"></div>
+    </form>
+  </div>
+</div>

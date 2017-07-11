@@ -1,0 +1,110 @@
+.PTSProject_frmInsteadOfSCKLeave {
+}
+.PTSProject_frmInsteadOfSCKLeave .frmInsteadOfSCKLeave {
+	background-color: #804000;
+	min-width: 552px;
+	min-height: 279px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmInsteadOfSCKLeave .dtStart {
+	font-family: Arial;
+	font-size: 11.7px;
+}
+.PTSProject_frmInsteadOfSCKLeave .dtStart.k-datepicker {
+	left: 72px;
+	top: 8px;
+	position: absolute;
+	width: 137px;
+	height: 22px;
+}
+.PTSProject_frmInsteadOfSCKLeave .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 432px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmInsteadOfSCKLeave .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmInsteadOfSCKLeave ._Label3_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #C0FFFF;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmInsteadOfSCKLeave .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #C0FFFF;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmInsteadOfSCKLeave .dtEnd {
+	font-family: Arial;
+	font-size: 11.7px;
+}
+.PTSProject_frmInsteadOfSCKLeave .dtEnd.k-datepicker {
+	left: 72px;
+	top: 40px;
+	position: absolute;
+	width: 137px;
+	height: 22px;
+}
+.PTSProject_frmInsteadOfSCKLeave .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 432px;
+	top: 40px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmInsteadOfSCKLeave .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmInsteadOfSCKLeave .sprReport {
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 536px;
+	height: 201px;
+}
+.PTSProject_frmInsteadOfSCKLeave .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmInsteadOfSCKLeave .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

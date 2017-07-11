@@ -1,0 +1,150 @@
+.PTSProject_frmIndivReport {
+}
+.PTSProject_frmIndivReport .frmIndivReport {
+	background-color: Teal;
+	min-width: 753px;
+	min-height: 626px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmIndivReport .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 85px;
+	height: 20px;
+}
+.PTSProject_frmIndivReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 112px;
+	top: 8px;
+	position: absolute;
+	width: 251px;
+	height: 22px;
+	text-align: center;
+}
+.PTSProject_frmIndivReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	left: 520px;
+	top: 8px;
+	position: absolute;
+	width: 96px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndivReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	left: 624px;
+	top: 8px;
+	position: absolute;
+	width: 96px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndivReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivReport .chkInactive {
+	background-color: Teal;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 376px;
+	top: 16px;
+	position: absolute;
+	width: 136px;
+	height: 49px;
+	width: auto;
+}
+.PTSProject_frmIndivReport .chkInactive:enabled {
+	color: Yellow;
+}
+.PTSProject_frmIndivReport .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmIndivReport .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivReport .cboYearPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmIndivReport .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	width: 257px;
+	height: 24px;
+}
+.PTSProject_frmIndivReport .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivReport .cboNameListPos {
+	top: 32px;
+	left: 104px;
+	position: absolute;
+	width: 257px;
+	height: 24px;
+}
+.PTSProject_frmIndivReport .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #80FF80;
+	left: 360px;
+	top: 64px;
+	position: absolute;
+	width: 377px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndivReport .sprIndiv {
+	left: 4px;
+	top: 88px;
+	position: absolute;
+	width: 745px;
+	height: 519px;
+}
+.PTSProject_frmIndivReport .sprIndiv .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmIndivReport .sprIndiv .k-spreadsheet-action-bar {
+	display: none;
+}
+

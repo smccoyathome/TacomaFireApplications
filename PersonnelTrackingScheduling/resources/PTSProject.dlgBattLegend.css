@@ -1,0 +1,242 @@
+.PTSProject_dlgBattLegend {
+}
+.PTSProject_dlgBattLegend .dlgBattLegend {
+	background-color: Black;
+	min-width: 459px;
+	min-height: 375px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_dlgBattLegend ._Label_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 201px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 224px;
+	top: 8px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Blue;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 224px;
+	top: 32px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Green;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Gray;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 224px;
+	top: 56px;
+	position: absolute;
+	width: 225px;
+	height: 33px;
+}
+.PTSProject_dlgBattLegend ._Label_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 224px;
+	top: 112px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 224px;
+	top: 136px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 224px;
+	top: 160px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 224px;
+	top: 192px;
+	position: absolute;
+	width: 225px;
+	height: 41px;
+}
+.PTSProject_dlgBattLegend ._Label_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 232px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 280px;
+	top: 248px;
+	position: absolute;
+	width: 113px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgBattLegend .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgBattLegend ._Label_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-style: italic;
+	color: #FFC080;
+	left: 8px;
+	top: 256px;
+	position: absolute;
+	width: 241px;
+	height: 17px;
+}
+.PTSProject_dlgBattLegend ._Label_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Gray;
+	left: 8px;
+	top: 296px;
+	position: absolute;
+	width: 433px;
+	height: 65px;
+}
+

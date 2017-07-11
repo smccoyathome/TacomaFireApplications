@@ -1,0 +1,474 @@
+.PTSProject_frmMasterPhoneLists {
+}
+.PTSProject_frmMasterPhoneLists .frmMasterPhoneLists {
+	background-color: #404040;
+	min-width: 954px;
+	min-height: 755px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmMasterPhoneLists .Frame1 {
+	background-color: Gray;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 937px;
+	height: 65px;
+	border: 2px groove;
+}
+.PTSProject_frmMasterPhoneLists .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 656px;
+	top: 16px;
+	position: absolute;
+	width: 225px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMasterPhoneLists .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists ._optList_0 {
+	background-color: Gray;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 24px;
+	top: 24px;
+	position: absolute;
+	width: 265px;
+	height: 25px;
+	cursor: default;
+}
+.PTSProject_frmMasterPhoneLists ._optList_0:enabled {
+	color: Aqua;
+}
+.PTSProject_frmMasterPhoneLists ._optList_0 * {
+	Cursor: default;
+}
+.PTSProject_frmMasterPhoneLists ._optList_1 {
+	background-color: Gray;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 296px;
+	top: 24px;
+	position: absolute;
+	width: 265px;
+	height: 25px;
+	cursor: default;
+}
+.PTSProject_frmMasterPhoneLists ._optList_1:enabled {
+	color: Aqua;
+}
+.PTSProject_frmMasterPhoneLists ._optList_1 * {
+	Cursor: default;
+}
+.PTSProject_frmMasterPhoneLists .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmMasterPhoneLists .frmResource {
+	background-color: #404040;
+	left: 4px;
+	top: 72px;
+	position: absolute;
+	width: 617px;
+	height: 673px;
+	border: 2px groove;
+}
+.PTSProject_frmMasterPhoneLists .frmResource:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Aqua;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 201px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Aqua;
+	left: 248px;
+	top: 24px;
+	position: absolute;
+	width: 169px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .cmdClearFacility {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 464px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMasterPhoneLists .cmdClearFacility:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboFFacility {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 201px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboFFacility:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboFFacilityPos {
+	top: 48px;
+	left: 16px;
+	position: absolute;
+	width: 201px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboFType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 169px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboFType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboFTypePos {
+	top: 48px;
+	left: 248px;
+	position: absolute;
+	width: 169px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cmdPrintFacility {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 464px;
+	top: 64px;
+	position: absolute;
+	width: 121px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMasterPhoneLists .cmdPrintFacility:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .lbFacilityCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: Lime;
+	left: 248px;
+	top: 80px;
+	position: absolute;
+	width: 209px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .sprResource {
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 600px;
+	height: 553px;
+}
+.PTSProject_frmMasterPhoneLists .sprResource .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmMasterPhoneLists .sprResource .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmMasterPhoneLists .frmResource_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmMasterPhoneLists .frmEmployee {
+	background-color: #404040;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 937px;
+	height: 673px;
+	border: 2px groove;
+}
+.PTSProject_frmMasterPhoneLists .frmEmployee:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Aqua;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Aqua;
+	left: 216px;
+	top: 24px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Aqua;
+	left: 304px;
+	top: 24px;
+	position: absolute;
+	width: 153px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Aqua;
+	left: 475px;
+	top: 24px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .Label7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Aqua;
+	left: 600px;
+	top: 24px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .chkCBOnly {
+	background-color: #404000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 712px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 57px;
+	width: auto;
+}
+.PTSProject_frmMasterPhoneLists .chkCBOnly:enabled {
+	color: Aqua;
+}
+.PTSProject_frmMasterPhoneLists .cmdClearEmployee {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 808px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMasterPhoneLists .cmdClearEmployee:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboEFacility {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 185px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboEFacility:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboEFacilityPos {
+	top: 48px;
+	left: 16px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboUnit {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 81px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboUnit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboUnitPos {
+	top: 48px;
+	left: 216px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboEType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 153px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboEType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboETypePos {
+	top: 48px;
+	left: 312px;
+	position: absolute;
+	width: 153px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboAssignType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 105px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboAssignType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboAssignTypePos {
+	top: 48px;
+	left: 480px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboGroup {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 97px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cboGroup:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .cboGroupPos {
+	top: 48px;
+	left: 600px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+}
+.PTSProject_frmMasterPhoneLists .cmdPrintEmployee {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 808px;
+	top: 64px;
+	position: absolute;
+	width: 89px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMasterPhoneLists .cmdPrintEmployee:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMasterPhoneLists .lbEmployeeCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: Lime;
+	left: 592px;
+	top: 88px;
+	position: absolute;
+	width: 209px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmMasterPhoneLists .sprEmployeeList {
+	left: 4px;
+	top: 112px;
+	position: absolute;
+	width: 920px;
+	height: 545px;
+}
+.PTSProject_frmMasterPhoneLists .sprEmployeeList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmMasterPhoneLists .sprEmployeeList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmMasterPhoneLists .frmEmployee_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

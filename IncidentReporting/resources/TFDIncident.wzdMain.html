@@ -1,0 +1,851 @@
+<div>
+  <div data-width="1000" data-height="700" data-removeControlBox="true" name="wzdMain" data-title="TFD Incident Reporting System - Report Entry Wizard" class="TFDIncident_wzdMain" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text, events : { refresh : wzdMain_Activated }, ">
+      <form class="wzdMain">
+        
+          <!--  Top of Wizard Common Fields-->
+          <label id="lbLocationTitle" tabindex="175" class="lbLocationTitle" data-bind="text : lbLocationTitle.Text, imagePath : lbLocationTitle.ImagePath">Location:</label>
+          <label id="lbLocation" tabindex="176" class="lbLocation" data-bind="text : lbLocation.Text, imagePath : lbLocation.ImagePath">1200 Martin Luther King Jr Wy, TAC</label>
+          <label id="lbIncidentNoTitle" tabindex="180" class="lbIncidentNoTitle" data-bind="text : lbIncidentNoTitle.Text, imagePath : lbIncidentNoTitle.ImagePath">Incident \#:</label>
+          <label id="lbIncidentNo" tabindex="177" class="lbIncidentNo" data-bind="text : lbIncidentNo.Text, imagePath : lbIncidentNo.ImagePath">T002410042</label>
+          <label id="lbUnitTitle" tabindex="179" class="lbUnitTitle" data-bind="text : lbUnitTitle.Text, imagePath : lbUnitTitle.ImagePath">Unit:</label>
+          <label id="lbUnit" tabindex="178" class="lbUnit" data-bind="text : lbUnit.Text, imagePath : lbUnit.ImagePath">E4</label>
+
+          <!--  frmUnitReport    Unit Report Wizard -->
+          <fieldset id="frmUnitReport" data-tag="0" data-bind="enabled : frmUnitReport.Enabled, visible: frmUnitReport.Visible, style : { left : frmUnitReport.LeftString }">
+              <div id="frmUnitReport" class="frmUnitReport" data-bind="visible: frmUnitReport.Visible, style : { left : frmUnitReport.LeftString }">
+                  <label id="_lbFrameTitle_0" tabindex="37" index="0" class="_lbFrameTitle_0" data-bind="text : _lbFrameTitle_0.Text, imagePath : _lbFrameTitle_0.ImagePath">UNIT RESPONSE REPORT</label>
+                  <fieldset id="frmUnitStaffing" class="frmUnitStaffing">
+                      <legend id="frmUnitStaffing_legend" class="frmUnitStaffing_legend">UNIT STAFFING</legend>
+                      <div>
+                          <label id="Label3" tabindex="203" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">PERSONNEL</label>
+                          <label id="Label4" tabindex="204" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">POSITION</label>
+                          <label id="lbInjury" tabindex="204" class="lbInjury" data-bind="text : lbInjury.Text, imagePath : lbInjury.ImagePath">INJURY</label>
+                          <div index="0" class="_chkCasualty_0" data-bind="visible : _chkCasualty_0.Visible">
+                              <input id="_chkCasualty_0" tabindex="32" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_0.Checked, enabled : _chkCasualty_0.Enabled, events : { click : chkCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_0.Enabled"></label>
+                              </div>
+                          </div>
+                          <button id="_cmdClearPerson_0" tabindex="63" index="0" class="_cmdClearPerson_0" type="button" data-bind="visible : _cmdClearPerson_0.Visible, events : { click : cmdClearPerson_Click }, ">                             
+                              <img src="~/resources/images/frmMainWizard._cmdClearPerson_0.Image.png" />
+                              <br />
+                              <span></span>
+                          </button>
+                          <div class="_cboPersonnel_0Pos" id="_cboPersonnel_0Pos" data-bind="visible : _cboPersonnel_0.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPersonnel_0" tabindex="30" index="0" class="_cboPersonnel_0" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPersonnel_0, source : _cboPersonnel_0.ComboBoxItems, events : { change : cboPersonnel_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <div class="_cboPosition_0Pos" id="_cboPosition_0Pos" data-bind="visible : _cboPosition_0.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPosition_0" tabindex="31" index="0" class="_cboPosition_0" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPosition_0, source : _cboPosition_0.ComboBoxItems, events : { change : cboPosition_SelectionChangeCommitted }, "></select>
+                          </div>
+                         
+                          <div index="1" class="_chkCasualty_1" data-bind="visible : _chkCasualty_1.Visible">
+                              <input id="_chkCasualty_1" tabindex="35" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_1.Checked, enabled : _chkCasualty_1.Enabled, events : { click : chkCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_1.Enabled"></label>
+                              </div>
+                          </div>
+                          <div class="_cboPersonnel_1Pos" id="_cboPersonnel_1Pos" data-bind="visible : _cboPersonnel_1.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPersonnel_1" tabindex="33" index="1" class="_cboPersonnel_1" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPersonnel_1, source : _cboPersonnel_1.ComboBoxItems, events : { change : cboPersonnel_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <div class="_cboPosition_1Pos" id="_cboPosition_1Pos" data-bind="visible : _cboPosition_1.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPosition_1" tabindex="34" index="1" class="_cboPosition_1" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPosition_1, source : _cboPosition_1.ComboBoxItems, events : { change : cboPosition_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <button id="_cmdClearPerson_1" tabindex="64" index="1" class="_cmdClearPerson_1" type="button" data-bind="visible : _cmdClearPerson_1.Visible, events : { click : cmdClearPerson_Click }, ">
+                              <img src="~/resources/images/frmMainWizard._cmdClearPerson_0.Image.png" />
+                              <br />
+                              <span></span>
+                          </button>
+                        
+                          <div index="2" class="_chkCasualty_2" data-bind="visible : _chkCasualty_2.Visible">
+                              <input id="_chkCasualty_2" tabindex="38" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_2.Checked, enabled : _chkCasualty_2.Enabled, events : { click : chkCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_2.Enabled"></label>
+                              </div>
+                          </div>
+                          <div class="_cboPersonnel_2Pos" id="_cboPersonnel_2Pos" data-bind="visible : _cboPersonnel_2.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPersonnel_2" tabindex="36" index="2" class="_cboPersonnel_2" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPersonnel_2, source : _cboPersonnel_2.ComboBoxItems, events : { change : cboPersonnel_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <div class="_cboPosition_2Pos" id="_cboPosition_2Pos" data-bind="visible : _cboPosition_2.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPosition_2" tabindex="37" index="2" class="_cboPosition_2" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPosition_2, source : _cboPosition_2.ComboBoxItems, events : { change : cboPosition_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <button id="_cmdClearPerson_2" tabindex="65" index="2" class="_cmdClearPerson_2" type="button" data-bind="visible : _cmdClearPerson_2.Visible, events : { click : cmdClearPerson_Click }, ">
+                              <img src="~/resources/images/frmMainWizard._cmdClearPerson_0.Image.png" />
+                              <br />
+                              <span></span>
+                          </button>
+                      
+                          <div index="3" class="_chkCasualty_3" data-bind="visible : _chkCasualty_3.Visible">
+                              <input id="_chkCasualty_3" tabindex="42" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_3.Checked, enabled : _chkCasualty_3.Enabled, events : { click : chkCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_3.Enabled"></label>
+                              </div>
+                          </div>
+                          <div class="_cboPersonnel_3Pos" id="_cboPersonnel_3Pos" data-bind="visible : _cboPersonnel_3.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPersonnel_3" tabindex="40" index="3" class="_cboPersonnel_3" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPersonnel_3, source : _cboPersonnel_3.ComboBoxItems, events : { change : cboPersonnel_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <div class="_cboPosition_3Pos" id="_cboPosition_3Pos" data-bind="visible : _cboPosition_3.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPosition_3" tabindex="41" index="3" class="_cboPosition_3" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPosition_3, source : _cboPosition_3.ComboBoxItems, events : { change : cboPosition_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <button id="_cmdClearPerson_3" tabindex="66" index="3" class="_cmdClearPerson_3" type="button" data-bind="visible : _cmdClearPerson_3.Visible, events : { click : cmdClearPerson_Click }, ">
+                              <img src="~/resources/images/frmMainWizard._cmdClearPerson_0.Image.png" />
+                              <br />
+                              <span></span>
+                          </button>
+                          <div index="4" class="_chkCasualty_4" data-bind="visible : _chkCasualty_4.Visible">
+                              <input id="_chkCasualty_4" tabindex="45" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_4.Checked, enabled : _chkCasualty_4.Enabled, events : { click : chkCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_4.Enabled"></label>
+                              </div>
+                          </div>
+                          <div class="_cboPersonnel_4Pos" id="_cboPersonnel_4Pos" data-bind="visible : _cboPersonnel_4.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPersonnel_4" tabindex="43" index="4" class="_cboPersonnel_4" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPersonnel_4, source : _cboPersonnel_4.ComboBoxItems, events : { change : cboPersonnel_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <div class="_cboPosition_4Pos" id="_cboPosition_4Pos" data-bind="visible : _cboPosition_4.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPosition_4" tabindex="44" index="4" class="_cboPosition_4" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPosition_4, source : _cboPosition_4.ComboBoxItems, events : { change : cboPosition_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <button id="_cmdClearPerson_4" tabindex="67" index="4" class="_cmdClearPerson_4" type="button" data-bind="visible : _cmdClearPerson_4.Visible, events : { click : cmdClearPerson_Click }, ">
+                              <img src="~/resources/images/frmMainWizard._cmdClearPerson_0.Image.png" />
+                              <br />
+                              <span></span>
+                          </button>
+                         
+                          <button id="cmdAddStaff" tabindex="39" class="cmdAddStaff" type="button" data-bind="enabled : cmdAddStaff.Enabled, visible : cmdAddStaff.Visible, events : { click : cmdAddStaff_Click }, ">Add Staff...</button>
+                          <div index="5" class="_chkCasualty_5" data-bind="visible : _chkCasualty_5.Visible">
+                              <input id="_chkCasualty_5" tabindex="48" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_5.Checked, enabled : _chkCasualty_5.Enabled, events : { click : chkCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_5.Enabled"></label>
+                              </div>
+                          </div>
+                          <button id="_cmdClearPerson_5" tabindex="69" index="5" class="_cmdClearPerson_5" type="button" data-bind="visible : _cmdClearPerson_5.Visible, events : { click : cmdClearPerson_Click }, ">
+                              <img src="~/resources/images/frmMainWizard._cmdClearPerson_0.Image.png" />
+                              <br />
+                              <span></span>
+                          </button>
+                          <div class="_cboPersonnel_5Pos" id="_cboPersonnel_5Pos" data-bind="visible : _cboPersonnel_5.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPersonnel_5" tabindex="46" index="5" class="_cboPersonnel_5" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPersonnel_5, source : _cboPersonnel_5.ComboBoxItems, events : { change : cboPersonnel_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <div class="_cboPosition_5Pos" id="_cboPosition_5Pos" data-bind="visible : _cboPosition_5.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPosition_5" tabindex="47" index="5" class="_cboPosition_5" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPosition_5, source : _cboPosition_5.ComboBoxItems, events : { change : cboPosition_SelectionChangeCommitted }, "></select>
+                          </div>
+                        
+                          <div index="6" class="_chkCasualty_6" data-bind="visible : _chkCasualty_6.Visible">
+                              <input id="_chkCasualty_6" tabindex="51" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_6.Checked, enabled : _chkCasualty_6.Enabled, events : { click : chkCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_6.Enabled"></label>
+                              </div>
+                          </div>
+                          <button id="_cmdClearPerson_6" tabindex="72" index="6" class="_cmdClearPerson_6" type="button" data-bind="visible : _cmdClearPerson_6.Visible, events : { click : cmdClearPerson_Click }, ">
+                              <img src="~/resources/images/frmMainWizard._cmdClearPerson_0.Image.png" />
+                              <br />
+                              <span></span>
+                          </button>
+                          <div class="_cboPersonnel_6Pos" id="_cboPersonnel_6Pos" data-bind="visible : _cboPersonnel_6.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPersonnel_6" tabindex="49" index="6" class="_cboPersonnel_6" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPersonnel_6, source : _cboPersonnel_6.ComboBoxItems, events : { change : cboPersonnel_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <div class="_cboPosition_6Pos" id="_cboPosition_6Pos" data-bind="visible : _cboPosition_6.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPosition_6" tabindex="50" index="6" class="_cboPosition_6" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPosition_6, source : _cboPosition_6.ComboBoxItems, events : { change : cboPosition_SelectionChangeCommitted }, "></select>
+                          </div>
+                         
+                          <label id="Label8" tabindex="217" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">NON-TFD OPERATIONS PERSONNEL</label>
+                          <div index="7" class="_chkCasualty_7" data-bind="visible : _chkCasualty_7.Visible">
+                              <input id="_chkCasualty_7" tabindex="53" type="checkbox" style="float: left" data-bind="checkState : _chkCasualty_7.Checked, enabled : _chkCasualty_7.Enabled, events : { click : chkCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _chkCasualty_7.Enabled"></label>
+                              </div>
+                          </div>
+                          <button id="_cmdClearPerson_7" tabindex="68" index="7" class="_cmdClearPerson_7" type="button" data-bind="visible : _cmdClearPerson_7.Visible, events : { click : cmdClearPerson_Click }, ">
+                              <img src="~/resources/images/frmMainWizard._cmdClearPerson_0.Image.png" />
+                              <br />
+                              <span></span>
+                          </button>
+                          <div class="_cboPersonnel_7Pos" id="_cboPersonnel_7Pos" data-bind="visible : _cboPersonnel_7.Visible">
+                              <select data-role="mobilizecombobox" id="_cboPersonnel_7" tabindex="52" index="7" class="_cboPersonnel_7" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboPersonnel_7, source : _cboPersonnel_7.ComboBoxItems, events : { change : cboPersonnel_SelectionChangeCommitted }, "></select>
+                          </div>
+                         
+                         
+                      </div>
+                  </fieldset>
+                  <fieldset id="frmUnitTimes" class="frmUnitTimes">
+                      <legend id="frmUnitTimes_legend" class="frmUnitTimes_legend">UNIT RESPONSE TIMES</legend>
+                      <div>
+                          <label id="lbURDate" tabindex="216" class="lbURDate" data-bind="text : lbURDate.Text, imagePath : lbURDate.ImagePath">lbURDate</label>
+                          <label id="lbEventTitle" tabindex="165" class="lbEventTitle" data-bind="text : lbEventTitle.Text, imagePath : lbEventTitle.ImagePath">EVENT</label>
+                          <label id="lbTimeTitle" tabindex="166" class="lbTimeTitle" data-bind="text : lbTimeTitle.Text, imagePath : lbTimeTitle.ImagePath">TIME</label>
+                          <label id="lbAmendedTitle" tabindex="167" class="lbAmendedTitle" data-bind="text : lbAmendedTitle.Text, imagePath : lbAmendedTitle.ImagePath">AMENDED</label>
+                          <label id="lbAmendedReason" tabindex="168" class="lbAmendedReason" data-bind="text : lbAmendedReason.Text, imagePath : lbAmendedReason.ImagePath">REASON</label>
+                          <label id="Line1" class="Line1" data-bind="text : Line1.Text, imagePath : Line1.ImagePath"></label>
+                          <label id="lbDispatch" tabindex="159" data-tag="3" class="lbDispatch" data-bind="text : lbDispatch.Text, imagePath : lbDispatch.ImagePath">DISPATCH</label>
+                          <label id="_lbActualTime_0" tabindex="215" data-tag="3" index="0" class="_lbActualTime_0" data-bind="text : _lbActualTime_0.Text, imagePath : _lbActualTime_0.ImagePath">55:55</label>
+                          <label id="lbEnroute" tabindex="160" class="lbEnroute" data-bind="text : lbEnroute.Text, imagePath : lbEnroute.ImagePath">ENROUTE</label>
+                          <input id="_txtAmendTime_1" tabindex="3" index="1" class="_txtAmendTime_1" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_1.BackColor.Value, color : _txtAmendTime_1.ForeColor.Value }, enabled : _txtAmendTime_1.Enabled, value : _txtAmendTime_1.Text, maskedTextBoxMask : _txtAmendTime_1.Mask, maskedTextBoxPrompt : _txtAmendTime_1.PromptChar, maskedTextBoxFormat : _txtAmendTime_1.TextMaskFormat, : _txtAmendTime_1.Enabled, value : _txtAmendTime_1.Text, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+                          <div class="_cboAmendReason_1Pos" id="_cboAmendReason_1Pos">
+                              <select data-role="mobilizecombobox" id="_cboAmendReason_1" tabindex="4" index="1" class="_cboAmendReason_1" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboAmendReason_1, source : _cboAmendReason_1.ComboBoxItems, events : { change : cboAmendReason_SelectedIndexChanged }, "></select>
+                          </div>
+                          <label id="_lbActualTime_1" tabindex="210" data-tag="4" index="1" class="_lbActualTime_1" data-bind="text : _lbActualTime_1.Text, imagePath : _lbActualTime_1.ImagePath">55:55</label>
+                          <label id="lbOnscene" tabindex="161" class="lbOnscene" data-bind="text : lbOnscene.Text, imagePath : lbOnscene.ImagePath">ONSCENE</label>
+                          <input id="_txtAmendTime_2" tabindex="5" index="2" class="_txtAmendTime_2" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_2.BackColor.Value, color : _txtAmendTime_2.ForeColor.Value }, enabled : _txtAmendTime_2.Enabled, value : _txtAmendTime_2.Text, maskedTextBoxMask : _txtAmendTime_2.Mask, maskedTextBoxPrompt : _txtAmendTime_2.PromptChar, maskedTextBoxFormat : _txtAmendTime_2.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+                          <div class="_cboAmendReason_2Pos" id="_cboAmendReason_2Pos">
+                              <select data-role="mobilizecombobox" id="_cboAmendReason_2" tabindex="6" index="2" class="_cboAmendReason_2" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboAmendReason_2, source : _cboAmendReason_2.ComboBoxItems, events : { change : cboAmendReason_SelectedIndexChanged }, "></select>
+                          </div>
+                          <label id="_lbActualTime_2" tabindex="211" data-tag="5" index="2" class="_lbActualTime_2" data-bind="text : _lbActualTime_2.Text, imagePath : _lbActualTime_2.ImagePath">55:55</label>
+                          <input id="_txtAmendTime_3" tabindex="7" index="3" class="_txtAmendTime_3" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_3.BackColor.Value, color : _txtAmendTime_3.ForeColor.Value }, enabled : _txtAmendTime_3.Enabled, value : _txtAmendTime_3.Text, maskedTextBoxMask : _txtAmendTime_3.Mask, maskedTextBoxPrompt : _txtAmendTime_3.PromptChar, maskedTextBoxFormat : _txtAmendTime_3.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+                          <label id="lbTransport" tabindex="162" class="lbTransport" data-bind="text : lbTransport.Text, imagePath : lbTransport.ImagePath">TRANSPORT</label>
+                          <label id="_lbActualTime_3" tabindex="212" data-tag="6" index="3" class="_lbActualTime_3" data-bind="text : _lbActualTime_3.Text, imagePath : _lbActualTime_3.ImagePath">55:55</label>
+                          <div class="_cboAmendReason_3Pos" id="_cboAmendReason_3Pos">
+                              <select data-role="mobilizecombobox" id="_cboAmendReason_3" tabindex="8" index="3" class="_cboAmendReason_3" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboAmendReason_3, source : _cboAmendReason_3.ComboBoxItems, events : { change : cboAmendReason_SelectedIndexChanged }, "></select>
+                          </div>
+                          <label id="lbTransportComplete" tabindex="163" class="lbTransportComplete" data-bind="text : lbTransportComplete.Text, imagePath : lbTransportComplete.ImagePath">TRANSPORT COMPLETE</label>
+                          <label id="_lbActualTime_4" tabindex="213" data-tag="7" index="4" class="_lbActualTime_4" data-bind="text : _lbActualTime_4.Text, imagePath : _lbActualTime_4.ImagePath">55:55</label>
+                          <input id="_txtAmendTime_4" tabindex="9" index="4" class="_txtAmendTime_4" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_4.BackColor.Value, color : _txtAmendTime_4.ForeColor.Value }, enabled : _txtAmendTime_4.Enabled, value : _txtAmendTime_4.Text, maskedTextBoxMask : _txtAmendTime_4.Mask, maskedTextBoxPrompt : _txtAmendTime_4.PromptChar, maskedTextBoxFormat : _txtAmendTime_4.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged }, " />
+                          <div class="_cboAmendReason_4Pos" id="_cboAmendReason_4Pos">
+                              <select data-role="mobilizecombobox" id="_cboAmendReason_4" tabindex="10" index="4" class="_cboAmendReason_4" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboAmendReason_4, source : _cboAmendReason_4.ComboBoxItems, events : { change : cboAmendReason_SelectedIndexChanged }, "></select>
+                          </div>
+                          <label id="_lbActualTime_5" tabindex="214" data-tag="8" index="5" class="_lbActualTime_5" data-bind="text : _lbActualTime_5.Text, imagePath : _lbActualTime_5.ImagePath">55:55</label>
+                          <input id="_txtAmendTime_5" tabindex="11" index="5" class="_txtAmendTime_5" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtAmendTime_5.BackColor.Value, color : _txtAmendTime_5.ForeColor.Value }, enabled : _txtAmendTime_5.Enabled, value : _txtAmendTime_5.Text, maskedTextBoxMask : _txtAmendTime_5.Mask, maskedTextBoxPrompt : _txtAmendTime_5.PromptChar, maskedTextBoxFormat : _txtAmendTime_5.TextMaskFormat, events : { blur : txtAmendTime_Leave, change : txtAmendTime_TextChanged } " />
+                          <div class="_cboAmendReason_5Pos" id="_cboAmendReason_5Pos">
+                              <select data-role="mobilizecombobox" id="_cboAmendReason_5" tabindex="12" index="5" class="_cboAmendReason_5" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboAmendReason_5, source : _cboAmendReason_5.ComboBoxItems, events : { change : cboAmendReason_SelectedIndexChanged }, "></select>
+                          </div>
+                          <label id="lbAvailable" tabindex="164" class="lbAvailable" data-bind="text : lbAvailable.Text, imagePath : lbAvailable.ImagePath">AVAILABLE</label>
+                      </div>
+                  </fieldset>
+                  <label id="lbActionTaken" tabindex="43" class="lbActionTaken" data-bind="text : lbActionTaken.Text, imagePath : lbActionTaken.ImagePath">ACTIONS TAKEN</label>
+                  <fieldset id="frmUnitAction" class="frmUnitAction">
+                      <legend id="frmUnitAction_legend" class="frmUnitAction_legend"></legend>
+                      <div>
+                          <label id="lbUnitComment" tabindex="202" class="lbUnitComment" data-bind="text : lbUnitComment.Text, imagePath : lbUnitComment.ImagePath">UNIT COMMENT</label>
+                          <label id="lbActionsTakenTitle" tabindex="200" class="lbActionsTakenTitle" data-bind="text : lbActionsTakenTitle.Text, imagePath : lbActionsTakenTitle.ImagePath">UNIT ACTIONS - FIRE INCIDENTS</label>
+                          <textarea id="rtxUnitNarration" tabindex="73" class="rtxUnitNarration" data-bind="value : rtxUnitNarration.Text "></textarea>
+                          <div id="lstActionsTaken" tabindex="76" data-selectable="multiple" class="lstActionsTaken" data-role="listbox" style="overflow:auto" data-bind="source : lstActionsTaken.ListBoxItems, listBoxSelectedIndices : lstActionsTaken.ListBoxSelectedIndices, events : { change : lstActionsTaken_SelectedIndexChanged }, "></div>
+                          <label id="lbReasonsDelayTitle" tabindex="201" class="lbReasonsDelayTitle" data-bind="text : lbReasonsDelayTitle.Text, imagePath : lbReasonsDelayTitle.ImagePath">REASONS FOR DELAY</label>
+                          <div id="lstReasonDelay" tabindex="75" data-selectable="multiple" class="lstReasonDelay" data-role="listbox" style="overflow:auto" data-bind="source : lstReasonDelay.ListBoxItems, listBoxSelectedIndices : lstReasonDelay.ListBoxSelectedIndices, events : { change : lstReasonDelay_SelectedIndexChanged }, "></div>
+                      </div>
+                  </fieldset>
+              </div>
+          </fieldset>
+
+          <!--  frmFPE    Fire Protective Equipment Failure Report Wizard -->
+          <fieldset id="frmFPE" data-bind="enabled : frmFPE.Enabled">
+              <div id="frmFPE" class="frmFPE" data-bind="visible: frmFPE.Visible">
+                  <label id="Label31" tabindex="287" class="Label31" data-bind="text : Label31.Text, imagePath : Label31.ImagePath">PERSONAL PROTECTIVE EQUIPMENT PROBLEMS</label>
+                  <label id="Label30" tabindex="285" class="Label30" data-bind="text : Label30.Text, imagePath : Label30.ImagePath">SELECT PPE EQUIPMENT </label>
+                  <div class="cboFPEEquipmentPos" id="cboFPEEquipmentPos">
+                      <select data-role="mobilizecombobox" id="cboFPEEquipment" tabindex="292" class="cboFPEEquipment" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboFPEEquipment, source : cboFPEEquipment.ComboBoxItems, events : { change : cboFPEEquipment_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <label id="Label29" tabindex="283" class="Label29" data-bind="text : Label29.Text, imagePath : Label29.ImagePath">INDICATE EQUIPMENT STATUS</label>
+                  <div class="cboFPEStatusPos" id="cboFPEStatusPos">
+                      <select data-role="mobilizecombobox" id="cboFPEStatus" tabindex="291" class="cboFPEStatus" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboFPEStatus, source : cboFPEStatus.ComboBoxItems, events : { change : cboFPEStatus_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <label id="Label28" tabindex="281" class="Label28" data-bind="text : Label28.Text, imagePath : Label28.ImagePath">SELECT EQUIPMENT PROBLEM</label>
+                  <div class="cboFPEProblemPos" id="cboFPEProblemPos">
+                      <select data-role="mobilizecombobox" id="cboFPEProblem" tabindex="297" class="cboFPEProblem" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboFPEProblem, source : cboFPEProblem.ComboBoxItems, events : { change : cboFPEProblem_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <button id="cmdAddPPE" tabindex="298" class="cmdAddPPE" type="button" data-bind="enabled : cmdAddPPE.Enabled, events : { click : cmdAddPPE_Click }, ">Add Selections to List</button>
+                  <label id="Label24" tabindex="298" class="Label24" data-bind="text : Label24.Text, imagePath : Label24.ImagePath">PERSONAL PROTECTIVE EQUIPMENT PROBLEMS</label>
+                  <div id="lstPPE" tabindex="300" class="lstPPE" data-role="listbox" style="overflow:auto" data-bind="source : lstPPE.ListBoxItems, listBoxSelectedIndices : lstPPE.ListBoxSelectedIndices"></div>
+                  <button id="cmdRemovePPE" tabindex="299" class="cmdRemovePPE" type="button" data-bind="enabled : cmdRemovePPE.Enabled, events : { click : cmdRemovePPE_Click }, ">Remove Selection from List</button>
+              </div>
+          </fieldset>
+
+          <!--  frmFSCasualty    Fire Fighter Casualty Report Wizard -->
+          <fieldset id="frmFSCasualty" data-bind="enabled : frmFSCasualty.Enabled">
+              <div id="frmFSCasualty" class="frmFSCasualty" data-bind="visible: frmFSCasualty.Visible">
+                  <label id="Label22" tabindex="271" class="Label22" data-bind="text : Label22.Text, imagePath : Label22.ImagePath">FIRE SERVICE CASUALTY REPORT</label>
+                  <fieldset id="Frame1" class="Frame1">
+                      <legend id="Frame1_legend" class="Frame1_legend"></legend>
+                      <div>
+                          <label id="Label11" tabindex="257" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">INJURY SEVERITY</label>
+                          <div class="cboInjurySeverityPos" id="cboInjurySeverityPos">
+                              <select data-role="mobilizecombobox" id="cboInjurySeverity" tabindex="258" class="cboInjurySeverity" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboInjurySeverity, source : cboInjurySeverity.ComboBoxItems, events : { change : cboInjurySeverity_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <label id="Label10" tabindex="256" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">BODY PART INJURED</label>
+                          <div class="cboBodyPartPos" id="cboBodyPartPos">
+                              <select data-role="mobilizecombobox" id="cboBodyPart" tabindex="259" class="cboBodyPart" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboBodyPart, source : cboBodyPart.ComboBoxItems, "></select>
+                          </div>
+                          <label id="Label16" tabindex="255" class="Label16" data-bind="text : Label16.Text, imagePath : Label16.ImagePath">TYPE OF INJURY</label>
+                          <div class="cboInjuryTypePos" id="cboInjuryTypePos">
+                              <select data-role="mobilizecombobox" id="cboInjuryType" tabindex="260" class="cboInjuryType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboInjuryType, source : cboInjuryType.ComboBoxItems, comboSelectedIndex : cboInjuryType.SelectedIndex"></select>
+                          </div>
+                          <label id="Label17" tabindex="254" class="Label17" data-bind="text : Label17.Text, imagePath : Label17.ImagePath">CONTRIBUTING FACTORS</label>
+                          <div id="lstContributingFactors" tabindex="261" data-selectable="multiple" class="lstContributingFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstContributingFactors.ListBoxItems, listBoxSelectedIndices : lstContributingFactors.ListBoxSelectedIndices"></div>
+                      </div>
+                  </fieldset>
+                  <label id="Label18" tabindex="266" class="Label18" data-bind="text : Label18.Text, imagePath : Label18.ImagePath">Employee:</label>
+                  <label id="lbEmployee" tabindex="269" class="lbEmployee" data-bind="text : lbEmployee.Text, imagePath : lbEmployee.ImagePath">lbEmployee</label>
+                  <label id="Label19" tabindex="265" class="Label19" data-bind="text : Label19.Text, imagePath : Label19.ImagePath">Incident:</label>
+                  <label id="lbIncident" tabindex="268" class="lbIncident" data-bind="text : lbIncident.Text, imagePath : lbIncident.ImagePath">lbIncident</label>
+                  <label id="Label20" tabindex="264" class="Label20" data-bind="text : Label20.Text, imagePath : Label20.ImagePath">Date:</label>
+                  <label id="lbCasualtyDate" tabindex="267" class="lbCasualtyDate" data-bind="text : lbCasualtyDate.Text, imagePath : lbCasualtyDate.ImagePath">lbCasualtyDate</label>
+                  <div class="chkFPEProblem">
+                      <div style="float: left;overflow:hidden">
+                          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkFPEProblem.Enabled">PERSONAL PROTECTIVE EQUIPMENT PROBLEMS?</label>
+                      </div>
+                      <input id="chkFPEProblem" tabindex="279" type="checkbox" style="float: left" data-bind="enabled : chkFPEProblem.Enabled, events : { click : chkFPEProblem_CheckStateChanged }, " />
+                  </div>
+                  <fieldset id="Frame3" class="Frame3">
+                      <legend id="Frame3_legend" class="Frame3_legend"></legend>
+                      <div>
+                          <label id="Label12" tabindex="259" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">ACTIVITY AT TIME OF INJURY</label>
+                          <div class="cboActivityPos" id="cboActivityPos">
+                              <select data-role="mobilizecombobox" id="cboActivity" tabindex="266" class="cboActivity" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboActivity, source : cboActivity.ComboBoxItems, events : { change : cboActivity_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <label id="Label13" tabindex="260" class="Label13" data-bind="text : Label13.Text, imagePath : Label13.ImagePath">WHERE DID INJURY OCCUR</label>
+                          <div class="cboWhereOccuredPos" id="cboWhereOccuredPos">
+                              <select data-role="mobilizecombobox" id="cboWhereOccured" tabindex="267" class="cboWhereOccured" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboWhereOccured, source : cboWhereOccured.ComboBoxItems, events : { change : cboWhereOccured_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <label id="Label14" tabindex="261" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">INJURY CAUSED BY</label>
+                          <div class="cboInjuryCausedByPos" id="cboInjuryCausedByPos">
+                              <select data-role="mobilizecombobox" id="cboInjuryCausedBy" tabindex="268" class="cboInjuryCausedBy" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboInjuryCausedBy, source : cboInjuryCausedBy.ComboBoxItems, events : { change : cboInjuryCausedBy_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <label id="lbLocationAtInjury" tabindex="262" class="lbLocationAtInjury" data-bind="text : lbLocationAtInjury.Text, imagePath : lbLocationAtInjury.ImagePath">LOCATION AT TIME OF INJURY</label>
+                          <div class="cboLocationAtInjuryPos" id="cboLocationAtInjuryPos">
+                              <select data-role="mobilizecombobox" id="cboLocationAtInjury" tabindex="269" class="cboLocationAtInjury" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboLocationAtInjury, source : cboLocationAtInjury.ComboBoxItems, events : { change : cboLocationAtInjury_SelectionChangeCommitted }, "></select>
+                          </div>
+                      </div>
+                  </fieldset>
+                  <label id="Label15" tabindex="270" class="Label15" data-bind="text : Label15.Text, imagePath : Label15.ImagePath">DETAILED NARRATIVE</label>
+                  <label id="Label21" tabindex="263" class="Label21" data-bind="text : Label21.Text, imagePath : Label21.ImagePath">RECOMMENDATIONS FOR PREVENTION</label>
+                  <textarea id="rtxNarrative" tabindex="281" class="rtxNarrative" data-bind="value : rtxNarrative.Text "></textarea>
+                  <textarea id="rtxRecommend" tabindex="282" class="rtxRecommend" data-bind="value : rtxRecommend.Text "></textarea>
+              </div>
+          </fieldset>
+
+          <!--  frmSitFound    Situation Found Report Wizard -->
+          <fieldset id="frmSitFound" data-tag="2" data-bind="enabled : frmSitFound.Enabled">
+              <div id="frmSitFound" class="frmSitFound" data-bind="visible: frmSitFound.Visible">
+                  <label id="_lbFrameTitle_2" tabindex="40" index="2" class="_lbFrameTitle_2" data-bind="text : _lbFrameTitle_2.Text, imagePath : _lbFrameTitle_2.ImagePath">INCIDENT SITUATION FOUND REPORT</label>
+                  <div class="chkAddressCorrection">
+                      <input id="chkAddressCorrection" tabindex="149" type="checkbox" style="float: left" data-bind="events : { click : chkAddressCorrection_CheckStateChanged }, " />
+                      <div style="float: left;overflow:hidden">
+                          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">   Incident Address          Correction Needed</label>
+                      </div>
+                  </div>
+                  <label id="Label2" tabindex="198" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Situations Found</label>
+                  <label id="Label1" tabindex="197" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Reporting Unit</label>
+                  <fieldset id="frmSituation" class="frmSituation">
+                      <legend id="frmSituation_legend" class="frmSituation_legend"></legend>
+                      <div>
+                          <div index="0" class="_chkSitFound_0">
+                              <input id="_chkSitFound_0" tabindex="120" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_0.Checked, events : { click : chkSitFound_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">FIRE</label>
+                              </div>
+                          </div>
+                          <div class="_cboUnit_0Pos" id="_cboUnit_0Pos">
+                              <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_0" tabindex="121" index="0" class="_cboUnit_0" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_0, source : _cboUnit_0.ComboBoxItems, comboSelectedIndex : _cboUnit_0.SelectedIndex"></select>
+                          </div>
+                          <div class="_cboUnit_1Pos" id="_cboUnit_1Pos">
+                              <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_1" tabindex="123" index="1" class="_cboUnit_1" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_1, source : _cboUnit_1.ComboBoxItems, comboSelectedIndex : _cboUnit_1.SelectedIndex"></select>
+                          </div>
+                          <div index="1" class="_chkSitFound_1">
+                              <input id="_chkSitFound_1" tabindex="122" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_1.Checked, events : { click : chkSitFound_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">RUPTURE/EXPLOSION</label>
+                              </div>
+                          </div>
+                          <div class="_cboUnit_2Pos" id="_cboUnit_2Pos">
+                              <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_2" tabindex="125" index="2" class="_cboUnit_2" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_2, source : _cboUnit_2.ComboBoxItems, comboSelectedIndex : _cboUnit_2.SelectedIndex"></select>
+                          </div>
+                          <div index="2" class="_chkSitFound_2">
+                              <input id="_chkSitFound_2" tabindex="124" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_2.Checked, events : { click : chkSitFound_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">HAZMAT</label>
+                              </div>
+                          </div>
+                          <input disabled="disabled" id="txtNumberCivCasulties" tabindex="127" class="txtNumberCivCasulties" data-bind="style : { backgroundColor : txtNumberCivCasulties.BackColor.Value, color : txtNumberCivCasulties.ForeColor.Value }, enabled : txtNumberPatients.Enabled,  value : txtNumberCivCasulties.Text, events : { change : txtNumberCivCasulties_TextChanged }, " />
+                          <div class="chkCivilianCasualty">
+                              <input id="chkCivilianCasualty" tabindex="126" type="checkbox" style="float: left" data-bind="enabled : chkCivilianCasualty.Enabled, events : { click : chkCivilianCasualty_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkCivilianCasualty.Enabled">CIVILIAN CASUALTY COUNT</label>
+                              </div>
+                          </div>
+                          <div index="3" class="_chkSitFound_3">
+                              <input id="_chkSitFound_3" tabindex="128" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_3.Checked, events : { click : chkSitFound_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">EMS PATIENT (SINGLE)</label>
+                              </div>
+                          </div>
+                          <div class="_cboUnit_3Pos" id="_cboUnit_3Pos">
+                              <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_3" tabindex="129" index="3" class="_cboUnit_3" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_3, source : _cboUnit_3.ComboBoxItems, comboSelectedIndex : _cboUnit_3.SelectedIndex"></select>
+                          </div>
+                          <div class="chkSirenSingle">
+                              <input id="chkSirenSingle" tabindex="144" type="checkbox" style="float: left" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">SIREN ?</label>
+                              </div>
+                          </div>                  
+                          <button id="FDCaresBtn" tabindex="145" class="FDCaresBtn" type="button" data-bind="events : { click : FDCaresBtn_Click }, ">TFDCares Referral</button>
+                          <input disabled="disabled" id="txtNumberPatients" tabindex="131" class="txtNumberPatients" data-bind="style : { backgroundColor : txtNumberPatients.BackColor.Value, color : txtNumberPatients.ForeColor.Value }, enabled : txtNumberPatients.Enabled, value : txtNumberPatients.Text, events : { change : txtNumberPatients_TextChanged }, " />
+                          <div index="4" class="_chkSitFound_4">
+                              <input id="_chkSitFound_4" tabindex="130" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_4.Checked, events : { click : chkSitFound_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">EMS PATIENTS -  \# OF PATIENTS</label>
+                              </div>
+                          </div>
+                          <div index="5" class="_chkSitFound_5">
+                              <input id="_chkSitFound_5" tabindex="132" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_5.Checked, events : { click : chkSitFound_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">SEARCH AND/OR RESCUE</label>
+                              </div>
+                          </div>
+                          <div class="_cboUnit_5Pos" id="_cboUnit_5Pos">
+                              <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_5" tabindex="133" index="5" class="_cboUnit_5" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_5, source : _cboUnit_5.ComboBoxItems, comboSelectedIndex : _cboUnit_5.SelectedIndex"></select>
+                          </div>
+                          <div index="6" class="_chkSitFound_6">
+                              <input id="_chkSitFound_6" tabindex="134" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_6.Checked, events : { click : chkSitFound_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">HAZARDOUS CONDITION</label>
+                              </div>
+                          </div>
+                          <div class="_cboUnit_6Pos" id="_cboUnit_6Pos">
+                              <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_6" tabindex="135" index="6" class="_cboUnit_6" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_6, source : _cboUnit_6.ComboBoxItems, comboSelectedIndex : _cboUnit_6.SelectedIndex"></select>
+                          </div>
+                          <div index="7" class="_chkSitFound_7">
+                              <input id="_chkSitFound_7" tabindex="136" type="checkbox" style="float: left" data-bind="checkState : _chkSitFound_7.Checked, events : { click : chkSitFound_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">FALSE ALARM</label>
+                              </div>
+                          </div>
+                          <div class="_cboUnit_7Pos" id="_cboUnit_7Pos">
+                              <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_7" tabindex="137" index="7" class="_cboUnit_7" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_7, source : _cboUnit_7.ComboBoxItems, comboSelectedIndex : _cboUnit_7.SelectedIndex"></select>
+                          </div>
+                          <fieldset id="Frame2" data-bind="enabled : Frame2.Enabled">
+                              <div id="Frame2" class="Frame2">
+                                  <div index="0" class="_optServiceReport_0">
+                                      <input id="_optServiceReport_0" tabindex="138" type="radio" name="Frame2_radios" style="float: left" data-bind="customChecked : _optServiceReport_0.Checked, events : { change : optServiceReport_CheckedChanged }, " />
+                                      <div style="float: left;overflow:hidden">
+                                          <label style="float: left; color:white;">INVESTIGATE ONLY</label>
+                                      </div>
+                                  </div>
+                                  <div class="_cboUnit_9Pos" id="_cboUnit_9Pos">
+                                      <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_9" tabindex="139" index="9" class="_cboUnit_9" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_9, source : _cboUnit_9.ComboBoxItems, comboSelectedIndex : _cboUnit_9.SelectedIndex"></select>
+                                  </div>
+                                  <div index="1" class="_optServiceReport_1">
+                                      <input id="_optServiceReport_1" tabindex="140" type="radio" name="Frame2_radios" style="float: left" data-bind="customChecked : _optServiceReport_1.Checked, events : { change : optServiceReport_CheckedChanged }, " />
+                                      <div style="float: left;overflow:hidden">
+                                          <label style="float: left; color:white; ">CLEAN UP ONLY</label>
+                                      </div>
+                                  </div>
+                                  <div class="_cboUnit_10Pos" id="_cboUnit_10Pos">
+                                      <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_10" tabindex="141" index="10" class="_cboUnit_10" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_10, source : _cboUnit_10.ComboBoxItems, comboSelectedIndex : _cboUnit_10.SelectedIndex"></select>
+                                  </div>
+                                  <div index="2" class="_optServiceReport_2">
+                                      <input id="_optServiceReport_2" tabindex="142" type="radio" name="Frame2_radios" style="float: left" data-bind="customChecked : _optServiceReport_2.Checked, events : { change : optServiceReport_CheckedChanged }, " />
+                                      <div style="float: left;overflow:hidden">
+                                          <label style="float: left; color:white;">STANDBY/STAGING ONLY</label>
+                                      </div>
+                                  </div>
+                                  <div class="_cboUnit_11Pos" id="_cboUnit_11Pos">
+                                      <select data-role="mobilizecombobox" disabled="disabled" id="_cboUnit_11" tabindex="143" index="11" class="_cboUnit_11" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboUnit_11, source : _cboUnit_11.ComboBoxItems, comboSelectedIndex : _cboUnit_11.SelectedIndex"></select>
+                                  </div>
+                              </div>
+                          </fieldset>
+                      </div>
+                  </fieldset>
+                  <label id="lbEMSReportingUnit" tabindex="229" class="lbEMSReportingUnit" data-bind="visible : lbEMSReportingUnit.Visible, text : lbEMSReportingUnit.Text, imagePath : lbEMSReportingUnit.ImagePath">Multiple Patient Assignments</label>
+                  <label id="lbSirenTitle" tabindex="325" class="lbSirenTitle" data-bind="text : lbSirenTitle.Text, imagePath : lbSirenTitle.ImagePath">Siren Report</label>
+                  <fieldset id="frmMultiEMS" class="frmMultiEMS" data-bind="visible : frmMultiEMS.Visible">                  
+                      <div>
+                          <div class="_cboEMSUnit_0Pos" id="_cboEMSUnit_0Pos" data-bind="visible : _cboEMSUnit_0.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_0" tabindex="81" index="0" class="_cboEMSUnit_0" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_0, source : _cboEMSUnit_0.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_0.SelectedIndex"></select>
+                          </div>
+                          <div index="0" class="_chkSirenReport_0" >
+                              <input id="_chkSirenReport_0" tabindex="107" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_0.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label "style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <label id="_lbPatient_0" tabindex="184" index="0" class="_lbPatient_0" data-bind="visible : _lbPatient_0.Visible, text : _lbPatient_0.Text, imagePath : _lbPatient_0.ImagePath">PCR</label>
+                          <label id="_lbPatient_1" tabindex="185" index="1" class="_lbPatient_1" data-bind="visible : _lbPatient_1.Visible, text : _lbPatient_1.Text, imagePath : _lbPatient_1.ImagePath">PCR</label>
+                          <div class="_cboEMSUnit_1Pos" id="_cboEMSUnit_1Pos" data-bind="visible : _cboEMSUnit_1.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_1" tabindex="82" index="1" class="_cboEMSUnit_1" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_1, source : _cboEMSUnit_1.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_1.SelectedIndex"></select>
+                          </div>
+                          <div index="1" class="_chkSirenReport_1">
+                              <input id="_chkSirenReport_1" tabindex="108" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_1.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <div class="_cboEMSUnit_2Pos" id="_cboEMSUnit_2Pos">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_2" tabindex="83" index="2" class="_cboEMSUnit_2" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_2, source : _cboEMSUnit_2.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_2.SelectedIndex"></select>
+                          </div>
+                          <div index="2" class="_chkSirenReport_2">
+                              <input id="_chkSirenReport_2" tabindex="109" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_2.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <label id="_lbPatient_2" tabindex="186" index="2" class="_lbPatient_2" data-bind="visible : _lbPatient_2.Visible, text : _lbPatient_2.Text, imagePath : _lbPatient_2.ImagePath">PCR</label>
+                          <div index="3" class="_chkSirenReport_3">
+                              <input id="_chkSirenReport_3" tabindex="110" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_3.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <label id="_lbPatient_3" tabindex="188" index="3" class="_lbPatient_3" data-bind="visible : _lbPatient_3.Visible, text : _lbPatient_3.Text, imagePath : _lbPatient_3.ImagePath">PCR</label>
+                          <div class="_cboEMSUnit_3Pos" id="_cboEMSUnit_3Pos" data-bind="visible : _cboEMSUnit_3.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_3" tabindex="84" index="3" class="_cboEMSUnit_3" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_3, source : _cboEMSUnit_3.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_3.SelectedIndex"></select>
+                          </div>
+                          <label id="_lbPatient_4" tabindex="190" index="4" class="_lbPatient_4" data-bind="visible : _lbPatient_4.Visible, text : _lbPatient_4.Text, imagePath : _lbPatient_4.ImagePath">PCR</label>
+                          <div class="_cboEMSUnit_4Pos" id="_cboEMSUnit_4Pos" data-bind="visible : _cboEMSUnit_4.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_4" tabindex="85" index="4" class="_cboEMSUnit_4" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_4, source : _cboEMSUnit_4.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_4.SelectedIndex"></select>
+                          </div>
+                          <div index="4" class="_chkSirenReport_4">
+                              <input id="_chkSirenReport_4" tabindex="111" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_4.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <div class="_cboEMSUnit_5Pos" id="_cboEMSUnit_5Pos" data-bind="visible : _cboEMSUnit_5.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_5" tabindex="86" index="5" class="_cboEMSUnit_5" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_5, source : _cboEMSUnit_5.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_5.SelectedIndex"></select>
+                          </div>
+                          <div index="5" class="_chkSirenReport_5">
+                              <input id="_chkSirenReport_5" tabindex="112" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_5.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <label id="_lbPatient_5" tabindex="192" index="5" class="_lbPatient_5" data-bind="visible : _lbPatient_5.Visible, text : _lbPatient_5.Text, imagePath : _lbPatient_5.ImagePath">PCR</label>
+                          <div class="_cboEMSUnit_6Pos" id="_cboEMSUnit_6Pos" data-bind="visible : _cboEMSUnit_6.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_6" tabindex="87" index="6" class="_cboEMSUnit_6" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_6, source : _cboEMSUnit_6.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_6.SelectedIndex"></select>
+                          </div>
+                          <div index="6" class="_chkSirenReport_6">
+                              <input id="_chkSirenReport_6" tabindex="113" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_6.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <label id="_lbPatient_6" tabindex="193" index="6" class="_lbPatient_6" data-bind="visible : _lbPatient_6.Visible, text : _lbPatient_6.Text, imagePath : _lbPatient_6.ImagePath">PCR</label>
+                          <label id="_lbPatient_7" tabindex="194" index="7" class="_lbPatient_7" data-bind="visible : _lbPatient_7.Visible, text : _lbPatient_7.Text, imagePath : _lbPatient_7.ImagePath">PCR</label>
+                          <div class="_cboEMSUnit_7Pos" id="_cboEMSUnit_7Pos" data-bind="visible : _cboEMSUnit_7.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_7" tabindex="88" index="7" class="_cboEMSUnit_7" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_7, source : _cboEMSUnit_7.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_7.SelectedIndex"></select>
+                          </div>
+                          <div index="7" class="_chkSirenReport_7">
+                              <input id="_chkSirenReport_7" tabindex="114" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_7.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <div class="_cboEMSUnit_8Pos" id="_cboEMSUnit_8Pos" data-bind="visible : _cboEMSUnit_8.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_8" tabindex="89" index="8" class="_cboEMSUnit_8" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_8, source : _cboEMSUnit_8.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_8.SelectedIndex"></select>
+                          </div>
+                          <div index="8" class="_chkSirenReport_8">
+                              <input id="_chkSirenReport_8" tabindex="115" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_8.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <label id="_lbPatient_8" tabindex="195" index="8" class="_lbPatient_8" data-bind="visible : _lbPatient_8.Visible, text : _lbPatient_8.Text, imagePath : _lbPatient_8.ImagePath">PCR</label>
+                          <div index="9" class="_chkSirenReport_9" >
+                              <input id="_chkSirenReport_9" tabindex="116" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_9.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <label id="_lbPatient_9" tabindex="196" index="9" class="_lbPatient_9" data-bind="visible : _lbPatient_9.Visible, text : _lbPatient_9.Text, imagePath : _lbPatient_9.ImagePath">PCR</label>
+                          <div class="_cboEMSUnit_9Pos" id="_cboEMSUnit_9Pos" data-bind="visible : _cboEMSUnit_9.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_9" tabindex="90" index="9" class="_cboEMSUnit_9" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_9, source : _cboEMSUnit_9.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_9.SelectedIndex"></select>
+                          </div>
+                          <label id="_lbPatient_10" tabindex="226" index="10" class="_lbPatient_10" data-bind="visible : _lbPatient_10.Visible, text : _lbPatient_10.Text, imagePath : _lbPatient_10.ImagePath">PCR</label>
+                          <div class="_cboEMSUnit_10Pos" id="_cboEMSUnit_10Pos" data-bind="visible : _cboEMSUnit_10.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_10" tabindex="91" index="10" class="_cboEMSUnit_10" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_10, source : _cboEMSUnit_10.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_10.SelectedIndex"></select>
+                          </div>
+                          <div index="10" class="_chkSirenReport_10" >
+                              <input id="_chkSirenReport_10" tabindex="117" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_10.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <div class="_cboEMSUnit_11Pos" id="_cboEMSUnit_11Pos" data-bind="visible : _cboEMSUnit_11.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_11" tabindex="92" index="11" class="_cboEMSUnit_11" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_11, source : _cboEMSUnit_11.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_11.SelectedIndex"></select>
+                          </div>
+                          <div index="11" class="_chkSirenReport_11" >
+                              <input id="_chkSirenReport_11" tabindex="118" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_11.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                          <label id="_lbPatient_11" tabindex="227" index="11" class="_lbPatient_11" data-bind="visible : _lbPatient_11.Visible, text : _lbPatient_11.Text, imagePath : _lbPatient_11.ImagePath">PCR</label>
+                          <label id="_lbPatient_12" tabindex="228" index="12" class="_lbPatient_12" data-bind="visible : _lbPatient_12.Visible, text : _lbPatient_12.Text, imagePath : _lbPatient_12.ImagePath">PCR</label>
+                          <div class="_cboEMSUnit_12Pos" id="_cboEMSUnit_12Pos" data-bind="visible : _cboEMSUnit_12.Visible">
+                              <select data-role="mobilizecombobox" id="_cboEMSUnit_12" tabindex="93" index="12" class="_cboEMSUnit_12" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_12, source : _cboEMSUnit_12.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_12.SelectedIndex"></select>
+                          </div>
+                          <div index="12" class="_chkSirenReport_12" >
+                              <input id="_chkSirenReport_12" tabindex="119" type="checkbox" style="float: left" data-bind="checkState : _chkSirenReport_12.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
+                              </div>
+                          </div>
+                      </div>
+                  </fieldset>
+                  <div class="chkMutualAid">
+                      <input id="chkMutualAid" tabindex="150" type="checkbox" style="float: left" />
+                      <div style="float: left;overflow:hidden">
+                          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">MUTUAL AID GIVEN OR RECEIVED?</label>
+                      </div>
+                  </div>
+              </div>
+          </fieldset>
+
+          <!--  frmIncidentAddressCorrection    Incident Address Correction Report Wizard -->
+          <fieldset id="frmIncidentAddressCorrection" data-bind="enabled : frmIncidentAddressCorrection.Enabled">
+              <div id="frmIncidentAddressCorrection" class="frmIncidentAddressCorrection">
+                  <label id="_lbFrameTitle_9" tabindex="316" index="9" class="_lbFrameTitle_9" data-bind="text : _lbFrameTitle_9.Text, imagePath : _lbFrameTitle_9.ImagePath">INCIDENT ADDRESS CORRECTION</label>
+                  <fieldset id="Frame4" class="Frame4">
+                      <legend id="Frame4_legend" class="Frame4_legend"></legend>
+                      <div>
+                          <label id="Label34" tabindex="315" class="Label34" data-bind="text : Label34.Text, imagePath : Label34.ImagePath">HOUSE\#</label>
+                          <input id="txtXHouseNumber" tabindex="302" class="txtXHouseNumber" data-bind="value : txtXHouseNumber.Text, events : { change : txtXHouseNumber_TextChanged }, " />
+                          <div class="cboXPrefixPos" id="cboXPrefixPos">
+                              <select data-role="mobilizecombobox" id="cboXPrefix" tabindex="303" class="cboXPrefix" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboXPrefix, source : cboXPrefix.ComboBoxItems, events : { change : cboXPrefix_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <label id="Label33" tabindex="314" class="Label33" data-bind="text : Label33.Text, imagePath : Label33.ImagePath">PREFIX</label>
+                          <input id="txtXStreetName" tabindex="304" class="txtXStreetName" data-bind="value : txtXStreetName.Text, events : { change : txtXStreetName_TextChanged }, " />
+                          <label id="Label32" tabindex="313" class="Label32" data-bind="text : Label32.Text, imagePath : Label32.ImagePath">STREET NAME</label>
+                          <div class="cboXStreetTypePos" id="cboXStreetTypePos">
+                              <select data-role="mobilizecombobox" id="cboXStreetType" tabindex="305" class="cboXStreetType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboXStreetType, source : cboXStreetType.ComboBoxItems, events : { change : cboXStreetType_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <label id="Label27" tabindex="312" class="Label27" data-bind="text : Label27.Text, imagePath : Label27.ImagePath">STREET TYPE</label>
+                          <div class="cboXSuffixPos" id="cboXSuffixPos">
+                              <select data-role="mobilizecombobox" id="cboXSuffix" tabindex="306" class="cboXSuffix" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboXSuffix, source : cboXSuffix.ComboBoxItems, events : { change : cboXSuffix_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <label id="Label26" tabindex="311" class="Label26" data-bind="text : Label26.Text, imagePath : Label26.ImagePath">SUFFIX</label>
+                          <div class="cboCityCodePos" id="cboCityCodePos">
+                              <select data-role="mobilizecombobox" id="cboCityCode" tabindex="307" class="cboCityCode" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboCityCode, source : cboCityCode.ComboBoxItems, events : { change : cboCityCode_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <label id="Label25" tabindex="310" class="Label25" data-bind="text : Label25.Text, imagePath : Label25.ImagePath">CITY</label>
+                      </div>
+                  </fieldset>
+              </div>
+          </fieldset>
+          <fieldset id="frmNarration" data-tag="7" data-bind="enabled : frmNarration.Enabled">
+              <div id="frmNarration" class="frmNarration" data-bind="visible: frmNarration.Visible">
+                  <fieldset id="_imgMain_7" data-tag="7" index="7" class="_imgMain_7" data-bind="enabled : _imgMain_7.Enabled, style : { backgroundImage : _imgMain_7.Image }"></fieldset>
+                  <label id="_lbFrameTitle_7" tabindex="155" index="7" class="_lbFrameTitle_7" data-bind="text : _lbFrameTitle_7.Text, imagePath : _lbFrameTitle_7.ImagePath">REPORT NARRATION</label>
+                  <textarea id="rtxNarration" tabindex="233" class="rtxNarration" data-bind="value : rtxNarration.Text "></textarea>
+              </div>
+          </fieldset>
+
+          <!--  frmCivilianCasualty   Civilian Casualty Report Wizard -->
+          <fieldset id="frmCivilianCasualty" data-tag="6" data-bind="enabled : frmCivilianCasualty.Enabled">
+              <div id="frmCivilianCasualty" class="frmCivilianCasualty" data-bind="visible: frmCivilianCasualty.Visible">
+                  <fieldset id="_imgMain_6" index="6" class="_imgMain_6" data-bind="enabled : _imgMain_6.Enabled, style : { backgroundImage : _imgMain_6.Image }"></fieldset>
+                  <label id="lbCivCasualtyTitle" tabindex="101" class="lbCivCasualtyTitle" data-bind="text : lbCivCasualtyTitle.Text, imagePath : lbCivCasualtyTitle.ImagePath">Civilian Casualty Report</label>
+                  <fieldset id="frmEMRInfo" class="frmEMRInfo">
+                      <legend id="frmEMRInfo_legend" class="frmEMRInfo_legend"></legend>
+                      <div>
+                          <div class="chkEMR" data-bind="style : { backgroundColor : chkEMR.BackColor.Value, color : chkEMR.ForeColor.Value }">
+                              <input id="chkEMR" tabindex="157" type="checkbox" style="float: left" data-bind="events : { click : chkEMR_CheckStateChanged }, " />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">EMS PATIENT REPORT COMPLETED?</label>
+                              </div>
+                          </div>
+                          <label id="lbEMSPatient" tabindex="238" class="lbEMSPatient" data-bind="text : lbEMSPatient.Text, imagePath : lbEMSPatient.ImagePath">SELECT EMS PATIENT</label>
+                          <div class="cboEMSPatientPos" id="cboEMSPatientPos">
+                              <select data-role="mobilizecombobox" disabled="disabled" id="cboEMSPatient" tabindex="158" class="cboEMSPatient" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboEMSPatient, source : cboEMSPatient.ComboBoxItems, events : { change : cboEMSPatient_SelectionChangeCommitted }, "></select>
+                          </div>
+                      </div>
+                  </fieldset>
+                  <fieldset id="frmInjuryInfo" class="frmInjuryInfo">
+                      <legend id="frmInjuryInfo_legend" class="frmInjuryInfo_legend"></legend>
+                      <div>
+                          <label id="lbSeverity" tabindex="247" class="lbSeverity" data-bind="text : lbSeverity.Text, imagePath : lbSeverity.ImagePath">INJURY SEVERITY</label>
+                          <div class="cboSeverityPos" id="cboSeverityPos">
+                              <select data-role="mobilizecombobox" id="cboSeverity" tabindex="163" class="cboSeverity" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboSeverity, source : cboSeverity.ComboBoxItems, events : { change : cboSeverity_SelectionChangeCommitted }, "></select>
+                          </div>
+                          <div class="cboInjuryCausePos" id="cboInjuryCausePos">
+                              <select data-role="mobilizecombobox" id="cboInjuryCause" tabindex="162" class="cboInjuryCause" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboInjuryCause, source : cboInjuryCause.ComboBoxItems, comboSelectedIndex : cboInjuryCause.SelectedIndex"></select>
+                          </div>
+                          <label id="lbInjuryCause" tabindex="246" class="lbInjuryCause" data-bind="text : lbInjuryCause.Text, imagePath : lbInjuryCause.ImagePath">INJURY CAUSED BY</label>
+                          <div class="cboCCLocationPos" id="cboCCLocationPos">
+                              <select data-role="mobilizecombobox" id="cboCCLocation" tabindex="161" class="cboCCLocation" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboCCLocation, source : cboCCLocation.ComboBoxItems, comboSelectedIndex : cboCCLocation.SelectedIndex"></select>
+                          </div>
+                          <label id="lbCCLocation" tabindex="244" class="lbCCLocation" data-bind="text : lbCCLocation.Text, imagePath : lbCCLocation.ImagePath">LOCATION AT INJURY</label>
+                          <label id="lbFloor" tabindex="245" class="lbFloor" data-bind="text : lbFloor.Text, imagePath : lbFloor.ImagePath">FLOOR</label>
+                          <input id="txtFloor" tabindex="160" class="txtFloor" data-bind="value : txtFloor.Text" />
+                      </div>
+                  </fieldset>
+                  <label id="lbHumanContribFactors" tabindex="103" class="lbHumanContribFactors" data-bind="text : lbHumanContribFactors.Text, imagePath : lbHumanContribFactors.ImagePath">HUMAN CONTRIBUTING FACTORS</label>
+                  <label id="lbContribFactors" tabindex="105" class="lbContribFactors" data-bind="text : lbContribFactors.Text, imagePath : lbContribFactors.ImagePath">CONTRIBUTING FACTORS</label>
+                  <div id="lstHumanContribFactors" tabindex="154" data-selectable="multiple" class="lstHumanContribFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstHumanContribFactors.ListBoxItems, listBoxSelectedIndices : lstHumanContribFactors.ListBoxSelectedIndices"></div>
+                  <div id="lstContribFactors" tabindex="156" data-selectable="multiple" class="lstContribFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstContribFactors.ListBoxItems, listBoxSelectedIndices : lstContribFactors.ListBoxSelectedIndices"></div>
+              </div>
+          </fieldset>
+
+          <!--  frmAllInfo   All Info Report Wizard -->
+          <fieldset id="frmAllInfo" data-tag="5" data-bind="enabled : frmAllInfo.Enabled">
+              <div id="frmAllInfo" class="frmAllInfo" data-bind="visible: frmAllInfo.Visible, style : { backgroundColor : frmAllInfo.BackColor.Value }">
+                  <fieldset id="_imgMain_5" index="5" class="_imgMain_5" data-bind="enabled : _imgMain_5.Enabled, style : { backgroundImage : _imgMain_5.Image }"></fieldset>
+                  <label id="lbAllInfoTitle" tabindex="90" class="lbAllInfoTitle" data-bind="style : { color : lbAllInfoTitle.ForeColor.Value }, text : lbAllInfoTitle.Text, imagePath : lbAllInfoTitle.ImagePath">FALSE ALARM REPORT</label>
+                  <label id="lbAllInfo1" tabindex="91" class="lbAllInfo1" data-bind="style : { color : lbAllInfo1.ForeColor.Value }, visible : lbAllInfo1.Visible, text : lbAllInfo1.Text, imagePath : lbAllInfo1.ImagePath">lbAllInfo1</label>
+                  <div class="cboAllInfo1Pos" id="cboAllInfo1Pos" data-bind="visible : cboAllInfo1.Visible">
+                      <select data-role="mobilizecombobox" id="cboAllInfo1" tabindex="170" class="cboAllInfo1" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboAllInfo1, source : cboAllInfo1.ComboBoxItems, events : { change : cboAllInfo1_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <label id="lbAllInfo2" tabindex="94" class="lbAllInfo2" data-bind="style : { color : lbAllInfo2.ForeColor.Value }, visible : lbAllInfo2.Visible, text : lbAllInfo2.Text, imagePath : lbAllInfo2.ImagePath">lbAllInfo2</label>
+                  <div class="cboAllInfo2Pos" id="cboAllInfo2Pos" data-bind="visible : cboAllInfo2.Visible">
+                      <select data-role="mobilizecombobox" id="cboAllInfo2" tabindex="171" class="cboAllInfo2" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboAllInfo2, source : cboAllInfo2.ComboBoxItems, events : { change : cboAllInfo2_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <label id="lbAllInfo3" tabindex="96" class="lbAllInfo3" data-bind="style : { color : lbAllInfo3.ForeColor.Value }, visible : lbAllInfo3.Visible, text : lbAllInfo3.Text, imagePath : lbAllInfo3.ImagePath">lbAllInfo3</label>
+                  <div class="cboAllInfo3Pos" id="cboAllInfo3Pos" data-bind="visible : cboAllInfo3.Visible">
+                      <select data-role="mobilizecombobox" id="cboAllInfo3" tabindex="173" class="cboAllInfo3" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboAllInfo3, source : cboAllInfo3.ComboBoxItems, events : { change : cboAllInfo3_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <input id="txtAllInfo1" tabindex="175" Value="txtAllInfo1" class="txtAllInfo1" data-bind="style : { color : txtAllInfo1.ForeColor.Value }, visible : txtAllInfo1.Visible, value : txtAllInfo1.Text, events : { change : txtAllInfo1_TextChanged }, " />
+                  <label id="lbAllInfo4" tabindex="107" class="lbAllInfo4" data-bind="style : { color : lbAllInfo4.ForeColor.Value }, visible : lbAllInfo4.Visible, text : lbAllInfo4.Text, imagePath : lbAllInfo4.ImagePath">lbAllInfo4</label>
+                  <textarea id="rtxFalseAlarmComment" tabindex="176" class="rtxFalseAlarmComment" data-bind="visible : rtxFalseAlarmComment.Visible, value : rtxNarrative.Text "></textarea>
+              </div>
+          </fieldset>
+
+          <!--  frmService   Generic Service Report Wizard -->
+          <fieldset id="frmService" data-tag="13" data-bind="enabled : frmService.Enabled">
+              <div id="frmService" class="frmService" data-bind="visible: frmService.Visible">
+                  <fieldset id="_imgMain_13" index="13" class="_imgMain_13" data-bind="enabled : _imgMain_13.Enabled, style : { backgroundImage : _imgMain_13.Image }"></fieldset>
+                  <label id="lbServiceTitle" tabindex="42" class="lbServiceTitle" data-bind="text : lbServiceTitle.Text, imagePath : lbServiceTitle.ImagePath">Frame Title</label>
+                  <label id="lbServiceProvided" tabindex="157" class="lbServiceProvided" data-bind="text : lbServiceProvided.Text, imagePath : lbServiceProvided.ImagePath">SERVICE PROVIDED</label>
+                  <div class="cboServiceTypePos" id="cboServiceTypePos">
+                      <select data-role="mobilizecombobox" id="cboServiceType" tabindex="220" class="cboServiceType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboServiceType, source : cboServiceType.ComboBoxItems, events : { change : cboServiceType_SelectionChangeCommitted }, "></select>
+                  </div>
+                  <input id="txtStandbyHours" tabindex="221" Value="txtStandbyHours" class="txtStandbyHours" data-bind="style : { backgroundColor : txtStandbyHours.BackColor.Value, color : txtStandbyHours.ForeColor.Value }, visible : txtStandbyHours.Visible, value : txtStandbyHours.Text, events : { change : txtStandbyHours_TextChanged }, " />
+                  <label id="lbStandbyHours" tabindex="156" class="lbStandbyHours" data-bind="visible : lbStandbyHours.Visible, text : lbStandbyHours.Text, imagePath : lbStandbyHours.ImagePath">STANDBY HOURS</label>
+                  <input id="txtNumberSafePlace" tabindex="222" Value="txtStandbyHours" class="txtNumberSafePlace" data-bind="style : { backgroundColor : txtNumberSafePlace.BackColor.Value, color : txtNumberSafePlace.ForeColor.Value }, visible : txtNumberSafePlace.Visible, value : txtNumberSafePlace.Text, events : { change : txtNumberSafePlace_TextChanged }, " />
+                  <label id="lbSafePlace" tabindex="230" class="lbSafePlace" data-bind="visible : lbSafePlace.Visible, text : lbSafePlace.Text, imagePath : lbSafePlace.ImagePath">NUMBER OF SAFEPLACE JUVENILES</label>
+              </div>
+          </fieldset>
+
+          <!--  frmReportStatus   Report Status Screen for Main Wizard -->
+          <fieldset id="frmReportStatus" data-tag="1" data-bind="enabled : frmReportStatus.Enabled, style : { left : frmReportStatus.LeftString },  visible: frmReportStatus.Visible">
+              <div id="frmReportStatus" class="frmReportStatus" data-bind="style : { left : frmReportStatus.LeftString }, visible: frmReportStatus.Visible">
+                  <fieldset id="_imgMain_1" index="1" class="_imgMain_1" data-bind="enabled : _imgMain_1.Enabled, style : { backgroundImage : _imgMain_1.Image }"></fieldset>
+                  <label id="lbRSFrameTitle" tabindex="41" class="lbRSFrameTitle" data-bind="text : lbRSFrameTitle.Text, imagePath : lbRSFrameTitle.ImagePath">INCIDENT REPORT STATUS</label>
+                  <label id="lbIncidentNumberTitle" tabindex="81" class="lbIncidentNumberTitle" data-bind="text : lbIncidentNumberTitle.Text, imagePath : lbIncidentNumberTitle.ImagePath">INCIDENT \#</label>
+                  <label id="lbRSIncidentNumber" tabindex="83" class="lbRSIncidentNumber" data-bind="text : lbRSIncidentNumber.Text, imagePath : lbRSIncidentNumber.ImagePath">001230056</label>
+                  <label id="Label5" tabindex="206" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">CURRENT REPORT:</label>
+                  <label id="lbRSCurrReportType" tabindex="207" class="lbRSCurrReportType" data-bind="text : lbRSCurrReportType.Text, imagePath : lbRSCurrReportType.ImagePath">Unit Report</label>
+                  <label id="lbReportByTitle" tabindex="84" class="lbReportByTitle" data-bind="text : lbReportByTitle.Text, imagePath : lbReportByTitle.ImagePath">REPORT BY:</label>
+                  <label id="lbRSReportedBy" tabindex="85" class="lbRSReportedBy" data-bind="text : lbRSReportedBy.Text, imagePath : lbRSReportedBy.ImagePath">Hilderbrand, Robert</label>
+                  <label id="lbRSEmployeeID" tabindex="86" class="lbRSEmployeeID" data-bind="text : lbRSEmployeeID.Text, imagePath : lbRSEmployeeID.ImagePath">02341</label>
+                  <label id="lbRSPosition" tabindex="87" class="lbRSPosition" data-bind="text : lbRSPosition.Text, imagePath : lbRSPosition.ImagePath">Officer</label>
+                  <label id="Label7" tabindex="209" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">ASSIGNMENT:</label>
+                  <label id="lbRSUnit" tabindex="88" class="lbRSUnit" data-bind="text : lbRSUnit.Text, imagePath : lbRSUnit.ImagePath">E10</label>
+                  <label id="lbRSShift" tabindex="89" class="lbRSShift" data-bind="text : lbRSShift.Text, imagePath : lbRSShift.ImagePath">D Shift</label>
+                  <label id="Label6" tabindex="208" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">REPORTS FOR THIS INCIDENT:</label>
+                  <div class="chkIC" data-bind="visible : chkIC.Visible">
+                      <input id="chkIC" tabindex="252" type="checkbox" style="float: left" data-bind="events : { click : chkIC_CheckStateChanged }, " />
+                      <div style="float: left;overflow:hidden">
+                          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">WILL ASSUME INCIDENT REPORTING RESPONSIBLITY</label>
+                      </div>
+                  </div>
+                  <div id="lstMessage" tabindex="251" class="lstMessage" data-role="listbox" style="overflow:auto" data-bind="source : lstMessage.ListBoxItems, listBoxSelectedIndices : lstMessage.ListBoxSelectedIndices"></div>
+                  <button id="cmdSave" tabindex="248" class="cmdSave" type="button" data-bind="enabled : cmdSave.Enabled, events : { click : cmdSave_Click }, ">Save Report as Complete</button>
+                  <button id="cmdSaveIncomplete" tabindex="249" class="cmdSaveIncomplete" type="button" data-bind="enabled : cmdSaveIncomplete.Enabled, events : { click : cmdSaveIncomplete_Click }, ">Save Report as Incomplete</button>
+                  <button id="cmdAbandon" tabindex="250" class="cmdAbandon" type="button" data-bind="enabled : cmdAbandon.Enabled, events : { click : cmdAbandon_Click }, ">Exit WITHOUT Saving Report</button>
+              </div>
+          </fieldset>
+          <!--<fieldset id="frmOpen" class="frmOpen">
+          <legend id="frmOpen_legend" class="frmOpen_legend">Wizard Startup</legend>
+          <div>
+            <label id="Label9" tabindex="249" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Loading First Report........</label>
+          </div>
+        </fieldset>-->
+        
+
+          <!--  frmName    Name Report Wizard -->
+          <fieldset id="frmName" data-tag="3" data-bind="enabled : frmName.Enabled">
+              <div id="frmName" class="frmName">
+                  <fieldset id="_imgMain_3" index="3" class="_imgMain_3" data-bind="enabled : _imgMain_3.Enabled, style : { backgroundImage : _imgMain_3.Image }"></fieldset>
+                  <label id="_lbFrameTitle_3" tabindex="154" index="3" class="_lbFrameTitle_3" data-bind="text : _lbFrameTitle_3.Text, imagePath : _lbFrameTitle_3.ImagePath">Frame Title</label>
+                  <input id="txtFirstName" tabindex="194" Value="txtFirstName" class="txtFirstName" data-bind="value : txtFirstName.Text" />
+                  <input id="txtLastName" tabindex="195" Value="txtLastName" class="txtLastName" data-bind="value : txtLastName.Text" />
+                  <input id="txtMI" tabindex="196" Value="txtMI" class="txtMI" data-bind="value : txtMI.Text" />
+                  <label id="lbFirstName" tabindex="144" class="lbFirstName" data-bind="text : lbFirstName.Text, imagePath : lbFirstName.ImagePath">FIRST NAME</label>
+                  <label id="lbLastName" tabindex="145" class="lbLastName" data-bind="text : lbLastName.Text, imagePath : lbLastName.ImagePath">LAST NAME</label>
+                  <label id="lbMI" tabindex="132" class="lbMI" data-bind="text : lbMI.Text, imagePath : lbMI.ImagePath">M.I.</label>
+                  <input id="txtHouseNumber" tabindex="187" Value="txtHouseNumber" class="txtHouseNumber" data-bind="value : txtHouseNumber.Text" />
+                  <div class="cboPrefixPos" id="cboPrefixPos">
+                      <select data-role="mobilizecombobox" id="cboPrefix" tabindex="189" class="cboPrefix" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboPrefix, source : cboPrefix.ComboBoxItems, comboSelectedIndex : cboPrefix.SelectedIndex"></select>
+                  </div>
+                  <input id="txtStreetName" tabindex="188" Value="txtStreetName" class="txtStreetName" data-bind="value : txtStreetName.Text" />
+                  <div class="cboStreetTypePos" id="cboStreetTypePos">
+                      <select data-role="mobilizecombobox" id="cboStreetType" tabindex="190" class="cboStreetType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboStreetType, source : cboStreetType.ComboBoxItems, comboSelectedIndex : cboStreetType.SelectedIndex"></select>
+                  </div>
+                  <div class="cboSuffixPos" id="cboSuffixPos">
+                      <select data-role="mobilizecombobox" id="cboSuffix" tabindex="191" class="cboSuffix" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboSuffix, source : cboSuffix.ComboBoxItems, comboSelectedIndex : cboSuffix.SelectedIndex"></select>
+                  </div>
+                  <input id="txtCity" tabindex="192" Value="txtCity" class="txtCity" data-bind="value : txtCity.Text" />
+                  <div class="cboStatePos" id="cboStatePos">
+                      <select data-role="mobilizecombobox" id="cboState" tabindex="193" class="cboState" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboState, source : cboState.ComboBoxItems, comboSelectedIndex : cboState.SelectedIndex"></select>
+                  </div>
+                  <label id="lbHouseNum" tabindex="133" class="lbHouseNum" data-bind="text : lbHouseNum.Text, imagePath : lbHouseNum.ImagePath">HOUSE \#</label>
+                  <label id="lbPrefix" tabindex="134" class="lbPrefix" data-bind="text : lbPrefix.Text, imagePath : lbPrefix.ImagePath">PREFIX</label>
+                  <label id="lbStreetName" tabindex="135" class="lbStreetName" data-bind="text : lbStreetName.Text, imagePath : lbStreetName.ImagePath">STREET NAME</label>
+                  <label id="lbStreetType" tabindex="136" class="lbStreetType" data-bind="text : lbStreetType.Text, imagePath : lbStreetType.ImagePath">TYPE</label>
+                  <label id="lbSuffix" tabindex="137" class="lbSuffix" data-bind="text : lbSuffix.Text, imagePath : lbSuffix.ImagePath">SUFFIX</label>
+                  <label id="lbCity" tabindex="141" class="lbCity" data-bind="text : lbCity.Text, imagePath : lbCity.ImagePath">CITY</label>
+                  <label id="lbState" tabindex="143" class="lbState" data-bind="text : lbState.Text, imagePath : lbState.ImagePath">STATE</label>
+                  <label id="lbHomePhone" tabindex="151" class="lbHomePhone" data-bind="text : lbHomePhone.Text, imagePath : lbHomePhone.ImagePath">HOME PHONE</label>
+                  <input id="txtHomePhone" tabindex="185" Value="txtHomePhone" class="txtHomePhone" data-bind="value : txtHomePhone.Text" />
+                  <label id="lbBirthdate" tabindex="150" class="lbBirthdate" data-bind="text : lbBirthdate.Text, imagePath : lbBirthdate.ImagePath">BIRTHDATE</label>
+                  <input id="txtBirthdate" tabindex="179" class="txtBirthdate" data-role="maskedtextbox" data-bind="value : txtBirthdate.Text, maskedTextBoxMask : txtBirthdate.Mask, maskedTextBoxPrompt : txtBirthdate.PromptChar, maskedTextBoxFormat : txtBirthdate.TextMaskFormat" />
+                  <label id="lbWorkPhone" tabindex="152" class="lbWorkPhone" data-bind="text : lbWorkPhone.Text, imagePath : lbWorkPhone.ImagePath">WORK PHONE</label>
+                  <input id="txtWorkPhone" tabindex="184" Value="txtWorkPhone" class="txtWorkPhone" data-bind="value : txtWorkPhone.Text" />
+                  <label id="lbWorkPlace" tabindex="153" class="lbWorkPlace" data-bind="text : lbWorkPlace.Text, imagePath : lbWorkPlace.ImagePath">WORK PLACE</label>
+                  <input id="txtWorkPlace" tabindex="186" Value="txtWorkPlace" class="txtWorkPlace" data-bind="value : txtWorkPlace.Text" />
+                  <div class="cboRolePos" id="cboRolePos">
+                      <select data-role="mobilizecombobox" id="cboRole" tabindex="197" class="cboRole" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboRole, source : cboRole.ComboBoxItems, comboSelectedIndex : cboRole.SelectedIndex"></select>
+                  </div>
+                  <label id="lbRole" tabindex="146" class="lbRole" data-bind="text : lbRole.Text, imagePath : lbRole.ImagePath">ROLE</label>
+                  <fieldset id="frmGender" class="frmGender">
+                      <legend id="frmGender_legend" class="frmGender_legend"></legend>
+                      <div>
+                          <div index="0" class="_optGender_0">
+                              <input id="_optGender_0" tabindex="183" type="radio" name="frmGender_radios" style="float: left" data-bind="customChecked : _optGender_0.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">MALE</label>
+                              </div>
+                          </div>
+                          <div index="1" class="_optGender_1">
+                              <input id="_optGender_1" tabindex="182" type="radio" name="frmGender_radios" style="float: left" data-bind="customChecked : _optGender_1.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">FEMALE</label>
+                              </div>
+                          </div>
+                      </div>
+                  </fieldset>
+                  <label id="lbGender" tabindex="147" class="lbGender" data-bind="text : lbGender.Text, imagePath : lbGender.ImagePath">GENDER</label>
+                  <button id="cmdMoreNames" tabindex="199" class="cmdMoreNames" type="button">Add New Name Record</button>
+                  <div class="cboRacePos" id="cboRacePos">
+                      <select data-role="mobilizecombobox" id="cboRace" tabindex="198" class="cboRace" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboRace, source : cboRace.ComboBoxItems, comboSelectedIndex : cboRace.SelectedIndex"></select>
+                  </div>
+                  <label id="lbRace" tabindex="148" class="lbRace" data-bind="text : lbRace.Text, imagePath : lbRace.ImagePath">RACE</label>
+                  <fieldset id="frmEthnicity" class="frmEthnicity">
+                      <legend id="frmEthnicity_legend" class="frmEthnicity_legend"></legend>
+                      <div>
+                          <div index="0" class="_optEthnicity_0">
+                              <input id="_optEthnicity_0" tabindex="181" type="radio" name="frmEthnicity_radios" style="float: left" data-bind="customChecked : _optEthnicity_0.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">HISPANIC</label>
+                              </div>
+                          </div>
+                          <div index="1" class="_optEthnicity_1">
+                              <input id="_optEthnicity_1" tabindex="180" type="radio" name="frmEthnicity_radios" style="float: left" data-bind="customChecked : _optEthnicity_1.Checked" />
+                              <div style="float: left;overflow:hidden">
+                                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">NON-HISPANIC</label>
+                              </div>
+                          </div>
+                      </div>
+                  </fieldset>
+                  <label id="lbEthnicity" tabindex="149" class="lbEthnicity" data-bind="text : lbEthnicity.Text, imagePath : lbEthnicity.ImagePath">ETHNICITY</label>
+              </div>
+          </fieldset>
+
+          <!-- Main Report Wizard Nav Bar-->
+          <fieldset id="NavBar" class="NavBar" data-bind="enabled : NavBar.Enabled">
+              <button id="_NavButton_0" tabindex="287" index="0" class="_NavButton_0" type="button" data-bind="visible : _NavButton_0.Visible, events : { click : NavButton_Click }, ">Cancel</button>
+              <button id="_NavButton_1" tabindex="288" index="1" class="_NavButton_1" type="button" data-bind="visible : _NavButton_1.Visible, events : { click : NavButton_Click }, ">Back</button>
+              <label id="lbNavMessage" tabindex="276" class="lbNavMessage" data-bind="visible : lbNavMessage.Visible, text : lbNavMessage.Text, imagePath : lbNavMessage.ImagePath">Pick Something!</label>
+              <button id="_NavButton_2" tabindex="289" index="2" class="_NavButton_2" type="button" data-bind="visible : _NavButton_2.Visible, events : { click : NavButton_Click }, ">Next</button>
+              <button id="_NavButton_3" tabindex="290" index="3" class="_NavButton_3" type="button" data-bind="visible : _NavButton_3.Visible, events : { click : NavButton_Click }, ">Save and Quit</button>
+              <button id="_NavButton_4" tabindex="286" index="4" class="_NavButton_4" type="button" data-bind="visible : _NavButton_4.Visible, events : { click : NavButton_Click }, ">Finish</button>
+              <label id="Label23" tabindex="275" class="Label23" data-bind="text : Label23.Text, imagePath : Label23.ImagePath">Wizard Navigation Bar</label>
+          </fieldset>
+      </form>
+  </div>
+</div>

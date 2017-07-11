@@ -1,0 +1,37 @@
+<div>
+  <div data-width="576" data-height="296" data-removeControlBox="true" name="frmPhone" data-title="Phone Numbers - Entry/Update" class="PTSProject_frmPhone" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmPhone">
+      <div class="cboEmpListPos" id="cboEmpListPos">
+        <select data-role="combobox" id="cboEmpList" tabindex="1" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbEmpID" tabindex="10" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath"></label>
+      <label id="Label2" tabindex="18" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Employee</label>
+      <label id="lbOr" tabindex="16" class="lbOr" data-bind="visible : lbOr.Visible, text : lbOr.Text, imagePath : lbOr.ImagePath">OR</label>
+      <div class="cboResourcePos" id="cboResourcePos" data-bind="visible : cboResource.Visible">
+        <select data-role="combobox" id="cboResource" tabindex="2" class="cboResource" data-text-field="Text" data-value-field="Value" data-bind="source : cboResource.ComboBoxItems, customText : cboResource.CustomText, comboSelectedIndex : cboResource.SelectedIndex, events : { change : cboResource_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbResID" tabindex="17" class="lbResID" data-bind="text : lbResID.Text, imagePath : lbResID.ImagePath"></label>
+      <label id="lbResource" tabindex="15" class="lbResource" data-bind="visible : lbResource.Visible, text : lbResource.Text, imagePath : lbResource.ImagePath">Select Resource</label>
+      <label id="Label1" tabindex="11" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Number to Edit</label>
+      <div id="lstPhone" tabindex="3" class="lstPhone" data-role="listbox" style="overflow:auto" data-bind="source : lstPhone.ListBoxItems, listBoxSelectedIndices : lstPhone.ListBoxSelectedIndices, events : { change : lstPhone_SelectedIndexChanged }, "></div>
+      <label id="lbType" tabindex="12" class="lbType" data-bind="visible : lbType.Visible, text : lbType.Text, imagePath : lbType.ImagePath">Phone Type</label>
+      <div class="cboTypePos" id="cboTypePos" data-bind="visible : cboType.Visible">
+        <select data-role="combobox" id="cboType" tabindex="4" class="cboType" data-text-field="Text" data-value-field="Value" data-bind="source : cboType.ComboBoxItems, customText : cboType.CustomText, comboSelectedIndex : cboType.SelectedIndex"></select>
+      </div>
+      <input id="txtPhone" tabindex="5" class="txtPhone" data-bind="visible : txtPhone.Visible, value : txtPhone.Text, selectedRange : txtPhone.SelectedRange" />
+      <label id="lbNumber" tabindex="13" class="lbNumber" data-bind="visible : lbNumber.Visible, text : lbNumber.Text, imagePath : lbNumber.ImagePath">Phone Number</label>
+      <div class="chkCallBack" data-bind="visible : chkCallBack.Visible">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Use for Callback</label>
+        </div>
+        <input id="chkCallBack" tabindex="20" type="checkbox" style="float: left" data-bind="events : { click : chkCallBack_CheckStateChanged }, " />
+      </div>
+      <label id="lbComment" tabindex="14" class="lbComment" data-bind="visible : lbComment.Visible, text : lbComment.Text, imagePath : lbComment.ImagePath">Comment</label>
+      <textarea id="txtComment" tabindex="6" class="txtComment" data-bind="visible : txtComment.Visible, value : txtComment.Text"></textarea>
+      <button id="cmdAdd" tabindex="7" data-tag="Display" class="cmdAdd" type="button" data-bind="buttonText : cmdAdd.Text, events : { click : cmdAdd_Click }, ">Add New Number</button>
+      <button disabled="disabled" id="cmdUpdate" tabindex="8" class="cmdUpdate" type="button" data-bind="enabled : cmdUpdate.Enabled, events : { click : cmdUpdate_Click }, ">Update</button>
+      <button disabled="disabled" id="cmdDelete" tabindex="9" class="cmdDelete" type="button" data-bind="enabled : cmdDelete.Enabled, events : { click : cmdDelete_Click }, ">Delete</button>
+      <button id="cmdClose" tabindex="10" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,145 @@
+.PTSProject_frmBCApprovedPayroll {
+}
+.PTSProject_frmBCApprovedPayroll .frmBCApprovedPayroll {
+	background-color: #000040;
+	min-width: 562px;
+	min-height: 323px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmBCApprovedPayroll ._Label6_0 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 153px;
+	height: 17px;
+}
+.PTSProject_frmBCApprovedPayroll ._Label3_1 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 192px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmBCApprovedPayroll .cboClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 440px;
+	top: 8px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBCApprovedPayroll .cboClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBCApprovedPayroll .cboPayPeriod {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	width: 161px;
+	height: 24px;
+}
+.PTSProject_frmBCApprovedPayroll .cboPayPeriod:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBCApprovedPayroll .cboPayPeriodPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 161px;
+	height: 24px;
+}
+.PTSProject_frmBCApprovedPayroll .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	width: 73px;
+	height: 24px;
+}
+.PTSProject_frmBCApprovedPayroll .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBCApprovedPayroll .cboYearPos {
+	top: 32px;
+	left: 184px;
+	position: absolute;
+	width: 73px;
+	height: 24px;
+}
+.PTSProject_frmBCApprovedPayroll .cmdPayroll {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 288px;
+	top: 32px;
+	position: absolute;
+	width: 119px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBCApprovedPayroll .cmdPayroll:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBCApprovedPayroll .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 440px;
+	top: 40px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBCApprovedPayroll .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBCApprovedPayroll .sprEmployeeList {
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 545px;
+	height: 241px;
+}
+.PTSProject_frmBCApprovedPayroll .sprEmployeeList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmBCApprovedPayroll .sprEmployeeList .k-spreadsheet-action-bar {
+	display: none;
+}
+

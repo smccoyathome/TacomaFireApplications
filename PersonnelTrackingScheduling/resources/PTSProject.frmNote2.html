@@ -1,0 +1,16 @@
+<div>
+  <div data-width="401" data-height="229" data-removeControlBox="true" name="frmNote2" data-title="Battalion 182 Notes" class="PTSProject_frmNote2" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmNote2">
+      <div data-bind="spEnabled : Shape1.Enabled, spVisible : Shape1.Visible">
+        <svg version="1.1" class="Shape1_svg" style="left:0px;top:0px;width:401px;height:29px;position:absolute;">
+          <rect x="0" y="0" height="29" width="401" id="Shape1" class="Shape1"></rect>
+        </svg>
+      </div>
+      <label id="lbTitle" tabindex="2" class="lbTitle" data-bind="text : lbTitle.Text, imagePath : lbTitle.ImagePath">Notes for 12/31/97</label>
+      <textarea id="txtNote" tabindex="1" class="txtNote" data-bind="enabled : txtNote.Enabled, value : txtNote.Text"></textarea>
+      <label id="lbLocked" tabindex="4" class="lbLocked" data-bind="visible : lbLocked.Visible, text : lbLocked.Text, imagePath : lbLocked.ImagePath">Schedule Locked</label>
+      <button id="cmdOK" tabindex="2" class="cmdOK" type="button" data-bind="enabled : cmdOK.Enabled, events : { click : cmdOK_Click }, ">OK</button>
+      <button id="cmdCancel" tabindex="4" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+    </form>
+  </div>
+</div>

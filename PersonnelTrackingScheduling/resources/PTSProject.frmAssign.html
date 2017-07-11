@@ -1,0 +1,61 @@
+<div>
+  <div data-width="423" data-height="327" data-removeControlBox="true" name="frmAssign" data-title="Assignment Information" class="PTSProject_frmAssign" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmAssign">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <fieldset id="Picture1" class="Picture1" data-bind="enabled : Picture1.Enabled">
+            <div data-bind="spEnabled : Shape6.Enabled, spVisible : Shape6.Visible">
+              <svg version="1.1" class="Shape6_svg" style="left:8px;top:8px;width:393px;height:49px;position:absolute;">
+                <rect x="0" y="0" height="49" width="393" id="Shape6" class="Shape6"></rect>
+              </svg>
+            </div>
+            <label id="lbEmpID" tabindex="20" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath">lbEmpID</label>
+            <label id="Label10" tabindex="15" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Full Name</label>
+            <div class="cboNameListPos" id="cboNameListPos">
+              <select data-role="combobox" id="cboNameList" tabindex="5" class="cboNameList" data-text-field="Text" data-value-field="Value" data-bind="source : cboNameList.ComboBoxItems, customText : cboNameList.CustomText, comboSelectedIndex : cboNameList.SelectedIndex, events : { change : cboNameList_SelectionChangeCommitted }, "></select>
+            </div>
+            <div data-bind="spEnabled : Shape2.Enabled, spVisible : Shape2.Visible">
+              <svg version="1.1" class="Shape2_svg" style="left:8px;top:56px;width:393px;height:73px;position:absolute;">
+                <rect x="0" y="0" height="73" width="393" id="Shape2" class="Shape2"></rect>
+              </svg>
+            </div>
+            <label id="Label2" tabindex="14" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Batt</label>
+            <label id="Label3" tabindex="19" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Unit</label>
+            <label id="Label4" tabindex="18" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Position</label>
+            <label id="Label5" tabindex="17" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Shift</label>
+            <label id="Label9" tabindex="16" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Active Assignment</label>
+            <button id="cmdRefresh" tabindex="6" class="cmdRefresh" type="button" data-bind="events : { click : cmdRefresh_Click }, ">Refresh</button>
+            <label id="Line2" class="Line2" data-bind="text : Line2.Text, imagePath : Line2.ImagePath"></label>
+            <label id="lbBatt" tabindex="9" class="lbBatt" data-bind="text : lbBatt.Text, imagePath : lbBatt.ImagePath"></label>
+            <label id="lbUnit" tabindex="13" class="lbUnit" data-bind="text : lbUnit.Text, imagePath : lbUnit.ImagePath"></label>
+            <label id="lbPosition" tabindex="12" class="lbPosition" data-bind="text : lbPosition.Text, imagePath : lbPosition.ImagePath"></label>
+            <label id="lbShift" tabindex="11" class="lbShift" data-bind="text : lbShift.Text, imagePath : lbShift.ImagePath"></label>
+            <label id="lbAAssign" tabindex="10" class="lbAAssign" data-bind="text : lbAAssign.Text, imagePath : lbAAssign.ImagePath"></label>
+            <label id="lbAssign" tabindex="21" class="lbAssign" data-bind="text : lbAssign.Text, imagePath : lbAssign.ImagePath">lbAssign</label>
+          </fieldset>
+          <fieldset id="Picture3" class="Picture3" data-bind="enabled : Picture3.Enabled">
+            <label id="Label7" tabindex="27" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">New Unit</label>
+            <div class="cboUnitListPos" id="cboUnitListPos">
+              <select data-role="combobox" id="cboUnitList" tabindex="20" class="cboUnitList" data-text-field="Text" data-value-field="Value" data-bind="source : cboUnitList.ComboBoxItems, customText : cboUnitList.CustomText, comboSelectedIndex : cboUnitList.SelectedIndex, events : { change : cboUnitList_SelectionChangeCommitted }, "></select>
+            </div>
+            <label id="Label6" tabindex="28" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">New Position</label>
+            <div class="cboPositionListPos" id="cboPositionListPos">
+              <select data-role="combobox" id="cboPositionList" tabindex="21" class="cboPositionList" data-text-field="Text" data-value-field="Value" data-bind="source : cboPositionList.ComboBoxItems, customText : cboPositionList.CustomText, comboSelectedIndex : cboPositionList.SelectedIndex"></select>
+            </div>
+            <label id="Label8" tabindex="26" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">New Shift</label>
+            <div class="cboShiftListPos" id="cboShiftListPos">
+              <select data-role="combobox" id="cboShiftList" tabindex="22" class="cboShiftList" data-text-field="Text" data-value-field="Value" data-bind="source : cboShiftList.ComboBoxItems, customText : cboShiftList.CustomText, comboSelectedIndex : cboShiftList.SelectedIndex"></select>
+            </div>
+          </fieldset>
+          <fieldset id="Picture2" class="Picture2" data-bind="enabled : Picture2.Enabled">
+            <button disabled="disabled" id="cmdAdjust" tabindex="1" class="cmdAdjust" type="button" data-bind="enabled : cmdAdjust.Enabled, events : { click : cmdAdjust_Click }, ">Adjust Assignment</button>
+            <button id="cmdUpdate" tabindex="2" class="cmdUpdate" type="button" data-bind="events : { click : cmdUpdate_Click }, ">Update Assignment</button>
+            <button id="cmdNewPromo" tabindex="3" class="cmdNewPromo" type="button" data-bind="events : { click : cmdNewPromo_Click }, ">New Promotion</button>
+            <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+          </fieldset>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

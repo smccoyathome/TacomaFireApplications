@@ -1,0 +1,294 @@
+.PTSProject_frmPayrollReport {
+}
+.PTSProject_frmPayrollReport .frmPayrollReport {
+	background-color: #400040;
+	min-width: 918px;
+	min-height: 533px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport ._Label6_0 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 24px;
+	top: 8px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_frmPayrollReport ._Label3_1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 208px;
+	top: 8px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayrollReport .frmBattOpt {
+	background-color: #400040;
+	left: 320px;
+	top: 8px;
+	position: absolute;
+	width: 129px;
+	height: 49px;
+	border: 2px groove;
+}
+.PTSProject_frmPayrollReport .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayrollReport .optAll {
+	background-color: #400040;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport .optAll:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayrollReport .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmPayrollReport .opt182 {
+	background-color: #400040;
+	left: 64px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport .opt182:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayrollReport .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmPayrollReport .opt181 {
+	background-color: #400040;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport .opt181:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayrollReport .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmPayrollReport .opt183 {
+	background-color: #400040;
+	left: 64px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport .opt183:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayrollReport .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmPayrollReport .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPayrollReport .Frame3 {
+	background-color: #400040;
+	left: 448px;
+	top: 8px;
+	position: absolute;
+	width: 145px;
+	height: 49px;
+	border: 2px groove;
+}
+.PTSProject_frmPayrollReport .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayrollReport .optA {
+	background-color: #400040;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport .optA:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayrollReport .optA * {
+	Cursor: default;
+}
+.PTSProject_frmPayrollReport .optC {
+	background-color: #400040;
+	left: 72px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport .optC:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayrollReport .optC * {
+	Cursor: default;
+}
+.PTSProject_frmPayrollReport .optB {
+	background-color: #400040;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport .optB:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayrollReport .optB * {
+	Cursor: default;
+}
+.PTSProject_frmPayrollReport .optD {
+	background-color: #400040;
+	left: 72px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayrollReport .optD:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayrollReport .optD * {
+	Cursor: default;
+}
+.PTSProject_frmPayrollReport .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPayrollReport .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 704px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayrollReport .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayrollReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 776px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayrollReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayrollReport .cboClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 840px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayrollReport .cboClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayrollReport .cboPayPeriod {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 161px;
+	height: 21px;
+}
+.PTSProject_frmPayrollReport .cboPayPeriod:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayrollReport .cboPayPeriodPos {
+	top: 24px;
+	left: 24px;
+	position: absolute;
+	width: 161px;
+	height: 21px;
+}
+.PTSProject_frmPayrollReport .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 57px;
+	height: 21px;
+}
+.PTSProject_frmPayrollReport .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayrollReport .cboYearPos {
+	top: 24px;
+	left: 208px;
+	position: absolute;
+	width: 57px;
+	height: 21px;
+}
+.PTSProject_frmPayrollReport .sprReport {
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 905px;
+	height: 457px;
+}
+.PTSProject_frmPayrollReport .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPayrollReport .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

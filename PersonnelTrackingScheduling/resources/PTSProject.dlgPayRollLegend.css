@@ -1,0 +1,307 @@
+.PTSProject_dlgPayRollLegend {
+}
+.PTSProject_dlgPayRollLegend .dlgPayRollLegend {
+	background-color: #404040;
+	min-width: 390px;
+	min-height: 444px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgPayRollLegend .Frame1 {
+	background-color: Gray;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 377px;
+	height: 169px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgPayRollLegend .Frame1:enabled {
+	color: #FFE0C0;
+}
+.PTSProject_dlgPayRollLegend ._Label_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Blue;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 361px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend ._Label_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 361px;
+	height: 41px;
+}
+.PTSProject_dlgPayRollLegend ._Label_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_dlgPayRollLegend ._Label_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: White;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 361px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend .Check1 {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 8px;
+	top: 128px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_dlgPayRollLegend .Check1:enabled {
+	color: #FFFF80;
+}
+.PTSProject_dlgPayRollLegend .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgPayRollLegend .Frame2 {
+	background-color: Gray;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 184px;
+	position: absolute;
+	width: 377px;
+	height: 129px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgPayRollLegend .Frame2:enabled {
+	color: #FFE0C0;
+}
+.PTSProject_dlgPayRollLegend ._Label_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Green;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 361px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend ._Label_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 361px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend ._Label_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Blue;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 361px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend ._Label_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: White;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 361px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgPayRollLegend .Frame3 {
+	background-color: Gray;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 328px;
+	position: absolute;
+	width: 257px;
+	height: 105px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgPayRollLegend .Frame3:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgPayRollLegend .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 209px;
+	height: 33px;
+}
+.PTSProject_dlgPayRollLegend ._Label2_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Aqua;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 128px;
+	top: 56px;
+	position: absolute;
+	width: 81px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_dlgPayRollLegend ._Label2_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Aqua;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend ._Label2_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Aqua;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_dlgPayRollLegend .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgPayRollLegend .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 280px;
+	top: 352px;
+	position: absolute;
+	width: 97px;
+	height: 65px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgPayRollLegend .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

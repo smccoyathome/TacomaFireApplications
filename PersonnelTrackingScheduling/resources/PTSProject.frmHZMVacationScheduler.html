@@ -1,0 +1,9 @@
+<div>
+  <div data-width="825" data-height="645" name="frmHZMVacationScheduler" data-title="Hazmat Vacation Scheduler" class="PTSProject_frmHZMVacationScheduler" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text, events : { focus : frmHZMVacationScheduler_Activated, blur : frmHZMVacationScheduler_Deactivate }, ">
+    <form class="frmHZMVacationScheduler">
+      <div id="calYear" tabindex="3" class="calYear" data-role="calendar" data-bind="dateTimePickerValue : calYear.Value, DateTimeMinDate : calYear.MinDate, events : { change : calYear_Click }, "></div>
+      <button id="cmdRefresh" tabindex="2" class="cmdRefresh" type="button" data-bind="events : { click : cmdRefresh_Click }, ">Refresh</button>
+      <button id="cmdClose" tabindex="1" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,153 @@
+.PTSProject_frmEmployeeNotes {
+}
+.PTSProject_frmEmployeeNotes .frmEmployeeNotes {
+	background-color: #004000;
+	min-width: 471px;
+	min-height: 453px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmEmployeeNotes .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	left: 360px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmployeeNotes .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmployeeNotes .lbEmpID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 208px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmEmployeeNotes .lbNoteID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 280px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmEmployeeNotes .Label11 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 201px;
+	height: 17px;
+}
+.PTSProject_frmEmployeeNotes .cmdNewNote {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	left: 360px;
+	top: 36px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmployeeNotes .cmdNewNote:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmployeeNotes .cboEmpList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	width: 329px;
+	height: 24px;
+}
+.PTSProject_frmEmployeeNotes .cboEmpList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmployeeNotes .cboEmpListPos {
+	top: 56px;
+	left: 8px;
+	position: absolute;
+	width: 329px;
+	height: 24px;
+}
+.PTSProject_frmEmployeeNotes .cmdAddUpdate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	left: 360px;
+	top: 64px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmployeeNotes .cmdAddUpdate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmployeeNotes .txtNewNote {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.24px;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	overflow: auto;
+	width: 455px;
+	height: 81px;
+}
+.PTSProject_frmEmployeeNotes .txtNewNote:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmployeeNotes .sprPastComments {
+	left: 8px;
+	top: 184px;
+	position: absolute;
+	width: 455px;
+	height: 257px;
+}
+.PTSProject_frmEmployeeNotes .sprPastComments .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmEmployeeNotes .sprPastComments .k-spreadsheet-action-bar {
+	display: none;
+}
+

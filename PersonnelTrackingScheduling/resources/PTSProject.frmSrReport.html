@@ -1,0 +1,15 @@
+<div>
+  <div data-width="735" data-height="518" data-removeControlBox="true" name="frmSrReport" data-title="Seniority Report" class="PTSProject_frmSrReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmSrReport">
+      <label id="Label1" tabindex="1" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Seniority List</label>
+      <label id="Label2" tabindex="6" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Calculation Date</label>
+      <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <button id="cmdPrint" tabindex="3" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <div class="cboSeniorPos" id="cboSeniorPos">
+        <select id="cboSenior" tabindex="1" class="cboSenior" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboSenior.ComboBoxItems, customText : cboSenior.CustomText, comboSelectedIndex : cboSenior.SelectedIndex, events : { change : cboSenior_SelectionChangeCommitted }, "></select>
+      </div>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calSrDate" tabindex="22" class="calSrDate" data-bind="dateTimePickerValue : calSrDate.Value, DateTimeMinDate : calSrDate.MinDate, DateTimeMaxDate : calSrDate.MaxDate, events : { change : calSrDate_Click }, " />
+      <div id="sprSenior" data-role="mobilizespread" tabindex="4" class="sprSenior" data-bind="widgetvalue: sprSenior"></div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div>
+  <div data-width="718" data-height="430" name="frmIndALSProcReport" data-title="Individual ALS Procedure Report" class="PTSProject_frmIndALSProcReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmIndALSProcReport">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <button id="cmdPrint" tabindex="22" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+          <label id="Label1" tabindex="9" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Employee:</label>
+          <div class="cboEmployeePos" id="cboEmployeePos">
+            <select id="cboEmployee" tabindex="23" class="cboEmployee" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmployee.ComboBoxItems, customText : cboEmployee.CustomText, comboSelectedIndex : cboEmployee.SelectedIndex, events : { change : cboEmployee_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="_Label3_0" tabindex="10" index="0" class="_Label3_0" data-bind="text : _Label3_0.Text, imagePath : _Label3_0.ImagePath">Report Start Date:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtStart" tabindex="24" class="dtStart" data-bind="dateTimePickerValue : dtStart.Value, DateTimeMinDate : dtStart.MinDate, DateTimeMaxDate : dtStart.MaxDate, events : { click : dtStart_Click, change : dtStart_ValueChanged }, " />
+          <label id="_Label3_1" tabindex="7" index="1" class="_Label3_1" data-bind="text : _Label3_1.Text, imagePath : _Label3_1.ImagePath">End Date:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtEnd" tabindex="25" class="dtEnd" data-bind="dateTimePickerValue : dtEnd.Value, DateTimeMinDate : dtEnd.MinDate, DateTimeMaxDate : dtEnd.MaxDate, events : { click : dtEnd_Click, change : dtEnd_ValueChanged }, " />
+          <button id="cmdExit" tabindex="21" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+          <label id="lbEmpName" tabindex="8" class="lbEmpName" data-bind="text : lbEmpName.Text, imagePath : lbEmpName.ImagePath"></label>
+        </div>
+      </fieldset>
+      <div id="sprReport" data-role="mobilizespread" tabindex="0" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

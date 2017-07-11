@@ -1,0 +1,24 @@
+<div>
+  <div data-width="643" data-height="470" name="frmRankedOperationStaff" data-title="Ranked Operation Staff List" class="PTSProject_frmRankedOperationStaff" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmRankedOperationStaff">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Choose a Group</legend>
+        <div>
+          <button id="cmdExit" tabindex="3" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+          <div class="cboGroupPos" id="cboGroupPos">
+            <select id="cboGroup" tabindex="2" class="cboGroup" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboGroup.ComboBoxItems, customText : cboGroup.CustomText, comboSelectedIndex : cboGroup.SelectedIndex, events : { change : cboGroup_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="chkSelectAll">
+            <input id="chkSelectAll" tabindex="1" type="checkbox" checked="checked" style="float: left" data-bind="events : { click : chkSelectAll_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"> Or Select All (Clear Group Filter</label>
+            </div>
+          </div>
+          <button id="cmdPrint" tabindex="4" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print List</button>
+          <label id="lbCount" tabindex="5" class="lbCount" data-bind="text : lbCount.Text, imagePath : lbCount.ImagePath">List Count:  </label>
+        </div>
+      </fieldset>
+      <div id="sprReport" data-role="mobilizespread" tabindex="6" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

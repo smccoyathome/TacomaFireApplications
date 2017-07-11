@@ -1,0 +1,479 @@
+.PTSProject_frmAssign {
+}
+.PTSProject_frmAssign .frmAssign {
+	background-color: Silver;
+	min-width: 423px;
+	min-height: 327px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmAssign .Frame1 {
+	background-color: Teal;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 441px;
+	height: 337px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmAssign .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .Picture1 {
+	background-color: Maroon;
+	cursor: default;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 409px;
+	height: 137px;
+	visibility: inherit;
+}
+.PTSProject_frmAssign .Shape6 {
+	fill: #400000;
+	fill-opacity: 0;
+	stroke: #400040;
+	stroke-width: 2;
+	color: Silver;
+}
+.PTSProject_frmAssign .lbEmpID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 16px;
+	position: absolute;
+	width: 17px;
+	height: 33px;
+	visibility: hidden;
+}
+.PTSProject_frmAssign .Label10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Black;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmAssign .cboNameList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 281px;
+	height: 23px;
+	visibility: inherit;
+}
+.PTSProject_frmAssign .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .cboNameListPos {
+	top: 24px;
+	left: 88px;
+	position: absolute;
+	width: 281px;
+	height: 23px;
+}
+.PTSProject_frmAssign .Shape2 {
+	fill: Blue;
+	fill-opacity: 0;
+	stroke: #400040;
+	stroke-width: 2;
+	color: Silver;
+}
+.PTSProject_frmAssign .Label2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 48px;
+	top: 64px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 94px;
+	top: 64px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .Label5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 160px;
+	top: 64px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .Label9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 216px;
+	top: 64px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 328px;
+	top: 64px;
+	position: absolute;
+	width: 69px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAssign .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .Line2 {
+	background-color: #804040;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 392px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmAssign .lbBatt {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Teal;
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .lbUnit {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Teal;
+	left: 48px;
+	top: 104px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .lbPosition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Teal;
+	left: 94px;
+	top: 104px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .lbShift {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Teal;
+	left: 160px;
+	top: 104px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .lbAAssign {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Teal;
+	left: 216px;
+	top: 104px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAssign .lbAssign {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 344px;
+	top: 104px;
+	position: absolute;
+	width: 51px;
+	height: 18px;
+	visibility: hidden;
+}
+.PTSProject_frmAssign .Picture3 {
+	background-color: Maroon;
+	cursor: default;
+	left: 8px;
+	top: 144px;
+	position: absolute;
+	width: 409px;
+	height: 177px;
+	visibility: inherit;
+}
+.PTSProject_frmAssign .Label7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmAssign .cboUnitList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 137px;
+	height: 23px;
+	visibility: inherit;
+}
+.PTSProject_frmAssign .cboUnitList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .cboUnitListPos {
+	top: 32px;
+	left: 96px;
+	position: absolute;
+	width: 137px;
+	height: 23px;
+}
+.PTSProject_frmAssign .Label6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmAssign .cboPositionList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 137px;
+	height: 23px;
+	visibility: inherit;
+}
+.PTSProject_frmAssign .cboPositionList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .cboPositionListPos {
+	top: 64px;
+	left: 96px;
+	position: absolute;
+	width: 137px;
+	height: 23px;
+}
+.PTSProject_frmAssign .Label8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmAssign .cboShiftList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 137px;
+	height: 23px;
+	visibility: inherit;
+}
+.PTSProject_frmAssign .cboShiftList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .cboShiftListPos {
+	top: 96px;
+	left: 96px;
+	position: absolute;
+	width: 137px;
+	height: 23px;
+}
+.PTSProject_frmAssign .Picture2 {
+	background-color: Maroon;
+	cursor: default;
+	left: 256px;
+	top: 144px;
+	position: absolute;
+	width: 153px;
+	height: 177px;
+	visibility: inherit;
+}
+.PTSProject_frmAssign .cmdAdjust {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 16px;
+	top: 12px;
+	position: absolute;
+	width: 129px;
+	height: 34px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAssign .cmdAdjust:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .cmdUpdate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 16px;
+	top: 51px;
+	position: absolute;
+	width: 129px;
+	height: 34px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAssign .cmdUpdate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .cmdNewPromo {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 16px;
+	top: 90px;
+	position: absolute;
+	width: 129px;
+	height: 34px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAssign .cmdNewPromo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 16px;
+	top: 128px;
+	position: absolute;
+	width: 129px;
+	height: 34px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAssign .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAssign .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

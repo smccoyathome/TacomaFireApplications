@@ -1,0 +1,97 @@
+.PTSProject_frmLeaveNoSched {
+}
+.PTSProject_frmLeaveNoSched .frmLeaveNoSched {
+	background-color: #000040;
+	min-width: 551px;
+	min-height: 266px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+}
+.PTSProject_frmLeaveNoSched .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLeaveNoSched .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLeaveNoSched .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 328px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLeaveNoSched .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLeaveNoSched .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 440px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLeaveNoSched .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLeaveNoSched .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFF80;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 489px;
+	height: 17px;
+}
+.PTSProject_frmLeaveNoSched .sprReport {
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 537px;
+	height: 201px;
+}
+.PTSProject_frmLeaveNoSched .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmLeaveNoSched .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

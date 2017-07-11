@@ -1,0 +1,103 @@
+<div>
+  <div data-width="728" data-height="580" name="frmTransferRequest" data-title="Transfer Postings / Requests" class="PTSProject_frmTransferRequest" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmTransferRequest">
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend">Transfer Requests</legend>
+        <div>
+          <fieldset id="Frame1" class="Frame1">
+            <legend id="Frame1_legend" class="Frame1_legend">Select Action</legend>
+            <div>
+              <div class="optNewPosition">
+                <input id="optNewPosition" title="Create a new Posting..." tabindex="43" type="radio" name="Frame1_radios" checked="checked" style="float: left" data-bind="customChecked : optNewPosition.Checked, events : { change : optNewPosition_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Post New Position</label>
+                </div>
+              </div>
+              <div class="optRequest">
+                <input id="optRequest" title="Request Transfer for someone..." tabindex="42" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optRequest.Checked, events : { change : optRequest_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Request Transfer</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <label id="Label1" tabindex="6" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Filter by Name:</label>
+          <div class="cboReqNameListPos" id="cboReqNameListPos">
+            <select id="cboReqNameList" tabindex="3" class="cboReqNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboReqNameList.ComboBoxItems, customText : cboReqNameList.CustomText, comboSelectedIndex : cboReqNameList.SelectedIndex, events : { change : cboReqNameList_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdClearRequest" tabindex="4" class="cmdClearRequest" type="button" data-bind="events : { click : cmdClearRequest_Click }, ">Clear Filter / Refresh Grid</button>
+          <label id="Label4" tabindex="10" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Filter by Position:</label>
+          <div class="cboReqPositionListPos" id="cboReqPositionListPos">
+            <select id="cboReqPositionList" tabindex="11" class="cboReqPositionList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboReqPositionList.ComboBoxItems, customText : cboReqPositionList.CustomText, comboSelectedIndex : cboReqPositionList.SelectedIndex, events : { change : cboReqPositionList_SelectionChangeCommitted }, "></select>
+          </div>
+          <fieldset id="frmAddPosition" class="frmAddPosition" data-bind="visible : frmAddPosition.Visible">
+            <legend id="frmAddPosition_legend" class="frmAddPosition_legend"></legend>
+            <div>
+              <div class="chkPMOnly">
+                <input id="chkPMOnly" tabindex="30" type="checkbox" style="float: left" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Paramedic</label>
+                </div>
+              </div>
+              <label id="Label7" tabindex="24" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Unit</label>
+              <div class="cboUnitListPos" id="cboUnitListPos">
+                <select id="cboUnitList" tabindex="21" class="cboUnitList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboUnitList.ComboBoxItems, customText : cboUnitList.CustomText, comboSelectedIndex : cboUnitList.SelectedIndex, events : { change : cboUnitList_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label6" tabindex="25" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath"> Position</label>
+              <div class="cboPositionListPos" id="cboPositionListPos">
+                <select id="cboPositionList" tabindex="22" class="cboPositionList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPositionList.ComboBoxItems, customText : cboPositionList.CustomText, comboSelectedIndex : cboPositionList.SelectedIndex, events : { change : cboPositionList_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label8" tabindex="23" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Shift</label>
+              <div class="cboShiftListPos" id="cboShiftListPos">
+                <select id="cboShiftList" tabindex="23" class="cboShiftList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboShiftList.ComboBoxItems, customText : cboShiftList.CustomText, comboSelectedIndex : cboShiftList.SelectedIndex, events : { change : cboShiftList_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label9" tabindex="22" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Post Date</label>
+              <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteOpenDate" tabindex="19" class="dteOpenDate" data-bind="dateTimePickerValue : dteOpenDate.Value, DateTimeMinDate : dteOpenDate.MinDate, DateTimeMaxDate : dteOpenDate.MaxDate, events : { click : dteOpenDate_Click }, " />
+              <label id="Label10" tabindex="21" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Close Date</label>
+              <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteCloseDate" tabindex="24" class="dteCloseDate" data-bind="dateTimePickerValue : dteCloseDate.Value, DateTimeMinDate : dteCloseDate.MinDate, DateTimeMaxDate : dteCloseDate.MaxDate" />
+              <button disabled="disabled" id="cmdAddPosition" tabindex="20" class="cmdAddPosition" type="button" data-bind="enabled : cmdAddPosition.Enabled, events : { click : cmdAddPosition_Click }, ">Add Position</button>
+            </div>
+          </fieldset>
+          <fieldset id="frmRequest" class="frmRequest" data-bind="visible : frmRequest.Visible">
+            <legend id="frmRequest_legend" class="frmRequest_legend"></legend>
+            <div>
+              <label id="lblName" tabindex="33" class="lblName" data-bind="text : lblName.Text, imagePath : lblName.ImagePath">Select Name</label>
+              <div class="cboNameListPos" id="cboNameListPos">
+                <select id="cboNameList" tabindex="34" class="cboNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboNameList.ComboBoxItems, customText : cboNameList.CustomText, comboSelectedIndex : cboNameList.SelectedIndex, events : { change : cboNameList_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="lblDate" tabindex="34" class="lblDate" data-bind="text : lblDate.Text, imagePath : lblDate.ImagePath">Select Desired Positon</label>
+              <div id="lstAvailPositions" tabindex="35" class="lstAvailPositions" data-role="listbox" style="overflow:auto" data-bind="source : lstAvailPositions.ListBoxItems, listBoxSelectedIndices : lstAvailPositions.ListBoxSelectedIndices, events : { change : lstAvailPositions_SelectedIndexChanged }, "></div>
+              <label id="Label5" tabindex="35" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Select Priority Ranking</label>
+              <div class="cboPriorityPos" id="cboPriorityPos">
+                <select id="cboPriority" tabindex="32" class="cboPriority" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPriority.ComboBoxItems, customText : cboPriority.CustomText, comboSelectedIndex : cboPriority.SelectedIndex, events : { change : cboPriority_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label3" tabindex="32" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Add Comment (optional)</label>
+              <textarea id="txtComment" tabindex="31" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+              <button disabled="disabled" id="cmdReqDone" tabindex="33" class="cmdReqDone" type="button" data-bind="enabled : cmdReqDone.Enabled, events : { click : cmdReqDone_Click }, ">Add Request</button>
+            </div>
+          </fieldset>
+          <button id="cmdAssign" tabindex="13" class="cmdAssign" type="button" data-bind="events : { click : cmdAssign_Click }, ">Assign Selected Employee</button>
+          <button id="cmdPrint" tabindex="41" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print List</button>
+          <div id="sprRequests" data-role="mobilizespread" tabindex="7" class="sprRequests" data-bind="widgetvalue: sprRequests"></div>
+          <label id="Label2" tabindex="8" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Posted Positions</label>
+          <div class="chkActiveOnly">
+            <input id="chkActiveOnly" tabindex="18" type="checkbox" checked="checked" style="float: left" data-bind="events : { click : chkActiveOnly_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Open Only</label>
+            </div>
+          </div>
+          <button disabled="disabled" id="cmdInactivate" tabindex="40" class="cmdInactivate" type="button" data-bind="enabled : cmdInactivate.Enabled, events : { click : cmdInactivate_Click }, ">Inactivate Record</button>
+          <div id="sprPositions" data-role="mobilizespread" tabindex="12" class="sprPositions" data-bind="widgetvalue: sprPositions"></div>
+          <button id="cmdDisplay" tabindex="44" class="cmdDisplay" type="button" data-bind="events : { click : cmdDisplay_Click }, ">Display List of Assign Changes This Year</button>
+        </div>
+      </fieldset>
+      <fieldset id="frmLegend" class="frmLegend">
+        <legend id="frmLegend_legend" class="frmLegend_legend"></legend>
+        <div>
+          <label id="Label14" tabindex="2" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">Blue Backgroud = Inactive Position</label>
+        </div>
+      </fieldset>
+      <button id="CancelButton_Renamed" tabindex="1" class="CancelButton_Renamed" type="button" data-bind="events : { click : CancelButton_Renamed_Click }, ">Exit</button>
+    </form>
+  </div>
+</div>

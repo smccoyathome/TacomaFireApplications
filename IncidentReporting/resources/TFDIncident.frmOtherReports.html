@@ -1,0 +1,206 @@
+<div>
+  <div data-width="814" data-height="544" data-removeControlBox="true" name="frmOtherReports" data-title="Form1" class="TFDIncident_frmOtherReports" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmOtherReports">
+      <fieldset id="picEMSBar" class="picEMSBar" data-bind="enabled : picEMSBar.Enabled">
+        <label id="Label2" tabindex="5" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Incident \#</label>
+        <label id="lbIncident" tabindex="4" class="lbIncident" data-bind="text : lbIncident.Text, imagePath : lbIncident.ImagePath">001230012</label>
+        <button id="_cmdSave_3" tabindex="8" index="3" class="_cmdSave_3" type="button" data-bind="enabled : _cmdSave_3.Enabled, visible : _cmdSave_3.Visible, events : { click : cmdSave_Click }, ">Print</button>
+        <button id="_cmdSave_0" tabindex="1" index="0" class="_cmdSave_0" type="button" data-bind="enabled : _cmdSave_0.Enabled, visible : _cmdSave_0.Visible, events : { click : cmdSave_Click }, ">Save as Complete</button>
+        <button id="_cmdSave_1" tabindex="2" index="1" class="_cmdSave_1" type="button" data-bind="enabled : _cmdSave_1.Enabled, visible : _cmdSave_1.Visible, events : { click : cmdSave_Click }, ">Save as Incomplete</button>
+        <button id="_cmdSave_2" tabindex="3" index="2" class="_cmdSave_2" type="button" data-bind="enabled : _cmdSave_2.Enabled, visible : _cmdSave_2.Visible, events : { click : cmdSave_Click }, ">Cancel and Exit</button>
+        <label id="lbLockedMessage" tabindex="64" class="lbLockedMessage" data-bind="text : lbLockedMessage.Text, imagePath : lbLockedMessage.ImagePath">READ ONLY - Records Locked</label>
+        <label id="lbLocation" tabindex="6" class="lbLocation" data-bind="text : lbLocation.Text, imagePath : lbLocation.ImagePath">lbLocation</label>
+      </fieldset>
+      <fieldset id="frmFPE" data-bind="enabled : frmFPE.Enabled">
+        <div id="frmFPE" class="frmFPE">
+          <label id="Label31" tabindex="106" class="Label31" data-bind="text : Label31.Text, imagePath : Label31.ImagePath">PERSONAL PROTECTIVE EQUIPMENT PROBLEMS</label>
+          <label id="Label30" tabindex="107" class="Label30" data-bind="text : Label30.Text, imagePath : Label30.ImagePath">SELECT PPE EQUIPMENT </label>
+          <button id="cmdDone" tabindex="112" class="cmdDone" type="button" data-bind="events : { click : cmdDone_Click }, ">DONE</button>
+          <div class="cboFPEEquipmentPos" id="cboFPEEquipmentPos">
+            <select data-role="combobox" id="cboFPEEquipment" tabindex="105" class="cboFPEEquipment" data-text-field="Text" data-value-field="Value" data-bind="source : cboFPEEquipment.ComboBoxItems, customText : cboFPEEquipment.CustomText, comboSelectedIndex : cboFPEEquipment.SelectedIndex, events : { change : cboFPEEquipment_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="Label29" tabindex="108" class="Label29" data-bind="text : Label29.Text, imagePath : Label29.ImagePath">INDICATE EQUIPMENT STATUS</label>
+          <div class="cboFPEStatusPos" id="cboFPEStatusPos">
+            <select data-role="combobox" id="cboFPEStatus" tabindex="106" class="cboFPEStatus" data-text-field="Text" data-value-field="Value" data-bind="source : cboFPEStatus.ComboBoxItems, customText : cboFPEStatus.CustomText, comboSelectedIndex : cboFPEStatus.SelectedIndex, events : { change : cboFPEStatus_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="Label28" tabindex="109" class="Label28" data-bind="text : Label28.Text, imagePath : Label28.ImagePath">SELECT EQUIPMENT PROBLEM</label>
+          <div class="cboFPEProblemPos" id="cboFPEProblemPos">
+            <select data-role="combobox" id="cboFPEProblem" tabindex="104" class="cboFPEProblem" data-text-field="Text" data-value-field="Value" data-bind="source : cboFPEProblem.ComboBoxItems, customText : cboFPEProblem.CustomText, comboSelectedIndex : cboFPEProblem.SelectedIndex, events : { change : cboFPEProblem_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdAddPPE" tabindex="103" class="cmdAddPPE" type="button" data-bind="enabled : cmdAddPPE.Enabled, events : { click : cmdAddPPE_Click }, ">Add Selections to List</button>
+          <label id="Label24" tabindex="105" class="Label24" data-bind="text : Label24.Text, imagePath : Label24.ImagePath">PERSONAL PROTECTIVE EQUIPMENT PROBLEMS</label>
+          <div id="lstPPE" tabindex="101" class="lstPPE" data-role="listbox" style="overflow:auto" data-bind="source : lstPPE.ListBoxItems, listBoxSelectedIndices : lstPPE.ListBoxSelectedIndices"></div>
+          <button id="cmdRemovePPE" tabindex="102" class="cmdRemovePPE" type="button" data-bind="enabled : cmdRemovePPE.Enabled, events : { click : cmdRemovePPE_Click }, ">Remove Selection from List</button>
+        </div>
+      </fieldset>
+      <fieldset id="frmFSCasualty" data-bind="enabled : frmFSCasualty.Enabled">
+        <div id="frmFSCasualty" class="frmFSCasualty">
+          <label id="Label22" tabindex="89" class="Label22" data-bind="text : Label22.Text, imagePath : Label22.ImagePath">FIRE SERVICE CASUALTY REPORT</label>
+          <label id="Label18" tabindex="94" class="Label18" data-bind="text : Label18.Text, imagePath : Label18.ImagePath">Employee:</label>
+          <label id="lbEmployee" tabindex="91" class="lbEmployee" data-bind="text : lbEmployee.Text, imagePath : lbEmployee.ImagePath">lbEmployee</label>
+          <fieldset id="Frame1" class="Frame1">
+            <legend id="Frame1_legend" class="Frame1_legend"></legend>
+            <div>
+              <label id="Label11" tabindex="81" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">INJURY SEVERITY</label>
+              <div class="cboInjurySeverityPos" id="cboInjurySeverityPos">
+                <select data-role="combobox" id="cboInjurySeverity" tabindex="79" class="cboInjurySeverity" data-text-field="Text" data-value-field="Value" data-bind="source : cboInjurySeverity.ComboBoxItems, customText : cboInjurySeverity.CustomText, comboSelectedIndex : cboInjurySeverity.SelectedIndex, events : { change : cboInjurySeverity_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label10" tabindex="82" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">BODY PART INJURED</label>
+              <div class="cboBodyPartPos" id="cboBodyPartPos">
+                <select data-role="combobox" id="cboBodyPart" tabindex="80" class="cboBodyPart" data-text-field="Text" data-value-field="Value" data-bind="source : cboBodyPart.ComboBoxItems, customText : cboBodyPart.CustomText, comboSelectedIndex : cboBodyPart.SelectedIndex"></select>
+              </div>
+              <label id="Label16" tabindex="83" class="Label16" data-bind="text : Label16.Text, imagePath : Label16.ImagePath">TYPE OF INJURY</label>
+              <div class="cboInjuryTypePos" id="cboInjuryTypePos">
+                <select data-role="combobox" id="cboInjuryType" tabindex="81" class="cboInjuryType" data-text-field="Text" data-value-field="Value" data-bind="source : cboInjuryType.ComboBoxItems, customText : cboInjuryType.CustomText, comboSelectedIndex : cboInjuryType.SelectedIndex"></select>
+              </div>
+              <label id="Label17" tabindex="84" class="Label17" data-bind="text : Label17.Text, imagePath : Label17.ImagePath">CONTRIBUTING FACTORS</label>
+              <div id="lstContributingFactors" tabindex="82" data-selectable="multiple" class="lstContributingFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstContributingFactors.ListBoxItems, listBoxSelectedIndices : lstContributingFactors.ListBoxSelectedIndices"></div>
+            </div>
+          </fieldset>
+          <label id="Label19" tabindex="95" class="Label19" data-bind="text : Label19.Text, imagePath : Label19.ImagePath">Incident:</label>
+          <label id="lbFSCasualtyIncident" tabindex="92" class="lbFSCasualtyIncident" data-bind="text : lbFSCasualtyIncident.Text, imagePath : lbFSCasualtyIncident.ImagePath">lbIncident</label>
+          <label id="Label20" tabindex="96" class="Label20" data-bind="text : Label20.Text, imagePath : Label20.ImagePath">Date:</label>
+          <label id="lbCasualtyDate" tabindex="93" class="lbCasualtyDate" data-bind="text : lbCasualtyDate.Text, imagePath : lbCasualtyDate.ImagePath">lbCasualtyDate</label>
+          <button id="cmdEDITFPE" tabindex="100" class="cmdEDITFPE" type="button" data-bind="enabled : cmdEDITFPE.Enabled, events : { click : cmdEDITFPE_Click }, ">EDIT</button>
+          <div class="chkFPEProblem">
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkFPEProblem.Enabled">PERSONAL PROTECTIVE EQUIPMENT PROBLEMS?</label>
+            </div>
+            <input id="chkFPEProblem" tabindex="70" type="checkbox" style="float: left" data-bind="enabled : chkFPEProblem.Enabled, events : { click : chkFPEProblem_CheckStateChanged }, " />
+          </div>
+          <fieldset id="Frame3" class="Frame3">
+            <legend id="Frame3_legend" class="Frame3_legend"></legend>
+            <div>
+              <label id="Label12" tabindex="75" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">ACTIVITY AT TIME OF INJURY</label>
+              <div class="cboActivityPos" id="cboActivityPos">
+                <select data-role="combobox" id="cboActivity" tabindex="74" class="cboActivity" data-text-field="Text" data-value-field="Value" data-bind="source : cboActivity.ComboBoxItems, customText : cboActivity.CustomText, comboSelectedIndex : cboActivity.SelectedIndex, events : { change : cboActivity_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label13" tabindex="74" class="Label13" data-bind="text : Label13.Text, imagePath : Label13.ImagePath">WHERE DID INJURY OCCUR</label>
+              <div class="cboWhereOccuredPos" id="cboWhereOccuredPos">
+                <select data-role="combobox" id="cboWhereOccured" tabindex="73" class="cboWhereOccured" data-text-field="Text" data-value-field="Value" data-bind="source : cboWhereOccured.ComboBoxItems, customText : cboWhereOccured.CustomText, comboSelectedIndex : cboWhereOccured.SelectedIndex, events : { change : cboWhereOccured_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="Label14" tabindex="73" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">INJURY CAUSED BY</label>
+              <div class="cboInjuryCausedByPos" id="cboInjuryCausedByPos">
+                <select data-role="combobox" id="cboInjuryCausedBy" tabindex="72" class="cboInjuryCausedBy" data-text-field="Text" data-value-field="Value" data-bind="source : cboInjuryCausedBy.ComboBoxItems, customText : cboInjuryCausedBy.CustomText, comboSelectedIndex : cboInjuryCausedBy.SelectedIndex, events : { change : cboInjuryCausedBy_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="lbLocationAtInjury" tabindex="72" class="lbLocationAtInjury" data-bind="text : lbLocationAtInjury.Text, imagePath : lbLocationAtInjury.ImagePath">LOCATION AT TIME OF INJURY</label>
+              <div class="cboLocationAtInjuryPos" id="cboLocationAtInjuryPos">
+                <select data-role="combobox" id="cboLocationAtInjury" tabindex="71" class="cboLocationAtInjury" data-text-field="Text" data-value-field="Value" data-bind="source : cboLocationAtInjury.ComboBoxItems, customText : cboLocationAtInjury.CustomText, comboSelectedIndex : cboLocationAtInjury.SelectedIndex, events : { change : cboLocationAtInjury_SelectionChangeCommitted }, "></select>
+              </div>
+            </div>
+          </fieldset>
+          <label id="Label15" tabindex="90" class="Label15" data-bind="text : Label15.Text, imagePath : Label15.ImagePath">DETAILED NARRATIVE</label>
+          <label id="Label21" tabindex="97" class="Label21" data-bind="text : Label21.Text, imagePath : Label21.ImagePath">RECOMMENDATIONS FOR PREVENTION</label>
+          <textarea id="rtxNarrative" tabindex="90" class="rtxNarrative"></textarea>
+          <textarea id="rtxRecommend" tabindex="89" class="rtxRecommend"></textarea>
+        </div>
+      </fieldset>
+      <fieldset id="frmCivilianCasualty" data-tag="6" data-bind="enabled : frmCivilianCasualty.Enabled">
+        <div id="frmCivilianCasualty" class="frmCivilianCasualty">
+          <label id="lbCivCasualtyTitle" tabindex="45" class="lbCivCasualtyTitle" data-bind="text : lbCivCasualtyTitle.Text, imagePath : lbCivCasualtyTitle.ImagePath">Civilian Casualty Report</label>
+          <label id="Label9" tabindex="121" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">SELECT NARRATION AUTHOR</label>
+          <div class="cboCivNarrListPos" id="cboCivNarrListPos">
+            <select data-role="combobox" id="cboCivNarrList" tabindex="68" class="cboCivNarrList" data-text-field="Text" data-value-field="Value" data-bind="source : cboCivNarrList.ComboBoxItems, customText : cboCivNarrList.CustomText, comboSelectedIndex : cboCivNarrList.SelectedIndex, events : { change : cboCivNarrList_SelectionChangeCommitted }, "></select>
+          </div>
+          <fieldset id="frmEMRInfo" class="frmEMRInfo">
+            <legend id="frmEMRInfo_legend" class="frmEMRInfo_legend"></legend>
+            <div>
+              <div class="chkEMR" data-bind="style : { backgroundColor : chkEMR.BackColor.Value, color : chkEMR.ForeColor.Value }">
+                <input id="chkEMR" tabindex="54" type="checkbox" style="float: left" data-bind="enabled : chkEMR.Enabled, events : { click : chkEMR_CheckStateChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkEMR.Enabled">EMS PATIENT REPORT COMPLETED?</label>
+                </div>
+              </div>
+              <label id="lbEMSPatient" tabindex="40" class="lbEMSPatient" data-bind="text : lbEMSPatient.Text, imagePath : lbEMSPatient.ImagePath">SELECT EMS PATIENT</label>
+              <div class="cboEMSPatientPos" id="cboEMSPatientPos">
+                <select data-role="combobox" disabled="disabled" id="cboEMSPatient" tabindex="53" class="cboEMSPatient" data-text-field="Text" data-value-field="Value" data-bind="source : cboEMSPatient.ComboBoxItems, enabled : cboEMSPatient.Enabled, customText : cboEMSPatient.CustomText, comboSelectedIndex : cboEMSPatient.SelectedIndex, events : { change : cboEMSPatient_SelectionChangeCommitted }, "></select>
+              </div>
+            </div>
+          </fieldset>
+          <label id="Label3" tabindex="53" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">INCIDENT NARRATION - Author:</label>
+          <label id="lbCivilNarrID" tabindex="57" class="lbCivilNarrID" data-bind="text : lbCivilNarrID.Text, imagePath : lbCivilNarrID.ImagePath"></label>
+          <label id="lbCCAuthor" tabindex="61" class="lbCCAuthor" data-bind="text : lbCCAuthor.Text, imagePath : lbCCAuthor.ImagePath"></label>
+          <textarea id="rtxCivilNarration" tabindex="61" class="rtxCivilNarration" data-bind="enabled : rtxCivilNarration.Enabled"></textarea>
+          <fieldset id="frmInjuryInfo" class="frmInjuryInfo">
+            <legend id="frmInjuryInfo_legend" class="frmInjuryInfo_legend"></legend>
+            <div>
+              <div class="cboSeverityPos" id="cboSeverityPos">
+                <select data-role="combobox" id="cboSeverity" tabindex="45" class="cboSeverity" data-text-field="Text" data-value-field="Value" data-bind="source : cboSeverity.ComboBoxItems, customText : cboSeverity.CustomText, comboSelectedIndex : cboSeverity.SelectedIndex, events : { change : cboSeverity_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="lbSeverity" tabindex="33" class="lbSeverity" data-bind="text : lbSeverity.Text, imagePath : lbSeverity.ImagePath">INJURY SEVERITY</label>
+              <div class="cboInjuryCausePos" id="cboInjuryCausePos">
+                <select data-role="combobox" id="cboInjuryCause" tabindex="46" class="cboInjuryCause" data-text-field="Text" data-value-field="Value" data-bind="source : cboInjuryCause.ComboBoxItems, customText : cboInjuryCause.CustomText, comboSelectedIndex : cboInjuryCause.SelectedIndex, events : { change : cboInjuryCause_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="lbInjuryCause" tabindex="34" class="lbInjuryCause" data-bind="text : lbInjuryCause.Text, imagePath : lbInjuryCause.ImagePath">INJURY CAUSED BY</label>
+              <div class="cboCCLocationPos" id="cboCCLocationPos">
+                <select data-role="combobox" id="cboCCLocation" tabindex="47" class="cboCCLocation" data-text-field="Text" data-value-field="Value" data-bind="source : cboCCLocation.ComboBoxItems, customText : cboCCLocation.CustomText, comboSelectedIndex : cboCCLocation.SelectedIndex, events : { change : cboCCLocation_SelectionChangeCommitted }, "></select>
+              </div>
+              <label id="lbCCLocation" tabindex="36" class="lbCCLocation" data-bind="text : lbCCLocation.Text, imagePath : lbCCLocation.ImagePath">LOCATION AT INJURY</label>
+              <input id="txtFloor" tabindex="48" class="txtFloor" data-bind="enabled : txtFloor.Enabled, value : txtFloor.Text" />
+              <label id="lbFloor" tabindex="35" class="lbFloor" data-bind="text : lbFloor.Text, imagePath : lbFloor.ImagePath">FLOOR</label>
+            </div>
+          </fieldset>
+          <label id="lbContribFactors" tabindex="43" class="lbContribFactors" data-bind="text : lbContribFactors.Text, imagePath : lbContribFactors.ImagePath">CONTRIBUTING FACTORS</label>
+          <div id="lstContribFactors" tabindex="56" data-selectable="multiple" class="lstContribFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstContribFactors.ListBoxItems, listBoxSelectedIndices : lstContribFactors.ListBoxSelectedIndices"></div>
+          <label id="lbHumanContribFactors" tabindex="44" class="lbHumanContribFactors" data-bind="text : lbHumanContribFactors.Text, imagePath : lbHumanContribFactors.ImagePath">HUMAN CONTRIBUTING FACTORS</label>
+          <div id="lstHumanContribFactors" tabindex="57" data-selectable="multiple" class="lstHumanContribFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstHumanContribFactors.ListBoxItems, listBoxSelectedIndices : lstHumanContribFactors.ListBoxSelectedIndices"></div>
+          <label id="Label5" tabindex="60" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Narrations may only be edited by Original Author</label>
+          <button id="cmdCivAddNarration" tabindex="67" data-tag="1" class="cmdCivAddNarration" type="button" data-bind="enabled : cmdCivAddNarration.Enabled, visible : cmdCivAddNarration.Visible, buttonText : cmdCivAddNarration.Text, events : { click : cmdCivAddNarration_Click }, ">ADD NEW NARRATION</button>
+        </div>
+      </fieldset>
+      <fieldset id="frmService" data-tag="13" data-bind="enabled : frmService.Enabled">
+        <div id="frmService" class="frmService">
+          <label id="lbServiceTitle" tabindex="26" class="lbServiceTitle" data-bind="text : lbServiceTitle.Text, imagePath : lbServiceTitle.ImagePath">Frame Title</label>
+          <label id="lbServiceProvided" tabindex="24" class="lbServiceProvided" data-bind="text : lbServiceProvided.Text, imagePath : lbServiceProvided.ImagePath">SERVICE PROVIDED</label>
+          <div class="cboServiceTypePos" id="cboServiceTypePos">
+            <select data-role="combobox" id="cboServiceType" tabindex="30" class="cboServiceType" data-text-field="Text" data-value-field="Value" data-bind="source : cboServiceType.ComboBoxItems, customText : cboServiceType.CustomText, comboSelectedIndex : cboServiceType.SelectedIndex, events : { change : cboServiceType_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="lbStandbyHours" tabindex="25" class="lbStandbyHours" data-bind="visible : lbStandbyHours.Visible, text : lbStandbyHours.Text, imagePath : lbStandbyHours.ImagePath">STANDBY HOURS</label>
+          <input id="txtStandbyHours" tabindex="31" Value="txtStandbyHours" class="txtStandbyHours" data-bind="style : { backgroundColor : txtStandbyHours.BackColor.Value, color : txtStandbyHours.ForeColor.Value }, enabled : txtStandbyHours.Enabled, visible : txtStandbyHours.Visible, value : txtStandbyHours.Text, events : { change : txtStandbyHours_TextChanged }, " />
+          <input id="txtNumberSafePlace" tabindex="29" Value="txtStandbyHours" class="txtNumberSafePlace" data-bind="style : { backgroundColor : txtNumberSafePlace.BackColor.Value, color : txtNumberSafePlace.ForeColor.Value }, enabled : txtNumberSafePlace.Enabled, visible : txtNumberSafePlace.Visible, value : txtNumberSafePlace.Text, events : { change : txtNumberSafePlace_TextChanged }, " />
+          <label id="lbSafePlace" tabindex="23" class="lbSafePlace" data-bind="visible : lbSafePlace.Visible, text : lbSafePlace.Text, imagePath : lbSafePlace.ImagePath">NUMBER OF SAFEPLACE JUVENILES</label>
+          <label id="Label8" tabindex="116" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">SELECT NARRATION AUTHOR</label>
+          <div class="cboServiceNarrListPos" id="cboServiceNarrListPos">
+            <select data-role="combobox" id="cboServiceNarrList" tabindex="43" class="cboServiceNarrList" data-text-field="Text" data-value-field="Value" data-bind="source : cboServiceNarrList.ComboBoxItems, customText : cboServiceNarrList.CustomText, comboSelectedIndex : cboServiceNarrList.SelectedIndex, events : { change : cboServiceNarrList_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="lbServNarrAuthor" tabindex="62" class="lbServNarrAuthor" data-bind="text : lbServNarrAuthor.Text, imagePath : lbServNarrAuthor.ImagePath"></label>
+          <label id="Label4" tabindex="54" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">INCIDENT NARRATION - Author:</label>
+          <label id="lbServiceNarrID" tabindex="55" class="lbServiceNarrID" data-bind="text : lbServiceNarrID.Text, imagePath : lbServiceNarrID.ImagePath"></label>
+          <textarea id="rtxServiceNarration" tabindex="36" class="rtxServiceNarration" data-bind="enabled : rtxServiceNarration.Enabled"></textarea>
+          <button id="cmdServAddNarration" tabindex="44" data-tag="1" class="cmdServAddNarration" type="button" data-bind="enabled : cmdServAddNarration.Enabled, visible : cmdServAddNarration.Visible, buttonText : cmdServAddNarration.Text, events : { click : cmdServAddNarration_Click }, ">Add New Narration</button>
+          <label id="Label7" tabindex="63" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Narrations may only be edited by Original Author</label>
+        </div>
+      </fieldset>
+      <fieldset id="frmAllInfo" data-bind="enabled : frmAllInfo.Enabled">
+        <div id="frmAllInfo" class="frmAllInfo" data-bind="style : { backgroundColor : frmAllInfo.BackColor.Value }">
+          <label id="lbAllInfoTitle" tabindex="18" class="lbAllInfoTitle" data-bind="style : { color : lbAllInfoTitle.ForeColor.Value }, text : lbAllInfoTitle.Text, imagePath : lbAllInfoTitle.ImagePath">FALSE ALARM REPORT</label>
+          <label id="Label6" tabindex="113" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Select Narration Author</label>
+          <div class="cboNarrListPos" id="cboNarrListPos">
+            <select data-role="combobox" id="cboNarrList" tabindex="27" class="cboNarrList" data-text-field="Text" data-value-field="Value" data-bind="source : cboNarrList.ComboBoxItems, customText : cboNarrList.CustomText, comboSelectedIndex : cboNarrList.SelectedIndex, events : { change : cboNarrList_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="lbAllInfo1" tabindex="17" class="lbAllInfo1" data-bind="style : { color : lbAllInfo1.ForeColor.Value }, visible : lbAllInfo1.Visible, text : lbAllInfo1.Text, imagePath : lbAllInfo1.ImagePath">lbAllInfo1</label>
+          <div class="cboAllInfo1Pos" id="cboAllInfo1Pos" data-bind="visible : cboAllInfo1.Visible">
+            <select data-role="combobox" id="cboAllInfo1" tabindex="14" class="cboAllInfo1" data-text-field="Text" data-value-field="Value" data-bind="source : cboAllInfo1.ComboBoxItems, customText : cboAllInfo1.CustomText, comboSelectedIndex : cboAllInfo1.SelectedIndex, events : { change : cboAllInfo1_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="Label1" tabindex="52" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">INCIDENT NARRATION - Author:</label>
+          <label id="lbAllNarrID" tabindex="56" class="lbAllNarrID" data-bind="text : lbAllNarrID.Text, imagePath : lbAllNarrID.ImagePath"></label>
+          <label id="lbAllInfo2" tabindex="16" class="lbAllInfo2" data-bind="style : { color : lbAllInfo2.ForeColor.Value }, visible : lbAllInfo2.Visible, text : lbAllInfo2.Text, imagePath : lbAllInfo2.ImagePath">lbAllInfo2</label>
+          <label id="lbAllNarrAuthor" tabindex="59" class="lbAllNarrAuthor" data-bind="text : lbAllNarrAuthor.Text, imagePath : lbAllNarrAuthor.ImagePath"></label>
+          <div class="cboAllInfo2Pos" id="cboAllInfo2Pos" data-bind="visible : cboAllInfo2.Visible">
+            <select data-role="combobox" id="cboAllInfo2" tabindex="13" class="cboAllInfo2" data-text-field="Text" data-value-field="Value" data-bind="source : cboAllInfo2.ComboBoxItems, customText : cboAllInfo2.CustomText, comboSelectedIndex : cboAllInfo2.SelectedIndex, events : { change : cboAllInfo2_SelectionChangeCommitted }, "></select>
+          </div>
+          <textarea id="rtxAllNarration" tabindex="20" class="rtxAllNarration" data-bind="enabled : rtxAllNarration.Enabled"></textarea>
+          <label id="lbAllInfo3" tabindex="15" class="lbAllInfo3" data-bind="style : { color : lbAllInfo3.ForeColor.Value }, visible : lbAllInfo3.Visible, text : lbAllInfo3.Text, imagePath : lbAllInfo3.ImagePath">lbAllInfo3</label>
+          <div class="cboAllInfo3Pos" id="cboAllInfo3Pos" data-bind="visible : cboAllInfo3.Visible">
+            <select data-role="combobox" id="cboAllInfo3" tabindex="12" class="cboAllInfo3" data-text-field="Text" data-value-field="Value" data-bind="source : cboAllInfo3.ComboBoxItems, customText : cboAllInfo3.CustomText, comboSelectedIndex : cboAllInfo3.SelectedIndex, events : { change : cboAllInfo3_SelectionChangeCommitted }, "></select>
+          </div>
+          <input id="txtAllInfo1" tabindex="11" Value="txtAllInfo1" class="txtAllInfo1" data-bind="style : { color : txtAllInfo1.ForeColor.Value }, enabled : txtAllInfo1.Enabled, visible : txtAllInfo1.Visible, value : txtAllInfo1.Text, events : { change : txtAllInfo1_TextChanged }, " />
+          <label id="lbAllInfo4" tabindex="14" class="lbAllInfo4" data-bind="style : { color : lbAllInfo4.ForeColor.Value }, visible : lbAllInfo4.Visible, text : lbAllInfo4.Text, imagePath : lbAllInfo4.ImagePath">lbAllInfo4</label>
+          <textarea id="rtxFalseAlarmComment" tabindex="10" class="rtxFalseAlarmComment" data-bind="enabled : rtxFalseAlarmComment.Enabled, visible : rtxFalseAlarmComment.Visible"></textarea>
+          <label id="lbNarrMessage" tabindex="58" class="lbNarrMessage" data-bind="text : lbNarrMessage.Text, imagePath : lbNarrMessage.ImagePath">Narrations may only be edited by Original Author</label>
+          <button id="cmdAddNarration" tabindex="28" data-tag="1" class="cmdAddNarration" type="button" data-bind="enabled : cmdAddNarration.Enabled, visible : cmdAddNarration.Visible, buttonText : cmdAddNarration.Text, events : { click : cmdAddNarration_Click }, ">Add New Narration</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

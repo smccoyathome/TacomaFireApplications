@@ -1,0 +1,11 @@
+<div>
+  <div data-width="735" data-height="472" data-removeControlBox="true" name="frmTimeCardX" data-title="Payroll TimeCard Worksheet - " class="PTSProject_frmTimeCardX" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmTimeCardX">
+      <button id="cmdPrint" tabindex="3" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calWeek" tabindex="2" class="calWeek" data-bind="dateTimePickerValue : calWeek.Value, DateTimeMinDate : calWeek.MinDate, DateTimeMaxDate : calWeek.MaxDate, events : { change : calWeek_Click }, " />
+      <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label1" tabindex="0" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Payroll Period</label>
+      <div id="sprWeek" data-role="mobilizespread" tabindex="4" class="sprWeek" data-bind="widgetvalue: sprWeek"></div>
+    </form>
+  </div>
+</div>

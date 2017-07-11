@@ -1,0 +1,39 @@
+<div>
+  <div data-width="298" data-height="167" data-removeControlBox="true" name="dlgSendRover" data-title="Send to Battalion " class="PTSProject_dlgSendRover" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgSendRover">
+      <div class="chkAM">
+        <input id="chkAM" tabindex="3" type="checkbox" style="float: left" data-bind="enabled : chkAM.Enabled, events : { click : chkAM_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkAM.Enabled">AM</label>
+        </div>
+      </div>
+      <div class="chkRover">
+        <input id="chkRover" tabindex="6" type="checkbox" style="float: left" data-bind="enabled : chkRover.Enabled, events : { click : chkRover_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkRover.Enabled">Rover</label>
+        </div>
+      </div>
+      <div class="chkPM">
+        <input id="chkPM" tabindex="4" type="checkbox" style="float: left" data-bind="enabled : chkPM.Enabled, events : { click : chkPM_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkPM.Enabled">PM</label>
+        </div>
+      </div>
+      <div class="chkDebit">
+        <input id="chkDebit" tabindex="7" type="checkbox" style="float: left" data-bind="enabled : chkDebit.Enabled, events : { click : chkDebit_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkDebit.Enabled">Debit</label>
+        </div>
+      </div>
+      <div class="chkBoth">
+        <input id="chkBoth" tabindex="5" type="checkbox" style="float: left" data-bind="enabled : chkBoth.Enabled, events : { click : chkBoth_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkBoth.Enabled">Both AM and PM Shifts</label>
+        </div>
+      </div>
+      <label id="lbTrade" tabindex="7" class="lbTrade" data-bind="text : lbTrade.Text, imagePath : lbTrade.ImagePath">Confirm or Cancel Trade Employee Move</label>
+      <button id="cmdOK" tabindex="2" class="cmdOK" type="button" data-bind="events : { click : cmdOK_Click }, ">OK</button>
+      <button id="cmdCancel" tabindex="1" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+    </form>
+  </div>
+</div>

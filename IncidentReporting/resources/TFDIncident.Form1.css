@@ -1,0 +1,139 @@
+.TFDIncident_Form1 {
+}
+.TFDIncident_Form1 .Form1 {
+	background-color: rgba(240, 240, 240, 1);
+	min-width: 607px;
+	min-height: 469px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_Form1 .Label2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 16.56px;
+	font-weight: bold;
+	font-style: italic;
+	color: rgba(0, 0, 0, 1);
+	left: 12px;
+	top: 16px;
+	position: absolute;
+	width: 281px;
+	height: 29px;
+}
+.TFDIncident_Form1 .Frame1 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 16px;
+	top: 56px;
+	position: absolute;
+	width: 181px;
+	height: 57px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_Form1 .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_Form1 ._optMA_0 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 12px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_Form1 ._optMA_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_Form1 ._optMA_0 * {
+	Cursor: default;
+}
+.TFDIncident_Form1 ._optMA_1 {
+	background-color: rgba(240, 240, 240, 1);
+	left: 88px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_Form1 ._optMA_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_Form1 ._optMA_1 * {
+	Cursor: default;
+}
+.TFDIncident_Form1 .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_Form1 .Label1 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 16px;
+	top: 124px;
+	position: absolute;
+	width: 217px;
+	height: 21px;
+}
+.TFDIncident_Form1 .Label4 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 248px;
+	top: 124px;
+	position: absolute;
+	width: 189px;
+	height: 17px;
+}
+.TFDIncident_Form1 .Text1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 248px;
+	top: 140px;
+	position: absolute;
+	width: 189px;
+	height: 21px;
+}
+.TFDIncident_Form1 .Text1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_Form1 .List1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 16px;
+	top: 148px;
+	position: absolute;
+	width: 149px;
+	height: 109px;
+	visibility: inherit;
+}
+.TFDIncident_Form1 .Check1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 20px;
+	top: 272px;
+	position: absolute;
+	width: 229px;
+	height: 29px;
+	visibility: inherit;
+	width: auto;
+}
+.TFDIncident_Form1 .Check1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

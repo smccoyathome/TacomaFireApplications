@@ -1,0 +1,145 @@
+.PTSProject_frmEmployeeListByStation {
+}
+.PTSProject_frmEmployeeListByStation .frmEmployeeListByStation {
+	background-color: #400040;
+	min-width: 542px;
+	min-height: 347px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+}
+.PTSProject_frmEmployeeListByStation .Frame1 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 527px;
+	height: 89px;
+	border: 2px groove;
+}
+.PTSProject_frmEmployeeListByStation .Frame1:enabled {
+	color: Aqua;
+}
+.PTSProject_frmEmployeeListByStation .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 384px;
+	top: 16px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmployeeListByStation .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmployeeListByStation .chkSelectAll {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 73px;
+	height: 13px;
+	width: auto;
+}
+.PTSProject_frmEmployeeListByStation .chkSelectAll:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmEmployeeListByStation .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 16px;
+	top: 40px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.PTSProject_frmEmployeeListByStation .cboLocation {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	width: 185px;
+	height: 20px;
+}
+.PTSProject_frmEmployeeListByStation .cboLocation:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmployeeListByStation .cboLocationPos {
+	top: 40px;
+	left: 168px;
+	position: absolute;
+	width: 185px;
+	height: 20px;
+}
+.PTSProject_frmEmployeeListByStation .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 384px;
+	top: 48px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmployeeListByStation .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmployeeListByStation .lbCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Lime;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmEmployeeListByStation .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmEmployeeListByStation .sprReport {
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 527px;
+	height: 241px;
+}
+.PTSProject_frmEmployeeListByStation .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmEmployeeListByStation .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,916 @@
+.PTSProject_frmAddNew {
+}
+.PTSProject_frmAddNew .frmAddNew {
+	background-color: White;
+	min-width: 624px;
+	min-height: 369px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmAddNew .Frame1 {
+	background-color: Teal;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 625px;
+	height: 369px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmAddNew .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtSAPEmpID {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 112px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtSAPEmpID:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtEmpID {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 320px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtEmpID:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .cmdSwitch {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 408px;
+	top: 9px;
+	position: absolute;
+	width: 208px;
+	height: 23px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddNew .cmdSwitch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 12px;
+	position: absolute;
+	width: 101px;
+	height: 16px;
+}
+.PTSProject_frmAddNew .Label22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 220px;
+	top: 12px;
+	position: absolute;
+	width: 101px;
+	height: 16px;
+}
+.PTSProject_frmAddNew .Picture1 {
+	background-color: #004040;
+	cursor: default;
+	left: 8px;
+	top: 34px;
+	position: absolute;
+	width: 609px;
+	height: 41px;
+	visibility: inherit;
+}
+.PTSProject_frmAddNew .Label1 {
+	background-color: #004040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 12px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtFName {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 76px;
+	top: 12px;
+	position: absolute;
+	width: 153px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtFName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label2 {
+	background-color: #004040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 240px;
+	top: 12px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtMName {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 260px;
+	top: 12px;
+	position: absolute;
+	width: 17px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtMName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label3 {
+	background-color: #004040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 288px;
+	top: 12px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtLName {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 360px;
+	top: 12px;
+	position: absolute;
+	width: 137px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtLName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 512px;
+	top: 12px;
+	position: absolute;
+	width: 37px;
+	height: 16px;
+}
+.PTSProject_frmAddNew .txtSName {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 556px;
+	top: 12px;
+	position: absolute;
+	width: 41px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtSName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Shape5 {
+	fill: #804040;
+	fill-opacity: 1;
+	stroke: Black;
+	stroke-width: 2;
+	color: #804040;
+}
+.PTSProject_frmAddNew .cboJobCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 261px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmAddNew .cboJobCode:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .cboJobCodePos {
+	top: 87px;
+	left: 76px;
+	position: absolute;
+	width: 261px;
+	height: 20px;
+}
+.PTSProject_frmAddNew .txtStep {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 568px;
+	top: 87px;
+	position: absolute;
+	width: 34px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtStep:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 88px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Label5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 352px;
+	top: 88px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .lbJobCode {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: Silver;
+	left: 432px;
+	top: 88px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmAddNew .lbStep {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 520px;
+	top: 88px;
+	position: absolute;
+	width: 40px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Frame2 {
+	background-color: Silver;
+	left: 8px;
+	top: 120px;
+	position: absolute;
+	width: 609px;
+	height: 193px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmAddNew .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtNameKnownBy {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 104px;
+	top: 8px;
+	position: absolute;
+	width: 241px;
+	height: 21px;
+}
+.PTSProject_frmAddNew .txtNameKnownBy:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtCOT {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 488px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 21px;
+}
+.PTSProject_frmAddNew .txtCOT:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label18 {
+	background-color: Silver;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 12px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Label7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 376px;
+	top: 12px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtBDay {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 104px;
+	top: 33px;
+	position: absolute;
+	width: 81px;
+	height: 21px;
+}
+.PTSProject_frmAddNew .txtBDay:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtSex {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 256px;
+	top: 33px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmAddNew .txtSex:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtTFD {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 488px;
+	top: 33px;
+	position: absolute;
+	width: 105px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtTFD:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 32px;
+	top: 37px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Label14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 224px;
+	top: 37px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Label8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 392px;
+	top: 37px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtPhone {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 104px;
+	top: 60px;
+	position: absolute;
+	width: 113px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtPhone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtException {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 504px;
+	top: 60px;
+	position: absolute;
+	width: 57px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtException:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 24px;
+	top: 64px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Label20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 392px;
+	top: 64px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Label10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 48px;
+	top: 88px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtAddress {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 104px;
+	top: 88px;
+	position: absolute;
+	width: 259px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtAddress:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 408px;
+	top: 88px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .cboBenefit {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 57px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmAddNew .cboBenefit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .cboBenefitPos {
+	top: 88px;
+	left: 512px;
+	position: absolute;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmAddNew .Label17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 64px;
+	top: 112px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtCity {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 104px;
+	top: 112px;
+	position: absolute;
+	width: 100px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtCity:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtState {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 241px;
+	top: 112px;
+	position: absolute;
+	width: 27px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtState:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtZip {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 298px;
+	top: 112px;
+	position: absolute;
+	width: 65px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtZip:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtUnion {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 512px;
+	top: 112px;
+	position: absolute;
+	width: 57px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtUnion:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Label11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 208px;
+	top: 115px;
+	position: absolute;
+	width: 32px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Label12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 275px;
+	top: 115px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .lbUnion {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 464px;
+	top: 115px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .Label15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 136px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtSSN {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 104px;
+	top: 136px;
+	position: absolute;
+	width: 129px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtSSN:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .chkStatus {
+	background-color: Silver;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 264px;
+	top: 136px;
+	position: absolute;
+	width: 69px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmAddNew .chkStatus:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .txtExitComments {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 408px;
+	top: 144px;
+	position: absolute;
+	overflow: auto;
+	width: 197px;
+	height: 41px;
+}
+.PTSProject_frmAddNew .txtExitComments:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .lbExitComments {
+	background-color: Silver;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 344px;
+	top: 154px;
+	position: absolute;
+	width: 64px;
+	height: 32px;
+}
+.PTSProject_frmAddNew .lbExit {
+	background-color: Silver;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 32px;
+	top: 160px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .txtExit {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 104px;
+	top: 160px;
+	position: absolute;
+	width: 65px;
+	height: 19px;
+}
+.PTSProject_frmAddNew .txtExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .lbExitType {
+	background-color: Silver;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 192px;
+	top: 160px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmAddNew .cboExitType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 86px;
+	height: 20px;
+}
+.PTSProject_frmAddNew .cboExitType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .cboExitTypePos {
+	top: 160px;
+	left: 248px;
+	position: absolute;
+	width: 86px;
+	height: 20px;
+}
+.PTSProject_frmAddNew .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmAddNew .cmdAdd {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 24px;
+	top: 328px;
+	position: absolute;
+	width: 153px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddNew .cmdAdd:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .cmdAssign {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 184px;
+	top: 328px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddNew .cmdAssign:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 400px;
+	top: 328px;
+	position: absolute;
+	width: 93px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddNew .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 512px;
+	top: 328px;
+	position: absolute;
+	width: 85px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAddNew .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAddNew .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

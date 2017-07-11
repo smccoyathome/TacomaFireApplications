@@ -1,0 +1,575 @@
+.PTSProject_frmPPEInspHistory {
+}
+.PTSProject_frmPPEInspHistory .frmPPEInspHistory {
+	background-color: #004040;
+	min-width: 735px;
+	min-height: 403px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .Frame2 {
+	background-color: #004040;
+	left: 2px;
+	top: 0px;
+	position: absolute;
+	width: 385px;
+	height: 41px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInspHistory .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .chkDisplayOption {
+	background-color: #004040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 361px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmPPEInspHistory .chkDisplayOption:enabled {
+	color: Lime;
+}
+.PTSProject_frmPPEInspHistory .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPPEInspHistory .frmNotInspectedOptions {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	font-style: italic;
+	left: 2px;
+	top: 40px;
+	position: absolute;
+	width: 489px;
+	height: 137px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInspHistory .frmNotInspectedOptions:enabled {
+	color: #C0FFFF;
+}
+.PTSProject_frmPPEInspHistory .frmBattOpt {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 129px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInspHistory .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .optAll {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .optAll:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt182 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 56px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt182:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt181 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt181:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt183 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 56px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt183:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPPEInspHistory .Frame4 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 136px;
+	top: 16px;
+	position: absolute;
+	width: 137px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInspHistory .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .optA {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .optA:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .optA * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .optC {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 72px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .optC:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .optC * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .optB {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .optB:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .optB * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .optD {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 72px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .optD:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .optD * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPPEInspHistory .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 280px;
+	top: 24px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPEInspHistory .cboType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInspHistory .cboType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .cboTypePos {
+	top: 24px;
+	left: 368px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInspHistory .lbBrand {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 280px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPEInspHistory .cboBrand {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInspHistory .cboBrand:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .cboBrandPos {
+	top: 48px;
+	left: 368px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInspHistory .Frame3 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 265px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInspHistory .Frame3:enabled {
+	color: #80FF80;
+}
+.PTSProject_frmPPEInspHistory .opt6Month {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 249px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt6Month:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .opt6Month * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt12Month {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 249px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPPEInspHistory .opt12Month:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .opt12Month * {
+	Cursor: default;
+}
+.PTSProject_frmPPEInspHistory .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPPEInspHistory .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 296px;
+	top: 80px;
+	position: absolute;
+	width: 177px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInspHistory .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .frmNotInspectedOptions_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPPEInspHistory .frmInpectedOptions {
+	background-color: Maroon;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	font-style: italic;
+	left: 2px;
+	top: 40px;
+	position: absolute;
+	width: 385px;
+	height: 105px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInspHistory .frmInpectedOptions:enabled {
+	color: #C0FFFF;
+}
+.PTSProject_frmPPEInspHistory .Label2 {
+	background-color: Maroon;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 249px;
+	height: 17px;
+}
+.PTSProject_frmPPEInspHistory .lbEmpID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 280px;
+	top: 16px;
+	position: absolute;
+	width: 41px;
+	height: 9px;
+	visibility: hidden;
+}
+.PTSProject_frmPPEInspHistory .cboEmpList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 185px;
+	height: 23px;
+}
+.PTSProject_frmPPEInspHistory .cboEmpList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .cboEmpListPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 185px;
+	height: 23px;
+}
+.PTSProject_frmPPEInspHistory .chkInactive {
+	background-color: Maroon;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 200px;
+	top: 32px;
+	position: absolute;
+	width: 177px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmPPEInspHistory .chkInactive:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmPPEInspHistory .Label11 {
+	background-color: Maroon;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 321px;
+	height: 17px;
+}
+.PTSProject_frmPPEInspHistory .txtTrackingNum {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 121px;
+	height: 21px;
+}
+.PTSProject_frmPPEInspHistory .txtTrackingNum:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .cmdSearchNum {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 136px;
+	top: 72px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInspHistory .cmdSearchNum:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .frmInpectedOptions_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPPEInspHistory .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 528px;
+	top: 88px;
+	position: absolute;
+	width: 177px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInspHistory .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .cmdPrintList {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 528px;
+	top: 112px;
+	position: absolute;
+	width: 177px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInspHistory .cmdPrintList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInspHistory .lbTotalCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 496px;
+	top: 160px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInspHistory .sprList {
+	left: 2px;
+	top: 176px;
+	position: absolute;
+	width: 731px;
+	height: 217px;
+}
+.PTSProject_frmPPEInspHistory .sprList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPPEInspHistory .sprList .k-spreadsheet-action-bar {
+	display: none;
+}
+

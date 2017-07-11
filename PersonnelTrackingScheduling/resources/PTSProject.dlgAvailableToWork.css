@@ -1,0 +1,106 @@
+.PTSProject_dlgAvailableToWork {
+}
+.PTSProject_dlgAvailableToWork .dlgAvailableToWork {
+	background-color: #004040;
+	min-width: 665px;
+	min-height: 257px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgAvailableToWork .sprAvailable {
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 544px;
+	height: 153px;
+}
+.PTSProject_dlgAvailableToWork .sprAvailable .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgAvailableToWork .sprAvailable .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgAvailableToWork .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	left: 560px;
+	top: 16px;
+	position: absolute;
+	width: 97px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgAvailableToWork .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgAvailableToWork .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	left: 560px;
+	top: 64px;
+	position: absolute;
+	width: 97px;
+	height: 40px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgAvailableToWork .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgAvailableToWork .txtComment {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 8px;
+	top: 168px;
+	position: absolute;
+	overflow: auto;
+	width: 297px;
+	height: 81px;
+}
+.PTSProject_dlgAvailableToWork .txtComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgAvailableToWork .sprPhoneList {
+	left: 312px;
+	top: 168px;
+	position: absolute;
+	width: 237px;
+	height: 81px;
+}
+.PTSProject_dlgAvailableToWork .sprPhoneList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgAvailableToWork .sprPhoneList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgAvailableToWork .sprReport {
+	border-width: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 8px;
+	top: 264px;
+	position: absolute;
+	width: 521px;
+	height: 121px;
+	visibility: hidden;
+}
+.PTSProject_dlgAvailableToWork .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgAvailableToWork .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

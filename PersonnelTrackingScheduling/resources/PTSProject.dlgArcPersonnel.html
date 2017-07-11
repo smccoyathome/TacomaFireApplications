@@ -1,0 +1,18 @@
+<div>
+  <div data-width="361" data-height="264" data-removeControlBox="true" name="dlgArcPersonnel" data-title="Archive Personnel Records" class="PTSProject_dlgArcPersonnel" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgArcPersonnel">
+      <label id="lbInstruct1" tabindex="6" class="lbInstruct1" data-bind="visible : lbInstruct1.Visible, text : lbInstruct1.Text, imagePath : lbInstruct1.ImagePath">Changing This Employees Status to Inactive will Archive all Personnel Records and remove all future Schedule and Leave Records - Click OK to continue or Cancel to Quit</label>
+      <label id="lbInstruct2" tabindex="5" class="lbInstruct2" data-bind="visible : lbInstruct2.Visible, text : lbInstruct2.Text, imagePath : lbInstruct2.ImagePath">Please enter Employee's Exit Date,             Reason for Leaving and any desired Comments</label>
+      <label id="lbExit" tabindex="7" class="lbExit" data-bind="visible : lbExit.Visible, text : lbExit.Text, imagePath : lbExit.ImagePath">Exit Date</label>
+      <input id="txtExit" tabindex="2" class="txtExit" data-bind="visible : txtExit.Visible, value : txtExit.Text, selectedRange : txtExit.SelectedRange" />
+      <label id="lbExitType" tabindex="8" class="lbExitType" data-bind="visible : lbExitType.Visible, text : lbExitType.Text, imagePath : lbExitType.ImagePath">Reason for Leaving</label>
+      <div class="cboExitTypePos" id="cboExitTypePos" data-bind="visible : cboExitType.Visible">
+        <select data-role="combobox" id="cboExitType" tabindex="3" class="cboExitType" data-text-field="Text" data-value-field="Value" data-bind="source : cboExitType.ComboBoxItems, customText : cboExitType.CustomText, comboSelectedIndex : cboExitType.SelectedIndex"></select>
+      </div>
+      <label id="lbComments" tabindex="9" class="lbComments" data-bind="text : lbComments.Text, imagePath : lbComments.ImagePath">Comments</label>
+      <input id="txtComments" tabindex="4" class="txtComments" data-bind="visible : txtComments.Visible, value : txtComments.Text" />
+      <button id="cmdOK" tabindex="5" class="cmdOK" type="button" data-bind="events : { click : cmdOK_Click }, ">OK</button>
+      <button id="cmdCancel" tabindex="1" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+    </form>
+  </div>
+</div>

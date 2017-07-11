@@ -1,0 +1,161 @@
+<div>
+  <div data-width="674" data-height="530" name="frmNewPPEWDL" data-title="TFD WDL &amp; PPE Information" class="PTSProject_frmNewPPEWDL" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmNewPPEWDL">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Select Employee: </legend>
+        <div>
+          <fieldset id="Frame2" class="Frame2">
+            <legend id="Frame2_legend" class="Frame2_legend"></legend>
+            <div>
+              <div class="opt181">
+                <input id="opt181" tabindex="42" type="radio" name="Frame2_radios" style="float: left" data-bind="customChecked : opt181.Checked, events : { change : opt181_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 1</label>
+                </div>
+              </div>
+              <div class="opt183">
+                <input id="opt183" tabindex="45" type="radio" name="Frame2_radios" style="float: left" data-bind="customChecked : opt183.Checked, events : { change : opt183_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 3</label>
+                </div>
+              </div>
+              <div class="opt182">
+                <input id="opt182" tabindex="43" type="radio" name="Frame2_radios" style="float: left" data-bind="customChecked : opt182.Checked, events : { change : opt182_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 2</label>
+                </div>
+              </div>
+              <div class="optAll">
+                <input id="optAll" tabindex="44" type="radio" name="Frame2_radios" checked="checked" style="float: left" data-bind="customChecked : optAll.Checked, events : { change : optAll_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ALL</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="Frame3" class="Frame3">
+            <legend id="Frame3_legend" class="Frame3_legend"></legend>
+            <div>
+              <div class="optA">
+                <input id="optA" tabindex="38" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : optA.Checked, events : { change : optA_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift A</label>
+                </div>
+              </div>
+              <div class="optC">
+                <input id="optC" tabindex="40" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : optC.Checked, events : { change : optC_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift C</label>
+                </div>
+              </div>
+              <div class="optB">
+                <input id="optB" tabindex="39" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : optB.Checked, events : { change : optB_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift B</label>
+                </div>
+              </div>
+              <div class="optD">
+                <input id="optD" tabindex="41" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : optD.Checked, events : { change : optD_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift D</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <label id="Label1" tabindex="56" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">To Filter the Employee List, Click a Battalion and/or Shift</label>
+          <button id="cmdClose" tabindex="37" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+          <label id="Label2" tabindex="55" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">To Clear the Filter, Click ALL (ALL = Everyone in TFD)</label>
+          <label id="lbEmpID" tabindex="57" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath">lbEmpID</label>
+          <label id="lbLicenseID" tabindex="58" class="lbLicenseID" data-bind="text : lbLicenseID.Text, imagePath : lbLicenseID.ImagePath">lbLicenseID</label>
+          <label id="lbBirthdate" tabindex="54" class="lbBirthdate" data-bind="text : lbBirthdate.Text, imagePath : lbBirthdate.ImagePath">lbBirthdate</label>
+          <button disabled="disabled" id="cmdPrintChecklist" tabindex="36" class="cmdPrintChecklist" type="button" data-bind="enabled : cmdPrintChecklist.Enabled, events : { click : cmdPrintChecklist_Click }, ">Print Inspection Check List</button>
+          <div class="chkInactive">
+            <input id="chkInactive" tabindex="32" type="checkbox" style="float: left" data-bind="events : { click : chkInactive_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Inactive Employees</label>
+            </div>
+          </div>
+          <label id="Label11" tabindex="53" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">Search by Barcode/Tracking \#:</label>
+          <div class="cboEmpListPos" id="cboEmpListPos">
+            <select id="cboEmpList" tabindex="33" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+          </div>
+          <input id="txtTrackingNum" tabindex="34" Value="txtTrackingNum" class="txtTrackingNum" data-bind="value : txtTrackingNum.Text" />
+          <button id="cmdSearch" tabindex="35" class="cmdSearch" type="button" data-bind="events : { click : cmdSearch_Click }, ">Search</button>
+          <button id="cmdSizes" tabindex="52" class="cmdSizes" type="button" data-bind="enabled : cmdSizes.Enabled, visible : cmdSizes.Visible, events : { click : cmdSizes_Click }, ">Employee Sizes</button>
+        </div>
+      </fieldset>
+      <fieldset id="Frame4" class="Frame4">
+        <legend id="Frame4_legend" class="Frame4_legend">Employee Information: </legend>
+        <div>
+          <button id="cmdUniformQuery" tabindex="18" class="cmdUniformQuery" type="button" data-bind="events : { click : cmdUniformQuery_Click }, ">Query PPE Information</button>
+          <label id="Label3" tabindex="49" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Name:</label>
+          <label id="lblName" tabindex="45" class="lblName" data-bind="text : lblName.Text, imagePath : lblName.ImagePath">lblName</label>
+          <label id="Label9" tabindex="40" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Label9</label>
+          <label id="Label4" tabindex="48" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Employee \#:</label>
+          <label id="lblEmpNum" tabindex="44" class="lblEmpNum" data-bind="text : lblEmpNum.Text, imagePath : lblEmpNum.ImagePath">lblEmpNum</label>
+          <label id="Label5" tabindex="47" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Assignment:</label>
+          <label id="lblAssignment" tabindex="43" class="lblAssignment" data-bind="text : lblAssignment.Text, imagePath : lblAssignment.ImagePath">lblAssignment</label>
+          <button id="cmdGlobe" tabindex="30" class="cmdGlobe" type="button" data-bind="enabled : cmdGlobe.Enabled, visible : cmdGlobe.Visible, events : { click : cmdGlobe_Click }, ">Query Globe Info</button>
+          <label id="Label6" tabindex="46" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Washington Driver License \#:</label>
+          <input id="txtWDL" tabindex="14" Value="txtWDL" class="txtWDL" data-bind="value : txtWDL.Text, selectedRange : txtWDL.SelectedRange" />
+          <button id="cmdUpdateWDL" tabindex="16" class="cmdUpdateWDL" type="button" data-bind="enabled : cmdUpdateWDL.Enabled, events : { click : cmdUpdateWDL_Click }, ">Verify and Update WDL</button>
+          <button id="cmdLaundryMgmt" tabindex="31" class="cmdLaundryMgmt" type="button" data-bind="enabled : cmdLaundryMgmt.Enabled, visible : cmdLaundryMgmt.Visible, events : { click : cmdLaundryMgmt_Click }, ">PPE Launder Mgmt</button>
+          <label id="Label7" tabindex="42" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">WDL Expiration Date:</label>
+          <input id="txtExpireDate" tabindex="15" Value="txtExpireDate" class="txtExpireDate" data-bind="value : txtExpireDate.Text, selectedRange : txtExpireDate.SelectedRange" />
+          <label id="Label10" tabindex="39" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">m/d/yyyy</label>
+          <button id="cmdUniformInventory" tabindex="17" class="cmdUniformInventory" type="button" data-bind="enabled : cmdUniformInventory.Enabled, visible : cmdUniformInventory.Visible, events : { click : cmdUniformInventory_Click }, ">Manage Turn Out Inventory</button>
+          <label id="lblVerify" tabindex="41" class="lblVerify" data-bind="visible : lblVerify.Visible, text : lblVerify.Text, imagePath : lblVerify.ImagePath">lblVerify</label>
+        </div>
+      </fieldset>
+      <div id="sprPPEList" data-role="mobilizespread" tabindex="22" class="sprPPEList" data-bind="widgetvalue: sprPPEList"></div>
+      <button id="cmdLastInsp" tabindex="1" class="cmdLastInsp" type="button" data-bind="events : { click : cmdLastInsp_Click }, ">Get Last Inspection</button>
+      <button disabled="disabled" id="cmdInspection" tabindex="2" class="cmdInspection" type="button" data-bind="enabled : cmdInspection.Enabled, events : { click : cmdInspection_Click }, ">Inspect History</button>
+      <button disabled="disabled" id="cmdRepair" tabindex="3" class="cmdRepair" type="button" data-bind="enabled : cmdRepair.Enabled, events : { click : cmdRepair_Click }, ">Repair History</button>
+      <button disabled="disabled" id="cmdCleaning" tabindex="4" class="cmdCleaning" type="button" data-bind="enabled : cmdCleaning.Enabled, events : { click : cmdCleaning_Click }, ">Laundry History</button>
+      <fieldset id="frmInspection" class="frmInspection">
+        <legend id="frmInspection_legend" class="frmInspection_legend">PPE Inspection</legend>
+        <div>
+          <label id="Label8" tabindex="60" class="Label8" data-bind="visible : Label8.Visible, text : Label8.Text, imagePath : Label8.ImagePath">Select Inspection Date:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtInspection" tabindex="53" class="dtInspection" data-bind="dateTimePickerValue : dtInspection.Value, visible : dtInspection.Visible, DateTimeMinDate : dtInspection.MinDate, DateTimeMaxDate : dtInspection.MaxDate, events : { click : dtInspection_Click, change : dtInspection_ValueChanged }, " />
+          <button id="cmdAllOK" tabindex="54" class="cmdAllOK" type="button" data-bind="events : { click : cmdAllOK_Click }, ">All PPE OK</button>
+          <button id="cmdAddNew" tabindex="55" data-tag="0" class="cmdAddNew" type="button" data-bind="enabled : cmdAddNew.Enabled, buttonText : cmdAddNew.Text, events : { click : cmdAddNew_Click }, ">Add PPE Inspection</button>
+          <label id="Label12" tabindex="61" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">Comment:</label>
+          <input id="txtInspComment" tabindex="56" Value="txtInspComment" class="txtInspComment" data-bind="value : txtInspComment.Text" />
+        </div>
+      </fieldset>
+      <fieldset id="frmPPEItem" class="frmPPEItem">
+        <legend id="frmPPEItem_legend" class="frmPPEItem_legend" data-bind="text : frmPPEItem.Text">PPE Item</legend>
+        <div>
+          <button id="cmdNewItem" tabindex="59" class="cmdNewItem" type="button" data-bind="enabled : cmdNewItem.Enabled, visible : cmdNewItem.Visible, events : { click : cmdNewItem_Click }, ">New Item</button>
+          <label id="label13" tabindex="63" class="label13" data-bind="text : label13.Text, imagePath : label13.ImagePath">Issued Date</label>
+          <label id="Label17" tabindex="67" class="Label17" data-bind="text : Label17.Text, imagePath : Label17.ImagePath">Tracking / Barcode</label>
+          <button disabled="disabled" id="cmdEditItem" tabindex="68" data-tag="1" class="cmdEditItem" type="button" data-bind="enabled : cmdEditItem.Enabled, buttonText : cmdEditItem.Text, events : { click : cmdEditItem_Click }, ">Add</button>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteIssued" tabindex="60" class="dteIssued" data-bind="dateTimePickerValue : dteIssued.Value, DateTimeMinDate : dteIssued.MinDate, DateTimeMaxDate : dteIssued.MaxDate" />
+          <input id="txtTrackingNumber" tabindex="61" Value="txtTrackingNumber" class="txtTrackingNumber" data-bind="value : txtTrackingNumber.Text" />
+          <button id="cmdFind" tabindex="62" title="Locate Inventory Item by Tracking Number" class="cmdFind" type="button" data-bind="enabled : cmdFind.Enabled, visible : cmdFind.Visible, events : { click : cmdFind_Click }, ">Find...</button>
+          <button disabled="disabled" id="cmdReplaceItem" tabindex="69" class="cmdReplaceItem" type="button" data-bind="enabled : cmdReplaceItem.Enabled, events : { click : cmdReplaceItem_Click }, ">Replace</button>
+          <label id="Label14" tabindex="64" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">PPE Item</label>
+          <label id="lblColorSize" tabindex="66" class="lblColorSize" data-bind="text : lblColorSize.Text, imagePath : lblColorSize.ImagePath">Size/Color</label>
+          <label id="lblBrand" tabindex="65" class="lblBrand" data-bind="text : lblBrand.Text, imagePath : lblBrand.ImagePath">Brand/Manufacturer</label>
+          <div class="cboItemTypePos" id="cboItemTypePos">
+            <select id="cboItemType" tabindex="63" class="cboItemType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboItemType.ComboBoxItems, customText : cboItemType.CustomText, comboSelectedIndex : cboItemType.SelectedIndex, events : { change : cboItemType_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboColorSizePos" id="cboColorSizePos" data-bind="visible : cboColorSize.Visible">
+            <select id="cboColorSize" tabindex="64" class="cboColorSize" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboColorSize.ComboBoxItems, enabled : cboColorSize.Enabled, customText : cboColorSize.CustomText, comboSelectedIndex : cboColorSize.SelectedIndex"></select>
+          </div>
+          <div class="cboItemBrandPos" id="cboItemBrandPos" data-bind="visible : cboItemBrand.Visible">
+            <select id="cboItemBrand" tabindex="65" class="cboItemBrand" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboItemBrand.ComboBoxItems, enabled : cboItemBrand.Enabled, customText : cboItemBrand.CustomText, comboSelectedIndex : cboItemBrand.SelectedIndex"></select>
+          </div>
+          <div class="chkManufDate">
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PPE Manufacturered Date?</label>
+            </div>
+            <input id="chkManufDate" tabindex="66" type="checkbox" style="float: left" data-bind="events : { click : chkManufDate_CheckStateChanged }, " />
+          </div>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteManufDate" tabindex="67" class="dteManufDate" data-bind="dateTimePickerValue : dteManufDate.Value, visible : dteManufDate.Visible, DateTimeMinDate : dteManufDate.MinDate, DateTimeMaxDate : dteManufDate.MaxDate" />
+          <label id="lbUniformID" tabindex="68" class="lbUniformID" data-bind="text : lbUniformID.Text, imagePath : lbUniformID.ImagePath">lbUniformID</label>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

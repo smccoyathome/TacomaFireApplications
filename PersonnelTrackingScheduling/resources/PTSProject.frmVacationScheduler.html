@@ -1,0 +1,9 @@
+<div>
+  <div data-width="824" data-height="633" name="frmVacationScheduler" data-title="TFD Vacation Scheduler" class="PTSProject_frmVacationScheduler" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text, events : { focus : frmVacationScheduler_Activated, blur : frmVacationScheduler_Deactivate }, ">
+    <form class="frmVacationScheduler">
+      <div id="calYear" tabindex="3" class="calYear" data-role="calendar" data-bind="dateTimePickerValue : calYear.Value, DateTimeMinDate : calYear.MinDate, events : { change : calYear_Click }, "></div>
+      <button id="cmdRefresh" tabindex="1" class="cmdRefresh" type="button" data-bind="events : { click : cmdRefresh_Click }, ">Refresh</button>
+      <button id="cmdClose" tabindex="2" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+    </form>
+  </div>
+</div>

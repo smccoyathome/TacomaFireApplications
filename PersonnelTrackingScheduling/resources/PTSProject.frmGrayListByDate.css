@@ -1,0 +1,62 @@
+.PTSProject_frmGrayListByDate {
+}
+.PTSProject_frmGrayListByDate .frmGrayListByDate {
+	background-color: #000040;
+	min-width: 393px;
+	min-height: 238px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmGrayListByDate .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 216px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmGrayListByDate .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGrayListByDate .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 304px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmGrayListByDate .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGrayListByDate .sprEmployeeGrid {
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 377px;
+	height: 185px;
+}
+.PTSProject_frmGrayListByDate .sprEmployeeGrid .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmGrayListByDate .sprEmployeeGrid .k-spreadsheet-action-bar {
+	display: none;
+}
+

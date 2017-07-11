@@ -1,0 +1,13 @@
+﻿@section scripts
+{
+    <script>
+        //Create app and get current app state from server
+        $(document).ready(function() {
+            var app = new Mobilize.WebMap.Kendo.App();
+            app.init("Home", "AppState");
+            window.app = app;
+        });
+    </script>
+<!-- All Windows will be loaded into this div-->
+    <div id="mainContent"></div>
+}

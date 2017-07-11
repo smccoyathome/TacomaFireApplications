@@ -1,0 +1,97 @@
+.TFDIncident_frmNotification {
+}
+.TFDIncident_frmNotification .frmNotification {
+	background-color: #7B9B7E;
+	min-width: 412px;
+	min-height: 265px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+}
+.TFDIncident_frmNotification .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: #FFE0C0;
+	left: 4px;
+	top: 4px;
+	position: absolute;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmNotification .lbNote1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: #E0E0E0;
+	left: 8px;
+	top: 44px;
+	position: absolute;
+	width: 165px;
+	height: 25px;
+}
+.TFDIncident_frmNotification .lbDateMessageCreated {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: #0000C0;
+	left: 188px;
+	top: 44px;
+	position: absolute;
+	width: 205px;
+	height: 21px;
+}
+.TFDIncident_frmNotification .lbMessageText {
+	background-color: White;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 76px;
+	position: absolute;
+	width: 385px;
+	height: 121px;
+}
+.TFDIncident_frmNotification .cmdNext {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	left: 224px;
+	top: 224px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmNotification .cmdNext:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmNotification .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	left: 312px;
+	top: 224px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmNotification .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

@@ -1,0 +1,10 @@
+<div>
+  <div data-width="794" data-height="512" name="frmReportOther" data-title="IRS Report" class="TFDIncident_frmReportOther" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmReportOther">
+      <label id="lbTitle" tabindex="1" class="lbTitle" data-bind="text : lbTitle.Text, imagePath : lbTitle.ImagePath">Other Report - Print Preview</label>
+      <button id="cmdPrint" tabindex="1" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Report</button>
+      <button id="cmdClose" tabindex="3" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div id="sprOtherReport" data-role="mobilizespread" tabindex="3" class="sprOtherReport" data-bind="widgetvalue: sprOtherReport"></div>
+    </form>
+  </div>
+</div>

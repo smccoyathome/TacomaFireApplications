@@ -1,0 +1,25 @@
+<div>
+  <div data-width="906" data-height="725" data-removeControlBox="true" name="frmDailyStaffing" data-title="Daily Staffing Report" class="PTSProject_frmDailyStaffing" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmDailyStaffing">
+      <button id="cmdOvertime" tabindex="7" class="cmdOvertime" type="button" data-bind="events : { click : cmdOvertime_Click }, ">Overtime Detail</button>
+      <button id="cmdPrint" tabindex="8" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <label id="Label3" tabindex="13" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Report Year</label>
+      <label id="Label1" tabindex="11" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Report Month</label>
+      <label id="Label2" tabindex="12" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Filter by Shift</label>
+      <button id="_cmdFilter_0" tabindex="2" index="0" class="_cmdFilter_0" type="button" data-bind="events : { click : cmdFilter_Click }, ">A</button>
+      <button id="_cmdFilter_1" tabindex="3" index="1" class="_cmdFilter_1" type="button" data-bind="events : { click : cmdFilter_Click }, ">B</button>
+      <button id="_cmdFilter_2" tabindex="4" index="2" class="_cmdFilter_2" type="button" data-bind="events : { click : cmdFilter_Click }, ">C</button>
+      <button id="_cmdFilter_3" tabindex="5" index="3" class="_cmdFilter_3" type="button" data-bind="events : { click : cmdFilter_Click }, ">D</button>
+      <button id="_cmdFilter_4" tabindex="6" index="4" class="_cmdFilter_4" type="button" data-bind="events : { click : cmdFilter_Click }, ">All</button>
+      <div class="cboYearPos" id="cboYearPos">
+        <select id="cboYear" tabindex="10" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="cboMonthPos" id="cboMonthPos">
+        <select id="cboMonth" tabindex="1" class="cboMonth" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboMonth.ComboBoxItems, customText : cboMonth.CustomText, comboSelectedIndex : cboMonth.SelectedIndex, events : { change : cboMonth_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdAnnualLeave" tabindex="87" class="cmdAnnualLeave" type="button" data-bind="events : { click : cmdAnnualLeave_Click }, ">Annual Leave Report</button>
+      <button id="cmdClose" tabindex="9" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div id="sprDaily" tabindex="-1" class="sprDaily" data-bind="style : { backgroundColor : sprDaily.BackColor.Value }"></div>
+    </form>
+  </div>
+</div>

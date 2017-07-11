@@ -1,0 +1,50 @@
+<div>
+  <div data-width="408" data-height="364" data-removeControlBox="true" name="frmUtility" data-title="Schedule Calendar Utilities" class="PTSProject_frmUtility" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmUtility">
+      <label id="Label1" tabindex="1" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Action</label>
+      <div class="cboActionPos" id="cboActionPos">
+        <select data-role="combobox" id="cboAction" tabindex="1" class="cboAction" data-text-field="Text" data-value-field="Value" data-bind="source : cboAction.ComboBoxItems, customText : cboAction.CustomText, comboSelectedIndex : cboAction.SelectedIndex, events : { change : cboAction_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbLastDateTitle" tabindex="14" class="lbLastDateTitle" data-bind="visible : lbLastDateTitle.Visible, text : lbLastDateTitle.Text, imagePath : lbLastDateTitle.ImagePath">Last Date of Current Schedule:</label>
+      <label id="lbLastDate" tabindex="15" class="lbLastDate" data-bind="visible : lbLastDate.Visible, text : lbLastDate.Text, imagePath : lbLastDate.ImagePath">lbLastDate</label>
+      <label id="lbStart" tabindex="3" class="lbStart" data-bind="visible : lbStart.Visible, text : lbStart.Text, imagePath : lbStart.ImagePath">Select Start Date</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calStart" tabindex="3" class="calStart" data-bind="dateTimePickerValue : calStart.Value, visible : calStart.Visible, DateTimeMinDate : calStart.MinDate, DateTimeMaxDate : calStart.MaxDate" />
+      <fieldset id="frArchive" class="frArchive" data-bind="visible : frArchive.Visible">
+        <legend id="frArchive_legend" class="frArchive_legend">Archive These Tables</legend>
+        <div>
+          <div index="0" class="_chkTable_0">
+            <input id="_chkTable_0" tabindex="10" type="checkbox" style="float: left" data-bind="checkState : _chkTable_0.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Schedule</label>
+            </div>
+          </div>
+          <div index="1" class="_chkTable_1">
+            <input id="_chkTable_1" tabindex="11" type="checkbox" style="float: left" data-bind="checkState : _chkTable_1.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Leave</label>
+            </div>
+          </div>
+          <div index="2" class="_chkTable_2">
+            <input id="_chkTable_2" tabindex="12" type="checkbox" style="float: left" data-bind="checkState : _chkTable_2.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Notes</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calEnd" tabindex="5" class="calEnd" data-bind="dateTimePickerValue : calEnd.Value, visible : calEnd.Visible, DateTimeMinDate : calEnd.MinDate, DateTimeMaxDate : calEnd.MaxDate" />
+      <label id="lbEnd" tabindex="5" class="lbEnd" data-bind="visible : lbEnd.Visible, text : lbEnd.Text, imagePath : lbEnd.ImagePath">Select End Date</label>
+      <div class="chkRemove" data-bind="visible : chkRemove.Visible">
+        <input id="chkRemove" tabindex="13" type="checkbox" style="float: left" />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Remove Old Records </label>
+        </div>
+      </div>
+      <label id="lbStatus" tabindex="16" class="lbStatus" data-bind="visible : lbStatus.Visible, text : lbStatus.Text, imagePath : lbStatus.ImagePath">lbStatus</label>
+      <progress max="101" id="pb1" tabindex="17" class="pb1" value="0" data-bind="visible : pb1.Visible, value : pb1.Value"></progress>
+      <button id="cmdGo" tabindex="7" data-tag="\&quot;Sched\&quot;" class="cmdGo" type="button" data-bind="visible : cmdGo.Visible, buttonText : cmdGo.Text, events : { click : cmdGo_Click }, ">Create New Schedule Records Now</button>
+      <button id="cmdCancel" tabindex="8" class="cmdCancel" type="button" data-bind="visible : cmdCancel.Visible">Cancel</button>
+      <button id="cmdExit" tabindex="9" class="cmdExit" type="button" data-bind="visible : cmdExit.Visible, events : { click : cmdExit_Click }, ">Exit</button>
+    </form>
+  </div>
+</div>

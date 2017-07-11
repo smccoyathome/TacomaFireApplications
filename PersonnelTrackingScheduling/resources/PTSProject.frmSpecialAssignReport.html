@@ -1,0 +1,15 @@
+<div>
+  <div data-width="645" data-height="355" name="frmSpecialAssignReport" data-title="TFD Annual Special Assignment Report" class="PTSProject_frmSpecialAssignReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmSpecialAssignReport">
+      <label id="Label3" tabindex="3" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Select Report Year</label>
+      <div class="cboYearPos" id="cboYearPos">
+        <select id="cboYear" tabindex="1" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdPrint" tabindex="2" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="3" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">* =  Employee is no longer active</label>
+      <label id="lbTotal" tabindex="6" class="lbTotal" data-bind="text : lbTotal.Text, imagePath : lbTotal.ImagePath">Total Rows = </label>
+      <div id="sprReport" data-role="mobilizespread" tabindex="4" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

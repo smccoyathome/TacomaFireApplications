@@ -1,0 +1,329 @@
+.PTSProject_frmTrainFCCQuarterly {
+}
+.PTSProject_frmTrainFCCQuarterly .frmTrainFCCQuarterly {
+	background-color: Black;
+	min-width: 1015px;
+	min-height: 661px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .Frame1 {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 1001px;
+	height: 113px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainFCCQuarterly .Frame1:enabled {
+	color: #00C0C0;
+}
+.PTSProject_frmTrainFCCQuarterly .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 768px;
+	top: 16px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainFCCQuarterly .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainFCCQuarterly .Frame3 {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 232px;
+	top: 24px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainFCCQuarterly .Frame3:enabled {
+	color: #FFC080;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_0 {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_0:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_0 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_2 {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_2:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_2 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_1 {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_1:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_1 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_3 {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_3:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainFCCQuarterly ._OptQuarter_3 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainFCCQuarterly .Frame4 {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 408px;
+	top: 24px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainFCCQuarterly .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainFCCQuarterly .optA {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .optA:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainFCCQuarterly .optA * {
+	Cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .optC {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .optC:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainFCCQuarterly .optC * {
+	Cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .optB {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .optB:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainFCCQuarterly .optB * {
+	Cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .optD {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .optD:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainFCCQuarterly .optD * {
+	Cursor: default;
+}
+.PTSProject_frmTrainFCCQuarterly .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainFCCQuarterly ._lbSubTitle_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFC080;
+	left: 24px;
+	top: 32px;
+	position: absolute;
+	width: 121px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmTrainFCCQuarterly .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 121px;
+	height: 25px;
+}
+.PTSProject_frmTrainFCCQuarterly .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainFCCQuarterly .cboYearPos {
+	top: 48px;
+	left: 24px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.PTSProject_frmTrainFCCQuarterly .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 768px;
+	top: 48px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainFCCQuarterly .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainFCCQuarterly .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 768px;
+	top: 80px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainFCCQuarterly .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainFCCQuarterly .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #80FF80;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 513px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmTrainFCCQuarterly .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainFCCQuarterly .sprReport {
+	left: 8px;
+	top: 112px;
+	position: absolute;
+	width: 1001px;
+	height: 537px;
+}
+.PTSProject_frmTrainFCCQuarterly .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTrainFCCQuarterly .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,36 @@
+<div>
+  <div data-width="727" data-height="520" name="frmIndPMRecertReport" data-title="Individual Paramedic Recertification Report" class="PTSProject_frmIndPMRecertReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmIndPMRecertReport">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <label id="Label1" tabindex="4" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Employee:</label>
+          <div class="cboEmployeePos" id="cboEmployeePos">
+            <select id="cboEmployee" tabindex="1" class="cboEmployee" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmployee.ComboBoxItems, customText : cboEmployee.CustomText, comboSelectedIndex : cboEmployee.SelectedIndex, events : { change : cboEmployee_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdPrint" tabindex="5" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+          <label id="lbEmpName" tabindex="7" class="lbEmpName" data-bind="text : lbEmpName.Text, imagePath : lbEmpName.ImagePath"></label>
+          <label id="_Label3_0" tabindex="3" index="0" class="_Label3_0" data-bind="text : _Label3_0.Text, imagePath : _Label3_0.ImagePath">Report Start Date:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtStart" tabindex="2" class="dtStart" data-bind="dateTimePickerValue : dtStart.Value, DateTimeMinDate : dtStart.MinDate, DateTimeMaxDate : dtStart.MaxDate, events : { click : dtStart_Click, change : dtStart_ValueChanged }, " />
+          <label id="_Label3_1" tabindex="10" index="1" class="_Label3_1" data-bind="text : _Label3_1.Text, imagePath : _Label3_1.ImagePath">End Date:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtEnd" tabindex="10" class="dtEnd" data-bind="dateTimePickerValue : dtEnd.Value, DateTimeMinDate : dtEnd.MinDate, DateTimeMaxDate : dtEnd.MaxDate, events : { click : dtEnd_Click, change : dtEnd_ValueChanged }, " />
+          <button id="cmdExit" tabindex="6" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+          <div class="chkDoNotChange" data-bind="visible : chkDoNotChange.Visible">
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Uncheck to automatically determine the Report Start / End Dates...</label>
+            </div>
+            <input id="chkDoNotChange" tabindex="8" type="checkbox" style="float: left" data-bind="events : { click : chkDoNotChange_CheckStateChanged }, " />
+          </div>
+          <div class="chkOTEPOnly">
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">OTEP Modules Only</label>
+            </div>
+            <input id="chkOTEPOnly" tabindex="11" type="checkbox" style="float: left" data-bind="events : { click : chkOTEPOnly_CheckStateChanged }, " />
+          </div>
+        </div>
+      </fieldset>
+      <div id="sprSummary" data-role="mobilizespread" tabindex="13" class="sprSummary" data-bind="widgetvalue: sprSummary"></div>
+      <div id="sprReport" data-role="mobilizespread" tabindex="8" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

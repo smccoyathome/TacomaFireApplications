@@ -1,0 +1,14 @@
+<div>
+  <div data-width="596" data-height="349" name="dlgSignOff" data-title="Personnel Payroll SignOff " class="PTSProject_dlgSignOff" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgSignOff">
+      <div class="cboNameListPos" id="cboNameListPos">
+        <select id="cboNameList" tabindex="6" class="cboNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboNameList.ComboBoxItems, customText : cboNameList.CustomText, comboSelectedIndex : cboNameList.SelectedIndex, events : { change : cboNameList_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdClose" tabindex="1" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="_Label11_0" tabindex="3" index="0" class="_Label11_0" data-bind="text : _Label11_0.Text, imagePath : _Label11_0.ImagePath">Select Employee</label>
+      <button id="cmdPrint" tabindex="8" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print List</button>
+      <div id="sprReport" data-role="mobilizespread" tabindex="1" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+      <div id="sprPrintList" data-role="mobilizespread" tabindex="5" class="sprPrintList" data-bind="widgetvalue: sprPrintList"></div>
+    </form>
+  </div>
+</div>

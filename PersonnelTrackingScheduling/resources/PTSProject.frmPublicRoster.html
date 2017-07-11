@@ -1,0 +1,13 @@
+<div>
+  <div data-width="741" data-height="541" name="frmPublicRoster" data-title="Personnel Roster" class="PTSProject_frmPublicRoster" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmPublicRoster">
+      <button id="cmdPrint" tabindex="20" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="19" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div class="cboNamePos" id="cboNamePos">
+        <select id="cboName" tabindex="18" class="cboName" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboName.ComboBoxItems, customText : cboName.CustomText, comboSelectedIndex : cboName.SelectedIndex, events : { change : cboName_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label1" tabindex="4" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Find Employee</label>
+      <div id="sprRoster" data-role="mobilizespread" tabindex="0" class="sprRoster" data-bind="widgetvalue: sprRoster"></div>
+    </form>
+  </div>
+</div>

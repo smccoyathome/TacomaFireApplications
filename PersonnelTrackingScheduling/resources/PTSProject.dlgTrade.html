@@ -1,0 +1,24 @@
+<div>
+  <div data-width="324" data-height="166" data-removeControlBox="true" name="dlgTrade" data-title="Schedule Trade" class="PTSProject_dlgTrade" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgTrade">
+      <label id="lbTitle" tabindex="2" class="lbTitle" data-bind="text : lbTitle.Text, imagePath : lbTitle.ImagePath">Select New Working Employee</label>
+      <div class="cboFullListPos" id="cboFullListPos">
+        <select data-role="combobox" id="cboFullList" tabindex="2" class="cboFullList" data-text-field="Text" data-value-field="Value" data-bind="source : cboFullList.ComboBoxItems, customText : cboFullList.CustomText, comboSelectedIndex : cboFullList.SelectedIndex, events : { change : cboFullList_SelectionChangeCommitted }, "></select>
+      </div>
+      <div data-bind="spEnabled : boxAMPM.Enabled, spVisible : boxAMPM.Visible">
+        <svg version="1.1" class="boxAMPM_svg" style="left:14px;top:72px;width:297px;height:30px;position:absolute;">
+          <rect x="0" y="0" height="30" width="297" id="boxAMPM" class="boxAMPM"></rect>
+        </svg>
+      </div>
+      <label id="lbAMPM" tabindex="5" class="lbAMPM" data-bind="visible : lbAMPM.Visible, text : lbAMPM.Text, imagePath : lbAMPM.ImagePath">Schedule Both AM and PM Shifts</label>
+      <div class="chkAMPM" data-bind="visible : chkAMPM.Visible">
+        <input id="chkAMPM" tabindex="5" type="checkbox" style="float: left" data-bind="events : { click : chkAMPM_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Check1</label>
+        </div>
+      </div>
+      <button id="cmdOK" tabindex="4" class="cmdOK" type="button" data-bind="events : { click : cmdOK_Click }, ">OK</button>
+      <button id="cmdCancel" tabindex="1" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+    </form>
+  </div>
+</div>

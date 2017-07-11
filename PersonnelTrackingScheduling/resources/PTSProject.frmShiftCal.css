@@ -1,0 +1,92 @@
+.PTSProject_frmShiftCal {
+}
+.PTSProject_frmShiftCal .frmShiftCal {
+	background-color: Teal;
+	min-width: 952px;
+	min-height: 640px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmShiftCal .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 632px;
+	top: 10px;
+	position: absolute;
+	width: 134px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmShiftCal .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmShiftCal .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 773px;
+	top: 10px;
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmShiftCal .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmShiftCal .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmShiftCal .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmShiftCal .cboYearPos {
+	top: 12px;
+	left: 168px;
+	position: absolute;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmShiftCal .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 12px;
+	top: 17px;
+	position: absolute;
+	width: 146px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmShiftCal .sprShift {
+	left: 2px;
+	top: 53px;
+	position: absolute;
+	width: 947px;
+	height: 582px;
+}
+.PTSProject_frmShiftCal .sprShift .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmShiftCal .sprShift .k-spreadsheet-action-bar {
+	display: none;
+}
+

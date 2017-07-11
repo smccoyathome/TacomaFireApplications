@@ -1,0 +1,434 @@
+.PTSProject_MDIForm1 {
+}
+.PTSProject_MDIForm1 .MDIForm1 {
+	background-color: #C0C0FF;
+	min-height: 100%;
+	min-width: 100%;
+	cursor: default;
+}
+
+.PTSProject_MDIForm1 .mnuExit {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuSystem {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuAddnew {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuEmpInfo {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPosition {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPhone {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuAddress {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuEmergency {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuImmune {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPromoli {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuSeniorInq {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_transfer_req {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPMCerts {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPPE {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 ._mnuPersonnel_0 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuIndSchedule {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuBattalion {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuBattalion2 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuNewBatt3 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuBattalion3 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuBattalion4 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuEMS {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuEMSDaily {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuHazmat {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuMarine {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuBattStaff {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuDispatch {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_watch_duty {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_Vacation {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_PMVacationSched {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_HZMVacationSched {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_FCCVacationSched {
+    font-size: medium;
+}
+/*.PTSProject_MDIForm1 .mnuNewBatt1 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuNewBatt2 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_old {
+    font-size: medium;*/
+}
+.PTSProject_MDIForm1 .mnuSchedule {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuAssign {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuRoster {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuFRoster {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPublicRoster {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_DDGroups {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuProlist {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuSenior {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuBenefit {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_dailydispatchwork {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_rankedops {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_emp_facility {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .MnuAuditDDHOL {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_IndivPayrollSO {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuIndTimeCard2 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPhoneList {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 ._mnuPerson_0 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu181 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu182 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu183 {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuBDWork {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuEMSWeekly {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuHZMWeekly {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuMRNWeekly {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuBatWeekly {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuDispWeekly {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuWeek {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuIndYearSched {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuDailyStaffing {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuOvertime {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuExtraOff {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_sa_report {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuCalendar {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuTransfer {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuSchedul {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_daily {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_Annual {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_dailysickleave {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_Individual {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_sick_usage {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_PMLeave {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuDispatchLeave {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_HZMLeave {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_Leave {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuCBStaffing {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_LeaveNoSched {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuInsteadOfSCKLeave {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_staffdiscrepancy {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_PMCSRCalc {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_EmpNotes {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_SchedNotes {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuCycleHrs {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_PPEQuery {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_Battalion {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPPAudit {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuTimeCard {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuIndAnnualPayroll {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_personnelsignoff {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_BCApprovedTC {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPayrollReports {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_QuarterlyMinimumDrill {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_FCCMinDrills {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_ReadingAssign {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_OTEPReport {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_PMRecertReport {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_PMBaseStaReport {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_TrainingQuerynew {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_TrainingReports {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuReports {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_trainingtracker {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_IndTrainReport {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_IndPMRecert {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuALSProc {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuTrnReports {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_TrainingQueryTool {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuNewTrainQuery {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuTrainQuery {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_Queries {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuTraining {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuReviewPay {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuIndTimeCard {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_ReportPayroll {font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuOtherPayroll {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPayroll {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuResource {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPersonnelCodes {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuCodes {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuMakeNewSched {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuTable {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuSecure {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuUtil {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuCascade {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuPrintScreen {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuWindow {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuCon {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuAbout {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_HelpPrntScrn {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_timecodes {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_payrolllegend {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_legend {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_IndLegend {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnu_payup_calc {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuTrainCodeHelp {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuCalendarHelp {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .mnuHelp {
+    font-size: medium;
+}
+.PTSProject_MDIForm1 .MainMenu1 {
+	position: relative;
+	z-index: 16777271;
+}
+
+

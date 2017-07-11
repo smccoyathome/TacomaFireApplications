@@ -1,0 +1,4026 @@
+.TFDIncident_wzdFire {
+}
+.TFDIncident_wzdFire .wzdFire {
+	background-color: #597041;
+	min-width: 1000px;
+	min-height: 700px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 17.28px;
+}
+.TFDIncident_wzdFire .wzdFire:enabled {
+	color: #FFE0C0;
+}
+.TFDIncident_wzdFire .frmFireInfo {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmFireInfo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._lbFrameTitle_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 10px;
+	top: 5px;
+	position: absolute;
+	width: 500px;
+	height: 33px;
+}
+.TFDIncident_wzdFire .frmFireOnly {
+	background-color: white;
+	left: 520px;
+	top: 28px;
+	position: absolute;
+	width: 460px;
+	height: 580px;
+	/* border: 2px groove; */
+}
+.TFDIncident_wzdFire .frmFireOnly:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .frmBsmtorAttic {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 12px;
+	top: 20px;
+	position: absolute;
+	width: 369px;
+	height: 77px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmBsmtorAttic:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .txtFloorOfOrigin {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 190px;
+	top: 12px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtFloorOfOrigin:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbFlOfOrigin {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 18px;
+	position: absolute;
+	width: 150px;
+	height: 17px;
+}
+.TFDIncident_wzdFire ._optFloor_0 {
+	background-color: white;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 10px;
+	top: 60px;
+	position: absolute;
+	width: 105px;
+	height: 24px;
+	visibility: inherit;
+	width: auto;
+}
+.TFDIncident_wzdFire ._optFloor_0:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optFloor_1 {
+	background-color: white;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 160px;
+	top: 60px;
+	position: absolute;
+	width: 105px;
+	height: 24px;
+	visibility: inherit;
+	width: auto;
+}
+.TFDIncident_wzdFire ._optFloor_1:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optFloor_2 {
+	background-color: white;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 280px;
+	top: 60px;
+	position: absolute;
+	width: 105px;
+	height: 24px;
+	visibility: inherit;
+	width: auto;
+}
+.TFDIncident_wzdFire ._optFloor_2:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbBurnDamage {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 140px;
+	position: absolute;
+	width: 313px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboBurnDamage {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboBurnDamage:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboBurnDamagePos {
+	top: 170px;
+	left: 10px;
+	position: absolute;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbSmokeDamage {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 225px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboSmokeDamage {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboSmokeDamage:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboSmokeDamagePos {
+	top: 250px;
+	left: 10px;
+	position: absolute;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbContribFireSpread {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 30px;
+	top: 320px;
+	position: absolute;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lstItemContribFireSpread {
+	background-color: White;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 30px;
+	top: 340px;
+	position: absolute;
+	width: 400px;
+	height: 90px;
+}
+.TFDIncident_wzdFire .lbEquipInvolvIgnition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 30px;
+	top: 455px;
+	position: absolute;
+	width: 345px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .lstEquipInvolvIgnition {
+	background-color: White;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 30px;
+	top: 475px;
+	position: absolute;
+	width: 400px;
+	height: 90px;
+}
+.TFDIncident_wzdFire .frmFireOnly_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .lbAreaOrigin {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 10px;
+	top: 32px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboAreaOfOrigin {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 450px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboAreaOfOrigin:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboAreaOfOriginPos {
+	top: 48px;
+	left: 10px;
+	position: absolute;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbHeatSource {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 10px;
+	top: 85px;
+	position: absolute;
+	width: 433px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboHeatSource {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 450px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboHeatSource:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboHeatSourcePos {
+	top: 100px;
+	left: 10px;
+	position: absolute;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbFirstIgnited {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 10px;
+	top: 140px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboFirstItemIgnited {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 450px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboFirstItemIgnited:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboFirstItemIgnitedPos {
+	top: 155px;
+	left: 10px;
+	position: absolute;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbGenCauseIgnition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 10px;
+	top: 195px;
+	position: absolute;
+	width: 289px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboGenCauseOfIgnition {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 450px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboGenCauseOfIgnition:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboGenCauseOfIgnitionPos {
+	top: 210px;
+	left: 10px;
+	position: absolute;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbSpecCauseOfIgnition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 10px;
+	top: 250px;
+	position: absolute;
+	width: 289px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboSpecCauseOfIgnition {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 450px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboSpecCauseOfIgnition:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboSpecCauseOfIgnitionPos {
+	top: 265px;
+	left: 10px;
+	position: absolute;
+	width: 400px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbPhyContribFactors {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 10px;
+	top: 310px;
+	position: absolute;
+	width: 345px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .lstPhysicalContribFactors {
+	background-color: White;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 10px;
+	top: 330px;
+	position: absolute;
+	width: 400px;
+	height: 70px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .lbHumanContribFactors {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 10px;
+	top: 422px;
+	position: absolute;
+	width: 313px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .lstHumanContribFactors {
+	background-color: White;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 10px;
+	top: 440px;
+	position: absolute;
+	width: 400px;
+	height: 70px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .frmHFDetail {
+	background-color: ghostwhite;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 430px;
+	top: 440px;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmHFDetail:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._optHFGender_0 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 81px;
+	height: 24px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optHFGender_0:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optHFGender_0 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optHFGender_1 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 100px;
+	height: 24px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optHFGender_1:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optHFGender_1 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire .Label11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 0px;
+	top: 62px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtHFAge {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 40px;
+	top: 60px;
+	position: absolute;
+	width: 33px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtHFAge:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbSuppressFactors {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 10px;
+	top: 532px;
+	position: absolute;
+	width: 253px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .lstSuppressionFactors {
+	background-color: White;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 550px;
+	position: absolute;
+	width: 400px;
+	height: 70px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .lbFireLocationTitle {
+	background-color: #597041;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #FFE0C0;
+	left: 12px;
+	top: 0px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbFireLocation {
+	background-color: #597041;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: White;
+	left: 110px;
+	top: 2px;
+	position: absolute;
+	width: 360px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbFireIncTitle {
+	background-color: #597041;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #FFE0C0;
+	left: 480px;
+	top: 0px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbFireIncNo {
+	background-color: #597041;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: White;
+	left: 600px;
+	top: 0px;
+	position: absolute;
+	width: 125px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .LbUnitTitle {
+	background-color: #597041;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #FFE0C0;
+	left: 840px;
+	top: 0px;
+	position: absolute;
+	width: 45px;
+	height: 21px;
+}
+.TFDIncident_wzdFire .lbFireUnit {
+	background-color: #597041;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: White;
+	left: 900px;
+	top: 2px;
+	position: absolute;
+	width: 57px;
+	height: 21px;
+}
+.TFDIncident_wzdFire .frmFireType {
+	background-color: white;
+	/* background-color: white; */
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmFireType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._imgMain_5 {
+	border-style: inset;
+	cursor: default;
+	left: 4px;
+	top: 4px;
+	position: absolute;
+	width: 205px;
+	height: 189px;
+	background-size: 100% 100%;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire ._lbFrameTitle_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	width: 709px;
+	height: 57px;
+}
+.TFDIncident_wzdFire .Frame1 {
+	background-color: white;
+	left: 20px;
+	top: 48px;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdFire .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .lbFireType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #597041;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_wzdFire ._optType_0 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: large;
+	left: 28px;
+	top: 64px;
+	position: absolute;
+	width: 249px;
+	height: 33px;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optType_0:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optType_0 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optType_1 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: large;
+	left: 28px;
+	top: 108px;
+	position: absolute;
+	width: 233px;
+	height: 33px;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optType_1:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optType_1 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optType_2 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: large;
+	left: 28px;
+	top: 156px;
+	position: absolute;
+	width: 350px;
+	height: 33px;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optType_2:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optType_2 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optType_3 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: large;
+	left: 28px;
+	top: 204px;
+	position: absolute;
+	width: 241px;
+	height: 33px;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optType_3:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optType_3 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optType_4 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: large;
+	left: 28px;
+	top: 252px;
+	position: absolute;
+	width: 237px;
+	height: 33px;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optType_4:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optType_4 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .chkExposures {
+	background-color: white;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	left: 450px;
+	top: 70px;
+	position: absolute;
+	width: 233px;
+	height: 40px;
+	width: auto;
+}
+.TFDIncident_wzdFire .chkExposures:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbNumExp {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #597041;
+	left: 475px;
+	top: 125px;
+	position: absolute;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtNumberExposures {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 660px;
+	top: 125px;
+	position: absolute;
+	width: 41px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtNumberExposures:enabled {
+	color: #57665C;
+}
+.TFDIncident_wzdFire .chkMobileInvolved {
+	background-color: white;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	left: 450px;
+	top: 190px;
+	position: absolute;
+	width: 233px;
+	height: 40px;
+	width: auto;
+}
+.TFDIncident_wzdFire .chkMobileInvolved:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .chkAddressCorrection {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 292px;
+	top: 356px;
+	position: absolute;
+	width: 297px;
+	height: 41px;
+	width: auto;
+}
+.TFDIncident_wzdFire .chkAddressCorrection:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .frmReportStatus {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmReportStatus:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._imgMain_2 {
+	border-style: inset;
+	cursor: default;
+	left: 650px;
+	top: 8px;
+	position: absolute;
+	width: 217px;
+	height: 205px;
+	background-size: 100% 100%;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire ._lbFrameTitle_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 20px;
+	top: 8px;
+	position: absolute;
+	width: 425px;
+	height: 41px;
+}
+.TFDIncident_wzdFire .lbIncidentNumberTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #597041;
+	left: 20px;
+	top: 48px;
+	position: absolute;
+	width: 125px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lblIncidentNumber {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	font-weight: bold;
+	color: Purple;
+	left: 300px;
+	top: 48px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .Label9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #597041;
+	left: 20px;
+	top: 83px;
+	position: absolute;
+	width: 173px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbRSCurrReportType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	font-weight: bold;
+	color: Purple;
+	left: 300px;
+	top: 84px;
+	position: absolute;
+	width: 481px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbReportByTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #597041;
+	left: 20px;
+	top: 116px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbReportedBy {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	font-weight: bold;
+	color: Purple;
+	left: 300px;
+	top: 116px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lblEmployeeID {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Purple;
+	left: 300px;
+	top: 140px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lblPosition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Purple;
+	left: 400px;
+	top: 140px;
+	position: absolute;
+	width: 385px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .Label7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #597041;
+	left: 20px;
+	top: 172px;
+	position: absolute;
+	width: 165px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lblUnit {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	font-weight: bold;
+	color: Purple;
+	left: 300px;
+	top: 172px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lblShift {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Purple;
+	left: 400px;
+	top: 172px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #597041;
+	left: 20px;
+	top: 216px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lstMessage {
+	background-color: blanchedalmond;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-style: italic; */
+	color: darkgreen;
+	left: 20px;
+	top: 240px;
+	position: absolute;
+	width: 469px;
+	height: 263px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cmdSave {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 530px;
+	top: 248px;
+	position: absolute;
+	width: 269px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire .cmdSave:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .cmdSaveIncomplete {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 530px;
+	top: 296px;
+	position: absolute;
+	width: 269px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire .cmdSaveIncomplete:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .cmdAbandon {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 530px;
+	top: 344px;
+	position: absolute;
+	width: 265px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire .cmdAbandon:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .frmOutsideInfo {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmOutsideInfo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._lbFrameTitle_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 20px;
+	top: 12px;
+	position: absolute;
+	width: 648px;
+	height: 41px;
+}
+.TFDIncident_wzdFire .cboOSHeatSource {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 325px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboOSHeatSource:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboOSHeatSourcePos {
+	top: 60px;
+	left: 300px;
+	position: absolute;
+	width: 325px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbOSHeatSource {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 20px;
+	top: 65px;
+	position: absolute;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbOSCauseOfIgnition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 20px;
+	top: 115px;
+	position: absolute;
+	width: 297px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .cboOSCauseOfIgnition {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 325px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboOSCauseOfIgnition:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboOSCauseOfIgnitionPos {
+	top: 110px;
+	left: 300px;
+	position: absolute;
+	width: 325px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbSpecOSCauseOfIgnition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 20px;
+	top: 165px;
+	position: absolute;
+	width: 309px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .cboOSSpecCauseOfIgnition {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 325px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboOSSpecCauseOfIgnition:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboOSSpecCauseOfIgnitionPos {
+	top: 160px;
+	left: 300px;
+	position: absolute;
+	width: 325px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .txtOSLoss {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 300px;
+	top: 210px;
+	position: absolute;
+	width: 160px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtOSLoss:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbOSContentLoss {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 20px;
+	top: 215px;
+	position: absolute;
+	width: 197px;
+	height: 29px;
+}
+.TFDIncident_wzdFire .cboOSAreaUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 160px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboOSAreaUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboOSAreaUnitsPos {
+	top: 260px;
+	left: 300px;
+	position: absolute;
+	width: 157px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbOSAreaUnits {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 20px;
+	top: 265px;
+	position: absolute;
+	width: 169px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtOSAreaAffected {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 300px;
+	top: 310px;
+	position: absolute;
+	width: 160px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtOSAreaAffected:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbOSAreaAffected {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 20px;
+	top: 315px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .cboOSMaterialInvolved {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 329px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboOSMaterialInvolved:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboOSMaterialInvolvedPos {
+	top: 364px;
+	left: 336px;
+	position: absolute;
+	width: 329px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbOSMaterialInvolved {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: #597041;
+	left: 76px;
+	top: 372px;
+	position: absolute;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .frmName {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._lbFrameTitle_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 10px;
+	top: 4px;
+	position: absolute;
+	width: 217px;
+	height: 33px;
+}
+.TFDIncident_wzdFire .txtFirstName {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 120px;
+	top: 45px;
+	position: absolute;
+	width: 300px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtFirstName:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .txtLastName {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 550px;
+	top: 45px;
+	position: absolute;
+	width: 300px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtLastName:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .txtMI {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 920px;
+	top: 45px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtMI:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbFirstName {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 50px;
+	position: absolute;
+	width: 100px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbLastName {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 440px;
+	top: 50px;
+	position: absolute;
+	width: 110px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbMI {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 880px;
+	top: 50px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtBusinessName {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 200px;
+	top: 100px;
+	position: absolute;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtBusinessName:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbBusinessName {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 105px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtHouseNumber {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 8px;
+	top: 180px;
+	position: absolute;
+	width: 69px;
+	height: 26px;
+}
+.TFDIncident_wzdFire .txtHouseNumber:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboPrefix {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 90px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboPrefix:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboPrefixPos {
+	top: 178px;
+	left: 85px;
+	position: absolute;
+	width: 90px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .txtStreetName {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 180px;
+	top: 180px;
+	position: absolute;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtStreetName:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboStreetType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 90px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboStreetType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboStreetTypePos {
+	top: 178px;
+	left: 400px;
+	position: absolute;
+	width: 61px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboSuffix {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 90px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboSuffix:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboSuffixPos {
+	top: 178px;
+	left: 495px;
+	position: absolute;
+	width: 90px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .txtCity {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 590px;
+	top: 180px;
+	position: absolute;
+	width: 200px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtCity:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboState {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 70px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboState:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboStatePos {
+	top: 178px;
+	left: 795px;
+	position: absolute;
+	width: 70px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .txtZipcode {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 870px;
+	top: 180px;
+	position: absolute;
+	width: 100px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtZipcode:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbStreetType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 420px;
+	top: 220px;
+	position: absolute;
+	width: 41px;
+	height: 13px;
+}
+.TFDIncident_wzdFire .lbSuffix {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 510px;
+	top: 220px;
+	position: absolute;
+	width: 57px;
+	height: 13px;
+}
+.TFDIncident_wzdFire .lbCity {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 650px;
+	top: 220px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+}
+.TFDIncident_wzdFire .lbState {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 805px;
+	top: 220px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+}
+.TFDIncident_wzdFire .lblZipcode {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 890px;
+	top: 220px;
+	position: absolute;
+	width: 70px;
+	height: 20px;
+}
+.TFDIncident_wzdFire .lbHouseNum {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 11px;
+	top: 220px;
+	position: absolute;
+	width: 65px;
+	height: 13px;
+}
+.TFDIncident_wzdFire .lbPrefix {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 100px;
+	top: 220px;
+	position: absolute;
+	width: 57px;
+	height: 13px;
+}
+.TFDIncident_wzdFire .lbStreetName {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: #597041;
+	left: 230px;
+	top: 220px;
+	position: absolute;
+	width: 105px;
+	height: 13px;
+}
+.TFDIncident_wzdFire .lbRole {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 295px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .cboRole {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 253px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboRole:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboRolePos {
+	top: 290px;
+	left: 120px;
+	position: absolute;
+	width: 253px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbHomePhone {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 580px;
+	top: 275px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtHomePhone {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 580px;
+	top: 300px;
+	position: absolute;
+	width: 200px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtHomePhone:enabled {
+	color: #597041;
+}
+
+.TFDIncident_wzdFire .calBirthdate.k-datepicker {
+	left: 120px;
+	top: 350px;
+	position: absolute;
+	width: 129px;
+	height: 20px;
+}
+.TFDIncident_wzdFire .calBirthdate {
+}
+.TFDIncident_wzdFire .lbBirthdate {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 350px;
+	position: absolute;
+	width: 113px;
+	height: 33px;
+}
+.TFDIncident_wzdFire .lbWorkPhone {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 580px;
+	top: 345px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtWorkPhone {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 580px;
+	top: 370px;
+	position: absolute;
+	width: 200px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtWorkPhone:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .frmGender {
+	background-color: white;
+	left: 120px;
+	top: 400px;
+	position: absolute;
+	width: 400px;
+	height: 57px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdFire .frmGender:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._optGender_0 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 20px;
+	top: 20px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optGender_0:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optGender_0 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optGender_1 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 200px;
+	top: 20px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optGender_1:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optGender_1 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire .frmGender_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .lbGender {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 415px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbWorkPlace {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 580px;
+	top: 425px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtWorkPlace {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 580px;
+	top: 450px;
+	position: absolute;
+	width: 400px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtWorkPlace:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbRace {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 485px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .cboRace {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	width: 200px;
+	height: 24px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboRace:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboRacePos {
+	top: 480px;
+	left: 120px;
+	position: absolute;
+	width: 200px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .frmEthnicity {
+	background-color: white;
+	left: 116px;
+	top: 540px;
+	position: absolute;
+	width: 400px;
+	height: 57px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdFire .frmEthnicity:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._optEthnicity_0 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 20px;
+	top: 20px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optEthnicity_0:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optEthnicity_0 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optEthnicity_1 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 200px;
+	top: 20px;
+	position: absolute;
+	width: 200px;
+	height: 25px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optEthnicity_1:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optEthnicity_1 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire .frmEthnicity_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .cmdAddNewName {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 600px;
+	top: 550px;
+	position: absolute;
+	width: 197px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire .cmdAddNewName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .lbEthnicity {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 560px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .frmMobileProp {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmMobileProp:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._lbFrameTitle_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	width: 705px;
+	height: 49px;
+}
+.TFDIncident_wzdFire .lbMobilePropType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 20px;
+	top: 72px;
+	position: absolute;
+	width: 265px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .cboMobilePropType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 337px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboMobilePropType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboMobilePropTypePos {
+	top: 72px;
+	left: 284px;
+	position: absolute;
+	width: 337px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbMobilePropValue {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 20px;
+	top: 112px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtMobilePropValue {
+	font-family: Verdana;
+	font-size: small;
+	left: 284px;
+	top: 112px;
+	position: absolute;
+	width: 209px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtMobilePropValue:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbVesselLength {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 60px;
+	top: 152px;
+	position: absolute;
+	width: 241px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtVesselLength {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 284px;
+	top: 152px;
+	position: absolute;
+	width: 209px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtVesselLength:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .frmPassengerVehicleInfo {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	left: 20px;
+	top: 170px;
+	position: absolute;
+	width: 473px;
+	height: 350px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdFire .frmPassengerVehicleInfo:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboMobileMake {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 300px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboMobileMake:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboMobileMakePos {
+	top: 28px;
+	left: 150px;
+	position: absolute;
+	width: 241px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbVehicleMake {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .lbOtherMake {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 100px;
+	position: absolute;
+	width: 130px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtVehicleMake {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 150px;
+	top: 95px;
+	position: absolute;
+	width: 300px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtVehicleMake:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .txtVehicleModel {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 150px;
+	top: 135px;
+	position: absolute;
+	width: 300px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtVehicleModel:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbVehicleModel {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 140px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtVehicleYear {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 150px;
+	top: 175px;
+	position: absolute;
+	width: 300px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtVehicleYear:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbVehicleYear {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 180px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtVIN {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 150px;
+	top: 215px;
+	position: absolute;
+	width: 300px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtVIN:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbVIN {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 220px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboLicenseState {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 90px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboLicenseState:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboLicenseStatePos {
+	top: 260px;
+	left: 150px;
+	position: absolute;
+	width: 61px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbLicenseSt {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 10px;
+	top: 265px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .frmPassengerVehicleInfo_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .lbVYearMes {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 19.44px;
+	font-weight: bold;
+	color: Red;
+	left: 544px;
+	top: 308px;
+	position: absolute;
+	width: 197px;
+	height: 141px;
+	text-align: center;
+}
+.TFDIncident_wzdFire .frmNarration {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmNarration:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._lbFrameTitle_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 10px;
+	top: 12px;
+	position: absolute;
+	width: 629px;
+	height: 49px;
+}
+.TFDIncident_wzdFire .rtxNarration {
+	background-color: White;
+	font-family: Verdana;
+	font-size: medium;
+	left: 10px;
+	top: 72px;
+	position: absolute;
+	width: 800px;
+	height: 400px;
+}
+.TFDIncident_wzdFire .cmdAddNames {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 20px;
+	top: 500px;
+	position: absolute;
+	width: 300px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire .cmdAddNames:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .frmLoss {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmLoss:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._lbFrameTitle_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 10px;
+	top: 8px;
+	position: absolute;
+	width: 841px;
+	height: 41px;
+}
+.TFDIncident_wzdFire .frmPropLoss {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 4px;
+	top: 60px;
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmPropLoss:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .lbSqFtBurned {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 20px;
+	top: 0px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtSqFtBurned {
+	font-family: Verdana;
+	font-size: medium;
+	left: 350px;
+	top: 0px;
+	position: absolute;
+	width: 100px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtSqFtBurned:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbSqFtSmokeDamage {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 20px;
+	top: 52px;
+	position: absolute;
+	width: 217px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtSqFtSmokeDamage {
+	font-family: Verdana;
+	font-size: medium;
+	left: 350px;
+	top: 52px;
+	position: absolute;
+	width: 100px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtSqFtSmokeDamage:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbNoBusinessDisplaced {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 20px;
+	top: 104px;
+	position: absolute;
+	width: 341px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtNoBusinessDisplaced {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 350px;
+	top: 104px;
+	position: absolute;
+	width: 100px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtNoBusinessDisplaced:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbNoPeopleDisplaced {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 20px;
+	top: 156px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtNoPeopleDisplaced {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 350px;
+	top: 156px;
+	position: absolute;
+	width: 100px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtNoPeopleDisplaced:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbJobsLost {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 20px;
+	top: 208px;
+	position: absolute;
+	width: 125px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtJobsLost {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 350px;
+	top: 208px;
+	position: absolute;
+	width: 100px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtJobsLost:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbPropLoss {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 508px;
+	top: 60px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtPropLoss {
+	font-family: Verdana;
+	font-size: medium;
+	left: 700px;
+	top: 60px;
+	position: absolute;
+	width: 100px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtPropLoss:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .txtContentLoss {
+	font-family: Verdana;
+	font-size: medium;
+	left: 700px;
+	top: 108px;
+	position: absolute;
+	width: 100px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtContentLoss:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbContentLoss {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 508px;
+	top: 116px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .frmBldgInfo {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmBldgInfo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._lbFrameTitle_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 23.76px;
+	font-weight: bold;
+	font-style: italic;
+	color: #597041;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 521px;
+	height: 37px;
+}
+.TFDIncident_wzdFire .lbTotSqFt {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 600px;
+	top: 12px;
+	position: absolute;
+	width: 200px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtTotalSqFootage {
+	font-family: Verdana;
+	font-size: medium;
+	left: 810px;
+	top: 10px;
+	position: absolute;
+	width: 120px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtTotalSqFootage:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbGenOccupancy {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 10px;
+	top: 50px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtNumberOfStories {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 650px;
+	top: 42px;
+	position: absolute;
+	width: 50px;
+	height: 26px;
+}
+.TFDIncident_wzdFire .txtNumberOfStories:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbNoStories {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 560px;
+	top: 44px;
+	position: absolute;
+	width: 80px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbBasementLevel {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 715px;
+	top: 48px;
+	position: absolute;
+	width: 160px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtBasementLevels {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 880px;
+	top: 45px;
+	position: absolute;
+	width: 50px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtBasementLevels:enabled {
+	color: White;
+}
+.TFDIncident_wzdFire .cboGeneralPropertyUse {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	width: 300px;
+	height: 21px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboGeneralPropertyUse:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboGeneralPropertyUsePos {
+	top: 40px;
+	left: 200px;
+	position: absolute;
+	width: 300px;
+	height: 21px;
+}
+.TFDIncident_wzdFire .lbSpecificOccupancy {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 10px;
+	top: 88px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtNumberOfUnits {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 840px;
+	top: 80px;
+	position: absolute;
+	width: 90px;
+	height: 26px;
+}
+.TFDIncident_wzdFire .txtNumberOfUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbNumberOfUnits {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 600px;
+	top: 80px;
+	position: absolute;
+	width: 230px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .cboSpecificPropertyUse {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	/* font-size: medium; */
+	/* font-weight: bold; */
+	width: 300px;
+	height: 21px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboSpecificPropertyUse:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboSpecificPropertyUsePos {
+	top: 78px;
+	left: 200px;
+	position: absolute;
+	width: 300px;
+	height: 21px;
+}
+.TFDIncident_wzdFire .txtNumberOfOccupants {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 840px;
+	top: 115px;
+	position: absolute;
+	width: 90px;
+	height: 26px;
+}
+.TFDIncident_wzdFire .txtNumberOfOccupants:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbNoOccupants {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 600px;
+	top: 118px;
+	position: absolute;
+	width: 220px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbBldgStatus {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 10px;
+	top: 127px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboBuildingStatus {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	width: 300px;
+	height: 21px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboBuildingStatus:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboBuildingStatusPos {
+	top: 120px;
+	left: 200px;
+	position: absolute;
+	width: 300px;
+	height: 21px;
+}
+.TFDIncident_wzdFire .txtNumberOfBusinesses {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 840px;
+	top: 150px;
+	position: absolute;
+	width: 90px;
+	height: 26px;
+}
+.TFDIncident_wzdFire .txtNumberOfBusinesses:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbNoBusinesses {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 600px;
+	top: 153px;
+	position: absolute;
+	width: 220px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .lbConstructionType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 10px;
+	top: 170px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtPropValue {
+	font-family: Verdana;
+	font-size: medium;
+	left: 810px;
+	top: 185px;
+	position: absolute;
+	width: 120px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .txtPropValue:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboConstructionType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	width: 300px;
+	height: 21px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboConstructionType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboConstructionTypePos {
+	top: 160px;
+	left: 200px;
+	position: absolute;
+	width: 300px;
+	height: 21px;
+}
+.TFDIncident_wzdFire .chkRental {
+	background-color: white;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 50px;
+	top: 200px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	width: auto;
+}
+.TFDIncident_wzdFire .chkRental:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbPropValue {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 600px;
+	top: 190px;
+	position: absolute;
+	width: 150px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .frmAlarmInfo {
+	background-color: white;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 20px;
+	top: 230px;
+	position: absolute;
+	width: 900px;
+	height: 200px;
+	/* border: 2px groove; */
+}
+.TFDIncident_wzdFire .frmAlarmInfo:enabled {
+	color: Black;
+}
+.TFDIncident_wzdFire .frmAlarm {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	left: 5px;
+	top: 0px;
+	position: absolute;
+	width: 880px;
+	height: 45px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdFire .frmAlarm:enabled {
+	color: Black;
+}
+.TFDIncident_wzdFire ._optAlarmType_0 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: small;
+	/* font-weight: bold; */
+	left: 20px;
+	top: 20px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optAlarmType_0:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optAlarmType_0 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optAlarmType_1 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: small;
+	/* font-weight: bold; */
+	left: 310px;
+	top: 20px;
+	position: absolute;
+	width: 300px;
+	height: 25px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optAlarmType_1:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optAlarmType_1 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optAlarmType_2 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: small;
+	/* font-weight: bold; */
+	left: 670px;
+	top: 20px;
+	position: absolute;
+	width: 130px;
+	height: 20px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optAlarmType_2:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optAlarmType_2 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire .frmAlarm_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .chkAlarmOperated {
+	background-color: white;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 281px;
+	height: 20px;
+	width: auto;
+}
+.TFDIncident_wzdFire .chkAlarmOperated:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .lbAlarmProblems {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 500px;
+	top: 60px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .lbSystemType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: Gray;
+	left: 4px;
+	top: 80px;
+	position: absolute;
+	width: 181px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboAlarmType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 300px;
+	height: 23px;
+	/*visibility: inherit;*/
+}
+.TFDIncident_wzdFire .cboAlarmType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboAlarmTypePos {
+	top: 75px;
+	left: 172px;
+	position: absolute;
+	width: 273px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lstAlarmFailure {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 500px;
+	top: 85px;
+	position: absolute;
+	width: 361px;
+	height: 70px;
+}
+.TFDIncident_wzdFire .lbInitiatingDevice {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 4px;
+	top: 125px;
+	position: absolute;
+	width: 177px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboInitiatingDevice {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 300px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .cboInitiatingDevice:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboInitiatingDevicePos {
+	top: 120px;
+	left: 172px;
+	position: absolute;
+	width: 273px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbEffectiveness {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: Gray;
+	left: 4px;
+	top: 175px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboEffectiveness {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 500px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboEffectiveness:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboEffectivenessPos {
+	top: 170px;
+	left: 172px;
+	position: absolute;
+	width: 500px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .frmAlarmInfo_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .frmExtinguishingSysInfo {
+	background-color: white;
+	font-family: Verdana;
+	font-size: large;
+	left: 20px;
+	top: 450px;
+	position: absolute;
+	width: 900px;
+	height: 170px;
+	/*border: 2px groove;*/
+}
+.TFDIncident_wzdFire .frmExtinguishingSysInfo:enabled {
+	color: Black;
+}
+.TFDIncident_wzdFire .frmExtinguishingSystems {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	left: 0px;
+	top: -4px;
+	position: absolute;
+	width: 808px;
+	height: 49px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdFire .frmExtinguishingSystems:enabled {
+	color: Black;
+}
+.TFDIncident_wzdFire ._optExtinguish_0 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: small;
+	/* font-weight: bold; */
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 377px;
+	height: 25px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optExtinguish_0:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optExtinguish_0 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire ._optExtinguish_1 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: small;
+	/* font-weight: bold; */
+	left: 400px;
+	top: 20px;
+	position: absolute;
+	width: 321px;
+	height: 25px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdFire ._optExtinguish_1:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire ._optExtinguish_1 * {
+	Cursor: default;
+}
+.TFDIncident_wzdFire .frmExtinguishingSystems_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .lbExtProblems {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: Gray;
+	left: 500px;
+	top: 50px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .chkExtOperated {
+	background-color: white;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 385px;
+	height: 20px;
+	visibility: inherit;
+	width: auto;
+}
+.TFDIncident_wzdFire .chkExtOperated:enabled {
+	color: Gray;
+}
+.TFDIncident_wzdFire .lstExtFailure {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 500px;
+	top: 75px;
+	position: absolute;
+	width: 350px;
+	height: 90px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .lbExtSysType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: Gray;
+	left: 5px;
+	top: 90px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboSysType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 300px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboSysType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboSysTypePos {
+	top: 85px;
+	left: 160px;
+	position: absolute;
+	width: 265px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .lbExtEffectiveness {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: Gray;
+	left: 5px;
+	top: 140px;
+	position: absolute;
+	width: 133px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboExtEffectiveness {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 300px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboExtEffectiveness:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboExtEffectivenessPos {
+	top: 130px;
+	left: 160px;
+	position: absolute;
+	width: 265px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .frmExtinguishingSysInfo_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .frmExposureAddress {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdFire .frmExposureAddress:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire ._lbFrameTitle_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #597041;
+	left: 20px;
+	top: 8px;
+	position: absolute;
+	width: 913px;
+	height: 37px;
+}
+.TFDIncident_wzdFire .Frame2 {
+	background-color: white;
+	left: 28px;
+	top: 52px;
+	position: absolute;
+	width: 669px;
+	height: 365px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdFire .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdFire .txtXHouseNumber {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 176px;
+	top: 36px;
+	position: absolute;
+	width: 125px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtXHouseNumber:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .Label2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 32px;
+	top: 37px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_wzdFire .cboXPrefix {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 90px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboXPrefix:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboXPrefixPos {
+	top: 79px;
+	left: 176px;
+	position: absolute;
+	width: 69px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 32px;
+	top: 85px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .txtXStreetName {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 176px;
+	top: 120px;
+	position: absolute;
+	width: 261px;
+	height: 24px;
+}
+.TFDIncident_wzdFire .txtXStreetName:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 32px;
+	top: 125px;
+	position: absolute;
+	width: 125px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboXStreetType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 90px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboXStreetType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboXStreetTypePos {
+	top: 164px;
+	left: 176px;
+	position: absolute;
+	width: 90px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .Label5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 32px;
+	top: 165px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.TFDIncident_wzdFire .cboXSuffix {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 90px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboXSuffix:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboXSuffixPos {
+	top: 206px;
+	left: 176px;
+	position: absolute;
+	width: 69px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .Label6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 32px;
+	top: 207px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.TFDIncident_wzdFire .cboCityCode {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 261px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire .cboCityCode:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdFire .cboCityCodePos {
+	top: 244px;
+	left: 176px;
+	position: absolute;
+	width: 261px;
+	height: 23px;
+}
+.TFDIncident_wzdFire .Label8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 32px;
+	top: 251px;
+	position: absolute;
+	width: 81px;
+	height: 21px;
+}
+.TFDIncident_wzdFire .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdFire .NavBar {
+	background-color: #597041;
+	border-style: inset;
+	cursor: default;
+	left: 0px;
+	top: 655px;
+	position: absolute;
+	width: 1000px;
+	height: 36px;
+	visibility: inherit;
+}
+.TFDIncident_wzdFire ._NavButton_0 {
+	left: 212px;
+	top: 0px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire ._NavButton_1 {
+	left: 320px;
+	top: 0px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire .lbNavMessage {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: #FFFFC0;
+	left: 424px;
+	top: 0px;
+	position: absolute;
+	width: 169px;
+	height: 33px;
+	text-align: center;
+}
+.TFDIncident_wzdFire ._NavButton_2 {
+	left: 452px;
+	top: 0px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire ._NavButton_3 {
+	left: 592px;
+	top: 0px;
+	position: absolute;
+	width: 121px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire ._NavButton_4 {
+	left: 716px;
+	top: 0px;
+	position: absolute;
+	width: 93px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdFire .Label23 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color:papayawhip;
+	left: 0px;
+	top: 4px;
+	position: absolute;
+	width: 209px;
+	height: 25px;
+}
+

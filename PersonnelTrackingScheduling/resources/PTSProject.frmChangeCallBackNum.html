@@ -1,0 +1,41 @@
+<div>
+  <div data-width="376" data-height="218" name="frmChangeCallBackNum" data-title="Change Employee's Callback Number" class="PTSProject_frmChangeCallBackNum" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmChangeCallBackNum">
+      <label id="lbRecordID" tabindex="7" class="lbRecordID" data-bind="text : lbRecordID.Text, imagePath : lbRecordID.ImagePath">lbRecordID</label>
+      <label id="Label1" tabindex="3" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Change the Callback Number for:</label>
+      <label id="lblEmployeeName" tabindex="4" class="lblEmployeeName" data-bind="text : lblEmployeeName.Text, imagePath : lblEmployeeName.ImagePath">lblEmployeeName</label>
+      <label id="Label3" tabindex="5" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Shift</label>
+      <label id="Label2" tabindex="2" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Number</label>
+      <label id="Label4" tabindex="9" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Debit Group</label>
+      <div class="cboShiftPos" id="cboShiftPos">
+        <select data-role="combobox" id="cboShift" tabindex="7" class="cboShift" data-text-field="Text" data-value-field="Value" data-bind="source : cboShift.ComboBoxItems, customText : cboShift.CustomText, comboSelectedIndex : cboShift.SelectedIndex, events : { change : cboShift_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="cboNumberPos" id="cboNumberPos">
+        <select data-role="combobox" id="cboNumber" tabindex="9" class="cboNumber" data-text-field="Text" data-value-field="Value" data-bind="source : cboNumber.ComboBoxItems, customText : cboNumber.CustomText, comboSelectedIndex : cboNumber.SelectedIndex"></select>
+      </div>
+      <div class="cboDebitGroupPos" id="cboDebitGroupPos">
+        <select data-role="combobox" id="cboDebitGroup" tabindex="11" class="cboDebitGroup" data-text-field="Text" data-value-field="Value" data-bind="source : cboDebitGroup.ComboBoxItems, customText : cboDebitGroup.CustomText, comboSelectedIndex : cboDebitGroup.SelectedIndex, events : { change : cboDebitGroup_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="OKButton" tabindex="2" class="OKButton" type="button" data-bind="events : { click : OKButton_Click }, ">Done</button>
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <div class="chkAvailSpecEvent">
+            <input id="chkAvailSpecEvent" tabindex="14" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Available For Special Events</label>
+            </div>
+          </div>
+          <div class="chkAvailMedic6">
+            <input id="chkAvailMedic6" tabindex="13" type="checkbox" style="float: left" data-bind="enabled : chkAvailMedic6.Enabled" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkAvailMedic6.Enabled">Available For Medic 6</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <button id="CancelButton_Renamed" tabindex="1" class="CancelButton_Renamed" type="button" data-bind="events : { click : CancelButton_Renamed_Click }, ">Cancel</button>
+      <label id="Label5" tabindex="11" __UseMnemonic="false" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">* Note:  To Delete Record... Just blank out  Shift, Number  Debit Group...</label>
+    </form>
+  </div>
+</div>

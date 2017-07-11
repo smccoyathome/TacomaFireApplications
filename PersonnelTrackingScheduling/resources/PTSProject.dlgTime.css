@@ -1,0 +1,314 @@
+.PTSProject_dlgTime {
+}
+.PTSProject_dlgTime .dlgTime {
+	background-color: Gray;
+	min-width: 352px;
+	min-height: 478px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+}
+.PTSProject_dlgTime .dlgTime:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgTime .lbEmpInfo {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 329px;
+	height: 41px;
+	text-align: center;
+}
+.PTSProject_dlgTime .lbTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 313px;
+	height: 17px;
+}
+.PTSProject_dlgTime .cboLeave {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Courier New;
+	font-size: 12.96px;
+	width: 329px;
+	height: 25px;
+}
+.PTSProject_dlgTime .cboLeave:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTime .cboLeavePos {
+	top: 72px;
+	left: 8px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+}
+.PTSProject_dlgTime .lbJob {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_dlgTime .lblDefault {
+	background-color: Gray;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 104px;
+	top: 104px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgTime .cboJob {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Courier New;
+	font-size: 12.96px;
+	width: 329px;
+	height: 25px;
+}
+.PTSProject_dlgTime .cboJob:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTime .cboJobPos {
+	top: 120px;
+	left: 8px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+}
+.PTSProject_dlgTime .boxAMPM {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: #804000;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_dlgTime .lbAMPM {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: #FFFFC0;
+	left: 96px;
+	top: 168px;
+	position: absolute;
+	width: 189px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_dlgTime .chkAMPM {
+	background-color: Gray;
+	cursor: default;
+	left: 100px;
+	top: 176px;
+	position: absolute;
+	width: 221px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgTime .chkAMPM:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgTime .boxVacBank {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: #804000;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_dlgTime .chkVacBank {
+	background-color: Gray;
+	cursor: default;
+	left: 100px;
+	top: 224px;
+	position: absolute;
+	width: 221px;
+	height: 16px;
+	width: auto;
+}
+.PTSProject_dlgTime .chkVacBank:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgTime .chkSCKflag {
+	background-color: Gray;
+	cursor: default;
+	left: 100px;
+	top: 248px;
+	position: absolute;
+	width: 221px;
+	height: 16px;
+	width: auto;
+}
+.PTSProject_dlgTime .chkSCKflag:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgTime .lbLeaveNotes {
+	background-color: Gray;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 280px;
+	position: absolute;
+	width: 313px;
+	height: 17px;
+}
+.PTSProject_dlgTime .txtLeaveNotes {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.96px;
+	left: 8px;
+	top: 296px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+}
+.PTSProject_dlgTime .txtLeaveNotes:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTime .chkExtend {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	text-decoration: underline;
+	left: 8px;
+	top: 336px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgTime .chkExtend:enabled {
+	color: Aqua;
+}
+.PTSProject_dlgTime .lbStart {
+	background-color: Gray;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 32px;
+	top: 360px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.PTSProject_dlgTime .calStartLeave:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTime .calStartLeave.k-datepicker {
+	left: 104px;
+	top: 360px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.PTSProject_dlgTime .calStartLeave {
+}
+.PTSProject_dlgTime .lbEnd {
+	background-color: Gray;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 32px;
+	top: 384px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.PTSProject_dlgTime .calEndLeave:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTime .calEndLeave.k-datepicker {
+	left: 104px;
+	top: 384px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.PTSProject_dlgTime .calEndLeave {
+}
+.PTSProject_dlgTime .cmdOK {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 96px;
+	top: 432px;
+	position: absolute;
+	width: 77px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgTime .cmdOK:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTime .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 200px;
+	top: 432px;
+	position: absolute;
+	width: 77px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgTime .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

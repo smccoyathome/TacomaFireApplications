@@ -1,0 +1,25 @@
+<div>
+  <div data-width="542" data-height="347" name="frmEmployeeListByStation" data-title="TFD Employee List By Station/Facility" class="PTSProject_frmEmployeeListByStation" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmEmployeeListByStation">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Filter by: </legend>
+        <div>
+          <button id="cmdExit" tabindex="2" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+          <div class="chkSelectAll">
+            <input id="chkSelectAll" tabindex="6" type="checkbox" checked="checked" style="float: left" data-bind="events : { click : chkSelectAll_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Select All</label>
+            </div>
+          </div>
+          <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Or choose Station / Facility </label>
+          <div class="cboLocationPos" id="cboLocationPos">
+            <select id="cboLocation" tabindex="3" class="cboLocation" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboLocation.ComboBoxItems, customText : cboLocation.CustomText, comboSelectedIndex : cboLocation.SelectedIndex, events : { change : cboLocation_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdPrint" tabindex="1" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print List</button>
+          <label id="lbCount" tabindex="4" class="lbCount" data-bind="text : lbCount.Text, imagePath : lbCount.ImagePath">List Count:  </label>
+        </div>
+      </fieldset>
+      <div id="sprReport" data-role="mobilizespread" tabindex="7" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

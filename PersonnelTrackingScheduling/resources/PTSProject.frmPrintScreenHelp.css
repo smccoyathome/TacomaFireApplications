@@ -1,0 +1,90 @@
+.PTSProject_frmPrintScreenHelp {
+}
+.PTSProject_frmPrintScreenHelp .frmPrintScreenHelp {
+	background-color: Black;
+	min-width: 457px;
+	min-height: 271px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+}
+.PTSProject_frmPrintScreenHelp .Label1 {
+	background-color: Maroon;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	color: White;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 441px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_frmPrintScreenHelp .Label2 {
+	background-color: Black;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 441px;
+	height: 17px;
+}
+.PTSProject_frmPrintScreenHelp .Label3 {
+	background-color: Black;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 88px;
+	position: absolute;
+	width: 441px;
+	height: 41px;
+}
+.PTSProject_frmPrintScreenHelp .Label4 {
+	background-color: Black;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #C0C0FF;
+	left: 8px;
+	top: 136px;
+	position: absolute;
+	width: 441px;
+	height: 57px;
+}
+.PTSProject_frmPrintScreenHelp .Label5 {
+	background-color: Black;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 8px;
+	top: 208px;
+	position: absolute;
+	width: 441px;
+	height: 41px;
+}
+

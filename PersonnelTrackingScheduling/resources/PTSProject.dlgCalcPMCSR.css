@@ -1,0 +1,142 @@
+.PTSProject_dlgCalcPMCSR {
+}
+.PTSProject_dlgCalcPMCSR .dlgCalcPMCSR {
+	background-color: Black;
+	min-width: 372px;
+	min-height: 222px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+}
+.PTSProject_dlgCalcPMCSR .Frame1 {
+	background-color: Black;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 353px;
+	height: 89px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgCalcPMCSR .Frame1:enabled {
+	color: #8080FF;
+}
+.PTSProject_dlgCalcPMCSR ._Label3_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	color: #C0C0FF;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgCalcPMCSR .dtStart {
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_dlgCalcPMCSR .dtStart.k-datepicker {
+	left: 80px;
+	top: 16px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.PTSProject_dlgCalcPMCSR .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 232px;
+	top: 32px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgCalcPMCSR .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgCalcPMCSR ._Label3_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	color: #C0C0FF;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgCalcPMCSR .dtEnd {
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_dlgCalcPMCSR .dtEnd.k-datepicker {
+	left: 80px;
+	top: 48px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.PTSProject_dlgCalcPMCSR .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgCalcPMCSR .cmdCalculate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 353px;
+	height: 65px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgCalcPMCSR .cmdCalculate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgCalcPMCSR .lbResult {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 16.2px;
+	font-weight: bold;
+	color: #00C000;
+	left: 8px;
+	top: 176px;
+	position: absolute;
+	width: 353px;
+	height: 41px;
+	text-align: center;
+}
+

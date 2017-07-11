@@ -1,0 +1,120 @@
+<div>
+  <div data-width="723" data-height="509" data-removeControlBox="true" name="frmUpdate" data-title="Update Employee" class="PTSProject_frmUpdate" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmUpdate">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <div data-bind="spEnabled : Shape2.Enabled, spVisible : Shape2.Visible">
+            <svg version="1.1" class="Shape2_svg" style="left:8px;top:8px;width:710px;height:193px;position:absolute;">
+              <rect x="0" y="0" height="193" width="710" id="Shape2" class="Shape2"></rect>
+            </svg>
+          </div>
+          <button id="cmdSwitch" tabindex="40" data-tag="1" class="cmdSwitch" type="button" data-bind="visible : cmdSwitch.Visible, buttonText : cmdSwitch.Text, events : { click : cmdSwitch_Click }, ">View Archived Personnel</button>
+          <label id="Label19" tabindex="44" class="Label19" data-bind="style : { color : Label19.ForeColor.Value }, text : Label19.Text, imagePath : Label19.ImagePath"></label>
+          <fieldset id="picEmp" class="picEmp" data-bind="enabled : picEmp.Enabled, visible : picEmp.Visible, style : { backgroundImage : picEmp.Image }"></fieldset>
+          <label id="lbPerArcID" tabindex="45" class="lbPerArcID" data-bind="text : lbPerArcID.Text, imagePath : lbPerArcID.ImagePath"></label>
+          <label id="lbWarning" tabindex="75" class="lbWarning" data-bind="visible : lbWarning.Visible, text : lbWarning.Text, imagePath : lbWarning.ImagePath">Employee's Job Code is not in PTS Database!! Call Debra Lewandowsky x5068 to add it.</label>
+          <div class="cboEmpListPos" id="cboEmpListPos">
+            <select data-role="combobox" id="cboEmpList" tabindex="1" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="Label20" tabindex="74" class="Label20" data-bind="text : Label20.Text, imagePath : Label20.ImagePath">Employee ID</label>
+          <label id="lbEmpID" tabindex="43" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath"></label>
+          <label id="Label2" tabindex="71" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Employee</label>
+          <div class="cboJobCodePos" id="cboJobCodePos">
+            <select data-role="combobox" id="cboJobCode" tabindex="39" class="cboJobCode" data-text-field="Text" data-value-field="Value" data-bind="source : cboJobCode.ComboBoxItems, enabled : cboJobCode.Enabled, customText : cboJobCode.CustomText, comboSelectedIndex : cboJobCode.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="Label4" tabindex="73" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Job Code</label>
+          <button id="cmdNote" tabindex="76" class="cmdNote" type="button" data-bind="enabled : cmdNote.Enabled, events : { click : cmdNote_Click }, ">Notes</button>
+          <label id="lbJobCode" tabindex="42" class="lbJobCode" data-bind="text : lbJobCode.Text, imagePath : lbJobCode.ImagePath"></label>
+          <label id="Label3" tabindex="72" class="Label3" data-bind="style : { color : Label3.ForeColor.Value }, text : Label3.Text, imagePath : Label3.ImagePath">Job Title</label>
+          <div data-bind="spEnabled : Shape4.Enabled, spVisible : Shape4.Visible">
+            <svg version="1.1" class="Shape4_svg" style="left:8px;top:184px;width:476px;height:284px;position:absolute;">
+              <rect x="0" y="0" height="284" width="476" id="Shape4" class="Shape4"></rect>
+            </svg>
+          </div>
+          <div data-bind="spEnabled : Shape3.Enabled, spVisible : Shape3.Visible">
+            <svg version="1.1" class="Shape3_svg" style="left:480px;top:184px;width:238px;height:284px;position:absolute;">
+              <rect x="0" y="0" height="284" width="238" id="Shape3" class="Shape3"></rect>
+            </svg>
+          </div>
+          <button id="cmdEmergency" tabindex="4" class="cmdEmergency" type="button" data-bind="enabled : cmdEmergency.Enabled, visible : cmdEmergency.Visible, events : { click : cmdEmergency_Click }, ">Emergency Contact</button>
+          <label id="Label15" tabindex="46" class="Label15" data-bind="visible : Label15.Visible, text : Label15.Text, imagePath : Label15.ImagePath">Social Security \#</label>
+          <input id="txtSSN" tabindex="18" class="txtSSN" data-bind="enabled : txtSSN.Enabled, visible : txtSSN.Visible, value : txtSSN.Text, selectedRange : txtSSN.SelectedRange" />
+          <label id="Label5" tabindex="57" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">First Name</label>
+          <input id="txtFName" tabindex="2" class="txtFName" data-bind="value : txtFName.Text, selectedRange : txtFName.SelectedRange" />
+          <label id="Label6" tabindex="58" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">MI</label>
+          <input id="txtMName" tabindex="3" class="txtMName" data-bind="value : txtMName.Text, events : { blur : txtMName_Leave }, " />
+          <label id="Label8" tabindex="59" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Last Name</label>
+          <input id="txtLName" tabindex="5" class="txtLName" data-bind="value : txtLName.Text, selectedRange : txtLName.SelectedRange" />
+          <label id="Label10" tabindex="66" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Suffix</label>
+          <input id="txtSName" tabindex="6" class="txtSName" data-bind="value : txtSName.Text" />
+          <label id="Label16" tabindex="47" class="Label16" data-bind="style : { color : Label16.ForeColor.Value }, text : Label16.Text, imagePath : Label16.ImagePath">COT Service Date</label>
+          <input id="txtCOT" tabindex="19" class="txtCOT" data-bind="enabled : txtCOT.Enabled, value : txtCOT.Text, selectedRange : txtCOT.SelectedRange" />
+          <label id="Label21" tabindex="68" class="Label21" data-bind="text : Label21.Text, imagePath : Label21.ImagePath">NameKnownBy</label>
+          <input id="txtNameKnownBy" tabindex="7" Value=" " class="txtNameKnownBy" data-bind="value : txtNameKnownBy.Text" />
+          <label id="Label7" tabindex="67" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Birth Day</label>
+          <input id="txtBDay" tabindex="8" class="txtBDay" data-bind="value : txtBDay.Text, selectedRange : txtBDay.SelectedRange" />
+          <label id="Label17" tabindex="48" class="Label17" data-bind="style : { color : Label17.ForeColor.Value }, text : Label17.Text, imagePath : Label17.ImagePath">TFD Hire Date</label>
+          <input id="txtTFD" tabindex="20" class="txtTFD" data-bind="enabled : txtTFD.Enabled, value : txtTFD.Text, selectedRange : txtTFD.SelectedRange" />
+          <button id="cmdPhone" tabindex="10" class="cmdPhone" type="button" data-bind="enabled : cmdPhone.Enabled, visible : cmdPhone.Visible, events : { click : cmdPhone_Click }, ">Additional Numbers</button>
+          <label id="Label11" tabindex="65" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">Sex</label>
+          <input id="txtSex" tabindex="11" class="txtSex" data-bind="value : txtSex.Text, selectedRange : txtSex.SelectedRange, events : { change : txtSex_TextChanged }, " />
+          <label id="Label18" tabindex="49" class="Label18" data-bind="style : { color : Label18.ForeColor.Value }, text : Label18.Text, imagePath : Label18.ImagePath">Benefit Program</label>
+          <div class="cboBenefitPos" id="cboBenefitPos">
+            <select data-role="combobox" id="cboBenefit" tabindex="21" class="cboBenefit" data-text-field="Text" data-value-field="Value" data-bind="source : cboBenefit.ComboBoxItems, enabled : cboBenefit.Enabled, customText : cboBenefit.CustomText, comboSelectedIndex : cboBenefit.SelectedIndex"></select>
+          </div>
+          <label id="Label9" tabindex="60" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Home Phone</label>
+          <input id="txtPhone" tabindex="9" class="txtPhone" data-bind="value : txtPhone.Text" />
+          <input id="txtAddress" tabindex="12" class="txtAddress" data-bind="value : txtAddress.Text" />
+          <button id="cmdAddress" tabindex="13" class="cmdAddress" type="button" data-bind="enabled : cmdAddress.Enabled, visible : cmdAddress.Visible, events : { click : cmdAddress_Click }, ">More Addresses</button>
+          <label id="lbUnion" tabindex="50" class="lbUnion" data-bind="style : { color : lbUnion.ForeColor.Value }, visible : lbUnion.Visible, text : lbUnion.Text, imagePath : lbUnion.ImagePath">Union</label>
+          <input id="txtUnion" tabindex="22" class="txtUnion" data-bind="enabled : txtUnion.Enabled, visible : txtUnion.Visible, value : txtUnion.Text" />
+          <label id="Label12" tabindex="61" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">Address</label>
+          <input id="txtExceptDay" tabindex="23" class="txtExceptDay" data-bind="enabled : txtExceptDay.Enabled, value : txtExceptDay.Text, selectedRange : txtExceptDay.SelectedRange" />
+          <label id="Label1" tabindex="51" class="Label1" data-bind="style : { color : Label1.ForeColor.Value }, text : Label1.Text, imagePath : Label1.ImagePath">Exception Days</label>
+          <input id="txtCity" tabindex="14" class="txtCity" data-bind="value : txtCity.Text" />
+          <input id="txtState" tabindex="15" class="txtState" data-bind="value : txtState.Text" />
+          <input id="txtZip" tabindex="16" class="txtZip" data-bind="value : txtZip.Text" />
+          <label id="Label13" tabindex="62" class="Label13" data-bind="text : Label13.Text, imagePath : Label13.ImagePath">City</label>
+          <label id="Label22" tabindex="64" class="Label22" data-bind="text : Label22.Text, imagePath : Label22.ImagePath">State</label>
+          <label id="Label14" tabindex="63" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">Zip</label>
+          <input id="txtStep" tabindex="24" class="txtStep" data-bind="enabled : txtStep.Enabled, visible : txtStep.Visible, value : txtStep.Text, selectedRange : txtStep.SelectedRange" />
+          <label id="lbStep" tabindex="53" class="lbStep" data-bind="style : { color : lbStep.ForeColor.Value }, visible : lbStep.Visible, text : lbStep.Text, imagePath : lbStep.ImagePath">Step</label>
+          <label id="Label23" tabindex="69" class="Label23" data-bind="visible : Label23.Visible, text : Label23.Text, imagePath : Label23.ImagePath">WDL / Exp. Date</label>
+          <input disabled="disabled" id="txtWDL" tabindex="37" class="txtWDL" data-bind="visible : txtWDL.Visible, value : txtWDL.Text" />
+          <input disabled="disabled" id="txtWDLDate" tabindex="38" class="txtWDLDate" data-bind="visible : txtWDLDate.Visible, value : txtWDLDate.Text" />
+          <button id="cmdVerify" tabindex="17" class="cmdVerify" type="button" data-bind="enabled : cmdVerify.Enabled, visible : cmdVerify.Visible, events : { click : cmdVerify_Click }, ">WDL / PPE Info</button>
+          <button id="cmdChangeCC" tabindex="26" data-tag="0" class="cmdChangeCC" type="button" data-bind="enabled : cmdChangeCC.Enabled, visible : cmdChangeCC.Visible, buttonText : cmdChangeCC.Text, events : { click : cmdChangeCC_Click }, ">Cost Center</button>
+          <input disabled="disabled" id="txtCostCenter" tabindex="25" class="txtCostCenter" data-bind="enabled : txtCostCenter.Enabled, visible : txtCostCenter.Visible, value : txtCostCenter.Text" />
+          <label id="lbVerified" tabindex="70" class="lbVerified" data-bind="visible : lbVerified.Visible, text : lbVerified.Text, imagePath : lbVerified.ImagePath">Last Verified on</label>
+          <input id="txtExit" tabindex="28" class="txtExit" data-bind="visible : txtExit.Visible, value : txtExit.Text, selectedRange : txtExit.SelectedRange" />
+          <textarea id="txtExitComments" tabindex="30" class="txtExitComments" data-bind="visible : txtExitComments.Visible, value : txtExitComments.Text"></textarea>
+          <label id="lbExit" tabindex="54" class="lbExit" data-bind="visible : lbExit.Visible, text : lbExit.Text, imagePath : lbExit.ImagePath">Exit Date</label>
+          <label id="lbExitComments" tabindex="56" class="lbExitComments" data-bind="visible : lbExitComments.Visible, text : lbExitComments.Text, imagePath : lbExitComments.ImagePath">Exit Comments</label>
+          <div class="cboExitTypePos" id="cboExitTypePos" data-bind="visible : cboExitType.Visible">
+            <select data-role="combobox" id="cboExitType" tabindex="29" class="cboExitType" data-text-field="Text" data-value-field="Value" data-bind="source : cboExitType.ComboBoxItems, customText : cboExitType.CustomText, comboSelectedIndex : cboExitType.SelectedIndex"></select>
+          </div>
+          <label id="lbExitType" tabindex="55" class="lbExitType" data-bind="visible : lbExitType.Visible, text : lbExitType.Text, imagePath : lbExitType.ImagePath">Exit Type</label>
+          <label id="lbStatus" tabindex="52" class="lbStatus" data-bind="visible : lbStatus.Visible, text : lbStatus.Text, imagePath : lbStatus.ImagePath">Uncheck Status to Inactivate Employee</label>
+          <div class="chkStatus" data-bind="visible : chkStatus.Visible">
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkStatus.Enabled">Status</label>
+            </div>
+            <input id="chkStatus" tabindex="27" type="checkbox" style="float: left" data-bind="enabled : chkStatus.Enabled" />
+          </div>
+          <div data-bind="spEnabled : Shape5.Enabled, spVisible : Shape5.Visible">
+            <svg version="1.1" class="Shape5_svg" style="left:8px;top:464px;width:710px;height:41px;position:absolute;">
+              <rect x="0" y="0" height="41" width="710" id="Shape5" class="Shape5"></rect>
+            </svg>
+          </div>
+          <button id="cmdUndo" tabindex="31" class="cmdUndo" type="button" data-bind="events : { click : cmdUndo_Click }, ">Undo Changes</button>
+          <button id="cmdUpdate" tabindex="32" class="cmdUpdate" type="button" data-bind="events : { click : cmdUpdate_Click }, ">Update</button>
+          <button id="cmdAssign" tabindex="33" class="cmdAssign" type="button" data-bind="enabled : cmdAssign.Enabled, events : { click : cmdAssign_Click }, ">Assign</button>
+          <button id="cmdNewPromo" tabindex="34" class="cmdNewPromo" type="button" data-bind="enabled : cmdNewPromo.Enabled, events : { click : cmdNewPromo_Click }, ">New Promotion</button>
+          <button disabled="disabled" id="cmdDelete" tabindex="35" class="cmdDelete" type="button" data-bind="enabled : cmdDelete.Enabled, events : { click : cmdDelete_Click }, ">Delete Employee</button>
+          <button id="cmdClose" tabindex="36" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

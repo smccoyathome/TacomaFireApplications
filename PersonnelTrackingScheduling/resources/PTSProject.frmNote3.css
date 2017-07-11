@@ -1,0 +1,100 @@
+.PTSProject_frmNote3 {
+}
+.PTSProject_frmNote3 .frmNote3 {
+	background-color: Teal;
+	min-width: 400px;
+	min-height: 228px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmNote3 .Shape1 {
+	fill: #FFE0C0;
+	fill-opacity: 1;
+	color: Black;
+	stroke: Black;
+}
+.PTSProject_frmNote3 .lbTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 4px;
+	top: 4px;
+	position: absolute;
+	width: 393px;
+	height: 21px;
+	text-align: center;
+}
+.PTSProject_frmNote3 .txtNote {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 8px;
+	top: 36px;
+	position: absolute;
+	overflow: auto;
+	width: 385px;
+	height: 145px;
+}
+.PTSProject_frmNote3 .txtNote:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNote3 .lbLocked {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: Red;
+	left: 10px;
+	top: 192px;
+	position: absolute;
+	width: 169px;
+	height: 25px;
+}
+.PTSProject_frmNote3 .cmdOK {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 204px;
+	top: 196px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNote3 .cmdOK:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNote3 .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 304px;
+	top: 196px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNote3 .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

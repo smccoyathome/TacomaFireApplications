@@ -1,0 +1,153 @@
+.PTSProject_frmIndivSchedReport {
+}
+.PTSProject_frmIndivSchedReport .frmIndivSchedReport {
+	background-color: Teal;
+	min-width: 739px;
+	min-height: 677px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmIndivSchedReport .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 102px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmIndivSchedReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: #FFFFC0;
+	left: 120px;
+	top: 0px;
+	position: absolute;
+	width: 235px;
+	height: 22px;
+	text-align: center;
+}
+.PTSProject_frmIndivSchedReport .chkInactive {
+	background-color: Teal;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 376px;
+	top: 8px;
+	position: absolute;
+	width: 136px;
+	height: 49px;
+	width: auto;
+}
+.PTSProject_frmIndivSchedReport .chkInactive:enabled {
+	color: Yellow;
+}
+.PTSProject_frmIndivSchedReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	left: 542px;
+	top: 15px;
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndivSchedReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivSchedReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	left: 626px;
+	top: 15px;
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndivSchedReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivSchedReport .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 97px;
+	height: 25px;
+}
+.PTSProject_frmIndivSchedReport .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivSchedReport .cboYearPos {
+	top: 24px;
+	left: 8px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+}
+.PTSProject_frmIndivSchedReport .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 248px;
+	height: 25px;
+}
+.PTSProject_frmIndivSchedReport .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivSchedReport .cboNameListPos {
+	top: 24px;
+	left: 120px;
+	position: absolute;
+	width: 248px;
+	height: 25px;
+}
+.PTSProject_frmIndivSchedReport .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	color: #80FF80;
+	left: 352px;
+	top: 56px;
+	position: absolute;
+	width: 353px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndivSchedReport .sprIndiv {
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 720px;
+	height: 576px;
+}
+.PTSProject_frmIndivSchedReport .sprIndiv .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmIndivSchedReport .sprIndiv .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,150 @@
+.PTSProject_dlgSendRover {
+}
+.PTSProject_dlgSendRover .dlgSendRover {
+	background-color: Gray;
+	min-width: 298px;
+	min-height: 167px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgSendRover .chkAM {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 68px;
+	top: 15px;
+	position: absolute;
+	width: 54px;
+	height: 23px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_dlgSendRover .chkAM:enabled {
+	color: Black;
+}
+.PTSProject_dlgSendRover .chkRover {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 147px;
+	top: 15px;
+	position: absolute;
+	width: 106px;
+	height: 23px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_dlgSendRover .chkRover:enabled {
+	color: Black;
+}
+.PTSProject_dlgSendRover .chkPM {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 68px;
+	top: 39px;
+	position: absolute;
+	width: 54px;
+	height: 23px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_dlgSendRover .chkPM:enabled {
+	color: Black;
+}
+.PTSProject_dlgSendRover .chkDebit {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 147px;
+	top: 39px;
+	position: absolute;
+	width: 102px;
+	height: 23px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_dlgSendRover .chkDebit:enabled {
+	color: Black;
+}
+.PTSProject_dlgSendRover .chkBoth {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 68px;
+	top: 63px;
+	position: absolute;
+	width: 214px;
+	height: 23px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_dlgSendRover .chkBoth:enabled {
+	color: Black;
+}
+.PTSProject_dlgSendRover .lbTrade {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFF80;
+	left: 8px;
+	top: 89px;
+	position: absolute;
+	width: 282px;
+	height: 20px;
+	text-align: center;
+	visibility: hidden;
+}
+.PTSProject_dlgSendRover .cmdOK {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 64px;
+	top: 120px;
+	position: absolute;
+	width: 66px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgSendRover .cmdOK:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSendRover .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 160px;
+	top: 120px;
+	position: absolute;
+	width: 66px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgSendRover .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

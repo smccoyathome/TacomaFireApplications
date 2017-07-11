@@ -1,0 +1,19 @@
+<div id="messageBoxExpired" class="dialog status" data-bind="visible: isVisible, attr:{class:status}">
+    <div class="dialog-overlay"></div>
+    <div class="dialog-content">
+        <div class="divhoz" style="margin-left: auto; margin-right: auto;">
+            <div style="vertical-align:top; width:15%;  min-width: 60px; text-align : center;">
+                <i class="material-icons error icon">&#xE000;</i>
+            </div>
+            <div style="width: 80%">
+                <h2>Session Expired</h2>
+                <div>
+                    <p data-bind="text : textValue"></p>
+                    <div class="footer">
+                        <button class="btn" data-bind="click: myclick">Retry</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

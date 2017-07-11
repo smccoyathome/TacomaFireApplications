@@ -1,0 +1,498 @@
+<div>
+  <div data-width="720" data-height="425" name="MDIForm1" data-title="TFD - Personnel Tracking and Scheduling" class="PTSProject_MDIForm1" id="#= UniqueID #">
+    <form class="MDIForm1">
+      <ul id="MainMenu1" class="MainMenu1" data-role="menu">
+        <li id="mnuSystem" data-bind="menuEnabled : mnuSystem.Enabled, visible : mnuSystem.Available">
+          <a>System</a>
+          <ul>
+            <li id="mnuExit" data-bind="menuEnabled : mnuExit.Enabled, visible : mnuExit.Available, events : { click : mnuExit_Click }, ">
+              <a>Exit</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="_mnuPersonnel_0" index="0" data-bind="menuEnabled : _mnuPersonnel_0.Enabled, visible : _mnuPersonnel_0.Available">
+          <a>Personnel</a>
+          <ul>
+            <li id="mnuAddnew" data-bind="menuEnabled : mnuAddnew.Enabled, visible : mnuAddnew.Available, events : { click : mnuAddnew_Click }, ">
+              <a>Add New Employee</a>
+            </li>
+            <li id="mnuEmpInfo" data-bind="menuEnabled : mnuEmpInfo.Enabled, visible : mnuEmpInfo.Available, events : { click : mnuEmpInfo_Click }, ">
+              <a>Update Employee Information</a>
+            </li>
+            <li id="mnuPosition" data-bind="menuEnabled : mnuPosition.Enabled, visible : mnuPosition.Available, events : { click : mnuPosition_Click }, ">
+              <a>Assign Employee Position</a>
+            </li>
+            <li id="mnuPhone" data-bind="menuEnabled : mnuPhone.Enabled, visible : mnuPhone.Available, events : { click : mnuPhone_Click }, ">
+              <a>Manage Phone List</a>
+            </li>
+            <li id="mnuAddress" data-bind="menuEnabled : mnuAddress.Enabled, visible : mnuAddress.Available, events : { click : mnuAddress_Click }, ">
+              <a>Manage Address List</a>
+            </li>
+            <li id="mnuEmergency" data-bind="menuEnabled : mnuEmergency.Enabled, visible : mnuEmergency.Available, events : { click : mnuEmergency_Click }, ">
+              <a>Manage Emergency Contacts</a>
+            </li>
+            <li id="mnuImmune" data-bind="menuEnabled : mnuImmune.Enabled, visible : mnuImmune.Available, events : { click : mnuImmune_Click }, ">
+              <a>Manage Employee Immunizations</a>
+            </li>
+            <li id="mnuPromoli" data-bind="menuEnabled : mnuPromoli.Enabled, visible : mnuPromoli.Available, events : { click : mnuPromoli_Click }, ">
+              <a>Update Promotion Lists</a>
+            </li>
+            <li id="mnuSeniorInq" data-bind="menuEnabled : mnuSeniorInq.Enabled, visible : mnuSeniorInq.Available, events : { click : mnuSeniorInq_Click }, ">
+              <a>Seniority Ranking Inquiry</a>
+            </li>
+            <li id="mnu_transfer_req" data-bind="menuEnabled : mnu_transfer_req.Enabled, visible : mnu_transfer_req.Available, events : { click : mnu_transfer_req_Click }, ">
+              <a>Manage Requests For Transfer</a>
+            </li>
+            <li id="mnuPMCerts" data-bind="menuEnabled : mnuPMCerts.Enabled, visible : mnuPMCerts.Available, events : { click : mnuPMCerts_Click }, ">
+              <a>Manage Paramedic Certifications</a>
+            </li>
+            <li id="mnuPPE" data-bind="menuEnabled : mnuPPE.Enabled, visible : mnuPPE.Available, events : { click : mnuPPE_Click }, ">
+              <a>Manage WDL and PPE Info</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuSchedule" data-bind="menuEnabled : mnuSchedule.Enabled, visible : mnuSchedule.Available">
+          <a>Scheduling</a>
+          <ul>
+            <li id="mnuIndSchedule" data-bind="menuEnabled : mnuIndSchedule.Enabled, visible : mnuIndSchedule.Available, events : { click : mnuIndSchedule_Click }, ">
+              <a>Individual Schedule</a>
+            </li>
+            <li id="mnuBattalion" data-bind="menuEnabled : mnuBattalion.Enabled, visible : mnuBattalion.Available, events : { click : mnuBattalion_Click }, ">
+              <a>Battalion 1 Schedule</a>
+            </li>
+            <li id="mnuBattalion2" data-bind="menuEnabled : mnuBattalion2.Enabled, visible : mnuBattalion2.Available, events : { click : mnuBattalion2_Click }, ">
+              <a>Battalion 2 Schedule</a>
+            </li>
+            <li id="mnuNewBatt3" data-bind="menuEnabled : mnuNewBatt3.Enabled, visible : mnuNewBatt3.Available, events : { click : mnuNewBatt3_Click }, ">
+              <a>Battalion 3 Schedule</a>
+            </li>
+            <li id="mnuBattalion3" data-bind="menuEnabled : mnuBattalion3.Enabled, visible : mnuBattalion3.Available, events : { click : mnuBattalion3_Click }, ">
+              <a>Batt 4 Sched (Special Unit)</a>
+            </li>
+            <li id="mnuBattalion4" data-bind="menuEnabled : mnuBattalion4.Enabled, visible : mnuBattalion4.Available, events : { click : mnuBattalion4_Click }, ">
+              <a>Batt 5 Sched (Reserve Unit)</a>
+            </li>
+            <li id="mnuEMS" data-bind="menuEnabled : mnuEMS.Enabled, visible : mnuEMS.Available, events : { click : mnuEMS_Click }, ">
+              <a>EMS Schedule</a>
+            </li>
+            <li id="mnuEMSDaily" data-bind="menuEnabled : mnuEMSDaily.Enabled, visible : mnuEMSDaily.Available, events : { click : mnuEMSDaily_Click }, ">
+              <a>EMS Daily Scheduler</a>
+            </li>
+            <li id="mnuHazmat" data-bind="menuEnabled : mnuHazmat.Enabled, visible : mnuHazmat.Available, events : { click : mnuHazmat_Click }, ">
+              <a>Hazmat Schedule</a>
+            </li>
+            <li id="mnuMarine" data-bind="menuEnabled : mnuMarine.Enabled, visible : mnuMarine.Available, events : { click : mnuMarine_Click }, ">
+              <a>Marine Schedule</a>
+            </li>
+            <li id="mnuBattStaff" data-bind="menuEnabled : mnuBattStaff.Enabled, visible : mnuBattStaff.Available, events : { click : mnuBattStaff_Click }, ">
+              <a>Battalion Staff Schedule</a>
+            </li>
+            <li id="mnuDispatch" data-bind="menuEnabled : mnuDispatch.Enabled, visible : mnuDispatch.Available, events : { click : mnuDispatch_Click }, ">
+              <a>Dispatch Schedule</a>
+            </li>
+            <li id="mnu_watch_duty" data-bind="menuEnabled : mnu_watch_duty.Enabled, visible : mnu_watch_duty.Available, events : { click : mnu_watch_duty_Click }, ">
+              <a>Assign Watch Duty </a>
+            </li>
+            <li id="mnu_Vacation" data-bind="menuEnabled : mnu_Vacation.Enabled, visible : mnu_Vacation.Available, events : { click : mnu_Vacation_Click }, ">
+              <a>Vacation Scheduler</a>
+            </li>
+            <li id="mnu_PMVacationSched" data-bind="menuEnabled : mnu_PMVacationSched.Enabled, visible : mnu_PMVacationSched.Available, events : { click : mnu_PMVacationSched_Click }, ">
+              <a>Paramedic Vacation Scheduler</a>
+            </li>
+            <li id="mnu_HZMVacationSched" data-bind="menuEnabled : mnu_HZMVacationSched.Enabled, visible : mnu_HZMVacationSched.Available, events : { click : mnu_HZMVacationSched_Click }, ">
+              <a>Hazmat Vacation Scheduler</a>
+            </li>
+            <li id="mnu_FCCVacationSched" data-bind="menuEnabled : mnu_FCCVacationSched.Enabled, visible : mnu_FCCVacationSched.Available, events : { click : mnu_FCCVacationSched_Click }, ">
+              <a>Dispatch Vacation Available</a>
+            </li>
+            <li id="mnu_old" data-bind="menuEnabled : mnu_old.Enabled, visible : mnu_old.Available">
+              <a>Hidden Battalion Schedulers</a>
+              <ul>
+                <li id="mnuNewBatt1" data-bind="menuEnabled : mnuNewBatt1.Enabled, visible : mnuNewBatt1.Available, events : { click : mnuNewBatt1_Click }, ">
+                  <a>New Battalion 1 Scheduler</a>
+                </li>
+                <li id="mnuNewBatt2" data-bind="menuEnabled : mnuNewBatt2.Enabled, visible : mnuNewBatt2.Available, events : { click : mnuNewBatt2_Click }, ">
+                  <a>New Battalion 2 Scheduler</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuReports" data-bind="menuEnabled : mnuReports.Enabled, visible : mnuReports.Available">
+          <a>Reports</a>
+          <ul>
+            <li id="_mnuPerson_0" index="0" data-bind="menuEnabled : _mnuPerson_0.Enabled, visible : _mnuPerson_0.Available">
+              <a>Personnel</a>
+              <ul>
+                <li id="mnuAssign" data-bind="menuEnabled : mnuAssign.Enabled, visible : mnuAssign.Available, events : { click : mnuAssign_Click }, ">
+                  <a>Assignments</a>
+                </li>
+                <li id="mnuRoster" data-bind="menuEnabled : mnuRoster.Enabled, visible : mnuRoster.Available, events : { click : mnuRoster_Click }, ">
+                  <a>Roster</a>
+                </li>
+                <li id="mnuFRoster" data-bind="menuEnabled : mnuFRoster.Enabled, visible : mnuFRoster.Available, events : { click : mnuFRoster_Click }, ">
+                  <a>Filtered Roster</a>
+                </li>
+                <li id="mnuPublicRoster" data-bind="menuEnabled : mnuPublicRoster.Enabled, visible : mnuPublicRoster.Available, events : { click : mnuPublicRoster_Click }, ">
+                  <a>Public Roster</a>
+                </li>
+                <li id="mnu_DDGroups" data-bind="menuEnabled : mnu_DDGroups.Enabled, visible : mnu_DDGroups.Available, events : { click : mnu_DDGroups_Click }, ">
+                  <a>Debit Day Groups</a>
+                </li>
+                <li id="mnuProlist" data-bind="menuEnabled : mnuProlist.Enabled, visible : mnuProlist.Available, events : { click : mnuProlist_Click }, ">
+                  <a>Promotion Lists</a>
+                </li>
+                <li id="mnuSenior" data-bind="menuEnabled : mnuSenior.Enabled, visible : mnuSenior.Available, events : { click : mnuSenior_Click }, ">
+                  <a>Seniority Ranking Lists</a>
+                </li>
+                <li id="mnuBenefit" data-bind="menuEnabled : mnuBenefit.Enabled, visible : mnuBenefit.Available, events : { click : mnuBenefit_Click }, ">
+                  <a>CF1 Benefit Listing</a>
+                </li>
+                <li id="mnu_dailydispatchwork" data-bind="menuEnabled : mnu_dailydispatchwork.Enabled, visible : mnu_dailydispatchwork.Available">
+                  <a>Daily Dispatch Work Report</a>
+                </li>
+                <li id="mnu_rankedops" data-bind="menuEnabled : mnu_rankedops.Enabled, visible : mnu_rankedops.Available, events : { click : mnu_rankedops_Click }, ">
+                  <a>Ranked Operation Staff List</a>
+                </li>
+                <li id="mnu_emp_facility" data-bind="menuEnabled : mnu_emp_facility.Enabled, visible : mnu_emp_facility.Available, events : { click : mnu_emp_facility_Click }, ">
+                  <a>Employee List by Facility</a>
+                </li>
+                <li id="MnuAuditDDHOL" data-bind="menuEnabled : MnuAuditDDHOL.Enabled, visible : MnuAuditDDHOL.Available, events : { click : MnuAuditDDHOL_Click }, ">
+                  <a>Debit Day / Holiday Audit</a>
+                </li>
+                <li id="mnu_IndivPayrollSO" data-bind="menuEnabled : mnu_IndivPayrollSO.Enabled, visible : mnu_IndivPayrollSO.Available, events : { click : mnu_IndivPayrollSO_Click }, ">
+                  <a>Individual Payroll SignOff </a>
+                </li>
+                <li id="mnuIndTimeCard2" data-bind="menuEnabled : mnuIndTimeCard2.Enabled, visible : mnuIndTimeCard2.Available, events : { click : mnuIndTimeCard2_Click }, ">
+                  <a>Individual Time Cards</a>
+                </li>
+                <li id="mnuPhoneList" data-bind="menuEnabled : mnuPhoneList.Enabled, visible : mnuPhoneList.Available, events : { click : mnuPhoneList_Click }, ">
+                  <a>Master Phone Lists</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnuSchedul" data-bind="menuEnabled : mnuSchedul.Enabled, visible : mnuSchedul.Available">
+              <a>Schedule</a>
+              <ul>
+                <li id="mnuBDWork" data-bind="menuEnabled : mnuBDWork.Enabled, visible : mnuBDWork.Available">
+                  <a>Battalion TimeCard Worksheets</a>
+                  <ul>
+                    <li id="mnu181" data-bind="menuEnabled : mnu181.Enabled, visible : mnu181.Available, events : { click : mnu181_Click }, ">
+                      <a>Battalion 1</a>
+                    </li>
+                    <li id="mnu182" data-bind="menuEnabled : mnu182.Enabled, visible : mnu182.Available, events : { click : mnu182_Click }, ">
+                      <a>Battalion 2</a>
+                    </li>
+                    <li id="mnu183" data-bind="menuEnabled : mnu183.Enabled, visible : mnu183.Available, events : { click : mnu183_Click }, ">
+                      <a>Battalion 3</a>
+                    </li>
+                  </ul>
+                  <span></span>
+                </li>
+                <li id="mnuWeek" data-bind="menuEnabled : mnuWeek.Enabled, visible : mnuWeek.Available">
+                  <a>Exception Worksheets</a>
+                  <ul>
+                    <li id="mnuEMSWeekly" data-bind="menuEnabled : mnuEMSWeekly.Enabled, visible : mnuEMSWeekly.Available, events : { click : mnuEMSWeekly_Click }, ">
+                      <a>EMS</a>
+                    </li>
+                    <li id="mnuHZMWeekly" data-bind="menuEnabled : mnuHZMWeekly.Enabled, visible : mnuHZMWeekly.Available, events : { click : mnuHZMWeekly_Click }, ">
+                      <a>HazMat</a>
+                    </li>
+                    <li id="mnuMRNWeekly" data-bind="menuEnabled : mnuMRNWeekly.Enabled, visible : mnuMRNWeekly.Available, events : { click : mnuMRNWeekly_Click }, ">
+                      <a>Marine</a>
+                    </li>
+                    <li id="mnuBatWeekly" data-bind="menuEnabled : mnuBatWeekly.Enabled, visible : mnuBatWeekly.Available, events : { click : mnuBatWeekly_Click }, ">
+                      <a>Battalion Staff</a>
+                    </li>
+                    <li id="mnuDispWeekly" data-bind="menuEnabled : mnuDispWeekly.Enabled, visible : mnuDispWeekly.Available, events : { click : mnuDispWeekly_Click }, ">
+                      <a>Dispatch Staff</a>
+                    </li>
+                  </ul>
+                  <span></span>
+                </li>
+                <li id="mnuIndYearSched" data-bind="menuEnabled : mnuIndYearSched.Enabled, visible : mnuIndYearSched.Available, events : { click : mnuIndYearSched_Click }, ">
+                  <a>Individual Yearly Schedule</a>
+                </li>
+                <li id="mnuDailyStaffing" data-bind="menuEnabled : mnuDailyStaffing.Enabled, visible : mnuDailyStaffing.Available, events : { click : mnuDailyStaffing_Click }, ">
+                  <a>Daily Staffing Report</a>
+                </li>
+                <li id="mnuOvertime" data-bind="menuEnabled : mnuOvertime.Enabled, visible : mnuOvertime.Available, events : { click : mnuOvertime_Click }, ">
+                  <a>Overtime Detail Report</a>
+                </li>
+                <li id="mnuExtraOff" data-bind="menuEnabled : mnuExtraOff.Enabled, visible : mnuExtraOff.Available, events : { click : mnuExtraOff_Click }, ">
+                  <a>Extra-Unplanned Days Off Report</a>
+                </li>
+                <li id="mnu_sa_report" data-bind="menuEnabled : mnu_sa_report.Enabled, visible : mnu_sa_report.Available, events : { click : mnu_sa_report_Click }, ">
+                  <a>Special Assignment Yearly Report</a>
+                </li>
+                <li id="mnuCalendar" data-bind="menuEnabled : mnuCalendar.Enabled, visible : mnuCalendar.Available, events : { click : mnuCalendar_Click }, ">
+                  <a>Shift Calendar</a>
+                </li>
+                <li id="mnuTransfer" data-bind="menuEnabled : mnuTransfer.Enabled, visible : mnuTransfer.Available, events : { click : mnuTransfer_Click }, ">
+                  <a>Transfer Schedule</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnu_Leave" data-bind="menuEnabled : mnu_Leave.Enabled, visible : mnu_Leave.Available">
+              <a>Leave</a>
+              <ul>
+                <li id="mnu_daily" data-bind="menuEnabled : mnu_daily.Enabled, visible : mnu_daily.Available, events : { click : mnu_daily_Click }, ">
+                  <a>Daily Leave</a>
+                </li>
+                <li id="mnu_Annual" data-bind="menuEnabled : mnu_Annual.Enabled, visible : mnu_Annual.Available, events : { click : mnu_Annual_Click }, ">
+                  <a>Annual Leave</a>
+                </li>
+                <li id="mnu_dailysickleave" data-bind="menuEnabled : mnu_dailysickleave.Enabled, visible : mnu_dailysickleave.Available, events : { click : mnu_dailysickleave_Click }, ">
+                  <a>Daily Sick Leave</a>
+                </li>
+                <li id="mnu_Individual" data-bind="menuEnabled : mnu_Individual.Enabled, visible : mnu_Individual.Available, events : { click : mnu_Individual_Click }, ">
+                  <a>Individual Leave</a>
+                </li>
+                <li id="mnu_sick_usage" data-bind="menuEnabled : mnu_sick_usage.Enabled, visible : mnu_sick_usage.Available, events : { click : mnu_sick_usage_Click }, ">
+                  <a>Sick Leave Usage Report</a>
+                </li>
+                <li id="mnu_PMLeave" data-bind="menuEnabled : mnu_PMLeave.Enabled, visible : mnu_PMLeave.Available, events : { click : mnu_PMLeave_Click }, ">
+                  <a>Paramedic Leave Report</a>
+                </li>
+                <li id="mnuDispatchLeave" data-bind="menuEnabled : mnuDispatchLeave.Enabled, visible : mnuDispatchLeave.Available, events : { click : mnuDispatchLeave_Click }, ">
+                  <a>Dispatch Leave Report</a>
+                </li>
+                <li id="mnu_HZMLeave" data-bind="menuEnabled : mnu_HZMLeave.Enabled, visible : mnu_HZMLeave.Available, events : { click : mnu_HZMLeave_Click }, ">
+                  <a>Hazmat Leave Report</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnu_Battalion" data-bind="menuEnabled : mnu_Battalion.Enabled, visible : mnu_Battalion.Available">
+              <a>Battalion</a>
+              <ul>
+                <li id="mnuCBStaffing" data-bind="menuEnabled : mnuCBStaffing.Enabled, visible : mnuCBStaffing.Available, events : { click : mnuCBStaffing_Click }, ">
+                  <a>Staffing To Determine Callbacks</a>
+                </li>
+                <li id="mnu_LeaveNoSched" data-bind="menuEnabled : mnu_LeaveNoSched.Enabled, visible : mnu_LeaveNoSched.Available, events : { click : mnu_LeaveNoSched_Click }, ">
+                  <a>Leave without Schedule</a>
+                </li>
+                <li id="mnuInsteadOfSCKLeave" data-bind="menuEnabled : mnuInsteadOfSCKLeave.Enabled, visible : mnuInsteadOfSCKLeave.Available, events : { click : mnuInsteadOfSCKLeave_Click }, ">
+                  <a>Instead Of SCK Leave List</a>
+                </li>
+                <li id="mnu_staffdiscrepancy" data-bind="menuEnabled : mnu_staffdiscrepancy.Enabled, visible : mnu_staffdiscrepancy.Available, events : { click : mnu_staffdiscrepancy_Click }, ">
+                  <a>Staffing Discrepancy</a>
+                </li>
+                <li id="mnu_PMCSRCalc" data-bind="menuEnabled : mnu_PMCSRCalc.Enabled, visible : mnu_PMCSRCalc.Available, events : { click : mnu_PMCSRCalc_Click }, ">
+                  <a>Paramedic CSR Calculator</a>
+                </li>
+                <li id="mnu_EmpNotes" data-bind="menuEnabled : mnu_EmpNotes.Enabled, visible : mnu_EmpNotes.Available, events : { click : mnu_EmpNotes_Click }, ">
+                  <a>Add Employee Notes</a>
+                </li>
+                <li id="mnu_SchedNotes" data-bind="menuEnabled : mnu_SchedNotes.Enabled, visible : mnu_SchedNotes.Available, events : { click : mnu_SchedNotes_Click }, ">
+                  <a>Query Personnel Sched Notes</a>
+                </li>
+                <li id="mnuCycleHrs" data-bind="menuEnabled : mnuCycleHrs.Enabled, visible : mnuCycleHrs.Available, events : { click : mnuCycleHrs_Click }, ">
+                  <a>Employee Working Hrs By Cycle</a>
+                </li>
+                <li id="mnu_PPEQuery" data-bind="menuEnabled : mnu_PPEQuery.Enabled, visible : mnu_PPEQuery.Available, events : { click : mnu_PPEQuery_Click }, ">
+                  <a>PPE Query Tool</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnuPayrollReports" data-bind="menuEnabled : mnuPayrollReports.Enabled, visible : mnuPayrollReports.Available">
+              <a>Payroll</a>
+              <ul>
+                <li id="mnuPPAudit" data-bind="menuEnabled : mnuPPAudit.Enabled, visible : mnuPPAudit.Available, events : { click : mnuPPAudit_Click }, ">
+                  <a>Pay Period Audit</a>
+                </li>
+                <li id="mnuTimeCard" data-bind="menuEnabled : mnuTimeCard.Enabled, visible : mnuTimeCard.Available, events : { click : mnuTimeCard_Click }, ">
+                  <a>Individual Time Cards</a>
+                </li>
+                <li id="mnuIndAnnualPayroll" data-bind="menuEnabled : mnuIndAnnualPayroll.Enabled, visible : mnuIndAnnualPayroll.Available, events : { click : mnuIndAnnualPayroll_Click }, ">
+                  <a>Individual Payroll Report</a>
+                </li>
+                <li id="mnu_personnelsignoff" data-bind="menuEnabled : mnu_personnelsignoff.Enabled, visible : mnu_personnelsignoff.Available, events : { click : mnu_personnelsignoff_Click }, ">
+                  <a>Payroll Sign Off </a>
+                </li>
+                <li id="mnu_BCApprovedTC" data-bind="menuEnabled : mnu_BCApprovedTC.Enabled, visible : mnu_BCApprovedTC.Available, events : { click : mnu_BCApprovedTC_Click }, ">
+                  <a>BC Approved Payroll Report</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnu_TrainingReports" data-bind="menuEnabled : mnu_TrainingReports.Enabled, visible : mnu_TrainingReports.Available">
+              <a>Training</a>
+              <ul>
+                <li id="mnu_QuarterlyMinimumDrill" data-bind="menuEnabled : mnu_QuarterlyMinimumDrill.Enabled, visible : mnu_QuarterlyMinimumDrill.Available, events : { click : mnu_QuarterlyMinimumDrill_Click }, ">
+                  <a>Minimum Standards Drills</a>
+                </li>
+                <li id="mnu_FCCMinDrills" data-bind="menuEnabled : mnu_FCCMinDrills.Enabled, visible : mnu_FCCMinDrills.Available, events : { click : mnu_FCCMinDrills_Click }, ">
+                  <a>FCC Min Standards Drills</a>
+                </li>
+                <li id="mnu_ReadingAssign" data-bind="menuEnabled : mnu_ReadingAssign.Enabled, visible : mnu_ReadingAssign.Available, events : { click : mnu_ReadingAssign_Click }, ">
+                  <a>Required Reading Assignments</a>
+                </li>
+                <li id="mnu_OTEPReport" data-bind="menuEnabled : mnu_OTEPReport.Enabled, visible : mnu_OTEPReport.Available, events : { click : mnu_OTEPReport_Click }, ">
+                  <a>Annual OTEP Training Report</a>
+                </li>
+                <li id="mnu_PMRecertReport" data-bind="menuEnabled : mnu_PMRecertReport.Enabled, visible : mnu_PMRecertReport.Available, events : { click : mnu_PMRecertReport_Click }, ">
+                  <a>Paramedic Recertification Report</a>
+                </li>
+                <li id="mnu_PMBaseStaReport" data-bind="menuEnabled : mnu_PMBaseStaReport.Enabled, visible : mnu_PMBaseStaReport.Available, events : { click : mnu_PMBaseStaReport_Click }, ">
+                  <a>Paramedic Base Station Report</a>
+                </li>
+                <li id="mnu_TrainingQuerynew" data-bind="menuEnabled : mnu_TrainingQuerynew.Enabled, visible : mnu_TrainingQuerynew.Available, events : { click : mnu_TrainingQuerynew_Click }, ">
+                  <a>Training Query Tool</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuTraining" data-bind="menuEnabled : mnuTraining.Enabled, visible : mnuTraining.Available">
+          <a>Training</a>
+          <ul>
+            <li id="mnu_trainingtracker" data-bind="menuEnabled : mnu_trainingtracker.Enabled, visible : mnu_trainingtracker.Available, events : { click : mnu_trainingtracker_Click }, ">
+              <a>Field Training Tracker</a>
+            </li>
+            <li id="mnuTrnReports" data-bind="menuEnabled : mnuTrnReports.Enabled, visible : mnuTrnReports.Available">
+              <a>Training Reports</a>
+              <ul>
+                <li id="mnu_IndTrainReport" data-bind="menuEnabled : mnu_IndTrainReport.Enabled, visible : mnu_IndTrainReport.Available, events : { click : mnu_IndTrainReport_Click }, ">
+                  <a>Individual Training Report</a>
+                </li>
+                <li id="mnu_IndPMRecert" data-bind="menuEnabled : mnu_IndPMRecert.Enabled, visible : mnu_IndPMRecert.Available, events : { click : mnu_IndPMRecert_Click }, ">
+                  <a>Individual PM Recert Report</a>
+                </li>
+                <li id="mnuALSProc" data-bind="menuEnabled : mnuALSProc.Enabled, visible : mnuALSProc.Available, events : { click : mnuALSProc_Click }, ">
+                  <a>Individual ALS Procedures (IRS)</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnu_Queries" data-bind="menuEnabled : mnu_Queries.Enabled, visible : mnu_Queries.Available">
+              <a>Training Class Queries</a>
+              <ul>
+                <li id="mnu_TrainingQueryTool" data-bind="menuEnabled : mnu_TrainingQueryTool.Enabled, visible : mnu_TrainingQueryTool.Available, events : { click : mnu_TrainingQueryTool_Click }, ">
+                  <a>Training Query Tool (new)</a>
+                </li>
+                <li id="mnuNewTrainQuery" data-bind="menuEnabled : mnuNewTrainQuery.Enabled, visible : mnuNewTrainQuery.Available, events : { click : mnuNewTrainQuery_Click }, ">
+                  <a>Training Class Query</a>
+                </li>
+                <li id="mnuTrainQuery" data-bind="menuEnabled : mnuTrainQuery.Enabled, visible : mnuTrainQuery.Available, events : { click : mnuTrainQuery_Click }, ">
+                  <a>Old Training Attendance Query</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuUtil" data-bind="menuEnabled : mnuUtil.Enabled, visible : mnuUtil.Available">
+          <a>Utilities</a>
+          <ul>
+            <li id="mnuPayroll" data-bind="menuEnabled : mnuPayroll.Enabled, visible : mnuPayroll.Available">
+              <a>Payroll</a>
+              <ul>
+                <li id="mnuReviewPay" data-bind="menuEnabled : mnuReviewPay.Enabled, visible : mnuReviewPay.Available, events : { click : mnuReviewPay_Click }, ">
+                  <a>Review Pay Period</a>
+                </li>
+                <li id="mnuIndTimeCard" data-bind="menuEnabled : mnuIndTimeCard.Enabled, visible : mnuIndTimeCard.Available, events : { click : mnuIndTimeCard_Click }, ">
+                  <a>Review Individual Time Cards</a>
+                </li>
+                <li id="mnu_ReportPayroll" data-bind="menuEnabled : mnu_ReportPayroll.Enabled, visible : mnu_ReportPayroll.Available, events : { click : mnu_ReportPayroll_Click }, ">
+                  <a>Pay Period Audit Report</a>
+                </li>
+                <li id="mnuOtherPayroll" data-bind="menuEnabled : mnuOtherPayroll.Enabled, visible : mnuOtherPayroll.Available, events : { click : mnuOtherPayroll_Click }, ">
+                  <a>Payroll For Adm, CIV, etc</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnuTable" data-bind="menuEnabled : mnuTable.Enabled, visible : mnuTable.Available">
+              <a>Table Management</a>
+              <ul>
+                <li id="mnuResource" data-bind="menuEnabled : mnuResource.Enabled, visible : mnuResource.Available, events : { click : mnuResource_Click }, ">
+                  <a>Manage Resource Table</a>
+                </li>
+                <li id="mnuCodes" data-bind="menuEnabled : mnuCodes.Enabled, visible : mnuCodes.Available">
+                  <a>Manage Code Tables</a>
+                  <ul>
+                    <li id="mnuPersonnelCodes" data-bind="menuEnabled : mnuPersonnelCodes.Enabled, visible : mnuPersonnelCodes.Available, events : { click : mnuPersonnelCodes_Click }, ">
+                      <a>Personnel Code Tables</a>
+                    </li>
+                  </ul>
+                  <span></span>
+                </li>
+                <li id="mnuMakeNewSched" data-bind="menuEnabled : mnuMakeNewSched.Enabled, visible : mnuMakeNewSched.Available, events : { click : mnuMakeNewSched_Click }, ">
+                  <a>Manage Schedule/Calendar Records</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnuSecure" data-bind="menuEnabled : mnuSecure.Enabled, visible : mnuSecure.Available, events : { click : mnuSecure_Click }, ">
+              <a>Security Management</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <!--<li id="mnuWindow" data-bind="menuEnabled : mnuWindow.Enabled, visible : mnuWindow.Available">
+          <a>Window</a>
+          <ul>
+            <li id="mnuCascade" data-bind="menuEnabled : mnuCascade.Enabled, visible : mnuCascade.Available, events : { click : mnuCascade_Click }, ">
+              <a>Cascade Windows</a>
+            </li>
+            <li id="mnuPrintScreen" data-bind="menuEnabled : mnuPrintScreen.Enabled, visible : mnuPrintScreen.Available, events : { click : mnuPrintScreen_Click }, ">
+              <a>Print Screen</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>-->
+        <li id="mnuHelp" data-bind="menuEnabled : mnuHelp.Enabled, visible : mnuHelp.Available">
+          <a>Help</a>
+          <ul>
+            <li id="mnuCon" data-bind="menuEnabled : mnuCon.Enabled, visible : mnuCon.Available, events : { click : mnuCon_Click }, ">
+              <a>Contents</a>
+            </li>
+            <li id="mnuAbout" data-bind="menuEnabled : mnuAbout.Enabled, visible : mnuAbout.Available, events : { click : mnuAbout_Click }, ">
+              <a>About PTS</a>
+            </li>
+            <!--<li id="mnu_HelpPrntScrn" data-bind="menuEnabled : mnu_HelpPrntScrn.Enabled, visible : mnu_HelpPrntScrn.Available, events : { click : mnu_HelpPrntScrn_Click }, ">
+              <a>How to Print Screen</a>
+            </li>-->
+            <li id="mnu_timecodes" data-bind="menuEnabled : mnu_timecodes.Enabled, visible : mnu_timecodes.Available, events : { click : mnu_timecodes_Click }, ">
+              <a>Payroll Time Card codes</a>
+            </li>
+            <li id="mnu_payrolllegend" data-bind="menuEnabled : mnu_payrolllegend.Enabled, visible : mnu_payrolllegend.Available, events : { click : mnu_payrolllegend_Click }, ">
+              <a>Payroll Timecard Legend</a>
+            </li>
+            <li id="mnu_legend" data-bind="menuEnabled : mnu_legend.Enabled, visible : mnu_legend.Available, events : { click : mnu_legend_Click }, ">
+              <a>Battalion Scheduler Legend</a>
+            </li>
+            <li id="mnu_IndLegend" data-bind="menuEnabled : mnu_IndLegend.Enabled, visible : mnu_IndLegend.Available, events : { click : mnu_IndLegend_Click }, ">
+              <a>Individual Scheduler Legend</a>
+            </li>
+            <li id="mnu_payup_calc" data-bind="menuEnabled : mnu_payup_calc.Enabled, visible : mnu_payup_calc.Available, events : { click : mnu_payup_calc_Click }, ">
+              <a>Employee Pay Up/Step Calculator</a>
+            </li>
+            <li id="mnuTrainCodeHelp" data-bind="menuEnabled : mnuTrainCodeHelp.Enabled, visible : mnuTrainCodeHelp.Available, events : { click : mnuTrainCodeHelp_Click }, ">
+              <a>Training Codes</a>
+            </li>
+            <li id="mnuCalendarHelp" data-bind="menuEnabled : mnuCalendarHelp.Enabled, visible : mnuCalendarHelp.Available, events : { click : mnuCalendarHelp_Click }, ">
+              <a>Calendar Year Shift Totals</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+      </ul>
+      <!--<div id="CmDialog1" class="CmDialog1" title="&lt;CmDialog1,UpgradeStubs.MSComDlg_CommonDialog&gt;">
+        <h1 class="WebMapStubs" controlType="UpgradeStubs.MSComDlg_CommonDialog">CmDialog1</h1>
+      </div>-->
+    </form>
+    <div id="mainContent"></div>
+  </div>
+</div>

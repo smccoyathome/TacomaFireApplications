@@ -1,0 +1,288 @@
+.PTSProject_frmDailySCKLeaveReport {
+}
+.PTSProject_frmDailySCKLeaveReport .frmDailySCKLeaveReport {
+	background-color: Navy;
+	min-width: 1072px;
+	min-height: 696px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmDailySCKLeaveReport .frmManage {
+	background-color: Navy;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	left: 280px;
+	top: 0px;
+	position: absolute;
+	width: 785px;
+	height: 137px;
+	border: 2px groove;
+}
+.PTSProject_frmDailySCKLeaveReport .frmManage:enabled {
+	color: #C0FFC0;
+}
+.PTSProject_frmDailySCKLeaveReport .txtNameSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 32px;
+	top: 24px;
+	position: absolute;
+	width: 161px;
+	height: 21px;
+}
+.PTSProject_frmDailySCKLeaveReport .txtNameSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailySCKLeaveReport .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 200px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailySCKLeaveReport .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 312px;
+	top: 24px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 576px;
+	top: 24px;
+	position: absolute;
+	width: 177px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailySCKLeaveReport .dteReturnDate {
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_frmDailySCKLeaveReport .dteReturnDate.k-datepicker {
+	left: 272px;
+	top: 48px;
+	position: absolute;
+	width: 169px;
+	height: 21px;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdEdit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 448px;
+	top: 48px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdEdit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailySCKLeaveReport .sprEmployee {
+	left: 32px;
+	top: 56px;
+	position: absolute;
+	width: 229px;
+	height: 65px;
+}
+.PTSProject_frmDailySCKLeaveReport .sprEmployee .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmDailySCKLeaveReport .sprEmployee .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdUndo {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 576px;
+	top: 64px;
+	position: absolute;
+	width: 177px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdUndo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailySCKLeaveReport .txtComment {
+	left: 272px;
+	top: 80px;
+	position: absolute;
+	width: 241px;
+	height: 41px;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdApproved {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 576px;
+	top: 96px;
+	position: absolute;
+	width: 177px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdApproved:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailySCKLeaveReport .frmManage_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmDailySCKLeaveReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 32px;
+	top: 8px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDailySCKLeaveReport .dtReportDate {
+	font-family: Arial;
+	font-size: 11.52px;
+}
+.PTSProject_frmDailySCKLeaveReport .dtReportDate.k-datepicker {
+	left: 32px;
+	top: 32px;
+	position: absolute;
+	width: 193px;
+	height: 22px;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 32px;
+	top: 72px;
+	position: absolute;
+	width: 193px;
+	height: 31px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailySCKLeaveReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 32px;
+	top: 112px;
+	position: absolute;
+	width: 193px;
+	height: 31px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailySCKLeaveReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailySCKLeaveReport .chkStaff {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 280px;
+	top: 136px;
+	position: absolute;
+	width: 785px;
+	height: 25px;
+	width: auto;
+}
+.PTSProject_frmDailySCKLeaveReport .chkStaff:enabled {
+	color: Aqua;
+}
+.PTSProject_frmDailySCKLeaveReport .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: Red;
+	left: 280px;
+	top: 168px;
+	position: absolute;
+	width: 513px;
+	height: 17px;
+}
+.PTSProject_frmDailySCKLeaveReport .sprNewReport {
+	left: 6px;
+	top: 184px;
+	position: absolute;
+	width: 1061px;
+	height: 497px;
+}
+.PTSProject_frmDailySCKLeaveReport .sprNewReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmDailySCKLeaveReport .sprNewReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,120 @@
+<div>
+  <div data-width="737" data-height="671" name="frmPTSTrain" data-title="Field Training Tracker" class="PTSProject_frmPTSTrain" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmPTSTrain">
+      <fieldset id="frmUnitDate" class="frmUnitDate">
+        <legend id="frmUnitDate_legend" class="frmUnitDate_legend">Select Unit and Training Date</legend>
+        <div>
+          <label id="Label1" tabindex="26" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Note:  Select "Oper" for staff on Special Assignment...</label>
+          <div id="calTrainDate" tabindex="31" class="calTrainDate" data-role="calendar" data-bind="dateTimePickerValue : calTrainDate.Value, monthCalendarSelectionRange : calTrainDate.SelectionRange, DateTimeMinDate : calTrainDate.MinDate, events : { mouseup : calTrainDate_MouseUp }, "></div>
+          <div class="cboUnitListPos" id="cboUnitListPos">
+            <select data-role="combobox" id="cboUnitList" tabindex="29" class="cboUnitList" data-text-field="Text" data-value-field="Value" data-bind="source : cboUnitList.ComboBoxItems, customText : cboUnitList.CustomText, comboSelectedIndex : cboUnitList.SelectedIndex, events : { change : cboUnitList_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdClear" tabindex="28" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear Fields</button>
+        </div>
+      </fieldset>
+      <fieldset id="Image1" class="Image1" data-bind="enabled : Image1.Enabled"></fieldset>
+      <fieldset id="frmStaff" class="frmStaff">
+        <legend id="frmStaff_legend" class="frmStaff_legend">Select Staff </legend>
+        <div>
+          <div id="lstUnitStaff" tabindex="27" class="lstUnitStaff" data-role="listbox" style="overflow:auto" data-bind="source : lstUnitStaff.ListBoxItems, listBoxSelectedIndices : lstUnitStaff.ListBoxSelectedIndices"></div>
+          <div id="lstTrainStaff" tabindex="25" class="lstTrainStaff" data-role="listbox" style="overflow:auto" data-bind="source : lstTrainStaff.ListBoxItems, listBoxSelectedIndices : lstTrainStaff.ListBoxSelectedIndices"></div>
+          <button id="_cmdAdd_0" tabindex="24" index="0" class="_cmdAdd_0" type="button" data-bind="events : { click : cmdAdd_Click }, ">&gt;</button>
+          <button id="_cmdRemove_0" tabindex="21" index="0" class="_cmdRemove_0" type="button" data-bind="events : { click : cmdRemove_Click }, ">&lt;</button>
+          <button id="_cmdAdd_1" tabindex="23" index="1" class="_cmdAdd_1" type="button" data-bind="events : { click : cmdAdd_Click }, ">&gt;&gt;</button>
+          <button id="_cmdRemove_1" tabindex="20" index="1" class="_cmdRemove_1" type="button" data-bind="events : { click : cmdRemove_Click }, ">&lt;&lt;</button>
+          <div class="cboAllStaffPos" id="cboAllStaffPos">
+            <select data-role="combobox" id="cboAllStaff" tabindex="26" class="cboAllStaff" data-text-field="Text" data-value-field="Value" data-bind="source : cboAllStaff.ComboBoxItems, customText : cboAllStaff.CustomText, comboSelectedIndex : cboAllStaff.SelectedIndex"></select>
+          </div>
+          <button id="_cmdAdd_2" tabindex="22" index="2" class="_cmdAdd_2" type="button" data-bind="events : { click : cmdAdd_Click }, ">&gt;</button>
+        </div>
+      </fieldset>
+      <fieldset id="frmAddTrain" class="frmAddTrain">
+        <legend id="frmAddTrain_legend" class="frmAddTrain_legend">Select Type and Duration of Training</legend>
+        <div>
+          <div id="lstSpecific" tabindex="1" class="lstSpecific" data-role="listbox" style="overflow:auto" data-bind="source : lstSpecific.ListBoxItems, listBoxSelectedIndices : lstSpecific.ListBoxSelectedIndices, events : { click : lstSpecific_Click }, "></div>
+          <label id="_lbSubTitle_3" tabindex="10" index="3" class="_lbSubTitle_3" data-bind="text : _lbSubTitle_3.Text, imagePath : _lbSubTitle_3.ImagePath">Specific Training </label>
+          <label id="lbHours" tabindex="11" class="lbHours" data-bind="visible : lbHours.Visible, text : lbHours.Text, imagePath : lbHours.ImagePath">Hours Spent Training</label>
+          <label id="_lbSubTitle_0" tabindex="13" index="0" class="_lbSubTitle_0" data-bind="text : _lbSubTitle_0.Text, imagePath : _lbSubTitle_0.ImagePath">Primary Training Type</label>
+          <div class="cboHoursPos" id="cboHoursPos" data-bind="visible : cboHours.Visible">
+            <select data-role="combobox" id="cboHours" tabindex="2" class="cboHours" data-text-field="Text" data-value-field="Value" data-bind="source : cboHours.ComboBoxItems, customText : cboHours.CustomText, comboSelectedIndex : cboHours.SelectedIndex, events : { change : cboHours_TextChanged }, "></select>
+          </div>
+          <div id="cboPrimary" class="cboPrimary" title="&lt;cboPrimary,UpgradeHelpers.Gui.ComboBoxHelper&gt;" data-bind="style : { backgroundColor : cboPrimary.BackColor.Value, color : cboPrimary.ForeColor.Value }">
+            <h1 class="WebMapStubs" controlType="UpgradeHelpers.Gui.ComboBoxHelper">cboPrimary</h1>
+          </div>
+          <fieldset id="frmCategories" class="frmCategories" data-bind="visible : frmCategories.Visible">
+            <legend id="frmCategories_legend" class="frmCategories_legend"></legend>
+            <div>
+              <div class="OptCat1">
+                <input id="OptCat1" tabindex="14" type="radio" name="frmCategories_radios" style="float: left" data-bind="customChecked : OptCat1.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Category I</label>
+                </div>
+              </div>
+              <div class="OptCat2">
+                <input id="OptCat2" tabindex="15" type="radio" name="frmCategories_radios" style="float: left" data-bind="customChecked : OptCat2.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Category II</label>
+                </div>
+              </div>
+              <div class="OptCat3">
+                <input id="OptCat3" tabindex="16" type="radio" name="frmCategories_radios" style="float: left" data-bind="customChecked : OptCat3.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Category III</label>
+                </div>
+              </div>
+              <div class="OptCat4">
+                <input id="OptCat4" tabindex="17" type="radio" name="frmCategories_radios" style="float: left" data-bind="customChecked : OptCat4.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Category IV</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="frmPassFail" class="frmPassFail" data-bind="visible : frmPassFail.Visible">
+            <legend id="frmPassFail_legend" class="frmPassFail_legend"></legend>
+            <div>
+              <div class="optPass">
+                <input id="optPass" tabindex="18" type="radio" name="frmPassFail_radios" checked="checked" style="float: left" data-bind="customChecked : optPass.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Pass</label>
+                </div>
+              </div>
+              <div class="optFail">
+                <input id="optFail" tabindex="19" type="radio" name="frmPassFail_radios" style="float: left" data-bind="customChecked : optFail.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Fail</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="frmProvInst" class="frmProvInst" data-bind="visible : frmProvInst.Visible">
+            <legend id="frmProvInst_legend" class="frmProvInst_legend"></legend>
+            <div>
+              <div class="chkProvider">
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Provider</label>
+                </div>
+                <input id="chkProvider" tabindex="13" type="checkbox" style="float: left" />
+              </div>
+              <div class="chkInstructor">
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Instructor</label>
+                </div>
+                <input id="chkInstructor" tabindex="12" type="checkbox" style="float: left" />
+              </div>
+            </div>
+          </fieldset>
+          <label id="_lbSubTitle_1" tabindex="12" index="1" class="_lbSubTitle_1" data-bind="text : _lbSubTitle_1.Text, imagePath : _lbSubTitle_1.ImagePath">Secondary Training Type</label>
+          <div id="cboSecondary" class="cboSecondary" title="&lt;cboSecondary,UpgradeHelpers.Gui.ComboBoxHelper&gt;" data-bind="style : { backgroundColor : cboSecondary.BackColor.Value, color : cboSecondary.ForeColor.Value }">
+            <h1 class="WebMapStubs" controlType="UpgradeHelpers.Gui.ComboBoxHelper">cboSecondary</h1>
+          </div>
+          <label id="lbSaveMsg" tabindex="8" class="lbSaveMsg" data-bind="visible : lbSaveMsg.Visible, text : lbSaveMsg.Text, imagePath : lbSaveMsg.ImagePath">Training Record(s) Saved</label>
+          <label id="_lbSubTitle_4" tabindex="9" index="4" class="_lbSubTitle_4" data-bind="text : _lbSubTitle_4.Text, imagePath : _lbSubTitle_4.ImagePath">Comments</label>
+          <textarea id="txtComments" tabindex="3" class="txtComments" data-bind="value : txtComments.Text"></textarea>
+          <button disabled="disabled" id="cmdSave" tabindex="4" class="cmdSave" type="button" data-bind="enabled : cmdSave.Enabled, events : { click : cmdSave_Click }, ">Save</button>
+          <button id="cmdClose" tabindex="5" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,92 @@
+<div>
+  <div data-width="624" data-height="369" data-removeControlBox="true" name="frmAddNew" data-title="ADD NEW EMPLOYEE" class="PTSProject_frmAddNew" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmAddNew">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <input id="txtSAPEmpID" tabindex="52" class="txtSAPEmpID" data-bind="value : txtSAPEmpID.Text, selectedRange : txtSAPEmpID.SelectedRange, events : { blur : txtSAPEmpID_Leave }, " />
+          <input id="txtEmpID" tabindex="50" class="txtEmpID" data-bind="value : txtEmpID.Text, selectedRange : txtEmpID.SelectedRange" />
+          <button id="cmdSwitch" tabindex="51" data-tag="1" class="cmdSwitch" type="button" data-bind="buttonText : cmdSwitch.Text, events : { click : cmdSwitch_Click }, ">Add New Archived Employee</button>
+          <label id="Label19" tabindex="60" class="Label19" data-bind="text : Label19.Text, imagePath : Label19.ImagePath">SAP Employee \#</label>
+          <label id="Label22" tabindex="59" class="Label22" data-bind="text : Label22.Text, imagePath : Label22.ImagePath">TFD Employee \#</label>
+          <fieldset id="Picture1" class="Picture1" data-bind="enabled : Picture1.Enabled">
+            <label id="Label1" tabindex="48" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">First Name</label>
+            <input id="txtFName" tabindex="42" class="txtFName" data-bind="value : txtFName.Text, selectedRange : txtFName.SelectedRange" />
+            <label id="Label2" tabindex="49" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">MI</label>
+            <input id="txtMName" tabindex="43" class="txtMName" data-bind="value : txtMName.Text, events : { blur : txtMName_Leave }, " />
+            <label id="Label3" tabindex="50" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Last Name</label>
+            <input id="txtLName" tabindex="44" class="txtLName" data-bind="value : txtLName.Text, selectedRange : txtLName.SelectedRange" />
+            <label id="Label6" tabindex="51" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Suffix</label>
+            <input id="txtSName" tabindex="45" Value=" " class="txtSName" data-bind="value : txtSName.Text" />
+          </fieldset>
+          <div data-bind="spEnabled : Shape5.Enabled, spVisible : Shape5.Visible">
+            <svg version="1.1" class="Shape5_svg" style="left:8px;top:80px;width:609px;height:33px;position:absolute;">
+              <rect x="0" y="0" height="33" width="609" id="Shape5" class="Shape5"></rect>
+            </svg>
+          </div>
+          <div class="cboJobCodePos" id="cboJobCodePos">
+            <select data-role="combobox" id="cboJobCode" tabindex="41" class="cboJobCode" data-text-field="Text" data-value-field="Value" data-bind="source : cboJobCode.ComboBoxItems, customText : cboJobCode.CustomText, comboSelectedIndex : cboJobCode.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+          </div>
+          <input id="txtStep" tabindex="40" Value=" " class="txtStep" data-bind="visible : txtStep.Visible, value : txtStep.Text, selectedRange : txtStep.SelectedRange" />
+          <label id="Label4" tabindex="58" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Job Title</label>
+          <label id="Label5" tabindex="57" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Job Code</label>
+          <label id="lbJobCode" tabindex="55" class="lbJobCode" data-bind="text : lbJobCode.Text, imagePath : lbJobCode.ImagePath"></label>
+          <label id="lbStep" tabindex="56" class="lbStep" data-bind="visible : lbStep.Visible, text : lbStep.Text, imagePath : lbStep.ImagePath">Step</label>
+          <fieldset id="Frame2" class="Frame2">
+            <legend id="Frame2_legend" class="Frame2_legend"></legend>
+            <div>
+              <input id="txtNameKnownBy" tabindex="22" Value=" " class="txtNameKnownBy" data-bind="value : txtNameKnownBy.Text" />
+              <input id="txtCOT" tabindex="21" class="txtCOT" data-bind="value : txtCOT.Text, selectedRange : txtCOT.SelectedRange" />
+              <label id="Label18" tabindex="40" class="Label18" data-bind="text : Label18.Text, imagePath : Label18.ImagePath">Name Known By</label>
+              <label id="Label7" tabindex="39" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">COT Service Date</label>
+              <input id="txtBDay" tabindex="18" class="txtBDay" data-bind="value : txtBDay.Text, selectedRange : txtBDay.SelectedRange" />
+              <input id="txtSex" tabindex="20" class="txtSex" data-bind="value : txtSex.Text, selectedRange : txtSex.SelectedRange, events : { change : txtSex_TextChanged }, " />
+              <input id="txtTFD" tabindex="19" class="txtTFD" data-bind="value : txtTFD.Text, selectedRange : txtTFD.SelectedRange" />
+              <label id="Label9" tabindex="38" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Birth Date</label>
+              <label id="Label14" tabindex="37" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">Sex</label>
+              <label id="Label8" tabindex="36" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">TFD Hire Date</label>
+              <input id="txtPhone" tabindex="16" class="txtPhone" data-bind="value : txtPhone.Text" />
+              <input id="txtException" tabindex="17" class="txtException" data-bind="value : txtException.Text, selectedRange : txtException.SelectedRange" />
+              <label id="Label13" tabindex="34" class="Label13" data-bind="text : Label13.Text, imagePath : Label13.ImagePath">Home Phone</label>
+              <label id="Label20" tabindex="35" class="Label20" data-bind="text : Label20.Text, imagePath : Label20.ImagePath">Exception Days</label>
+              <label id="Label10" tabindex="33" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Address</label>
+              <input id="txtAddress" tabindex="14" class="txtAddress" data-bind="value : txtAddress.Text" />
+              <label id="Label16" tabindex="32" class="Label16" data-bind="text : Label16.Text, imagePath : Label16.ImagePath">Benefit Program</label>
+              <div class="cboBenefitPos" id="cboBenefitPos">
+                <select data-role="combobox" id="cboBenefit" tabindex="15" class="cboBenefit" data-text-field="Text" data-value-field="Value" data-bind="source : cboBenefit.ComboBoxItems, customText : cboBenefit.CustomText, comboSelectedIndex : cboBenefit.SelectedIndex"></select>
+              </div>
+              <label id="Label17" tabindex="30" class="Label17" data-bind="text : Label17.Text, imagePath : Label17.ImagePath">City</label>
+              <input id="txtCity" tabindex="5" class="txtCity" data-bind="value : txtCity.Text" />
+              <input id="txtState" tabindex="13" class="txtState" data-bind="value : txtState.Text" />
+              <input id="txtZip" tabindex="12" class="txtZip" data-bind="value : txtZip.Text" />
+              <input id="txtUnion" tabindex="11" class="txtUnion" data-bind="visible : txtUnion.Visible, value : txtUnion.Text" />
+              <label id="Label11" tabindex="31" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">State</label>
+              <label id="Label12" tabindex="29" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">Zip</label>
+              <label id="lbUnion" tabindex="28" class="lbUnion" data-bind="visible : lbUnion.Visible, text : lbUnion.Text, imagePath : lbUnion.ImagePath">Union</label>
+              <label id="Label15" tabindex="27" class="Label15" data-bind="text : Label15.Text, imagePath : Label15.ImagePath">Social Security \#</label>
+              <input id="txtSSN" tabindex="9" class="txtSSN" data-bind="value : txtSSN.Text" />
+              <div class="chkStatus" data-bind="visible : chkStatus.Visible">
+                <input id="chkStatus" tabindex="10" type="checkbox" checked="checked" style="float: left" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Active?</label>
+                </div>
+              </div>
+              <textarea id="txtExitComments" tabindex="6" class="txtExitComments" data-bind="visible : txtExitComments.Visible, value : txtExitComments.Text"></textarea>
+              <label id="lbExitComments" tabindex="24" class="lbExitComments" data-bind="visible : lbExitComments.Visible, text : lbExitComments.Text, imagePath : lbExitComments.ImagePath">Exit Comments</label>
+              <label id="lbExit" tabindex="26" class="lbExit" data-bind="visible : lbExit.Visible, text : lbExit.Text, imagePath : lbExit.ImagePath">Exit Date</label>
+              <input id="txtExit" tabindex="8" class="txtExit" data-bind="visible : txtExit.Visible, value : txtExit.Text" />
+              <label id="lbExitType" tabindex="25" class="lbExitType" data-bind="visible : lbExitType.Visible, text : lbExitType.Text, imagePath : lbExitType.ImagePath">Exit Type</label>
+              <div class="cboExitTypePos" id="cboExitTypePos" data-bind="visible : cboExitType.Visible">
+                <select data-role="combobox" id="cboExitType" tabindex="7" class="cboExitType" data-text-field="Text" data-value-field="Value" data-bind="source : cboExitType.ComboBoxItems, customText : cboExitType.CustomText, comboSelectedIndex : cboExitType.SelectedIndex"></select>
+              </div>
+            </div>
+          </fieldset>
+          <button id="cmdAdd" tabindex="2" class="cmdAdd" type="button" data-bind="events : { click : cmdAdd_Click }, ">Add New Employee</button>
+          <button disabled="disabled" id="cmdAssign" tabindex="3" class="cmdAssign" type="button" data-bind="enabled : cmdAssign.Enabled, events : { click : cmdAssign_Click }, ">Assign</button>
+          <button id="cmdClear" tabindex="1" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear</button>
+          <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,93 @@
+.PTSProject_dlgTrainingCodes {
+}
+.PTSProject_dlgTrainingCodes .dlgTrainingCodes {
+	background-color: Teal;
+	min-width: 592px;
+	min-height: 427px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgTrainingCodes .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.PTSProject_dlgTrainingCodes .cboSpecificCodes {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 577px;
+	height: 25px;
+	visibility: inherit;
+}
+.PTSProject_dlgTrainingCodes .cboSpecificCodes:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTrainingCodes .cboSpecificCodesPos {
+	top: 24px;
+	left: 8px;
+	position: absolute;
+	width: 577px;
+	height: 25px;
+}
+.PTSProject_dlgTrainingCodes .tvwTraining {
+	border-style: inset;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 484px;
+	height: 353px;
+}
+.PTSProject_dlgTrainingCodes .cmdExpand {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 504px;
+	top: 56px;
+	position: absolute;
+	width: 81px;
+	height: 49px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgTrainingCodes .cmdExpand:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTrainingCodes .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 504px;
+	top: 120px;
+	position: absolute;
+	width: 81px;
+	height: 49px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgTrainingCodes .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

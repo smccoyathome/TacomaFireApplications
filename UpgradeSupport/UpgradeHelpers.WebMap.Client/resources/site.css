@@ -1,0 +1,168 @@
+
+html {
+    background-color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+	overflow: hidden;
+}
+
+input {
+	padding: 0;
+	border-width: thin;
+}
+
+
+fieldset {
+	padding: 0;
+	-webkit-padding-before: 0em;
+	-webkit-padding-start: 0em;
+	-webkit-padding-end: 0em;
+	-webkit-padding-after: 0em;
+	border: 0px groove;/*Removed black line caused by this border setting in some test cases*/
+	margin-left: 0px;
+	padding: 0px;
+}
+
+body {
+    background-color: #fff;
+    /*border-top: solid 10px #000;*/
+    color: #333;
+    font-size: .70em;
+    font-family: Sans-Serif, "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+    a:link, a:visited,
+    a:active, a:hover {
+        color: #333;
+    }
+
+    a:hover {
+        background-color: #c7d1d6;
+    }
+
+header, footer, hgroup,
+nav, section {
+    display: block;
+}
+
+mark {
+    background-color: #a6dbed;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+    h5 a:link, h5 a:visited, h5 a:active {
+        padding: 0;
+        text-decoration: none;
+    }
+
+
+    
+.wmmsgbox
+{
+    margin:20px;
+}
+
+.wmmsgbox .msgboxmsgnclass
+{
+    font-size: larger;
+}
+
+.wmmsgbox.msgboxquestion .msgboxiconscls
+{
+    background-image: url(./images/wmmbinfo.png);
+    width: 29px;
+    height: 29px;
+    vertical-align:middle;
+    margin-left: 10px;
+    display:inline-block;
+}
+
+.wmmsgbox.msgboxwarning .msgboxiconscls
+{
+    background-image: url(./images/wmmbwarning.png);
+    width: 29px;
+    height: 29px;
+    vertical-align:middle;
+    margin-left: 10px;
+    display:inline-block;
+}
+.wmmsgbox.msgboxerror .msgboxiconscls
+{
+    background-image: url(./images/wmmberror.png);
+    width: 29px;
+    height: 29px;
+    vertical-align:middle;
+    margin-left: 10px;
+    display:inline-block;
+}
+
+/********************
+*   WebMapStubs Style   *
+********************/
+
+.WebMapStubs {
+    font-size:12px;
+    color:red;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    align-self: center;
+}
+

@@ -1,0 +1,11 @@
+<div>
+  <div data-width="283" data-height="230" name="frmIndivSchedNote" data-title="Schedule Note" class="PTSProject_frmIndivSchedNote" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmIndivSchedNote">
+      <textarea disabled="disabled" id="txtNote" tabindex="4" class="txtNote" data-bind="enabled : txtNote.Enabled, value : txtNote.Text"></textarea>
+      <label id="Label1" tabindex="4" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Add a new Individual Schedule Note:</label>
+      <textarea id="txtEdit" tabindex="1" class="txtEdit" data-bind="value : txtEdit.Text"></textarea>
+      <button id="cmdOK" tabindex="2" class="cmdOK" type="button" data-bind="enabled : cmdOK.Enabled, events : { click : cmdOK_Click }, ">OK</button>
+      <button id="cmdCancel" tabindex="3" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+    </form>
+  </div>
+</div>

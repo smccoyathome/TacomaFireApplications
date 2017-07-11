@@ -1,0 +1,22 @@
+
+<div id="loading" class="modal-overlay" data-bind="visible: isVisible">
+    <div class="baby">
+        <div class="head">
+            <div class="eye"></div>
+            <div class="cheek"></div>
+            <div class="horn"></div>
+        </div>
+        <div class="back">
+            <div class="tail"></div>
+            <div class="hand"></div>
+            <div class="feet"></div>
+            <div class="ass"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    setInterval(function () {
+        document.getElementsByClassName("baby")[0].classList.toggle('down');
+    }, 500);
+</script>

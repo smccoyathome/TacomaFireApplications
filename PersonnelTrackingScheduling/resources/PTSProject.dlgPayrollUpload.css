@@ -1,0 +1,64 @@
+.PTSProject_dlgPayrollUpload {
+}
+.PTSProject_dlgPayrollUpload .dlgPayrollUpload {
+	background-color: Navy;
+	min-width: 664px;
+	min-height: 316px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_dlgPayrollUpload .sprReport {
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 649px;
+	height: 265px;
+}
+.PTSProject_dlgPayrollUpload .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgPayrollUpload .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgPayrollUpload .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 464px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgPayrollUpload .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgPayrollUpload .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 568px;
+	top: 280px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgPayrollUpload .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

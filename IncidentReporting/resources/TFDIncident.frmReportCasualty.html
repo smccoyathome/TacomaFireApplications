@@ -1,0 +1,10 @@
+<div>
+  <div data-width="794" data-height="512" name="frmReportCasualty" data-title="Casualty Report" class="TFDIncident_frmReportCasualty" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmReportCasualty">
+      <label id="lbTitle" tabindex="1" class="lbTitle" data-bind="text : lbTitle.Text, imagePath : lbTitle.ImagePath">Casualty Report - Print Preview</label>
+      <button id="cmdPrint" tabindex="1" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Report</button>
+      <button id="cmdClose" tabindex="3" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div id="sprCasualtyReport" data-role="mobilizespread" tabindex="3" class="sprCasualtyReport" data-bind="widgetvalue: sprCasualtyReport"></div>
+    </form>
+  </div>
+</div>

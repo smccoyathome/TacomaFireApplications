@@ -1,0 +1,268 @@
+.PTSProject_frmUpdatePromo {
+}
+.PTSProject_frmUpdatePromo .frmUpdatePromo {
+	background-color: Silver;
+	min-width: 599px;
+	min-height: 383px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmUpdatePromo .Shape1 {
+	fill: #FFC0C0;
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Teal;
+}
+.PTSProject_frmUpdatePromo .cboPromotion {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 321px;
+	height: 21px;
+}
+.PTSProject_frmUpdatePromo .cboPromotion:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUpdatePromo .cboPromotionPos {
+	top: 6px;
+	left: 166px;
+	position: absolute;
+	width: 321px;
+	height: 21px;
+}
+.PTSProject_frmUpdatePromo .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 11px;
+	top: 7px;
+	position: absolute;
+	width: 152px;
+	height: 17px;
+}
+.PTSProject_frmUpdatePromo .sprPromoList {
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 353px;
+	height: 297px;
+}
+.PTSProject_frmUpdatePromo .sprPromoList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmUpdatePromo .sprPromoList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmUpdatePromo .lbAction {
+	background-color: Silver;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	color: #C000C0;
+	left: 368px;
+	top: 64px;
+	position: absolute;
+	width: 213px;
+	height: 21px;
+	text-align: center;
+}
+.PTSProject_frmUpdatePromo .lbName {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: #0000C0;
+	left: 372px;
+	top: 88px;
+	position: absolute;
+	width: 173px;
+	height: 21px;
+}
+.PTSProject_frmUpdatePromo .lbEmpId {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: #0000C0;
+	left: 372px;
+	top: 120px;
+	position: absolute;
+	width: 77px;
+	height: 21px;
+}
+.PTSProject_frmUpdatePromo .lbEntry1 {
+	background-color: Silver;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: #804000;
+	left: 372px;
+	top: 156px;
+	position: absolute;
+	width: 109px;
+	height: 21px;
+}
+.PTSProject_frmUpdatePromo .txtPromoDate {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 156px;
+	position: absolute;
+	width: 93px;
+	height: 24px;
+}
+.PTSProject_frmUpdatePromo .txtPromoDate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUpdatePromo .lbEntry2 {
+	background-color: Silver;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: #804000;
+	left: 372px;
+	top: 184px;
+	position: absolute;
+	width: 101px;
+	height: 21px;
+}
+.PTSProject_frmUpdatePromo .txtExclusion {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 184px;
+	position: absolute;
+	width: 41px;
+	height: 24px;
+}
+.PTSProject_frmUpdatePromo .txtExclusion:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUpdatePromo .chkActive {
+	background-color: Silver;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 372px;
+	top: 212px;
+	position: absolute;
+	width: 149px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmUpdatePromo .chkActive:enabled {
+	color: #804000;
+}
+.PTSProject_frmUpdatePromo .lbEntry3 {
+	background-color: Silver;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: #804000;
+	left: 372px;
+	top: 236px;
+	position: absolute;
+	width: 121px;
+	height: 21px;
+}
+.PTSProject_frmUpdatePromo .txtComment {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 364px;
+	top: 264px;
+	position: absolute;
+	width: 229px;
+	height: 77px;
+}
+.PTSProject_frmUpdatePromo .txtComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUpdatePromo .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 240px;
+	top: 348px;
+	position: absolute;
+	width: 81px;
+	height: 26px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUpdatePromo .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUpdatePromo .cmdUpdate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 331px;
+	top: 348px;
+	position: absolute;
+	width: 81px;
+	height: 26px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUpdatePromo .cmdUpdate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUpdatePromo .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 422px;
+	top: 348px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUpdatePromo .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUpdatePromo .cmdRemove {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 512px;
+	top: 348px;
+	position: absolute;
+	width: 81px;
+	height: 26px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUpdatePromo .cmdRemove:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

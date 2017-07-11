@@ -1,0 +1,1860 @@
+.TFDIncident_frmOtherReports {
+}
+.TFDIncident_frmOtherReports .frmOtherReports {
+	background-color: #804000;
+	min-width: 814px;
+	min-height: 544px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmOtherReports .picEMSBar {
+	background-color: #804000;
+	border-style: inset;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 814px;
+	height: 45px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .Label2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: #FFE0C0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	text-align: right;
+}
+.TFDIncident_frmOtherReports .lbIncident {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: White;
+	left: 100px;
+	top: 0px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports ._cmdSave_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 264px;
+	top: 0px;
+	position: absolute;
+	width: 85px;
+	height: 39px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports ._cmdSave_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports ._cmdSave_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 348px;
+	top: 0px;
+	position: absolute;
+	width: 157px;
+	height: 39px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports ._cmdSave_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports ._cmdSave_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 504px;
+	top: 0px;
+	position: absolute;
+	width: 169px;
+	height: 39px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports ._cmdSave_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports ._cmdSave_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 672px;
+	top: 0px;
+	position: absolute;
+	width: 141px;
+	height: 39px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports ._cmdSave_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .lbLockedMessage {
+	background-color: #FFFFC0;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #C04000;
+	left: 348px;
+	top: 4px;
+	position: absolute;
+	width: 325px;
+	height: 33px;
+	text-align: center;
+}
+.TFDIncident_frmOtherReports .lbLocation {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: White;
+	left: 0px;
+	top: 16px;
+	position: absolute;
+	width: 313px;
+	height: 21px;
+}
+.TFDIncident_frmOtherReports .frmFPE {
+	background-color: #9F8771;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 934px;
+	top: 40px;
+	position: absolute;
+	width: 814px;
+	height: 501px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_frmOtherReports .frmFPE:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .Label31 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 23.76px;
+	font-weight: bold;
+	font-style: italic;
+	color: #400000;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 789px;
+	height: 57px;
+}
+.TFDIncident_frmOtherReports .Label30 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 8px;
+	top: 36px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cmdDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 668px;
+	top: 48px;
+	position: absolute;
+	width: 113px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports .cmdDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .cboFPEEquipment {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 633px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboFPEEquipment:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboFPEEquipmentPos {
+	top: 56px;
+	left: 8px;
+	position: absolute;
+	width: 633px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Label29 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 8px;
+	top: 92px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboFPEStatus {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 769px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboFPEStatus:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboFPEStatusPos {
+	top: 116px;
+	left: 8px;
+	position: absolute;
+	width: 769px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Label28 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 8px;
+	top: 152px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboFPEProblem {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 769px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboFPEProblem:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboFPEProblemPos {
+	top: 176px;
+	left: 8px;
+	position: absolute;
+	width: 769px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .cmdAddPPE {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 20px;
+	top: 212px;
+	position: absolute;
+	width: 273px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports .cmdAddPPE:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .Label24 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 20px;
+	top: 248px;
+	position: absolute;
+	width: 409px;
+	height: 21px;
+}
+.TFDIncident_frmOtherReports .lstPPE {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	color: rgba(0, 0, 0, 1);
+	left: 20px;
+	top: 268px;
+	position: absolute;
+	width: 773px;
+	height: 165px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cmdRemovePPE {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 20px;
+	top: 440px;
+	position: absolute;
+	width: 273px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports .cmdRemovePPE:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .frmFSCasualty {
+	background-color: #9F8771;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 934px;
+	top: 40px;
+	position: absolute;
+	width: 814px;
+	height: 503px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_frmOtherReports .frmFSCasualty:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .Label22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 23.76px;
+	font-weight: bold;
+	font-style: italic;
+	color: #400000;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 513px;
+	height: 33px;
+}
+.TFDIncident_frmOtherReports .Label18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: #400000;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 101px;
+	height: 17px;
+}
+.TFDIncident_frmOtherReports .lbEmployee {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 11.52px;
+	font-weight: bold;
+	font-style: italic;
+	color: #E0E0E0;
+	left: 120px;
+	top: 32px;
+	position: absolute;
+	width: 261px;
+	height: 17px;
+}
+.TFDIncident_frmOtherReports .Frame1 {
+	background-color: #9F8771;
+	left: 388px;
+	top: 36px;
+	position: absolute;
+	width: 416px;
+	height: 285px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_frmOtherReports .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .Label11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 12px;
+	top: 16px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboInjurySeverity {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 349px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboInjurySeverity:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboInjurySeverityPos {
+	top: 32px;
+	left: 12px;
+	position: absolute;
+	width: 349px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Label10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 12px;
+	top: 60px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboBodyPart {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 349px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboBodyPart:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboBodyPartPos {
+	top: 76px;
+	left: 12px;
+	position: absolute;
+	width: 349px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Label16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 12px;
+	top: 104px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboInjuryType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 393px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboInjuryType:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboInjuryTypePos {
+	top: 120px;
+	left: 12px;
+	position: absolute;
+	width: 393px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Label17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 12px;
+	top: 148px;
+	position: absolute;
+	width: 317px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .lstContributingFactors {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: rgba(0, 0, 0, 1);
+	left: 12px;
+	top: 164px;
+	position: absolute;
+	width: 393px;
+	height: 119px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmOtherReports .Label19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: #400000;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 101px;
+	height: 17px;
+}
+.TFDIncident_frmOtherReports .lbFSCasualtyIncident {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 11.52px;
+	font-weight: bold;
+	font-style: italic;
+	color: #E0E0E0;
+	left: 120px;
+	top: 56px;
+	position: absolute;
+	width: 221px;
+	height: 17px;
+}
+.TFDIncident_frmOtherReports .Label20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: #400000;
+	left: 8px;
+	top: 76px;
+	position: absolute;
+	width: 101px;
+	height: 17px;
+}
+.TFDIncident_frmOtherReports .lbCasualtyDate {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 11.52px;
+	font-weight: bold;
+	font-style: italic;
+	color: #E0E0E0;
+	left: 120px;
+	top: 76px;
+	position: absolute;
+	width: 237px;
+	height: 17px;
+}
+.TFDIncident_frmOtherReports .cmdEDITFPE {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 324px;
+	top: 92px;
+	position: absolute;
+	width: 53px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports .cmdEDITFPE:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .chkFPEProblem {
+	background-color: #9F8771;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 305px;
+	height: 33px;
+	visibility: inherit;
+	width: auto;
+}
+.TFDIncident_frmOtherReports .chkFPEProblem:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .Frame3 {
+	background-color: #9F8771;
+	left: 4px;
+	top: 128px;
+	position: absolute;
+	width: 372px;
+	height: 193px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_frmOtherReports .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .Label12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 12px;
+	top: 16px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboActivity {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 341px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboActivity:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboActivityPos {
+	top: 32px;
+	left: 12px;
+	position: absolute;
+	width: 341px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Label13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 12px;
+	top: 60px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboWhereOccured {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 341px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboWhereOccured:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboWhereOccuredPos {
+	top: 76px;
+	left: 12px;
+	position: absolute;
+	width: 341px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Label14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 12px;
+	top: 104px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboInjuryCausedBy {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 341px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboInjuryCausedBy:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboInjuryCausedByPos {
+	top: 120px;
+	left: 12px;
+	position: absolute;
+	width: 341px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .lbLocationAtInjury {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 12px;
+	top: 148px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboLocationAtInjury {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 341px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboLocationAtInjury:enabled {
+	color: #400000;
+}
+.TFDIncident_frmOtherReports .cboLocationAtInjuryPos {
+	top: 164px;
+	left: 12px;
+	position: absolute;
+	width: 341px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmOtherReports .Label15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 8px;
+	top: 328px;
+	position: absolute;
+	width: 437px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .Label21 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400000;
+	left: 384px;
+	top: 332px;
+	position: absolute;
+	width: 305px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .rtxNarrative {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 4px;
+	top: 352px;
+	position: absolute;
+	width: 369px;
+	height: 129px;
+}
+.TFDIncident_frmOtherReports .rtxRecommend {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 388px;
+	top: 352px;
+	position: absolute;
+	width: 413px;
+	height: 129px;
+}
+.TFDIncident_frmOtherReports .frmCivilianCasualty {
+	background-color: #8F9AA9;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 934px;
+	top: 40px;
+	position: absolute;
+	width: 814px;
+	height: 503px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_frmOtherReports .frmCivilianCasualty:enabled {
+	color: #57665C;
+}
+.TFDIncident_frmOtherReports .lbCivCasualtyTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 23.76px;
+	font-weight: bold;
+	font-style: italic;
+	color: Maroon;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 409px;
+	height: 37px;
+}
+.TFDIncident_frmOtherReports .Label9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	color: Maroon;
+	left: 492px;
+	top: 8px;
+	position: absolute;
+	width: 285px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboCivNarrList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 313px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboCivNarrList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .cboCivNarrListPos {
+	top: 32px;
+	left: 488px;
+	position: absolute;
+	width: 313px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .frmEMRInfo {
+	background-color: #8F9AA9;
+	left: 8px;
+	top: 36px;
+	position: absolute;
+	width: 469px;
+	height: 109px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_frmOtherReports .frmEMRInfo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .chkEMR {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 12px;
+	top: 16px;
+	position: absolute;
+	width: 321px;
+	height: 29px;
+	visibility: inherit;
+	width: auto;
+}
+.TFDIncident_frmOtherReports .chkEMR:enabled {
+	color: White;
+}
+.TFDIncident_frmOtherReports .lbEMSPatient {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Maroon;
+	left: 12px;
+	top: 52px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboEMSPatient {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 449px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboEMSPatient:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .cboEMSPatientPos {
+	top: 72px;
+	left: 12px;
+	position: absolute;
+	width: 449px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .frmEMRInfo_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmOtherReports .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	color: Maroon;
+	left: 488px;
+	top: 68px;
+	position: absolute;
+	width: 285px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .lbCivilNarrID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 72px;
+	position: absolute;
+	width: 69px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmOtherReports .lbCCAuthor {
+	background-color: #E0E0E0;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	color: rgba(0, 0, 0, 1);
+	left: 488px;
+	top: 92px;
+	position: absolute;
+	width: 313px;
+	height: 21px;
+}
+.TFDIncident_frmOtherReports .rtxCivilNarration {
+	font-family: Verdana;
+	font-size: 12.96px;
+	left: 484px;
+	top: 116px;
+	position: absolute;
+	width: 321px;
+	height: 309px;
+}
+.TFDIncident_frmOtherReports .frmInjuryInfo {
+	background-color: #8F9AA9;
+	left: 8px;
+	top: 152px;
+	position: absolute;
+	width: 469px;
+	height: 137px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_frmOtherReports .frmInjuryInfo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .cboSeverity {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 273px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboSeverity:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .cboSeverityPos {
+	top: 16px;
+	left: 188px;
+	position: absolute;
+	width: 273px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .lbSeverity {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Maroon;
+	left: 12px;
+	top: 17px;
+	position: absolute;
+	width: 157px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboInjuryCause {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 273px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboInjuryCause:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .cboInjuryCausePos {
+	top: 47px;
+	left: 188px;
+	position: absolute;
+	width: 273px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .lbInjuryCause {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Maroon;
+	left: 12px;
+	top: 48px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboCCLocation {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 273px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboCCLocation:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .cboCCLocationPos {
+	top: 76px;
+	left: 188px;
+	position: absolute;
+	width: 273px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .lbCCLocation {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Maroon;
+	left: 12px;
+	top: 78px;
+	position: absolute;
+	width: 173px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .txtFloor {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 188px;
+	top: 104px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmOtherReports .txtFloor:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .lbFloor {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Maroon;
+	left: 128px;
+	top: 108px;
+	position: absolute;
+	width: 61px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .frmInjuryInfo_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmOtherReports .lbContribFactors {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Maroon;
+	left: 8px;
+	top: 296px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .lstContribFactors {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 312px;
+	position: absolute;
+	width: 425px;
+	height: 71px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .lbHumanContribFactors {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Maroon;
+	left: 8px;
+	top: 384px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .lstHumanContribFactors {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 400px;
+	position: absolute;
+	width: 425px;
+	height: 71px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .Label5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	font-style: italic;
+	color: Maroon;
+	left: 480px;
+	top: 428px;
+	position: absolute;
+	width: 217px;
+	height: 53px;
+}
+.TFDIncident_frmOtherReports .cmdCivAddNarration {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 588px;
+	top: 468px;
+	position: absolute;
+	width: 217px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports .cmdCivAddNarration:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .frmService {
+	background-color: #ACA877;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 934px;
+	top: 40px;
+	position: absolute;
+	width: 814px;
+	height: 503px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_frmOtherReports .frmService:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .lbServiceTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 23.76px;
+	font-weight: bold;
+	font-style: italic;
+	color: #400040;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 573px;
+	height: 41px;
+}
+.TFDIncident_frmOtherReports .lbServiceProvided {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400040;
+	left: 48px;
+	top: 64px;
+	position: absolute;
+	width: 385px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboServiceType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 469px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboServiceType:enabled {
+	color: #400040;
+}
+.TFDIncident_frmOtherReports .cboServiceTypePos {
+	top: 84px;
+	left: 48px;
+	position: absolute;
+	width: 469px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .lbStandbyHours {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400040;
+	left: 48px;
+	top: 128px;
+	position: absolute;
+	width: 149px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .txtStandbyHours {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 332px;
+	top: 128px;
+	position: absolute;
+	width: 77px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .txtStandbyHours:enabled {
+	color: #400040;
+}
+.TFDIncident_frmOtherReports .txtNumberSafePlace {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 332px;
+	top: 168px;
+	position: absolute;
+	width: 77px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .txtNumberSafePlace:enabled {
+	color: #400040;
+}
+.TFDIncident_frmOtherReports .lbSafePlace {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400040;
+	left: 48px;
+	top: 172px;
+	position: absolute;
+	width: 441px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .Label8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400040;
+	left: 44px;
+	top: 264px;
+	position: absolute;
+	width: 253px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboServiceNarrList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 469px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboServiceNarrList:enabled {
+	color: #400040;
+}
+.TFDIncident_frmOtherReports .cboServiceNarrListPos {
+	top: 264px;
+	left: 296px;
+	position: absolute;
+	width: 469px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .lbServNarrAuthor {
+	background-color: #E0E0E0;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 296px;
+	position: absolute;
+	width: 409px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #400040;
+	left: 44px;
+	top: 300px;
+	position: absolute;
+	width: 309px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .lbServiceNarrID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 676px;
+	top: 300px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmOtherReports .rtxServiceNarration {
+	font-family: Verdana;
+	font-size: 12.96px;
+	left: 44px;
+	top: 328px;
+	position: absolute;
+	width: 728px;
+	height: 125px;
+}
+.TFDIncident_frmOtherReports .cmdServAddNarration {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 192px;
+	top: 460px;
+	position: absolute;
+	width: 221px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports .cmdServAddNarration:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .Label7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: #400040;
+	left: 44px;
+	top: 576px;
+	position: absolute;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .frmAllInfo {
+	background-color: #99A6BB;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 934px;
+	top: 40px;
+	position: absolute;
+	width: 814px;
+	height: 503px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_frmOtherReports .frmAllInfo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmOtherReports .lbAllInfoTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 16.56px;
+	font-weight: bold;
+	font-style: italic;
+	color: Navy;
+	left: 4px;
+	top: 4px;
+	position: absolute;
+	width: 789px;
+	height: 37px;
+}
+.TFDIncident_frmOtherReports .Label6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Navy;
+	left: 416px;
+	top: 8px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboNarrList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 377px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_frmOtherReports .cboNarrList:enabled {
+	color: #597041;
+}
+.TFDIncident_frmOtherReports .cboNarrListPos {
+	top: 36px;
+	left: 416px;
+	position: absolute;
+	width: 377px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .lbAllInfo1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 44px;
+	position: absolute;
+	width: 401px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboAllInfo1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 385px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .cboAllInfo1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmOtherReports .cboAllInfo1Pos {
+	top: 68px;
+	left: 12px;
+	position: absolute;
+	width: 385px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	color: Navy;
+	left: 416px;
+	top: 80px;
+	position: absolute;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .lbAllNarrID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 84px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	visibility: hidden;
+}
+.TFDIncident_frmOtherReports .lbAllInfo2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 104px;
+	position: absolute;
+	width: 517px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .lbAllNarrAuthor {
+	background-color: #E0E0E0;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	color: rgba(0, 0, 0, 1);
+	left: 416px;
+	top: 104px;
+	position: absolute;
+	width: 377px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboAllInfo2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 385px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .cboAllInfo2:enabled {
+	color: #597041;
+}
+.TFDIncident_frmOtherReports .cboAllInfo2Pos {
+	top: 128px;
+	left: 12px;
+	position: absolute;
+	width: 385px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .rtxAllNarration {
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 416px;
+	top: 136px;
+	position: absolute;
+	width: 381px;
+	height: 285px;
+}
+.TFDIncident_frmOtherReports .lbAllInfo3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 164px;
+	position: absolute;
+	width: 521px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .cboAllInfo3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 385px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .cboAllInfo3:enabled {
+	color: #597041;
+}
+.TFDIncident_frmOtherReports .cboAllInfo3Pos {
+	top: 188px;
+	left: 12px;
+	position: absolute;
+	width: 385px;
+	height: 23px;
+}
+.TFDIncident_frmOtherReports .txtAllInfo1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 216px;
+	top: 224px;
+	position: absolute;
+	width: 109px;
+	height: 24px;
+}
+.TFDIncident_frmOtherReports .txtAllInfo1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmOtherReports .lbAllInfo4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 228px;
+	position: absolute;
+	width: 197px;
+	height: 25px;
+}
+.TFDIncident_frmOtherReports .rtxFalseAlarmComment {
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 12px;
+	top: 256px;
+	position: absolute;
+	width: 385px;
+	height: 173px;
+}
+.TFDIncident_frmOtherReports .lbNarrMessage {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	color: Navy;
+	left: 416px;
+	top: 424px;
+	position: absolute;
+	width: 249px;
+	height: 49px;
+}
+.TFDIncident_frmOtherReports .cmdAddNarration {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 620px;
+	top: 464px;
+	position: absolute;
+	width: 177px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmOtherReports .cmdAddNarration:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

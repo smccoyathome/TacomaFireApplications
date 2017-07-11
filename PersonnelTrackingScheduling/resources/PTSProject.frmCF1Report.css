@@ -1,0 +1,60 @@
+.PTSProject_frmCF1Report {
+}
+.PTSProject_frmCF1Report .frmCF1Report {
+	background-color: #0000C0;
+	min-width: 575px;
+	min-height: 508px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmCF1Report .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 2px;
+	top: 3px;
+	position: absolute;
+	width: 99px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmCF1Report .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmCF1Report .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 104px;
+	top: 3px;
+	position: absolute;
+	width: 83px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmCF1Report .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmCF1Report .sprCF1 {
+	left: 0px;
+	top: 40px;
+	position: absolute;
+	width: 570px;
+	height: 460px;
+}
+.PTSProject_frmCF1Report .sprCF1 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmCF1Report .sprCF1 .k-spreadsheet-action-bar {
+	display: none;
+}
+

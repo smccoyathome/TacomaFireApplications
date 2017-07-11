@@ -1,0 +1,12 @@
+<div>
+  <div data-width="797" data-height="535" data-removeControlBox="true" name="frmLeave" data-title="Daily Leave Report" class="PTSProject_frmLeave" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmLeave">
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calDate" tabindex="1" class="calDate" data-bind="dateTimePickerValue : calDate.Value, DateTimeMinDate : calDate.MinDate, DateTimeMaxDate : calDate.MaxDate, events : { change : calDate_Click }, " />
+      <button id="cmdPrint" tabindex="3" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label1" tabindex="1" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Report Date</label>
+      <label id="Label2" tabindex="5" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">* = Instead Of Sick Leave...</label>
+      <div id="sprLeave" data-role="mobilizespread" tabindex="4" class="sprLeave" data-bind="widgetvalue: sprLeave"></div>
+    </form>
+  </div>
+</div>

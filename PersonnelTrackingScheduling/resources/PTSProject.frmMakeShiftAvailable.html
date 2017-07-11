@@ -1,0 +1,37 @@
+<div>
+  <div data-width="419" data-height="241" name="frmMakeShiftAvailable" data-title="Make Shift Available" class="PTSProject_frmMakeShiftAvailable" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmMakeShiftAvailable">
+      <fieldset id="frmShiftAvail" class="frmShiftAvail">
+        <legend id="frmShiftAvail_legend" class="frmShiftAvail_legend"></legend>
+        <div>
+          <div id="calAvail" tabindex="7" class="calAvail" data-role="calendar" data-bind="dateTimePickerValue : calAvail.Value, monthCalendarSelectionRange : calAvail.SelectionRange, DateTimeMinDate : calAvail.MinDate, events : { change : calAvail_DateChanged }, "></div>
+          <div class="chkAM">
+            <input id="chkAM" tabindex="1" type="checkbox" checked="checked" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">AM</label>
+            </div>
+          </div>
+          <div class="chkPM">
+            <input id="chkPM" tabindex="2" type="checkbox" checked="checked" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM</label>
+            </div>
+          </div>
+          <label id="Label11" tabindex="16" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">Give Date Out On:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtpGiveOut" tabindex="3" class="dtpGiveOut" data-bind="dateTimePickerValue : dtpGiveOut.Value, DateTimeMinDate : dtpGiveOut.MinDate, DateTimeMaxDate : dtpGiveOut.MaxDate" />
+          <label id="lbAvailComment" tabindex="8" class="lbAvailComment" data-bind="visible : lbAvailComment.Visible, text : lbAvailComment.Text, imagePath : lbAvailComment.ImagePath">Add Comment:</label>
+          <textarea id="txtAvailComment" tabindex="4" Value="txtAvailComment" class="txtAvailComment" data-bind="visible : txtAvailComment.Visible, value : txtAvailComment.Text"></textarea>
+          <label id="lbSelectTitle1" tabindex="15" class="lbSelectTitle1" data-bind="text : lbSelectTitle1.Text, imagePath : lbSelectTitle1.ImagePath">Scheduled Leave Totals</label>
+          <label id="lbSelectAM" tabindex="13" class="lbSelectAM" data-bind="visible : lbSelectAM.Visible, text : lbSelectAM.Text, imagePath : lbSelectAM.ImagePath">lbSelectAM</label>
+          <label id="lbREGam" tabindex="11" class="lbREGam" data-bind="visible : lbREGam.Visible, text : lbREGam.Text, imagePath : lbREGam.ImagePath">lbREGam</label>
+          <button disabled="disabled" id="cmdAvailDone" tabindex="5" class="cmdAvailDone" type="button" data-bind="enabled : cmdAvailDone.Enabled, events : { click : cmdAvailDone_Click }, ">Done</button>
+          <button id="cmdClose" tabindex="6" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Cancel</button>
+          <label id="lbSelectPM" tabindex="14" class="lbSelectPM" data-bind="visible : lbSelectPM.Visible, text : lbSelectPM.Text, imagePath : lbSelectPM.ImagePath">lbSelectPM</label>
+          <label id="lbREGpm" tabindex="12" class="lbREGpm" data-bind="visible : lbREGpm.Visible, text : lbREGpm.Text, imagePath : lbREGpm.ImagePath">lbREGpm</label>
+          <label id="lbExistPM" tabindex="9" class="lbExistPM" data-bind="text : lbExistPM.Text, imagePath : lbExistPM.ImagePath">llbExistPM</label>
+          <label id="lbExistAM" tabindex="10" class="lbExistAM" data-bind="text : lbExistAM.Text, imagePath : lbExistAM.ImagePath">llbExistAM</label>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,106 @@
+<div>
+  <div data-width="1349" data-height="776" name="frmTrainAnnualOTEP" data-title="TFD Training Annual OTEP Reporting" class="PTSProject_frmTrainAnnualOTEP" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmTrainAnnualOTEP">
+      <fieldset id="frmTrainAnnualOTEP_frmTrainAnnualOTEP" class="frmTrainAnnualOTEP_frmTrainAnnualOTEP">
+        <legend id="frmTrainAnnualOTEP_frmTrainAnnualOTEP_legend" class="frmTrainAnnualOTEP_frmTrainAnnualOTEP_legend">Filter Report By:</legend>
+        <div>
+          <button id="cmdClose" tabindex="8" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+          <label id="_lbSubTitle_2" tabindex="10" index="2" class="_lbSubTitle_2" data-bind="text : _lbSubTitle_2.Text, imagePath : _lbSubTitle_2.ImagePath">Report Year</label>
+          <fieldset id="frmBattOpt" class="frmBattOpt">
+            <legend id="frmBattOpt_legend" class="frmBattOpt_legend"></legend>
+            <div>
+              <div class="optAll">
+                <input id="optAll" tabindex="16" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : optAll.Checked, events : { change : optAll_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ALL</label>
+                </div>
+              </div>
+              <div class="opt182">
+                <input id="opt182" tabindex="15" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt182.Checked, events : { change : opt182_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 2</label>
+                </div>
+              </div>
+              <div class="opt181">
+                <input id="opt181" tabindex="14" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt181.Checked, events : { change : opt181_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 1</label>
+                </div>
+              </div>
+              <div class="opt183">
+                <input id="opt183" tabindex="13" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt183.Checked, events : { change : opt183_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 3</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="Frame4" class="Frame4">
+            <legend id="Frame4_legend" class="Frame4_legend"></legend>
+            <div>
+              <div class="optA">
+                <input id="optA" tabindex="4" type="radio" name="Frame4_radios" style="float: left" data-bind="customChecked : optA.Checked, events : { change : optA_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift A</label>
+                </div>
+              </div>
+              <div class="optC">
+                <input id="optC" tabindex="2" type="radio" name="Frame4_radios" style="float: left" data-bind="customChecked : optC.Checked, events : { change : optC_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift C</label>
+                </div>
+              </div>
+              <div class="optB">
+                <input id="optB" tabindex="3" type="radio" name="Frame4_radios" style="float: left" data-bind="customChecked : optB.Checked, events : { change : optB_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift B</label>
+                </div>
+              </div>
+              <div class="optD">
+                <input id="optD" tabindex="1" type="radio" name="Frame4_radios" style="float: left" data-bind="customChecked : optD.Checked, events : { change : optD_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift D</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="Frame1" class="Frame1">
+            <legend id="Frame1_legend" class="Frame1_legend"></legend>
+            <div>
+              <div class="optGrp1">
+                <input id="optGrp1" tabindex="10" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optGrp1.Checked, events : { change : optGrp1_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Group 1</label>
+                </div>
+              </div>
+              <div class="optGrp2">
+                <input id="optGrp2" tabindex="11" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optGrp2.Checked, events : { change : optGrp2_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Group 2</label>
+                </div>
+              </div>
+              <div class="optGrp3">
+                <input id="optGrp3" tabindex="12" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optGrp3.Checked, events : { change : optGrp3_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Group 3</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <div class="cboYearPos" id="cboYearPos">
+            <select id="cboYear" tabindex="5" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdClear" tabindex="7" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear Filters</button>
+          <div class="optPM">
+            <input id="optPM" tabindex="17" type="radio" name="frmTrainAnnualOTEP_frmTrainAnnualOTEP_radios" style="float: left" data-bind="customChecked : optPM.Checked, events : { change : optPM_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM Only</label>
+            </div>
+          </div>
+          <button id="cmdPrint" tabindex="6" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Report</button>
+        </div>
+      </fieldset>
+      <div id="sprReport" data-role="mobilizespread" tabindex="11" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,76 @@
+.TFDIncident_frmReportCasualty {
+}
+.TFDIncident_frmReportCasualty .frmReportCasualty {
+	background-color: #9F8771;
+	min-width: 794px;
+	min-height: 512px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmReportCasualty .lbTitle {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 16.56px;
+	font-weight: bold;
+	font-style: italic;
+	color: #655345;
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	width: 477px;
+	height: 25px;
+}
+.TFDIncident_frmReportCasualty .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 504px;
+	top: 4px;
+	position: absolute;
+	width: 125px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportCasualty .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportCasualty .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 632px;
+	top: 4px;
+	position: absolute;
+	width: 125px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportCasualty .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportCasualty .sprCasualtyReport {
+	left: 4px;
+	top: 36px;
+	position: absolute;
+	width: 785px;
+	height: 469px;
+}
+.TFDIncident_frmReportCasualty .sprCasualtyReport .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmReportCasualty .sprCasualtyReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,205 @@
+.PTSProject_dlgSpecialAssign {
+}
+.PTSProject_dlgSpecialAssign .dlgSpecialAssign {
+	background-color: Gray;
+	min-width: 362px;
+	min-height: 381px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgSpecialAssign .frmType {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 8px;
+	top: 10px;
+	position: absolute;
+	width: 349px;
+	height: 78px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgSpecialAssign .frmType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSpecialAssign ._optType_0 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 10px;
+	top: 24px;
+	position: absolute;
+	width: 124px;
+	height: 20px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_dlgSpecialAssign ._optType_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSpecialAssign ._optType_0 * {
+	Cursor: default;
+}
+.PTSProject_dlgSpecialAssign ._optType_1 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 136px;
+	top: 24px;
+	position: absolute;
+	width: 198px;
+	height: 20px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_dlgSpecialAssign ._optType_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSpecialAssign ._optType_1 * {
+	Cursor: default;
+}
+.PTSProject_dlgSpecialAssign ._optType_2 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 10px;
+	top: 48px;
+	position: absolute;
+	width: 326px;
+	height: 20px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_dlgSpecialAssign ._optType_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSpecialAssign ._optType_2 * {
+	Cursor: default;
+}
+.PTSProject_dlgSpecialAssign .frmType_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgSpecialAssign .chkBothShifts {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 8px;
+	top: 88px;
+	position: absolute;
+	width: 337px;
+	height: 23px;
+	width: auto;
+}
+.PTSProject_dlgSpecialAssign .chkBothShifts:enabled {
+	color: #C0FFC0;
+}
+.PTSProject_dlgSpecialAssign .lbStart {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 8px;
+	top: 120px;
+	position: absolute;
+	width: 138px;
+	height: 49px;
+}
+.PTSProject_dlgSpecialAssign .calStart {
+	font-family: Arial;
+	font-size: 12.6px;
+}
+.PTSProject_dlgSpecialAssign .calStart.k-datepicker {
+	left: 168px;
+	top: 136px;
+	position: absolute;
+	width: 135px;
+	height: 20px;
+}
+.PTSProject_dlgSpecialAssign .lbEnd {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 12px;
+	top: 176px;
+	position: absolute;
+	width: 139px;
+	height: 81px;
+}
+.PTSProject_dlgSpecialAssign .calEnd {
+	font-family: Arial;
+	font-size: 12.6px;
+}
+.PTSProject_dlgSpecialAssign .calEnd.k-datepicker {
+	left: 168px;
+	top: 176px;
+	position: absolute;
+	width: 135px;
+	height: 20px;
+}
+.PTSProject_dlgSpecialAssign .lbWarning {
+	background-color: #FFFFC0;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 240px;
+	position: absolute;
+	width: 341px;
+	height: 81px;
+}
+.PTSProject_dlgSpecialAssign .cmdOK {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 48px;
+	top: 336px;
+	position: absolute;
+	width: 113px;
+	height: 35px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgSpecialAssign .cmdOK:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSpecialAssign .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 168px;
+	top: 336px;
+	position: absolute;
+	width: 113px;
+	height: 35px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgSpecialAssign .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

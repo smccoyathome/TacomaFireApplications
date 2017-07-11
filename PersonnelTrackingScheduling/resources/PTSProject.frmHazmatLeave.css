@@ -1,0 +1,124 @@
+.PTSProject_frmHazmatLeave {
+}
+.PTSProject_frmHazmatLeave .frmHazmatLeave {
+	background-color: Black;
+	min-width: 713px;
+	min-height: 701px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmHazmatLeave .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmHazmatLeave .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmHazmatLeave .cboYearPos {
+	top: 8px;
+	left: 95px;
+	position: absolute;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmHazmatLeave .cboMonth {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmHazmatLeave .cboMonth:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmHazmatLeave .cboMonthPos {
+	top: 8px;
+	left: 288px;
+	position: absolute;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmHazmatLeave .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 480px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmHazmatLeave .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmHazmatLeave .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 584px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmHazmatLeave .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmHazmatLeave .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 12px;
+	position: absolute;
+	width: 90px;
+	height: 20px;
+}
+.PTSProject_frmHazmatLeave .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 184px;
+	top: 12px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmHazmatLeave .sprMonth2 {
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 697px;
+	height: 641px;
+}
+.PTSProject_frmHazmatLeave .sprMonth2 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmHazmatLeave .sprMonth2 .k-spreadsheet-action-bar {
+	display: none;
+}
+

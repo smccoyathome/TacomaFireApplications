@@ -1,0 +1,12 @@
+<div>
+  <div data-width="495" data-height="356" name="frmHelp" data-title="IRS Help System" class="TFDIncident_frmHelp" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmHelp">
+      <label id="lbHelpTitle" tabindex="0" class="lbHelpTitle" data-bind="text : lbHelpTitle.Text, imagePath : lbHelpTitle.ImagePath">lbHelpTitle</label>
+      <textarea id="txtHelpText" tabindex="2" class="txtHelpText" data-bind="value : txtHelpText.Text"></textarea>
+      <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Help Topic to View</label>
+      <div data-labeledit="true" id="tvHelpList" tabindex="5" class="tvHelpList" data-role="treeview" data-initialheight="261" data-bind="treeDataSource : tvHelpList, visible : tvHelpList.Visible, selectedNode : tvHelpList.SelectedItemId, events : { change : tvHelpList_AfterSelect }, "></div>
+      <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, "></button>
+      <button id="cmdCode" tabindex="3" class="cmdCode" type="button" data-bind="enabled : cmdCode.Enabled, events : { click : cmdCode_Click }, "></button>
+    </form>
+  </div>
+</div>

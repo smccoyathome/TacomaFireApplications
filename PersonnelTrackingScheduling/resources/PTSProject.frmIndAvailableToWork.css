@@ -1,0 +1,178 @@
+.PTSProject_frmIndAvailableToWork {
+}
+.PTSProject_frmIndAvailableToWork .frmIndAvailableToWork {
+	background-color: #004040;
+	min-width: 524px;
+	min-height: 410px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmIndAvailableToWork .Frame1 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 505px;
+	height: 201px;
+	border: 2px groove;
+}
+.PTSProject_frmIndAvailableToWork .Frame1:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmIndAvailableToWork .calAvail {
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 24px;
+	top: 24px;
+	position: absolute;
+}
+.PTSProject_frmIndAvailableToWork .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 408px;
+	top: 24px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndAvailableToWork .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndAvailableToWork .chkAM {
+	background-color: #004040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 288px;
+	top: 32px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmIndAvailableToWork .chkAM:enabled {
+	color: Red;
+}
+.PTSProject_frmIndAvailableToWork .chkPM {
+	background-color: #004040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 344px;
+	top: 32px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmIndAvailableToWork .chkPM:enabled {
+	color: Red;
+}
+.PTSProject_frmIndAvailableToWork .Label3 {
+	background-color: #004040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 280px;
+	top: 64px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_frmIndAvailableToWork .txtComment {
+	left: 280px;
+	top: 80px;
+	position: absolute;
+	width: 209px;
+	height: 65px;
+}
+.PTSProject_frmIndAvailableToWork .cmdAdd {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 280px;
+	top: 160px;
+	position: absolute;
+	width: 209px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndAvailableToWork .cmdAdd:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndAvailableToWork .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmIndAvailableToWork .Frame2 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 8px;
+	top: 208px;
+	position: absolute;
+	width: 505px;
+	height: 193px;
+	border: 2px groove;
+}
+.PTSProject_frmIndAvailableToWork .Frame2:enabled {
+	color: #80FF80;
+}
+.PTSProject_frmIndAvailableToWork .sprAvailable {
+	left: 32px;
+	top: 24px;
+	position: absolute;
+	width: 444px;
+	height: 121px;
+}
+.PTSProject_frmIndAvailableToWork .sprAvailable .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmIndAvailableToWork .sprAvailable .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmIndAvailableToWork .cmdDelete {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 288px;
+	top: 160px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndAvailableToWork .cmdDelete:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndAvailableToWork .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

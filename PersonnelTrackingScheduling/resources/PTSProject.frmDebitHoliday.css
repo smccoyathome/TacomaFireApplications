@@ -1,0 +1,335 @@
+.PTSProject_frmDebitHoliday {
+}
+.PTSProject_frmDebitHoliday .frmDebitHoliday {
+	background-color: #000040;
+	min-width: 774px;
+	min-height: 479px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .cboClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 528px;
+	top: 8px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDebitHoliday .cboClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDebitHoliday ._Label3_1 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmDebitHoliday .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	width: 73px;
+	height: 20px;
+}
+.PTSProject_frmDebitHoliday .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDebitHoliday .cboYearPos {
+	top: 16px;
+	left: 104px;
+	position: absolute;
+	width: 73px;
+	height: 20px;
+}
+.PTSProject_frmDebitHoliday .frmBattOpt {
+	background-color: #000040;
+	left: 240px;
+	top: 16px;
+	position: absolute;
+	width: 121px;
+	height: 49px;
+	border: 2px groove;
+}
+.PTSProject_frmDebitHoliday .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDebitHoliday .optAll {
+	background-color: #000040;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .optAll:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDebitHoliday .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmDebitHoliday .opt182 {
+	background-color: #000040;
+	left: 56px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .opt182:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDebitHoliday .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmDebitHoliday .opt181 {
+	background-color: #000040;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .opt181:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDebitHoliday .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmDebitHoliday .opt183 {
+	background-color: #000040;
+	left: 56px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .opt183:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDebitHoliday .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmDebitHoliday .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmDebitHoliday .Frame3 {
+	background-color: #000040;
+	left: 360px;
+	top: 16px;
+	position: absolute;
+	width: 137px;
+	height: 49px;
+	border: 2px groove;
+}
+.PTSProject_frmDebitHoliday .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDebitHoliday .optA {
+	background-color: #000040;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .optA:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDebitHoliday .optA * {
+	Cursor: default;
+}
+.PTSProject_frmDebitHoliday .optC {
+	background-color: #000040;
+	left: 64px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .optC:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDebitHoliday .optC * {
+	Cursor: default;
+}
+.PTSProject_frmDebitHoliday .optB {
+	background-color: #000040;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .optB:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDebitHoliday .optB * {
+	Cursor: default;
+}
+.PTSProject_frmDebitHoliday .optD {
+	background-color: #000040;
+	left: 64px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDebitHoliday .optD:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDebitHoliday .optD * {
+	Cursor: default;
+}
+.PTSProject_frmDebitHoliday .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmDebitHoliday ._Label6_0 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmDebitHoliday .dteReportDate {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+.PTSProject_frmDebitHoliday .dteReportDate.k-datepicker {
+	left: 104px;
+	top: 40px;
+	position: absolute;
+	width: 100px;
+	height: 19px;
+}
+.PTSProject_frmDebitHoliday .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 528px;
+	top: 40px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDebitHoliday .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDebitHoliday .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 528px;
+	top: 72px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDebitHoliday .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDebitHoliday .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #80FFFF;
+	left: 8px;
+	top: 88px;
+	position: absolute;
+	width: 153px;
+	height: 17px;
+}
+.PTSProject_frmDebitHoliday .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: Red;
+	left: 192px;
+	top: 88px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.PTSProject_frmDebitHoliday .lbCount {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Lime;
+	left: 416px;
+	top: 88px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+}
+.PTSProject_frmDebitHoliday .sprEmployeeList {
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 720px;
+	height: 345px;
+}
+.PTSProject_frmDebitHoliday .sprEmployeeList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmDebitHoliday .sprEmployeeList .k-spreadsheet-action-bar {
+	display: none;
+}
+

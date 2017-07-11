@@ -1,0 +1,42 @@
+<div>
+  <div data-width="607" data-height="469" name="Form1" data-title="Form1" class="TFDIncident_Form1" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="Form1">
+      <label id="Label2" tabindex="5" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Mutual Aid Report</label>
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Mutual Aid</legend>
+        <div>
+          <div index="0" class="_optMA_0">
+            <input id="_optMA_0" tabindex="1" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optMA_0.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Given</label>
+            </div>
+          </div>
+          <div index="1" class="_optMA_1">
+            <input id="_optMA_1" tabindex="2" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optMA_1.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Received</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <label id="Label1" tabindex="4" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Involved Agencies</label>
+      <label id="Label4" tabindex="8" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Other Agencies Incident Number</label>
+      <input id="Text1" tabindex="7" Value="Text1" class="Text1" data-bind="value : Text1.Text" />
+      <div id="List1" tabindex="3" data-selectable="multiple" class="List1" data-role="listbox" style="overflow:auto" data-bind="source : List1.ListBoxItems, listBoxSelectedIndices : List1.ListBoxSelectedIndices">
+        <option value="Lakewood">"Lakewood"</option>
+        <option value="Central Pierce">"Central Pierce"</option>
+        <option value="Federal Way">"Federal Way"</option>
+        <option value="Gig Harbor">"Gig Harbor"</option>
+        <option value="Puyallup">"Puyallup"</option>
+        <option value="Riverside">"Riverside"</option>
+        <option value="Other">"Other"</option>
+      </div>
+      <div class="Check1">
+        <input id="Check1" tabindex="6" type="checkbox" style="float: left" />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Was TFD in command of this incident</label>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

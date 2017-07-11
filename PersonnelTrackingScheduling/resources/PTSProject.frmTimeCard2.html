@@ -1,0 +1,14 @@
+<div>
+  <div data-width="816" data-height="542" data-removeControlBox="true" name="frmTimeCard2" data-title="Battalion 2 Time Card Worksheet" class="PTSProject_frmTimeCard2" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmTimeCard2">
+      <button id="cmdPrint" tabindex="2" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Worksheet</button>
+      <button id="cmdPrintAll" tabindex="7" class="cmdPrintAll" type="button" data-bind="events : { click : cmdPrintAll_Click }, ">Print All Daily Reports</button>
+      <button id="cmdExcept" tabindex="3" class="cmdExcept" type="button" data-bind="events : { click : cmdExcept_Click }, ">Exception Report</button>
+      <button id="cmdLeave" tabindex="4" class="cmdLeave" type="button" data-bind="events : { click : cmdLeave_Click }, ">Leave Report</button>
+      <button id="cmdClose" tabindex="5" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calDate" tabindex="1" class="calDate" data-bind="dateTimePickerValue : calDate.Value, DateTimeMinDate : calDate.MinDate, DateTimeMaxDate : calDate.MaxDate, events : { change : calDate_Click }, " />
+      <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Report Date</label>
+      <div id="sprBatt" data-role="mobilizespread" tabindex="7" class="sprBatt" data-bind="widgetvalue: sprBatt"></div>
+    </form>
+  </div>
+</div>

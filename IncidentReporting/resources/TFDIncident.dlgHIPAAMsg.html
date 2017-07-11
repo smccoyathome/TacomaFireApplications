@@ -1,0 +1,24 @@
+<div>
+  <div data-width="398" data-height="210" data-removeControlBox="true" name="dlgHIPAAMsg" data-title="TFD - Incident Reporting System" class="TFDIncident_dlgHIPAAMsg" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgHIPAAMsg">
+      <label id="lbHIPAAMsg" tabindex="13" class="lbHIPAAMsg" data-bind="text : lbHIPAAMsg.Text, imagePath : lbHIPAAMsg.ImagePath">HIPAA Policy Information</label>
+      <div id="sprHIPAAMsg" data-role="mobilizespread" tabindex="8" class="sprHIPAAMsg" data-bind="widgetvalue: sprHIPAAMsg"></div>
+      <fieldset id="frmReleaseInfo" class="frmReleaseInfo" data-bind="visible : frmReleaseInfo.Visible">
+        <legend id="frmReleaseInfo_legend" class="frmReleaseInfo_legend">Release Information</legend>
+        <div>
+          <input id="txtReleaseName" tabindex="1" Value="txtReleaseName" class="txtReleaseName" data-bind="style : { backgroundColor : txtReleaseName.BackColor.Value }, value : txtReleaseName.Text, events : { change : txtReleaseName_TextChanged }, " />
+          <label id="_Label1_0" tabindex="9" index="0" class="_Label1_0" data-bind="text : _Label1_0.Text, imagePath : _Label1_0.ImagePath">Released To</label>
+          <input id="txtReleaseAdd1" tabindex="2" Value="txtReleaseAdd1" class="txtReleaseAdd1" data-bind="style : { backgroundColor : txtReleaseAdd1.BackColor.Value }, value : txtReleaseAdd1.Text, events : { change : txtReleaseAdd1_TextChanged }, " />
+          <label id="_Label1_1" tabindex="10" index="1" class="_Label1_1" data-bind="text : _Label1_1.Text, imagePath : _Label1_1.ImagePath">Address</label>
+          <label id="_Label1_2" tabindex="11" index="2" class="_Label1_2" data-bind="text : _Label1_2.Text, imagePath : _Label1_2.ImagePath">City, State, Zip</label>
+          <input id="txtReleaseAdd2" tabindex="3" Value="txtReleaseAdd2" class="txtReleaseAdd2" data-bind="style : { backgroundColor : txtReleaseAdd2.BackColor.Value }, value : txtReleaseAdd2.Text, events : { change : txtReleaseAdd2_TextChanged }, " />
+          <label id="_Label1_3" tabindex="12" index="3" class="_Label1_3" data-bind="text : _Label1_3.Text, imagePath : _Label1_3.ImagePath">Reason</label>
+          <textarea id="txtReleaseReason" tabindex="4" class="txtReleaseReason" data-bind="style : { backgroundColor : txtReleaseReason.BackColor.Value }, value : txtReleaseReason.Text, events : { change : txtReleaseReason_TextChanged }, "></textarea>
+        </div>
+      </fieldset>
+      <button id="cmdCancel" tabindex="11" class="cmdCancel" type="button" data-bind="style : { backgroundColor : cmdCancel.BackColor.Value }, visible : cmdCancel.Visible, buttonText : cmdCancel.Text, events : { click : cmdCancel_Click }, "></button>
+      <button id="cmdPrint" tabindex="10" class="cmdPrint" type="button" data-bind="visible : cmdPrint.Visible, events : { click : cmdPrint_Click }, "></button>
+      <button id="cmdOut" tabindex="9" class="cmdOut" type="button" data-bind="enabled : cmdOut.Enabled, buttonText : cmdOut.Text, events : { click : cmdOut_Click }, "></button>
+    </form>
+  </div>
+</div>

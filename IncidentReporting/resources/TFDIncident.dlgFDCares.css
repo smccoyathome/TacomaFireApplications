@@ -1,0 +1,68 @@
+.TFDIncident_dlgFDCares {
+}
+.TFDIncident_dlgFDCares .dlgFDCares {
+	background-color: #9A7567;
+	min-width: 414px;
+	min-height: 197px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_dlgFDCares .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 32px;
+	top: 8px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_dlgFDCares .txtReferComment {
+	font-family: Arial;
+	font-size: 12.24px;
+	left: 32px;
+	top: 32px;
+	position: absolute;
+	overflow: auto;
+	width: 333px;
+	height: 117px;
+}
+.TFDIncident_dlgFDCares .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 36px;
+	top: 156px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_dlgFDCares .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_dlgFDCares .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 128px;
+	top: 156px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_dlgFDCares .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

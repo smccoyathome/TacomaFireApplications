@@ -1,0 +1,49 @@
+<div>
+  <div data-width="724" data-height="407" name="frmGlobeData" data-title="Globe Data (Spreadsheet)" class="PTSProject_frmGlobeData" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmGlobeData">
+      <label id="Label1" tabindex="3" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Item Type: </label>
+      <div class="cboTypePos" id="cboTypePos">
+        <select id="cboType" tabindex="5" class="cboType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboType.ComboBoxItems, customText : cboType.CustomText, comboSelectedIndex : cboType.SelectedIndex, events : { change : cboType_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label4" tabindex="9" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Chest/Waiste Size: </label>
+      <div class="cboChstWaistPos" id="cboChstWaistPos">
+        <select id="cboChstWaist" tabindex="11" class="cboChstWaist" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboChstWaist.ComboBoxItems, customText : cboChstWaist.CustomText, comboSelectedIndex : cboChstWaist.SelectedIndex, events : { change : cboChstWaist_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label7" tabindex="15" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Color: </label>
+      <div class="cboColorPos" id="cboColorPos">
+        <select id="cboColor" tabindex="17" class="cboColor" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboColor.ComboBoxItems, customText : cboColor.CustomText, comboSelectedIndex : cboColor.SelectedIndex, events : { change : cboColor_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdClose" tabindex="22" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Exit</button>
+      <label id="Label2" tabindex="5" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Station: </label>
+      <div class="cboStationPos" id="cboStationPos">
+        <select id="cboStation" tabindex="7" class="cboStation" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboStation.ComboBoxItems, customText : cboStation.CustomText, comboSelectedIndex : cboStation.SelectedIndex, events : { change : cboStation_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label5" tabindex="11" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Length: </label>
+      <div class="cboLengthPos" id="cboLengthPos">
+        <select id="cboLength" tabindex="13" class="cboLength" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboLength.ComboBoxItems, customText : cboLength.CustomText, comboSelectedIndex : cboLength.SelectedIndex, events : { change : cboLength_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label8" tabindex="17" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Order \#: </label>
+      <div class="cboOrderPos" id="cboOrderPos">
+        <select id="cboOrder" tabindex="19" class="cboOrder" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboOrder.ComboBoxItems, customText : cboOrder.CustomText, comboSelectedIndex : cboOrder.SelectedIndex, events : { change : cboOrder_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdClear" tabindex="24" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear Filters</button>
+      <label id="Label3" tabindex="6" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">By Name: </label>
+      <input id="txtNameSearch" tabindex="10" Value="txtNameSearch" class="txtNameSearch" data-bind="value : txtNameSearch.Text, events : { change : txtNameSearch_TextChanged }, " />
+      <label id="Label6" tabindex="13" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Sleeve Length: </label>
+      <div class="cboSleevePos" id="cboSleevePos">
+        <select id="cboSleeve" tabindex="15" class="cboSleeve" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboSleeve.ComboBoxItems, customText : cboSleeve.CustomText, comboSelectedIndex : cboSleeve.SelectedIndex, events : { change : cboSleeve_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label9" tabindex="18" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Style \#: </label>
+      <div class="cboStylePos" id="cboStylePos">
+        <select id="cboStyle" tabindex="27" class="cboStyle" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboStyle.ComboBoxItems, customText : cboStyle.CustomText, comboSelectedIndex : cboStyle.SelectedIndex, events : { change : cboStyle_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdPrint" tabindex="23" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print List</button>
+      <label id="Label10" tabindex="23" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Manufactured Date: </label>
+      <div class="cboManufDatePos" id="cboManufDatePos">
+        <select id="cboManufDate" tabindex="25" class="cboManufDate" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboManufDate.ComboBoxItems, customText : cboManufDate.CustomText, comboSelectedIndex : cboManufDate.SelectedIndex, events : { change : cboManufDate_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbCount" tabindex="1" class="lbCount" data-bind="text : lbCount.Text, imagePath : lbCount.ImagePath">Total Count:  </label>
+      <div id="sprList" data-role="mobilizespread" tabindex="0" class="sprList" data-bind="widgetvalue: sprList"></div>
+    </form>
+  </div>
+</div>

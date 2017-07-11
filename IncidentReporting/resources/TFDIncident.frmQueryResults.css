@@ -1,0 +1,62 @@
+.TFDIncident_frmQueryResults {
+}
+.TFDIncident_frmQueryResults .frmQueryResults {
+	background-color: #B08C9B;
+	min-width: 756px;
+	min-height: 527px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmQueryResults .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	width: 93px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmQueryResults .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmQueryResults .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 112px;
+	top: 4px;
+	position: absolute;
+	width: 93px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmQueryResults .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmQueryResults .sprQuery {
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	left: 4px;
+	top: 36px;
+	position: absolute;
+	width: 749px;
+	height: 485px;
+}
+.TFDIncident_frmQueryResults .sprQuery .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmQueryResults .sprQuery .k-spreadsheet-action-bar {
+	display: none;
+}
+

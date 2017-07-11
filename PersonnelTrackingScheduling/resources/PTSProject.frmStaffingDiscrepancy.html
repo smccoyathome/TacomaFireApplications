@@ -1,0 +1,22 @@
+<div>
+  <div data-width="502" data-height="370" name="frmStaffingDiscrepancy" data-title="PTS -vs- CAD Staffing Discrepancy" class="PTSProject_frmStaffingDiscrepancy" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmStaffingDiscrepancy">
+      <div class="chkDateFilter">
+        <input id="chkDateFilter" tabindex="8" type="checkbox" style="float: left" data-bind="events : { click : chkDateFilter_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Filter By Dates</label>
+        </div>
+      </div>
+      <button id="cmdExit" tabindex="7" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Close</button>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtStartDate" tabindex="5" class="dtStartDate" data-bind="dateTimePickerValue : dtStartDate.Value, visible : dtStartDate.Visible, DateTimeMinDate : dtStartDate.MinDate, DateTimeMaxDate : dtStartDate.MaxDate, events : { click : dtStartDate_Click }, " />
+      <button id="cmdRefresh" tabindex="6" class="cmdRefresh" type="button" data-bind="events : { click : cmdRefresh_Click }, ">Refresh</button>
+      <label id="lbStart" tabindex="7" class="lbStart" data-bind="visible : lbStart.Visible, text : lbStart.Text, imagePath : lbStart.ImagePath">From</label>
+      <label id="lbEnd" tabindex="8" class="lbEnd" data-bind="visible : lbEnd.Visible, text : lbEnd.Text, imagePath : lbEnd.ImagePath">To</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtEndDate" tabindex="10" class="dtEndDate" data-bind="dateTimePickerValue : dtEndDate.Value, visible : dtEndDate.Visible, DateTimeMinDate : dtEndDate.MinDate, DateTimeMaxDate : dtEndDate.MaxDate, events : { click : dtEndDate_Click }, " />
+      <button id="cmdPrint" tabindex="9" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <label id="lbTotal" tabindex="9" class="lbTotal" data-bind="text : lbTotal.Text, imagePath : lbTotal.ImagePath">lbTotal</label>
+      <div id="sprReport" data-role="mobilizespread" tabindex="0" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+      <div id="sprReport2" data-role="mobilizespread" tabindex="10" class="sprReport2" data-bind="widgetvalue: sprReport2"></div>
+    </form>
+  </div>
+</div>

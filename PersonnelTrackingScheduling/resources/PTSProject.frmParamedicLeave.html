@@ -1,0 +1,17 @@
+<div>
+  <div data-width="711" data-height="692" name="frmParamedicLeave" data-title="Paramedic Leave" class="PTSProject_frmParamedicLeave" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmParamedicLeave">
+      <div class="cboYearPos" id="cboYearPos">
+        <select id="cboYear" tabindex="1" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="cboMonthPos" id="cboMonthPos">
+        <select id="cboMonth" tabindex="2" class="cboMonth" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboMonth.ComboBoxItems, customText : cboMonth.CustomText, comboSelectedIndex : cboMonth.SelectedIndex, events : { change : cboMonth_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdPrint" tabindex="6" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="5" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label3" tabindex="2" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Report Year</label>
+      <label id="Label1" tabindex="3" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Report Month</label>
+      <div id="sprMonth2" data-role="mobilizespread" tabindex="6" class="sprMonth2" data-bind="widgetvalue: sprMonth2"></div>
+    </form>
+  </div>
+</div>

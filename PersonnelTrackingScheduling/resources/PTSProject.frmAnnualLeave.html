@@ -1,0 +1,18 @@
+<div>
+  <div data-width="1003" data-height="528" name="frmAnnualLeave" data-title="Annual Leave Report" class="PTSProject_frmAnnualLeave" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmAnnualLeave">
+      <button id="cmdHold" tabindex="8" class="cmdHold" type="button" data-bind="events : { click : cmdHold_Click }, ">Place Hold</button>
+      <button id="cmdRemove" tabindex="7" class="cmdRemove" type="button" data-bind="events : { click : cmdRemove_Click }, ">Remove Hold</button>
+      <button id="cmdPrint" tabindex="1" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="2" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label4" tabindex="9" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Report Year</label>
+      <div class="cboYearPos" id="cboYearPos">
+        <select data-role="combobox" id="cboYear" tabindex="9" class="cboYear" data-text-field="Text" data-value-field="Value" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label2" tabindex="4" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Open</label>
+      <label id="Label3" tabindex="5" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">On Hold</label>
+      <label id="Label1" tabindex="3" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Closed</label>
+      <div id="sprAnnual" data-role="mobilizespread" tabindex="2" class="sprAnnual" data-bind="widgetvalue: sprAnnual"></div>
+    </form>
+  </div>
+</div>

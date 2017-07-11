@@ -1,0 +1,18 @@
+<div>
+  <div data-width="372" data-height="222" name="dlgCalcPMCSR" data-title="Paramedic CSR Calculator" class="PTSProject_dlgCalcPMCSR" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgCalcPMCSR">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"> Select Date Range: </legend>
+        <div>
+          <label id="_Label3_0" tabindex="5" index="0" class="_Label3_0" data-bind="text : _Label3_0.Text, imagePath : _Label3_0.ImagePath">Start:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtStart" tabindex="2" class="dtStart" data-bind="dateTimePickerValue : dtStart.Value, DateTimeMinDate : dtStart.MinDate, DateTimeMaxDate : dtStart.MaxDate" />
+          <button id="CancelButton_Renamed" tabindex="6" class="CancelButton_Renamed" type="button" data-bind="events : { click : CancelButton_Renamed_Click }, ">Exit</button>
+          <label id="_Label3_1" tabindex="4" index="1" class="_Label3_1" data-bind="text : _Label3_1.Text, imagePath : _Label3_1.ImagePath">End:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtEnd" tabindex="3" class="dtEnd" data-bind="dateTimePickerValue : dtEnd.Value, DateTimeMinDate : dtEnd.MinDate, DateTimeMaxDate : dtEnd.MaxDate" />
+        </div>
+      </fieldset>
+      <button id="cmdCalculate" tabindex="1" class="cmdCalculate" type="button" data-bind="events : { click : cmdCalculate_Click }, ">Calculate the % of shifts worked by Paramedic CSRs that were on a Medic Unit or ALS Engine</button>
+      <label id="lbResult" tabindex="7" class="lbResult" data-bind="visible : lbResult.Visible, text : lbResult.Text, imagePath : lbResult.ImagePath">lbResult</label>
+    </form>
+  </div>
+</div>

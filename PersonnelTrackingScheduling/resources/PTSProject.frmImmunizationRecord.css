@@ -1,0 +1,102 @@
+.PTSProject_frmImmunizationRecord {
+}
+.PTSProject_frmImmunizationRecord .frmImmunizationRecord {
+	background-color: #400040;
+	min-width: 769px;
+	min-height: 525px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmImmunizationRecord .Label1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.PTSProject_frmImmunizationRecord .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	left: 512px;
+	top: 16px;
+	position: absolute;
+	width: 121px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunizationRecord .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunizationRecord .cmbClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	left: 648px;
+	top: 16px;
+	position: absolute;
+	width: 113px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunizationRecord .cmbClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunizationRecord .cboEmpList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 441px;
+	height: 25px;
+}
+.PTSProject_frmImmunizationRecord .cboEmpList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunizationRecord .cboEmpListPos {
+	top: 24px;
+	left: 8px;
+	position: absolute;
+	width: 441px;
+	height: 25px;
+}
+.PTSProject_frmImmunizationRecord .lbEmpID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 456px;
+	top: 32px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmImmunizationRecord .sprReport {
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 753px;
+	height: 449px;
+}
+.PTSProject_frmImmunizationRecord .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmImmunizationRecord .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

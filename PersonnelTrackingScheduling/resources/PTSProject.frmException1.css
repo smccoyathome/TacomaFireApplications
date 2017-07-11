@@ -1,0 +1,84 @@
+.PTSProject_frmException1 {
+}
+.PTSProject_frmException1 .frmException1 {
+	background-color: Teal;
+	min-width: 636px;
+	min-height: 478px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmException1 .calDate {
+	font-family: Arial;
+	font-size: 12.6px;
+}
+.PTSProject_frmException1 .calDate.k-datepicker {
+	left: 140px;
+	top: 8px;
+	position: absolute;
+	width: 121px;
+	height: 24px;
+}
+.PTSProject_frmException1 .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 286px;
+	top: 8px;
+	position: absolute;
+	width: 83px;
+	height: 28px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmException1 .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmException1 .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 375px;
+	top: 8px;
+	position: absolute;
+	width: 83px;
+	height: 28px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmException1 .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmException1 .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 10px;
+	position: absolute;
+	width: 131px;
+	height: 23px;
+}
+.PTSProject_frmException1 .sprExcept {
+	left: 4px;
+	top: 39px;
+	position: absolute;
+	width: 628px;
+	height: 436px;
+}
+.PTSProject_frmException1 .sprExcept .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmException1 .sprExcept .k-spreadsheet-action-bar {
+	display: none;
+}
+

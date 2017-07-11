@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildThisFileDirectory)\..\..\GlobalItems\WebMapHelpers.properties" />
+  <!-- This tasks is used to embed scripts and content elements -->
+  <Target Name="AddResources" DependsOnTargets="CompileTypeScript">
+    <ItemGroup>
+      <Resource Include="scripts\**\*.*" />
+      <Resource Include="resources\**\*.*" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{5FBB9B96-D57A-4F38-820D-679A0794C523}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="resources\bootstrap.min.css" />
+    <Content Include="resources\Bootstrap\sprite.png" />
+    <Content Include="resources\Default\editor.png" />
+    <Content Include="resources\Default\imagebrowser.png" />
+    <Content Include="resources\Default\indeterminate.gif" />
+    <Content Include="resources\Default\loading-image.gif" />
+    <Content Include="resources\Default\loading.gif" />
+    <Content Include="resources\Default\loading_2x.gif" />
+    <Content Include="resources\Default\markers.png" />
+    <Content Include="resources\Default\markers_2x.png" />
+    <Content Include="resources\Default\slider-h.gif" />
+    <Content Include="resources\Default\slider-v.gif" />
+    <Content Include="resources\Default\sprite.png" />
+    <Content Include="resources\Default\sprite_2x.png" />
+    <Content Include="resources\Default\sprite_kpi.png" />
+    <Content Include="resources\Default\sprite_kpi_2x.png" />
+    <Content Include="resources\images\wmmberror.png" />
+    <Content Include="resources\images\wmmbinfo.png" />
+    <Content Include="resources\images\wmmbwarning.png" />
+    <Content Include="resources\kendo.bootstrap.min.css" />
+    <Content Include="resources\kendo.common-bootstrap.min.css" />
+    <Content Include="resources\kendo.common.css" />
+    <Content Include="resources\kendo.common.min.css" />
+    <Content Include="resources\kendo.default.css" />
+    <Content Include="resources\kendo.default.min.css" />
+    <Content Include="resources\progress-polyfill.css" />
+    <Content Include="resources\site.css" />
+    <Content Include="resources\textures\brushed-metal.png" />
+    <Content Include="resources\textures\dots1.png" />
+    <Content Include="resources\textures\dots10.png" />
+    <Content Include="resources\textures\dots11.png" />
+    <Content Include="resources\textures\dots12.png" />
+    <Content Include="resources\textures\dots13.png" />
+    <Content Include="resources\textures\dots2.png" />
+    <Content Include="resources\textures\dots3.png" />
+    <Content Include="resources\textures\dots4.png" />
+    <Content Include="resources\textures\dots5.png" />
+    <Content Include="resources\textures\dots6.png" />
+    <Content Include="resources\textures\dots7.png" />
+    <Content Include="resources\textures\dots8.png" />
+    <Content Include="resources\textures\dots9.png" />
+    <Content Include="resources\textures\glass-lighter.png" />
+    <Content Include="resources\textures\glass.png" />
+    <Content Include="resources\textures\highlight.png" />
+    <Content Include="resources\textures\hsv-gradient.png" />
+    <Content Include="resources\textures\hue.png" />
+    <Content Include="resources\textures\leather1.png" />
+    <Content Include="resources\textures\leather2.png" />
+    <Content Include="resources\textures\noise.png" />
+    <Content Include="resources\textures\stripe1.png" />
+    <Content Include="resources\textures\stripe2.png" />
+    <Content Include="resources\textures\stripe3.png" />
+    <Content Include="resources\textures\stripe4.png" />
+    <Content Include="resources\textures\stripe5.png" />
+    <Content Include="resources\textures\stripe6.png" />
+    <Content Include="resources\textures\transparency.png" />
+    <Content Include="resources\textures\transtexture.png" />
+    <Content Include="scripts\css.js" />
+    <Content Include="scripts\helpers\jquery.blockUI.d.ts" />
+    <Content Include="scripts\helpers\jquery.caret.1.02.js" />
+    <Content Include="scripts\helpers\jquery.caret.d.ts" />
+    <Content Include="scripts\helpers\jquery.caret.js" />
+    <Content Include="scripts\helpers\jquery.d.ts" />
+    <Content Include="scripts\helpers\kendo.all.d.ts" />
+    <Content Include="scripts\helpers\kendo.listbox.js" />
+    <Content Include="scripts\jquery.js" />
+    <Content Include="scripts\jqueryUI.js" />
+    <Content Include="scripts\kendo.web.js" />
+    <Content Include="scripts\kendo.web.min.js" />
+    <Content Include="scripts\require.js" />
+    <Content Include="scripts\text.js" />
+    <TypeScriptCompile Include="scripts\helpers\jqueryUI.ts" />
+    <TypeScriptCompile Include="scripts\helpers\MobilizeObservableObject.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_Enums.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_FileDialogCommandHandler.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_IClientTypeBehaviour.ts" />
+    <TypeScriptCompile Include="scripts\helpers\require.d.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_ClientTypeBehaviorManager.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_CommandHandlerManager.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_BaseUserControl.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_DynamicEventClientTypeBehavior.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_InputBoxCommandHandler.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_InvokeActionCommandHandler.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_KendoWidgetMappings.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_LookAndFeel.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_MessageBoxCommandHandler.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_PluginCommandHandler.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_Utils.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_Container.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_Data.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_App.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_DeltaTracker.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_ViewManager.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_StateManager.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_ViewState.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_BaseLogic.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_Interfaces.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap.ts" />
+    <TypeScriptCompile Include="scripts\helpers\UpgradeHelpers.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_WebMapRequest.ts" />
+    <TypeScriptCompile Include="scripts\helpers\WebMap_WebMapResponse.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scripts\kendo.web.min.js.map" />
+    <None Include="UpgradeHelpers.WebMap.Client.nuspec" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>UpgradeHelpers.WebMap.Client</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildThisFileDirectory)\..\..\GlobalItems\WebMapHelpers.targets" />
+  <PropertyGroup>
+    <PrepareForBuildDependsOn>AddResources;@(PrepareForBuildDependsOn)</PrepareForBuildDependsOn>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions />
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptIncludeComments>true</TypeScriptIncludeComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <TypeScriptOutFile>scripts\helpers\WebMap.all.js</TypeScriptOutFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptIncludeComments>false</TypeScriptIncludeComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <TypeScriptOutFile>scripts\helpers\WebMap.all.js</TypeScriptOutFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
+</Project>

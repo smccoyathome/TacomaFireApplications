@@ -1,0 +1,2237 @@
+.TFDIncident_wzdHazmat {
+}
+.TFDIncident_wzdHazmat .wzdHazmat {
+	background-color: #404040;
+	min-width: 1000px;
+	min-height: 700px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 17.28px;
+}
+.TFDIncident_wzdHazmat .wzdHazmat:enabled {
+	color: #FFE0C0;
+}
+.TFDIncident_wzdHazmat .lbLocationTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: #E0E0E0;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 77px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbLocation {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: White;
+	left: 84px;
+	top: 0px;
+	position: absolute;
+	width: 389px;
+	height: 21px;
+}
+.TFDIncident_wzdHazmat .lbIncidentNoTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: #E0E0E0;
+	left: 488px;
+	top: 0px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbIncidentNo {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: White;
+	left: 588px;
+	top: 0px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbUnitTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: #E0E0E0;
+	left: 712px;
+	top: 0px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbUnit {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: White;
+	left: 756px;
+	top: 0px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .frmHazmatType {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	width: 1000px;
+	height: 640px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdHazmat .frmHazmatType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._imgMain_6 {
+	border-style: inset;
+	cursor: default;
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background-size: 100% 100%;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat ._lbFrameTitle_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	/* font-weight: bold; */
+	/* font-style: italic; */
+	color: Black;
+	left: 30px;
+	top: 10px;
+	position: absolute;
+	width: 429px;
+	height: 41px;
+}
+.TFDIncident_wzdHazmat .frmType {
+	background-color: white;
+	left: 30px;
+	top: 48px;
+	position: absolute;
+	width: 385px;
+	height: 217px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdHazmat .frmType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._optType_0 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	left: 20px;
+	top: 20px;
+	position: absolute;
+	width: 325px;
+	height: 33px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdHazmat ._optType_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._optType_0 * {
+	Cursor: default;
+}
+.TFDIncident_wzdHazmat ._optType_1 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	left: 20px;
+	top: 68px;
+	position: absolute;
+	width: 333px;
+	height: 33px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdHazmat ._optType_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._optType_1 * {
+	Cursor: default;
+}
+.TFDIncident_wzdHazmat ._optType_2 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	left: 20px;
+	top: 116px;
+	position: absolute;
+	width: 309px;
+	height: 33px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdHazmat ._optType_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._optType_2 * {
+	Cursor: default;
+}
+.TFDIncident_wzdHazmat ._optType_3 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	left: 20px;
+	top: 164px;
+	position: absolute;
+	width: 317px;
+	height: 33px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdHazmat ._optType_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._optType_3 * {
+	Cursor: default;
+}
+.TFDIncident_wzdHazmat .frmType_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdHazmat .Label5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: Black;
+	left: 450px;
+	top: 50px;
+	position: absolute;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .cboHazmatIDSource {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 369px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboHazmatIDSource:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboHazmatIDSourcePos {
+	top: 80px;
+	left: 450px;
+	position: absolute;
+	width: 369px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .Label6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: Black;
+	left: 30px;
+	top: 300px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lstActionsTaken {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: saddlebrown;
+	left: 30px;
+	top: 325px;
+	position: absolute;
+	width: 600px;
+	height: 160px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .frmReportStatus {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	width: 1000px;
+	height: 640px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdHazmat .frmReportStatus:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._imgMain_1 {
+	border-style: inset;
+	cursor: default;
+	left: 16px;
+	top: 8px;
+	position: absolute;
+	width: 193px;
+	height: 197px;
+	background-size: 100% 100%;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat ._lbFrameTitle_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #404040;
+	left: 20px;
+	top: 8px;
+	position: absolute;
+	width: 545px;
+	height: 41px;
+}
+.TFDIncident_wzdHazmat .lbIncidentNumberTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #404040;
+	left: 20px;
+	top: 52px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbRSIncidentNumber {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 230px;
+	top: 52px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .Label9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #404040;
+	left: 20px;
+	top: 92px;
+	position: absolute;
+	width: 173px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbRSCurrReportType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 230px;
+	top: 92px;
+	position: absolute;
+	width: 421px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbReportByTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #404040;
+	left: 20px;
+	top: 132px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbRSReportedBy {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 230px;
+	top: 132px;
+	position: absolute;
+	width: 281px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbRSEmployeeID {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 230px;
+	top: 156px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbRSPosition {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 310px;
+	top: 156px;
+	position: absolute;
+	width: 389px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .Label7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #404040;
+	left: 20px;
+	top: 180px;
+	position: absolute;
+	width: 165px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbRSUnit {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 230px;
+	top: 180px;
+	position: absolute;
+	width: 80px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbRSShift {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: #597041;
+	left: 330px;
+	top: 180px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .Label8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	color: #404040;
+	left: 20px;
+	top: 250px;
+	position: absolute;
+	width: 365px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lstMessage {
+	background-color: blanchedalmond;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-style: italic; */
+	color: saddlebrown;
+	left: 20px;
+	top: 280px;
+	position: absolute;
+	width: 481px;
+	height: 263px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cmdSave {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 508px;
+	top: 280px;
+	position: absolute;
+	width: 273px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .cmdSave:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .cmdSaveIncomplete {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 508px;
+	top: 340px;
+	position: absolute;
+	width: 273px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .cmdSaveIncomplete:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .cmdAbandon {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 508px;
+	top: 400px;
+	position: absolute;
+	width: 273px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .cmdAbandon:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .frmNarration {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	width: 1000px;
+	height: 640px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdHazmat .frmNarration:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._lbFrameTitle_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: Black;
+	left: 20px;
+	top: 4px;
+	position: absolute;
+	width: 489px;
+	height: 41px;
+}
+.TFDIncident_wzdHazmat ._imgMain_7 {
+	border-style: inset;
+	cursor: default;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 197px;
+	height: 197px;
+	background-size: 100% 100%;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .lbDispOfRelease {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 20px;
+	top: 48px;
+	position: absolute;
+	width: 350px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .cboDisposition {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 400px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboDisposition:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboDispositionPos {
+	top: 72px;
+	left: 20px;
+	position: absolute;
+	width: 341px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .Frame2 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 20px;
+	top: 120px;
+	position: absolute;
+	width: 700px;
+	height: 240px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdHazmat .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .cboOutsideResource {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 425px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboOutsideResource:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboOutsideResourcePos {
+	top: 25px;
+	left: 148px;
+	position: absolute;
+	width: 425px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 30px;
+	position: absolute;
+	width: 181px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .cboResourceUse {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 425px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboResourceUse:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboResourceUsePos {
+	top: 65px;
+	left: 148px;
+	position: absolute;
+	width: 425px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 70px;
+	position: absolute;
+	width: 181px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .cmdAddResource {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 10px;
+	top: 110px;
+	position: absolute;
+	width: 145px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .cmdAddResource:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .lstOutsideResource {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 180px;
+	top: 110px;
+	position: absolute;
+	width: 450px;
+	height: 110px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cmdRemoveResource {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 10px;
+	top: 170px;
+	position: absolute;
+	width: 150px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .cmdRemoveResource:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdHazmat ._lbFrameTitle_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 20px;
+	top: 375px;
+	position: absolute;
+	width: 401px;
+	height: 33px;
+}
+.TFDIncident_wzdHazmat .rtxNarration {
+	background-color: White;
+	font-family: Verdana;
+	font-size: medium;
+	left: 20px;
+	top: 400px;
+	position: absolute;
+	overflow: auto;
+	width: 900px;
+	height: 165px;
+}
+.TFDIncident_wzdHazmat .frmDrugLab {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdHazmat .frmDrugLab:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._imgMain_12 {
+	border-style: inset;
+	cursor: default;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 205px;
+	height: 201px;
+	background-size: 100% 100%;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat ._lbFrameTitle_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: Black;
+	left: 20px;
+	top: 8px;
+	position: absolute;
+	width: 553px;
+	height: 41px;
+}
+.TFDIncident_wzdHazmat .lbDrugLabType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 20px;
+	top: 68px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cboDrugLabType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 250px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboDrugLabType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboDrugLabTypePos {
+	top: 92px;
+	left: 20px;
+	position: absolute;
+	width: 225px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbFireServiceMaterialTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 16px;
+	top: 150px;
+	position: absolute;
+	width: 305px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cboMaterialUsed {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 400px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboMaterialUsed:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboMaterialUsedPos {
+	top: 175px;
+	left: 16px;
+	position: absolute;
+	width: 361px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbQuantity {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 450px;
+	top: 185px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .txtQuantity {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 560px;
+	top: 180px;
+	position: absolute;
+	width: 101px;
+	height: 24px;
+}
+.TFDIncident_wzdHazmat .txtQuantity:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .lstMaterialUsed {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: #597041;
+	left: 20px;
+	top: 268px;
+	position: absolute;
+	width: 550px;
+	height: 183px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cmdAddMaterial {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 608px;
+	top: 276px;
+	position: absolute;
+	width: 193px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .cmdAddMaterial:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .cmdRemoveMaterial {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	left: 608px;
+	top: 324px;
+	position: absolute;
+	width: 193px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .cmdRemoveMaterial:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .frmChemicalDetail {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	width: 1000px;
+	height: 640px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdHazmat .frmChemicalDetail:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._lbFrameTitle_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: Black;
+	left: 10px;
+	top: 4px;
+	position: absolute;
+	width: 325px;
+	height: 33px;
+}
+.TFDIncident_wzdHazmat .Frame1 {
+	background-color: white;
+	font-family: Verdana;
+	font-size: medium;
+	left: 10px;
+	top: 36px;
+	position: absolute;
+	width: 900px;
+	height: 110px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_wzdHazmat .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .lbChemicalID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 600px;
+	top: 16px;
+	position: absolute;
+	width: 85px;
+	height: 17px;
+	visibility: hidden;
+}
+.TFDIncident_wzdHazmat .lbCommonChemicals {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 15px;
+	top: 30px;
+	position: absolute;
+	width: 257px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbChemicalName {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 250px;
+	top: 30px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbUN {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 740px;
+	top: 30px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cboCommonChemicals {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 217px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboCommonChemicals:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboCommonChemicalsPos {
+	top: 50px;
+	left: 12px;
+	position: absolute;
+	width: 217px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .cboChemicalName {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 470px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboChemicalName:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboChemicalNamePos {
+	top: 50px;
+	left: 250px;
+	position: absolute;
+	width: 457px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .cboUN {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 110px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboUN:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboUNPos {
+	top: 50px;
+	left: 740px;
+	position: absolute;
+	width: 110px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+
+.TFDIncident_wzdHazmat .lbContainerType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 165px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbPhyStateStored {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 315px;
+	position: absolute;
+	width: 265px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cboPhysicalStateStored {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 289px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboPhysicalStateStored:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboPhysicalStateStoredPos {
+	top: 310px;
+	left: 270px;
+	position: absolute;
+	width: 289px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .cboContainerType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 250px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboContainerType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboContainerTypePos {
+	top: 160px;
+	left: 270px;
+	position: absolute;
+	width: 313px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbPhyStateReleased {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 365px;
+	position: absolute;
+	width: 281px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbContainerCapUnits {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 215px;
+	position: absolute;
+	width: 289px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cboPhysicalStateReleased {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 289px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboPhysicalStateReleased:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboPhysicalStateReleasedPos {
+	top: 360px;
+	left: 270px;
+	position: absolute;
+	width: 289px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .cboContainerCapacityUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 181px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboContainerCapacityUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboContainerCapacityUnitsPos {
+	top: 210px;
+	left: 270px;
+	position: absolute;
+	width: 181px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .txtEstContainerCapacity {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 710px;
+	top: 210px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .txtEstContainerCapacity:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .lbEstContainerCap {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 470px;
+	top: 215px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbPrimaryReleasedInto {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 415px;
+	position: absolute;
+	width: 257px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cboPrimaryReleasedInto {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 289px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboPrimaryReleasedInto:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboPrimaryReleasedIntoPos {
+	top: 410px;
+	left: 270px;
+	position: absolute;
+	width: 289px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 265px;
+	position: absolute;
+	width: 249px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cboAmountReleasedUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 181px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboAmountReleasedUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboAmountReleasedUnitsPos {
+	top: 260px;
+	left: 270px;
+	position: absolute;
+	width: 181px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbSecondReleasedInto {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 465px;
+	position: absolute;
+	width: 281px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .txtEstAmountReleased {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 710px;
+	top: 260px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .txtEstAmountReleased:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboSecondaryReleasedInto {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 289px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboSecondaryReleasedInto:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboSecondaryReleasedIntoPos {
+	top: 460px;
+	left: 270px;
+	position: absolute;
+	width: 289px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbEstAmountReleased {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 470px;
+	top: 265px;
+	position: absolute;
+	width: 205px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cmdMoreChemicals {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 50px;
+	top: 550px;
+	position: absolute;
+	width: 300px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .cmdMoreChemicals:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat .frmHazReleaseInfo {
+	background-color: white;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	width: 1000px;
+	height: 630px;
+	visibility: inherit;
+	overflow: hidden;
+}
+.TFDIncident_wzdHazmat .frmHazReleaseInfo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._lbFrameTitle_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+	/* font-style: italic; */
+	color: #404040;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 572px;
+	height: 33px;
+}
+.TFDIncident_wzdHazmat .Label2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 10px;
+	top: 40px;
+	position: absolute;
+	width: 385px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .cboIncidentType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 350px;
+	height: 23px;
+	visibility: inherit;
+	color: saddlebrown;
+}
+.TFDIncident_wzdHazmat .cboIncidentType:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboIncidentTypePos {
+	top: 35px;
+	left: 240px;
+	position: absolute;
+	width: 300px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .frmOccuredFirst {
+	background-color: ghostwhite;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 650px;
+	top: 30px;
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	visibility: inherit;
+	border: 2px groove;
+	color: saddlebrown;
+}
+.TFDIncident_wzdHazmat .frmOccuredFirst:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_0 {
+	background-color: ghostwhite;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	/* color: saddlebrown; */
+	left: 20px;
+	top: 20px;
+	position: absolute;
+	width: 69px;
+	height: 33px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_0:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_0 * {
+	Cursor: default;
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_1 {
+	background-color: ghostwhite;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 20px;
+	top: 50px;
+	position: absolute;
+	width: 120px;
+	height: 33px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_1:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_1 * {
+	Cursor: default;
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_2 {
+	background-color: ghostwhite;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 20px;
+	top: 80px;
+	position: absolute;
+	width: 200px;
+	height: 33px;
+	visibility: inherit;
+	cursor: default;
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_2:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat ._optOccurredFirst_2 * {
+	Cursor: default;
+}
+.TFDIncident_wzdHazmat .frmOccuredFirst_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_wzdHazmat .lbGenPropUse {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 12px;
+	top: 85px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .cboGeneralPropertyUse {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 350px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .cboGeneralPropertyUse:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboGeneralPropertyUsePos {
+	top: 80px;
+	left: 240px;
+	position: absolute;
+	width: 250px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbSpecPropUse {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 12px;
+	top: 130px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .cboAreaAffectedUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 150px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboAreaAffectedUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboAreaAffectedUnitsPos {
+	top: 300px;
+	left: 220px;
+	position: absolute;
+	width: 137px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbAreaAffectUnits {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 12px;
+	top: 310px;
+	position: absolute;
+	width: 200px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .cboSpecificPropertyUse {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 350px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboSpecificPropertyUse:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboSpecificPropertyUsePos {
+	top: 125px;
+	left: 240px;
+	position: absolute;
+	width: 300px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .txtAreaAffected {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 530px;
+	top: 305px;
+	position: absolute;
+	width: 50px;
+	height: 24px;
+}
+.TFDIncident_wzdHazmat .txtAreaAffected:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .lbAreaOrigin {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 12px;
+	top: 172px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbAreaAffect {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 380px;
+	top: 310px;
+	position: absolute;
+	width: 140px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .cboAreaOfOrigin {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 350px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboAreaOfOrigin:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboAreaOfOriginPos {
+	top: 170px;
+	left: 240px;
+	position: absolute;
+	width: 389px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .cboAreaEvacuatedUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 150px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboAreaEvacuatedUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboAreaEvacuatedUnitsPos {
+	top: 340px;
+	left: 220px;
+	position: absolute;
+	width: 137px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbAreaEvacUnits {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 12px;
+	top: 350px;
+	position: absolute;
+	width: 210px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbCauseOfRelease {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 12px;
+	top: 220px;
+	position: absolute;
+	width: 225px;
+	height: 33px;
+}
+.TFDIncident_wzdHazmat .txtAreaEvacuated {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 530px;
+	top: 340px;
+	position: absolute;
+	width: 50px;
+	height: 24px;
+}
+.TFDIncident_wzdHazmat .txtAreaEvacuated:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboCauseOfRelease {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 330px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboCauseOfRelease:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboCauseOfReleasePos {
+	top: 215px;
+	left: 200px;
+	position: absolute;
+	width: 389px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbAreaEvac {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 380px;
+	top: 350px;
+	position: absolute;
+	width: 150px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbReleaseFloor {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 12px;
+	top: 265px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .lbStreetClass {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 550px;
+	top: 220px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_wzdHazmat .txtReleaseFloor {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 160px;
+	top: 264px;
+	position: absolute;
+	width: 50px;
+	height: 24px;
+}
+.TFDIncident_wzdHazmat .txtReleaseFloor:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboStreetClass {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 200px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .cboStreetClass:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboStreetClassPos {
+	top: 215px;
+	left: 700px;
+	position: absolute;
+	width: 350px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .cboPopulationDensity {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	width: 360px;
+	height: 23px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .cboPopulationDensity:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .cboPopulationDensityPos {
+	top: 385px;
+	left: 200px;
+	position: absolute;
+	width: 189px;
+	height: 23px;
+}
+.TFDIncident_wzdHazmat .lbPopDensity {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 12px;
+	top: 390px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbContribFactors {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 750px;
+	top: 375px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .txtPeopleEvacuated {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 450px;
+	top: 260px;
+	position: absolute;
+	width: 50px;
+	height: 24px;
+}
+.TFDIncident_wzdHazmat .txtPeopleEvacuated:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .lbPeopleEvac {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 270px;
+	top: 265px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lstContributingFactors {
+	background-color: White;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: saddlebrown;
+	left: 580px;
+	top: 400px;
+	position: absolute;
+	width: 390px;
+	height: 90px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .txtBuildingsEvacuated {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	font-family: Verdana;
+	font-size: medium;
+	left: 760px;
+	top: 260px;
+	position: absolute;
+	width: 50px;
+	height: 24px;
+}
+.TFDIncident_wzdHazmat .txtBuildingsEvacuated:enabled {
+	color: #597041;
+}
+.TFDIncident_wzdHazmat .lbBldgEvac {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 550px;
+	top: 265px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lbEquipInvolved {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 755px;
+	top: 505px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lstEquipmentInvolved {
+	background-color: White;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: saddlebrown;
+	left: 580px;
+	top: 530px;
+	position: absolute;
+	width: 390px;
+	height: 90px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .lbMitigatingFactors {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Black;
+	left: 16px;
+	top: 445px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.TFDIncident_wzdHazmat .lstMitigatingFactors {
+	background-color: White;
+	border-style: inset;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	color: saddlebrown;
+	left: 16px;
+	top: 470px;
+	position: absolute;
+	width: 450px;
+	height: 110px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat .NavBar {
+	background-color: #404040;
+	border-style: inset;
+	cursor: default;
+	left: 0px;
+	top: 660px;
+	position: absolute;
+	width: 1000px;
+	height: 40px;
+	visibility: inherit;
+}
+.TFDIncident_wzdHazmat ._NavButton_0 {
+	left: 212px;
+	top: 0px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+	color: black;
+}
+.TFDIncident_wzdHazmat ._NavButton_1 {
+	left: 324px;
+	top: 0px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat ._NavButton_2 {
+	left: 452px;
+	top: 0px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat ._NavButton_3 {
+	left: 592px;
+	top: 0px;
+	position: absolute;
+	width: 121px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat ._NavButton_4 {
+	left: 716px;
+	top: 0px;
+	position: absolute;
+	width: 93px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_wzdHazmat .Label23 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: #E0E0E0;
+	left: 0px;
+	top: 4px;
+	position: absolute;
+	width: 209px;
+	height: 25px;
+}
+

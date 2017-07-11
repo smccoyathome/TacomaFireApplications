@@ -1,0 +1,60 @@
+.TFDIncident_frmFieldReport {
+}
+.TFDIncident_frmFieldReport .frmFieldReport {
+	background-color: #7B9B7E;
+	min-width: 756px;
+	min-height: 527px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmFieldReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	width: 93px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFieldReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFieldReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 112px;
+	top: 4px;
+	position: absolute;
+	width: 93px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFieldReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFieldReport .sprQuery {
+	left: 4px;
+	top: 36px;
+	position: absolute;
+	width: 741px;
+	height: 477px;
+}
+.TFDIncident_frmFieldReport .sprQuery .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmFieldReport .sprQuery .k-spreadsheet-action-bar {
+	display: none;
+}
+

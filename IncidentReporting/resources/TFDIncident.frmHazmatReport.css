@@ -1,0 +1,1845 @@
+.TFDIncident_frmHazmatReport {
+}
+.TFDIncident_frmHazmatReport .frmHazmatReport {
+	background-color: Gray;
+	min-width: 814px;
+	min-height: 544px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 11.52px;
+	font-weight: bold;
+}
+.TFDIncident_frmHazmatReport .cmdMoreChemicals {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: -1608px;
+	top: -1248px;
+	position: absolute;
+	width: 341px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport .cmdMoreChemicals:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lbChemDetailID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: -1536px;
+	top: -888px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	visibility: hidden;
+}
+.TFDIncident_frmHazmatReport .picHazmatBar {
+	background-color: #004040;
+	border-style: inset;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 814px;
+	height: 45px;
+}
+.TFDIncident_frmHazmatReport .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: #FFE0C0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	text-align: right;
+}
+.TFDIncident_frmHazmatReport .lbIncident {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: White;
+	left: 100px;
+	top: 0px;
+	position: absolute;
+	width: 133px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport ._cmdSave_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 276px;
+	top: 0px;
+	position: absolute;
+	width: 61px;
+	height: 44px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport ._cmdSave_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport ._cmdSave_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 336px;
+	top: 0px;
+	position: absolute;
+	width: 161px;
+	height: 44px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport ._cmdSave_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport ._cmdSave_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 496px;
+	top: 0px;
+	position: absolute;
+	width: 177px;
+	height: 44px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport ._cmdSave_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport ._cmdSave_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 672px;
+	top: 0px;
+	position: absolute;
+	width: 141px;
+	height: 44px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport ._cmdSave_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lbLockedMessage {
+	background-color: #FFFFC0;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #C04000;
+	left: 336px;
+	top: 4px;
+	position: absolute;
+	width: 337px;
+	height: 29px;
+	text-align: center;
+}
+.TFDIncident_frmHazmatReport .lbLocation {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: White;
+	left: 0px;
+	top: 16px;
+	position: absolute;
+	width: 333px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .tabHazmat {
+	left: 0px;
+	top: 40px;
+	position: absolute;
+	min-width: 814px;
+	min-height: 504px;
+	outline-style: none;
+}
+.TFDIncident_frmHazmatReport .tabPage1 {
+	background-color: #E3D9AC;
+	width: 806px;
+	height: 475px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmHazmatReport .Frame3 {
+	background-color: #E3D9AC;
+	left: 8px;
+	top: 12px;
+	position: absolute;
+	width: 796px;
+	height: 237px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 385px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboIncidentType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 557px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboIncidentType:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboIncidentTypePos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 557px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 368px;
+	top: 60px;
+	position: absolute;
+	width: 453px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 76px;
+	position: absolute;
+	width: 453px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lstActionsTaken {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 368px;
+	top: 80px;
+	position: absolute;
+	width: 417px;
+	height: 147px;
+}
+.TFDIncident_frmHazmatReport .cboHazmatIDSource {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 353px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboHazmatIDSource:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboHazmatIDSourcePos {
+	top: 92px;
+	left: 8px;
+	position: absolute;
+	width: 353px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbDispOfRelease {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 124px;
+	position: absolute;
+	width: 389px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboDisposition {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 353px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboDisposition:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboDispositionPos {
+	top: 144px;
+	left: 8px;
+	position: absolute;
+	width: 353px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .Frame2 {
+	background-color: #E3D9AC;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 8px;
+	top: 260px;
+	position: absolute;
+	width: 796px;
+	height: 209px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 12px;
+	top: 20px;
+	position: absolute;
+	width: 181px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboOutsideResource {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 669px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboOutsideResource:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboOutsideResourcePos {
+	top: 20px;
+	left: 112px;
+	position: absolute;
+	width: 669px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 12px;
+	top: 52px;
+	position: absolute;
+	width: 181px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboResourceUse {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 669px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboResourceUse:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboResourceUsePos {
+	top: 52px;
+	left: 112px;
+	position: absolute;
+	width: 669px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cmdAddResource {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 20px;
+	top: 88px;
+	position: absolute;
+	width: 181px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport .cmdAddResource:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lstOutsideResource {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 220px;
+	top: 88px;
+	position: absolute;
+	width: 557px;
+	height: 108px;
+}
+.TFDIncident_frmHazmatReport .cmdRemoveResource {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 20px;
+	top: 140px;
+	position: absolute;
+	width: 181px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport .cmdRemoveResource:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .tabPage2 {
+	background-color: #E3D9AC;
+	width: 806px;
+	height: 475px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmHazmatReport .Frame4 {
+	background-color: #E3D9AC;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 445px;
+	height: 481px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lbGenPropUse {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 16px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboGeneralPropertyUse {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 429px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboGeneralPropertyUse:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboGeneralPropertyUsePos {
+	top: 32px;
+	left: 4px;
+	position: absolute;
+	width: 429px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbSpecPropUse {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 60px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboSpecificPropertyUse {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 429px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboSpecificPropertyUse:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboSpecificPropertyUsePos {
+	top: 79px;
+	left: 4px;
+	position: absolute;
+	width: 429px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbAreaOrigin {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 108px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboAreaOfOrigin {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 429px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboAreaOfOrigin:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboAreaOfOriginPos {
+	top: 126px;
+	left: 4px;
+	position: absolute;
+	width: 429px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbCauseOfRelease {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 156px;
+	position: absolute;
+	width: 225px;
+	height: 33px;
+}
+.TFDIncident_frmHazmatReport .cboCauseOfRelease {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 429px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboCauseOfRelease:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboCauseOfReleasePos {
+	top: 172px;
+	left: 4px;
+	position: absolute;
+	width: 429px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbReleaseFloor {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 212px;
+	position: absolute;
+	width: 133px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .txtReleaseFloor {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 140px;
+	top: 212px;
+	position: absolute;
+	width: 129px;
+	height: 24px;
+}
+.TFDIncident_frmHazmatReport .txtReleaseFloor:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboStreetClass {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 293px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboStreetClass:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboStreetClassPos {
+	top: 212px;
+	left: 140px;
+	position: absolute;
+	width: 293px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbStreetClass {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 216px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbContribFactors {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 248px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .lstContributingFactors {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #57665C;
+	left: 4px;
+	top: 268px;
+	position: absolute;
+	width: 429px;
+	height: 82px;
+}
+.TFDIncident_frmHazmatReport .lbMitigatingFactors {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 356px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .lstMitigatingFactors {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 4px;
+	top: 376px;
+	position: absolute;
+	width: 429px;
+	height: 95px;
+}
+.TFDIncident_frmHazmatReport .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .frmOccuredFirst {
+	background-color: #E3D9AC;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 451px;
+	top: 4px;
+	position: absolute;
+	width: 345px;
+	height: 53px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .frmOccuredFirst:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_0 {
+	background-color: #E3D9AC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 69px;
+	height: 33px;
+	cursor: default;
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_0:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_1 {
+	background-color: #E3D9AC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 72px;
+	top: 16px;
+	position: absolute;
+	width: 113px;
+	height: 33px;
+	cursor: default;
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_2 {
+	background-color: #E3D9AC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 184px;
+	top: 16px;
+	position: absolute;
+	width: 157px;
+	height: 33px;
+	cursor: default;
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_2:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport ._optOccurredFirst_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmHazmatReport .frmOccuredFirst_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .Frame5 {
+	background-color: #E3D9AC;
+	left: 451px;
+	top: 63px;
+	position: absolute;
+	width: 345px;
+	height: 413px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lbAreaAffectUnits {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboAreaAffectedUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboAreaAffectedUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboAreaAffectedUnitsPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .txtAreaAffected {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 196px;
+	top: 60px;
+	position: absolute;
+	width: 137px;
+	height: 24px;
+}
+.TFDIncident_frmHazmatReport .txtAreaAffected:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .lbAreaAffect {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .lbAreaEvacUnits {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 88px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboAreaEvacuatedUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 181px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboAreaEvacuatedUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboAreaEvacuatedUnitsPos {
+	top: 108px;
+	left: 8px;
+	position: absolute;
+	width: 181px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .txtAreaEvacuated {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 196px;
+	top: 132px;
+	position: absolute;
+	width: 137px;
+	height: 24px;
+}
+.TFDIncident_frmHazmatReport .txtAreaEvacuated:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .lbAreaEvac {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 139px;
+	position: absolute;
+	width: 177px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .lbPopDensity {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 168px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboPopulationDensity {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 329px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboPopulationDensity:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboPopulationDensityPos {
+	top: 188px;
+	left: 8px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .txtPeopleEvacuated {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 200px;
+	top: 220px;
+	position: absolute;
+	width: 133px;
+	height: 24px;
+}
+.TFDIncident_frmHazmatReport .txtPeopleEvacuated:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .lbPeopleEvac {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 224px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .txtBuildingsEvacuated {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 200px;
+	top: 252px;
+	position: absolute;
+	width: 133px;
+	height: 24px;
+}
+.TFDIncident_frmHazmatReport .txtBuildingsEvacuated:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .lbBldgEvac {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 257px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .lbEquipInvolved {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 284px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .lstEquipmentInvolved {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #57665C;
+	left: 8px;
+	top: 304px;
+	position: absolute;
+	width: 333px;
+	height: 95px;
+}
+.TFDIncident_frmHazmatReport .Frame5_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .tabPage3 {
+	background-color: #E3D9AC;
+	width: 806px;
+	height: 475px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmHazmatReport .Frame6 {
+	background-color: #E3D9AC;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 789px;
+	height: 45px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .Label8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: Black;
+	left: 12px;
+	top: 12px;
+	position: absolute;
+	width: 277px;
+	height: 21px;
+}
+.TFDIncident_frmHazmatReport .cboSelectChemical {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboSelectChemical:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboSelectChemicalPos {
+	top: 12px;
+	left: 288px;
+	position: absolute;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Frame6_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .Frame1 {
+	background-color: #E3D9AC;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 3px;
+	top: 51px;
+	position: absolute;
+	width: 800px;
+	height: 69px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lbCommonChemicals {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 257px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .lbChemicalName {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 256px;
+	top: 16px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .lbChemicalID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 532px;
+	top: 16px;
+	position: absolute;
+	width: 85px;
+	height: 17px;
+	visibility: hidden;
+}
+.TFDIncident_frmHazmatReport .lbUN {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 696px;
+	top: 16px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboCommonChemicals {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboCommonChemicals:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboCommonChemicalsPos {
+	top: 36px;
+	left: 8px;
+	position: absolute;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboChemicalName {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 441px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboChemicalName:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboChemicalNamePos {
+	top: 36px;
+	left: 248px;
+	position: absolute;
+	width: 441px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboUN {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 89px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboUN:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboUNPos {
+	top: 36px;
+	left: 696px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .Frame7 {
+	background-color: #E3D9AC;
+	left: 3px;
+	top: 137px;
+	position: absolute;
+	width: 401px;
+	height: 253px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lbContainerType {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 12px;
+	top: 20px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboContainerType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 357px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboContainerType:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboContainerTypePos {
+	top: 36px;
+	left: 12px;
+	position: absolute;
+	width: 357px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbContainerCapUnits {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 12px;
+	top: 72px;
+	position: absolute;
+	width: 289px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboContainerCapacityUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboContainerCapacityUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboContainerCapacityUnitsPos {
+	top: 92px;
+	left: 12px;
+	position: absolute;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .txtEstContainerCapacity {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 248px;
+	top: 120px;
+	position: absolute;
+	width: 121px;
+	height: 24px;
+}
+.TFDIncident_frmHazmatReport .txtEstContainerCapacity:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .lbEstContainerCap {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 12px;
+	top: 124px;
+	position: absolute;
+	width: 249px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .Label7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 12px;
+	top: 156px;
+	position: absolute;
+	width: 289px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboAmountReleasedUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboAmountReleasedUnits:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboAmountReleasedUnitsPos {
+	top: 176px;
+	left: 12px;
+	position: absolute;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .txtEstAmountReleased {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 248px;
+	top: 204px;
+	position: absolute;
+	width: 121px;
+	height: 24px;
+}
+.TFDIncident_frmHazmatReport .txtEstAmountReleased:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .lbEstAmountReleased {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 12px;
+	top: 208px;
+	position: absolute;
+	width: 241px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .Frame7_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .Frame8 {
+	background-color: #E3D9AC;
+	left: 407px;
+	top: 137px;
+	position: absolute;
+	width: 393px;
+	height: 253px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame8:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lbPhyStateStored {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 265px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboPhysicalStateStored {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboPhysicalStateStored:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboPhysicalStateStoredPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbPhyStateReleased {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 281px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboPhysicalStateReleased {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboPhysicalStateReleased:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboPhysicalStateReleasedPos {
+	top: 84px;
+	left: 8px;
+	position: absolute;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbPrimaryReleasedInto {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 116px;
+	position: absolute;
+	width: 257px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboPrimaryReleasedInto {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboPrimaryReleasedInto:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboPrimaryReleasedIntoPos {
+	top: 136px;
+	left: 8px;
+	position: absolute;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbSecondReleasedInto {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 8px;
+	top: 164px;
+	position: absolute;
+	width: 281px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboSecondaryReleasedInto {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboSecondaryReleasedInto:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboSecondaryReleasedIntoPos {
+	top: 184px;
+	left: 8px;
+	position: absolute;
+	width: 369px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Frame8_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .tabPage4 {
+	background-color: #E3D9AC;
+	width: 806px;
+	height: 475px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmHazmatReport .Frame9 {
+	background-color: #E3D9AC;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 792px;
+	height: 325px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame9:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .lbDrugLabType {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 20px;
+	top: 20px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboDrugLabType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 341px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboDrugLabType:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboDrugLabTypePos {
+	top: 40px;
+	left: 20px;
+	position: absolute;
+	width: 341px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Line1 {
+	background-color: rgba(0, 0, 0, 1);
+	left: 20px;
+	top: 72px;
+	position: absolute;
+	width: 756px;
+	height: 1px;
+}
+.TFDIncident_frmHazmatReport .lbFireServiceMaterialTitle {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 20px;
+	top: 96px;
+	position: absolute;
+	width: 305px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .cboMaterialUsed {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 341px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboMaterialUsed:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboMaterialUsedPos {
+	top: 120px;
+	left: 20px;
+	position: absolute;
+	width: 341px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbQuantity {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 380px;
+	top: 120px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.TFDIncident_frmHazmatReport .txtQuantity {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 476px;
+	top: 120px;
+	position: absolute;
+	width: 101px;
+	height: 24px;
+}
+.TFDIncident_frmHazmatReport .txtQuantity:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .lstMaterialUsed {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 20px;
+	top: 156px;
+	position: absolute;
+	width: 557px;
+	height: 147px;
+}
+.TFDIncident_frmHazmatReport .cmdAddMaterial {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 584px;
+	top: 156px;
+	position: absolute;
+	width: 161px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport .cmdAddMaterial:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .cmdRemoveMaterial {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 584px;
+	top: 204px;
+	position: absolute;
+	width: 165px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport .cmdRemoveMaterial:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .Frame9_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .tabPage5 {
+	background-color: #E3D9AC;
+	width: 806px;
+	height: 475px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmHazmatReport .frmNarrSelection {
+	background-color: #E3D9AC;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 797px;
+	height: 105px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .frmNarrSelection:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .Label9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Black;
+	left: 4px;
+	top: 16px;
+	position: absolute;
+	width: 197px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboNarrList {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 481px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .cboNarrList:enabled {
+	color: #597041;
+}
+.TFDIncident_frmHazmatReport .cboNarrListPos {
+	top: 16px;
+	left: 192px;
+	position: absolute;
+	width: 481px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .lbNarrID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 692px;
+	top: 16px;
+	position: absolute;
+	width: 101px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmHazmatReport .cmdAddNarration {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 492px;
+	top: 52px;
+	position: absolute;
+	width: 181px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHazmatReport .cmdAddNarration:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport .frmNarrSelection_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmHazmatReport .Frame10 {
+	background-color: #E3D9AC;
+	left: 3px;
+	top: 118px;
+	position: absolute;
+	width: 796px;
+	height: 361px;
+	border: 2px groove;
+}
+.TFDIncident_frmHazmatReport .Frame10:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmHazmatReport ._lbFrameTitle_7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: Black;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 297px;
+	height: 33px;
+}
+.TFDIncident_frmHazmatReport .lbNarrAuthor {
+	background-color: #FFFFC0;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 300px;
+	top: 16px;
+	position: absolute;
+	width: 437px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .rtxNarration {
+	background-color: White;
+	font-family: Verdana;
+	font-size: 12.96px;
+	left: 12px;
+	top: 52px;
+	position: absolute;
+	overflow: auto;
+	width: 756px;
+	height: 245px;
+}
+.TFDIncident_frmHazmatReport .lbNarrMessage {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: Black;
+	left: 168px;
+	top: 312px;
+	position: absolute;
+	width: 529px;
+	height: 25px;
+}
+.TFDIncident_frmHazmatReport .Frame10_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

@@ -1,0 +1,40 @@
+<div>
+  <div data-width="778" data-height="490" data-removeControlBox="true" name="frmOvertime" data-title="Overtime Detail Report" class="PTSProject_frmOvertime" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmOvertime">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <div index="0" class="_cboOption_0">
+            <input id="_cboOption_0" tabindex="66" type="radio" name="Frame1_radios" checked="checked" style="float: left" data-bind="customChecked : _cboOption_0.Checked, events : { change : cboOption_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Unplanned OT</label>
+            </div>
+          </div>
+          <div index="2" class="_cboOption_2">
+            <input id="_cboOption_2" tabindex="68" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _cboOption_2.Checked, events : { change : cboOption_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">EDO Only</label>
+            </div>
+          </div>
+          <div index="1" class="_cboOption_1">
+            <input id="_cboOption_1" tabindex="67" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _cboOption_1.Checked, events : { change : cboOption_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Planned OT</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Report Month</label>
+      <label id="Label3" tabindex="4" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Report Year</label>
+      <div class="cboYearPos" id="cboYearPos">
+        <select id="cboYear" tabindex="3" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="cboMonthPos" id="cboMonthPos">
+        <select id="cboMonth" tabindex="4" class="cboMonth" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboMonth.ComboBoxItems, customText : cboMonth.CustomText, comboSelectedIndex : cboMonth.SelectedIndex, events : { change : cboMonth_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdPrint" tabindex="1" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="2" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div id="sprOT" tabindex="-1" class="sprOT" data-bind="style : { backgroundColor : sprOT.BackColor.Value }"></div>
+    </form>
+  </div>
+</div>

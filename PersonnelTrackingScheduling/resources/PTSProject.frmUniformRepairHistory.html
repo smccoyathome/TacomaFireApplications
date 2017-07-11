@@ -1,0 +1,64 @@
+<div>
+  <div data-width="618" data-height="367" name="frmUniformRepairHistory" data-title="PPE Uniform Repair History" class="PTSProject_frmUniformRepairHistory" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmUniformRepairHistory">
+      <label id="_Label_9" tabindex="20" index="9" class="_Label_9" data-bind="text : _Label_9.Text, imagePath : _Label_9.ImagePath">Search by Tracking \#:</label>
+      <input id="txtTrackingNumber" tabindex="21" Value="txtTrackingNumber" class="txtTrackingNumber" data-bind="value : txtTrackingNumber.Text" />
+      <button id="cmdFind" tabindex="20" class="cmdFind" type="button" data-bind="events : { click : cmdFind_Click }, ">Search...</button>
+      <button id="cmdClose" tabindex="28" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <label id="_Label_0" tabindex="14" index="0" class="_Label_0" data-bind="text : _Label_0.Text, imagePath : _Label_0.ImagePath">PPE Item:</label>
+          <label id="lbItem" tabindex="8" class="lbItem" data-bind="text : lbItem.Text, imagePath : lbItem.ImagePath">lbItem</label>
+          <label id="_Label_5" tabindex="13" index="5" class="_Label_5" data-bind="text : _Label_5.Text, imagePath : _Label_5.ImagePath">Brand:</label>
+          <label id="lbBrand" tabindex="5" class="lbBrand" data-bind="text : lbBrand.Text, imagePath : lbBrand.ImagePath">lbBrand</label>
+          <label id="_Label_1" tabindex="11" index="1" class="_Label_1" data-bind="text : _Label_1.Text, imagePath : _Label_1.ImagePath">Tracking \#:</label>
+          <label id="lbTrackingNumber" tabindex="7" class="lbTrackingNumber" data-bind="text : lbTrackingNumber.Text, imagePath : lbTrackingNumber.ImagePath">lbTrackingNumber</label>
+          <label id="_Label_6" tabindex="9" index="6" class="_Label_6" data-bind="text : _Label_6.Text, imagePath : _Label_6.ImagePath">Manuf Date:</label>
+          <label id="lbManufDate" tabindex="4" class="lbManufDate" data-bind="text : lbManufDate.Text, imagePath : lbManufDate.ImagePath">lbManufDate</label>
+          <label id="_Label_4" tabindex="16" index="4" class="_Label_4" data-bind="text : _Label_4.Text, imagePath : _Label_4.ImagePath">Retire Reason:</label>
+          <label id="lbRetiredReason" tabindex="6" class="lbRetiredReason" data-bind="text : lbRetiredReason.Text, imagePath : lbRetiredReason.ImagePath">lbRetiredReason</label>
+          <label id="_Label_2" tabindex="12" index="2" class="_Label_2" data-bind="text : _Label_2.Text, imagePath : _Label_2.ImagePath">Size/Color:</label>
+          <label id="lbColorSize" tabindex="3" class="lbColorSize" data-bind="text : lbColorSize.Text, imagePath : lbColorSize.ImagePath">lbColorSize</label>
+          <label id="_Label_8" tabindex="17" index="8" class="_Label_8" data-bind="text : _Label_8.Text, imagePath : _Label_8.ImagePath">Retired Date:</label>
+          <label id="lbRetiredDate" tabindex="2" class="lbRetiredDate" data-bind="text : lbRetiredDate.Text, imagePath : lbRetiredDate.ImagePath">lbRetiredDate</label>
+          <label id="_Label_3" tabindex="15" index="3" class="_Label_3" data-bind="text : _Label_3.Text, imagePath : _Label_3.ImagePath">Location:</label>
+          <label id="lbLocation" tabindex="1" class="lbLocation" data-bind="text : lbLocation.Text, imagePath : lbLocation.ImagePath">lbLocation</label>
+          <label id="_Label_7" tabindex="23" index="7" class="_Label_7" data-bind="text : _Label_7.Text, imagePath : _Label_7.ImagePath">Last Inspected:</label>
+          <label id="lbLastInspDate" tabindex="24" class="lbLastInspDate" data-bind="text : lbLastInspDate.Text, imagePath : lbLastInspDate.ImagePath">lbLastInspDate</label>
+          <label id="lbUniformID" tabindex="10" class="lbUniformID" data-bind="text : lbUniformID.Text, imagePath : lbUniformID.ImagePath">lbUniformID</label>
+        </div>
+      </fieldset>
+      <div id="sprRepairGrid" data-role="mobilizespread" tabindex="21" class="sprRepairGrid" data-bind="widgetvalue: sprRepairGrid"></div>
+      <div class="chkDateIn">
+        <input id="chkDateIn" tabindex="29" type="checkbox" style="float: left" data-bind="events : { click : chkDateIn_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Date In</label>
+        </div>
+      </div>
+      <div class="chkDateOut">
+        <input id="chkDateOut" tabindex="36" type="checkbox" style="float: left" data-bind="events : { click : chkDateOut_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Date Out</label>
+        </div>
+      </div>
+      <label id="Label1" tabindex="29" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Repaired By</label>
+      <button id="cmdNewItem" tabindex="39" class="cmdNewItem" type="button" data-bind="events : { click : cmdNewItem_Click }, ">New Item</button>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteDateIn" tabindex="30" class="dteDateIn" data-bind="dateTimePickerValue : dteDateIn.Value, visible : dteDateIn.Visible, DateTimeMinDate : dteDateIn.MinDate, DateTimeMaxDate : dteDateIn.MaxDate" />
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteDateOut" tabindex="37" class="dteDateOut" data-bind="dateTimePickerValue : dteDateOut.Value, visible : dteDateOut.Visible, DateTimeMinDate : dteDateOut.MinDate, DateTimeMaxDate : dteDateOut.MaxDate" />
+      <div class="cboRepairerPos" id="cboRepairerPos">
+        <select id="cboRepairer" tabindex="31" class="cboRepairer" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboRepairer.ComboBoxItems, customText : cboRepairer.CustomText, comboSelectedIndex : cboRepairer.SelectedIndex"></select>
+      </div>
+      <button disabled="disabled" id="cmdEdit" tabindex="38" data-tag="1" class="cmdEdit" type="button" data-bind="enabled : cmdEdit.Enabled, buttonText : cmdEdit.Text, events : { click : cmdEdit_Click }, ">Add</button>
+      <label id="Label2" tabindex="30" __UseMnemonic="false" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Repairs Made  Comments:</label>
+      <textarea id="txtComment" tabindex="35" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+      <div class="chkVendor">
+        <input id="chkVendor" tabindex="40" type="checkbox" style="float: left" data-bind="enabled : chkVendor.Enabled" />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkVendor.Enabled">Vendor Cleaned Item</label>
+        </div>
+      </div>
+      <label id="lbRepairID" tabindex="28" class="lbRepairID" data-bind="text : lbRepairID.Text, imagePath : lbRepairID.ImagePath">lbRepairID</label>
+    </form>
+  </div>
+</div>

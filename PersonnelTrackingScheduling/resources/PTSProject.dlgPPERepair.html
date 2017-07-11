@@ -1,0 +1,15 @@
+<div>
+  <div data-width="685" data-height="295" name="dlgPPERepair" data-title="Emloyee\'s PPE Repair Information" class="PTSProject_dlgPPERepair" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgPPERepair">
+      <label id="Label3" tabindex="0" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Name:</label>
+      <label id="lblName" tabindex="3" class="lblName" data-bind="text : lblName.Text, imagePath : lblName.ImagePath">lblName</label>
+      <button id="OKButton" tabindex="8" class="OKButton" type="button" data-bind="enabled : OKButton.Enabled, events : { click : OKButton_Click }, ">OK</button>
+      <label id="Label4" tabindex="1" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Employee \#:</label>
+      <label id="lblEmpNum" tabindex="4" class="lblEmpNum" data-bind="text : lblEmpNum.Text, imagePath : lblEmpNum.ImagePath">lblEmpNum</label>
+      <button id="CancelButton_Renamed" tabindex="7" class="CancelButton_Renamed" type="button" data-bind="events : { click : CancelButton_Renamed_Click }, ">Cancel</button>
+      <label id="Label5" tabindex="2" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Assignment:</label>
+      <label id="lblAssignment" tabindex="5" class="lblAssignment" data-bind="text : lblAssignment.Text, imagePath : lblAssignment.ImagePath">lblAssignment</label>
+      <div id="sprPPEList" data-role="mobilizespread" tabindex="8" class="sprPPEList" data-bind="widgetvalue: sprPPEList"></div>
+    </form>
+  </div>
+</div>

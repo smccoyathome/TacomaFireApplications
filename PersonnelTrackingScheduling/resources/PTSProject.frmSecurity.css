@@ -1,0 +1,218 @@
+.PTSProject_frmSecurity {
+}
+.PTSProject_frmSecurity .frmSecurity {
+	background-color: Navy;
+	min-width: 417px;
+	min-height: 259px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmSecurity .cboEmpList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 249px;
+	height: 24px;
+	visibility: inherit;
+}
+.PTSProject_frmSecurity .cboEmpList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSecurity .cboEmpListPos {
+	top: 16px;
+	left: 144px;
+	position: absolute;
+	width: 249px;
+	height: 24px;
+}
+.PTSProject_frmSecurity .Label2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFE0C0;
+	left: 16px;
+	top: 21px;
+	position: absolute;
+	width: 119px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmSecurity .Line1 {
+	background-color: #E0E0E0;
+	left: 10px;
+	top: 48px;
+	position: absolute;
+	width: 398px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmSecurity .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFE0C0;
+	left: 32px;
+	top: 56px;
+	position: absolute;
+	width: 363px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmSecurity .lbName {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-style: italic;
+	color: rgba(0, 0, 0, 1);
+	left: 32px;
+	top: 80px;
+	position: absolute;
+	width: 230px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmSecurity .lbEmpID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-style: italic;
+	color: rgba(0, 0, 0, 1);
+	left: 272px;
+	top: 80px;
+	position: absolute;
+	width: 120px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmSecurity .lbUser {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFE0C0;
+	left: 16px;
+	top: 120px;
+	position: absolute;
+	width: 77px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmSecurity .txtUserID {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 96px;
+	top: 120px;
+	position: absolute;
+	width: 169px;
+	height: 27px;
+}
+.PTSProject_frmSecurity .txtUserID:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSecurity .cmdNext {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 272px;
+	top: 120px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSecurity .cmdNext:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSecurity .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFE0C0;
+	left: 16px;
+	top: 152px;
+	position: absolute;
+	width: 70px;
+	height: 43px;
+}
+.PTSProject_frmSecurity .cboSecurity {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 294px;
+	height: 24px;
+	visibility: inherit;
+}
+.PTSProject_frmSecurity .cboSecurity:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSecurity .cboSecurityPos {
+	top: 160px;
+	left: 96px;
+	position: absolute;
+	width: 294px;
+	height: 24px;
+}
+.PTSProject_frmSecurity .cmdUpdate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 96px;
+	top: 208px;
+	position: absolute;
+	width: 113px;
+	height: 35px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSecurity .cmdUpdate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSecurity .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 224px;
+	top: 208px;
+	position: absolute;
+	width: 113px;
+	height: 35px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSecurity .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

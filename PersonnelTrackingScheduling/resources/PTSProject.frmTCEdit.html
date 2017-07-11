@@ -1,0 +1,251 @@
+<div>
+  <div data-width="646" data-height="400" data-removeControlBox="true" name="frmTCEdit" data-title="Time Card Selected Date Detail" class="PTSProject_frmTCEdit" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmTCEdit">
+      <label id="Label1" tabindex="61" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Employee:</label>
+      <label id="lbEmpName" tabindex="63" class="lbEmpName" data-bind="text : lbEmpName.Text, imagePath : lbEmpName.ImagePath">lbEmpName</label>
+      <label id="Label2" tabindex="62" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Date:</label>
+      <label id="lbDate" tabindex="64" class="lbDate" data-bind="text : lbDate.Text, imagePath : lbDate.ImagePath">lbDate</label>
+      <button id="cmdNotes" tabindex="58" data-tag="0" class="cmdNotes" type="button" data-bind="enabled : cmdNotes.Enabled, visible : cmdNotes.Visible, buttonText : cmdNotes.Text, events : { click : cmdNotes_Click }, ">New Note</button>
+      <button id="cmdDeleteNotes" tabindex="93" data-tag="0" class="cmdDeleteNotes" type="button" data-bind="visible : cmdDeleteNotes.Visible, events : { click : cmdDeleteNotes_Click }, ">Delete Note</button>
+      <textarea disabled="disabled" id="txtNote" tabindex="1" Value="txtNote" class="txtNote" data-bind="style : { backgroundColor : txtNote.BackColor.Value }, enabled : txtNote.Enabled, visible : txtNote.Visible, value : txtNote.Text"></textarea>
+      <label id="_Label3_0" tabindex="65" index="0" class="_Label3_0" data-bind="text : _Label3_0.Text, imagePath : _Label3_0.ImagePath">KOT</label>
+      <label id="_Label3_7" tabindex="90" index="7" class="_Label3_7" data-bind="text : _Label3_7.Text, imagePath : _Label3_7.ImagePath">A/A Type</label>
+      <label id="_Label3_2" tabindex="85" index="2" class="_Label3_2" data-bind="text : _Label3_2.Text, imagePath : _Label3_2.ImagePath">Leave</label>
+      <label id="_Label3_8" tabindex="91" index="8" class="_Label3_8" data-bind="text : _Label3_8.Text, imagePath : _Label3_8.ImagePath">A/A Type</label>
+      <label id="_Label3_3" tabindex="86" index="3" class="_Label3_3" data-bind="text : _Label3_3.Text, imagePath : _Label3_3.ImagePath">Pay Upgrade</label>
+      <label id="_Label3_4" tabindex="87" index="4" class="_Label3_4" data-bind="text : _Label3_4.Text, imagePath : _Label3_4.ImagePath">Step</label>
+      <label id="_Label3_5" tabindex="88" index="5" class="_Label3_5" data-bind="text : _Label3_5.Text, imagePath : _Label3_5.ImagePath">Hours</label>
+      <label id="_Label3_6" tabindex="89" index="6" class="_Label3_6" data-bind="text : _Label3_6.Text, imagePath : _Label3_6.ImagePath">Unit</label>
+      <label id="_Label3_1" tabindex="84" index="1" class="_Label3_1" data-bind="text : _Label3_1.Text, imagePath : _Label3_1.ImagePath">Position</label>
+      <div index="0" class="_chkSCKFlag_0">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+        </div>
+        <input id="_chkSCKFlag_0" tabindex="95" type="checkbox" style="float: left" data-bind="checkState : _chkSCKFlag_0.Checked" />
+      </div>
+      <div class="_cboKOT_0Pos" id="_cboKOT_0Pos">
+        <select data-role="combobox" id="_cboKOT_0" tabindex="2" index="0" class="_cboKOT_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboKOT_0.ComboBoxItems, customText : _cboKOT_0.CustomText, comboSelectedIndex : _cboKOT_0.SelectedIndex, events : { change : cboKOT_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboAAType_0Pos" id="_cboAAType_0Pos">
+        <select data-role="combobox" id="_cboAAType_0" tabindex="3" index="0" class="_cboAAType_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAAType_0.ComboBoxItems, customText : _cboAAType_0.CustomText, comboSelectedIndex : _cboAAType_0.SelectedIndex, events : { change : cboAAType_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeave_0Pos" id="_cboLeave_0Pos">
+        <select data-role="combobox" id="_cboLeave_0" tabindex="4" index="0" class="_cboLeave_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeave_0.ComboBoxItems, customText : _cboLeave_0.CustomText, comboSelectedIndex : _cboLeave_0.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeaveAA_0Pos" id="_cboLeaveAA_0Pos">
+        <select data-role="combobox" id="_cboLeaveAA_0" tabindex="5" index="0" class="_cboLeaveAA_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeaveAA_0.ComboBoxItems, customText : _cboLeaveAA_0.CustomText, comboSelectedIndex : _cboLeaveAA_0.SelectedIndex, events : { change : cboLeaveAA_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboJobCode_0Pos" id="_cboJobCode_0Pos">
+        <select data-role="combobox" id="_cboJobCode_0" tabindex="6" index="0" class="_cboJobCode_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboJobCode_0.ComboBoxItems, customText : _cboJobCode_0.CustomText, comboSelectedIndex : _cboJobCode_0.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboStep_0Pos" id="_cboStep_0Pos">
+        <select data-role="combobox" id="_cboStep_0" tabindex="7" index="0" class="_cboStep_0" data-text-field="Text" data-value-field="Value" data-bind="source : _cboStep_0.ComboBoxItems, customText : _cboStep_0.CustomText, comboSelectedIndex : _cboStep_0.SelectedIndex, events : { change : cboStep_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="_txtHours_0" tabindex="8" index="0" class="_txtHours_0" data-bind="readonly : _txtHours_0.ReadOnly, value : _txtHours_0.Text, events : { change : txtHours_TextChanged }, " />
+      <label id="_lbUnit_0" tabindex="68" index="0" class="_lbUnit_0" data-bind="text : _lbUnit_0.Text, imagePath : _lbUnit_0.ImagePath"></label>
+      <label id="_lbPosition_0" tabindex="76" index="0" class="_lbPosition_0" data-bind="text : _lbPosition_0.Text, imagePath : _lbPosition_0.ImagePath"></label>
+      <label id="_Line1_0" index="0" class="_Line1_0" data-bind="text : _Line1_0.Text, imagePath : _Line1_0.ImagePath"></label>
+      <div index="1" class="_chkSCKFlag_1">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+        </div>
+        <input id="_chkSCKFlag_1" tabindex="96" type="checkbox" style="float: left" data-bind="checkState : _chkSCKFlag_1.Checked" />
+      </div>
+      <div class="_cboKOT_1Pos" id="_cboKOT_1Pos">
+        <select data-role="combobox" id="_cboKOT_1" tabindex="9" index="1" class="_cboKOT_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboKOT_1.ComboBoxItems, customText : _cboKOT_1.CustomText, comboSelectedIndex : _cboKOT_1.SelectedIndex, events : { change : cboKOT_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboAAType_1Pos" id="_cboAAType_1Pos">
+        <select data-role="combobox" id="_cboAAType_1" tabindex="10" index="1" class="_cboAAType_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAAType_1.ComboBoxItems, customText : _cboAAType_1.CustomText, comboSelectedIndex : _cboAAType_1.SelectedIndex, events : { change : cboAAType_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeave_1Pos" id="_cboLeave_1Pos">
+        <select data-role="combobox" id="_cboLeave_1" tabindex="11" index="1" class="_cboLeave_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeave_1.ComboBoxItems, customText : _cboLeave_1.CustomText, comboSelectedIndex : _cboLeave_1.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeaveAA_1Pos" id="_cboLeaveAA_1Pos">
+        <select data-role="combobox" id="_cboLeaveAA_1" tabindex="12" index="1" class="_cboLeaveAA_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeaveAA_1.ComboBoxItems, customText : _cboLeaveAA_1.CustomText, comboSelectedIndex : _cboLeaveAA_1.SelectedIndex, events : { change : cboLeaveAA_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboJobCode_1Pos" id="_cboJobCode_1Pos">
+        <select data-role="combobox" id="_cboJobCode_1" tabindex="13" index="1" class="_cboJobCode_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboJobCode_1.ComboBoxItems, customText : _cboJobCode_1.CustomText, comboSelectedIndex : _cboJobCode_1.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboStep_1Pos" id="_cboStep_1Pos">
+        <select data-role="combobox" id="_cboStep_1" tabindex="14" index="1" class="_cboStep_1" data-text-field="Text" data-value-field="Value" data-bind="source : _cboStep_1.ComboBoxItems, customText : _cboStep_1.CustomText, comboSelectedIndex : _cboStep_1.SelectedIndex, events : { change : cboStep_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="_txtHours_1" tabindex="15" index="1" class="_txtHours_1" data-bind="readonly : _txtHours_1.ReadOnly, value : _txtHours_1.Text, events : { change : txtHours_TextChanged }, " />
+      <label id="_lbUnit_1" tabindex="69" index="1" class="_lbUnit_1" data-bind="text : _lbUnit_1.Text, imagePath : _lbUnit_1.ImagePath"></label>
+      <label id="_lbPosition_1" tabindex="77" index="1" class="_lbPosition_1" data-bind="text : _lbPosition_1.Text, imagePath : _lbPosition_1.ImagePath"></label>
+      <label id="_Line1_1" index="1" class="_Line1_1" data-bind="text : _Line1_1.Text, imagePath : _Line1_1.ImagePath">_Line1_1</label>
+      <div index="2" class="_chkSCKFlag_2">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+        </div>
+        <input id="_chkSCKFlag_2" tabindex="97" type="checkbox" style="float: left" data-bind="checkState : _chkSCKFlag_2.Checked" />
+      </div>
+      <div class="_cboKOT_2Pos" id="_cboKOT_2Pos">
+        <select data-role="combobox" id="_cboKOT_2" tabindex="16" index="2" class="_cboKOT_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboKOT_2.ComboBoxItems, customText : _cboKOT_2.CustomText, comboSelectedIndex : _cboKOT_2.SelectedIndex, events : { change : cboKOT_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboAAType_2Pos" id="_cboAAType_2Pos">
+        <select data-role="combobox" id="_cboAAType_2" tabindex="17" index="2" class="_cboAAType_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAAType_2.ComboBoxItems, customText : _cboAAType_2.CustomText, comboSelectedIndex : _cboAAType_2.SelectedIndex, events : { change : cboAAType_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeave_2Pos" id="_cboLeave_2Pos">
+        <select data-role="combobox" id="_cboLeave_2" tabindex="18" index="2" class="_cboLeave_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeave_2.ComboBoxItems, customText : _cboLeave_2.CustomText, comboSelectedIndex : _cboLeave_2.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeaveAA_2Pos" id="_cboLeaveAA_2Pos">
+        <select data-role="combobox" id="_cboLeaveAA_2" tabindex="19" index="2" class="_cboLeaveAA_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeaveAA_2.ComboBoxItems, customText : _cboLeaveAA_2.CustomText, comboSelectedIndex : _cboLeaveAA_2.SelectedIndex, events : { change : cboLeaveAA_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboJobCode_2Pos" id="_cboJobCode_2Pos">
+        <select data-role="combobox" id="_cboJobCode_2" tabindex="20" index="2" class="_cboJobCode_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboJobCode_2.ComboBoxItems, customText : _cboJobCode_2.CustomText, comboSelectedIndex : _cboJobCode_2.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboStep_2Pos" id="_cboStep_2Pos">
+        <select data-role="combobox" id="_cboStep_2" tabindex="21" index="2" class="_cboStep_2" data-text-field="Text" data-value-field="Value" data-bind="source : _cboStep_2.ComboBoxItems, customText : _cboStep_2.CustomText, comboSelectedIndex : _cboStep_2.SelectedIndex, events : { change : cboStep_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="_txtHours_2" tabindex="22" index="2" class="_txtHours_2" data-bind="readonly : _txtHours_2.ReadOnly, value : _txtHours_2.Text, events : { change : txtHours_TextChanged }, " />
+      <label id="_lbUnit_2" tabindex="70" index="2" class="_lbUnit_2" data-bind="text : _lbUnit_2.Text, imagePath : _lbUnit_2.ImagePath"></label>
+      <label id="_lbPosition_2" tabindex="78" index="2" class="_lbPosition_2" data-bind="text : _lbPosition_2.Text, imagePath : _lbPosition_2.ImagePath"></label>
+      <label id="_Line1_2" index="2" class="_Line1_2" data-bind="text : _Line1_2.Text, imagePath : _Line1_2.ImagePath">_Line1_2</label>
+      <div index="3" class="_chkSCKFlag_3">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+        </div>
+        <input id="_chkSCKFlag_3" tabindex="98" type="checkbox" style="float: left" data-bind="checkState : _chkSCKFlag_3.Checked" />
+      </div>
+      <div class="_cboKOT_3Pos" id="_cboKOT_3Pos">
+        <select data-role="combobox" id="_cboKOT_3" tabindex="23" index="3" class="_cboKOT_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboKOT_3.ComboBoxItems, customText : _cboKOT_3.CustomText, comboSelectedIndex : _cboKOT_3.SelectedIndex, events : { change : cboKOT_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboAAType_3Pos" id="_cboAAType_3Pos">
+        <select data-role="combobox" id="_cboAAType_3" tabindex="24" index="3" class="_cboAAType_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAAType_3.ComboBoxItems, customText : _cboAAType_3.CustomText, comboSelectedIndex : _cboAAType_3.SelectedIndex, events : { change : cboAAType_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeave_3Pos" id="_cboLeave_3Pos">
+        <select data-role="combobox" id="_cboLeave_3" tabindex="25" index="3" class="_cboLeave_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeave_3.ComboBoxItems, customText : _cboLeave_3.CustomText, comboSelectedIndex : _cboLeave_3.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeaveAA_3Pos" id="_cboLeaveAA_3Pos">
+        <select data-role="combobox" id="_cboLeaveAA_3" tabindex="26" index="3" class="_cboLeaveAA_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeaveAA_3.ComboBoxItems, customText : _cboLeaveAA_3.CustomText, comboSelectedIndex : _cboLeaveAA_3.SelectedIndex, events : { change : cboLeaveAA_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboJobCode_3Pos" id="_cboJobCode_3Pos">
+        <select data-role="combobox" id="_cboJobCode_3" tabindex="27" index="3" class="_cboJobCode_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboJobCode_3.ComboBoxItems, customText : _cboJobCode_3.CustomText, comboSelectedIndex : _cboJobCode_3.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboStep_3Pos" id="_cboStep_3Pos">
+        <select data-role="combobox" id="_cboStep_3" tabindex="28" index="3" class="_cboStep_3" data-text-field="Text" data-value-field="Value" data-bind="source : _cboStep_3.ComboBoxItems, customText : _cboStep_3.CustomText, comboSelectedIndex : _cboStep_3.SelectedIndex, events : { change : cboStep_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="_txtHours_3" tabindex="29" index="3" class="_txtHours_3" data-bind="readonly : _txtHours_3.ReadOnly, value : _txtHours_3.Text, events : { change : txtHours_TextChanged }, " />
+      <label id="_lbUnit_3" tabindex="71" index="3" class="_lbUnit_3" data-bind="text : _lbUnit_3.Text, imagePath : _lbUnit_3.ImagePath"></label>
+      <label id="_lbPosition_3" tabindex="79" index="3" class="_lbPosition_3" data-bind="text : _lbPosition_3.Text, imagePath : _lbPosition_3.ImagePath"></label>
+      <label id="_Line1_3" index="3" class="_Line1_3" data-bind="text : _Line1_3.Text, imagePath : _Line1_3.ImagePath"></label>
+      <div index="4" class="_chkSCKFlag_4">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+        </div>
+        <input id="_chkSCKFlag_4" tabindex="99" type="checkbox" style="float: left" data-bind="checkState : _chkSCKFlag_4.Checked" />
+      </div>
+      <div class="_cboKOT_4Pos" id="_cboKOT_4Pos">
+        <select data-role="combobox" id="_cboKOT_4" tabindex="30" index="4" class="_cboKOT_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboKOT_4.ComboBoxItems, customText : _cboKOT_4.CustomText, comboSelectedIndex : _cboKOT_4.SelectedIndex, events : { change : cboKOT_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboAAType_4Pos" id="_cboAAType_4Pos">
+        <select data-role="combobox" id="_cboAAType_4" tabindex="31" index="4" class="_cboAAType_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAAType_4.ComboBoxItems, customText : _cboAAType_4.CustomText, comboSelectedIndex : _cboAAType_4.SelectedIndex, events : { change : cboAAType_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeave_4Pos" id="_cboLeave_4Pos">
+        <select data-role="combobox" id="_cboLeave_4" tabindex="32" index="4" class="_cboLeave_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeave_4.ComboBoxItems, customText : _cboLeave_4.CustomText, comboSelectedIndex : _cboLeave_4.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeaveAA_4Pos" id="_cboLeaveAA_4Pos">
+        <select data-role="combobox" id="_cboLeaveAA_4" tabindex="33" index="4" class="_cboLeaveAA_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeaveAA_4.ComboBoxItems, customText : _cboLeaveAA_4.CustomText, comboSelectedIndex : _cboLeaveAA_4.SelectedIndex, events : { change : cboLeaveAA_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboJobCode_4Pos" id="_cboJobCode_4Pos">
+        <select data-role="combobox" id="_cboJobCode_4" tabindex="34" index="4" class="_cboJobCode_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboJobCode_4.ComboBoxItems, customText : _cboJobCode_4.CustomText, comboSelectedIndex : _cboJobCode_4.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboStep_4Pos" id="_cboStep_4Pos">
+        <select data-role="combobox" id="_cboStep_4" tabindex="35" index="4" class="_cboStep_4" data-text-field="Text" data-value-field="Value" data-bind="source : _cboStep_4.ComboBoxItems, customText : _cboStep_4.CustomText, comboSelectedIndex : _cboStep_4.SelectedIndex, events : { change : cboStep_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="_txtHours_4" tabindex="36" index="4" class="_txtHours_4" data-bind="readonly : _txtHours_4.ReadOnly, value : _txtHours_4.Text, events : { change : txtHours_TextChanged }, " />
+      <label id="_lbUnit_4" tabindex="72" index="4" class="_lbUnit_4" data-bind="text : _lbUnit_4.Text, imagePath : _lbUnit_4.ImagePath"></label>
+      <label id="_lbPosition_4" tabindex="80" index="4" class="_lbPosition_4" data-bind="text : _lbPosition_4.Text, imagePath : _lbPosition_4.ImagePath"></label>
+      <label id="_Line1_4" index="4" class="_Line1_4" data-bind="text : _Line1_4.Text, imagePath : _Line1_4.ImagePath"></label>
+      <div index="5" class="_chkSCKFlag_5">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+        </div>
+        <input id="_chkSCKFlag_5" tabindex="100" type="checkbox" style="float: left" data-bind="checkState : _chkSCKFlag_5.Checked" />
+      </div>
+      <div class="_cboKOT_5Pos" id="_cboKOT_5Pos">
+        <select data-role="combobox" id="_cboKOT_5" tabindex="37" index="5" class="_cboKOT_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboKOT_5.ComboBoxItems, customText : _cboKOT_5.CustomText, comboSelectedIndex : _cboKOT_5.SelectedIndex, events : { change : cboKOT_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboAAType_5Pos" id="_cboAAType_5Pos">
+        <select data-role="combobox" id="_cboAAType_5" tabindex="38" index="5" class="_cboAAType_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAAType_5.ComboBoxItems, customText : _cboAAType_5.CustomText, comboSelectedIndex : _cboAAType_5.SelectedIndex, events : { change : cboAAType_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeave_5Pos" id="_cboLeave_5Pos">
+        <select data-role="combobox" id="_cboLeave_5" tabindex="39" index="5" class="_cboLeave_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeave_5.ComboBoxItems, customText : _cboLeave_5.CustomText, comboSelectedIndex : _cboLeave_5.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeaveAA_5Pos" id="_cboLeaveAA_5Pos">
+        <select data-role="combobox" id="_cboLeaveAA_5" tabindex="40" index="5" class="_cboLeaveAA_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeaveAA_5.ComboBoxItems, customText : _cboLeaveAA_5.CustomText, comboSelectedIndex : _cboLeaveAA_5.SelectedIndex, events : { change : cboLeaveAA_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboJobCode_5Pos" id="_cboJobCode_5Pos">
+        <select data-role="combobox" id="_cboJobCode_5" tabindex="41" index="5" class="_cboJobCode_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboJobCode_5.ComboBoxItems, customText : _cboJobCode_5.CustomText, comboSelectedIndex : _cboJobCode_5.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboStep_5Pos" id="_cboStep_5Pos">
+        <select data-role="combobox" id="_cboStep_5" tabindex="42" index="5" class="_cboStep_5" data-text-field="Text" data-value-field="Value" data-bind="source : _cboStep_5.ComboBoxItems, customText : _cboStep_5.CustomText, comboSelectedIndex : _cboStep_5.SelectedIndex, events : { change : cboStep_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="_txtHours_5" tabindex="43" index="5" class="_txtHours_5" data-bind="readonly : _txtHours_5.ReadOnly, value : _txtHours_5.Text, events : { change : txtHours_TextChanged }, " />
+      <label id="_lbUnit_5" tabindex="73" index="5" class="_lbUnit_5" data-bind="text : _lbUnit_5.Text, imagePath : _lbUnit_5.ImagePath"></label>
+      <label id="_lbPosition_5" tabindex="81" index="5" class="_lbPosition_5" data-bind="text : _lbPosition_5.Text, imagePath : _lbPosition_5.ImagePath"></label>
+      <label id="_Line1_5" index="5" class="_Line1_5" data-bind="text : _Line1_5.Text, imagePath : _Line1_5.ImagePath"></label>
+      <div index="6" class="_chkSCKFlag_6">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+        </div>
+        <input id="_chkSCKFlag_6" tabindex="101" type="checkbox" style="float: left" data-bind="checkState : _chkSCKFlag_6.Checked" />
+      </div>
+      <div class="_cboKOT_6Pos" id="_cboKOT_6Pos">
+        <select data-role="combobox" id="_cboKOT_6" tabindex="44" index="6" class="_cboKOT_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboKOT_6.ComboBoxItems, customText : _cboKOT_6.CustomText, comboSelectedIndex : _cboKOT_6.SelectedIndex, events : { change : cboKOT_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboAAType_6Pos" id="_cboAAType_6Pos">
+        <select data-role="combobox" id="_cboAAType_6" tabindex="45" index="6" class="_cboAAType_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAAType_6.ComboBoxItems, customText : _cboAAType_6.CustomText, comboSelectedIndex : _cboAAType_6.SelectedIndex, events : { change : cboAAType_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeave_6Pos" id="_cboLeave_6Pos">
+        <select data-role="combobox" id="_cboLeave_6" tabindex="46" index="6" class="_cboLeave_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeave_6.ComboBoxItems, customText : _cboLeave_6.CustomText, comboSelectedIndex : _cboLeave_6.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeaveAA_6Pos" id="_cboLeaveAA_6Pos">
+        <select data-role="combobox" id="_cboLeaveAA_6" tabindex="47" index="6" class="_cboLeaveAA_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeaveAA_6.ComboBoxItems, customText : _cboLeaveAA_6.CustomText, comboSelectedIndex : _cboLeaveAA_6.SelectedIndex, events : { change : cboLeaveAA_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboJobCode_6Pos" id="_cboJobCode_6Pos">
+        <select data-role="combobox" id="_cboJobCode_6" tabindex="48" index="6" class="_cboJobCode_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboJobCode_6.ComboBoxItems, customText : _cboJobCode_6.CustomText, comboSelectedIndex : _cboJobCode_6.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboStep_6Pos" id="_cboStep_6Pos">
+        <select data-role="combobox" id="_cboStep_6" tabindex="49" index="6" class="_cboStep_6" data-text-field="Text" data-value-field="Value" data-bind="source : _cboStep_6.ComboBoxItems, customText : _cboStep_6.CustomText, comboSelectedIndex : _cboStep_6.SelectedIndex, events : { change : cboStep_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="_txtHours_6" tabindex="50" index="6" class="_txtHours_6" data-bind="readonly : _txtHours_6.ReadOnly, value : _txtHours_6.Text, events : { change : txtHours_TextChanged }, " />
+      <label id="_lbUnit_6" tabindex="74" index="6" class="_lbUnit_6" data-bind="text : _lbUnit_6.Text, imagePath : _lbUnit_6.ImagePath"></label>
+      <label id="_lbPosition_6" tabindex="82" index="6" class="_lbPosition_6" data-bind="text : _lbPosition_6.Text, imagePath : _lbPosition_6.ImagePath"></label>
+      <label id="_Line1_6" index="6" class="_Line1_6" data-bind="text : _Line1_6.Text, imagePath : _Line1_6.ImagePath"></label>
+      <div index="7" class="_chkSCKFlag_7">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+        </div>
+        <input id="_chkSCKFlag_7" tabindex="102" type="checkbox" style="float: left" data-bind="checkState : _chkSCKFlag_7.Checked" />
+      </div>
+      <div class="_cboKOT_7Pos" id="_cboKOT_7Pos">
+        <select data-role="combobox" id="_cboKOT_7" tabindex="51" index="7" class="_cboKOT_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboKOT_7.ComboBoxItems, customText : _cboKOT_7.CustomText, comboSelectedIndex : _cboKOT_7.SelectedIndex, events : { change : cboKOT_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboAAType_7Pos" id="_cboAAType_7Pos">
+        <select data-role="combobox" id="_cboAAType_7" tabindex="52" index="7" class="_cboAAType_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboAAType_7.ComboBoxItems, customText : _cboAAType_7.CustomText, comboSelectedIndex : _cboAAType_7.SelectedIndex, events : { change : cboAAType_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeave_7Pos" id="_cboLeave_7Pos">
+        <select data-role="combobox" id="_cboLeave_7" tabindex="53" index="7" class="_cboLeave_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeave_7.ComboBoxItems, customText : _cboLeave_7.CustomText, comboSelectedIndex : _cboLeave_7.SelectedIndex, events : { change : cboLeave_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboLeaveAA_7Pos" id="_cboLeaveAA_7Pos">
+        <select data-role="combobox" id="_cboLeaveAA_7" tabindex="54" index="7" class="_cboLeaveAA_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboLeaveAA_7.ComboBoxItems, customText : _cboLeaveAA_7.CustomText, comboSelectedIndex : _cboLeaveAA_7.SelectedIndex, events : { change : cboLeaveAA_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboJobCode_7Pos" id="_cboJobCode_7Pos">
+        <select data-role="combobox" id="_cboJobCode_7" tabindex="55" index="7" class="_cboJobCode_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboJobCode_7.ComboBoxItems, customText : _cboJobCode_7.CustomText, comboSelectedIndex : _cboJobCode_7.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="_cboStep_7Pos" id="_cboStep_7Pos">
+        <select data-role="combobox" id="_cboStep_7" tabindex="56" index="7" class="_cboStep_7" data-text-field="Text" data-value-field="Value" data-bind="source : _cboStep_7.ComboBoxItems, customText : _cboStep_7.CustomText, comboSelectedIndex : _cboStep_7.SelectedIndex, events : { change : cboStep_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="_txtHours_7" tabindex="57" index="7" class="_txtHours_7" data-bind="readonly : _txtHours_7.ReadOnly, value : _txtHours_7.Text, events : { change : txtHours_TextChanged }, " />
+      <label id="_lbUnit_7" tabindex="75" index="7" class="_lbUnit_7" data-bind="text : _lbUnit_7.Text, imagePath : _lbUnit_7.ImagePath"></label>
+      <label id="_lbPosition_7" tabindex="83" index="7" class="_lbPosition_7" data-bind="text : _lbPosition_7.Text, imagePath : _lbPosition_7.ImagePath"></label>
+      <label id="Label4" tabindex="66" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Checked &gt;&gt; means KOT is used in place of SCK Leave</label>
+      <label id="lbWarn" tabindex="67" class="lbWarn" data-bind="visible : lbWarn.Visible, text : lbWarn.Text, imagePath : lbWarn.ImagePath"></label>
+      <button disabled="disabled" id="cmdClose" tabindex="59" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Done</button>
+      <button id="cmdCancel" tabindex="60" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+      <button id="cmdSchedule" tabindex="94" class="cmdSchedule" type="button" data-bind="events : { click : cmdSchedule_Click }, ">View Schedule Detail</button>
+      <button disabled="disabled" id="cmdTrade" tabindex="61" class="cmdTrade" type="button" data-bind="enabled : cmdTrade.Enabled, visible : cmdTrade.Visible, events : { click : cmdTrade_Click }, ">View Trade Detail</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,457 @@
+.PTSProject_frmTrainPMRecert {
+}
+.PTSProject_frmTrainPMRecert .frmTrainPMRecert {
+	background-color: #400000;
+	min-width: 1191px;
+	min-height: 759px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .frmTrainAnnualOTEP {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 1177px;
+	height: 121px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmTrainPMRecert .frmTrainAnnualOTEP:enabled {
+	color: #00C0C0;
+}
+.PTSProject_frmTrainPMRecert .Label2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmTrainPMRecert .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 976px;
+	top: 24px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainPMRecert .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainPMRecert .frmBattOpt {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 248px;
+	top: 40px;
+	position: absolute;
+	width: 153px;
+	height: 57px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmTrainPMRecert .frmBattOpt:enabled {
+	color: #400000;
+}
+.PTSProject_frmTrainPMRecert .optAll {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optAll:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .opt182 {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 80px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .opt182:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .opt181 {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .opt181:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .opt183 {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 80px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .opt183:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainPMRecert .Frame4 {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 400px;
+	top: 40px;
+	position: absolute;
+	width: 169px;
+	height: 57px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmTrainPMRecert .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainPMRecert .optA {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optA:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .optA * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optC {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optC:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .optC * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optB {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optB:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .optB * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optD {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optD:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .optD * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainPMRecert .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 24px;
+	top: 48px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmTrainPMRecert .dtStart {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+.PTSProject_frmTrainPMRecert .dtStart.k-datepicker {
+	left: 64px;
+	top: 48px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_frmTrainPMRecert .Frame1 {
+	background-color: #400000;
+	left: 616px;
+	top: 48px;
+	position: absolute;
+	width: 321px;
+	height: 41px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmTrainPMRecert .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainPMRecert .optGrp1 {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optGrp1:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .optGrp1 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optGrp2 {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 128px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optGrp2:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .optGrp2 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optGrp3 {
+	background-color: #400000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 240px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmTrainPMRecert .optGrp3:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainPMRecert .optGrp3 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainPMRecert .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainPMRecert .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 976px;
+	top: 56px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainPMRecert .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainPMRecert .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 24px;
+	top: 72px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmTrainPMRecert .dtEnd {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+.PTSProject_frmTrainPMRecert .dtEnd.k-datepicker {
+	left: 64px;
+	top: 72px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_frmTrainPMRecert .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 976px;
+	top: 88px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainPMRecert .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainPMRecert .frmTrainAnnualOTEP_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainPMRecert .sprReport2 {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 4px;
+	top: 120px;
+	position: absolute;
+	width: 1180px;
+	height: 633px;
+}
+.PTSProject_frmTrainPMRecert .sprReport2 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTrainPMRecert .sprReport2 .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmTrainPMRecert .sprReport {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 360px;
+	top: 248px;
+	position: absolute;
+	width: 369px;
+	height: 169px;
+	visibility: hidden;
+}
+.PTSProject_frmTrainPMRecert .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTrainPMRecert .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

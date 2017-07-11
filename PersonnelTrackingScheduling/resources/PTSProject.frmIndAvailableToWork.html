@@ -1,0 +1,35 @@
+<div>
+  <div data-width="524" data-height="410" name="frmIndAvailableToWork" data-title="Dates Available To Work" class="PTSProject_frmIndAvailableToWork" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmIndAvailableToWork">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Select Date and Shift(s) Available To Work </legend>
+        <div>
+          <div id="calAvail" tabindex="1" class="calAvail" data-role="calendar" data-bind="dateTimePickerValue : calAvail.Value, monthCalendarSelectionRange : calAvail.SelectionRange, DateTimeMinDate : calAvail.MinDate, events : { change : calAvail_DateChanged }, "></div>
+          <button id="CancelButton_Renamed" tabindex="6" class="CancelButton_Renamed" type="button" data-bind="events : { click : CancelButton_Renamed_Click }, ">Exit</button>
+          <div class="chkAM">
+            <input id="chkAM" tabindex="2" type="checkbox" checked="checked" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">AM</label>
+            </div>
+          </div>
+          <div class="chkPM">
+            <input id="chkPM" tabindex="3" type="checkbox" checked="checked" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM</label>
+            </div>
+          </div>
+          <label id="Label3" tabindex="5" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Add Comment (optional)</label>
+          <textarea id="txtComment" tabindex="4" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+          <button id="cmdAdd" tabindex="7" class="cmdAdd" type="button" data-bind="events : { click : cmdAdd_Click }, ">Add Date Available Record</button>
+        </div>
+      </fieldset>
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend">Select Available Record To Delete </legend>
+        <div>
+          <div id="sprAvailable" data-role="mobilizespread" tabindex="10" class="sprAvailable" data-bind="widgetvalue: sprAvailable"></div>
+          <button disabled="disabled" id="cmdDelete" tabindex="8" class="cmdDelete" type="button" data-bind="enabled : cmdDelete.Enabled, events : { click : cmdDelete_Click }, ">Delete Available Date Record</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

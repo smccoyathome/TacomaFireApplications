@@ -1,0 +1,33 @@
+<div>
+  <div data-width="460" data-height="354" name="frmAddress" data-title="Personnel Address Entry/Update" class="PTSProject_frmAddress" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmAddress">
+      <label id="Label1" tabindex="0" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Employee</label>
+      <label id="lbEmpID" tabindex="13" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath">lbEmpID</label>
+      <div class="cboEmpListPos" id="cboEmpListPos">
+        <select data-role="combobox" id="cboEmpList" tabindex="2" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbAddressID" tabindex="15" class="lbAddressID" data-bind="text : lbAddressID.Text, imagePath : lbAddressID.ImagePath">lbAddressID</label>
+      <label id="Label2" tabindex="14" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Address to Edit</label>
+      <div id="lstAddress" tabindex="3" class="lstAddress" data-role="listbox" style="overflow:auto" data-bind="source : lstAddress.ListBoxItems, listBoxSelectedIndices : lstAddress.ListBoxSelectedIndices, events : { change : lstAddress_SelectedIndexChanged }, "></div>
+      <label id="Label3" tabindex="16" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Address</label>
+      <label id="Label4" tabindex="17" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Address Type </label>
+      <input id="txtAddress" tabindex="4" Value="txtAddress" class="txtAddress" data-bind="value : txtAddress.Text" />
+      <div class="cboTypePos" id="cboTypePos">
+        <select data-role="combobox" id="cboType" tabindex="5" class="cboType" data-text-field="Text" data-value-field="Value" data-bind="source : cboType.ComboBoxItems, customText : cboType.CustomText, comboSelectedIndex : cboType.SelectedIndex"></select>
+      </div>
+      <label id="Label5" tabindex="18" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">City</label>
+      <label id="Label9" tabindex="21" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">State</label>
+      <label id="Label6" tabindex="19" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Zip Code</label>
+      <input id="txtCity" tabindex="6" Value="txtCity" class="txtCity" data-bind="value : txtCity.Text" />
+      <input id="txtState" tabindex="7" Value="txtState" class="txtState" data-bind="value : txtState.Text" />
+      <input id="txtZip" tabindex="8" Value="txtZip" class="txtZip" data-bind="value : txtZip.Text" />
+      <label id="Label7" tabindex="20" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Comment</label>
+      <label id="Label8" tabindex="22" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">(Optional)</label>
+      <input id="txtComment" tabindex="9" Value="txtComment" class="txtComment" data-bind="value : txtComment.Text" />
+      <button id="cmdAdd" tabindex="10" data-tag="2" class="cmdAdd" type="button" data-bind="visible : cmdAdd.Visible, buttonText : cmdAdd.Text, events : { click : cmdAdd_Click }, ">Add New Address</button>
+      <button id="cmdUpdate" tabindex="11" class="cmdUpdate" type="button" data-bind="visible : cmdUpdate.Visible, events : { click : cmdUpdate_Click }, ">Update</button>
+      <button id="cmdDelete" tabindex="12" class="cmdDelete" type="button" data-bind="visible : cmdDelete.Visible, events : { click : cmdDelete_Click }, ">Delete</button>
+      <button id="cmdClose" tabindex="13" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+    </form>
+  </div>
+</div>

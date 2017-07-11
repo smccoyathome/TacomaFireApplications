@@ -1,0 +1,117 @@
+.PTSProject_frmSrReport {
+}
+.PTSProject_frmSrReport .frmSrReport {
+	background-color: rgba(240, 240, 240, 1);
+	min-width: 735px;
+	min-height: 518px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmSrReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 162px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmSrReport .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 184px;
+	top: 8px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmSrReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 616px;
+	top: 15px;
+	position: absolute;
+	width: 99px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSrReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSrReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 512px;
+	top: 16px;
+	position: absolute;
+	width: 91px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSrReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSrReport .cboSenior {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 172px;
+	height: 24px;
+}
+.PTSProject_frmSrReport .cboSenior:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSrReport .cboSeniorPos {
+	top: 26px;
+	left: 5px;
+	position: absolute;
+	width: 172px;
+	height: 24px;
+}
+.PTSProject_frmSrReport .calSrDate {
+	font-family: Arial;
+	font-size: 12.6px;
+}
+.PTSProject_frmSrReport .calSrDate.k-datepicker {
+	left: 185px;
+	top: 26px;
+	position: absolute;
+	width: 154px;
+	height: 24px;
+}
+.PTSProject_frmSrReport .sprSenior {
+	left: 5px;
+	top: 56px;
+	position: absolute;
+	width: 727px;
+	height: 456px;
+}
+.PTSProject_frmSrReport .sprSenior .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmSrReport .sprSenior .k-spreadsheet-action-bar {
+	display: none;
+}
+

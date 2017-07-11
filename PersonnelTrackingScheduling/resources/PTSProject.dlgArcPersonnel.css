@@ -1,0 +1,173 @@
+.PTSProject_dlgArcPersonnel {
+}
+.PTSProject_dlgArcPersonnel .dlgArcPersonnel {
+	background-color: Gray;
+	min-width: 361px;
+	min-height: 264px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgArcPersonnel .lbInstruct1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 339px;
+	height: 70px;
+}
+.PTSProject_dlgArcPersonnel .lbInstruct2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: White;
+	left: 22px;
+	top: 8px;
+	position: absolute;
+	width: 316px;
+	height: 54px;
+}
+.PTSProject_dlgArcPersonnel .lbExit {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 174px;
+	height: 22px;
+	text-align: center;
+}
+.PTSProject_dlgArcPersonnel .txtExit {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 184px;
+	top: 80px;
+	position: absolute;
+	width: 102px;
+	height: 23px;
+}
+.PTSProject_dlgArcPersonnel .txtExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgArcPersonnel .lbExitType {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 9px;
+	top: 112px;
+	position: absolute;
+	width: 178px;
+	height: 22px;
+	text-align: center;
+}
+.PTSProject_dlgArcPersonnel .cboExitType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 158px;
+	height: 24px;
+}
+.PTSProject_dlgArcPersonnel .cboExitType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgArcPersonnel .cboExitTypePos {
+	top: 112px;
+	left: 184px;
+	position: absolute;
+	width: 158px;
+	height: 24px;
+}
+.PTSProject_dlgArcPersonnel .lbComments {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 144px;
+	position: absolute;
+	width: 70px;
+	height: 22px;
+	visibility: hidden;
+}
+.PTSProject_dlgArcPersonnel .txtComments {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 8px;
+	top: 164px;
+	position: absolute;
+	width: 338px;
+	height: 44px;
+}
+.PTSProject_dlgArcPersonnel .txtComments:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgArcPersonnel .cmdOK {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 81px;
+	top: 219px;
+	position: absolute;
+	width: 66px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgArcPersonnel .cmdOK:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgArcPersonnel .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 170px;
+	top: 219px;
+	position: absolute;
+	width: 66px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgArcPersonnel .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

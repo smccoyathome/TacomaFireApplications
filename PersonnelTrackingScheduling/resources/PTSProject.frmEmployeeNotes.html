@@ -1,0 +1,17 @@
+<div>
+  <div data-width="471" data-height="453" name="frmEmployeeNotes" data-title="Employee Notes For:  " class="PTSProject_frmEmployeeNotes" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmEmployeeNotes">
+      <button id="cmdClose" tabindex="1" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="lbEmpID" tabindex="2" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath">lbEmpID</label>
+      <label id="lbNoteID" tabindex="7" class="lbNoteID" data-bind="text : lbNoteID.Text, imagePath : lbNoteID.ImagePath">lbNoteID</label>
+      <label id="Label11" tabindex="3" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">Select Employee:</label>
+      <button id="cmdNewNote" tabindex="12" class="cmdNewNote" type="button" data-bind="enabled : cmdNewNote.Enabled, events : { click : cmdNewNote_Click }, ">Add New Note</button>
+      <div class="cboEmpListPos" id="cboEmpListPos">
+        <select id="cboEmpList" tabindex="2" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdAddUpdate" tabindex="5" class="cmdAddUpdate" type="button" data-bind="enabled : cmdAddUpdate.Enabled, events : { click : cmdAddUpdate_Click }, ">Save Note</button>
+      <textarea id="txtNewNote" tabindex="6" Value="txtNewNote" class="txtNewNote" data-bind="value : txtNewNote.Text"></textarea>
+      <div id="sprPastComments" data-role="mobilizespread" tabindex="6" class="sprPastComments" data-bind="widgetvalue: sprPastComments"></div>
+    </form>
+  </div>
+</div>

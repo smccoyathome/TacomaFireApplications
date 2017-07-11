@@ -1,0 +1,23 @@
+<div>
+  <div data-width="417" data-height="259" data-removeControlBox="true" name="frmSecurity" data-title="Personnel Tracking and Scheduling - Security Management" class="PTSProject_frmSecurity" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmSecurity">
+      <div class="cboEmpListPos" id="cboEmpListPos">
+        <select data-role="combobox" id="cboEmpList" tabindex="1" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label2" tabindex="1" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Employee</label>
+      <label id="Line1" class="Line1" data-bind="text : Line1.Text, imagePath : Line1.ImagePath"></label>
+      <label id="Label1" tabindex="4" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Selected Employee</label>
+      <label id="lbName" tabindex="5" class="lbName" data-bind="text : lbName.Text, imagePath : lbName.ImagePath"></label>
+      <label id="lbEmpID" tabindex="6" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath"></label>
+      <label id="lbUser" tabindex="3" class="lbUser" data-bind="text : lbUser.Text, imagePath : lbUser.ImagePath">User ID</label>
+      <input id="txtUserID" tabindex="3" class="txtUserID" data-bind="value : txtUserID.Text" />
+      <button id="cmdNext" tabindex="12" class="cmdNext" type="button" data-bind="visible : cmdNext.Visible, events : { click : cmdNext_Click }, ">Next User ID</button>
+      <label id="Label3" tabindex="7" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Security Clearance</label>
+      <div class="cboSecurityPos" id="cboSecurityPos">
+        <select data-role="combobox" id="cboSecurity" tabindex="9" class="cboSecurity" data-text-field="Text" data-value-field="Value" data-bind="source : cboSecurity.ComboBoxItems, customText : cboSecurity.CustomText, comboSelectedIndex : cboSecurity.SelectedIndex"></select>
+      </div>
+      <button id="cmdUpdate" tabindex="11" class="cmdUpdate" type="button" data-bind="buttonText : cmdUpdate.Text, events : { click : cmdUpdate_Click }, ">Update</button>
+      <button id="cmdClose" tabindex="10" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+    </form>
+  </div>
+</div>

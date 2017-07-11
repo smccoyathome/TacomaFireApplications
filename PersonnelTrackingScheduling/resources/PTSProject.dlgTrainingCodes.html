@@ -1,0 +1,13 @@
+<div>
+  <div data-width="592" data-height="427" name="dlgTrainingCodes" data-tag="1" data-title="New Training Codes" class="PTSProject_dlgTrainingCodes" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgTrainingCodes">
+      <label id="Label1" tabindex="2" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Search for...</label>
+      <div class="cboSpecificCodesPos" id="cboSpecificCodesPos">
+        <select data-role="combobox" id="cboSpecificCodes" tabindex="5" class="cboSpecificCodes" data-text-field="Text" data-value-field="Value" data-bind="source : cboSpecificCodes.ComboBoxItems, customText : cboSpecificCodes.CustomText, comboSelectedIndex : cboSpecificCodes.SelectedIndex, events : { change : cboSpecificCodes_SelectionChangeCommitted }, "></select>
+      </div>
+      <div data-labeledit="true" id="tvwTraining" tabindex="2" class="tvwTraining" data-role="treeview" data-initialheight="353" data-bind="treeDataSource : tvwTraining, selectedNode : tvwTraining.SelectedItemId"></div>
+      <button id="cmdExpand" tabindex="4" data-tag="1" class="cmdExpand" type="button" data-bind="buttonText : cmdExpand.Text, events : { click : cmdExpand_Click }, ">Expand All</button>
+      <button id="cmdExit" tabindex="1" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+    </form>
+  </div>
+</div>

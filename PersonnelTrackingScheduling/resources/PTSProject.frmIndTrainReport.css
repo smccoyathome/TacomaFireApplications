@@ -1,0 +1,311 @@
+.PTSProject_frmIndTrainReport {
+}
+.PTSProject_frmIndTrainReport .frmIndTrainReport {
+	background-color: Navy;
+	min-width: 815px;
+	min-height: 512px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmIndTrainReport .Frame1 {
+	background-color: Navy;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 641px;
+	height: 161px;
+	border: 2px groove;
+}
+.PTSProject_frmIndTrainReport .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTrainReport .chkInactive {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 337px;
+	top: 16px;
+	position: absolute;
+	width: 112px;
+	height: 33px;
+	width: auto;
+}
+.PTSProject_frmIndTrainReport .chkInactive:enabled {
+	color: Red;
+}
+.PTSProject_frmIndTrainReport .cboEmployee {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 205px;
+	height: 24px;
+}
+.PTSProject_frmIndTrainReport .cboEmployee:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTrainReport .cboEmployeePos {
+	top: 24px;
+	left: 126px;
+	position: absolute;
+	width: 205px;
+	height: 24px;
+}
+.PTSProject_frmIndTrainReport .cmdByDate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 449px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 23px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTrainReport .cmdByDate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTrainReport .cmdReportLevel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 538px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 23px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTrainReport .cmdReportLevel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTrainReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 8px;
+	top: 27px;
+	position: absolute;
+	width: 109px;
+	height: 20px;
+}
+.PTSProject_frmIndTrainReport .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 130px;
+	height: 20px;
+}
+.PTSProject_frmIndTrainReport ._lbSubTitle_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 168px;
+	top: 56px;
+	position: absolute;
+	width: 185px;
+	height: 13px;
+}
+.PTSProject_frmIndTrainReport ._lbSubTitle_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 408px;
+	top: 56px;
+	position: absolute;
+	width: 185px;
+	height: 13px;
+}
+.PTSProject_frmIndTrainReport .cboPrimary {
+	left: 168px;
+	top: 72px;
+	position: absolute;
+	width: 225px;
+	height: 21px;
+	border-width: 2px;
+	border-color: red;
+	border-style: solid;
+}
+.PTSProject_frmIndTrainReport .lstSpecific {
+	left: 404px;
+	top: 72px;
+	position: absolute;
+	width: 201px;
+	height: 69px;
+}
+.PTSProject_frmIndTrainReport .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 16px;
+	top: 80px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmIndTrainReport .dtStart.k-datepicker {
+	left: 56px;
+	top: 80px;
+	position: absolute;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmIndTrainReport .dtStart {
+}
+.PTSProject_frmIndTrainReport .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 16px;
+	top: 104px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmIndTrainReport .dtEnd.k-datepicker {
+	left: 56px;
+	top: 104px;
+	position: absolute;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmIndTrainReport .dtEnd {
+}
+.PTSProject_frmIndTrainReport ._lbSubTitle_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 168px;
+	top: 104px;
+	position: absolute;
+	width: 185px;
+	height: 13px;
+}
+.PTSProject_frmIndTrainReport .cboSecondary {
+	left: 168px;
+	top: 120px;
+	position: absolute;
+	width: 225px;
+	height: 21px;
+	border-width: 2px;
+	border-color: red;
+	border-style: solid;
+}
+.PTSProject_frmIndTrainReport .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 16px;
+	top: 136px;
+	position: absolute;
+	width: 137px;
+	height: 23px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTrainReport .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTrainReport .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmIndTrainReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 672px;
+	top: 24px;
+	position: absolute;
+	width: 112px;
+	height: 40px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTrainReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTrainReport .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 672px;
+	top: 88px;
+	position: absolute;
+	width: 112px;
+	height: 40px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTrainReport .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTrainReport .lbEmpName {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 672px;
+	top: 136px;
+	position: absolute;
+	width: 99px;
+	height: 20px;
+	visibility: hidden;
+}
+.PTSProject_frmIndTrainReport .sprInd {
+	left: 8px;
+	top: 168px;
+	position: absolute;
+	width: 800px;
+	height: 334px;
+}
+.PTSProject_frmIndTrainReport .sprInd .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmIndTrainReport .sprInd .k-spreadsheet-action-bar {
+	display: none;
+}
+

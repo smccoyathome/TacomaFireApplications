@@ -1,0 +1,12 @@
+<div>
+  <div data-width="412" data-height="265" data-removeControlBox="true" name="frmNotification" data-title="IRS Notification System" class="TFDIncident_frmNotification" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmNotification">
+      <label id="Label1" tabindex="1" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">You Have Received The Following Notification Messages:</label>
+      <label id="lbNote1" tabindex="3" class="lbNote1" data-bind="text : lbNote1.Text, imagePath : lbNote1.ImagePath">Date Message Created:</label>
+      <label id="lbDateMessageCreated" tabindex="4" class="lbDateMessageCreated" data-bind="text : lbDateMessageCreated.Text, imagePath : lbDateMessageCreated.ImagePath">lbDateMessageCreated</label>
+      <label id="lbMessageText" tabindex="5" class="lbMessageText" data-bind="visible : lbMessageText.Visible, text : lbMessageText.Text, imagePath : lbMessageText.ImagePath">lbMessageText</label>
+      <button disabled="disabled" id="cmdNext" tabindex="3" class="cmdNext" type="button" data-bind="enabled : cmdNext.Enabled, events : { click : cmdNext_Click }, ">Next</button>
+      <button id="cmdExit" tabindex="1" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+    </form>
+  </div>
+</div>

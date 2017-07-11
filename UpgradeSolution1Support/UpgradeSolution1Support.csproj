@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!-- This tasks is used to embed scripts and content elements -->
+  <Target Name="AddToResources" DependsOnTargets="CompileTypeScript">
+    <ItemGroup>
+      <Resource Include="scripts\**\*.*" />
+      <Resource Include="resources\**\*.*" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA62384B-9BEA-4FD8-8EE7-92F26CBD5BF8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UpgradeSolution1Support</RootNamespace>
+    <AssemblyName>UpgradeSolution1Support</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <!-- System.Web.Mvc -->
+    <Reference Include="System.Web.Mvc, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <!-- System.Web.Razor -->
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <!-- Microsoft.AspNet.WebPages -->
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <!-- Microsoft.Web.Infrastructure -->
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <!-- Newtonsoft.Json -->
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <!-- Helpers -->
+  <ItemGroup>
+    <Reference Include="UpgradeHelpers.DB.ADO">
+      <HintPath>..\packages\UpgradeHelpers.DB.ADO.0.0.0.0\lib\net45\UpgradeHelpers.DB.ADO.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.DB.Essentials">
+      <HintPath>..\packages\UpgradeHelpers.DB.Essentials.0.0.0.0\lib\net45\UpgradeHelpers.DB.Essentials.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.Utils">
+      <HintPath>..\packages\UpgradeHelpers.Utils.0.0.0.0\lib\net45\UpgradeHelpers.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.BasicViewModels">
+      <HintPath>..\packages\UpgradeHelpers.WebMap.BasicViewModels.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.BasicViewModels.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobilize.WebMap.Controls">
+      <HintPath>..\packages\Mobilize.WebMap.Controls.0.0.0.0\lib\net45\Mobilize.WebMap.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.Core">
+      <HintPath>..\packages\UpgradeHelpers.WebMap.Core.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.DB.ADO.Surrogates">
+      <HintPath>..\packages\UpgradeHelpers.WebMap.DB.ADO.Surrogates.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.DB.ADO.Surrogates.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.Server.Common">
+      <HintPath>..\packages\UpgradeHelpers.WebMap.Server.Common.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.Server.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.Server.v2">
+      <HintPath>..\packages\UpgradeHelpers.WebMap.Server.v2.0.0.0.0\lib\UpgradeHelpers.WebMap.Server.v2.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.Surrogates">
+      <HintPath>..\packages\UpgradeHelpers.WebMap.Surrogates.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.Surrogates.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.WFBaseViewModels">
+      <HintPath>..\packages\UpgradeHelpers.WebMap.WFBaseViewModels.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.WFBaseViewModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Customizations\Customizations.csproj">
+      <Project>{4531f942-1652-4660-9b18-02b1116009a0}</Project>
+      <Name>Customizations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stubs\Stubs.csproj">
+      <Project>{f2efbf43-07b4-4565-8e14-0c2f55b9c827}</Project>
+      <Name>Stubs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Customizations\Customizations.csproj">
+      <Project>{4531f942-1652-4660-9b18-02b1116009a0}</Project>
+      <Name>Customizations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+    </Reference>
+    <Reference Include="FarPoint.Win">
+    </Reference>
+    <Reference Include="FarPoint.Win.Spread">
+    </Reference>
+    <Reference Include="FarPoint.Win.Spread.Design">
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+    </Reference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.DB.ADO\UpgradeHelpers.DB.ADO.csproj">
+      <Project>{99220d3d-4722-432c-9681-adfff2065d68}</Project>
+      <Name>UpgradeHelpers.DB.ADO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.DB.Essentials\UpgradeHelpers.DB.Essentials.csproj">
+      <Project>{b5d4a0ee-0d52-4ee8-829d-48daf1e56b8e}</Project>
+      <Name>UpgradeHelpers.DB.Essentials</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.FontHelper\UpgradeHelpers.FontHelper.csproj">
+      <Project>{71513051-c991-499f-806d-e5a9007a70ca}</Project>
+      <Name>UpgradeHelpers.FontHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui.ContainerHelper\UpgradeHelpers.Gui.ContainerHelper.csproj">
+      <Project>{a4c9e0b1-7c82-427a-80f1-b548b5a1b1e8}</Project>
+      <Name>UpgradeHelpers.Gui.ContainerHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui.Graphics\UpgradeHelpers.Gui.Graphics.csproj">
+      <Project>{72e5ff68-a339-4924-85d9-31c32ec540f6}</Project>
+      <Name>UpgradeHelpers.Gui.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui\UpgradeHelpers.Gui.csproj">
+      <Project>{f852374c-22ba-4cb6-aa34-da1a589b9d8d}</Project>
+      <Name>UpgradeHelpers.Gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.NotUpgradeHelper\UpgradeHelpers.NotUpgradeHelper.csproj">
+      <Project>{4d15e9b3-ecf3-4267-99a4-83c25ffd8ec4}</Project>
+      <Name>UpgradeHelpers.NotUpgradeHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.SupportHelper\UpgradeHelpers.SupportHelper.csproj">
+      <Project>{2104ade2-996d-4769-b4ee-add2fae011f8}</Project>
+      <Name>UpgradeHelpers.SupportHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Utils.ReflectionHelper\UpgradeHelpers.Utils.ReflectionHelper.csproj">
+      <Project>{9ad53694-7256-4635-aeea-92ff88652713}</Project>
+      <Name>UpgradeHelpers.Utils.ReflectionHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.Utils\UpgradeHelpers.Utils.csproj">
+      <Project>{1a91e8f9-beff-4b66-98df-4bfee15fa39f}</Project>
+      <Name>UpgradeHelpers.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.VB\UpgradeHelpers.VB.csproj">
+      <Project>{9BE0611B-C690-4268-AB56-81D679F07022}</Project>
+      <Name>UpgradeHelpers.VB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PInvoke\SafeMethods\kernel32.cs" />
+    <Compile Include="PInvoke\UnsafeMethods\kernel32.cs" />
+    <Compile Include="UpgradeStubs\UpgradeStubs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scripts\helpers\*.ts" />
+    <Content Include="scripts\helpers\*.map" />
+    <Content Include="scripts\helpers\*.js" />
+    <Content Include="scripts\usercontrols\*.js" />
+    <Content Include="resources\Images\**\**" />
+    <Content Include="resources\libs\**\**" />
+    <Content Include="Images\*.*" />
+    <Content Include="packages.config" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PrepareForBuildDependsOn>AddToResources;@(PrepareForBuildDependsOn)</PrepareForBuildDependsOn>
+  </PropertyGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="scripts\*.ts;scripts\usercontrols\*.ts;scripts\widgets\*.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  
+  <Target Name="Dependencies">
+    <ItemGroup>
+      <Deps Include="gulp;bower"/>
+    </ItemGroup>
+  </Target>
+   
+  <Target Name="InstallNodeModules" Condition="Exists('$(MSBuildProjectDirectory)\package.json')">
+    <CallTarget Targets="Dependencies;ForExec;InstallModules" />
+  </Target> 
+   
+  <Target Name="InstallModules">
+    <Exec Command="npm install" Condition="Exists('$(MSBuildProjectDirectory)\package.json')" />
+    <Exec Command="bower install" Condition="Exists('$(MSBuildProjectDirectory)\bower.json')" />
+  </Target>
+   
+  <Target Name="ForExec" Outputs="%(Deps.Identity)">
+    <PropertyGroup>
+      <DepName>%(Deps.Identity)</DepName>
+      <ExitCodeProp>0</ExitCodeProp>
+    </PropertyGroup>
+    <Message Text="Checking $(DepName)" />
+    <Exec Command="$(depName) -v" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ExitCodeProp"/>
+    </Exec>
+    <Exec Condition="$(ExitCodeProp) != 0" Command="npm install -g $(DepName)" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ExitCodeProp"/>
+    </Exec>
+  </Target>
+  
+</Project>

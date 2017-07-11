@@ -1,0 +1,70 @@
+<div>
+  <div data-width="592" data-height="492" name="dlgSpecialties" data-title="Personnel Specialty Groups" class="PTSProject_dlgSpecialties" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgSpecialties">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Select Group:</legend>
+        <div>
+          <div class="OptParamedic">
+            <input id="OptParamedic" tabindex="1" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : OptParamedic.Checked, events : { change : OptParamedic_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Paramedic</label>
+            </div>
+          </div>
+          <div class="optFCCDispatcher">
+            <input id="optFCCDispatcher" tabindex="2" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optFCCDispatcher.Checked, events : { change : optFCCDispatcher_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">FCC Field Relief Dispatchers</label>
+            </div>
+          </div>
+          <div class="OptTempUpgrade">
+            <input id="OptTempUpgrade" tabindex="3" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : OptTempUpgrade.Checked, events : { change : OptTempUpgrade_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Temporary Payroll Upgrades</label>
+            </div>
+          </div>
+          <div class="OptOmitBCList">
+            <input id="OptOmitBCList" tabindex="4" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : OptOmitBCList.Checked, events : { change : OptOmitBCList_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Omit From Battalion Payroll list</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <button id="cmdClose" tabindex="15" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="lbGroup" tabindex="6" class="lbGroup" data-bind="text : lbGroup.Text, imagePath : lbGroup.ImagePath">lbGroup</label>
+      <label id="Label1" tabindex="7" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">TFD Emloyees</label>
+      <div id="sprSpecialtyList" data-role="mobilizespread" tabindex="5" class="sprSpecialtyList" data-bind="widgetvalue: sprSpecialtyList"></div>
+      <div id="sprEmployeeList" data-role="mobilizespread" tabindex="8" class="sprEmployeeList" data-bind="widgetvalue: sprEmployeeList"></div>
+      <button id="cmdAdd" tabindex="13" class="cmdAdd" type="button" data-bind="enabled : cmdAdd.Enabled, events : { click : cmdAdd_Click }, ">&lt; Add</button>
+      <button id="cmdRemove" tabindex="14" class="cmdRemove" type="button" data-bind="enabled : cmdRemove.Enabled, events : { click : cmdRemove_Click }, ">Remove &gt;</button>
+      <fieldset id="frmUpgradeInfo" class="frmUpgradeInfo" data-bind="visible : frmUpgradeInfo.Visible">
+        <legend id="frmUpgradeInfo_legend" class="frmUpgradeInfo_legend">Employee Upgrade Information </legend>
+        <div>
+          <label id="lbUpgradeName" tabindex="19" class="lbUpgradeName" data-bind="text : lbUpgradeName.Text, imagePath : lbUpgradeName.ImagePath">Employee's Name</label>
+          <button id="cmdSaveUpdate" tabindex="20" class="cmdSaveUpdate" type="button" data-bind="enabled : cmdSaveUpdate.Enabled, events : { click : cmdSaveUpdate_Click }, ">Save</button>
+          <label id="Label9" tabindex="16" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">PS Group</label>
+          <label id="Label12" tabindex="17" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">Level</label>
+          <div class="cboJobCodePos" id="cboJobCodePos">
+            <select id="cboJobCode" tabindex="16" class="cboJobCode" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboJobCode.ComboBoxItems, customText : cboJobCode.CustomText, comboSelectedIndex : cboJobCode.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboStepPos" id="cboStepPos">
+            <select id="cboStep" tabindex="17" class="cboStep" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboStep.ComboBoxItems, customText : cboStep.CustomText, comboSelectedIndex : cboStep.SelectedIndex"></select>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset id="frmRemoveReason" class="frmRemoveReason" data-bind="visible : frmRemoveReason.Visible">
+        <legend id="frmRemoveReason_legend" class="frmRemoveReason_legend">Employee Omit Reason/Comment </legend>
+        <div>
+          <label id="lbRemoveName" tabindex="22" class="lbRemoveName" data-bind="text : lbRemoveName.Text, imagePath : lbRemoveName.ImagePath">Employee's Name</label>
+          <button id="cmdSaveReason" tabindex="25" class="cmdSaveReason" type="button" data-bind="enabled : cmdSaveReason.Enabled, events : { click : cmdSaveReason_Click }, ">Save</button>
+          <label id="Label2" tabindex="24" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Reason:</label>
+          <div class="cboRemoveCodePos" id="cboRemoveCodePos">
+            <select id="cboRemoveCode" tabindex="22" class="cboRemoveCode" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboRemoveCode.ComboBoxItems, customText : cboRemoveCode.CustomText, comboSelectedIndex : cboRemoveCode.SelectedIndex"></select>
+          </div>
+          <label id="Label3" tabindex="25" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Comment:</label>
+          <textarea id="txtComment" tabindex="23" Value="txtComment" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,3482 @@
+.TFDIncident_frmFireReport {
+}
+.TFDIncident_frmFireReport .frmFireReport {
+	background-color: rgba(240, 240, 240, 1);
+	min-width: 814px;
+	min-height: 544px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 17.28px;
+}
+.TFDIncident_frmFireReport .picFireBar {
+	background-color: #004040;
+	border-style: inset;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 814px;
+	height: 41px;
+}
+.TFDIncident_frmFireReport .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: #FFE0C0;
+	left: -8px;
+	top: 0px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	text-align: right;
+}
+.TFDIncident_frmFireReport .lbIncident {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: White;
+	left: 96px;
+	top: 0px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbExposure2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Red;
+	left: 200px;
+	top: 0px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	text-align: right;
+}
+.TFDIncident_frmFireReport .cmdHelp {
+	left: 308px;
+	top: 0px;
+	position: absolute;
+	width: 37px;
+	height: 39px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFireReport ._cmdSave_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 344px;
+	top: 0px;
+	position: absolute;
+	width: 56px;
+	height: 39px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFireReport ._cmdSave_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbLockedMessage {
+	background-color: #FFFFC0;
+	cursor: default;
+	color: #C04000;
+	left: 392px;
+	top: 0px;
+	position: absolute;
+	width: 293px;
+	height: 33px;
+	text-align: center;
+}
+.TFDIncident_frmFireReport ._cmdSave_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 397px;
+	top: 0px;
+	position: absolute;
+	width: 133px;
+	height: 42px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFireReport ._cmdSave_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport ._cmdSave_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 528px;
+	top: 0px;
+	position: absolute;
+	width: 163px;
+	height: 42px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFireReport ._cmdSave_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport ._cmdSave_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 688px;
+	top: 0px;
+	position: absolute;
+	width: 125px;
+	height: 42px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFireReport ._cmdSave_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbLocation {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: White;
+	left: 0px;
+	top: 20px;
+	position: absolute;
+	width: 321px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .tabFire {
+	left: 0px;
+	top: 40px;
+	position: absolute;
+	min-width: 814px;
+	min-height: 504px;
+	outline-style: none;
+}
+.TFDIncident_frmFireReport .tabPage1 {
+	background-color: #C5CEAC;
+	width: 806px;
+	height: 468px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmFireReport .frmBI1 {
+	background-color: #C5CEAC;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 800px;
+	height: 161px;
+	overflow: hidden;
+}
+.TFDIncident_frmFireReport .frmBI1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbGenOccupancy {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtTotalSqFootage {
+	background-color: Blue;
+	font-family: Verdana;
+	font-size: 12.96px;
+	left: 700px;
+	top: 0px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtTotalSqFootage:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbTotSqFt {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 480px;
+	top: 4px;
+	position: absolute;
+	width: 217px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboGeneralPropertyUse {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 433px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboGeneralPropertyUse:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboGeneralPropertyUsePos {
+	top: 16px;
+	left: 0px;
+	position: absolute;
+	width: 433px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbNoStories {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 480px;
+	top: 28px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtNumberOfStories {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 560px;
+	top: 28px;
+	position: absolute;
+	width: 41px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtNumberOfStories:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbBasementLevel {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 604px;
+	top: 28px;
+	position: absolute;
+	width: 145px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtBasementLevels {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 756px;
+	top: 28px;
+	position: absolute;
+	width: 33px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtBasementLevels:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbSpecificOccupancy {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 0px;
+	top: 40px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtNumberOfUnits {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 700px;
+	top: 53px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtNumberOfUnits:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboSpecificPropertyUse {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 433px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboSpecificPropertyUse:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboSpecificPropertyUsePos {
+	top: 56px;
+	left: 0px;
+	position: absolute;
+	width: 433px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbNumberOfUnits {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 480px;
+	top: 57px;
+	position: absolute;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbBldgStatus {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 0px;
+	top: 80px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtNumberOfOccupants {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 700px;
+	top: 80px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtNumberOfOccupants:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbNoOccupants {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 480px;
+	top: 84px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboBuildingStatus {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 433px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboBuildingStatus:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboBuildingStatusPos {
+	top: 96px;
+	left: 0px;
+	position: absolute;
+	width: 433px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtNumberOfBusinesses {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 700px;
+	top: 106px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtNumberOfBusinesses:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbNoBusinesses {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 480px;
+	top: 110px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbConstructionType {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 0px;
+	top: 120px;
+	position: absolute;
+	width: 217px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtPropValue {
+	background-color: Blue;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 700px;
+	top: 132px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtPropValue:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboConstructionType {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboConstructionType:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboConstructionTypePos {
+	top: 136px;
+	left: 0px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .chkRental {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 344px;
+	top: 136px;
+	position: absolute;
+	width: 113px;
+	height: 21px;
+	width: auto;
+}
+.TFDIncident_frmFireReport .chkRental:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbPropValue {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 480px;
+	top: 136px;
+	position: absolute;
+	width: 169px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .frmAlarm {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 2px;
+	top: 163px;
+	position: absolute;
+	width: 816px;
+	height: 161px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmAlarm:enabled {
+	color: #004000;
+}
+.TFDIncident_frmFireReport ._optAlarmType_0 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 12px;
+	top: 16px;
+	position: absolute;
+	width: 261px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optAlarmType_0:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optAlarmType_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport ._optAlarmType_1 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 208px;
+	top: 16px;
+	position: absolute;
+	width: 329px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optAlarmType_1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optAlarmType_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport ._optAlarmType_2 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 540px;
+	top: 16px;
+	position: absolute;
+	width: 205px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optAlarmType_2:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optAlarmType_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport .chkAlarmOperation {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 44px;
+	position: absolute;
+	width: 321px;
+	height: 33px;
+	width: auto;
+}
+.TFDIncident_frmFireReport .chkAlarmOperation:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .Line1 {
+	background-color: Gray;
+	left: 8px;
+	top: 44px;
+	position: absolute;
+	width: 796px;
+	height: 1px;
+}
+.TFDIncident_frmFireReport .lbReasonFailure {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 496px;
+	top: 44px;
+	position: absolute;
+	width: 133px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lstAlarmFailure {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 496px;
+	top: 64px;
+	position: absolute;
+	width: 309px;
+	height: 72px;
+}
+.TFDIncident_frmFireReport .lbAlarmType {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Gray;
+	left: 8px;
+	top: 76px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboAlarmType {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 313px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboAlarmType:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboAlarmTypePos {
+	top: 76px;
+	left: 180px;
+	position: absolute;
+	width: 313px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbInitiatingDevice {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboInitiatingDevice {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 313px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboInitiatingDevice:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboInitiatingDevicePos {
+	top: 104px;
+	left: 180px;
+	position: absolute;
+	width: 313px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbEffectiveness {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Gray;
+	left: 8px;
+	top: 132px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboEffectiveness {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 313px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboEffectiveness:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboEffectivenessPos {
+	top: 132px;
+	left: 180px;
+	position: absolute;
+	width: 313px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .frmAlarm_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .frmExtinguish {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 1px;
+	top: 327px;
+	position: absolute;
+	width: 816px;
+	height: 137px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmExtinguish:enabled {
+	color: #004000;
+}
+.TFDIncident_frmFireReport ._optExtinguish_0 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 333px;
+	height: 23px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optExtinguish_0:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optExtinguish_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport ._optExtinguish_1 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 344px;
+	top: 16px;
+	position: absolute;
+	width: 365px;
+	height: 23px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optExtinguish_1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optExtinguish_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport .Line2 {
+	background-color: Gray;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 760px;
+	height: 1px;
+}
+.TFDIncident_frmFireReport .chkExtOperation {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 20px;
+	top: 44px;
+	position: absolute;
+	width: 357px;
+	height: 25px;
+	width: auto;
+}
+.TFDIncident_frmFireReport .chkExtOperation:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbSysReasonFailure {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Gray;
+	left: 432px;
+	top: 44px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lstExtFailure {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 432px;
+	top: 64px;
+	position: absolute;
+	width: 377px;
+	height: 55px;
+}
+.TFDIncident_frmFireReport .lbSysType {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Gray;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboSysType {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 281px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboSysType:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboSysTypePos {
+	top: 80px;
+	left: 140px;
+	position: absolute;
+	width: 281px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbExtEffective {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Gray;
+	left: 8px;
+	top: 108px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboExtEffectiveness {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 281px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboExtEffectiveness:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboExtEffectivenessPos {
+	top: 108px;
+	left: 140px;
+	position: absolute;
+	width: 281px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .frmExtinguish_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .cmdCancelExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 763px;
+	top: 664px;
+	position: absolute;
+	width: 225px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFireReport .cmdCancelExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .tabPage2 {
+	background-color: #C5CEAC;
+	width: 806px;
+	height: 468px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmFireReport .frmMobile1 {
+	background-color: #C5CEAC;
+	cursor: default;
+	left: 7px;
+	top: 13px;
+	position: absolute;
+	width: 676px;
+	height: 113px;
+	overflow: hidden;
+}
+.TFDIncident_frmFireReport .frmMobile1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbMobilePropType {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #57665C;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 265px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboMobilePropType {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 373px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboMobilePropType:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboMobilePropTypePos {
+	top: 0px;
+	left: 244px;
+	position: absolute;
+	width: 373px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtMobilePropValue {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 244px;
+	top: 40px;
+	position: absolute;
+	width: 157px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtMobilePropValue:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbMobilePropValue {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #57665C;
+	left: 0px;
+	top: 44px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtVesselLength {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 244px;
+	top: 80px;
+	position: absolute;
+	width: 157px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtVesselLength:enabled {
+	color: #57665C;
+}
+.TFDIncident_frmFireReport .lbVesselLength {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #57665C;
+	left: 0px;
+	top: 84px;
+	position: absolute;
+	width: 265px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .frmVehicle {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 10px;
+	top: 148px;
+	position: absolute;
+	width: 513px;
+	height: 265px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmVehicle:enabled {
+	color: #57665C;
+}
+.TFDIncident_frmFireReport .cboMobileMake {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboMobileMake:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboMobileMakePos {
+	top: 28px;
+	left: 96px;
+	position: absolute;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbVehicleMake {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #57665C;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtVehicleMake {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 96px;
+	top: 60px;
+	position: absolute;
+	width: 241px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtVehicleMake:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbOtherMake {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #57665C;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtVehicleModel {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 96px;
+	top: 100px;
+	position: absolute;
+	width: 241px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtVehicleModel:enabled {
+	color: #57665C;
+}
+.TFDIncident_frmFireReport .lbVehicleModel {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #57665C;
+	left: 16px;
+	top: 104px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtVehicleYear {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 100px;
+	top: 144px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtVehicleYear:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbVehicleYear {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #57665C;
+	left: 20px;
+	top: 152px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtVIN {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 100px;
+	top: 180px;
+	position: absolute;
+	width: 221px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtVIN:enabled {
+	color: #57665C;
+}
+.TFDIncident_frmFireReport .lbVIN {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #57665C;
+	left: 20px;
+	top: 184px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboLicenseState {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 61px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboLicenseState:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboLicenseStatePos {
+	top: 216px;
+	left: 152px;
+	position: absolute;
+	width: 61px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbLicenseSt {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 20px;
+	top: 220px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .frmVehicle_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .lbVYearMes {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 19.44px;
+	font-weight: bold;
+	color: Red;
+	left: 514px;
+	top: 212px;
+	position: absolute;
+	width: 284px;
+	height: 97px;
+	text-align: center;
+}
+.TFDIncident_frmFireReport .tabPage3 {
+	background-color: #C5CEAC;
+	width: 806px;
+	height: 468px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmFireReport .frmFireInfo1 {
+	background-color: #C5CEAC;
+	cursor: default;
+	left: 0px;
+	top: 8px;
+	position: absolute;
+	width: 397px;
+	height: 453px;
+	overflow: hidden;
+}
+.TFDIncident_frmFireReport .frmFireInfo1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbAreaOrigin {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: -4px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboAreaOfOrigin {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboAreaOfOrigin:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboAreaOfOriginPos {
+	top: 12px;
+	left: 4px;
+	position: absolute;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbHeatSource {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: 40px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboHeatSource {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboHeatSource:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboHeatSourcePos {
+	top: 57px;
+	left: 4px;
+	position: absolute;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbFirstIgnited {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: 84px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboFirstItemIgnited {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboFirstItemIgnited:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboFirstItemIgnitedPos {
+	top: 103px;
+	left: 4px;
+	position: absolute;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbGenCauseOfIgnition {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: 132px;
+	position: absolute;
+	width: 481px;
+	height: 33px;
+}
+.TFDIncident_frmFireReport .cboGenCauseOfIgnition {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboGenCauseOfIgnition:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboGenCauseOfIgnitionPos {
+	top: 148px;
+	left: 4px;
+	position: absolute;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbExposure1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Red;
+	left: 232px;
+	top: 172px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	text-align: right;
+}
+.TFDIncident_frmFireReport .lbSpecCauseIgnition {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: 176px;
+	position: absolute;
+	width: 345px;
+	height: 33px;
+}
+.TFDIncident_frmFireReport .cboSpecCauseOfIgnition {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboSpecCauseOfIgnition:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboSpecCauseOfIgnitionPos {
+	top: 192px;
+	left: 4px;
+	position: absolute;
+	width: 393px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbPhyContribFactors {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: 216px;
+	position: absolute;
+	width: 345px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lstPhysicalContribFactors {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 4px;
+	top: 236px;
+	position: absolute;
+	width: 393px;
+	height: 55px;
+}
+.TFDIncident_frmFireReport .lbHumanContribFactors {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: 288px;
+	position: absolute;
+	width: 313px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lstHumanContribFactors {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 4px;
+	top: 308px;
+	position: absolute;
+	width: 389px;
+	height: 55px;
+}
+.TFDIncident_frmFireReport .frmHFDetail {
+	background-color: #B5BD64;
+	cursor: default;
+	left: 312px;
+	top: 308px;
+	position: absolute;
+	width: 85px;
+	height: 69px;
+	overflow: hidden;
+}
+.TFDIncident_frmFireReport .frmHFDetail:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport ._optHFGender_0 {
+	background-color: #B5BD64;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 81px;
+	height: 24px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optHFGender_0:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optHFGender_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport ._optHFGender_1 {
+	background-color: #B5BD64;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 0px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 24px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optHFGender_1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optHFGender_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport .Label11 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: 40px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtHFAge {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 40px;
+	top: 40px;
+	position: absolute;
+	width: 33px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtHFAge:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbSuppressFactors {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 376px;
+	position: absolute;
+	width: 345px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lstSuppressionFactors {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 8px;
+	top: 396px;
+	position: absolute;
+	width: 388px;
+	height: 55px;
+}
+.TFDIncident_frmFireReport .frmFireOnly {
+	background-color: #C5CEAC;
+	left: 403px;
+	top: 12px;
+	position: absolute;
+	width: 401px;
+	height: 449px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmFireOnly:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .txtFloorOfOrigin {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 208px;
+	top: 20px;
+	position: absolute;
+	width: 105px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtFloorOfOrigin:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbFlOfOrigin {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .frmFloor {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 12px;
+	top: 40px;
+	position: absolute;
+	width: 385px;
+	height: 45px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmFloor:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optFloor_0 {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 12px;
+	top: 20px;
+	position: absolute;
+	width: 105px;
+	height: 24px;
+	width: auto;
+}
+.TFDIncident_frmFireReport ._optFloor_0:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optFloor_1 {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 144px;
+	top: 20px;
+	position: absolute;
+	width: 105px;
+	height: 24px;
+	width: auto;
+}
+.TFDIncident_frmFireReport ._optFloor_1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optFloor_2 {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 260px;
+	top: 20px;
+	position: absolute;
+	width: 105px;
+	height: 24px;
+	width: auto;
+}
+.TFDIncident_frmFireReport ._optFloor_2:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .frmFloor_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .lbBurnDamage {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 88px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboBurnDamage {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 349px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboBurnDamage:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboBurnDamagePos {
+	top: 108px;
+	left: 16px;
+	position: absolute;
+	width: 349px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbSmokeDamage {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 136px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboSmokeDamage {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 349px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboSmokeDamage:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboSmokeDamagePos {
+	top: 156px;
+	left: 16px;
+	position: absolute;
+	width: 349px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbContribFireSpread {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 184px;
+	position: absolute;
+	width: 321px;
+	height: 21px;
+}
+.TFDIncident_frmFireReport .lstItemContribFireSpread {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 8px;
+	top: 200px;
+	position: absolute;
+	width: 389px;
+	height: 55px;
+}
+.TFDIncident_frmFireReport ._lbEquipInvolvIgnition_0 {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 272px;
+	position: absolute;
+	width: 345px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lstEquipInvolvIgnition {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: #597041;
+	left: 8px;
+	top: 288px;
+	position: absolute;
+	width: 389px;
+	height: 72px;
+}
+.TFDIncident_frmFireReport .chkExposures {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 372px;
+	position: absolute;
+	width: 217px;
+	height: 40px;
+	width: auto;
+}
+.TFDIncident_frmFireReport .chkExposures:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .chkMobileInvolved {
+	background-color: #C5CEAC;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 252px;
+	top: 388px;
+	position: absolute;
+	width: 137px;
+	height: 48px;
+	width: auto;
+}
+.TFDIncident_frmFireReport .chkMobileInvolved:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbNumExp {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 4px;
+	top: 416px;
+	position: absolute;
+	width: 205px;
+	height: 29px;
+}
+.TFDIncident_frmFireReport .txtNumberExposures {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 160px;
+	top: 416px;
+	position: absolute;
+	width: 41px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtNumberExposures:enabled {
+	color: #57665C;
+}
+.TFDIncident_frmFireReport .frmFireOnly_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .tabPage4 {
+	background-color: #C5CEAC;
+	width: 806px;
+	height: 468px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmFireReport .frmFireLoss {
+	background-color: #C5CEAC;
+	left: 8px;
+	top: 13px;
+	position: absolute;
+	width: 489px;
+	height: 241px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmFireLoss:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbSqFtBurned {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 20px;
+	top: 24px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtSqFtBurned {
+	background-color: Blue;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 332px;
+	top: 24px;
+	position: absolute;
+	width: 141px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtSqFtBurned:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbSqFtSmokeDamage {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 20px;
+	top: 68px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtSqFtSmokeDamage {
+	background-color: Blue;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 332px;
+	top: 68px;
+	position: absolute;
+	width: 141px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtSqFtSmokeDamage:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbNoBusinessDisplaced {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 20px;
+	top: 112px;
+	position: absolute;
+	width: 293px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtNoBusinessDisplaced {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 332px;
+	top: 112px;
+	position: absolute;
+	width: 141px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtNoBusinessDisplaced:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbNoPeopleDisplaced {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 20px;
+	top: 156px;
+	position: absolute;
+	width: 269px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtNoPeopleDisplaced {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 332px;
+	top: 156px;
+	position: absolute;
+	width: 141px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtNoPeopleDisplaced:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbJobsLost {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 20px;
+	top: 200px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtJobsLost {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 332px;
+	top: 200px;
+	position: absolute;
+	width: 141px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtJobsLost:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .frmFireLoss_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .frmPropLoss {
+	background-color: #C5CEAC;
+	left: 502px;
+	top: 13px;
+	position: absolute;
+	width: 301px;
+	height: 241px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmPropLoss:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .txtPropLoss {
+	background-color: Blue;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 148px;
+	top: 24px;
+	position: absolute;
+	width: 141px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtPropLoss:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbPropLoss {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 28px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtContentLoss {
+	background-color: Blue;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 148px;
+	top: 64px;
+	position: absolute;
+	width: 141px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtContentLoss:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbContentLoss {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 68px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .frmPropLoss_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .tabPage5 {
+	background-color: #C5CEAC;
+	width: 806px;
+	height: 468px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmFireReport .frmOSType {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 744px;
+	height: 73px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmOSType:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optOSType_0 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 24px;
+	top: 32px;
+	position: absolute;
+	width: 253px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optOSType_0:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optOSType_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport ._optOSType_1 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 292px;
+	top: 32px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optOSType_1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optOSType_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport ._optOSType_2 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 520px;
+	top: 32px;
+	position: absolute;
+	width: 201px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optOSType_2:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optOSType_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport .frmOSType_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .frmOSMain {
+	background-color: #C5CEAC;
+	left: 2px;
+	top: 79px;
+	position: absolute;
+	width: 744px;
+	height: 277px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmOSMain:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .cboOSHeatSource {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboOSHeatSource:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboOSHeatSourcePos {
+	top: 16px;
+	left: 216px;
+	position: absolute;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbOSHeatSource {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboOSCauseOfIgnition {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboOSCauseOfIgnition:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboOSCauseOfIgnitionPos {
+	top: 52px;
+	left: 216px;
+	position: absolute;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbOSCauseOfIgnition {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 317px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboOSSpecCauseOfIgnition {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboOSSpecCauseOfIgnition:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboOSSpecCauseOfIgnitionPos {
+	top: 88px;
+	left: 216px;
+	position: absolute;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbOSSpecCauseOfIgnition {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 92px;
+	position: absolute;
+	width: 317px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtOSLoss {
+	background-color: Blue;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 216px;
+	top: 124px;
+	position: absolute;
+	width: 141px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtOSLoss:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbOSContentLoss {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 128px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtOSAreaAffected {
+	background-color: Blue;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 216px;
+	top: 160px;
+	position: absolute;
+	width: 129px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtOSAreaAffected:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .lbOSAreaAffected {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 168px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboOSAreaUnits {
+	background-color: Blue;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboOSAreaUnits:enabled {
+	color: White;
+}
+.TFDIncident_frmFireReport .cboOSAreaUnitsPos {
+	top: 196px;
+	left: 216px;
+	position: absolute;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbOSAreaUnits {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 204px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbOSMaterialInvolved {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 232px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboOSMaterialInvolved {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 445px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboOSMaterialInvolved:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboOSMaterialInvolvedPos {
+	top: 232px;
+	left: 216px;
+	position: absolute;
+	width: 445px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .frmOSMain_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .tabPage6 {
+	background-color: #C5CEAC;
+	width: 806px;
+	height: 468px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmFireReport .frmNarrSelect {
+	background-color: #C5CEAC;
+	left: 9px;
+	top: -4px;
+	position: absolute;
+	width: 793px;
+	height: 105px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmNarrSelect:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbNarrSelTitle {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: #004000;
+	left: 4px;
+	top: 24px;
+	position: absolute;
+	width: 217px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboNarrList {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 445px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboNarrList:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboNarrListPos {
+	top: 24px;
+	left: 224px;
+	position: absolute;
+	width: 445px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbNarrID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 680px;
+	top: 28px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	visibility: hidden;
+}
+.TFDIncident_frmFireReport .cmdAddNarration {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	left: 456px;
+	top: 52px;
+	position: absolute;
+	width: 213px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFireReport .cmdAddNarration:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .frmNarrSelect_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .frmNar1 {
+	background-color: #C5CEAC;
+	left: 9px;
+	top: 100px;
+	position: absolute;
+	width: 792px;
+	height: 357px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmNar1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbNarTitle {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: #004000;
+	left: 12px;
+	top: 20px;
+	position: absolute;
+	width: 357px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbNarrAuthor {
+	background-color: #E0E0E0;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 368px;
+	top: 20px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .rtxNarration {
+	background-color: White;
+	font-family: Verdana;
+	font-size: 12.96px;
+	left: 12px;
+	top: 48px;
+	position: absolute;
+	width: 768px;
+	height: 257px;
+}
+.TFDIncident_frmFireReport .lbNarrMessage {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: #004000;
+	left: 156px;
+	top: 312px;
+	position: absolute;
+	width: 457px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .frmNar1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .tabPage7 {
+	background-color: #C5CEAC;
+	width: 806px;
+	height: 468px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmFireReport .frmName1 {
+	background-color: #C5CEAC;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 792px;
+	height: 449px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmName1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbNameTitle {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: #004000;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 217px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 305px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboNameList:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboNameListPos {
+	top: 20px;
+	left: 172px;
+	position: absolute;
+	width: 305px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbNameID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 20px;
+	position: absolute;
+	width: 109px;
+	height: 29px;
+	visibility: hidden;
+}
+.TFDIncident_frmFireReport .txtFirstName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 16px;
+	top: 56px;
+	position: absolute;
+	width: 221px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtFirstName:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .txtLastName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 248px;
+	top: 56px;
+	position: absolute;
+	width: 289px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtLastName:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .txtMI {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 548px;
+	top: 56px;
+	position: absolute;
+	width: 33px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtMI:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbFirstName {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 16px;
+	top: 84px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbLastName {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 252px;
+	top: 84px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbMI {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 548px;
+	top: 84px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtBusinessName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 16px;
+	top: 108px;
+	position: absolute;
+	width: 453px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtBusinessName:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbBusinessName {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 20px;
+	top: 136px;
+	position: absolute;
+	width: 269px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtHouseNumber {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 12px;
+	top: 168px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtHouseNumber:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboPrefix {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 47px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboPrefix:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboPrefixPos {
+	top: 168px;
+	left: 76px;
+	position: absolute;
+	width: 47px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtStreetName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 128px;
+	top: 168px;
+	position: absolute;
+	width: 209px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtStreetName:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboStreetType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 61px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboStreetType:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboStreetTypePos {
+	top: 168px;
+	left: 344px;
+	position: absolute;
+	width: 61px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboSuffix {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboSuffix:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboSuffixPos {
+	top: 168px;
+	left: 412px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtCity {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 468px;
+	top: 168px;
+	position: absolute;
+	width: 153px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtCity:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboState {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 45px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboState:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboStatePos {
+	top: 168px;
+	left: 628px;
+	position: absolute;
+	width: 45px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtZipcode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 676px;
+	top: 168px;
+	position: absolute;
+	width: 93px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtZipcode:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbHouseNum {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 8px;
+	top: 196px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbPrefix {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 76px;
+	top: 196px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbStreetName {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 144px;
+	top: 196px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbStreetType {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 352px;
+	top: 196px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbSuffix {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 408px;
+	top: 196px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbCity {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 472px;
+	top: 196px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbState {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 628px;
+	top: 196px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbZip {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #597041;
+	left: 680px;
+	top: 196px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .lbRole {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 236px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboRole {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 253px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboRole:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboRolePos {
+	top: 236px;
+	left: 160px;
+	position: absolute;
+	width: 253px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtHomePhone {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 564px;
+	top: 264px;
+	position: absolute;
+	width: 161px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtHomePhone:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .txtBirthdate {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 160px;
+	top: 268px;
+	position: absolute;
+	width: 117px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtBirthdate:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbHomePhone {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 436px;
+	top: 268px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbBirthdate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 272px;
+	position: absolute;
+	width: 101px;
+	height: 21px;
+}
+.TFDIncident_frmFireReport .frmGender {
+	background-color: #C5CEAC;
+	left: 160px;
+	top: 296px;
+	position: absolute;
+	width: 193px;
+	height: 49px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmGender:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport ._optGender_0 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 16px;
+	top: 20px;
+	position: absolute;
+	width: 69px;
+	height: 23px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optGender_0:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optGender_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport ._optGender_1 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 104px;
+	top: 20px;
+	position: absolute;
+	width: 85px;
+	height: 23px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optGender_1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optGender_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport .frmGender_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .txtWorkPhone {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 564px;
+	top: 304px;
+	position: absolute;
+	width: 161px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtWorkPhone:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbWorkPhone {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 436px;
+	top: 308px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbGender {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 312px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtWorkPlace {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 564px;
+	top: 344px;
+	position: absolute;
+	width: 217px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtWorkPlace:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .lbWorkPlace {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 436px;
+	top: 348px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .lbRace {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 356px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboRace {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 173px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboRace:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboRacePos {
+	top: 356px;
+	left: 160px;
+	position: absolute;
+	width: 173px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .frmEthnicity {
+	background-color: #C5CEAC;
+	left: 160px;
+	top: 384px;
+	position: absolute;
+	width: 297px;
+	height: 49px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .frmEthnicity:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport ._optEthnicity_0 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 12px;
+	top: 16px;
+	position: absolute;
+	width: 125px;
+	height: 29px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optEthnicity_0:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optEthnicity_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport ._optEthnicity_1 {
+	background-color: #C5CEAC;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 136px;
+	top: 16px;
+	position: absolute;
+	width: 145px;
+	height: 29px;
+	cursor: default;
+}
+.TFDIncident_frmFireReport ._optEthnicity_1:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport ._optEthnicity_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmFireReport .frmEthnicity_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .cmdMoreNames {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	left: 568px;
+	top: 388px;
+	position: absolute;
+	width: 213px;
+	height: 37px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmFireReport .cmdMoreNames:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbEthnicity {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 12px;
+	top: 400px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .frmName1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmFireReport .tabPage8 {
+	background-color: #C5CEAC;
+	width: 806px;
+	height: 468px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmFireReport .Frame2 {
+	background-color: #C5CEAC;
+	left: 18px;
+	top: 30px;
+	position: absolute;
+	width: 669px;
+	height: 365px;
+	border: 2px groove;
+}
+.TFDIncident_frmFireReport .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmFireReport .lbAddressTitle {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: #004000;
+	left: 32px;
+	top: 32px;
+	position: absolute;
+	width: 589px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .txtXHouseNumber {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 180px;
+	top: 84px;
+	position: absolute;
+	width: 125px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtXHouseNumber:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 36px;
+	top: 85px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboXPrefix {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 69px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboXPrefix:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboXPrefixPos {
+	top: 127px;
+	left: 180px;
+	position: absolute;
+	width: 69px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 36px;
+	top: 133px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .txtXStreetName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 180px;
+	top: 168px;
+	position: absolute;
+	width: 261px;
+	height: 24px;
+}
+.TFDIncident_frmFireReport .txtXStreetName:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 36px;
+	top: 173px;
+	position: absolute;
+	width: 125px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboXStreetType {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 69px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboXStreetType:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboXStreetTypePos {
+	top: 212px;
+	left: 180px;
+	position: absolute;
+	width: 69px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 36px;
+	top: 213px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.TFDIncident_frmFireReport .cboXSuffix {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 69px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboXSuffix:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboXSuffixPos {
+	top: 254px;
+	left: 180px;
+	position: absolute;
+	width: 69px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 36px;
+	top: 255px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.TFDIncident_frmFireReport .cboCityCode {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 261px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .cboCityCode:enabled {
+	color: #597041;
+}
+.TFDIncident_frmFireReport .cboCityCodePos {
+	top: 292px;
+	left: 180px;
+	position: absolute;
+	width: 261px;
+	height: 25px;
+}
+.TFDIncident_frmFireReport .Label8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #597041;
+	left: 36px;
+	top: 299px;
+	position: absolute;
+	width: 81px;
+	height: 21px;
+}
+.TFDIncident_frmFireReport .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

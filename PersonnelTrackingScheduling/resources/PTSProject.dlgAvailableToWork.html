@@ -1,0 +1,12 @@
+<div>
+  <div data-width="665" data-height="257" name="dlgAvailableToWork" data-title="Employees Available To Work" class="PTSProject_dlgAvailableToWork" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgAvailableToWork">
+      <div id="sprAvailable" data-role="mobilizespread" tabindex="1" class="sprAvailable" data-bind="widgetvalue: sprAvailable"></div>
+      <button id="cmdPrint" tabindex="12" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="OKButton" tabindex="7" class="OKButton" type="button" data-bind="events : { click : OKButton_Click }, ">Close</button>
+      <textarea disabled="disabled" id="txtComment" tabindex="1" Value="txtComment" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+      <div id="sprPhoneList" data-role="mobilizespread" tabindex="3" class="sprPhoneList" data-bind="widgetvalue: sprPhoneList"></div>
+      <div id="sprReport" data-role="mobilizespread" tabindex="5" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

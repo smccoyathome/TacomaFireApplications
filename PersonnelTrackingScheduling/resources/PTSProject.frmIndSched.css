@@ -1,0 +1,1662 @@
+.PTSProject_frmIndSched {
+}
+.PTSProject_frmIndSched .frmIndSched {
+	background-color: Teal;
+	min-width: 826px;
+	min-height: 653px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+}
+.PTSProject_frmIndSched .frmIndSched:enabled {
+	color: Black;
+}
+.PTSProject_frmIndSched .Label11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 63px;
+	height: 37px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .Shape3 {
+	fill: #804000;
+	fill-opacity: 1;
+	stroke: Silver;
+	color: Black;
+}
+.PTSProject_frmIndSched .calSched {
+	font-family: Arial;
+	font-size: 7.92px;
+	left: 368px;
+	top: 8px;
+	position: absolute;
+}
+.PTSProject_frmIndSched .calSched:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdAvailable {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 456px;
+	top: 14px;
+	position: absolute;
+	width: 281px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdAvailable:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	width: 209px;
+	height: 24px;
+	visibility: inherit;
+}
+.PTSProject_frmIndSched .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cboNameListPos {
+	top: 16px;
+	left: 72px;
+	position: absolute;
+	width: 209px;
+	height: 24px;
+}
+.PTSProject_frmIndSched .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 288px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 24px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .lbTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 16px;
+	top: 48px;
+	position: absolute;
+	width: 337px;
+	height: 15px;
+}
+.PTSProject_frmIndSched .lbCity {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 159px;
+	top: 65px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbZip {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 252px;
+	top: 65px;
+	position: absolute;
+	width: 58px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbAddress {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 16px;
+	top: 68px;
+	position: absolute;
+	width: 337px;
+	height: 15px;
+}
+.PTSProject_frmIndSched .lbPhone {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 16px;
+	top: 88px;
+	position: absolute;
+	width: 337px;
+	height: 15px;
+}
+.PTSProject_frmIndSched .lbType {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 104px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmIndSched .Label6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 34px;
+	top: 105px;
+	position: absolute;
+	width: 51px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbCOThire {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 89px;
+	top: 105px;
+	position: absolute;
+	width: 90px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 184px;
+	top: 105px;
+	position: absolute;
+	width: 47px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbTFDhire {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 235px;
+	top: 105px;
+	position: absolute;
+	width: 85px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .Line1 {
+	background-color: Silver;
+	left: 10px;
+	top: 122px;
+	position: absolute;
+	width: 350px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmIndSched .Label8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 26px;
+	top: 130px;
+	position: absolute;
+	width: 31px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .Label9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 74px;
+	top: 130px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .Label10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 122px;
+	top: 130px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .Label12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 162px;
+	top: 130px;
+	position: absolute;
+	width: 79px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbDebit {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 242px;
+	top: 130px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbBatt {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 24px;
+	top: 144px;
+	position: absolute;
+	width: 31px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbShift {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 74px;
+	top: 144px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbUnit {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 144px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbPos {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 162px;
+	top: 144px;
+	position: absolute;
+	width: 79px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbTotalDebits {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #E0E0E0;
+	left: 256px;
+	top: 144px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .cmdNotes {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 296px;
+	top: 152px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdNotes:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .Shape2 {
+	fill: Silver;
+	fill-opacity: 1;
+	stroke: #404040;
+	color: Black;
+}
+.PTSProject_frmIndSched .cmdAdjustHOLMax {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 96px;
+	top: 168px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdAdjustHOLMax:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .LeaveTot {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #004000;
+	left: 16px;
+	top: 176px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .chkRecert {
+	background-color: Silver;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 232px;
+	top: 176px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmIndSched .chkRecert:enabled {
+	color: Blue;
+}
+.PTSProject_frmIndSched .Label21 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 48px;
+	top: 194px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 80px;
+	top: 194px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .Label22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 152px;
+	top: 194px;
+	position: absolute;
+	width: 48px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .Label23 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #004000;
+	left: 224px;
+	top: 194px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbKellyTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #004000;
+	left: 312px;
+	top: 194px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbYear {
+	background-color: Silver;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.08px;
+	color: rgba(0, 0, 0, 1);
+	left: 200px;
+	top: 208px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .Label29 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #004000;
+	left: 8px;
+	top: 224px;
+	position: absolute;
+	width: 46px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbVacation {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: #C00000;
+	left: 48px;
+	top: 227px;
+	position: absolute;
+	width: 33px;
+	height: 24px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbVacBank {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: #C00000;
+	left: 88px;
+	top: 227px;
+	position: absolute;
+	width: 34px;
+	height: 24px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbHoliday {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: Yellow;
+	left: 152px;
+	top: 227px;
+	position: absolute;
+	width: 34px;
+	height: 24px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbMilitary {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: #804000;
+	left: 216px;
+	top: 227px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbKelly {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: #FF8000;
+	left: 312px;
+	top: 227px;
+	position: absolute;
+	width: 33px;
+	height: 24px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .Label30 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #004000;
+	left: 10px;
+	top: 256px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .Line7 {
+	background-color: #404000;
+	left: 12px;
+	top: 256px;
+	position: absolute;
+	width: 340px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmIndSched .lbVacOpen {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 48px;
+	top: 269px;
+	position: absolute;
+	width: 33px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbVacBankOpen {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 88px;
+	top: 269px;
+	position: absolute;
+	width: 33px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbHolOpen {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 269px;
+	position: absolute;
+	width: 33px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbMilOpen {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 269px;
+	position: absolute;
+	width: 89px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbKelOpen {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 269px;
+	position: absolute;
+	width: 33px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbMILInfo {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial Narrow;
+	font-size: 11.52px;
+	color: #0000C0;
+	left: 192px;
+	top: 288px;
+	position: absolute;
+	width: 161px;
+	height: 14px;
+	visibility: hidden;
+}
+.PTSProject_frmIndSched .Shape4 {
+	fill: #000040;
+	fill-opacity: 1;
+	stroke: #404040;
+	color: Black;
+}
+.PTSProject_frmIndSched .lbCallBackNum {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 16px;
+	top: 312px;
+	position: absolute;
+	width: 241px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .cmdCallBack {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 264px;
+	top: 312px;
+	position: absolute;
+	width: 81px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdCallBack:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .lbSpecEvent {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #80FF80;
+	left: 16px;
+	top: 332px;
+	position: absolute;
+	width: 241px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .Shape1 {
+	fill: #804000;
+	fill-opacity: 1;
+	stroke: Silver;
+	color: Black;
+}
+.PTSProject_frmIndSched .Label20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #FFFFC0;
+	left: 16px;
+	top: 352px;
+	position: absolute;
+	width: 337px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .Frame1 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 16px;
+	top: 376px;
+	position: absolute;
+	width: 201px;
+	height: 191px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmIndSched .Frame1:enabled {
+	color: Black;
+}
+.PTSProject_frmIndSched ._optLeaveType_0 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 9px;
+	top: 24px;
+	position: absolute;
+	width: 88px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_0:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_0 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_6 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 96px;
+	top: 24px;
+	position: absolute;
+	width: 101px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_6:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_6 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_1 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 9px;
+	top: 44px;
+	position: absolute;
+	width: 88px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_1:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_1 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_7 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 96px;
+	top: 44px;
+	position: absolute;
+	width: 94px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_7:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_7 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched .chkSCKflag {
+	background-color: #804000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 9px;
+	top: 64px;
+	position: absolute;
+	width: 173px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmIndSched .chkSCKflag:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmIndSched ._optLeaveType_2 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 9px;
+	top: 84px;
+	position: absolute;
+	width: 152px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_2:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_2 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_3 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 9px;
+	top: 104px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_3:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_3 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched .Label2 {
+	background-color: Silver;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 128px;
+	position: absolute;
+	width: 87px;
+	height: 13px;
+}
+.PTSProject_frmIndSched .Line2 {
+	background-color: #E0E0E0;
+	left: 0px;
+	top: 144px;
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmIndSched ._optLeaveType_4 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 9px;
+	top: 152px;
+	position: absolute;
+	width: 85px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_4:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_4 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_5 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 96px;
+	top: 152px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_5:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_5 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_8 {
+	background-color: Silver;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 9px;
+	top: 168px;
+	position: absolute;
+	width: 181px;
+	height: 17px;
+	visibility: inherit;
+	cursor: default;
+}
+.PTSProject_frmIndSched ._optLeaveType_8:enabled {
+	color: #400040;
+}
+.PTSProject_frmIndSched ._optLeaveType_8 * {
+	Cursor: default;
+}
+.PTSProject_frmIndSched .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmIndSched .calLeaveDate {
+	font-family: Arial;
+	font-size: 11.52px;
+}
+.PTSProject_frmIndSched .calLeaveDate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .calLeaveDate.k-datepicker {
+	left: 224px;
+	top: 384px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.PTSProject_frmIndSched .chkAM {
+	background-color: #804000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 232px;
+	top: 424px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmIndSched .chkAM:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmIndSched .chkPM {
+	background-color: #804000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 296px;
+	top: 424px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmIndSched .chkPM:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmIndSched .cmdAdd {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 232px;
+	top: 456px;
+	position: absolute;
+	width: 105px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdAdd:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdDelete {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 232px;
+	top: 492px;
+	position: absolute;
+	width: 105px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdDelete:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .Label4 {
+	background-color: Teal;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	font-style: italic;
+	color: Maroon;
+	left: 376px;
+	top: 520px;
+	position: absolute;
+	width: 449px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .cmdUpdate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 232px;
+	top: 528px;
+	position: absolute;
+	width: 105px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdUpdate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .lbSelectTitle1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 384px;
+	top: 544px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbSelectTitle2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 536px;
+	top: 544px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbSelectTitle3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 583px;
+	top: 544px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbSelectTitle4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 630px;
+	top: 544px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbSelectTitle5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 678px;
+	top: 544px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbSelectTitle6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 725px;
+	top: 544px;
+	position: absolute;
+	width: 37px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbSelectTitle7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 776px;
+	top: 544px;
+	position: absolute;
+	width: 37px;
+	height: 17px;
+}
+.PTSProject_frmIndSched .lbSelectAM {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 376px;
+	top: 568px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.PTSProject_frmIndSched .lbREGam {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 536px;
+	top: 568px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbPMam {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 583px;
+	top: 568px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbHZMam {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 630px;
+	top: 568px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbMRNam {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 678px;
+	top: 568px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbBATam {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 725px;
+	top: 568px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbFCCam {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 776px;
+	top: 568px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .cmdSenority {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 581px;
+	position: absolute;
+	width: 65px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdSenority:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 76px;
+	top: 581px;
+	position: absolute;
+	width: 57px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdSchedReport {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 135px;
+	top: 581px;
+	position: absolute;
+	width: 49px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdSchedReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdTimeCard {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 186px;
+	top: 581px;
+	position: absolute;
+	width: 57px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdTimeCard:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdRequestVAC {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 245px;
+	top: 581px;
+	position: absolute;
+	width: 57px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdRequestVAC:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdReqTransfer {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 304px;
+	top: 581px;
+	position: absolute;
+	width: 57px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdReqTransfer:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .lbSelectPM {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 376px;
+	top: 600px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.PTSProject_frmIndSched .lbREGpm {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 536px;
+	top: 600px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbPMpm {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 583px;
+	top: 600px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbHZMpm {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 630px;
+	top: 600px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbMRNpm {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 678px;
+	top: 600px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbBATpm {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 725px;
+	top: 600px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .lbFCCpm {
+	background-color: Transparent;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 776px;
+	top: 600px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndSched .cmdContacts {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 8px;
+	top: 624px;
+	position: absolute;
+	width: 124px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdContacts:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdAddress {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 135px;
+	top: 624px;
+	position: absolute;
+	width: 107px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdAddress:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndSched .cmdPhone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 245px;
+	top: 624px;
+	position: absolute;
+	width: 115px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndSched .cmdPhone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

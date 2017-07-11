@@ -1,0 +1,18 @@
+<div>
+  <div data-width="329" data-height="198" data-removeControlBox="true" name="dlgTransfer" data-title="Transfer Information" class="PTSProject_dlgTransfer" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgTransfer">
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calStartDate" tabindex="3" class="calStartDate" data-bind="dateTimePickerValue : calStartDate.Value, DateTimeMinDate : calStartDate.MinDate, DateTimeMaxDate : calStartDate.MaxDate" />
+      <label id="lbStartDate" tabindex="3" class="lbStartDate" data-bind="text : lbStartDate.Text, imagePath : lbStartDate.ImagePath">Transfer Start Date</label>
+      <div class="chkTemp" data-bind="visible : chkTemp.Visible">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Temporary Transfer?</label>
+        </div>
+        <input id="chkTemp" tabindex="7" type="checkbox" style="float: left" data-bind="events : { click : chkTemp_CheckStateChanged }, " />
+      </div>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calEndDate" tabindex="5" class="calEndDate" data-bind="dateTimePickerValue : calEndDate.Value, visible : calEndDate.Visible, DateTimeMinDate : calEndDate.MinDate, DateTimeMaxDate : calEndDate.MaxDate" />
+      <label id="lbEndDate" tabindex="5" class="lbEndDate" data-bind="visible : lbEndDate.Visible, text : lbEndDate.Text, imagePath : lbEndDate.ImagePath">Transfer End Date</label>
+      <button id="cmdDone" tabindex="1" class="cmdDone" type="button" data-bind="events : { click : cmdDone_Click }, ">Done</button>
+      <button id="cmdCancel" tabindex="2" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UpgradeHelpers.WebMap.Server.v2</id>
+    <version>$version$</version>
+    <title>UpgradeHelpers.WebMap.Server.v2</title>
+    <authors>Artinsoft, S.A.</authors>
+    <owners>Artinsoft, S.A.</owners>
+    <!--licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>UpgradeHelpers.WebMap.Server.v2</description>
+    <!--releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Tag1 Tag2</tags-->
+    <dependencies>
+      <dependency id="fasterflect" version="[2.1.3]" />
+      <dependency id="Microsoft.AspNet.Mvc" version="[5.2.0]" />
+      <dependency id="Microsoft.AspNet.Razor" version="[3.2.0]" />
+      <dependency id="Microsoft.AspNet.WebPages" version="[3.2.0]" />
+      <dependency id="Microsoft.Owin" version="[2.1.0]" />
+      <dependency id="Newtonsoft.Json" version="[7.0.1]" />
+      <dependency id="Unity" version="[3.5.1404.0]" />
+      <dependency id="Unity.Interception" version="[3.5.1404.0]" />
+      <dependency id="Unity.Mvc5" version="[1.1]" />      
+      <dependency id="UpgradeHelpers.DB.Essentials" version="[$version$]" />
+      <dependency id="UpgradeHelpers.WebMap.BasicViewModels" version="[$version$]" />
+      <dependency id="UpgradeHelpers.WebMap.Client" version="[$version$]" />
+      <dependency id="UpgradeHelpers.WebMap.Core" version="[$version$]" />
+      <dependency id="UpgradeHelpers.WebMap.Server.Common" version="[$version$]" />
+      <dependency id="UpgradeHelpers.WebMap.Surrogates" version="[$version$]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="obj\$Configuration$\UpgradeHelpers.WebMap.Server.v2.dll" target="lib" />
+    <file src="**\*.cs" target="src" />
+  </files>
+</package>

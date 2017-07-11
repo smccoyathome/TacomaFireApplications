@@ -1,0 +1,28 @@
+<div>
+  <div data-width="505" data-height="462" name="frmWatchDutyAssignment" data-title="TFD Watch Duty Assignment" class="PTSProject_frmWatchDutyAssignment" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmWatchDutyAssignment">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Filter by: </legend>
+        <div>
+          <button id="cmdExit" tabindex="7" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+          <label id="Label2" tabindex="9" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Date</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtReportDate" tabindex="12" class="dtReportDate" data-bind="dateTimePickerValue : dtReportDate.Value, DateTimeMinDate : dtReportDate.MinDate, DateTimeMaxDate : dtReportDate.MaxDate, events : { click : dtReportDate_Click, change : dtReportDate_ValueChanged }, " />
+          <button id="cmdClear" tabindex="11" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear Filter</button>
+          <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Station</label>
+          <div class="cboLocationPos" id="cboLocationPos">
+            <select id="cboLocation" tabindex="6" class="cboLocation" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboLocation.ComboBoxItems, customText : cboLocation.CustomText, comboSelectedIndex : cboLocation.SelectedIndex, events : { change : cboLocation_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdPrint" tabindex="8" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print List</button>
+          <label id="lbCount" tabindex="6" class="lbCount" data-bind="text : lbCount.Text, imagePath : lbCount.ImagePath">List Count:  </label>
+          <div class="chkOnlyAssigned">
+            <input id="chkOnlyAssigned" tabindex="14" type="checkbox" style="float: left" data-bind="events : { click : chkOnlyAssigned_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Show Only -  Staff Assigned to Watch Duty</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div id="sprReport" data-role="mobilizespread" tabindex="0" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

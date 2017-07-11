@@ -1,0 +1,149 @@
+.PTSProject_frmSickLeaveUsage {
+}
+.PTSProject_frmSickLeaveUsage .frmSickLeaveUsage {
+	background-color: Black;
+	min-width: 773px;
+	min-height: 541px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmSickLeaveUsage .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 528px;
+	top: 6px;
+	position: absolute;
+	width: 110px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSickLeaveUsage .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSickLeaveUsage .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 648px;
+	top: 6px;
+	position: absolute;
+	width: 110px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSickLeaveUsage .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSickLeaveUsage .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 16px;
+	top: 14px;
+	position: absolute;
+	width: 81px;
+	height: 20px;
+	text-align: right;
+}
+.PTSProject_frmSickLeaveUsage .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 82px;
+	height: 24px;
+}
+.PTSProject_frmSickLeaveUsage .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSickLeaveUsage .cboYearPos {
+	top: 14px;
+	left: 104px;
+	position: absolute;
+	width: 82px;
+	height: 24px;
+}
+.PTSProject_frmSickLeaveUsage .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 200px;
+	top: 14px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	text-align: right;
+}
+.PTSProject_frmSickLeaveUsage .cboMonth {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 142px;
+	height: 24px;
+}
+.PTSProject_frmSickLeaveUsage .cboMonth:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSickLeaveUsage .cboMonthPos {
+	top: 14px;
+	left: 312px;
+	position: absolute;
+	width: 142px;
+	height: 24px;
+}
+.PTSProject_frmSickLeaveUsage .sprDaysOff {
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 758px;
+	height: 289px;
+}
+.PTSProject_frmSickLeaveUsage .sprDaysOff .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmSickLeaveUsage .sprDaysOff .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmSickLeaveUsage .Label2 {
+	background-color: #00C0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 336px;
+	position: absolute;
+	width: 758px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmSickLeaveUsage .sprDetail {
+	left: 8px;
+	top: 360px;
+	position: absolute;
+	width: 758px;
+	height: 169px;
+}
+.PTSProject_frmSickLeaveUsage .sprDetail .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmSickLeaveUsage .sprDetail .k-spreadsheet-action-bar {
+	display: none;
+}
+

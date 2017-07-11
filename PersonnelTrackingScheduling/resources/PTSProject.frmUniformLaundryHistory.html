@@ -1,0 +1,86 @@
+<div>
+  <div data-width="561" data-height="440" name="frmUniformLaundryHistory" data-title="frmUniformLaundryHistory" class="PTSProject_frmUniformLaundryHistory" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmUniformLaundryHistory">
+      <label id="_Label_9" tabindex="2" index="9" class="_Label_9" data-bind="text : _Label_9.Text, imagePath : _Label_9.ImagePath">Search by Tracking \#:</label>
+      <input id="txtTrackingNumber" tabindex="2" Value="txtTrackingNumber" class="txtTrackingNumber" data-bind="value : txtTrackingNumber.Text" />
+      <button id="cmdFind" tabindex="1" class="cmdFind" type="button" data-bind="events : { click : cmdFind_Click }, ">Search...</button>
+      <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <label id="_Label_0" tabindex="13" index="0" class="_Label_0" data-bind="text : _Label_0.Text, imagePath : _Label_0.ImagePath">PPE Item:</label>
+          <label id="lbItem" tabindex="19" class="lbItem" data-bind="text : lbItem.Text, imagePath : lbItem.ImagePath">lbItem</label>
+          <label id="_Label_5" tabindex="14" index="5" class="_Label_5" data-bind="text : _Label_5.Text, imagePath : _Label_5.ImagePath">Brand:</label>
+          <label id="lbBrand" tabindex="22" class="lbBrand" data-bind="text : lbBrand.Text, imagePath : lbBrand.ImagePath">lbBrand</label>
+          <label id="_Label_1" tabindex="16" index="1" class="_Label_1" data-bind="text : _Label_1.Text, imagePath : _Label_1.ImagePath">Tracking \#:</label>
+          <label id="lbTrackingNumber" tabindex="20" class="lbTrackingNumber" data-bind="text : lbTrackingNumber.Text, imagePath : lbTrackingNumber.ImagePath">lbTrackingNumber</label>
+          <label id="_Label_6" tabindex="18" index="6" class="_Label_6" data-bind="text : _Label_6.Text, imagePath : _Label_6.ImagePath">Manuf Date:</label>
+          <label id="lbManufDate" tabindex="23" class="lbManufDate" data-bind="text : lbManufDate.Text, imagePath : lbManufDate.ImagePath">lbManufDate</label>
+          <label id="_Label_4" tabindex="11" index="4" class="_Label_4" data-bind="text : _Label_4.Text, imagePath : _Label_4.ImagePath">Retire Reason:</label>
+          <label id="lbRetiredReason" tabindex="21" class="lbRetiredReason" data-bind="text : lbRetiredReason.Text, imagePath : lbRetiredReason.ImagePath">lbRetiredReason</label>
+          <label id="_Label_2" tabindex="15" index="2" class="_Label_2" data-bind="text : _Label_2.Text, imagePath : _Label_2.ImagePath">Size/Color:</label>
+          <label id="lbColorSize" tabindex="24" class="lbColorSize" data-bind="text : lbColorSize.Text, imagePath : lbColorSize.ImagePath">lbColorSize</label>
+          <label id="_Label_8" tabindex="10" index="8" class="_Label_8" data-bind="text : _Label_8.Text, imagePath : _Label_8.ImagePath">Retired Date:</label>
+          <label id="lbRetiredDate" tabindex="25" class="lbRetiredDate" data-bind="text : lbRetiredDate.Text, imagePath : lbRetiredDate.ImagePath">lbRetiredDate</label>
+          <label id="_Label_3" tabindex="12" index="3" class="_Label_3" data-bind="text : _Label_3.Text, imagePath : _Label_3.ImagePath">Location:</label>
+          <label id="lbLocation" tabindex="26" class="lbLocation" data-bind="text : lbLocation.Text, imagePath : lbLocation.ImagePath">lbLocation</label>
+          <label id="_Label_7" tabindex="9" index="7" class="_Label_7" data-bind="text : _Label_7.Text, imagePath : _Label_7.ImagePath">Last Inspected:</label>
+          <label id="lbLastInspDate" tabindex="8" class="lbLastInspDate" data-bind="text : lbLastInspDate.Text, imagePath : lbLastInspDate.ImagePath">lbLastInspDate</label>
+          <label id="lbUniformID" tabindex="17" class="lbUniformID" data-bind="text : lbUniformID.Text, imagePath : lbUniformID.ImagePath">lbUniformID</label>
+        </div>
+      </fieldset>
+      <div id="sprLaunderGrid" data-role="mobilizespread" tabindex="6" class="sprLaunderGrid" data-bind="widgetvalue: sprLaunderGrid"></div>
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend"></legend>
+        <div>
+          <div class="chkFlagged">
+            <input id="chkFlagged" tabindex="32" type="checkbox" style="float: left" data-bind="events : { click : chkFlagged_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Flagged?</label>
+            </div>
+          </div>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteDateFlagged" tabindex="31" class="dteDateFlagged" data-bind="dateTimePickerValue : dteDateFlagged.Value, visible : dteDateFlagged.Visible, DateTimeMinDate : dteDateFlagged.MinDate, DateTimeMaxDate : dteDateFlagged.MaxDate" />
+          <label id="Label1" tabindex="32" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Flagged By</label>
+          <div class="cboFlaggedByPos" id="cboFlaggedByPos" data-bind="visible : cboFlaggedBy.Visible">
+            <select id="cboFlaggedBy" tabindex="34" class="cboFlaggedBy" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboFlaggedBy.ComboBoxItems, customText : cboFlaggedBy.CustomText, comboSelectedIndex : cboFlaggedBy.SelectedIndex"></select>
+          </div>
+          <label id="Label3" tabindex="34" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Comment</label>
+          <textarea id="txtComment" tabindex="36" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+        </div>
+      </fieldset>
+      <fieldset id="Frame3" class="Frame3">
+        <legend id="Frame3_legend" class="Frame3_legend"></legend>
+        <div>
+          <div class="chkCleaned">
+            <input id="chkCleaned" tabindex="38" type="checkbox" style="float: left" data-bind="events : { click : chkCleaned_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Cleaned?</label>
+            </div>
+          </div>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteDateCleaned" tabindex="37" class="dteDateCleaned" data-bind="dateTimePickerValue : dteDateCleaned.Value, visible : dteDateCleaned.Visible, DateTimeMinDate : dteDateCleaned.MinDate, DateTimeMaxDate : dteDateCleaned.MaxDate" />
+          <label id="Label2" tabindex="38" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Cleaned By</label>
+          <div class="chkVendor">
+            <input id="chkVendor" tabindex="43" type="checkbox" style="float: left" data-bind="events : { click : chkVendor_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Vendor?</label>
+            </div>
+          </div>
+          <div class="cboCleanedByPos" id="cboCleanedByPos" data-bind="visible : cboCleanedBy.Visible">
+            <select id="cboCleanedBy" tabindex="40" class="cboCleanedBy" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboCleanedBy.ComboBoxItems, customText : cboCleanedBy.CustomText, comboSelectedIndex : cboCleanedBy.SelectedIndex"></select>
+          </div>
+          <label id="Label4" tabindex="40" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Laundry Comment</label>
+          <textarea id="txtLaundryComment" tabindex="42" class="txtLaundryComment" data-bind="value : txtLaundryComment.Text"></textarea>
+        </div>
+      </fieldset>
+      <button id="cmdNewItem" tabindex="5" class="cmdNewItem" type="button" data-bind="events : { click : cmdNewItem_Click }, ">New Item</button>
+      <button disabled="disabled" id="cmdEdit" tabindex="6" data-tag="1" class="cmdEdit" type="button" data-bind="enabled : cmdEdit.Enabled, buttonText : cmdEdit.Text, events : { click : cmdEdit_Click }, ">Add</button>
+      <div class="chkApproved">
+        <input id="chkApproved" tabindex="30" type="checkbox" style="float: left" data-bind="events : { click : chkApproved_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : chkApproved.Text">PPE Item is ready for Use?</label>
+        </div>
+      </div>
+      <label id="lbLaunderID" tabindex="27" class="lbLaunderID" data-bind="text : lbLaunderID.Text, imagePath : lbLaunderID.ImagePath">lbLaunderID</label>
+    </form>
+  </div>
+</div>

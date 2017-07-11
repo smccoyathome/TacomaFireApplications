@@ -1,0 +1,137 @@
+.PTSProject_frmPPELaunder {
+}
+.PTSProject_frmPPELaunder .frmPPELaunder {
+	background-color: #400000;
+	min-width: 658px;
+	min-height: 229px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmPPELaunder .Label3 {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Yellow;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPELaunder .lblName {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFFC0;
+	left: 96px;
+	top: 0px;
+	position: absolute;
+	width: 409px;
+	height: 17px;
+}
+.PTSProject_frmPPELaunder .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 512px;
+	top: 0px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPELaunder .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPELaunder .Label4 {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Yellow;
+	left: 4px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPELaunder .lblEmpNum {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFFC0;
+	left: 96px;
+	top: 16px;
+	position: absolute;
+	width: 177px;
+	height: 17px;
+}
+.PTSProject_frmPPELaunder .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 512px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPELaunder .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPELaunder .Label5 {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Yellow;
+	left: 4px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPELaunder .lblAssignment {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFFC0;
+	left: 96px;
+	top: 32px;
+	position: absolute;
+	width: 409px;
+	height: 17px;
+}
+.PTSProject_frmPPELaunder .sprPPEList {
+	left: 4px;
+	top: 56px;
+	position: absolute;
+	width: 652px;
+	height: 161px;
+}
+.PTSProject_frmPPELaunder .sprPPEList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPPELaunder .sprPPEList .k-spreadsheet-action-bar {
+	display: none;
+}
+

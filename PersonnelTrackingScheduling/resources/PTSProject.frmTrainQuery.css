@@ -1,0 +1,614 @@
+.PTSProject_frmTrainQuery {
+}
+.PTSProject_frmTrainQuery .frmTrainQuery {
+	background-color: #004040;
+	min-width: 687px;
+	min-height: 469px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .Frame1 {
+	background-color: #004040;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 677px;
+	height: 257px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainQuery .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 131px;
+	height: 20px;
+}
+.PTSProject_frmTrainQuery .frmBattOpt {
+	background-color: #004040;
+	left: 216px;
+	top: 16px;
+	position: absolute;
+	width: 113px;
+	height: 49px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainQuery .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery .optAll {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .optAll:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .opt182 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 56px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .opt182:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .opt181 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .opt181:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .opt183 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 56px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .opt183:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainQuery .Frame3 {
+	background-color: #004040;
+	left: 328px;
+	top: 16px;
+	position: absolute;
+	width: 145px;
+	height: 49px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainQuery .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery .optA {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .optA:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .optA * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .optC {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 72px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .optC:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .optC * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .optB {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .optB:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .optB * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .optD {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 72px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .optD:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .optD * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainQuery .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 512px;
+	top: 24px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainQuery .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmTrainQuery .dtStart {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+.PTSProject_frmTrainQuery .dtStart.k-datepicker {
+	left: 56px;
+	top: 32px;
+	position: absolute;
+	width: 105px;
+	height: 19px;
+}
+.PTSProject_frmTrainQuery .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 16px;
+	top: 56px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmTrainQuery .dtEnd {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+.PTSProject_frmTrainQuery .dtEnd.k-datepicker {
+	left: 56px;
+	top: 56px;
+	position: absolute;
+	width: 105px;
+	height: 19px;
+}
+.PTSProject_frmTrainQuery .cmdQuery {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 512px;
+	top: 56px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainQuery .cmdQuery:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery .optPM {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 224px;
+	top: 72px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .optPM:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .optPM * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery ._lbSubTitle_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 80px;
+	position: absolute;
+	width: 185px;
+	height: 13px;
+}
+.PTSProject_frmTrainQuery ._lbSubTitle_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 264px;
+	top: 80px;
+	position: absolute;
+	width: 233px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmTrainQuery .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 512px;
+	top: 88px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainQuery .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery .cboPrimary {
+	left: 16px;
+	top: 96px;
+	position: absolute;
+	width: 225px;
+	height: 21px;
+	border-width: 2px;
+	border-color: red;
+	border-style: solid;
+}
+.PTSProject_frmTrainQuery .lstSpecific {
+	left: 264px;
+	top: 96px;
+	position: absolute;
+	width: 233px;
+	height: 43px;
+}
+.PTSProject_frmTrainQuery ._lbSubTitle_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 120px;
+	position: absolute;
+	width: 185px;
+	height: 13px;
+}
+.PTSProject_frmTrainQuery .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 512px;
+	top: 120px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainQuery .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery .cboSecondary {
+	left: 16px;
+	top: 136px;
+	position: absolute;
+	width: 225px;
+	height: 21px;
+	border-width: 2px;
+	border-color: red;
+	border-style: solid;
+}
+.PTSProject_frmTrainQuery .Frame2 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	font-style: italic;
+	left: 16px;
+	top: 160px;
+	position: absolute;
+	width: 481px;
+	height: 89px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainQuery .Frame2:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainQuery ._lbSubTitle_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 13px;
+}
+.PTSProject_frmTrainQuery ._lbSubTitle_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 104px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmTrainQuery .Frame4 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 320px;
+	top: 16px;
+	position: absolute;
+	width: 153px;
+	height: 65px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainQuery .Frame4:enabled {
+	color: #FFC080;
+}
+.PTSProject_frmTrainQuery .OptYes {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .OptYes:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .OptYes * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .OptNo {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 88px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainQuery .OptNo:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmTrainQuery .OptNo * {
+	Cursor: default;
+}
+.PTSProject_frmTrainQuery .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainQuery .cboUnit {
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 20px;
+	border-width: 2px;
+	border-color: red;
+	border-style: solid;
+}
+.PTSProject_frmTrainQuery .txtNameSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 104px;
+	top: 32px;
+	position: absolute;
+	width: 209px;
+	height: 19px;
+}
+.PTSProject_frmTrainQuery .txtNameSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery ._lbSubTitle_5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmTrainQuery .txtCommentSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 104px;
+	top: 64px;
+	position: absolute;
+	width: 209px;
+	height: 19px;
+}
+.PTSProject_frmTrainQuery .txtCommentSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainQuery .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainQuery .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Aqua;
+	left: 512px;
+	top: 168px;
+	position: absolute;
+	width: 137px;
+	height: 65px;
+}
+.PTSProject_frmTrainQuery .lbCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: Lime;
+	left: 512px;
+	top: 240px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmTrainQuery .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainQuery .sprReport {
+	left: 4px;
+	top: 256px;
+	position: absolute;
+	width: 677px;
+	height: 201px;
+}
+.PTSProject_frmTrainQuery .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTrainQuery .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,552 @@
+.PTSProject_frmLaunderMgmt {
+}
+.PTSProject_frmLaunderMgmt .frmLaunderMgmt {
+	background-color: #004040;
+	min-width: 758px;
+	min-height: 436px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .Frame1 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 742px;
+	height: 97px;
+	border: 2px groove;
+}
+.PTSProject_frmLaunderMgmt .Frame1:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmLaunderMgmt .frmBattOpt {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 137px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmLaunderMgmt .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .optAll {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .optAll:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmLaunderMgmt .opt182 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 72px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .opt182:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmLaunderMgmt .opt181 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .opt181:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmLaunderMgmt .opt183 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 72px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .opt183:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmLaunderMgmt .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmLaunderMgmt .Frame4 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 144px;
+	top: 16px;
+	position: absolute;
+	width: 137px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmLaunderMgmt .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .optA {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .optA:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .optA * {
+	Cursor: default;
+}
+.PTSProject_frmLaunderMgmt .optC {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 72px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .optC:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .optC * {
+	Cursor: default;
+}
+.PTSProject_frmLaunderMgmt .optB {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .optB:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .optB * {
+	Cursor: default;
+}
+.PTSProject_frmLaunderMgmt .optD {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 72px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmLaunderMgmt .optD:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .optD * {
+	Cursor: default;
+}
+.PTSProject_frmLaunderMgmt .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmLaunderMgmt .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFF80;
+	left: 280px;
+	top: 24px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmLaunderMgmt .cboType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmLaunderMgmt .cboType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .cboTypePos {
+	top: 24px;
+	left: 360px;
+	position: absolute;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmLaunderMgmt .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 504px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 27px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLaunderMgmt .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 624px;
+	top: 24px;
+	position: absolute;
+	width: 105px;
+	height: 27px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLaunderMgmt .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .lbBrand {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFFF80;
+	left: 280px;
+	top: 56px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmLaunderMgmt .cboBrand {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmLaunderMgmt .cboBrand:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .cboBrandPos {
+	top: 56px;
+	left: 360px;
+	position: absolute;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmLaunderMgmt .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 504px;
+	top: 56px;
+	position: absolute;
+	width: 89px;
+	height: 27px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLaunderMgmt .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .lbTotalCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 544px;
+	top: 80px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmLaunderMgmt .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmLaunderMgmt .sprList {
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 742px;
+	height: 153px;
+}
+.PTSProject_frmLaunderMgmt .sprList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmLaunderMgmt .sprList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmLaunderMgmt .Frame2 {
+	background-color: #004040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 256px;
+	position: absolute;
+	width: 742px;
+	height: 169px;
+	border: 2px groove;
+}
+.PTSProject_frmLaunderMgmt .Frame2:enabled {
+	color: Lime;
+}
+.PTSProject_frmLaunderMgmt .chkApproveItem {
+	background-color: #004040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 280px;
+	top: 16px;
+	position: absolute;
+	width: 305px;
+	height: 25px;
+	width: auto;
+}
+.PTSProject_frmLaunderMgmt .chkApproveItem:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .txtPPEInfo {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: Aqua;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 249px;
+	height: 137px;
+}
+.PTSProject_frmLaunderMgmt .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 280px;
+	top: 40px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmLaunderMgmt .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 424px;
+	top: 40px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.PTSProject_frmLaunderMgmt .chkVendor {
+	background-color: #004040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 504px;
+	top: 40px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmLaunderMgmt .chkVendor:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmLaunderMgmt .cmdUpdate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 600px;
+	top: 40px;
+	position: absolute;
+	width: 113px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLaunderMgmt .cmdUpdate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .dteDateCleaned {
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_frmLaunderMgmt .dteDateCleaned:enabled {
+	color: Black;
+}
+.PTSProject_frmLaunderMgmt .dteDateCleaned.k-datepicker {
+	left: 280px;
+	top: 56px;
+	position: absolute;
+	width: 137px;
+	height: 21px;
+}
+.PTSProject_frmLaunderMgmt .cboName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 161px;
+	height: 23px;
+}
+.PTSProject_frmLaunderMgmt .cboName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .cboNamePos {
+	top: 56px;
+	left: 424px;
+	position: absolute;
+	width: 161px;
+	height: 23px;
+}
+.PTSProject_frmLaunderMgmt .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 280px;
+	top: 88px;
+	position: absolute;
+	width: 305px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmLaunderMgmt .cmdClearFields {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 600px;
+	top: 96px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLaunderMgmt .cmdClearFields:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLaunderMgmt .txtLaundryComment {
+	left: 280px;
+	top: 104px;
+	position: absolute;
+	width: 305px;
+	height: 57px;
+}
+.PTSProject_frmLaunderMgmt .lbLaunderID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 624px;
+	top: 128px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmLaunderMgmt .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

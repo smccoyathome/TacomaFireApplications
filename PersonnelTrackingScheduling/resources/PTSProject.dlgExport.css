@@ -1,0 +1,117 @@
+.PTSProject_dlgExport {
+}
+.PTSProject_dlgExport .dlgExport {
+	background-color: #000040;
+	min-width: 397px;
+	min-height: 213px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgExport .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: White;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 153px;
+	height: 17px;
+}
+.PTSProject_dlgExport .Drive1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	left: 16px;
+	top: 36px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+	border-width: 2px;
+	border-color: red;
+	border-style: solid;
+}
+.PTSProject_dlgExport .Drive1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgExport .txtFileName {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 184px;
+	top: 44px;
+	position: absolute;
+	width: 201px;
+	height: 21px;
+}
+.PTSProject_dlgExport .txtFileName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgExport .Dir1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 153px;
+	height: 126px;
+	border-width: 2px;
+	border-color: red;
+	border-style: solid;
+}
+.PTSProject_dlgExport .Dir1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgExport .File1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	left: 184px;
+	top: 64px;
+	position: absolute;
+	width: 201px;
+	height: 84px;
+	border-width: 2px;
+	border-color: red;
+	border-style: solid;
+}
+.PTSProject_dlgExport .File1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgExport .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 184px;
+	top: 160px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgExport .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgExport .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 280px;
+	top: 160px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgExport .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

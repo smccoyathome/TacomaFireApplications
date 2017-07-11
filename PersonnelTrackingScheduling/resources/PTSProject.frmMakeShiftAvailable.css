@@ -1,0 +1,263 @@
+.PTSProject_frmMakeShiftAvailable {
+}
+.PTSProject_frmMakeShiftAvailable .frmMakeShiftAvailable {
+	background-color: #000040;
+	min-width: 419px;
+	min-height: 241px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmMakeShiftAvailable .frmShiftAvail {
+	background-color: #000040;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 417px;
+	height: 241px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmMakeShiftAvailable .frmShiftAvail:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMakeShiftAvailable .calAvail {
+	left: 8px;
+	top: 16px;
+	position: absolute;
+}
+.PTSProject_frmMakeShiftAvailable .chkAM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 240px;
+	top: 24px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmMakeShiftAvailable .chkAM:enabled {
+	color: Red;
+}
+.PTSProject_frmMakeShiftAvailable .chkPM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 288px;
+	top: 24px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmMakeShiftAvailable .chkPM:enabled {
+	color: Red;
+}
+.PTSProject_frmMakeShiftAvailable .Label11 {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 224px;
+	top: 48px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_frmMakeShiftAvailable .dtpGiveOut.k-datepicker {
+	left: 224px;
+	top: 64px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_frmMakeShiftAvailable .dtpGiveOut {
+}
+.PTSProject_frmMakeShiftAvailable .lbAvailComment {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 224px;
+	top: 88px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmMakeShiftAvailable .txtAvailComment {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 224px;
+	top: 104px;
+	position: absolute;
+	overflow: auto;
+	width: 177px;
+	height: 57px;
+}
+.PTSProject_frmMakeShiftAvailable .txtAvailComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMakeShiftAvailable .lbSelectTitle1 {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Yellow;
+	left: 16px;
+	top: 168px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+	text-align: center;
+	visibility: hidden;
+}
+.PTSProject_frmMakeShiftAvailable .lbSelectAM {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Aqua;
+	left: 8px;
+	top: 184px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_frmMakeShiftAvailable .lbREGam {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Aqua;
+	left: 152px;
+	top: 184px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmMakeShiftAvailable .cmdAvailDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 224px;
+	top: 184px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMakeShiftAvailable .cmdAvailDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMakeShiftAvailable .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 312px;
+	top: 184px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMakeShiftAvailable .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMakeShiftAvailable .lbSelectPM {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Aqua;
+	left: 8px;
+	top: 200px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_frmMakeShiftAvailable .lbREGpm {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Aqua;
+	left: 152px;
+	top: 200px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmMakeShiftAvailable .lbExistPM {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 16px;
+	top: 224px;
+	position: absolute;
+	width: 17px;
+	height: 9px;
+	visibility: hidden;
+}
+.PTSProject_frmMakeShiftAvailable .lbExistAM {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 48px;
+	top: 224px;
+	position: absolute;
+	width: 17px;
+	height: 9px;
+	visibility: hidden;
+}
+.PTSProject_frmMakeShiftAvailable .frmShiftAvail_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

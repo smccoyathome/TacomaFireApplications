@@ -1,0 +1,10 @@
+<div>
+  <div data-width="753" data-height="550" data-removeControlBox="true" name="frmTransferReport" data-title="Individual Transfer Report" class="PTSProject_frmTransferReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmTransferReport">
+      <button id="cmdPrint" tabindex="2" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdOK" tabindex="30" class="cmdOK" type="button" data-bind="events : { click : cmdOK_Click }, ">Approve Transfer</button>
+      <button id="cmdClose" tabindex="1" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Cancel Transfer</button>
+      <div id="sprIndiv" data-role="mobilizespread" tabindex="2" class="sprIndiv" data-bind="widgetvalue: sprIndiv"></div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,78 @@
+.PTSProject_frmTransferReport {
+}
+.PTSProject_frmTransferReport .frmTransferReport {
+	background-color: Teal;
+	min-width: 753px;
+	min-height: 550px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTransferReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 10px;
+	top: 5px;
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferReport .cmdOK {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 99px;
+	top: 5px;
+	position: absolute;
+	width: 119px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferReport .cmdOK:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 228px;
+	top: 5px;
+	position: absolute;
+	width: 119px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferReport .sprIndiv {
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 739px;
+	height: 495px;
+}
+.PTSProject_frmTransferReport .sprIndiv .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTransferReport .sprIndiv .k-spreadsheet-action-bar {
+	display: none;
+}
+

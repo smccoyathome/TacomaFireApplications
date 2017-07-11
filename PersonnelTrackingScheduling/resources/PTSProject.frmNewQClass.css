@@ -1,0 +1,368 @@
+.PTSProject_frmNewQClass {
+}
+.PTSProject_frmNewQClass .frmNewQClass {
+	background-color: #804040;
+	min-width: 869px;
+	min-height: 555px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmNewQClass .Label9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 8px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .sprQ1 {
+	left: 248px;
+	top: 8px;
+	position: absolute;
+	width: 617px;
+	height: 537px;
+}
+.PTSProject_frmNewQClass .sprQ1 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmNewQClass .sprQ1 .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmNewQClass .cboPrimary {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 233px;
+	height: 23px;
+}
+.PTSProject_frmNewQClass .cboPrimary:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewQClass .cboPrimaryPos {
+	top: 24px;
+	left: 4px;
+	position: absolute;
+	width: 233px;
+	height: 23px;
+}
+.PTSProject_frmNewQClass .Label8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 48px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .cboSecondary {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 233px;
+	height: 23px;
+}
+.PTSProject_frmNewQClass .cboSecondary:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewQClass .cboSecondaryPos {
+	top: 64px;
+	left: 4px;
+	position: absolute;
+	width: 233px;
+	height: 23px;
+}
+.PTSProject_frmNewQClass .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 88px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .cboClass {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 233px;
+	height: 23px;
+}
+.PTSProject_frmNewQClass .cboClass:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewQClass .cboClassPos {
+	top: 104px;
+	left: 4px;
+	position: absolute;
+	width: 233px;
+	height: 23px;
+}
+.PTSProject_frmNewQClass .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 136px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .cboPersonnel {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 233px;
+	height: 24px;
+}
+.PTSProject_frmNewQClass .cboPersonnel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewQClass .cboPersonnelPos {
+	top: 156px;
+	left: 4px;
+	position: absolute;
+	width: 233px;
+	height: 24px;
+}
+.PTSProject_frmNewQClass .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 184px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .frmParam1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 4px;
+	top: 208px;
+	position: absolute;
+	width: 233px;
+	height: 93px;
+	overflow: hidden;
+}
+.PTSProject_frmNewQClass .frmParam1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewQClass ._optParam_0 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 213px;
+	height: 33px;
+	cursor: default;
+}
+.PTSProject_frmNewQClass ._optParam_0:enabled {
+	color: Green;
+}
+.PTSProject_frmNewQClass ._optParam_0 * {
+	Cursor: default;
+}
+.PTSProject_frmNewQClass ._optParam_1 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 237px;
+	height: 33px;
+	cursor: default;
+}
+.PTSProject_frmNewQClass ._optParam_1:enabled {
+	color: #C00000;
+}
+.PTSProject_frmNewQClass ._optParam_1 * {
+	Cursor: default;
+}
+.PTSProject_frmNewQClass .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 316px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .calStart.k-datepicker {
+	left: 4px;
+	top: 336px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmNewQClass .calStart {
+}
+.PTSProject_frmNewQClass .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 364px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .calEnd.k-datepicker {
+	left: 4px;
+	top: 384px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmNewQClass .calEnd {
+}
+.PTSProject_frmNewQClass .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 412px;
+	position: absolute;
+	width: 229px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .calClassStart.k-datepicker {
+	left: 4px;
+	top: 432px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmNewQClass .calClassStart {
+}
+.PTSProject_frmNewQClass .Label7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 4px;
+	top: 460px;
+	position: absolute;
+	width: 229px;
+	height: 25px;
+}
+.PTSProject_frmNewQClass .calClassEnd.k-datepicker {
+	left: 4px;
+	top: 480px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmNewQClass .calClassEnd {
+}
+.PTSProject_frmNewQClass .cmdQuery {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 4px;
+	top: 512px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNewQClass .cmdQuery:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewQClass .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 60px;
+	top: 512px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNewQClass .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewQClass .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 116px;
+	top: 512px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNewQClass .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmNewQClass .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 172px;
+	top: 512px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmNewQClass .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

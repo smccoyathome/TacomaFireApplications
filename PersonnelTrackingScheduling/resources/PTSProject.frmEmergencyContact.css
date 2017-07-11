@@ -1,0 +1,482 @@
+.PTSProject_frmEmergencyContact {
+}
+.PTSProject_frmEmergencyContact .frmEmergencyContact {
+	background-color: #804040;
+	min-width: 637px;
+	min-height: 336px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmEmergencyContact .Label1 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .cboEmpList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 273px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmEmergencyContact .cboEmpList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .cboEmpListPos {
+	top: 24px;
+	left: 8px;
+	position: absolute;
+	width: 273px;
+	height: 20px;
+}
+.PTSProject_frmEmergencyContact .lbEmpID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 296px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmEmergencyContact .lbContactID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 352px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmEmergencyContact .lbPhoneID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 408px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmEmergencyContact .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 488px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmergencyContact .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .Label2 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 201px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .Label3 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 216px;
+	top: 56px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .lstContacts {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 201px;
+	height: 75px;
+	visibility: inherit;
+}
+.PTSProject_frmEmergencyContact .lstPhone {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 72px;
+	position: absolute;
+	width: 249px;
+	height: 75px;
+	visibility: inherit;
+}
+.PTSProject_frmEmergencyContact .cmdAdd {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 488px;
+	top: 80px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmergencyContact .cmdAdd:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .cmdDelete {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 488px;
+	top: 112px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmergencyContact .cmdDelete:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .Label9 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: Red;
+	left: 360px;
+	top: 152px;
+	position: absolute;
+	width: 145px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_frmEmergencyContact .Label4 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 168px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .Label5 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 264px;
+	top: 168px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .chkPrimary {
+	background-color: #804040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 376px;
+	top: 176px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmEmergencyContact .chkPrimary:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmEmergencyContact .txtName {
+	background-color: #C0FFFF;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 184px;
+	position: absolute;
+	width: 249px;
+	height: 20px;
+}
+.PTSProject_frmEmergencyContact .txtName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .cboRelationship {
+	background-color: #C0FFFF;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 105px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmEmergencyContact .cboRelationship:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .cboRelationshipPos {
+	top: 184px;
+	left: 264px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmEmergencyContact .Label6 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 208px;
+	position: absolute;
+	width: 153px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .Label7 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 216px;
+	top: 208px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .Label10 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 376px;
+	top: 208px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .cmdUpdate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 488px;
+	top: 216px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmergencyContact .cmdUpdate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .txtPhone {
+	background-color: #C0FFFF;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 224px;
+	position: absolute;
+	width: 201px;
+	height: 20px;
+}
+.PTSProject_frmEmergencyContact .txtPhone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .cboPhoneType {
+	background-color: #C0FFFF;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 153px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmEmergencyContact .cboPhoneType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .cboPhoneTypePos {
+	top: 224px;
+	left: 216px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmEmergencyContact .cboBestTime {
+	background-color: #C0FFFF;
+	cursor: default;
+	width: 97px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmEmergencyContact .cboBestTime:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .cboBestTimePos {
+	top: 224px;
+	left: 376px;
+	position: absolute;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmEmergencyContact .Label8 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 248px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .Label11 {
+	background-color: #804040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: Red;
+	left: 72px;
+	top: 248px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmEmergencyContact .cmdDelPhone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 488px;
+	top: 252px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmergencyContact .cmdDelPhone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .txtComment {
+	background-color: #FFFFC0;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 264px;
+	position: absolute;
+	width: 457px;
+	height: 57px;
+}
+.PTSProject_frmEmergencyContact .txtComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEmergencyContact .cmdAddPhone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 488px;
+	top: 288px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEmergencyContact .cmdAddPhone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

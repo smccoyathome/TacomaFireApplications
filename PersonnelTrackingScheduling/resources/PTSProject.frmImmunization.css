@@ -1,0 +1,688 @@
+.PTSProject_frmImmunization {
+}
+.PTSProject_frmImmunization .frmImmunization {
+	background-color: #400040;
+	min-width: 560px;
+	min-height: 587px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_frmImmunization .frmFilters {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 545px;
+	height: 121px;
+	border: 2px groove;
+}
+.PTSProject_frmImmunization .frmFilters:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmImmunization .frmBattOpt {
+	background-color: #400040;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 145px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmImmunization .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .optAll {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 8px;
+	top: 11px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .optAll:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmImmunization .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .opt182 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 80px;
+	top: 11px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .opt182:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmImmunization .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .opt181 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .opt181:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmImmunization .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .opt183 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 80px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .opt183:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmImmunization .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmImmunization .Frame3 {
+	background-color: #400040;
+	left: 160px;
+	top: 16px;
+	position: absolute;
+	width: 161px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmImmunization .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .optA {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 8px;
+	top: 11px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .optA:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmImmunization .optA * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .optC {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 88px;
+	top: 11px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .optC:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmImmunization .optC * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .optB {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .optB:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmImmunization .optB * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .optD {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .optD:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmImmunization .optD * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmImmunization .Label1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-style: italic;
+	color: #FFC080;
+	left: 344px;
+	top: 16px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmImmunization .cboAssignmentCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	width: 97px;
+	height: 24px;
+}
+.PTSProject_frmImmunization .cboAssignmentCode:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .cboAssignmentCodePos {
+	top: 32px;
+	left: 344px;
+	position: absolute;
+	width: 97px;
+	height: 24px;
+}
+.PTSProject_frmImmunization ._Label3_0 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #FFC080;
+	left: 344px;
+	top: 64px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmImmunization ._Label6_1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #FFC080;
+	left: 16px;
+	top: 80px;
+	position: absolute;
+	width: 49px;
+	height: 33px;
+}
+.PTSProject_frmImmunization .cboUnit {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	width: 97px;
+	height: 24px;
+}
+.PTSProject_frmImmunization .cboUnit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .cboUnitPos {
+	top: 80px;
+	left: 344px;
+	position: absolute;
+	width: 97px;
+	height: 24px;
+}
+.PTSProject_frmImmunization .frmFilters_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmImmunization .cboClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 472px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunization .cboClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .txtNameSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 88px;
+	top: 96px;
+	position: absolute;
+	width: 225px;
+	height: 22px;
+}
+.PTSProject_frmImmunization .txtNameSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .chkArchiveOnly {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 16px;
+	top: 136px;
+	position: absolute;
+	width: 529px;
+	height: 15px;
+	width: auto;
+}
+.PTSProject_frmImmunization .chkArchiveOnly:enabled {
+	color: Aqua;
+}
+.PTSProject_frmImmunization .sprReport {
+	left: 440px;
+	top: 136px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	visibility: hidden;
+}
+.PTSProject_frmImmunization .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmImmunization .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmImmunization .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 8px;
+	top: 160px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunization .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .lbCount {
+	background-color: #400040;
+	cursor: default;
+	color: Red;
+	left: 144px;
+	top: 168px;
+	position: absolute;
+	width: 257px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmImmunization .sprEmployeeList {
+	left: 8px;
+	top: 184px;
+	position: absolute;
+	width: 414px;
+	height: 121px;
+}
+.PTSProject_frmImmunization .sprEmployeeList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmImmunization .sprEmployeeList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmImmunization .cmdAddMuliple {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 432px;
+	top: 184px;
+	position: absolute;
+	width: 121px;
+	height: 57px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunization .cmdAddMuliple:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .cmdQuery {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 432px;
+	top: 248px;
+	position: absolute;
+	width: 121px;
+	height: 57px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunization .cmdQuery:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization ._Label6_0 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: #FFC080;
+	left: 16px;
+	top: 320px;
+	position: absolute;
+	width: 313px;
+	height: 17px;
+}
+.PTSProject_frmImmunization .cmdPrintReport {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 336px;
+	top: 320px;
+	position: absolute;
+	width: 217px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunization .cmdPrintReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .sprImmunizationList {
+	left: 7px;
+	top: 344px;
+	position: absolute;
+	width: 550px;
+	height: 113px;
+}
+.PTSProject_frmImmunization .sprImmunizationList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmImmunization .sprImmunizationList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmImmunization .frmRecord {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 8px;
+	top: 456px;
+	position: absolute;
+	width: 545px;
+	height: 121px;
+	border: 2px groove;
+}
+.PTSProject_frmImmunization .frmRecord:enabled {
+	color: Aqua;
+}
+.PTSProject_frmImmunization .Label14 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #C0FFC0;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmImmunization .chkImmuneDate {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 160px;
+	top: 16px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmImmunization .chkImmuneDate:enabled {
+	color: #C0FFC0;
+}
+.PTSProject_frmImmunization .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #C0FFC0;
+	left: 296px;
+	top: 16px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmImmunization .cmdNewRecord {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 440px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunization .cmdNewRecord:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .cboType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmImmunization .cboType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .cboTypePos {
+	top: 32px;
+	left: 16px;
+	position: absolute;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmImmunization .dteShotDate {
+	font-family: Arial;
+	font-size: 11.52px;
+}
+.PTSProject_frmImmunization .dteShotDate.k-datepicker {
+	left: 160px;
+	top: 32px;
+	position: absolute;
+	width: 129px;
+	height: 22px;
+}
+.PTSProject_frmImmunization .txtComments {
+	left: 296px;
+	top: 32px;
+	position: absolute;
+	width: 129px;
+	height: 73px;
+}
+.PTSProject_frmImmunization .cmdAdd {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 440px;
+	top: 48px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunization .cmdAdd:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .frmResults {
+	background-color: #400040;
+	left: 96px;
+	top: 64px;
+	position: absolute;
+	width: 193px;
+	height: 41px;
+	border: 2px groove;
+}
+.PTSProject_frmImmunization .frmResults:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .optPositive {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 89px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .optPositive:enabled {
+	color: #C0FFC0;
+}
+.PTSProject_frmImmunization .optPositive * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .optNegative {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 104px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	cursor: default;
+}
+.PTSProject_frmImmunization .optNegative:enabled {
+	color: #C0FFC0;
+}
+.PTSProject_frmImmunization .optNegative * {
+	Cursor: default;
+}
+.PTSProject_frmImmunization .frmResults_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmImmunization .cmdDelete {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 440px;
+	top: 72px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmImmunization .cmdDelete:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmImmunization .chkResults {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 16px;
+	top: 80px;
+	position: absolute;
+	width: 73px;
+	height: 15px;
+	width: auto;
+}
+.PTSProject_frmImmunization .chkResults:enabled {
+	color: Red;
+}
+.PTSProject_frmImmunization .lbRecordID {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 456px;
+	top: 104px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmImmunization .frmRecord_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

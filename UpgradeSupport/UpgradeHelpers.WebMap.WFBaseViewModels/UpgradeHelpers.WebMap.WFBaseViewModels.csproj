@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildThisFileDirectory)\..\..\GlobalItems\WebMapHelpers.properties" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E1334146-C07F-4EAC-AC03-73F8C6E051AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UpgradeHelpers.WebMap.WFBaseViewModels</RootNamespace>
+    <AssemblyName>UpgradeHelpers.WebMap.WFBaseViewModels</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>UpgradeHelpers.WebMap.WFBaseViewModels.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>UpgradeHelpers.WebMap.WFBaseViewModels.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ComponentBaseViewModel.cs" />
+    <Compile Include="Base\ControlBaseViewModel.cs" />
+    <Compile Include="Base\ControlViewModel.cs" />
+    <Compile Include="Base\FormBase.cs" />
+    <Compile Include="Base\FormBaseViewModel.cs" />
+    <Compile Include="Base\UserControlBaseViewModel.cs" />
+    <Compile Include="Dependencies\Enumerations\AccessibleRole.cs" />
+    <Compile Include="Dependencies\Enumerations\AnchorStyles.cs" />
+    <Compile Include="Dependencies\Enumerations\AutoSizeMode.cs" />
+    <Compile Include="Dependencies\Enumerations\AutoValidate.cs" />
+    <Compile Include="Dependencies\Enumerations\BorderStyle.cs" />
+    <Compile Include="Dependencies\Enumerations\CaptureMode.cs" />
+    <Compile Include="Dependencies\Enumerations\ColorAdjustType.cs" />
+    <Compile Include="Dependencies\Enumerations\ColorMatrixFlag.cs" />
+    <Compile Include="Dependencies\Enumerations\CompositingQuality.cs" />
+    <Compile Include="Dependencies\Enumerations\ContentAlignment.cs" />
+    <Compile Include="Dependencies\Enumerations\ControlStyles.cs" />
+    <Compile Include="Dependencies\Enumerations\DashStyle.cs" />
+    <Compile Include="Dependencies\Enumerations\DataSourceUpdateMode.cs" />
+    <Compile Include="Dependencies\Enumerations\DispatcherPriority.cs" />
+    <Compile Include="Dependencies\Enumerations\DockStyle.cs" />
+    <Compile Include="Dependencies\Enumerations\DragAction.cs" />
+    <Compile Include="Dependencies\Enumerations\DragDropEffects.cs" />
+    <Compile Include="Dependencies\Enumerations\DrawItemState.cs" />
+    <Compile Include="Dependencies\Enumerations\FlatStyle.cs" />
+    <Compile Include="Dependencies\Enumerations\GetChildAtPointSkip.cs" />
+    <Compile Include="Dependencies\Enumerations\ImageLayout.cs" />
+    <Compile Include="Dependencies\Enumerations\ImageLockMode.cs" />
+    <Compile Include="Dependencies\Enumerations\ImeMode.cs" />
+    <Compile Include="Dependencies\Enumerations\InterpolationMode.cs" />
+    <Compile Include="Dependencies\Enumerations\KeyInput.cs" />
+    <Compile Include="Dependencies\Enumerations\KeyStates.cs" />
+    <Compile Include="Dependencies\Enumerations\KnownColor.cs" />
+    <Compile Include="Dependencies\Enumerations\LinearGradientMode.cs" />
+    <Compile Include="Dependencies\Enumerations\ModifierKeys.cs" />
+    <Compile Include="Dependencies\Enumerations\MouseButtons.cs" />
+    <Compile Include="Dependencies\Enumerations\MouseButtonState.cs" />
+    <Compile Include="Dependencies\Enumerations\PixelFormat.cs" />
+    <Compile Include="Dependencies\Enumerations\PixelOffsetMode.cs" />
+    <Compile Include="Dependencies\Enumerations\RightToLeft.cs" />
+    <Compile Include="Dependencies\Enumerations\RotateFlipType.cs" />
+    <Compile Include="Dependencies\Enumerations\RoutingStrategy.cs" />
+    <Compile Include="Dependencies\Enumerations\ScrollOrientation.cs" />
+    <Compile Include="Dependencies\Enumerations\SelectionRules.cs" />
+    <Compile Include="Dependencies\Enumerations\SmoothingMode.cs" />
+    <Compile Include="Dependencies\Enumerations\StringTrimming.cs" />
+    <Compile Include="Dependencies\Enumerations\StylusButtonState.cs" />
+    <Compile Include="Dependencies\Enumerations\TabletDeviceType.cs" />
+    <Compile Include="Dependencies\Enumerations\TabletHardwareCapabilities.cs" />
+    <Compile Include="Dependencies\Enumerations\WrapMode.cs" />
+    <Compile Include="Dependencies\Events\CancelEventArgs.cs" />
+    <Compile Include="Dependencies\Events\CancelEventHandler.cs" />
+    <Compile Include="Dependencies\Events\CoerceValueCallback.cs" />
+    <Compile Include="Dependencies\Events\ControlEventArgs.cs" />
+    <Compile Include="Dependencies\Events\ControlEventHandler.cs" />
+    <Compile Include="Dependencies\Events\ConvertEventArgs.cs" />
+    <Compile Include="Dependencies\Events\ConvertEventHandler.cs" />
+    <Compile Include="Dependencies\Events\DependencyPropertyChangedEventArgs.cs" />
+    <Compile Include="Dependencies\Events\DispatcherEventArgs.cs" />
+    <Compile Include="Dependencies\Events\DispatcherHookEventArgs.cs" />
+    <Compile Include="Dependencies\Events\DispatcherHookEventHandler.cs" />
+    <Compile Include="Dependencies\Events\DispatcherUnhandledExceptionEventArgs.cs" />
+    <Compile Include="Dependencies\Events\DispatcherUnhandledExceptionEventHandler.cs" />
+    <Compile Include="Dependencies\Events\DispatcherUnhandledExceptionFilterEventArgs.cs" />
+    <Compile Include="Dependencies\Events\DispatcherUnhandledExceptionFilterEventHandler.cs" />
+    <Compile Include="Dependencies\Events\DragEventArgs.cs" />
+    <Compile Include="Dependencies\Events\DragEventHandler.cs" />
+    <Compile Include="Dependencies\Events\FormClosedEventArgs.cs" />
+    <Compile Include="Dependencies\Events\FormClosedEventHandler.cs" />
+    <Compile Include="Dependencies\Events\FormClosingEventArgs.cs" />
+    <Compile Include="Dependencies\Events\FormClosingEventHandler.cs" />
+    <Compile Include="Dependencies\Events\InputEventArgs.cs" />
+    <Compile Include="Dependencies\Events\KeyboardEventArgs.cs" />
+    <Compile Include="Dependencies\Events\KeyboardFocusChangedEventArgs.cs" />
+    <Compile Include="Dependencies\Events\KeyboardFocusChangedEventHandler.cs" />
+    <Compile Include="Dependencies\Events\KeyEventArgs.cs" />
+    <Compile Include="Dependencies\Events\KeyEventHandler.cs" />
+    <Compile Include="Dependencies\Events\KeyPressEventArgs.cs" />
+    <Compile Include="Dependencies\Events\KeyPressEventHandler.cs" />
+    <Compile Include="Dependencies\Events\LayoutEventArgs.cs" />
+    <Compile Include="Dependencies\Events\LayoutEventHandler.cs" />
+    <Compile Include="Dependencies\Events\MouseEventArgs.cs" />
+    <Compile Include="Dependencies\Events\MouseEventHandler.cs" />
+    <Compile Include="Dependencies\Events\NotifyInputEventArgs.cs" />
+    <Compile Include="Dependencies\Events\NotifyInputEventHandler.cs" />
+    <Compile Include="Dependencies\Events\PaintEventArgs.cs" />
+    <Compile Include="Dependencies\Events\PaintEventHandler.cs" />
+    <Compile Include="Dependencies\Events\PreProcessInputEventArgs.cs" />
+    <Compile Include="Dependencies\Events\PreProcessInputEventHandler.cs" />
+    <Compile Include="Dependencies\Events\PreviewKeyDownEventArgs.cs" />
+    <Compile Include="Dependencies\Events\PreviewKeyDownEventHandler.cs" />
+    <Compile Include="Dependencies\Events\ProcessInputEventArgs.cs" />
+    <Compile Include="Dependencies\Events\ProcessInputEventHandler.cs" />
+    <Compile Include="Dependencies\Events\PropertyChangedCallback.cs" />
+    <Compile Include="Dependencies\Events\QueryContinueDragEventArgs.cs" />
+    <Compile Include="Dependencies\Events\QueryContinueDragEventHandler.cs" />
+    <Compile Include="Dependencies\Events\RoutedEventArgs.cs" />
+    <Compile Include="Dependencies\Events\RoutedEventHandler.cs" />
+    <Compile Include="Dependencies\Enumerations\Keys.cs" />
+    <Compile Include="Dependencies\Events\ScrollEventArgs.cs" />
+    <Compile Include="Dependencies\Events\ScrollEventHandler.cs" />
+    <Compile Include="Dependencies\Events\SizeChangedEventArgs.cs" />
+    <Compile Include="Dependencies\Events\SizeChangedEventHandler.cs" />
+    <Compile Include="Dependencies\Events\SourceChangedEventArgs.cs" />
+    <Compile Include="Dependencies\Events\SourceChangedEventHandler.cs" />
+    <Compile Include="Dependencies\Events\StylusEventArgs.cs" />
+    <Compile Include="Dependencies\Events\StylusEventHandler.cs" />
+    <Compile Include="Dependencies\Helpers\Binding.cs" />
+    <Compile Include="Dependencies\Helpers\BindingBase.cs" />
+    <Compile Include="Dependencies\Helpers\BindingContext.cs" />
+    <Compile Include="Dependencies\Helpers\BindingsCollection.cs" />
+    <Compile Include="Dependencies\Helpers\BindingSource.cs" />
+    <Compile Include="Dependencies\Helpers\Bitmap.cs" />
+    <Compile Include="Dependencies\Helpers\BitmapData.cs" />
+    <Compile Include="Dependencies\Helpers\Blend.cs" />
+    <Compile Include="Dependencies\Helpers\Brush.cs" />
+    <Compile Include="Dependencies\Helpers\Brushes.cs" />
+    <Compile Include="Dependencies\Helpers\Color.cs" />
+    <Compile Include="Dependencies\Helpers\ColorBlend.cs" />
+    <Compile Include="Dependencies\Helpers\ColorConverter.cs" />
+    <Compile Include="Dependencies\Helpers\ColorMap.cs" />
+    <Compile Include="Dependencies\Helpers\ColorMatrix.cs" />
+    <Compile Include="Dependencies\Helpers\Color_Definitions.cs" />
+    <Compile Include="Dependencies\Helpers\ComponentCollection.cs" />
+    <Compile Include="Dependencies\Helpers\CompositionTarget.cs" />
+    <Compile Include="Dependencies\Helpers\ContainerControl.cs" />
+    <Compile Include="Dependencies\Helpers\ControlBindingsCollection.cs" />
+    <Compile Include="Dependencies\Helpers\CreateParams.cs" />
+    <Compile Include="Dependencies\Helpers\Cursor.cs" />
+    <Compile Include="Dependencies\Helpers\DependencyObject.cs" />
+    <Compile Include="Dependencies\Helpers\DependencyProperty.cs" />
+    <Compile Include="Dependencies\Helpers\Dispatcher.cs" />
+    <Compile Include="Dependencies\Helpers\DispatcherFrame.cs" />
+    <Compile Include="Dependencies\Helpers\DispatcherHooks.cs" />
+    <Compile Include="Dependencies\Helpers\DispatcherObject.cs" />
+    <Compile Include="Dependencies\Helpers\DispatcherOperation.cs" />
+    <Compile Include="Dependencies\Helpers\DispatcherOperationStatus.cs" />
+    <Compile Include="Dependencies\Helpers\DispatcherProcessingDisabled.cs" />
+    <Compile Include="Dependencies\Helpers\Font.cs" />
+    <Compile Include="Dependencies\Helpers\FontCollection.cs" />
+    <Compile Include="Dependencies\Helpers\FontConverter.cs" />
+    <Compile Include="Dependencies\Helpers\FontFamily.cs" />
+    <Compile Include="Dependencies\Helpers\FontHelper.cs" />
+    <Compile Include="Dependencies\Helpers\FontSizeConverter.cs" />
+    <Compile Include="Dependencies\Helpers\FontVariant.cs" />
+    <Compile Include="Dependencies\Helpers\FrameworkElement.cs" />
+    <Compile Include="Dependencies\Helpers\Graphics.cs" />
+    <Compile Include="Dependencies\Helpers\GraphicsPath.cs" />
+    <Compile Include="Dependencies\Helpers\GraphicsState.cs" />
+    <Compile Include="Dependencies\Helpers\GridViewRowPresenter.cs" />
+    <Compile Include="Dependencies\Helpers\IInputElement.cs" />
+    <Compile Include="Dependencies\Helpers\Image.cs" />
+    <Compile Include="Dependencies\Helpers\ImageAttributes.cs" />
+    <Compile Include="Dependencies\Helpers\ImageFormat.cs" />
+    <Compile Include="Dependencies\Helpers\InputDevice.cs" />
+    <Compile Include="Dependencies\Helpers\InputManager.cs" />
+    <Compile Include="Dependencies\Helpers\KeyboardDevice.cs" />
+    <Compile Include="Dependencies\Helpers\KeyConverter.cs" />
+    <Compile Include="Dependencies\Helpers\KeyValueSerializer.cs" />
+    <Compile Include="Dependencies\Helpers\LinearGradientBrush.cs" />
+    <Compile Include="Dependencies\Helpers\MarkupExtension.cs" />
+    <Compile Include="Dependencies\Helpers\Matrix.cs" />
+    <Compile Include="Dependencies\Helpers\Message.cs" />
+    <Compile Include="Dependencies\Helpers\Metafile.cs" />
+    <Compile Include="Dependencies\Helpers\ModifierKeysConverter.cs" />
+    <Compile Include="Dependencies\Helpers\ModifierKeysValueSerializer.cs" />
+    <Compile Include="Dependencies\Helpers\MouseDevice.cs" />
+    <Compile Include="Dependencies\Helpers\Padding.cs" />
+    <Compile Include="Dependencies\Helpers\Pen.cs" />
+    <Compile Include="Dependencies\Helpers\Pens.cs" />
+    <Compile Include="Dependencies\Helpers\Point.cs" />
+    <Compile Include="Dependencies\Helpers\PointConverter.cs" />
+    <Compile Include="Dependencies\Helpers\PointF.cs" />
+    <Compile Include="Dependencies\Helpers\PresentationSource.cs" />
+    <Compile Include="Dependencies\Helpers\PropertyMetadata.cs" />
+    <Compile Include="Dependencies\Helpers\Rect.cs" />
+    <Compile Include="Dependencies\Helpers\Rectangle.cs" />
+    <Compile Include="Dependencies\Helpers\RectangleF.cs" />
+    <Compile Include="Dependencies\Helpers\RectConverter.cs" />
+    <Compile Include="Dependencies\Helpers\RectValueSerializer.cs" />
+    <Compile Include="Dependencies\Helpers\Region.cs" />
+    <Compile Include="Dependencies\Helpers\RoutedEvent.cs" />
+    <Compile Include="Dependencies\Helpers\Screen.cs" />
+    <Compile Include="Dependencies\Helpers\ScrollableControlViewModel.cs" />
+    <Compile Include="Dependencies\Helpers\Setter.cs" />
+    <Compile Include="Dependencies\Helpers\SetterBase.cs" />
+    <Compile Include="Dependencies\Helpers\SetterBaseCollection.cs" />
+    <Compile Include="Dependencies\Helpers\ShortStyleHashKey.cs" />
+    <Compile Include="Dependencies\Helpers\Size.cs" />
+    <Compile Include="Dependencies\Helpers\SizeF.cs" />
+    <Compile Include="Dependencies\Helpers\SolidBrush.cs" />
+    <Compile Include="Dependencies\Helpers\SolidColorBrush.cs" />
+    <Compile Include="Dependencies\Helpers\StagingAreaInputItem.cs" />
+    <Compile Include="Dependencies\Helpers\StringFormat.cs" />
+    <Compile Include="Dependencies\Helpers\Style.cs" />
+    <Compile Include="Dependencies\Helpers\StyleHashKey.cs" />
+    <Compile Include="Dependencies\Helpers\StylusButton.cs" />
+    <Compile Include="Dependencies\Helpers\StylusButtonCollection.cs" />
+    <Compile Include="Dependencies\Helpers\StylusDevice.cs" />
+    <Compile Include="Dependencies\Helpers\StylusDeviceCollection.cs" />
+    <Compile Include="Dependencies\Helpers\StylusPoint.cs" />
+    <Compile Include="Dependencies\Helpers\StylusPointCollection.cs" />
+    <Compile Include="Dependencies\Helpers\StylusPointDescription.cs" />
+    <Compile Include="Dependencies\Helpers\StylusPointProperty.cs" />
+    <Compile Include="Dependencies\Helpers\StylusPointPropertyInfo.cs" />
+    <Compile Include="Dependencies\Helpers\StylusPointPropertyUnit.cs" />
+    <Compile Include="Dependencies\Helpers\SystemColors.cs" />
+    <Compile Include="Dependencies\Helpers\TabletDevice.cs" />
+    <Compile Include="Dependencies\Helpers\TextRenderingHint.cs" />
+    <Compile Include="Dependencies\Helpers\TextureBrush.cs" />
+    <Compile Include="Dependencies\Helpers\Thickness.cs" />
+    <Compile Include="Dependencies\Helpers\TypeConverterAttribute.cs" />
+    <Compile Include="Dependencies\Helpers\UIElement.cs" />
+    <Compile Include="Dependencies\Helpers\UIPropertyMetadata.cs" />
+    <Compile Include="Dependencies\Helpers\UITypeEditor.cs" />
+    <Compile Include="Dependencies\Helpers\UITypeEditorEditStyle.cs" />
+    <Compile Include="Dependencies\Helpers\ValueSerializer.cs" />
+    <Compile Include="Dependencies\Helpers\ValueSerializerAttribute.cs" />
+    <Compile Include="Dependencies\Helpers\Vector.cs" />
+    <Compile Include="Dependencies\Helpers\VectorConverter.cs" />
+    <Compile Include="Dependencies\Helpers\VectorValueSerializer.cs" />
+    <Compile Include="Dependencies\Helpers\Visual.cs" />
+    <Compile Include="ExtensionMethods\Control.cs" />
+    <Compile Include="ExtensionMethods\ControlExtensions.cs" />
+    <Compile Include="ExtensionMethods\ConversionsHelpers.cs" />
+    <Compile Include="ExtensionMethods\IControlExtensions.cs" />
+    <Compile Include="ExtensionMethods\RectangleExtensions.cs" />
+    <Compile Include="Interfaces\IComponent.cs" />
+    <Compile Include="Interfaces\IContainer.cs" />
+    <Compile Include="Interfaces\IControlContainerIterator.cs" />
+    <Compile Include="Interfaces\IControlsContainer.cs" />
+    <Compile Include="Interfaces\ISite.cs" />
+    <Compile Include="Interfaces\ISpecialVisibilityBehaviour.cs" />
+    <Compile Include="Interfaces\IValueSerializerContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\packages\SonarAnalyzer.CSharp.1.23.0.1828\analyzers\Google.Protobuf.dll" />
+    <Analyzer Include="..\..\packages\SonarAnalyzer.CSharp.1.23.0.1828\analyzers\SonarAnalyzer.CSharp.dll" />
+    <Analyzer Include="..\..\packages\SonarAnalyzer.CSharp.1.23.0.1828\analyzers\SonarAnalyzer.dll" />
+    <Analyzer Include="..\..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\Newtonsoft.Json.dll" />
+    <Analyzer Include="..\..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UpgradeHelpers.WebMap.Core\UpgradeHelpers.WebMap.Core.csproj">
+      <Project>{ef2dd653-fec0-4fe9-aa36-ff4a8b7565ee}</Project>
+      <Name>UpgradeHelpers.WebMap.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeHelpers.WebMap.Server.Common\UpgradeHelpers.WebMap.Server.Common.csproj">
+      <Project>{4c980141-ca63-4b31-93d7-a24c4adf5ead}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="UpgradeHelpers.WebMap.WFBaseViewModels.nuspec" />
+    <None Include="UpgradeHelpers.WebMap.WFBaseViewModels.ruleset" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildThisFileDirectory)\..\..\GlobalItems\WebMapHelpers.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

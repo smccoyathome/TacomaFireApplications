@@ -1,0 +1,91 @@
+.PTSProject_frmTransfReqAssign {
+}
+.PTSProject_frmTransfReqAssign .frmTransfReqAssign {
+	background-color: #400000;
+	min-width: 562px;
+	min-height: 424px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTransfReqAssign .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 366px;
+	top: 8px;
+	position: absolute;
+	width: 89px;
+	height: 28px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransfReqAssign .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransfReqAssign .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 464px;
+	top: 8px;
+	position: absolute;
+	width: 89px;
+	height: 28px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransfReqAssign .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransfReqAssign .cboName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 229px;
+	height: 24px;
+}
+.PTSProject_frmTransfReqAssign .cboName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransfReqAssign .cboNamePos {
+	top: 10px;
+	left: 126px;
+	position: absolute;
+	width: 229px;
+	height: 24px;
+}
+.PTSProject_frmTransfReqAssign .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 16px;
+	top: 13px;
+	position: absolute;
+	width: 106px;
+	height: 20px;
+}
+.PTSProject_frmTransfReqAssign .sprReport {
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 547px;
+	height: 361px;
+}
+.PTSProject_frmTransfReqAssign .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTransfReqAssign .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,403 @@
+.PTSProject_dlgRequestTransfer {
+}
+.PTSProject_dlgRequestTransfer .dlgRequestTransfer {
+	background-color: #004000;
+	min-width: 581px;
+	min-height: 425px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+}
+.PTSProject_dlgRequestTransfer .Frame2 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 16.56px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 361px;
+	height: 281px;
+	border: 2px groove;
+}
+.PTSProject_dlgRequestTransfer .Frame2:enabled {
+	color: #80FFFF;
+}
+.PTSProject_dlgRequestTransfer ._Label_1 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 297px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRequestTransfer ._Label_0 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #80FF80;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 289px;
+	height: 17px;
+}
+.PTSProject_dlgRequestTransfer .sprPositions {
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 345px;
+	height: 217px;
+}
+.PTSProject_dlgRequestTransfer .sprPositions .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgRequestTransfer .sprPositions .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgRequestTransfer .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgRequestTransfer .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 384px;
+	top: 16px;
+	position: absolute;
+	width: 185px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgRequestTransfer .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRequestTransfer .Frame1 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 384px;
+	top: 56px;
+	position: absolute;
+	width: 185px;
+	height: 73px;
+	border: 2px groove;
+}
+.PTSProject_dlgRequestTransfer .Frame1:enabled {
+	color: Red;
+}
+.PTSProject_dlgRequestTransfer .optRequest {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 32px;
+	top: 24px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_dlgRequestTransfer .optRequest:enabled {
+	color: Yellow;
+}
+.PTSProject_dlgRequestTransfer .optRequest * {
+	Cursor: default;
+}
+.PTSProject_dlgRequestTransfer .optDelete {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 32px;
+	top: 48px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_dlgRequestTransfer .optDelete:enabled {
+	color: Yellow;
+}
+.PTSProject_dlgRequestTransfer .optDelete * {
+	Cursor: default;
+}
+.PTSProject_dlgRequestTransfer .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgRequestTransfer .frmRequestTransfer {
+	background-color: #004000;
+	left: 384px;
+	top: 128px;
+	position: absolute;
+	width: 185px;
+	height: 281px;
+	border: 2px groove;
+}
+.PTSProject_dlgRequestTransfer .frmRequestTransfer:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRequestTransfer .lblName {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.PTSProject_dlgRequestTransfer .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 169px;
+	height: 23px;
+}
+.PTSProject_dlgRequestTransfer .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRequestTransfer .cboNameListPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 169px;
+	height: 23px;
+}
+.PTSProject_dlgRequestTransfer .lbPosition {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRequestTransfer .Label5 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FF80;
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.PTSProject_dlgRequestTransfer .cboPriority {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 169px;
+	height: 23px;
+}
+.PTSProject_dlgRequestTransfer .cboPriority:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRequestTransfer .cboPriorityPos {
+	top: 120px;
+	left: 8px;
+	position: absolute;
+	width: 169px;
+	height: 23px;
+}
+.PTSProject_dlgRequestTransfer .Label3 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FF80;
+	left: 8px;
+	top: 152px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_dlgRequestTransfer .txtComment {
+	left: 8px;
+	top: 168px;
+	position: absolute;
+	width: 161px;
+	height: 57px;
+}
+.PTSProject_dlgRequestTransfer .cmdReqDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 240px;
+	position: absolute;
+	width: 145px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgRequestTransfer .cmdReqDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRequestTransfer .frmRequestTransfer_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgRequestTransfer .frmDeleteRequest {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 384px;
+	top: 136px;
+	position: absolute;
+	width: 185px;
+	height: 281px;
+	border: 2px groove;
+}
+.PTSProject_dlgRequestTransfer .frmDeleteRequest:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRequestTransfer .Label6 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.PTSProject_dlgRequestTransfer .Label1 {
+	background-color: #C0C000;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 96px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_dlgRequestTransfer .cboDelNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 169px;
+	height: 23px;
+}
+.PTSProject_dlgRequestTransfer .cboDelNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRequestTransfer .cboDelNameListPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 169px;
+	height: 23px;
+}
+.PTSProject_dlgRequestTransfer .lbRequest {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 169px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_dlgRequestTransfer .cmdDelete {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 32px;
+	top: 224px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgRequestTransfer .cmdDelete:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRequestTransfer .frmDeleteRequest_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgRequestTransfer .Label2 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 16px;
+	top: 296px;
+	position: absolute;
+	width: 297px;
+	height: 17px;
+}
+.PTSProject_dlgRequestTransfer .sprRequests {
+	left: 16px;
+	top: 320px;
+	position: absolute;
+	width: 337px;
+	height: 89px;
+}
+.PTSProject_dlgRequestTransfer .sprRequests .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgRequestTransfer .sprRequests .k-spreadsheet-action-bar {
+	display: none;
+}
+

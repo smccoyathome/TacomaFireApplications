@@ -1,0 +1,248 @@
+.PTSProject_frmChangeCallBackNum {
+}
+.PTSProject_frmChangeCallBackNum .frmChangeCallBackNum {
+	background-color: #000040;
+	min-width: 376px;
+	min-height: 218px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+}
+.PTSProject_frmChangeCallBackNum .lbRecordID {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmChangeCallBackNum .Label1 {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 201px;
+	height: 17px;
+}
+.PTSProject_frmChangeCallBackNum .lblEmployeeName {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 345px;
+	height: 25px;
+}
+.PTSProject_frmChangeCallBackNum .Label3 {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: #80FF80;
+	left: 32px;
+	top: 56px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmChangeCallBackNum .Label2 {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: #80FF80;
+	left: 112px;
+	top: 56px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmChangeCallBackNum .Label4 {
+	background-color: #000040;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	color: #80FF80;
+	left: 192px;
+	top: 56px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmChangeCallBackNum .cboShift {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 49px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmChangeCallBackNum .cboShift:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmChangeCallBackNum .cboShiftPos {
+	top: 72px;
+	left: 32px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+}
+.PTSProject_frmChangeCallBackNum .cboNumber {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 49px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmChangeCallBackNum .cboNumber:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmChangeCallBackNum .cboNumberPos {
+	top: 72px;
+	left: 112px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+}
+.PTSProject_frmChangeCallBackNum .cboDebitGroup {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 57px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_frmChangeCallBackNum .cboDebitGroup:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmChangeCallBackNum .cboDebitGroupPos {
+	top: 72px;
+	left: 200px;
+	position: absolute;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmChangeCallBackNum .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 280px;
+	top: 88px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmChangeCallBackNum .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmChangeCallBackNum .Frame1 {
+	background-color: #000040;
+	left: 40px;
+	top: 96px;
+	position: absolute;
+	width: 209px;
+	height: 57px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_frmChangeCallBackNum .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmChangeCallBackNum .chkAvailSpecEvent {
+	background-color: #000040;
+	cursor: default;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmChangeCallBackNum .chkAvailSpecEvent:enabled {
+	color: Aqua;
+}
+.PTSProject_frmChangeCallBackNum .chkAvailMedic6 {
+	background-color: #000040;
+	cursor: default;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmChangeCallBackNum .chkAvailMedic6:enabled {
+	color: Aqua;
+}
+.PTSProject_frmChangeCallBackNum .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmChangeCallBackNum .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 280px;
+	top: 128px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmChangeCallBackNum .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmChangeCallBackNum .Label5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #C00000;
+	left: 40px;
+	top: 176px;
+	position: absolute;
+	width: 233px;
+	height: 33px;
+}
+

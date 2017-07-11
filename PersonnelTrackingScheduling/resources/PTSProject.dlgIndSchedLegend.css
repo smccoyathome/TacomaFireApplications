@@ -1,0 +1,307 @@
+.PTSProject_dlgIndSchedLegend {
+}
+.PTSProject_dlgIndSchedLegend .dlgIndSchedLegend {
+	background-color: #E0E0E0;
+	min-width: 476px;
+	min-height: 175px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_dlgIndSchedLegend .Frame1 {
+	background-color: #E0E0E0;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 273px;
+	height: 105px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgIndSchedLegend .Frame1:enabled {
+	color: #400040;
+}
+.PTSProject_dlgIndSchedLegend ._Label_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #0000C0;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #00C000;
+	left: 112px;
+	top: 16px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #00C0C0;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Fuchsia;
+	left: 112px;
+	top: 32px;
+	position: absolute;
+	width: 153px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FF8000;
+	left: 112px;
+	top: 48px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #804000;
+	left: 112px;
+	top: 64px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Purple;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgIndSchedLegend .Frame2 {
+	background-color: #E0E0E0;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	left: 288px;
+	top: 8px;
+	position: absolute;
+	width: 177px;
+	height: 73px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgIndSchedLegend .Frame2:enabled {
+	color: #400040;
+}
+.PTSProject_dlgIndSchedLegend ._Label_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #00C000;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #C0C0FF;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend ._Label_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Fuchsia;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgIndSchedLegend .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FF8000;
+	left: 272px;
+	top: 96px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgIndSchedLegend .Frame3 {
+	background-color: #E0E0E0;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 120px;
+	position: absolute;
+	width: 257px;
+	height: 41px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgIndSchedLegend .Frame3:enabled {
+	color: #000040;
+}
+.PTSProject_dlgIndSchedLegend ._Label_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 241px;
+	height: 17px;
+}
+.PTSProject_dlgIndSchedLegend .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgIndSchedLegend .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 296px;
+	top: 120px;
+	position: absolute;
+	width: 161px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgIndSchedLegend .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

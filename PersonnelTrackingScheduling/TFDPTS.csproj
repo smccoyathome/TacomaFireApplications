@@ -1,0 +1,1246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!-- This tasks is used to embed scripts and content elements -->
+  <Target Name="AddToResources" DependsOnTargets="CompileTypeScript">
+    <ItemGroup>
+      <Resource Include="scripts\**\*.*" />
+      <Resource Include="resources\**\*.*" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16C35667-7144-4646-8DE1-EBD3D9D6ED2F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PTSProject</RootNamespace>
+    <AssemblyName>PTSProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobilize.WebMap.Kendo">
+      <HintPath>..\packages\Mobilize.WebMap.Client.Kendo.0.0.0.0\lib\Mobilize.WebMap.Client.Kendo.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobilize.WebMap.Client.Controls">
+      <HintPath>..\packages\Mobilize.WebMap.Client.Controls.0.0.0.0\lib\Mobilize.WebMap.Client.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <!-- Fasterflect -->
+    <Reference Include="Fasterflect">
+      <HintPath>..\packages\fasterflect.2.1.3\lib\net40\Fasterflect.dll</HintPath>
+    </Reference>
+    <!-- System.Net.Http -->
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <!-- ResourceVirtualPathProvider -->
+    <Reference Include="ResourceVirtualPathProvider">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ResourceVirtualPathProvider.1.0.5\lib\net45\ResourceVirtualPathProvider.dll</HintPath>
+    </Reference>
+    <!-- Microsoft.Practices.Unity -->
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\packages\Unity.Interception.3.5.1404.0\lib\Net45\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <!-- Helpers Nugets -->
+  <ItemGroup>
+    <ProjectReference Include="..\Stubs\Stubs.csproj">
+      <Project>{f2efbf43-07b4-4565-8e14-0c2f55b9c827}</Project>
+      <Name>Stubs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Utils.ReflectionHelper\UpgradeHelpers.Utils.ReflectionHelper.csproj">
+      <Project>{9ad53694-7256-4635-aeea-92ff88652713}</Project>
+      <Name>UpgradeHelpers.Utils.ReflectionHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Utils\UpgradeHelpers.Utils.csproj">
+      <Project>{1a91e8f9-beff-4b66-98df-4bfee15fa39f}</Project>
+      <Name>UpgradeHelpers.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.VB\UpgradeHelpers.VB.csproj">
+      <Project>{9be0611b-c690-4268-ab56-81d679f07022}</Project>
+      <Name>UpgradeHelpers.VB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.BasicViewModels\UpgradeHelpers.WebMap.BasicViewModels.csproj">
+      <Project>{22bbd658-ed3d-49d0-95c8-c6cab1d3a00b}</Project>
+      <Name>UpgradeHelpers.WebMap.BasicViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Controls\UpgradeHelpers.WebMap.Controls.csproj">
+      <Project>{c73d3b98-2151-428d-bf17-22965c2597dd}</Project>
+      <Name>UpgradeHelpers.WebMap.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Core\UpgradeHelpers.WebMap.Core.csproj">
+      <Project>{ef2dd653-fec0-4fe9-aa36-ff4a8b7565ee}</Project>
+      <Name>UpgradeHelpers.WebMap.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.DB.ADO.Surrogates\UpgradeHelpers.WebMap.DB.ADO.Surrogates.csproj">
+      <Project>{d7b29853-4f12-4d47-ab9a-9f9a89e41ebc}</Project>
+      <Name>UpgradeHelpers.WebMap.DB.ADO.Surrogates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Dictionary\UpgradeHelpers.WebMap.Dictionary.csproj">
+      <Project>{805f3916-64db-4515-b677-8f30440ef84c}</Project>
+      <Name>UpgradeHelpers.WebMap.Dictionary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.EventAggregator\UpgradeHelpers.WebMap.EventAggregator.csproj">
+      <Project>{d6b85851-971e-4c14-ba6a-7b1ebb3f3f71}</Project>
+      <Name>UpgradeHelpers.WebMap.EventAggregator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.List\UpgradeHelpers.WebMap.List.csproj">
+      <Project>{a3289396-e5ba-4275-92e2-f06cacc7749c}</Project>
+      <Name>UpgradeHelpers.WebMap.List</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Server.Common.Config\UpgradeHelpers.WebMap.Server.Common.Config.csproj">
+      <Project>{cf033088-58c1-474c-a88f-dc853a1522ed}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.Common.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Server.Common\UpgradeHelpers.WebMap.Server.Common.csproj">
+      <Project>{4c980141-ca63-4b31-93d7-a24c4adf5ead}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Server.MVC\UpgradeHelpers.WebMap.Server.MVC.csproj">
+      <Project>{673ff702-fbb9-47fb-be6f-0e41630f68dc}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Server.v2\UpgradeHelpers.WebMap.Server.v2.csproj">
+      <Project>{b4018bf1-4807-440d-952a-2ea2ab9608f3}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.v2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Surrogates.BasicSurrogates\UpgradeHelpers.WebMap.Surrogates.BasicSurrogates.csproj">
+      <Project>{2c2a8857-0e89-4867-99f9-d0ccfa64c3c8}</Project>
+      <Name>UpgradeHelpers.WebMap.Surrogates.BasicSurrogates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Surrogates\UpgradeHelpers.WebMap.Surrogates.csproj">
+      <Project>{05ea2f9a-8ef5-4bdb-be6c-49a672051ece}</Project>
+      <Name>UpgradeHelpers.WebMap.Surrogates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.TypeCacheUtils\UpgradeHelpers.WebMap.TypeCacheUtils.csproj">
+      <Project>{81374682-5f24-402e-a4e0-822ac3005a1a}</Project>
+      <Name>UpgradeHelpers.WebMap.TypeCacheUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.WFBaseViewModels\UpgradeHelpers.WebMap.WFBaseViewModels.csproj">
+      <Project>{e1334146-c07f-4eac-ac03-73f8c6e051ae}</Project>
+      <Name>UpgradeHelpers.WebMap.WFBaseViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Customizations\Customizations.csproj">
+      <Project>{4531f942-1652-4660-9b18-02b1116009a0}</Project>
+      <Name>Customizations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.XML">
+    </Reference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.DB.ADO\UpgradeHelpers.DB.ADO.csproj">
+      <Project>{99220D3D-4722-432C-9681-ADFFF2065D68}</Project>
+      <Name>UpgradeHelpers.DB.ADO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.DB.Essentials\UpgradeHelpers.DB.Essentials.csproj">
+      <Project>{B5D4A0EE-0D52-4EE8-829D-48DAF1E56B8E}</Project>
+      <Name>UpgradeHelpers.DB.Essentials</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\Unity.Interception\Unity.Interception.csproj">
+      <Project>{f8186b23-b0e1-4646-b5f3-14357841e2ba}</Project>
+      <Name>Unity.Interception</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.DB.ADO\UpgradeHelpers.DB.ADO.csproj">
+      <Project>{99220d3d-4722-432c-9681-adfff2065d68}</Project>
+      <Name>UpgradeHelpers.DB.ADO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.DB.Essentials\UpgradeHelpers.DB.Essentials.csproj">
+      <Project>{b5d4a0ee-0d52-4ee8-829d-48daf1e56b8e}</Project>
+      <Name>UpgradeHelpers.DB.Essentials</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.FontHelper\UpgradeHelpers.FontHelper.csproj">
+      <Project>{71513051-c991-499f-806d-e5a9007a70ca}</Project>
+      <Name>UpgradeHelpers.FontHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui\UpgradeHelpers.Gui.csproj">
+      <Project>{F852374C-22BA-4CB6-AA34-DA1A589B9D8D}</Project>
+      <Name>UpgradeHelpers.Gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui.ContainerHelper\UpgradeHelpers.Gui.ContainerHelper.csproj">
+      <Project>{A4C9E0B1-7C82-427A-80F1-B548B5A1B1E8}</Project>
+      <Name>UpgradeHelpers.Gui.ContainerHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.Utils\UpgradeHelpers.Utils.csproj">
+      <Project>{1A91E8F9-BEFF-4B66-98DF-4BFEE15FA39F}</Project>
+      <Name>UpgradeHelpers.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui.Graphics\UpgradeHelpers.Gui.Graphics.csproj">
+      <Project>{72E5FF68-A339-4924-85D9-31C32EC540F6}</Project>
+      <Name>UpgradeHelpers.Gui.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.SupportHelper\UpgradeHelpers.SupportHelper.csproj">
+      <Project>{2104ADE2-996D-4769-B4EE-ADD2FAE011F8}</Project>
+      <Name>UpgradeHelpers.SupportHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.NotUpgradeHelper\UpgradeHelpers.NotUpgradeHelper.csproj">
+      <Project>{4D15E9B3-ECF3-4267-99A4-83C25FFD8EC4}</Project>
+      <Name>UpgradeHelpers.NotUpgradeHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSolution1Support\UpgradeSolution1Support.csproj">
+      <Project>{AA62384B-9BEA-4FD8-8EE7-92F26CBD5BF8}</Project>
+      <Name>UpgradeSolution1Support</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaRegistration.cs" />
+    <Compile Include="CodeFile1.cs" />
+    <Compile Include="Configuration\SettingsManager.cs" />
+    <Compile Include="TFDPTS_UpgradeSupport.cs" />
+    <Compile Include="frmDailyBattWorksheet.cs" />
+    <Compile Include="frmBatt2SchedNew.cs" />
+    <Compile Include="frmBattSchedNew.cs" />
+    <Compile Include="frmFCCVacationScheduler.cs" />
+    <Compile Include="frmWorkingHoursByCycle.cs" />
+    <Compile Include="frmTransfReqAssign.cs" />
+    <Compile Include="dlgCalendarYearShift.cs" />
+    <Compile Include="frmMasterPhoneLists.cs" />
+    <Compile Include="frmRosterFiltered.cs" />
+    <Compile Include="frmRankedOperationStaff.cs" />
+    <Compile Include="frmHazmatLeave.cs" />
+    <Compile Include="frmHZMVacationScheduler.cs" />
+    <Compile Include="frmDispatchSchedule.cs" />
+    <Compile Include="frmPayrollOthers.cs" />
+    <Compile Include="frmPMVacationScheduler.cs" />
+    <Compile Include="frmGrayListByDate.cs" />
+    <Compile Include="dlgCalcPMCSR.cs" />
+    <Compile Include="frmTrnBaseStation.cs" />
+    <Compile Include="frmPrintScreenHelp.cs" />
+    <Compile Include="frmBCApprovedPayroll.cs" />
+    <Compile Include="frmTrainFCCQuarterly.cs" />
+    <Compile Include="frmException3.cs" />
+    <Compile Include="frmNote3.cs" />
+    <Compile Include="frmTimeCard3.cs" />
+    <Compile Include="frmNewBattSched3.cs" />
+    <Compile Include="frmNewBattSched2.cs" />
+    <Compile Include="frmNewBattSched.cs" />
+    <Compile Include="frmIndALSProcReport.cs" />
+    <Compile Include="dlgAvailableToWork.cs" />
+    <Compile Include="frmIndAvailableToWork.cs" />
+    <Compile Include="frmSchedNoteQuery.cs" />
+    <Compile Include="frmWatchDutyAssignment.cs" />
+    <Compile Include="frmSickLeaveUsage.cs" />
+    <Compile Include="frmStaffingDiscrepancy.cs" />
+    <Compile Include="frmEmployeeListByStation.cs" />
+    <Compile Include="frmSpecialAssignReport.cs" />
+    <Compile Include="frmDispatchLeave.cs" />
+    <Compile Include="frmBattSched4.cs" />
+    <Compile Include="frmUniformCheckList.cs" />
+    <Compile Include="frmIndPMRecertReport.cs" />
+    <Compile Include="frmTrainPMRecert.cs" />
+    <Compile Include="frmPMCertification.cs" />
+    <Compile Include="frmTrainAnnualOTEP.cs" />
+    <Compile Include="frmTrainReqReading.cs" />
+    <Compile Include="frmStaffingReport.cs" />
+    <Compile Include="frmChangeCallBackNum.cs" />
+    <Compile Include="dlgExport.cs" />
+    <Compile Include="frmInsteadOfSCKLeave.cs" />
+    <Compile Include="frmImmunizationRecord.cs" />
+    <Compile Include="frmImmunizationQuery.cs" />
+    <Compile Include="frmAddImmunizations.cs" />
+    <Compile Include="clsEMSInformation.cs" />
+    <Compile Include="frmImmunization.cs" />
+    <Compile Include="frmLeaveNoSched.cs" />
+    <Compile Include="frmDebitHoliday.cs" />
+    <Compile Include="frmExtraDaysOff.cs" />
+    <Compile Include="frmNewEMS.cs" />
+    <Compile Include="dlgRequestTransfer.cs" />
+    <Compile Include="frmTransferRequest.cs" />
+    <Compile Include="frmUniformLaundryHistory.cs" />
+    <Compile Include="frmUniformRepairHistory.cs" />
+    <Compile Include="frmLaunderMgmt.cs" />
+    <Compile Include="frmGlobeData.cs" />
+    <Compile Include="frmEmployeeSizes.cs" />
+    <Compile Include="frmTrainQuarterlyReport.cs" />
+    <Compile Include="frmPPEInspHistory.cs" />
+    <Compile Include="frmPPELaunder.cs" />
+    <Compile Include="clsUniform.cs" />
+    <Compile Include="dlgRetirePPE.cs" />
+    <Compile Include="frmPPEInventory.cs" />
+    <Compile Include="frmNewPPEWDL.cs" />
+    <Compile Include="frmGrantVACRequest.cs" />
+    <Compile Include="frmKOTAudit.cs" />
+    <Compile Include="frmMakeShiftAvailable.cs" />
+    <Compile Include="frmTrainQuery.cs" />
+    <Compile Include="Dialog.cs" />
+    <Compile Include="clsScheduler.cs" />
+    <Compile Include="dlgSignOff.cs" />
+    <Compile Include="frmPayrollBCStaff.cs" />
+    <Compile Include="frmIndTrainReport.cs" />
+    <Compile Include="frmPayrollSignOff.cs" />
+    <Compile Include="dlgMessage.cs" />
+    <Compile Include="frmPTSTrain.cs" />
+    <Compile Include="clsUnit.cs" />
+    <Compile Include="clsTraining.cs" />
+    <Compile Include="frmNewQClass.cs" />
+    <Compile Include="frmEMSDailySched.cs" />
+    <Compile Include="frmEmployeeNotes.cs" />
+    <Compile Include="dlgEmployeePayCalc.cs" />
+    <Compile Include="dlgSpecialties.cs" />
+    <Compile Include="frmIndAnnualPayroll.cs" />
+    <Compile Include="frmDispatchPayroll.cs" />
+    <Compile Include="frmPayrollReport.cs" />
+    <Compile Include="frmParamedicLeave.cs" />
+    <Compile Include="frmIndivSchedNote.cs" />
+    <Compile Include="dlgPayRollLegend.cs" />
+    <Compile Include="dlgPayrollUpload.cs" />
+    <Compile Include="frmPublicRoster.cs" />
+    <Compile Include="modPTSPayroll.cs" />
+    <Compile Include="clsFireUpload.cs" />
+    <Compile Include="frmPMRoverPayroll.cs" />
+    <Compile Include="frmBCPayRoll.cs" />
+    <Compile Include="dlgIndSchedLegend.cs" />
+    <Compile Include="dlgBattLegend.cs" />
+    <Compile Include="dlgScheduleDetail.cs" />
+    <Compile Include="dlgChangeMaxHoliday.cs" />
+    <Compile Include="dlgVacationRequest.cs" />
+    <Compile Include="frmMissingFromSchedule.cs" />
+    <Compile Include="dlgTimeCodes.cs" />
+    <Compile Include="frmVacationScheduler.cs" />
+    <Compile Include="frmPayroll.cs" />
+    <Compile Include="frmPPEInspQuery.cs" />
+    <Compile Include="dlgPPERepair.cs" />
+    <Compile Include="dlgAddPPE.cs" />
+    <Compile Include="frmNote2.cs" />
+    <Compile Include="frmBattSched3.cs" />
+    <Compile Include="frmDailySCKLeaveReport.cs" />
+    <Compile Include="frmAddress.cs" />
+    <Compile Include="frmEmergencyContact.cs" />
+    <Compile Include="frmSplash.cs" />
+    <Compile Include="frmQclass.cs" />
+    <Compile Include="frmIndivSchedReport.cs" />
+    <Compile Include="frmTransferReport.cs" />
+    <Compile Include="frmTimeCard2.cs" />
+    <Compile Include="frmTimeCard.cs" />
+    <Compile Include="frmIndivReport.cs" />
+    <Compile Include="frmUtility.cs" />
+    <Compile Include="frmTCEdit.cs" />
+    <Compile Include="frmIndTimeCard.cs" />
+    <Compile Include="frmPhone.cs" />
+    <Compile Include="frmNotify.cs" />
+    <Compile Include="frmShiftCal.cs" />
+    <Compile Include="frmTransReport.cs" />
+    <Compile Include="frmSrReport.cs" />
+    <Compile Include="frmCF1Report.cs" />
+    <Compile Include="frmPromoReport.cs" />
+    <Compile Include="frmAssignReport.cs" />
+    <Compile Include="frmDebitReport.cs" />
+    <Compile Include="frmRoster.cs" />
+    <Compile Include="frmAnnualLeave.cs" />
+    <Compile Include="dlgSendRover.cs" />
+    <Compile Include="dlgArcPersonnel.cs" />
+    <Compile Include="frmOvertime.cs" />
+    <Compile Include="frmDailyStaffing.cs" />
+    <Compile Include="dlgTrade.cs" />
+    <Compile Include="frmWeekly.cs" />
+    <Compile Include="frmNote.cs" />
+    <Compile Include="frmSecurity.cs" />
+    <Compile Include="frmTimeCardX.cs" />
+    <Compile Include="frmException2.cs" />
+    <Compile Include="frmException1.cs" />
+    <Compile Include="frmLeave.cs" />
+    <Compile Include="dlgSpecialAssign.cs" />
+    <Compile Include="dlgTransfer.cs" />
+    <Compile Include="NewPromo.cs" />
+    <Compile Include="frmSenority.cs" />
+    <Compile Include="dlgTime.cs" />
+    <Compile Include="IndSched.cs" />
+    <Compile Include="UpdatePromo.cs" />
+    <Compile Include="Assignment.cs" />
+    <Compile Include="AdjustAssig.cs" />
+    <Compile Include="Update.cs" />
+    <Compile Include="AddNew.cs" />
+    <Compile Include="TFDPTS_General.cs" />
+    <Compile Include="About.cs" />
+    <Compile Include="MDIForm1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\frmDailyBattWorksheetController.cs" />
+    <Compile Include="Controllers\frmBatt2SchedNewController.cs" />
+    <Compile Include="Controllers\frmBattSchedNewController.cs" />
+    <Compile Include="Controllers\frmFCCVacationSchedulerController.cs" />
+    <Compile Include="Controllers\frmWorkingHoursByCycleController.cs" />
+    <Compile Include="Controllers\frmTransfReqAssignController.cs" />
+    <Compile Include="Controllers\dlgCalendarYearShiftController.cs" />
+    <Compile Include="Controllers\frmMasterPhoneListsController.cs" />
+    <Compile Include="Controllers\frmRosterFilteredController.cs" />
+    <Compile Include="Controllers\frmRankedOperationStaffController.cs" />
+    <Compile Include="Controllers\frmHazmatLeaveController.cs" />
+    <Compile Include="Controllers\frmHZMVacationSchedulerController.cs" />
+    <Compile Include="Controllers\frmDispatchSchedulerController.cs" />
+    <Compile Include="Controllers\frmPayrollOthersController.cs" />
+    <Compile Include="Controllers\frmPMVacationSchedulerController.cs" />
+    <Compile Include="Controllers\frmGrayListByDateController.cs" />
+    <Compile Include="Controllers\dlgCalcPMCSRController.cs" />
+    <Compile Include="Controllers\frmTrnBaseStationController.cs" />
+    <Compile Include="Controllers\frmPrintScreenHelpController.cs" />
+    <Compile Include="Controllers\frmBCApprovedPayrollController.cs" />
+    <Compile Include="Controllers\frmTrainFCCQuarterlyController.cs" />
+    <Compile Include="Controllers\frmException3Controller.cs" />
+    <Compile Include="Controllers\frmNote3Controller.cs" />
+    <Compile Include="Controllers\frmTimeCard3Controller.cs" />
+    <Compile Include="Controllers\frmNewBattSched3Controller.cs" />
+    <Compile Include="Controllers\frmNewBattSched2Controller.cs" />
+    <Compile Include="Controllers\frmNewBattSchedController.cs" />
+    <Compile Include="Controllers\frmIndALSProcReportController.cs" />
+    <Compile Include="Controllers\dlgAvailableToWorkController.cs" />
+    <Compile Include="Controllers\frmIndAvailableToWorkController.cs" />
+    <Compile Include="Controllers\frmSchedNoteQueryController.cs" />
+    <Compile Include="Controllers\frmWatchDutyAssignmentController.cs" />
+    <Compile Include="Controllers\frmSickLeaveUsageController.cs" />
+    <Compile Include="Controllers\frmStaffingDiscrepancyController.cs" />
+    <Compile Include="Controllers\frmEmployeeListByStationController.cs" />
+    <Compile Include="Controllers\frmSpecialAssignReportController.cs" />
+    <Compile Include="Controllers\frmDispatchLeaveController.cs" />
+    <Compile Include="Controllers\frmBattSched4Controller.cs" />
+    <Compile Include="Controllers\frmUniformCheckListController.cs" />
+    <Compile Include="Controllers\frmIndPMRecertReportController.cs" />
+    <Compile Include="Controllers\frmTrainPMRecertController.cs" />
+    <Compile Include="Controllers\frmPMCertificationController.cs" />
+    <Compile Include="Controllers\frmTrainAnnualOTEPController.cs" />
+    <Compile Include="Controllers\frmTrainReqReadingController.cs" />
+    <Compile Include="Controllers\frmStaffingReportController.cs" />
+    <Compile Include="Controllers\frmChangeCallBackNumController.cs" />
+    <Compile Include="Controllers\dlgExportController.cs" />
+    <Compile Include="Controllers\frmInsteadOfSCKLeaveController.cs" />
+    <Compile Include="Controllers\frmImmunizationRecordController.cs" />
+    <Compile Include="Controllers\frmImmunizationQueryController.cs" />
+    <Compile Include="Controllers\frmAddImmunizationsController.cs" />
+    <Compile Include="Controllers\frmImmunizationController.cs" />
+    <Compile Include="Controllers\frmLeaveNoSchedController.cs" />
+    <Compile Include="Controllers\frmDebitHolidayController.cs" />
+    <Compile Include="Controllers\frmExtraDaysOffController.cs" />
+    <Compile Include="Controllers\frmNewEMSController.cs" />
+    <Compile Include="Controllers\dlgRequestTransferController.cs" />
+    <Compile Include="Controllers\frmTransferRequestController.cs" />
+    <Compile Include="Controllers\frmUniformLaundryHistoryController.cs" />
+    <Compile Include="Controllers\frmUniformRepairHistoryController.cs" />
+    <Compile Include="Controllers\frmLaunderMgmtController.cs" />
+    <Compile Include="Controllers\frmGlobeDataController.cs" />
+    <Compile Include="Controllers\frmEmployeeSizesController.cs" />
+    <Compile Include="Controllers\frmTrainQuarterlyReportController.cs" />
+    <Compile Include="Controllers\frmPPEInspHistoryController.cs" />
+    <Compile Include="Controllers\frmPPELaunderController.cs" />
+    <Compile Include="Controllers\dlgRetirePPEController.cs" />
+    <Compile Include="Controllers\frmPPEInventoryController.cs" />
+    <Compile Include="Controllers\frmNewPPEWDLController.cs" />
+    <Compile Include="Controllers\frmGrantVACRequestController.cs" />
+    <Compile Include="Controllers\frmKOTAuditController.cs" />
+    <Compile Include="Controllers\frmMakeShiftAvailableController.cs" />
+    <Compile Include="Controllers\frmTrainQueryController.cs" />
+    <Compile Include="Controllers\dlgTrainingCodesController.cs" />
+    <Compile Include="Controllers\dlgSignOffController.cs" />
+    <Compile Include="Controllers\frmPayrollBCStaffController.cs" />
+    <Compile Include="Controllers\frmIndTrainReportController.cs" />
+    <Compile Include="Controllers\frmPayrollSignOffController.cs" />
+    <Compile Include="Controllers\dlgMessageController.cs" />
+    <Compile Include="Controllers\frmPTSTrainController.cs" />
+    <Compile Include="Controllers\frmNewQClassController.cs" />
+    <Compile Include="Controllers\frmEMSDailySchedController.cs" />
+    <Compile Include="Controllers\frmEmployeeNotesController.cs" />
+    <Compile Include="Controllers\dlgEmployeePayCalcController.cs" />
+    <Compile Include="Controllers\dlgSpecialtiesController.cs" />
+    <Compile Include="Controllers\frmIndAnnualPayrollController.cs" />
+    <Compile Include="Controllers\frmDispatchPayrollController.cs" />
+    <Compile Include="Controllers\frmPayrollReportController.cs" />
+    <Compile Include="Controllers\frmParamedicLeaveController.cs" />
+    <Compile Include="Controllers\frmIndivSchedNoteController.cs" />
+    <Compile Include="Controllers\dlgPayRollLegendController.cs" />
+    <Compile Include="Controllers\dlgPayrollUploadController.cs" />
+    <Compile Include="Controllers\frmPublicRosterController.cs" />
+    <Compile Include="Controllers\frmPMRoverPayrollController.cs" />
+    <Compile Include="Controllers\frmBCPayRollController.cs" />
+    <Compile Include="Controllers\dlgIndSchedLegendController.cs" />
+    <Compile Include="Controllers\dlgBattLegendController.cs" />
+    <Compile Include="Controllers\dlgScheduleDetailController.cs" />
+    <Compile Include="Controllers\dlgChangeMaxHolidayController.cs" />
+    <Compile Include="Controllers\dlgVacationRequestController.cs" />
+    <Compile Include="Controllers\frmMissingFromScheduleController.cs" />
+    <Compile Include="Controllers\dlgTimeCodesController.cs" />
+    <Compile Include="Controllers\frmVacationSchedulerController.cs" />
+    <Compile Include="Controllers\frmPayrollController.cs" />
+    <Compile Include="Controllers\frmPPEInspQueryController.cs" />
+    <Compile Include="Controllers\dlgPPERepairController.cs" />
+    <Compile Include="Controllers\dlgAddPPEController.cs" />
+    <Compile Include="Controllers\frmNote2Controller.cs" />
+    <Compile Include="Controllers\frmBattSched3Controller.cs" />
+    <Compile Include="Controllers\frmDailySCKLeaveReportController.cs" />
+    <Compile Include="Controllers\frmAddressController.cs" />
+    <Compile Include="Controllers\frmEmergencyContactController.cs" />
+    <Compile Include="Controllers\frmSplashController.cs" />
+    <Compile Include="Controllers\frmQclassController.cs" />
+    <Compile Include="Controllers\frmIndivSchedReportController.cs" />
+    <Compile Include="Controllers\frmTransferReportController.cs" />
+    <Compile Include="Controllers\frmTimeCard2Controller.cs" />
+    <Compile Include="Controllers\frmTimeCard1Controller.cs" />
+    <Compile Include="Controllers\frmIndivReportController.cs" />
+    <Compile Include="Controllers\frmUtilityController.cs" />
+    <Compile Include="Controllers\frmTCEditController.cs" />
+    <Compile Include="Controllers\frmIndTimeCardController.cs" />
+    <Compile Include="Controllers\frmPhoneController.cs" />
+    <Compile Include="Controllers\frmNotifyController.cs" />
+    <Compile Include="Controllers\frmShiftCalController.cs" />
+    <Compile Include="Controllers\frmTransReportController.cs" />
+    <Compile Include="Controllers\frmSrReportController.cs" />
+    <Compile Include="Controllers\frmCF1ReportController.cs" />
+    <Compile Include="Controllers\frmPromoReportController.cs" />
+    <Compile Include="Controllers\frmAssignReportController.cs" />
+    <Compile Include="Controllers\frmDebitReportController.cs" />
+    <Compile Include="Controllers\frmRosterController.cs" />
+    <Compile Include="Controllers\frmAnnualLeaveController.cs" />
+    <Compile Include="Controllers\dlgSendRoverController.cs" />
+    <Compile Include="Controllers\dlgArcPersonnelController.cs" />
+    <Compile Include="Controllers\frmOvertimeController.cs" />
+    <Compile Include="Controllers\frmDailyStaffingController.cs" />
+    <Compile Include="Controllers\dlgTradeController.cs" />
+    <Compile Include="Controllers\frmWeeklyController.cs" />
+    <Compile Include="Controllers\frmNoteController.cs" />
+    <Compile Include="Controllers\frmSecurityController.cs" />
+    <Compile Include="Controllers\frmTimeCardXController.cs" />
+    <Compile Include="Controllers\frmException2Controller.cs" />
+    <Compile Include="Controllers\frmException1Controller.cs" />
+    <Compile Include="Controllers\frmLeaveController.cs" />
+    <Compile Include="Controllers\dlgSpecialAssignController.cs" />
+    <Compile Include="Controllers\dlgTransferController.cs" />
+    <Compile Include="Controllers\frmNewPromoController.cs" />
+    <Compile Include="Controllers\frmSenorityController.cs" />
+    <Compile Include="Controllers\dlgTimeController.cs" />
+    <Compile Include="Controllers\frmIndSchedController.cs" />
+    <Compile Include="Controllers\frmUpdatePromoController.cs" />
+    <Compile Include="Controllers\frmAssignController.cs" />
+    <Compile Include="Controllers\frmAdjustAssignController.cs" />
+    <Compile Include="Controllers\frmUpdateController.cs" />
+    <Compile Include="Controllers\frmAddNewController.cs" />
+    <Compile Include="Controllers\frmAboutController.cs" />
+    <Compile Include="Controllers\MDIForm1Controller.cs" />
+    <Compile Include="Models\frmDailyBattWorksheetViewModel.cs" />
+    <Compile Include="Models\frmBatt2SchedNewViewModel.cs" />
+    <Compile Include="Models\frmBattSchedNewViewModel.cs" />
+    <Compile Include="Models\frmFCCVacationSchedulerViewModel.cs" />
+    <Compile Include="Models\frmWorkingHoursByCycleViewModel.cs" />
+    <Compile Include="Models\frmTransfReqAssignViewModel.cs" />
+    <Compile Include="Models\dlgCalendarYearShiftViewModel.cs" />
+    <Compile Include="Models\frmMasterPhoneListsViewModel.cs" />
+    <Compile Include="Models\frmRosterFilteredViewModel.cs" />
+    <Compile Include="Models\frmRankedOperationStaffViewModel.cs" />
+    <Compile Include="Models\frmHazmatLeaveViewModel.cs" />
+    <Compile Include="Models\frmHZMVacationSchedulerViewModel.cs" />
+    <Compile Include="Models\frmDispatchSchedulerViewModel.cs" />
+    <Compile Include="Models\frmPayrollOthersViewModel.cs" />
+    <Compile Include="Models\frmPMVacationSchedulerViewModel.cs" />
+    <Compile Include="Models\frmGrayListByDateViewModel.cs" />
+    <Compile Include="Models\dlgCalcPMCSRViewModel.cs" />
+    <Compile Include="Models\frmTrnBaseStationViewModel.cs" />
+    <Compile Include="Models\frmPrintScreenHelpViewModel.cs" />
+    <Compile Include="Models\frmBCApprovedPayrollViewModel.cs" />
+    <Compile Include="Models\frmTrainFCCQuarterlyViewModel.cs" />
+    <Compile Include="Models\frmException3ViewModel.cs" />
+    <Compile Include="Models\frmNote3ViewModel.cs" />
+    <Compile Include="Models\frmTimeCard3ViewModel.cs" />
+    <Compile Include="Models\frmNewBattSched3ViewModel.cs" />
+    <Compile Include="Models\frmNewBattSched2ViewModel.cs" />
+    <Compile Include="Models\frmNewBattSchedViewModel.cs" />
+    <Compile Include="Models\frmIndALSProcReportViewModel.cs" />
+    <Compile Include="Models\dlgAvailableToWorkViewModel.cs" />
+    <Compile Include="Models\frmIndAvailableToWorkViewModel.cs" />
+    <Compile Include="Models\frmSchedNoteQueryViewModel.cs" />
+    <Compile Include="Models\frmWatchDutyAssignmentViewModel.cs" />
+    <Compile Include="Models\frmSickLeaveUsageViewModel.cs" />
+    <Compile Include="Models\frmStaffingDiscrepancyViewModel.cs" />
+    <Compile Include="Models\frmEmployeeListByStationViewModel.cs" />
+    <Compile Include="Models\frmSpecialAssignReportViewModel.cs" />
+    <Compile Include="Models\frmDispatchLeaveViewModel.cs" />
+    <Compile Include="Models\frmBattSched4ViewModel.cs" />
+    <Compile Include="Models\frmUniformCheckListViewModel.cs" />
+    <Compile Include="Models\frmIndPMRecertReportViewModel.cs" />
+    <Compile Include="Models\frmTrainPMRecertViewModel.cs" />
+    <Compile Include="Models\frmPMCertificationViewModel.cs" />
+    <Compile Include="Models\frmTrainAnnualOTEPViewModel.cs" />
+    <Compile Include="Models\frmTrainReqReadingViewModel.cs" />
+    <Compile Include="Models\frmStaffingReportViewModel.cs" />
+    <Compile Include="Models\frmChangeCallBackNumViewModel.cs" />
+    <Compile Include="Models\dlgExportViewModel.cs" />
+    <Compile Include="Models\frmInsteadOfSCKLeaveViewModel.cs" />
+    <Compile Include="Models\frmImmunizationRecordViewModel.cs" />
+    <Compile Include="Models\frmImmunizationQueryViewModel.cs" />
+    <Compile Include="Models\frmAddImmunizationsViewModel.cs" />
+    <Compile Include="Models\frmImmunizationViewModel.cs" />
+    <Compile Include="Models\frmLeaveNoSchedViewModel.cs" />
+    <Compile Include="Models\frmDebitHolidayViewModel.cs" />
+    <Compile Include="Models\frmExtraDaysOffViewModel.cs" />
+    <Compile Include="Models\frmNewEMSViewModel.cs" />
+    <Compile Include="Models\dlgRequestTransferViewModel.cs" />
+    <Compile Include="Models\frmTransferRequestViewModel.cs" />
+    <Compile Include="Models\frmUniformLaundryHistoryViewModel.cs" />
+    <Compile Include="Models\frmUniformRepairHistoryViewModel.cs" />
+    <Compile Include="Models\frmLaunderMgmtViewModel.cs" />
+    <Compile Include="Models\frmGlobeDataViewModel.cs" />
+    <Compile Include="Models\frmEmployeeSizesViewModel.cs" />
+    <Compile Include="Models\frmTrainQuarterlyReportViewModel.cs" />
+    <Compile Include="Models\frmPPEInspHistoryViewModel.cs" />
+    <Compile Include="Models\frmPPELaunderViewModel.cs" />
+    <Compile Include="Models\dlgRetirePPEViewModel.cs" />
+    <Compile Include="Models\frmPPEInventoryViewModel.cs" />
+    <Compile Include="Models\frmNewPPEWDLViewModel.cs" />
+    <Compile Include="Models\frmGrantVACRequestViewModel.cs" />
+    <Compile Include="Models\frmKOTAuditViewModel.cs" />
+    <Compile Include="Models\frmMakeShiftAvailableViewModel.cs" />
+    <Compile Include="Models\frmTrainQueryViewModel.cs" />
+    <Compile Include="Models\dlgTrainingCodesViewModel.cs" />
+    <Compile Include="Models\dlgSignOffViewModel.cs" />
+    <Compile Include="Models\frmPayrollBCStaffViewModel.cs" />
+    <Compile Include="Models\frmIndTrainReportViewModel.cs" />
+    <Compile Include="Models\frmPayrollSignOffViewModel.cs" />
+    <Compile Include="Models\dlgMessageViewModel.cs" />
+    <Compile Include="Models\frmPTSTrainViewModel.cs" />
+    <Compile Include="Models\frmNewQClassViewModel.cs" />
+    <Compile Include="Models\frmEMSDailySchedViewModel.cs" />
+    <Compile Include="Models\frmEmployeeNotesViewModel.cs" />
+    <Compile Include="Models\dlgEmployeePayCalcViewModel.cs" />
+    <Compile Include="Models\dlgSpecialtiesViewModel.cs" />
+    <Compile Include="Models\frmIndAnnualPayrollViewModel.cs" />
+    <Compile Include="Models\frmDispatchPayrollViewModel.cs" />
+    <Compile Include="Models\frmPayrollReportViewModel.cs" />
+    <Compile Include="Models\frmParamedicLeaveViewModel.cs" />
+    <Compile Include="Models\frmIndivSchedNoteViewModel.cs" />
+    <Compile Include="Models\dlgPayRollLegendViewModel.cs" />
+    <Compile Include="Models\dlgPayrollUploadViewModel.cs" />
+    <Compile Include="Models\frmPublicRosterViewModel.cs" />
+    <Compile Include="Models\frmPMRoverPayrollViewModel.cs" />
+    <Compile Include="Models\frmBCPayRollViewModel.cs" />
+    <Compile Include="Models\dlgIndSchedLegendViewModel.cs" />
+    <Compile Include="Models\dlgBattLegendViewModel.cs" />
+    <Compile Include="Models\dlgScheduleDetailViewModel.cs" />
+    <Compile Include="Models\dlgChangeMaxHolidayViewModel.cs" />
+    <Compile Include="Models\dlgVacationRequestViewModel.cs" />
+    <Compile Include="Models\frmMissingFromScheduleViewModel.cs" />
+    <Compile Include="Models\dlgTimeCodesViewModel.cs" />
+    <Compile Include="Models\frmVacationSchedulerViewModel.cs" />
+    <Compile Include="Models\frmPayrollViewModel.cs" />
+    <Compile Include="Models\frmPPEInspQueryViewModel.cs" />
+    <Compile Include="Models\dlgPPERepairViewModel.cs" />
+    <Compile Include="Models\dlgAddPPEViewModel.cs" />
+    <Compile Include="Models\frmNote2ViewModel.cs" />
+    <Compile Include="Models\frmBattSched3ViewModel.cs" />
+    <Compile Include="Models\frmDailySCKLeaveReportViewModel.cs" />
+    <Compile Include="Models\frmAddressViewModel.cs" />
+    <Compile Include="Models\frmEmergencyContactViewModel.cs" />
+    <Compile Include="Models\frmSplashViewModel.cs" />
+    <Compile Include="Models\frmQclassViewModel.cs" />
+    <Compile Include="Models\frmIndivSchedReportViewModel.cs" />
+    <Compile Include="Models\frmTransferReportViewModel.cs" />
+    <Compile Include="Models\frmTimeCard2ViewModel.cs" />
+    <Compile Include="Models\frmTimeCard1ViewModel.cs" />
+    <Compile Include="Models\frmIndivReportViewModel.cs" />
+    <Compile Include="Models\frmUtilityViewModel.cs" />
+    <Compile Include="Models\frmTCEditViewModel.cs" />
+    <Compile Include="Models\frmIndTimeCardViewModel.cs" />
+    <Compile Include="Models\frmPhoneViewModel.cs" />
+    <Compile Include="Models\frmNotifyViewModel.cs" />
+    <Compile Include="Models\frmShiftCalViewModel.cs" />
+    <Compile Include="Models\frmTransReportViewModel.cs" />
+    <Compile Include="Models\frmSrReportViewModel.cs" />
+    <Compile Include="Models\frmCF1ReportViewModel.cs" />
+    <Compile Include="Models\frmPromoReportViewModel.cs" />
+    <Compile Include="Models\frmAssignReportViewModel.cs" />
+    <Compile Include="Models\frmDebitReportViewModel.cs" />
+    <Compile Include="Models\frmRosterViewModel.cs" />
+    <Compile Include="Models\frmAnnualLeaveViewModel.cs" />
+    <Compile Include="Models\dlgSendRoverViewModel.cs" />
+    <Compile Include="Models\dlgArcPersonnelViewModel.cs" />
+    <Compile Include="Models\frmOvertimeViewModel.cs" />
+    <Compile Include="Models\frmDailyStaffingViewModel.cs" />
+    <Compile Include="Models\dlgTradeViewModel.cs" />
+    <Compile Include="Models\frmWeeklyViewModel.cs" />
+    <Compile Include="Models\frmNoteViewModel.cs" />
+    <Compile Include="Models\frmSecurityViewModel.cs" />
+    <Compile Include="Models\frmTimeCardXViewModel.cs" />
+    <Compile Include="Models\frmException2ViewModel.cs" />
+    <Compile Include="Models\frmException1ViewModel.cs" />
+    <Compile Include="Models\frmLeaveViewModel.cs" />
+    <Compile Include="Models\dlgSpecialAssignViewModel.cs" />
+    <Compile Include="Models\dlgTransferViewModel.cs" />
+    <Compile Include="Models\frmNewPromoViewModel.cs" />
+    <Compile Include="Models\frmSenorityViewModel.cs" />
+    <Compile Include="Models\dlgTimeViewModel.cs" />
+    <Compile Include="Models\frmIndSchedViewModel.cs" />
+    <Compile Include="Models\frmUpdatePromoViewModel.cs" />
+    <Compile Include="Models\frmAssignViewModel.cs" />
+    <Compile Include="Models\frmAdjustAssignViewModel.cs" />
+    <Compile Include="Models\frmUpdateViewModel.cs" />
+    <Compile Include="Models\frmAddNewViewModel.cs" />
+    <Compile Include="Models\frmAboutViewModel.cs" />
+    <Compile Include="Models\MDIForm1ViewModel.cs" />
+    <Compile Include="Models\FileListBoxViewModel.cs" />
+    <Compile Include="Models\DirListBoxViewModel.cs" />
+    <Compile Include="Models\DriveListBoxViewModel.cs" />
+    <Compile Include="Models\ComboBoxHelperViewModel.cs" />
+    <Content Include="resources\PTSProject.frmDailyBattWorksheet.html" />
+    <Content Include="resources\PTSProject.frmBatt2SchedNew.html" />
+    <Content Include="resources\PTSProject.frmBattSchedNew.html" />
+    <Content Include="resources\PTSProject.frmFCCVacationScheduler.html" />
+    <Content Include="resources\PTSProject.frmWorkingHoursByCycle.html" />
+    <Content Include="resources\PTSProject.frmTransfReqAssign.html" />
+    <Content Include="resources\PTSProject.dlgCalendarYearShift.html" />
+    <Content Include="resources\PTSProject.frmMasterPhoneLists.html" />
+    <Content Include="resources\PTSProject.frmRosterFiltered.html" />
+    <Content Include="resources\PTSProject.frmRankedOperationStaff.html" />
+    <Content Include="resources\PTSProject.frmHazmatLeave.html" />
+    <Content Include="resources\PTSProject.frmHZMVacationScheduler.html" />
+    <Content Include="resources\PTSProject.frmDispatchScheduler.html" />
+    <Content Include="resources\PTSProject.frmPayrollOthers.html" />
+    <Content Include="resources\PTSProject.frmPMVacationScheduler.html" />
+    <Content Include="resources\PTSProject.frmGrayListByDate.html" />
+    <Content Include="resources\PTSProject.dlgCalcPMCSR.html" />
+    <Content Include="resources\PTSProject.frmTrnBaseStation.html" />
+    <Content Include="resources\PTSProject.frmPrintScreenHelp.html" />
+    <Content Include="resources\PTSProject.frmBCApprovedPayroll.html" />
+    <Content Include="resources\PTSProject.frmTrainFCCQuarterly.html" />
+    <Content Include="resources\PTSProject.frmException3.html" />
+    <Content Include="resources\PTSProject.frmNote3.html" />
+    <Content Include="resources\PTSProject.frmTimeCard3.html" />
+    <Content Include="resources\PTSProject.frmNewBattSched3.html" />
+    <Content Include="resources\PTSProject.frmNewBattSched2.html" />
+    <Content Include="resources\PTSProject.frmNewBattSched.html" />
+    <Content Include="resources\PTSProject.frmIndALSProcReport.html" />
+    <Content Include="resources\PTSProject.dlgAvailableToWork.html" />
+    <Content Include="resources\PTSProject.frmIndAvailableToWork.html" />
+    <Content Include="resources\PTSProject.frmSchedNoteQuery.html" />
+    <Content Include="resources\PTSProject.frmWatchDutyAssignment.html" />
+    <Content Include="resources\PTSProject.frmSickLeaveUsage.html" />
+    <Content Include="resources\PTSProject.frmStaffingDiscrepancy.html" />
+    <Content Include="resources\PTSProject.frmEmployeeListByStation.html" />
+    <Content Include="resources\PTSProject.frmSpecialAssignReport.html" />
+    <Content Include="resources\PTSProject.frmDispatchLeave.html" />
+    <Content Include="resources\PTSProject.frmBattSched4.html" />
+    <Content Include="resources\PTSProject.frmUniformCheckList.html" />
+    <Content Include="resources\PTSProject.frmIndPMRecertReport.html" />
+    <Content Include="resources\PTSProject.frmTrainPMRecert.html" />
+    <Content Include="resources\PTSProject.frmPMCertification.html" />
+    <Content Include="resources\PTSProject.frmTrainAnnualOTEP.html" />
+    <Content Include="resources\PTSProject.frmTrainReqReading.html" />
+    <Content Include="resources\PTSProject.frmStaffingReport.html" />
+    <Content Include="resources\PTSProject.frmChangeCallBackNum.html" />
+    <Content Include="resources\PTSProject.dlgExport.html" />
+    <Content Include="resources\PTSProject.frmInsteadOfSCKLeave.html" />
+    <Content Include="resources\PTSProject.frmImmunizationRecord.html" />
+    <Content Include="resources\PTSProject.frmImmunizationQuery.html" />
+    <Content Include="resources\PTSProject.frmAddImmunizations.html" />
+    <Content Include="resources\PTSProject.frmImmunization.html" />
+    <Content Include="resources\PTSProject.frmLeaveNoSched.html" />
+    <Content Include="resources\PTSProject.frmDebitHoliday.html" />
+    <Content Include="resources\PTSProject.frmExtraDaysOff.html" />
+    <Content Include="resources\PTSProject.frmNewEMS.html" />
+    <Content Include="resources\PTSProject.dlgRequestTransfer.html" />
+    <Content Include="resources\PTSProject.frmTransferRequest.html" />
+    <Content Include="resources\PTSProject.frmUniformLaundryHistory.html" />
+    <Content Include="resources\PTSProject.frmUniformRepairHistory.html" />
+    <Content Include="resources\PTSProject.frmLaunderMgmt.html" />
+    <Content Include="resources\PTSProject.frmGlobeData.html" />
+    <Content Include="resources\PTSProject.frmEmployeeSizes.html" />
+    <Content Include="resources\PTSProject.frmTrainQuarterlyReport.html" />
+    <Content Include="resources\PTSProject.frmPPEInspHistory.html" />
+    <Content Include="resources\PTSProject.frmPPELaunder.html" />
+    <Content Include="resources\PTSProject.dlgRetirePPE.html" />
+    <Content Include="resources\PTSProject.frmPPEInventory.html" />
+    <Content Include="resources\PTSProject.frmNewPPEWDL.html" />
+    <Content Include="resources\PTSProject.frmGrantVACRequest.html" />
+    <Content Include="resources\PTSProject.frmKOTAudit.html" />
+    <Content Include="resources\PTSProject.frmMakeShiftAvailable.html" />
+    <Content Include="resources\PTSProject.frmTrainQuery.html" />
+    <Content Include="resources\PTSProject.dlgTrainingCodes.html" />
+    <Content Include="resources\PTSProject.dlgSignOff.html" />
+    <Content Include="resources\PTSProject.frmPayrollBCStaff.html" />
+    <Content Include="resources\PTSProject.frmIndTrainReport.html" />
+    <Content Include="resources\PTSProject.frmPayrollSignOff.html" />
+    <Content Include="resources\PTSProject.dlgMessage.html" />
+    <Content Include="resources\PTSProject.frmPTSTrain.html" />
+    <Content Include="resources\PTSProject.frmNewQClass.html" />
+    <Content Include="resources\PTSProject.frmEMSDailySched.html" />
+    <Content Include="resources\PTSProject.frmEmployeeNotes.html" />
+    <Content Include="resources\PTSProject.dlgEmployeePayCalc.html" />
+    <Content Include="resources\PTSProject.dlgSpecialties.html" />
+    <Content Include="resources\PTSProject.frmIndAnnualPayroll.html" />
+    <Content Include="resources\PTSProject.frmDispatchPayroll.html" />
+    <Content Include="resources\PTSProject.frmPayrollReport.html" />
+    <Content Include="resources\PTSProject.frmParamedicLeave.html" />
+    <Content Include="resources\PTSProject.frmIndivSchedNote.html" />
+    <Content Include="resources\PTSProject.dlgPayRollLegend.html" />
+    <Content Include="resources\PTSProject.dlgPayrollUpload.html" />
+    <Content Include="resources\PTSProject.frmPublicRoster.html" />
+    <Content Include="resources\PTSProject.frmPMRoverPayroll.html" />
+    <Content Include="resources\PTSProject.frmBCPayRoll.html" />
+    <Content Include="resources\PTSProject.dlgIndSchedLegend.html" />
+    <Content Include="resources\PTSProject.dlgBattLegend.html" />
+    <Content Include="resources\PTSProject.dlgScheduleDetail.html" />
+    <Content Include="resources\PTSProject.dlgChangeMaxHoliday.html" />
+    <Content Include="resources\PTSProject.dlgVacationRequest.html" />
+    <Content Include="resources\PTSProject.frmMissingFromSchedule.html" />
+    <Content Include="resources\PTSProject.dlgTimeCodes.html" />
+    <Content Include="resources\PTSProject.frmVacationScheduler.html" />
+    <Content Include="resources\PTSProject.frmPayroll.html" />
+    <Content Include="resources\PTSProject.frmPPEInspQuery.html" />
+    <Content Include="resources\PTSProject.dlgPPERepair.html" />
+    <Content Include="resources\PTSProject.dlgAddPPE.html" />
+    <Content Include="resources\PTSProject.frmNote2.html" />
+    <Content Include="resources\PTSProject.frmBattSched3.html" />
+    <Content Include="resources\PTSProject.frmDailySCKLeaveReport.html" />
+    <Content Include="resources\PTSProject.frmAddress.html" />
+    <Content Include="resources\PTSProject.frmEmergencyContact.html" />
+    <Content Include="resources\PTSProject.frmSplash.html" />
+    <Content Include="resources\PTSProject.frmQclass.html" />
+    <Content Include="resources\PTSProject.frmIndivSchedReport.html" />
+    <Content Include="resources\PTSProject.frmTransferReport.html" />
+    <Content Include="resources\PTSProject.frmTimeCard2.html" />
+    <Content Include="resources\PTSProject.frmTimeCard1.html" />
+    <Content Include="resources\PTSProject.frmIndivReport.html" />
+    <Content Include="resources\PTSProject.frmUtility.html" />
+    <Content Include="resources\PTSProject.frmTCEdit.html" />
+    <Content Include="resources\PTSProject.frmIndTimeCard.html" />
+    <Content Include="resources\PTSProject.frmPhone.html" />
+    <Content Include="resources\PTSProject.frmNotify.html" />
+    <Content Include="resources\PTSProject.frmShiftCal.html" />
+    <Content Include="resources\PTSProject.frmTransReport.html" />
+    <Content Include="resources\PTSProject.frmSrReport.html" />
+    <Content Include="resources\PTSProject.frmCF1Report.html" />
+    <Content Include="resources\PTSProject.frmPromoReport.html" />
+    <Content Include="resources\PTSProject.frmAssignReport.html" />
+    <Content Include="resources\PTSProject.frmDebitReport.html" />
+    <Content Include="resources\PTSProject.frmRoster.html" />
+    <Content Include="resources\PTSProject.frmAnnualLeave.html" />
+    <Content Include="resources\PTSProject.dlgSendRover.html" />
+    <Content Include="resources\PTSProject.dlgArcPersonnel.html" />
+    <Content Include="resources\PTSProject.frmOvertime.html" />
+    <Content Include="resources\PTSProject.frmDailyStaffing.html" />
+    <Content Include="resources\PTSProject.dlgTrade.html" />
+    <Content Include="resources\PTSProject.frmWeekly.html" />
+    <Content Include="resources\PTSProject.frmNote.html" />
+    <Content Include="resources\PTSProject.frmSecurity.html" />
+    <Content Include="resources\PTSProject.frmTimeCardX.html" />
+    <Content Include="resources\PTSProject.frmException2.html" />
+    <Content Include="resources\PTSProject.frmException1.html" />
+    <Content Include="resources\PTSProject.frmLeave.html" />
+    <Content Include="resources\PTSProject.dlgSpecialAssign.html" />
+    <Content Include="resources\PTSProject.dlgTransfer.html" />
+    <Content Include="resources\PTSProject.frmNewPromo.html" />
+    <Content Include="resources\PTSProject.frmSenority.html" />
+    <Content Include="resources\PTSProject.dlgTime.html" />
+    <Content Include="resources\PTSProject.frmIndSched.html" />
+    <Content Include="resources\PTSProject.frmUpdatePromo.html" />
+    <Content Include="resources\PTSProject.frmAssign.html" />
+    <Content Include="resources\PTSProject.frmAdjustAssign.html" />
+    <Content Include="resources\PTSProject.frmUpdate.html" />
+    <Content Include="resources\PTSProject.frmAddNew.html" />
+    <Content Include="resources\PTSProject.frmAbout.html" />
+    <Content Include="resources\PTSProject.MDIForm1.html" />
+    <Content Include="resources\PTSProject.frmDailyBattWorksheet.css" />
+    <Content Include="resources\PTSProject.frmBatt2SchedNew.css" />
+    <Content Include="resources\PTSProject.frmBattSchedNew.css" />
+    <Content Include="resources\PTSProject.frmFCCVacationScheduler.css" />
+    <Content Include="resources\PTSProject.frmWorkingHoursByCycle.css" />
+    <Content Include="resources\PTSProject.frmTransfReqAssign.css" />
+    <Content Include="resources\PTSProject.dlgCalendarYearShift.css" />
+    <Content Include="resources\PTSProject.frmMasterPhoneLists.css" />
+    <Content Include="resources\PTSProject.frmRosterFiltered.css" />
+    <Content Include="resources\PTSProject.frmRankedOperationStaff.css" />
+    <Content Include="resources\PTSProject.frmHazmatLeave.css" />
+    <Content Include="resources\PTSProject.frmHZMVacationScheduler.css" />
+    <Content Include="resources\PTSProject.frmDispatchScheduler.css" />
+    <Content Include="resources\PTSProject.frmPayrollOthers.css" />
+    <Content Include="resources\PTSProject.frmPMVacationScheduler.css" />
+    <Content Include="resources\PTSProject.frmGrayListByDate.css" />
+    <Content Include="resources\PTSProject.dlgCalcPMCSR.css" />
+    <Content Include="resources\PTSProject.frmTrnBaseStation.css" />
+    <Content Include="resources\PTSProject.frmPrintScreenHelp.css" />
+    <Content Include="resources\PTSProject.frmBCApprovedPayroll.css" />
+    <Content Include="resources\PTSProject.frmTrainFCCQuarterly.css" />
+    <Content Include="resources\PTSProject.frmException3.css" />
+    <Content Include="resources\PTSProject.frmNote3.css" />
+    <Content Include="resources\PTSProject.frmTimeCard3.css" />
+    <Content Include="resources\PTSProject.frmNewBattSched3.css" />
+    <Content Include="resources\PTSProject.frmNewBattSched2.css" />
+    <Content Include="resources\PTSProject.frmNewBattSched.css" />
+    <Content Include="resources\PTSProject.frmIndALSProcReport.css" />
+    <Content Include="resources\PTSProject.dlgAvailableToWork.css" />
+    <Content Include="resources\PTSProject.frmIndAvailableToWork.css" />
+    <Content Include="resources\PTSProject.frmSchedNoteQuery.css" />
+    <Content Include="resources\PTSProject.frmWatchDutyAssignment.css" />
+    <Content Include="resources\PTSProject.frmSickLeaveUsage.css" />
+    <Content Include="resources\PTSProject.frmStaffingDiscrepancy.css" />
+    <Content Include="resources\PTSProject.frmEmployeeListByStation.css" />
+    <Content Include="resources\PTSProject.frmSpecialAssignReport.css" />
+    <Content Include="resources\PTSProject.frmDispatchLeave.css" />
+    <Content Include="resources\PTSProject.frmBattSched4.css" />
+    <Content Include="resources\PTSProject.frmUniformCheckList.css" />
+    <Content Include="resources\PTSProject.frmIndPMRecertReport.css" />
+    <Content Include="resources\PTSProject.frmTrainPMRecert.css" />
+    <Content Include="resources\PTSProject.frmPMCertification.css" />
+    <Content Include="resources\PTSProject.frmTrainAnnualOTEP.css" />
+    <Content Include="resources\PTSProject.frmTrainReqReading.css" />
+    <Content Include="resources\PTSProject.frmStaffingReport.css" />
+    <Content Include="resources\PTSProject.frmChangeCallBackNum.css" />
+    <Content Include="resources\PTSProject.dlgExport.css" />
+    <Content Include="resources\PTSProject.frmInsteadOfSCKLeave.css" />
+    <Content Include="resources\PTSProject.frmImmunizationRecord.css" />
+    <Content Include="resources\PTSProject.frmImmunizationQuery.css" />
+    <Content Include="resources\PTSProject.frmAddImmunizations.css" />
+    <Content Include="resources\PTSProject.frmImmunization.css" />
+    <Content Include="resources\PTSProject.frmLeaveNoSched.css" />
+    <Content Include="resources\PTSProject.frmDebitHoliday.css" />
+    <Content Include="resources\PTSProject.frmExtraDaysOff.css" />
+    <Content Include="resources\PTSProject.frmNewEMS.css" />
+    <Content Include="resources\PTSProject.dlgRequestTransfer.css" />
+    <Content Include="resources\PTSProject.frmTransferRequest.css" />
+    <Content Include="resources\PTSProject.frmUniformLaundryHistory.css" />
+    <Content Include="resources\PTSProject.frmUniformRepairHistory.css" />
+    <Content Include="resources\PTSProject.frmLaunderMgmt.css" />
+    <Content Include="resources\PTSProject.frmGlobeData.css" />
+    <Content Include="resources\PTSProject.frmEmployeeSizes.css" />
+    <Content Include="resources\PTSProject.frmTrainQuarterlyReport.css" />
+    <Content Include="resources\PTSProject.frmPPEInspHistory.css" />
+    <Content Include="resources\PTSProject.frmPPELaunder.css" />
+    <Content Include="resources\PTSProject.dlgRetirePPE.css" />
+    <Content Include="resources\PTSProject.frmPPEInventory.css" />
+    <Content Include="resources\PTSProject.frmNewPPEWDL.css" />
+    <Content Include="resources\PTSProject.frmGrantVACRequest.css" />
+    <Content Include="resources\PTSProject.frmKOTAudit.css" />
+    <Content Include="resources\PTSProject.frmMakeShiftAvailable.css" />
+    <Content Include="resources\PTSProject.frmTrainQuery.css" />
+    <Content Include="resources\PTSProject.dlgTrainingCodes.css" />
+    <Content Include="resources\PTSProject.dlgSignOff.css" />
+    <Content Include="resources\PTSProject.frmPayrollBCStaff.css" />
+    <Content Include="resources\PTSProject.frmIndTrainReport.css" />
+    <Content Include="resources\PTSProject.frmPayrollSignOff.css" />
+    <Content Include="resources\PTSProject.dlgMessage.css" />
+    <Content Include="resources\PTSProject.frmPTSTrain.css" />
+    <Content Include="resources\PTSProject.frmNewQClass.css" />
+    <Content Include="resources\PTSProject.frmEMSDailySched.css" />
+    <Content Include="resources\PTSProject.frmEmployeeNotes.css" />
+    <Content Include="resources\PTSProject.dlgEmployeePayCalc.css" />
+    <Content Include="resources\PTSProject.dlgSpecialties.css" />
+    <Content Include="resources\PTSProject.frmIndAnnualPayroll.css" />
+    <Content Include="resources\PTSProject.frmDispatchPayroll.css" />
+    <Content Include="resources\PTSProject.frmPayrollReport.css" />
+    <Content Include="resources\PTSProject.frmParamedicLeave.css" />
+    <Content Include="resources\PTSProject.frmIndivSchedNote.css" />
+    <Content Include="resources\PTSProject.dlgPayRollLegend.css" />
+    <Content Include="resources\PTSProject.dlgPayrollUpload.css" />
+    <Content Include="resources\PTSProject.frmPublicRoster.css" />
+    <Content Include="resources\PTSProject.frmPMRoverPayroll.css" />
+    <Content Include="resources\PTSProject.frmBCPayRoll.css" />
+    <Content Include="resources\PTSProject.dlgIndSchedLegend.css" />
+    <Content Include="resources\PTSProject.dlgBattLegend.css" />
+    <Content Include="resources\PTSProject.dlgScheduleDetail.css" />
+    <Content Include="resources\PTSProject.dlgChangeMaxHoliday.css" />
+    <Content Include="resources\PTSProject.dlgVacationRequest.css" />
+    <Content Include="resources\PTSProject.frmMissingFromSchedule.css" />
+    <Content Include="resources\PTSProject.dlgTimeCodes.css" />
+    <Content Include="resources\PTSProject.frmVacationScheduler.css" />
+    <Content Include="resources\PTSProject.frmPayroll.css" />
+    <Content Include="resources\PTSProject.frmPPEInspQuery.css" />
+    <Content Include="resources\PTSProject.dlgPPERepair.css" />
+    <Content Include="resources\PTSProject.dlgAddPPE.css" />
+    <Content Include="resources\PTSProject.frmNote2.css" />
+    <Content Include="resources\PTSProject.frmBattSched3.css" />
+    <Content Include="resources\PTSProject.frmDailySCKLeaveReport.css" />
+    <Content Include="resources\PTSProject.frmAddress.css" />
+    <Content Include="resources\PTSProject.frmEmergencyContact.css" />
+    <Content Include="resources\PTSProject.frmSplash.css" />
+    <Content Include="resources\PTSProject.frmQclass.css" />
+    <Content Include="resources\PTSProject.frmIndivSchedReport.css" />
+    <Content Include="resources\PTSProject.frmTransferReport.css" />
+    <Content Include="resources\PTSProject.frmTimeCard2.css" />
+    <Content Include="resources\PTSProject.frmTimeCard1.css" />
+    <Content Include="resources\PTSProject.frmIndivReport.css" />
+    <Content Include="resources\PTSProject.frmUtility.css" />
+    <Content Include="resources\PTSProject.frmTCEdit.css" />
+    <Content Include="resources\PTSProject.frmIndTimeCard.css" />
+    <Content Include="resources\PTSProject.frmPhone.css" />
+    <Content Include="resources\PTSProject.frmNotify.css" />
+    <Content Include="resources\PTSProject.frmShiftCal.css" />
+    <Content Include="resources\PTSProject.frmTransReport.css" />
+    <Content Include="resources\PTSProject.frmSrReport.css" />
+    <Content Include="resources\PTSProject.frmCF1Report.css" />
+    <Content Include="resources\PTSProject.frmPromoReport.css" />
+    <Content Include="resources\PTSProject.frmAssignReport.css" />
+    <Content Include="resources\PTSProject.frmDebitReport.css" />
+    <Content Include="resources\PTSProject.frmRoster.css" />
+    <Content Include="resources\PTSProject.frmAnnualLeave.css" />
+    <Content Include="resources\PTSProject.dlgSendRover.css" />
+    <Content Include="resources\PTSProject.dlgArcPersonnel.css" />
+    <Content Include="resources\PTSProject.frmOvertime.css" />
+    <Content Include="resources\PTSProject.frmDailyStaffing.css" />
+    <Content Include="resources\PTSProject.dlgTrade.css" />
+    <Content Include="resources\PTSProject.frmWeekly.css" />
+    <Content Include="resources\PTSProject.frmNote.css" />
+    <Content Include="resources\PTSProject.frmSecurity.css" />
+    <Content Include="resources\PTSProject.frmTimeCardX.css" />
+    <Content Include="resources\PTSProject.frmException2.css" />
+    <Content Include="resources\PTSProject.frmException1.css" />
+    <Content Include="resources\PTSProject.frmLeave.css" />
+    <Content Include="resources\PTSProject.dlgSpecialAssign.css" />
+    <Content Include="resources\PTSProject.dlgTransfer.css" />
+    <Content Include="resources\PTSProject.frmNewPromo.css" />
+    <Content Include="resources\PTSProject.frmSenority.css" />
+    <Content Include="resources\PTSProject.dlgTime.css" />
+    <Content Include="resources\PTSProject.frmIndSched.css" />
+    <Content Include="resources\PTSProject.frmUpdatePromo.css" />
+    <Content Include="resources\PTSProject.frmAssign.css" />
+    <Content Include="resources\PTSProject.frmAdjustAssign.css" />
+    <Content Include="resources\PTSProject.frmUpdate.css" />
+    <Content Include="resources\PTSProject.frmAddNew.css" />
+    <Content Include="resources\PTSProject.frmAbout.css" />
+    <Content Include="resources\PTSProject.MDIForm1.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Code\RegisterVirtualPathProvider.cs" />
+    <Compile Include="App_Start\ExternalConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\Startup.EntryPoint.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="scripts\helpers\*.ts" />
+    <Content Include="scripts\directives\*.js" />
+    <Content Include="scripts\typings\**\*.ts" />
+    <Content Include="scripts\helpers\*.map" />
+    <Content Include="scripts\helpers\*.js" />
+    <Content Include="scripts\usercontrols\*.js;scripts\usercontrols\*.txt" />
+    <Content Include="Web.config" />
+    <Content Include="resources\error.html" />
+    <Content Include="resources\Images\**\**" />
+    <Content Include="Views\**\*.cshtml" />
+    <Content Include="Views\**\*.config" />
+    <Content Include="resources\libs\**\**" />
+    <Content Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>44474</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/TFDPTS</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PrepareForBuildDependsOn>AddToResources;@(PrepareForBuildDependsOn)</PrepareForBuildDependsOn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>commonjs</TypeScriptModuleKind>
+  </PropertyGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\**\*.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>commonjs</TypeScriptModuleKind>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

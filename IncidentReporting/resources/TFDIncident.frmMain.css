@@ -1,0 +1,1610 @@
+.TFDIncident_frmMain {
+}
+
+.TFDIncident_frmMain .frmMain {
+	background-color: rgba(240, 240, 240, 1);
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	padding:0;
+}
+.TFDIncident_frmMain .MainTabs {
+	font-family: Arial;
+	font-size: 21.6px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	outline-style: none;
+}
+.TFDIncident_frmMain .tabPage1 {
+	background-color: #83BCC0;
+	outline-style: none;
+	position: absolute;
+	width: 95%;
+	height: 95%;
+}
+.TFDIncident_frmMain .cmdSysButt3 {
+	left: -1604px;
+	top: -940px;
+	position: absolute;
+	width: 101px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .txtSysAdm1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: -1492px;
+	top: -916px;
+	position: absolute;
+	width: 325px;
+	height: 24px;
+}
+.TFDIncident_frmMain .txtSysAdm1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .Label23 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 470px;
+	top: 18px;
+	position: absolute;
+	width: 120px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label22 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 570px;
+	top: 18px;
+	position: absolute;
+	width: 80px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label21 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 650px;
+	top: 18px;
+	position: absolute;
+	width: 250px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label20 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 895px;
+	top: 18px;
+	position: absolute;
+	width: 145px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label19 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 375px;
+	top: 18px;
+	position: absolute;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Impact;
+	font-size: 28.8px;
+	font-style: italic;
+	color: Navy;
+	left: 10px;
+	top: 1px;
+	position: absolute;
+	width: 221px;
+	height: 49px;
+}
+.TFDIncident_frmMain .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Impact;
+	font-size: 28.8px;
+	font-style: italic;
+	color: Gray;
+	left: -1040px;
+	top: -897px;
+	position: absolute;
+	width: 233px;
+	height: 57px;
+}
+.TFDIncident_frmMain .Shape1 {
+	fill: Navy;
+	fill-opacity: 1;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Black;
+}
+.TFDIncident_frmMain .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: Maroon;
+	left: 10px;
+	top: 300px;
+	position: absolute;
+	width: 133px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: Maroon;
+	left: 10px;
+	top: 400px;
+	position: absolute;
+	width: 253px;
+	height: 25px;
+}
+.TFDIncident_frmMain .sprUnitList {
+	left: 375px;
+	top: 45px;
+	position: absolute;
+	 width: 40%; 
+	 height: 70%;
+}
+.TFDIncident_frmMain .sprUnitList .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmMain .sprUnitList .k-spreadsheet-action-bar {
+	display: none;
+}
+.TFDIncident_frmMain .calUnit {
+	background-color: #E0E0E0;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 10px;
+	top: 45px;
+	position: absolute;
+}
+.TFDIncident_frmMain .frmBattalion {
+	background-color:white;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	left: 150px;
+	top: 300px;
+	position: absolute;
+	width: 169px;
+	height: 61px;
+	border: 2px groove;
+}
+.TFDIncident_frmMain .frmBattalion:enabled {
+	color: Maroon;
+}
+.TFDIncident_frmMain ._optBattalion_0 {
+	background-color:white;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 53px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmMain ._optBattalion_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmMain ._optBattalion_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmMain ._optBattalion_1 {
+	background-color:white;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 60px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmMain ._optBattalion_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmMain ._optBattalion_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmMain ._optBattalion_2 {
+	background-color:white;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 112px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmMain ._optBattalion_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmMain ._optBattalion_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmMain .frmBattalion_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmMain .cboUnit {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	width: 105px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cboUnit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboUnitPos {
+	top: 325px;
+	left: 10px;
+	position: absolute;
+	width: 105px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cboType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	width: 177px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cboType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboTypePos {
+	top: 420px;
+	left: 10px;
+	position: absolute;
+	width: 177px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cmdClearUnit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 198px;
+	top: 500px;
+	position: absolute;
+	width: 97px;
+	height: 61px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdClearUnit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .Label24 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: Maroon;
+	left: 10px;
+	top: 475px;
+	position: absolute;
+	width: 229px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboStatus {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	width: 177px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cboStatus:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboStatusPos {
+	top: 500px;
+	left: 10px;
+	position: absolute;
+	width: 177px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cmdExitApp {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 20px;
+	top: 600px;
+	position: absolute;
+	width: 85px;
+	height: 45px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdExitApp:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cmdRefreshUnit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 185px;
+	top: 600px;
+	position: absolute;
+	width: 109px;
+	height: 45px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdRefreshUnit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cmdRefreshIncident {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 16.56px;
+	font-weight: bold;
+	left: 185px;
+	top: 600px;
+	position: absolute;
+	width: 141px;
+	height: 45px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdRefreshIncident:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .tabPage2 {
+	background-color: #83BCC0;
+	width: 97%;
+	height: 95%;
+	outline-style: none;
+	position: absolute;
+
+}
+.TFDIncident_frmMain .Label18 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: White;
+	left: 10px;
+	top: 300px;
+	position: absolute;
+	width: 125px;
+	height: 25px;
+	text-align: right;
+}
+.TFDIncident_frmMain .Label17 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 20px;
+	top: 250px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label16 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 730px;
+	top: 18px;
+	position: absolute;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label15 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 530px;
+	top: 18px;
+	position: absolute;
+	width: 213px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label14 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 485px;
+	top: 18px;
+	position: absolute;
+	width: 45px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .Label12 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 17.28px;
+	font-weight: bold;
+	color: Navy;
+	left: 10px;
+	top: 250px;
+	position: absolute;
+	width: 229px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Label9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Impact;
+	font-size: 28.8px;
+	font-style: italic;
+	color: Navy;
+	left: 10px;
+	top: 1px;
+	position: absolute;
+	width: 325px;
+	height: 57px;
+}
+.TFDIncident_frmMain .Label11 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color:maroon;
+	left: 10px;
+	top: 360px;
+	position: absolute;
+	width: 253px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Shape3 {
+	fill: Navy;
+	fill-opacity: 1;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Black;
+}
+.TFDIncident_frmMain .Label8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color:maroon;
+	left: 10px;
+	top: 295px;
+	position: absolute;
+	width: 225px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: White;
+	left: 375px;
+	top: 440px;
+	position: absolute;
+	width: 209px;
+	height: 25px;
+}
+.TFDIncident_frmMain .lbIncidentMain {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: -1444px;
+	top: -1168px;
+	position: absolute;
+	width: 153px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Shape4 {
+	fill: Navy;
+	fill-opacity: 1;
+	stroke: Navy;
+	stroke-width: 1;
+	color: Black;
+}
+.TFDIncident_frmMain .Label5 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: White;
+	left: 375px;
+	top: 18px;
+	position: absolute;
+	width: 110px;
+	height: 25px;
+	text-align: center;
+}
+.TFDIncident_frmMain .sprIncident {
+	left: 375px;
+	top: 45px;
+	position: absolute;
+	width: 620px;
+	height: 400px;
+}
+.TFDIncident_frmMain .sprIncident .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmMain .sprIncident .k-spreadsheet-action-bar {
+	display: none;
+}
+.TFDIncident_frmMain .calIncident {
+	background-color: #E0E0E0;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 10px;
+	top: 45px;
+	position: absolute;
+}
+.TFDIncident_frmMain .cboIncUnit {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	width: 169px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cboIncUnit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboIncUnitPos {
+	top: 320px;
+	left: 10px;
+	position: absolute;
+	width: 169px;
+	height: 24px;
+}
+.TFDIncident_frmMain .sprIncReports {
+	left: 375px;
+	top: 475px;
+	position: absolute;
+	width: 372px;
+	height: 169px;
+}
+.TFDIncident_frmMain .sprIncReports .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmMain .sprIncReports .k-spreadsheet-action-bar {
+	display: none;
+}
+.TFDIncident_frmMain .sprUnitReports {
+	left: 752px;
+	top: 475px;
+	position: absolute;
+	width: 107px;
+	height: 170px;
+}
+.TFDIncident_frmMain .sprUnitReports .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmMain .sprUnitReports .k-spreadsheet-action-bar {
+	display: none;
+}
+.TFDIncident_frmMain .cboIncType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	width: 169px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cboIncType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboIncTypePos {
+	top: 380px;
+	left: 10px;
+	position: absolute;
+	width: 169px;
+	height: 24px;
+}
+.TFDIncident_frmMain .cmdClearIncident {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 198px;
+	top: 500px;
+	position: absolute;
+	width: 97px;
+	height: 61px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdClearIncident:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cmdExit2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 20px;
+	top: 600px;
+	position: absolute;
+	width: 85px;
+	height: 45px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdExit2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cmdRefreshIncList {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 185px;
+	top: 600px;
+	position: absolute;
+	width: 109px;
+	height: 45px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdRefreshIncList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .tabPage3 {
+	background-color: #7B9B7E;
+	width: 806px;
+	height: 517px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmMain .Label25 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 16px;
+	top: 52px;
+	position: absolute;
+	width: 145px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboFieldReport {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 453px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboFieldReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboFieldReportPos {
+	top: 52px;
+	left: 160px;
+	position: absolute;
+	width: 453px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Label27 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 16px;
+	top: 100px;
+	position: absolute;
+	width: 269px;
+	height: 17px;
+}
+.TFDIncident_frmMain .Label26 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 260px;
+	top: 100px;
+	position: absolute;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmMain .calFRStart {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 16px;
+	top: 116px;
+	position: absolute;
+}
+.TFDIncident_frmMain .calFREnd {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 264px;
+	top: 116px;
+	position: absolute;
+}
+.TFDIncident_frmMain .cboSelection1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 373px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboSelection1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboSelection1Pos {
+	top: 272px;
+	left: 348px;
+	position: absolute;
+	width: 373px;
+	height: 25px;
+}
+.TFDIncident_frmMain .lbSelection1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 20px;
+	top: 290px;
+	position: absolute;
+	width: 317px;
+	height: 21px;
+	text-align: right;
+}
+.TFDIncident_frmMain .cboSelection2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 373px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboSelection2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboSelection2Pos {
+	top: 308px;
+	left: 348px;
+	position: absolute;
+	width: 373px;
+	height: 25px;
+}
+.TFDIncident_frmMain .lbSelection2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 20px;
+	top: 326px;
+	position: absolute;
+	width: 317px;
+	height: 21px;
+	text-align: right;
+}
+.TFDIncident_frmMain .cmdViewReport {
+	left: 212px;
+	top: 396px;
+	position: absolute;
+	width: 197px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .tabPage4 {
+	background-color: #89838F;
+	width: 806px;
+	height: 517px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmMain .sprNoteLog {
+	left: -4px;
+	top: 492px;
+	position: absolute;
+	width: 689px;
+	height: 433px;
+}
+.TFDIncident_frmMain .sprNoteLog .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmMain .sprNoteLog .k-spreadsheet-action-bar {
+	display: none;
+}
+.TFDIncident_frmMain .lbSelectInquiry {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboInquiryList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 441px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboInquiryList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboInquiryListPos {
+	top: 3px;
+	left: 243px;
+	position: absolute;
+	width: 441px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Label29 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 0px;
+	top: 25px;
+	position: absolute;
+	width: 237px;
+	height: 25px;
+	visibility: hidden;
+}
+.TFDIncident_frmMain .cboReportList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 441px;
+	height: 25px;
+	visibility: hidden;
+}
+.TFDIncident_frmMain .cboReportList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboReportListPos {
+	top: 34px;
+	left: 243px;
+	position: absolute;
+	width: 441px;
+	height: 25px;
+}
+.TFDIncident_frmMain .lbViewFields {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 6px;
+	top: 57px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+}
+.TFDIncident_frmMain .lbFilterFields {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 386px;
+	top: 57px;
+	position: absolute;
+	width: 409px;
+	height: 29px;
+}
+.TFDIncident_frmMain .lstFields {
+	background-color: #E0E0E0;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 77px;
+	position: absolute;
+	width: 333px;
+	height: 95px;
+}
+.TFDIncident_frmMain .lstFilters {
+	background-color: #E0E0E0;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: rgba(0, 0, 0, 1);
+	left: 404px;
+	top: 77px;
+	position: absolute;
+	width: 333px;
+	height: 95px;
+}
+.TFDIncident_frmMain .lbCal1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 8px;
+	top: 132px;
+	position: absolute;
+	width: 269px;
+	height: 17px;
+}
+.TFDIncident_frmMain ._lbFilter_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 256px;
+	top: 147px;
+	position: absolute;
+	width: 197px;
+	height: 37px;
+}
+.TFDIncident_frmMain ._cboFilter_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._cboFilter_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain ._cboFilter_0Pos {
+	top: 147px;
+	left: 414px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._txtFilter_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 414px;
+	top: 148px;
+	position: absolute;
+	width: 333px;
+	height: 24px;
+}
+.TFDIncident_frmMain ._txtFilter_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .calInquiry1 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 9px;
+	top: 149px;
+	position: absolute;
+}
+.TFDIncident_frmMain ._lbFilter_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 256px;
+	top: 198px;
+	position: absolute;
+	width: 197px;
+	height: 37px;
+}
+.TFDIncident_frmMain ._cboFilter_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._cboFilter_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain ._cboFilter_1Pos {
+	top: 198px;
+	left: 414px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._txtFilter_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 414px;
+	top: 198px;
+	position: absolute;
+	width: 333px;
+	height: 24px;
+}
+.TFDIncident_frmMain ._txtFilter_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain ._txtFilter_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 414px;
+	top: 198px;
+	position: absolute;
+	width: 333px;
+	height: 24px;
+}
+.TFDIncident_frmMain ._txtFilter_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain ._lbFilter_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 256px;
+	top: 240px;
+	position: absolute;
+	width: 197px;
+	height: 37px;
+}
+.TFDIncident_frmMain ._cboFilter_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._cboFilter_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain ._cboFilter_2Pos {
+	top: 244px;
+	left: 414px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._lbFilter_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 256px;
+	top: 285px;
+	position: absolute;
+	width: 197px;
+	height: 37px;
+}
+.TFDIncident_frmMain ._cboFilter_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._cboFilter_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain ._cboFilter_3Pos {
+	top: 286px;
+	left: 414px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._txtFilter_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 414px;
+	top: 287px;
+	position: absolute;
+	width: 333px;
+	height: 24px;
+}
+.TFDIncident_frmMain ._txtFilter_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .lbCal2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 7px;
+	top: 308px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._lbFilter_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 256px;
+	top: 322px;
+	position: absolute;
+	width: 197px;
+	height: 37px;
+}
+.TFDIncident_frmMain ._cboFilter_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._cboFilter_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain ._cboFilter_4Pos {
+	top: 325px;
+	left: 414px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._txtFilter_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 414px;
+	top: 326px;
+	position: absolute;
+	width: 333px;
+	height: 24px;
+}
+.TFDIncident_frmMain ._txtFilter_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .calInquiry2 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 10px;
+	top: 329px;
+	position: absolute;
+}
+.TFDIncident_frmMain ._lbFilter_5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 256px;
+	top: 369px;
+	position: absolute;
+	width: 197px;
+	height: 41px;
+}
+.TFDIncident_frmMain ._cboFilter_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._cboFilter_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain ._cboFilter_5Pos {
+	top: 369px;
+	left: 414px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmMain ._txtFilter_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 414px;
+	top: 369px;
+	position: absolute;
+	width: 333px;
+	height: 24px;
+}
+.TFDIncident_frmMain ._txtFilter_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cmdView {
+	left: 414px;
+	top: 432px;
+	position: absolute;
+	width: 165px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdClearSelections {
+	left: 578px;
+	top: 432px;
+	position: absolute;
+	width: 169px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .tabPage5 {
+	background-color: #99988C;
+	width: 806px;
+	height: 517px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmMain .Label28 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 217px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Label10 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Impact;
+	font-size: 28.8px;
+	font-style: italic;
+	color: Gray;
+	left: -1156px;
+	top: -892px;
+	position: absolute;
+	width: 337px;
+	height: 57px;
+}
+.TFDIncident_frmMain .cboSystemAction {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 489px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboSystemAction:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboSystemActionPos {
+	top: 0px;
+	left: 183px;
+	position: absolute;
+	width: 489px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboSysAdm1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboSysAdm1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboSysAdm1Pos {
+	top: 61px;
+	left: 399px;
+	position: absolute;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmMain .lbSysAdmin1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 32px;
+	top: 64px;
+	position: absolute;
+	width: 341px;
+	height: 25px;
+	text-align: right;
+}
+.TFDIncident_frmMain .lbSysAdmin2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 72px;
+	top: 104px;
+	position: absolute;
+	width: 301px;
+	height: 25px;
+	text-align: right;
+}
+.TFDIncident_frmMain .cboSysAdm2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmMain .cboSysAdm2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .cboSysAdm2Pos {
+	top: 104px;
+	left: 399px;
+	position: absolute;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmMain .Line1 {
+	background-color: #FEF0B1;
+	left: 0px;
+	top: 138px;
+	position: absolute;
+	width: 796px;
+	height: 1px;
+}
+.TFDIncident_frmMain .lbSysAdmin3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FEF0B1;
+	left: 9px;
+	top: 141px;
+	position: absolute;
+	width: 353px;
+	height: 25px;
+}
+.TFDIncident_frmMain .sprNotify {
+	left: 6px;
+	top: 163px;
+	position: absolute;
+	width: 525px;
+	height: 297px;
+}
+.TFDIncident_frmMain .sprNotify .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmMain .sprNotify .k-spreadsheet-action-bar {
+	display: none;
+}
+.TFDIncident_frmMain .sprSysAdm {
+	left: 5px;
+	top: 165px;
+	position: absolute;
+	width: 769px;
+	height: 297px;
+}
+.TFDIncident_frmMain .sprSysAdm .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmMain .sprSysAdm .k-spreadsheet-action-bar {
+	display: none;
+}
+.TFDIncident_frmMain .frmAdmHelp {
+	background-color: #5C6C4A;
+	left: 8px;
+	top: 165px;
+	position: absolute;
+	width: 769px;
+	height: 297px;
+	border: 2px groove;
+}
+.TFDIncident_frmMain .frmAdmHelp:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .tvHelpList {
+	left: 4px;
+	top: 12px;
+	position: absolute;
+	width: 249px;
+	height: 277px;
+}
+.TFDIncident_frmMain .txtHelpTitle {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 256px;
+	top: 28px;
+	position: absolute;
+	width: 501px;
+	height: 35px;
+}
+.TFDIncident_frmMain .txtHelpTitle:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmMain .txtHelpText {
+	left: 256px;
+	top: 60px;
+	position: absolute;
+	width: 505px;
+	height: 229px;
+}
+.TFDIncident_frmMain .frmAdmHelp_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmMain .cmdSysButt1 {
+	left: 301px;
+	top: 468px;
+	position: absolute;
+	width: 133px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmMain .cmdSysButt2 {
+	left: 465px;
+	top: 468px;
+	position: absolute;
+	width: 133px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+

@@ -1,0 +1,139 @@
+.PTSProject_dlgPPERepair {
+}
+.PTSProject_dlgPPERepair .dlgPPERepair {
+	background-color: #400000;
+	min-width: 685px;
+	min-height: 295px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_dlgPPERepair .Label3 {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #FFC080;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_dlgPPERepair .lblName {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 104px;
+	top: 8px;
+	position: absolute;
+	width: 497px;
+	height: 17px;
+}
+.PTSProject_dlgPPERepair .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 600px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgPPERepair .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgPPERepair .Label4 {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #FFC080;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_dlgPPERepair .lblEmpNum {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 104px;
+	top: 32px;
+	position: absolute;
+	width: 497px;
+	height: 17px;
+}
+.PTSProject_dlgPPERepair .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 600px;
+	top: 40px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgPPERepair .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgPPERepair .Label5 {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #FFC080;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_dlgPPERepair .lblAssignment {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 104px;
+	top: 56px;
+	position: absolute;
+	width: 497px;
+	height: 17px;
+}
+.PTSProject_dlgPPERepair .sprPPEList {
+	left: 4px;
+	top: 88px;
+	position: absolute;
+	width: 677px;
+	height: 185px;
+}
+.PTSProject_dlgPPERepair .sprPPEList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgPPERepair .sprPPEList .k-spreadsheet-action-bar {
+	display: none;
+}
+

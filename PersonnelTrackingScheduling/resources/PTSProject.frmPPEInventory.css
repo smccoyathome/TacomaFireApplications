@@ -1,0 +1,870 @@
+.PTSProject_frmPPEInventory {
+}
+.PTSProject_frmPPEInventory .frmPPEInventory {
+	background-color: #404000;
+	min-width: 583px;
+	min-height: 509px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_frmPPEInventory .Frame1 {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 569px;
+	height: 97px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInventory .Frame1:enabled {
+	color: Aqua;
+}
+.PTSProject_frmPPEInventory .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPEInventory .cboLocation {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboLocation:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboLocationPos {
+	top: 24px;
+	left: 96px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .lbBrand {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 208px;
+	top: 24px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPEInventory .cboBrand {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboBrand:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboBrandPos {
+	top: 24px;
+	left: 296px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 38px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPEInventory .cboType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboTypePos {
+	top: 48px;
+	left: 96px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .lbColorSize {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 208px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPPEInventory .cboColorSize {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboColorSize:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboColorSizePos {
+	top: 48px;
+	left: 296px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 59px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .chkInactive {
+	background-color: #404000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	font-style: italic;
+	left: 40px;
+	top: 72px;
+	position: absolute;
+	width: 177px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmPPEInventory .chkInactive:enabled {
+	color: #FF8000;
+}
+.PTSProject_frmPPEInventory .lbCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Lime;
+	left: 288px;
+	top: 80px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_frmPPEInventory .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPPEInventory .sprPPEList {
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 569px;
+	height: 145px;
+}
+.PTSProject_frmPPEInventory .sprPPEList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPPEInventory .sprPPEList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmPPEInventory .sprReport {
+	left: 24px;
+	top: 136px;
+	position: absolute;
+	width: 537px;
+	height: 73px;
+	visibility: hidden;
+}
+.PTSProject_frmPPEInventory .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPPEInventory .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmPPEInventory .frmPPEItem {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 248px;
+	position: absolute;
+	width: 569px;
+	height: 169px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInventory .frmPPEItem:enabled {
+	color: Aqua;
+}
+.PTSProject_frmPPEInventory .cmdNewItem {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdNewItem:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .label13 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .Label17 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 104px;
+	top: 16px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .chkManufDate {
+	background-color: #404000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 272px;
+	top: 16px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmPPEInventory .chkManufDate:enabled {
+	color: #C0FFC0;
+}
+.PTSProject_frmPPEInventory .cboStation {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 81px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboStation:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboStationPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 81px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .txtTrackingNumber {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 104px;
+	top: 32px;
+	position: absolute;
+	width: 129px;
+	height: 19px;
+}
+.PTSProject_frmPPEInventory .txtTrackingNumber:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .dteManufDate.k-datepicker {
+	left: 312px;
+	top: 32px;
+	position: absolute;
+	width: 97px;
+	height: 19px;
+}
+.PTSProject_frmPPEInventory .dteManufDate {
+}
+.PTSProject_frmPPEInventory .cmdEditItem {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdEditItem:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cmdFind {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 240px;
+	top: 34px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdFind:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cmdRetireItem {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 55px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdRetireItem:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .txtAlternate {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 104px;
+	top: 56px;
+	position: absolute;
+	width: 129px;
+	height: 19px;
+}
+.PTSProject_frmPPEInventory .txtAlternate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 240px;
+	top: 56px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .cmdReactivate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 76px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdReactivate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .Label14 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .lbItemColorSize {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 144px;
+	top: 80px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .lbItemBrand {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 264px;
+	top: 80px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .cboItemType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 121px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboItemType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboItemTypePos {
+	top: 96px;
+	left: 8px;
+	position: absolute;
+	width: 121px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboItemColorSize {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboItemColorSize:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboItemColorSizePos {
+	top: 96px;
+	left: 144px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboItemBrand {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 161px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboItemBrand:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboItemBrandPos {
+	top: 96px;
+	left: 264px;
+	position: absolute;
+	width: 161px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cmdRepair {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 99px;
+	position: absolute;
+	width: 73px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdRepair:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .lbReason {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 120px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .lbRetiredDate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 136px;
+	top: 120px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .lbRetireComment {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 240px;
+	top: 120px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .cboReason {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 121px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .cboReason:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cboReasonPos {
+	top: 136px;
+	left: 8px;
+	position: absolute;
+	width: 121px;
+	height: 20px;
+}
+.PTSProject_frmPPEInventory .dteRetired.k-datepicker {
+	left: 136px;
+	top: 136px;
+	position: absolute;
+	width: 97px;
+	height: 19px;
+}
+.PTSProject_frmPPEInventory .dteRetired {
+}
+.PTSProject_frmPPEInventory .txtComment {
+	left: 240px;
+	top: 136px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmPPEInventory .cmdCleaning {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 136px;
+	position: absolute;
+	width: 73px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdCleaning:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .lbUniformID {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 440px;
+	top: 152px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmPPEInventory .frmPPEItem_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPPEInventory .frmInspection {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 8px;
+	top: 416px;
+	position: absolute;
+	width: 569px;
+	height: 89px;
+	border: 2px groove;
+}
+.PTSProject_frmPPEInventory .frmInspection:enabled {
+	color: Aqua;
+}
+.PTSProject_frmPPEInventory .cmdLastInsp {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdLastInsp:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .lbInspID {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 352px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmPPEInventory .Label8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .Label12 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 144px;
+	top: 24px;
+	position: absolute;
+	width: 289px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPPEInventory .dtInspection.k-datepicker {
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 121px;
+	height: 19px;
+}
+.PTSProject_frmPPEInventory .dtInspection {
+}
+.PTSProject_frmPPEInventory .txtInspComment {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 144px;
+	top: 40px;
+	position: absolute;
+	width: 289px;
+	height: 33px;
+}
+.PTSProject_frmPPEInventory .txtInspComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .cmdAddNew {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 464px;
+	top: 48px;
+	position: absolute;
+	width: 73px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPPEInventory .cmdAddNew:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPPEInventory .chkPassed {
+	background-color: #404000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmPPEInventory .chkPassed:enabled {
+	color: #C0FFFF;
+}
+.PTSProject_frmPPEInventory .frmInspection_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

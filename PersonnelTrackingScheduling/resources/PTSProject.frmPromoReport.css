@@ -1,0 +1,91 @@
+.PTSProject_frmPromoReport {
+}
+.PTSProject_frmPromoReport .frmPromoReport {
+	background-color: rgba(240, 240, 240, 1);
+	min-width: 758px;
+	min-height: 483px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmPromoReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: Maroon;
+	left: 16px;
+	top: 8px;
+	position: absolute;
+	width: 198px;
+	height: 25px;
+}
+.PTSProject_frmPromoReport .cboPromo {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 259px;
+	height: 24px;
+}
+.PTSProject_frmPromoReport .cboPromo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPromoReport .cboPromoPos {
+	top: 8px;
+	left: 224px;
+	position: absolute;
+	width: 259px;
+	height: 24px;
+}
+.PTSProject_frmPromoReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 496px;
+	top: 8px;
+	position: absolute;
+	width: 110px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPromoReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPromoReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 616px;
+	top: 8px;
+	position: absolute;
+	width: 118px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPromoReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPromoReport .sprPromo {
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 742px;
+	height: 435px;
+}
+.PTSProject_frmPromoReport .sprPromo .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPromoReport .sprPromo .k-spreadsheet-action-bar {
+	display: none;
+}
+

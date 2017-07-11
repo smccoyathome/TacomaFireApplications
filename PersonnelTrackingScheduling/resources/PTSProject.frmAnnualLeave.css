@@ -1,0 +1,176 @@
+.PTSProject_frmAnnualLeave {
+}
+.PTSProject_frmAnnualLeave .frmAnnualLeave {
+	background-color: #000040;
+	min-width: 1003px;
+	min-height: 528px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmAnnualLeave .cmdHold {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 116px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAnnualLeave .cmdHold:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAnnualLeave .cmdRemove {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 120px;
+	top: 0px;
+	position: absolute;
+	width: 124px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAnnualLeave .cmdRemove:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAnnualLeave .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 248px;
+	top: 0px;
+	position: absolute;
+	width: 100px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAnnualLeave .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAnnualLeave .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 14.4px;
+	left: 360px;
+	top: 0px;
+	position: absolute;
+	width: 100px;
+	height: 38px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmAnnualLeave .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAnnualLeave .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 480px;
+	top: 8px;
+	position: absolute;
+	width: 89px;
+	height: 20px;
+	text-align: right;
+}
+.PTSProject_frmAnnualLeave .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 97px;
+	height: 24px;
+	visibility: inherit;
+}
+.PTSProject_frmAnnualLeave .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmAnnualLeave .cboYearPos {
+	top: 8px;
+	left: 576px;
+	position: absolute;
+	width: 97px;
+	height: 24px;
+}
+.PTSProject_frmAnnualLeave .Label2 {
+	background-color: White;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 17.1px;
+	color: Red;
+	left: 704px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmAnnualLeave .Label3 {
+	background-color: White;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 17.1px;
+	color: Blue;
+	left: 792px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmAnnualLeave .Label1 {
+	background-color: White;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 17.1px;
+	color: rgba(0, 0, 0, 1);
+	left: 896px;
+	top: 8px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmAnnualLeave .sprAnnual {
+	left: 1px;
+	top: 40px;
+	position: absolute;
+	width: 1001px;
+	height: 479px;
+}
+.PTSProject_frmAnnualLeave .sprAnnual .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmAnnualLeave .sprAnnual .k-spreadsheet-action-bar {
+	display: none;
+}
+

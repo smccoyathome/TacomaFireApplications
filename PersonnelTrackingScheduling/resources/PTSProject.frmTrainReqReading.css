@@ -1,0 +1,458 @@
+.PTSProject_frmTrainReqReading {
+}
+.PTSProject_frmTrainReqReading .frmTrainReqReading {
+	background-color: #400040;
+	min-width: 1101px;
+	min-height: 718px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .Frame1 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 1073px;
+	height: 145px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainReqReading .Frame1:enabled {
+	color: #00C0C0;
+}
+.PTSProject_frmTrainReqReading .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 920px;
+	top: 16px;
+	position: absolute;
+	width: 121px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainReqReading .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainReqReading ._lbSubTitle_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFC080;
+	left: 24px;
+	top: 40px;
+	position: absolute;
+	width: 121px;
+	height: 21px;
+	text-align: center;
+}
+.PTSProject_frmTrainReqReading .Frame3 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 168px;
+	top: 48px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainReqReading .Frame3:enabled {
+	color: #FFC080;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_0 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_0:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_0 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_2 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_2:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_2 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_1 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_1:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_1 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_3 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_3:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmTrainReqReading ._OptQuarter_3 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainReqReading .Frame2 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 344px;
+	top: 48px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainReqReading .Frame2:enabled {
+	color: #FFC080;
+}
+.PTSProject_frmTrainReqReading .cboType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	width: 161px;
+	height: 20px;
+}
+.PTSProject_frmTrainReqReading .cboType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainReqReading .cboTypePos {
+	top: 24px;
+	left: 8px;
+	position: absolute;
+	width: 161px;
+	height: 20px;
+}
+.PTSProject_frmTrainReqReading .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainReqReading .Frame4 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 720px;
+	top: 48px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainReqReading .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainReqReading .optA {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .optA:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainReqReading .optA * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .optC {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .optC:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainReqReading .optC * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .optB {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .optB:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainReqReading .optB * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .optD {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .optD:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainReqReading .optD * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainReqReading .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 920px;
+	top: 56px;
+	position: absolute;
+	width: 121px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainReqReading .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainReqReading .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 121px;
+	height: 25px;
+}
+.PTSProject_frmTrainReqReading .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainReqReading .cboYearPos {
+	top: 64px;
+	left: 24px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.PTSProject_frmTrainReqReading .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 920px;
+	top: 96px;
+	position: absolute;
+	width: 121px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrainReqReading .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainReqReading .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #80FF80;
+	left: 8px;
+	top: 120px;
+	position: absolute;
+	width: 513px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmTrainReqReading .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainReqReading .frmBattOpt {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 552px;
+	top: 48px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrainReqReading .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrainReqReading .optAll {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .optAll:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainReqReading .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .opt182 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .opt182:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainReqReading .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .opt181 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .opt181:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainReqReading .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .opt183 {
+	background-color: #400040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrainReqReading .opt183:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrainReqReading .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmTrainReqReading .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrainReqReading .sprReport {
+	left: 8px;
+	top: 144px;
+	position: absolute;
+	width: 1080px;
+	height: 561px;
+}
+.PTSProject_frmTrainReqReading .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTrainReqReading .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,86 @@
+<div>
+  <div data-width="628" data-height="444" name="frmKOTAudit" data-title="Debit Day - Holiday Audit" class="PTSProject_frmKOTAudit" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmKOTAudit">
+      <fieldset id="frmFilterList" class="frmFilterList">
+        <legend id="frmFilterList_legend" class="frmFilterList_legend">Filter By:</legend>
+        <div>
+          <fieldset id="frmBattOpt" class="frmBattOpt">
+            <legend id="frmBattOpt_legend" class="frmBattOpt_legend"></legend>
+            <div>
+              <div class="optAll">
+                <input id="optAll" tabindex="52" type="radio" name="frmBattOpt_radios" checked="checked" style="float: left" data-bind="customChecked : optAll.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ALL</label>
+                </div>
+              </div>
+              <div class="opt182">
+                <input id="opt182" tabindex="51" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt182.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 2</label>
+                </div>
+              </div>
+              <div class="opt181">
+                <input id="opt181" tabindex="50" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt181.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 1</label>
+                </div>
+              </div>
+              <div class="opt183">
+                <input id="opt183" tabindex="53" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt183.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 3</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="Frame3" class="Frame3">
+            <legend id="Frame3_legend" class="Frame3_legend"></legend>
+            <div>
+              <div class="optA">
+                <input id="optA" tabindex="54" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : optA.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift A</label>
+                </div>
+              </div>
+              <div class="optC">
+                <input id="optC" tabindex="56" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : optC.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift C</label>
+                </div>
+              </div>
+              <div class="optB">
+                <input id="optB" tabindex="55" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : optB.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift B</label>
+                </div>
+              </div>
+              <div class="optD">
+                <input id="optD" tabindex="57" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : optD.Checked" />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift D</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <label id="Label1" tabindex="17" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Assignment Type</label>
+          <div class="cboAssignmentCodePos" id="cboAssignmentCodePos">
+            <select id="cboAssignmentCode" tabindex="49" class="cboAssignmentCode" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAssignmentCode.ComboBoxItems, customText : cboAssignmentCode.CustomText, comboSelectedIndex : cboAssignmentCode.SelectedIndex"></select>
+          </div>
+          <label id="_Label3_0" tabindex="16" index="0" class="_Label3_0" data-bind="text : _Label3_0.Text, imagePath : _Label3_0.ImagePath">Unit</label>
+          <div class="cboUnitPos" id="cboUnitPos">
+            <select id="cboUnit" tabindex="48" class="cboUnit" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboUnit.ComboBoxItems, customText : cboUnit.CustomText, comboSelectedIndex : cboUnit.SelectedIndex"></select>
+          </div>
+          <label id="_Label6_1" tabindex="15" index="1" class="_Label6_1" data-bind="text : _Label6_1.Text, imagePath : _Label6_1.ImagePath">Name:</label>
+          <input id="txtNameSearch" tabindex="47" Value="txtNameSearch" class="txtNameSearch" data-bind="value : txtNameSearch.Text" />
+        </div>
+      </fieldset>
+      <button id="cboClose" tabindex="61" class="cboClose" type="button">Close</button>
+      <button id="cmdClear" tabindex="63" class="cmdClear" type="button">Clear Filters</button>
+      <button id="cmdPrintList" tabindex="62" class="cmdPrintList" type="button">Print List</button>
+      <label id="lbCount" tabindex="22" class="lbCount" data-bind="text : lbCount.Text, imagePath : lbCount.ImagePath">List Count:  </label>
+      <label id="Label2" tabindex="21" __UseMnemonic="false" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Employee for Debit  Holiday Dates, etc</label>
+      <div id="sprEmployeeList" data-role="mobilizespread" tabindex="0" class="sprEmployeeList" data-bind="widgetvalue: sprEmployeeList"></div>
+      <div id="sprTimeSheet" data-role="mobilizespread" tabindex="1" class="sprTimeSheet" data-bind="widgetvalue: sprTimeSheet"></div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,91 @@
+.PTSProject_frmIndivSchedNote {
+}
+.PTSProject_frmIndivSchedNote .frmIndivSchedNote {
+	background-color: Navy;
+	min-width: 283px;
+	min-height: 230px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_frmIndivSchedNote .txtNote {
+	background-color: Silver;
+	border-style: inset;
+	cursor: text;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	overflow: auto;
+	width: 265px;
+	height: 65px;
+}
+.PTSProject_frmIndivSchedNote .txtNote:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivSchedNote .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Red;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 265px;
+	height: 17px;
+}
+.PTSProject_frmIndivSchedNote .txtEdit {
+	background-color: White;
+	border-style: inset;
+	cursor: text;
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	overflow: auto;
+	width: 265px;
+	height: 65px;
+}
+.PTSProject_frmIndivSchedNote .txtEdit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivSchedNote .cmdOK {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	left: 96px;
+	top: 176px;
+	position: absolute;
+	width: 73px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndivSchedNote .cmdOK:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndivSchedNote .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	left: 176px;
+	top: 176px;
+	position: absolute;
+	width: 97px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndivSchedNote .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

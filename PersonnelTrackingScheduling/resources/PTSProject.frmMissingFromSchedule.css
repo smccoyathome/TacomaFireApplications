@@ -1,0 +1,76 @@
+.PTSProject_frmMissingFromSchedule {
+}
+.PTSProject_frmMissingFromSchedule .frmMissingFromSchedule {
+	background-color: Navy;
+	min-width: 328px;
+	min-height: 189px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_frmMissingFromSchedule .sprMissing {
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 181px;
+	height: 169px;
+}
+.PTSProject_frmMissingFromSchedule .sprMissing .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmMissingFromSchedule .sprMissing .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmMissingFromSchedule .Label1 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: Red;
+	left: 200px;
+	top: 8px;
+	position: absolute;
+	width: 121px;
+	height: 89px;
+}
+.PTSProject_frmMissingFromSchedule .cmdAdd {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 200px;
+	top: 104px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMissingFromSchedule .cmdAdd:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmMissingFromSchedule .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 200px;
+	top: 136px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmMissingFromSchedule .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

@@ -1,0 +1,1148 @@
+.PTSProject_dlgVacationRequest {
+}
+.PTSProject_dlgVacationRequest .dlgVacationRequest {
+	background-color: #000040;
+	min-width: 778px;
+	min-height: 714px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_dlgVacationRequest .Frame1 {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 480px;
+	top: 8px;
+	position: absolute;
+	width: 289px;
+	height: 81px;
+	border: 2px groove;
+}
+.PTSProject_dlgVacationRequest .Frame1:enabled {
+	color: Red;
+}
+.PTSProject_dlgVacationRequest .optRequest {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 48px;
+	top: 16px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_dlgVacationRequest .optRequest:enabled {
+	color: Yellow;
+}
+.PTSProject_dlgVacationRequest .optRequest * {
+	Cursor: default;
+}
+.PTSProject_dlgVacationRequest .optDelete {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 48px;
+	top: 32px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_dlgVacationRequest .optDelete:enabled {
+	color: Yellow;
+}
+.PTSProject_dlgVacationRequest .optDelete * {
+	Cursor: default;
+}
+.PTSProject_dlgVacationRequest .optUpdate {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 48px;
+	top: 48px;
+	position: absolute;
+	width: 177px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_dlgVacationRequest .optUpdate:enabled {
+	color: Yellow;
+}
+.PTSProject_dlgVacationRequest .optUpdate * {
+	Cursor: default;
+}
+.PTSProject_dlgVacationRequest .optAvailable {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 48px;
+	top: 64px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+	visibility: hidden;
+	cursor: default;
+}
+.PTSProject_dlgVacationRequest .optAvailable:enabled {
+	color: Yellow;
+}
+.PTSProject_dlgVacationRequest .optAvailable * {
+	Cursor: default;
+}
+.PTSProject_dlgVacationRequest .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgVacationRequest .Frame2 {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 8px;
+	top: 12px;
+	position: absolute;
+	width: 446px;
+	height: 489px;
+	border: 2px groove;
+}
+.PTSProject_dlgVacationRequest .Frame2:enabled {
+	color: #FFFF80;
+}
+.PTSProject_dlgVacationRequest .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: Aqua;
+	left: 32px;
+	top: 24px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .cboReqNameList {
+	background-color: White;
+	cursor: default;
+	width: 265px;
+	height: 27px;
+}
+.PTSProject_dlgVacationRequest .cboReqNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .cboReqNameListPos {
+	top: 24px;
+	left: 136px;
+	position: absolute;
+	width: 265px;
+	height: 27px;
+}
+.PTSProject_dlgVacationRequest .chkPMOnly {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 32px;
+	top: 56px;
+	position: absolute;
+	width: 369px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgVacationRequest .chkPMOnly:enabled {
+	color: Lime;
+}
+.PTSProject_dlgVacationRequest .chkHZMOnly {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 32px;
+	top: 80px;
+	position: absolute;
+	width: 369px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgVacationRequest .chkHZMOnly:enabled {
+	color: #FF8000;
+}
+.PTSProject_dlgVacationRequest .Label18 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #80FFFF;
+	left: 208px;
+	top: 104px;
+	position: absolute;
+	width: 97px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .Label19 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #80FFFF;
+	left: 312px;
+	top: 104px;
+	position: absolute;
+	width: 113px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .cmdClearRequest {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 120px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgVacationRequest .cmdClearRequest:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .sprRequests {
+	left: 16px;
+	top: 136px;
+	position: absolute;
+	width: 415px;
+	height: 337px;
+}
+.PTSProject_dlgVacationRequest .sprRequests .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgVacationRequest .sprRequests .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgVacationRequest .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgVacationRequest .frmShiftAvail {
+	background-color: #000040;
+	left: 480px;
+	top: 80px;
+	position: absolute;
+	width: 289px;
+	height: 385px;
+	border: 2px groove;
+}
+.PTSProject_dlgVacationRequest .frmShiftAvail:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .calAvail {
+	left: 40px;
+	top: 16px;
+	position: absolute;
+}
+.PTSProject_dlgVacationRequest .lbSelectTitle1 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 192px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+	text-align: center;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .chkAM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 192px;
+	top: 200px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgVacationRequest .chkAM:enabled {
+	color: Red;
+}
+.PTSProject_dlgVacationRequest .chkPM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 240px;
+	top: 200px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgVacationRequest .chkPM:enabled {
+	color: Red;
+}
+.PTSProject_dlgVacationRequest .lbSelectAM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Aqua;
+	left: 8px;
+	top: 216px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .lbREGam {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Aqua;
+	left: 144px;
+	top: 216px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .cmdAvailDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 192px;
+	top: 224px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgVacationRequest .cmdAvailDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .lbSelectPM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Aqua;
+	left: 8px;
+	top: 240px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .lbREGpm {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Aqua;
+	left: 144px;
+	top: 240px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .Label11 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 16px;
+	top: 264px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_dlgVacationRequest .dtpGiveOut.k-datepicker {
+	left: 152px;
+	top: 264px;
+	position: absolute;
+	width: 129px;
+	height: 21px;
+}
+.PTSProject_dlgVacationRequest .dtpGiveOut {
+}
+.PTSProject_dlgVacationRequest .lbAvailComment {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 16px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 33px;
+	text-align: right;
+}
+.PTSProject_dlgVacationRequest .txtAvailComment {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 104px;
+	top: 288px;
+	position: absolute;
+	overflow: auto;
+	width: 177px;
+	height: 65px;
+}
+.PTSProject_dlgVacationRequest .txtAvailComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .lbExistPM {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 32px;
+	top: 328px;
+	position: absolute;
+	width: 17px;
+	height: 9px;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .lbExistAM {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 32px;
+	top: 344px;
+	position: absolute;
+	width: 17px;
+	height: 9px;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .frmShiftAvail_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgVacationRequest .frmRequestVAC {
+	background-color: #000040;
+	left: 480px;
+	top: 88px;
+	position: absolute;
+	width: 289px;
+	height: 377px;
+	border: 2px groove;
+}
+.PTSProject_dlgVacationRequest .frmRequestVAC:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .lblName {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .cboNameList {
+	background-color: White;
+	cursor: default;
+	width: 185px;
+	height: 23px;
+}
+.PTSProject_dlgVacationRequest .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .cboNameListPos {
+	top: 16px;
+	left: 96px;
+	position: absolute;
+	width: 185px;
+	height: 23px;
+}
+.PTSProject_dlgVacationRequest .Label6 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 144px;
+	top: 48px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .lblDate {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 129px;
+	height: 41px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .lstCurrSched {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 144px;
+	top: 64px;
+	position: absolute;
+	width: 129px;
+	height: 56px;
+}
+.PTSProject_dlgVacationRequest .Label7 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 144px;
+	top: 144px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .Label5 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 8px;
+	top: 160px;
+	position: absolute;
+	width: 129px;
+	height: 57px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .lstCurrVAC {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 144px;
+	top: 160px;
+	position: absolute;
+	width: 129px;
+	height: 56px;
+}
+.PTSProject_dlgVacationRequest .Label17 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #00C000;
+	left: 16px;
+	top: 232px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .cmdReqDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 152px;
+	top: 256px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgVacationRequest .cmdReqDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .lbVAC {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 24px;
+	top: 264px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .lbHOL {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 72px;
+	top: 264px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .txtComment {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 96px;
+	top: 296px;
+	position: absolute;
+	overflow: auto;
+	width: 177px;
+	height: 57px;
+}
+.PTSProject_dlgVacationRequest .txtComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .Label4 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 16px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .frmRequestVAC_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgVacationRequest .frmUpdateRequest {
+	background-color: #000040;
+	left: 480px;
+	top: 88px;
+	position: absolute;
+	width: 289px;
+	height: 409px;
+	border: 2px groove;
+}
+.PTSProject_dlgVacationRequest .frmUpdateRequest:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .Label9 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .cboUpdateNameList {
+	background-color: White;
+	cursor: default;
+	width: 177px;
+	height: 23px;
+}
+.PTSProject_dlgVacationRequest .cboUpdateNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .cboUpdateNameListPos {
+	top: 32px;
+	left: 88px;
+	position: absolute;
+	width: 177px;
+	height: 23px;
+}
+.PTSProject_dlgVacationRequest .Label10 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 16px;
+	top: 96px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .lbgiveup {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 152px;
+	top: 96px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .calRequestDate {
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+}
+.PTSProject_dlgVacationRequest .calRequestDate.k-datepicker {
+	left: 8px;
+	top: 112px;
+	position: absolute;
+	width: 121px;
+	height: 24px;
+}
+.PTSProject_dlgVacationRequest .calGiveUpDate {
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+}
+.PTSProject_dlgVacationRequest .calGiveUpDate.k-datepicker {
+	left: 144px;
+	top: 112px;
+	position: absolute;
+	width: 121px;
+	height: 24px;
+}
+.PTSProject_dlgVacationRequest .chkUpdateAM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 16px;
+	top: 144px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgVacationRequest .chkUpdateAM:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgVacationRequest .chkUpdatePM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 64px;
+	top: 144px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgVacationRequest .chkUpdatePM:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgVacationRequest .chkGiveUpAM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 152px;
+	top: 144px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgVacationRequest .chkGiveUpAM:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgVacationRequest .chkGiveUpPM {
+	background-color: #000040;
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 200px;
+	top: 144px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_dlgVacationRequest .chkGiveUpPM:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgVacationRequest .Label12 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 16px;
+	top: 176px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .Label8 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 144px;
+	top: 184px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .cboKOT {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 97px;
+	height: 23px;
+}
+.PTSProject_dlgVacationRequest .cboKOT:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .cboKOTPos {
+	top: 192px;
+	left: 8px;
+	position: absolute;
+	width: 97px;
+	height: 23px;
+}
+.PTSProject_dlgVacationRequest .txtUpdateComment {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 120px;
+	top: 200px;
+	position: absolute;
+	overflow: auto;
+	width: 161px;
+	height: 65px;
+}
+.PTSProject_dlgVacationRequest .txtUpdateComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .Label20 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #00C000;
+	left: 8px;
+	top: 224px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .lbUpdateVAC {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 16px;
+	top: 256px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .lbUpdateHOL {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 64px;
+	top: 256px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .lbAvailPM {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 288px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .lbAvailAM {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 72px;
+	top: 288px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .cmdUpdateDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 152px;
+	top: 312px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgVacationRequest .cmdUpdateDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .lbRequestPM {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 24px;
+	top: 320px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .lbRequestAM {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 24px;
+	top: 344px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .frmUpdateRequest_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgVacationRequest .sprAvailable {
+	left: 136px;
+	top: 184px;
+	position: absolute;
+	width: 137px;
+	height: 57px;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .sprAvailable .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgVacationRequest .sprAvailable .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgVacationRequest .cmdClearAvail {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 200px;
+	top: 200px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	visibility: hidden;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgVacationRequest .cmdClearAvail:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .Label3 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #80FF80;
+	left: 144px;
+	top: 216px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+	visibility: hidden;
+}
+.PTSProject_dlgVacationRequest .frmLegend {
+	background-color: #000040;
+	left: 536px;
+	top: 504px;
+	position: absolute;
+	width: 233px;
+	height: 137px;
+	border: 2px groove;
+}
+.PTSProject_dlgVacationRequest .frmLegend:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgVacationRequest .Label15 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 217px;
+	height: 33px;
+}
+.PTSProject_dlgVacationRequest .Label13 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #00C000;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .Label14 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Blue;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+}
+.PTSProject_dlgVacationRequest .Label21 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #C000C0;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 217px;
+	height: 33px;
+}
+.PTSProject_dlgVacationRequest .frmLegend_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_dlgVacationRequest .Label2 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 512px;
+	position: absolute;
+	width: 497px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_dlgVacationRequest .sprGranted {
+	left: 8px;
+	top: 544px;
+	position: absolute;
+	width: 516px;
+	height: 153px;
+}
+.PTSProject_dlgVacationRequest .sprGranted .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgVacationRequest .sprGranted .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgVacationRequest .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 552px;
+	top: 656px;
+	position: absolute;
+	width: 209px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgVacationRequest .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

@@ -1,0 +1,12 @@
+<div>
+  <div data-width="794" data-height="512" name="frmReportEMS" data-title="EMS Patient Contact Report" class="TFDIncident_frmReportEMS" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmReportEMS">
+      <label id="Label1" tabindex="1" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">EMS Patient Contact Report - Print Preview</label>
+      <button id="cmdViewHIPAA" tabindex="16" class="cmdViewHIPAA" type="button" data-bind="buttonText : cmdViewHIPAA.Text, events : { click : cmdViewHIPAA_Click }, ">View HIPAA Access </button>
+      <button id="cmdPrint" tabindex="1" class="cmdPrint" type="button" data-bind="buttonText : cmdPrint.Text, events : { click : cmdPrint_Click }, ">Print Report</button>
+      <button id="cmdClose" tabindex="3" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div id="sprEMSReport" data-role="mobilizespread" tabindex="3" class="sprEMSReport" data-bind="widgetvalue: sprEMSReport"></div>
+      <div id="sprHIPAAReport" data-role="mobilizespread" tabindex="5" class="sprHIPAAReport" data-bind="widgetvalue: sprHIPAAReport"></div>
+    </form>
+  </div>
+</div>

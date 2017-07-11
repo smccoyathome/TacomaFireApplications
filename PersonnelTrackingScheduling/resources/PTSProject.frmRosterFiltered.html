@@ -1,0 +1,49 @@
+<div>
+  <div data-width="1180" data-height="686" name="frmRosterFiltered" data-title="TFD Employee Roster " class="PTSProject_frmRosterFiltered" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmRosterFiltered">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Filter Employee List By:  </legend>
+        <div>
+          <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+          <label id="_Label4_0" tabindex="13" index="0" class="_Label4_0" data-bind="text : _Label4_0.Text, imagePath : _Label4_0.ImagePath">Employee</label>
+          <label id="Label1" tabindex="8" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Rank</label>
+          <label id="Label5" tabindex="20" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Batt</label>
+          <label id="Label6" tabindex="22" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Shift</label>
+          <label id="Label2" tabindex="9" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">City</label>
+          <label id="Label3" tabindex="10" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Zip Code</label>
+          <div class="cboEmployeePos" id="cboEmployeePos">
+            <select id="cboEmployee" tabindex="14" class="cboEmployee" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmployee.ComboBoxItems, customText : cboEmployee.CustomText, comboSelectedIndex : cboEmployee.SelectedIndex, events : { change : cboEmployee_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboRankPos" id="cboRankPos">
+            <select id="cboRank" tabindex="5" class="cboRank" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboRank.ComboBoxItems, customText : cboRank.CustomText, comboSelectedIndex : cboRank.SelectedIndex, events : { change : cboRank_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboBattPos" id="cboBattPos">
+            <select id="cboBatt" tabindex="16" class="cboBatt" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboBatt.ComboBoxItems, customText : cboBatt.CustomText, comboSelectedIndex : cboBatt.SelectedIndex, events : { change : cboBatt_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboShiftPos" id="cboShiftPos">
+            <select id="cboShift" tabindex="18" class="cboShift" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboShift.ComboBoxItems, customText : cboShift.CustomText, comboSelectedIndex : cboShift.SelectedIndex, events : { change : cboShift_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboCityPos" id="cboCityPos">
+            <select id="cboCity" tabindex="6" class="cboCity" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboCity.ComboBoxItems, customText : cboCity.CustomText, comboSelectedIndex : cboCity.SelectedIndex, events : { change : cboCity_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboZipCodePos" id="cboZipCodePos">
+            <select id="cboZipCode" tabindex="7" class="cboZipCode" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboZipCode.ComboBoxItems, customText : cboZipCode.CustomText, comboSelectedIndex : cboZipCode.SelectedIndex, events : { change : cboZipCode_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdPrint" tabindex="8" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Employee List</button>
+          <button id="cmdClear" tabindex="9" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear Filters</button>
+          <label id="lbCount" tabindex="11" class="lbCount" data-bind="text : lbCount.Text, imagePath : lbCount.ImagePath">List Count:  </label>
+        </div>
+      </fieldset>
+      <div id="sprEmployeeList" data-role="mobilizespread" tabindex="0" class="sprEmployeeList" data-bind="widgetvalue: sprEmployeeList"></div>
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend"></legend>
+        <div>
+          <label id="_Label4_1" tabindex="17" index="1" class="_Label4_1" data-bind="text : _Label4_1.Text, imagePath : _Label4_1.ImagePath">Phone Numbers, etc.</label>
+          <label id="_Label4_2" tabindex="18" index="2" class="_Label4_2" data-bind="text : _Label4_2.Text, imagePath : _Label4_2.ImagePath">Emergency Contact List</label>
+          <div id="sprPhone" data-role="mobilizespread" tabindex="15" class="sprPhone" data-bind="widgetvalue: sprPhone"></div>
+          <div id="sprContact" data-role="mobilizespread" tabindex="16" class="sprContact" data-bind="widgetvalue: sprContact"></div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

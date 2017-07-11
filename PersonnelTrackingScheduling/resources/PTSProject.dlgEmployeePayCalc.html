@@ -1,0 +1,19 @@
+<div>
+  <div data-width="400" data-height="183" name="dlgEmployeePayCalc" data-title="Employee Job Code / Step Calculator" class="PTSProject_dlgEmployeePayCalc" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgEmployeePayCalc">
+      <button id="cmdClose" tabindex="1" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div class="cboEmpListPos" id="cboEmpListPos">
+        <select data-role="combobox" id="cboEmpList" tabindex="3" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label2" tabindex="4" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Employee</label>
+      <label id="lbJobStep" tabindex="6" class="lbJobStep" data-bind="text : lbJobStep.Text, imagePath : lbJobStep.ImagePath">Job Code/Step: </label>
+      <label id="Label3" tabindex="3" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Select Job Code Upgrade:</label>
+      <div class="cboJobCodePos" id="cboJobCodePos">
+        <select data-role="combobox" id="cboJobCode" tabindex="2" class="cboJobCode" data-text-field="Text" data-value-field="Value" data-bind="source : cboJobCode.ComboBoxItems, customText : cboJobCode.CustomText, comboSelectedIndex : cboJobCode.SelectedIndex, events : { change : cboJobCode_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Step = </label>
+      <label id="txtStep" tabindex="8" class="txtStep" data-bind="text : txtStep.Text, imagePath : txtStep.ImagePath">txtStep</label>
+      <label id="lbMessage" tabindex="7" class="lbMessage" data-bind="visible : lbMessage.Visible, text : lbMessage.Text, imagePath : lbMessage.ImagePath">This Job Code is not an upgrade for this Employee.  Please Try another one.</label>
+    </form>
+  </div>
+</div>

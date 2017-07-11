@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <Root Condition="!HasTrailingSlash($(Root))">$(Root)\</Root>
+    <SignAssembly>true</SignAssembly>
+    <Configuration Condition="'$(Configuration)'==''">Debug</Configuration>
+    <Platform Condition="'$(Platform)'==''">AnyCPU</Platform>
+    <PlatformTarget Condition="'$(PlatformTarget)' == ''">AnyCPU</PlatformTarget>
+    <TestAssembliesDir Condition="'$(TestAssembliesDir)'==''">$(Root)TestAssemblies\</TestAssembliesDir>
+    <BinDir Condition="'$(BinDir)'==''">bin\</BinDir>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TestAssembly)'==''">
+    <TestAssembly>false</TestAssembly>
+    <TestAssembly Condition="$([System.IO.Path]::GetFileNameWithoutExtension($(MSBuildProjectFullPath)).EndsWith('.tests', System.StringComparison.OrdinalIgnoreCase))
+                             or $([System.IO.Path]::GetDirectoryName($(MSBuildProjectFullPath)).StartsWith($(TestAssembliesDir), System.StringComparison.OrdinalIgnoreCase))">true</TestAssembly>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="$(TestAssembly)">
+      <PropertyGroup>
+        <OutputPath Condition="'$(OutputPath)' == ''">$(BinDir)\Test\$(Configuration)\</OutputPath>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup>
+        <OutputPath Condition="'$(OutputPath)' == ''">$(BinDir)\$(Configuration)\</OutputPath>
+      </PropertyGroup>
+      <ItemGroup Condition="Exists('$(GlobalAssemblyInfo)') and '$(MSBuildProjectExtension)' == '$([System.IO.Path]::GetExtension(&quot;$(GlobalAssemblyInfo)&quot;))proj'">
+        <Compile Include="$(GlobalAssemblyInfo)" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+ 
+</Project>

@@ -1,0 +1,1799 @@
+.PTSProject_frmTCEdit {
+}
+.PTSProject_frmTCEdit .frmTCEdit {
+	background-color: rgba(240, 240, 240, 1);
+	min-width: 646px;
+	min-height: 400px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTCEdit .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 71px;
+	height: 20px;
+	text-align: right;
+}
+.PTSProject_frmTCEdit .lbEmpName {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #0000C0;
+	left: 80px;
+	top: 8px;
+	position: absolute;
+	width: 310px;
+	height: 20px;
+}
+.PTSProject_frmTCEdit .Label2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 360px;
+	top: 8px;
+	position: absolute;
+	width: 71px;
+	height: 16px;
+	text-align: right;
+}
+.PTSProject_frmTCEdit .lbDate {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #0000C0;
+	left: 432px;
+	top: 8px;
+	position: absolute;
+	width: 205px;
+	height: 16px;
+}
+.PTSProject_frmTCEdit .cmdNotes {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTCEdit .cmdNotes:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit .cmdDeleteNotes {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 424px;
+	top: 32px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTCEdit .cmdDeleteNotes:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit .txtNote {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	overflow: auto;
+	width: 633px;
+	height: 31px;
+}
+.PTSProject_frmTCEdit .txtNote:enabled {
+	color: #004040;
+}
+.PTSProject_frmTCEdit ._Label3_0 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 24px;
+	top: 88px;
+	position: absolute;
+	width: 44px;
+	height: 17px;
+}
+.PTSProject_frmTCEdit ._Label3_7 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 100px;
+	top: 88px;
+	position: absolute;
+	width: 60px;
+	height: 17px;
+}
+.PTSProject_frmTCEdit ._Label3_2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 176px;
+	top: 88px;
+	position: absolute;
+	width: 41px;
+	height: 18px;
+}
+.PTSProject_frmTCEdit ._Label3_8 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 254px;
+	top: 88px;
+	position: absolute;
+	width: 60px;
+	height: 17px;
+}
+.PTSProject_frmTCEdit ._Label3_3 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 320px;
+	top: 88px;
+	position: absolute;
+	width: 94px;
+	height: 18px;
+}
+.PTSProject_frmTCEdit ._Label3_4 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 416px;
+	top: 88px;
+	position: absolute;
+	width: 46px;
+	height: 18px;
+}
+.PTSProject_frmTCEdit ._Label3_5 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 472px;
+	top: 88px;
+	position: absolute;
+	width: 38px;
+	height: 18px;
+}
+.PTSProject_frmTCEdit ._Label3_6 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 528px;
+	top: 88px;
+	position: absolute;
+	width: 38px;
+	height: 18px;
+}
+.PTSProject_frmTCEdit ._Label3_1 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Maroon;
+	left: 584px;
+	top: 88px;
+	position: absolute;
+	width: 62px;
+	height: 18px;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 0px;
+	top: 101px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboKOT_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_0Pos {
+	top: 101px;
+	left: 21px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboAAType_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 65px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboAAType_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboAAType_0Pos {
+	top: 101px;
+	left: 100px;
+	position: absolute;
+	width: 65px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeave_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeave_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeave_0Pos {
+	top: 101px;
+	left: 174px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 60px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_0Pos {
+	top: 101px;
+	left: 254px;
+	position: absolute;
+	width: 60px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboJobCode_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 92px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboJobCode_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboJobCode_0Pos {
+	top: 101px;
+	left: 320px;
+	position: absolute;
+	width: 92px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboStep_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 47px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboStep_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboStep_0Pos {
+	top: 101px;
+	left: 417px;
+	position: absolute;
+	width: 47px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._txtHours_0 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 101px;
+	position: absolute;
+	width: 40px;
+	height: 20px;
+}
+.PTSProject_frmTCEdit ._txtHours_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._lbUnit_0 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 520px;
+	top: 101px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._lbPosition_0 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 580px;
+	top: 101px;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._Line1_0 {
+	background-color: Maroon;
+	left: 21px;
+	top: 125px;
+	position: absolute;
+	width: 559px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 0px;
+	top: 128px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboKOT_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_1Pos {
+	top: 128px;
+	left: 21px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboAAType_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 65px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboAAType_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboAAType_1Pos {
+	top: 128px;
+	left: 100px;
+	position: absolute;
+	width: 65px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeave_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeave_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeave_1Pos {
+	top: 128px;
+	left: 174px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 60px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_1Pos {
+	top: 128px;
+	left: 254px;
+	position: absolute;
+	width: 60px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboJobCode_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 92px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboJobCode_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboJobCode_1Pos {
+	top: 128px;
+	left: 321px;
+	position: absolute;
+	width: 92px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboStep_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 47px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboStep_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboStep_1Pos {
+	top: 128px;
+	left: 417px;
+	position: absolute;
+	width: 47px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._txtHours_1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 128px;
+	position: absolute;
+	width: 40px;
+	height: 23px;
+}
+.PTSProject_frmTCEdit ._txtHours_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._lbUnit_1 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 520px;
+	top: 128px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._lbPosition_1 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 580px;
+	top: 128px;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._Line1_1 {
+	background-color: Red;
+	color: Black;
+	left: 21px;
+	top: 152px;
+	position: absolute;
+	width: 620px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 0px;
+	top: 154px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboKOT_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_2Pos {
+	top: 154px;
+	left: 21px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboAAType_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 65px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboAAType_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboAAType_2Pos {
+	top: 154px;
+	left: 100px;
+	position: absolute;
+	width: 65px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeave_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeave_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeave_2Pos {
+	top: 154px;
+	left: 174px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 60px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_2Pos {
+	top: 154px;
+	left: 254px;
+	position: absolute;
+	width: 60px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboJobCode_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 92px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboJobCode_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboJobCode_2Pos {
+	top: 154px;
+	left: 321px;
+	position: absolute;
+	width: 92px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboStep_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 47px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboStep_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboStep_2Pos {
+	top: 154px;
+	left: 417px;
+	position: absolute;
+	width: 47px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._txtHours_2 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 154px;
+	position: absolute;
+	width: 40px;
+	height: 23px;
+}
+.PTSProject_frmTCEdit ._txtHours_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._lbUnit_2 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 520px;
+	top: 154px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._lbPosition_2 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 580px;
+	top: 154px;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._Line1_2 {
+	background-color: Red;
+	color: Black;
+	left: 21px;
+	top: 176px;
+	position: absolute;
+	width: 620px;
+	height: 2px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 0px;
+	top: 180px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboKOT_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_3Pos {
+	top: 180px;
+	left: 21px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboAAType_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 65px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboAAType_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboAAType_3Pos {
+	top: 180px;
+	left: 100px;
+	position: absolute;
+	width: 65px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeave_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeave_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeave_3Pos {
+	top: 180px;
+	left: 174px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 60px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_3Pos {
+	top: 180px;
+	left: 254px;
+	position: absolute;
+	width: 60px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboJobCode_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 92px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboJobCode_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboJobCode_3Pos {
+	top: 180px;
+	left: 321px;
+	position: absolute;
+	width: 92px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboStep_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 47px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboStep_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboStep_3Pos {
+	top: 180px;
+	left: 417px;
+	position: absolute;
+	width: 47px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._txtHours_3 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 180px;
+	position: absolute;
+	width: 40px;
+	height: 20px;
+}
+.PTSProject_frmTCEdit ._txtHours_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._lbUnit_3 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 520px;
+	top: 180px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._lbPosition_3 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 580px;
+	top: 180px;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._Line1_3 {
+	background-color: Maroon;
+	left: 21px;
+	top: 204px;
+	position: absolute;
+	width: 620px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_4 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 0px;
+	top: 207px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboKOT_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_4Pos {
+	top: 207px;
+	left: 21px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboAAType_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 65px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboAAType_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboAAType_4Pos {
+	top: 207px;
+	left: 100px;
+	position: absolute;
+	width: 65px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeave_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeave_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeave_4Pos {
+	top: 207px;
+	left: 174px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 60px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_4Pos {
+	top: 207px;
+	left: 254px;
+	position: absolute;
+	width: 60px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboJobCode_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 92px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboJobCode_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboJobCode_4Pos {
+	top: 207px;
+	left: 321px;
+	position: absolute;
+	width: 92px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboStep_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 47px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboStep_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboStep_4Pos {
+	top: 207px;
+	left: 417px;
+	position: absolute;
+	width: 47px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._txtHours_4 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 207px;
+	position: absolute;
+	width: 40px;
+	height: 20px;
+}
+.PTSProject_frmTCEdit ._txtHours_4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._lbUnit_4 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 520px;
+	top: 207px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._lbPosition_4 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 580px;
+	top: 207px;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._Line1_4 {
+	background-color: Maroon;
+	left: 21px;
+	top: 231px;
+	position: absolute;
+	width: 620px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_5 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 0px;
+	top: 233px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboKOT_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_5Pos {
+	top: 233px;
+	left: 21px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboAAType_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 65px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboAAType_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboAAType_5Pos {
+	top: 233px;
+	left: 100px;
+	position: absolute;
+	width: 65px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeave_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeave_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeave_5Pos {
+	top: 233px;
+	left: 174px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 60px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_5Pos {
+	top: 233px;
+	left: 254px;
+	position: absolute;
+	width: 60px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboJobCode_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 92px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboJobCode_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboJobCode_5Pos {
+	top: 233px;
+	left: 321px;
+	position: absolute;
+	width: 92px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboStep_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 47px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboStep_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboStep_5Pos {
+	top: 233px;
+	left: 416px;
+	position: absolute;
+	width: 47px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._txtHours_5 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 233px;
+	position: absolute;
+	width: 40px;
+	height: 23px;
+}
+.PTSProject_frmTCEdit ._txtHours_5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._lbUnit_5 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 520px;
+	top: 233px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._lbPosition_5 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 580px;
+	top: 233px;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._Line1_5 {
+	background-color: Maroon;
+	left: 21px;
+	top: 257px;
+	position: absolute;
+	width: 620px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_6 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 0px;
+	top: 260px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboKOT_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_6Pos {
+	top: 260px;
+	left: 21px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboAAType_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 65px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboAAType_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboAAType_6Pos {
+	top: 260px;
+	left: 100px;
+	position: absolute;
+	width: 65px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeave_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeave_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeave_6Pos {
+	top: 260px;
+	left: 174px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 60px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_6Pos {
+	top: 260px;
+	left: 254px;
+	position: absolute;
+	width: 60px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboJobCode_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 92px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboJobCode_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboJobCode_6Pos {
+	top: 260px;
+	left: 321px;
+	position: absolute;
+	width: 92px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboStep_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 47px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboStep_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboStep_6Pos {
+	top: 260px;
+	left: 417px;
+	position: absolute;
+	width: 47px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._txtHours_6 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 260px;
+	position: absolute;
+	width: 40px;
+	height: 23px;
+}
+.PTSProject_frmTCEdit ._txtHours_6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._lbUnit_6 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 520px;
+	top: 260px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._lbPosition_6 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 580px;
+	top: 260px;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._Line1_6 {
+	background-color: Maroon;
+	left: 21px;
+	top: 284px;
+	position: absolute;
+	width: 620px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_7 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 0px;
+	top: 286px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmTCEdit ._chkSCKFlag_7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_7 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboKOT_7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboKOT_7Pos {
+	top: 286px;
+	left: 21px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboAAType_7 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 65px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboAAType_7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboAAType_7Pos {
+	top: 286px;
+	left: 100px;
+	position: absolute;
+	width: 65px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeave_7 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 76px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeave_7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeave_7Pos {
+	top: 286px;
+	left: 174px;
+	position: absolute;
+	width: 76px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_7 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 60px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboLeaveAA_7Pos {
+	top: 286px;
+	left: 254px;
+	position: absolute;
+	width: 60px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboJobCode_7 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 92px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboJobCode_7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboJobCode_7Pos {
+	top: 286px;
+	left: 321px;
+	position: absolute;
+	width: 92px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._cboStep_7 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 47px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmTCEdit ._cboStep_7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._cboStep_7Pos {
+	top: 286px;
+	left: 417px;
+	position: absolute;
+	width: 47px;
+	height: 22px;
+}
+.PTSProject_frmTCEdit ._txtHours_7 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 472px;
+	top: 286px;
+	position: absolute;
+	width: 40px;
+	height: 23px;
+}
+.PTSProject_frmTCEdit ._txtHours_7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit ._lbUnit_7 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 520px;
+	top: 286px;
+	position: absolute;
+	width: 49px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit ._lbPosition_7 {
+	background-color: #E0E0E0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: rgba(0, 0, 0, 1);
+	left: 580px;
+	top: 286px;
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	color: Blue;
+	left: 8px;
+	top: 328px;
+	position: absolute;
+	width: 345px;
+	height: 15px;
+}
+.PTSProject_frmTCEdit .lbWarn {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: Red;
+	left: 5px;
+	top: 336px;
+	position: absolute;
+	width: 320px;
+	height: 23px;
+	text-align: center;
+}
+.PTSProject_frmTCEdit .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 44px;
+	top: 360px;
+	position: absolute;
+	width: 104px;
+	height: 32px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTCEdit .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 160px;
+	top: 360px;
+	position: absolute;
+	width: 104px;
+	height: 32px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTCEdit .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit .cmdSchedule {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 272px;
+	top: 360px;
+	position: absolute;
+	width: 137px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTCEdit .cmdSchedule:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTCEdit .cmdTrade {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 416px;
+	top: 360px;
+	position: absolute;
+	width: 129px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTCEdit .cmdTrade:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

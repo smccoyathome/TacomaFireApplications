@@ -1,0 +1,155 @@
+.PTSProject_dlgAddPPE {
+}
+.PTSProject_dlgAddPPE .dlgAddPPE {
+	background-color: Navy;
+	min-width: 557px;
+	min-height: 387px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgAddPPE .Label3 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_dlgAddPPE .lblName {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 96px;
+	top: 8px;
+	position: absolute;
+	width: 364px;
+	height: 17px;
+}
+.PTSProject_dlgAddPPE .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 464px;
+	top: 8px;
+	position: absolute;
+	width: 89px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgAddPPE .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgAddPPE .Label4 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_dlgAddPPE .lblEmpNum {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 96px;
+	top: 32px;
+	position: absolute;
+	width: 364px;
+	height: 17px;
+}
+.PTSProject_dlgAddPPE .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 464px;
+	top: 40px;
+	position: absolute;
+	width: 89px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgAddPPE .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgAddPPE .Label5 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_dlgAddPPE .lblAssignment {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 96px;
+	top: 56px;
+	position: absolute;
+	width: 364px;
+	height: 17px;
+}
+.PTSProject_dlgAddPPE .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FF8000;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 553px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgAddPPE .sprPPEList {
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 545px;
+	height: 285px;
+}
+.PTSProject_dlgAddPPE .sprPPEList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgAddPPE .sprPPEList .k-spreadsheet-action-bar {
+	display: none;
+}
+

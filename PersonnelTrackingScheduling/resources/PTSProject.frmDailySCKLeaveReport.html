@@ -1,0 +1,33 @@
+<div>
+  <div data-width="1072" data-height="696" name="frmDailySCKLeaveReport" data-title="Manage Leave Returns" class="PTSProject_frmDailySCKLeaveReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmDailySCKLeaveReport">
+      <fieldset id="frmManage" class="frmManage">
+        <legend id="frmManage_legend" class="frmManage_legend"> Manage Returns </legend>
+        <div>
+          <input id="txtNameSearch" tabindex="46" Value="txtNameSearch" class="txtNameSearch" data-bind="value : txtNameSearch.Text, events : { change : txtNameSearch_TextChanged }, " />
+          <button id="cmdClear" tabindex="47" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear</button>
+          <label id="Label2" tabindex="4" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Return Date</label>
+          <button id="cmdClose" tabindex="48" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteReturnDate" tabindex="40" class="dteReturnDate" data-bind="dateTimePickerValue : dteReturnDate.Value, DateTimeMinDate : dteReturnDate.MinDate, DateTimeMaxDate : dteReturnDate.MaxDate" />
+          <button id="cmdEdit" tabindex="43" class="cmdEdit" type="button" data-bind="enabled : cmdEdit.Enabled, events : { click : cmdEdit_Click }, ">OK</button>
+          <div id="sprEmployee" data-role="mobilizespread" tabindex="2" class="sprEmployee" data-bind="widgetvalue: sprEmployee"></div>
+          <button id="cmdUndo" tabindex="45" class="cmdUndo" type="button" data-bind="enabled : cmdUndo.Enabled, events : { click : cmdUndo_Click }, ">Undo</button>
+          <textarea id="txtComment" tabindex="42" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+          <button id="cmdApproved" tabindex="44" class="cmdApproved" type="button" data-bind="enabled : cmdApproved.Enabled, events : { click : cmdApproved_Click }, ">Report Update Done</button>
+        </div>
+      </fieldset>
+      <label id="Label1" tabindex="8" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Report Date</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtReportDate" tabindex="49" class="dtReportDate" data-bind="dateTimePickerValue : dtReportDate.Value, DateTimeMinDate : dtReportDate.MinDate, DateTimeMaxDate : dtReportDate.MaxDate, events : { click : dtReportDate_Click, change : dtReportDate_ValueChanged }, " />
+      <button id="cmdRefresh" tabindex="52" class="cmdRefresh" type="button" data-bind="events : { click : cmdRefresh_Click }, ">Refresh</button>
+      <button id="cmdPrint" tabindex="51" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Report</button>
+      <div class="chkStaff">
+        <input id="chkStaff" tabindex="53" type="checkbox" style="float: left" data-bind="enabled : chkStaff.Enabled, events : { click : chkStaff_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkStaff.Enabled">Verify Personnel with 3 or more shifts...   Contact Battalion Chief</label>
+        </div>
+      </div>
+      <label id="Label3" tabindex="17" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath"></label>
+      <div id="sprNewReport" data-role="mobilizespread" tabindex="0" class="sprNewReport" data-bind="widgetvalue: sprNewReport"></div>
+    </form>
+  </div>
+</div>

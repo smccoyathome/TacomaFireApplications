@@ -1,0 +1,60 @@
+.PTSProject_frmDebitReport {
+}
+.PTSProject_frmDebitReport .frmDebitReport {
+	background-color: rgba(240, 240, 240, 1);
+	min-width: 805px;
+	min-height: 533px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmDebitReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 68px;
+	height: 23px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDebitReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDebitReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 72px;
+	top: 0px;
+	position: absolute;
+	width: 68px;
+	height: 23px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDebitReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDebitReport .sprDebit {
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	width: 803px;
+	height: 508px;
+}
+.PTSProject_frmDebitReport .sprDebit .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmDebitReport .sprDebit .k-spreadsheet-action-bar {
+	display: none;
+}
+

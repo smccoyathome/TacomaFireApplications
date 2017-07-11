@@ -1,0 +1,156 @@
+.PTSProject_frmSenority {
+}
+.PTSProject_frmSenority .frmSenority {
+	background-color: Gray;
+	min-width: 403px;
+	min-height: 349px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmSenority .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 8px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+}
+.PTSProject_frmSenority .cboName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 369px;
+	height: 25px;
+}
+.PTSProject_frmSenority .cboName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSenority .cboNamePos {
+	top: 32px;
+	left: 16px;
+	position: absolute;
+	width: 369px;
+	height: 25px;
+}
+.PTSProject_frmSenority .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.PTSProject_frmSenority .sprGrid {
+	left: 16px;
+	top: 88px;
+	position: absolute;
+	width: 372px;
+	height: 193px;
+}
+.PTSProject_frmSenority .sprGrid .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmSenority .sprGrid .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmSenority .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 16px;
+	top: 296px;
+	position: absolute;
+	width: 113px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSenority .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSenority .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 144px;
+	top: 296px;
+	position: absolute;
+	width: 113px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSenority .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSenority .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 272px;
+	top: 296px;
+	position: absolute;
+	width: 113px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSenority .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSenority .grdSenority {
+	border-style: inset;
+	font-family: Arial;
+	font-size: 12.6px;
+	left: 248px;
+	top: 392px;
+	position: absolute;
+	overflow: auto;
+	width: 243px;
+	height: 186px;
+	visibility: hidden;
+}
+.PTSProject_frmSenority .grdSenority .k-grid td {
+	white-space: nowrap;
+}
+.PTSProject_frmSenority .sprSeniority {
+	border-width: 0px;
+	padding: 0px;
+	left: 40px;
+	top: 400px;
+	position: absolute;
+	width: 201px;
+	height: 121px;
+	visibility: hidden;
+}
+.PTSProject_frmSenority .sprSeniority .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmSenority .sprSeniority .k-spreadsheet-action-bar {
+	display: none;
+}
+

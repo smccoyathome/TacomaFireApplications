@@ -1,0 +1,424 @@
+.PTSProject_frmGlobeData {
+}
+.PTSProject_frmGlobeData .frmGlobeData {
+	background-color: #400000;
+	min-width: 724px;
+	min-height: 407px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_frmGlobeData .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 0px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 73px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboTypePos {
+	top: 8px;
+	left: 88px;
+	position: absolute;
+	width: 73px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 192px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboChstWaist {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboChstWaist:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboChstWaistPos {
+	top: 8px;
+	left: 304px;
+	position: absolute;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .Label7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 360px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboColor {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboColor:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboColorPos {
+	top: 8px;
+	left: 448px;
+	position: absolute;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 592px;
+	top: 8px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmGlobeData .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 0px;
+	top: 35px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboStation {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 73px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboStation:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboStationPos {
+	top: 35px;
+	left: 88px;
+	position: absolute;
+	width: 73px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 192px;
+	top: 35px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboLength {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboLength:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboLengthPos {
+	top: 35px;
+	left: 304px;
+	position: absolute;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .Label8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 360px;
+	top: 35px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboOrder {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboOrder:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboOrderPos {
+	top: 35px;
+	left: 448px;
+	position: absolute;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 592px;
+	top: 35px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmGlobeData .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 0px;
+	top: 62px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .txtNameSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 88px;
+	top: 62px;
+	position: absolute;
+	width: 105px;
+	height: 19px;
+}
+.PTSProject_frmGlobeData .txtNameSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 192px;
+	top: 62px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboSleeve {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboSleeve:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboSleevePos {
+	top: 62px;
+	left: 304px;
+	position: absolute;
+	width: 57px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .Label9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 360px;
+	top: 62px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboStyle {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboStyle:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboStylePos {
+	top: 62px;
+	left: 448px;
+	position: absolute;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 592px;
+	top: 62px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmGlobeData .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .Label10 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 192px;
+	top: 88px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmGlobeData .cboManufDate {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .cboManufDate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmGlobeData .cboManufDatePos {
+	top: 88px;
+	left: 304px;
+	position: absolute;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmGlobeData .lbCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: Lime;
+	left: 560px;
+	top: 96px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmGlobeData .sprList {
+	left: 4px;
+	top: 112px;
+	position: absolute;
+	width: 715px;
+	height: 289px;
+}
+.PTSProject_frmGlobeData .sprList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmGlobeData .sprList .k-spreadsheet-action-bar {
+	display: none;
+}
+

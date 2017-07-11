@@ -1,0 +1,28 @@
+.TFDIncident_MDIIncident {
+}
+.TFDIncident_MDIIncident .MDIIncident {
+	background-color: Silver;
+	min-height: 100%;
+	min-width: 100%;
+	cursor: default;
+}
+.TFDIncident_MDIIncident .mnuExit {
+}
+.TFDIncident_MDIIncident .mnuFile {
+}
+.TFDIncident_MDIIncident .MainMenu1 {
+	position: relative;
+	z-index: 16777271;
+}
+/*.TFDIncident_MDIIncident .Picture1 {
+	background-color: rgba(240, 240, 240, 1);
+	border-style: inset;
+	cursor: default;
+	left: 0px;
+	top: 24px;
+	position: absolute;
+	width: 812px;
+	height: 1px;
+	visibility: inherit;
+}*/
+

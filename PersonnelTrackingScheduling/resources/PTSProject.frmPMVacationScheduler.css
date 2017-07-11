@@ -1,0 +1,60 @@
+.PTSProject_frmPMVacationScheduler {
+}
+.PTSProject_frmPMVacationScheduler .frmPMVacationScheduler {
+	background-color: #400000;
+	min-width: 824px;
+	min-height: 633px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmPMVacationScheduler .calYear {
+	font-family: Arial;
+	font-size: 8.1px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+}
+.PTSProject_frmPMVacationScheduler .calYear:enabled {
+	color: #000040;
+}
+.PTSProject_frmPMVacationScheduler .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	font-weight: bold;
+	left: 568px;
+	top: 592px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPMVacationScheduler .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPMVacationScheduler .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	font-weight: bold;
+	left: 680px;
+	top: 592px;
+	position: absolute;
+	width: 97px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPMVacationScheduler .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

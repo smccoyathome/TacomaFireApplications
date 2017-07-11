@@ -1,0 +1,76 @@
+<div>
+  <div data-width="954" data-height="755" name="frmMasterPhoneLists" data-title="TFD Phone Lists" class="PTSProject_frmMasterPhoneLists" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmMasterPhoneLists">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <button id="cmdClose" tabindex="19" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+          <div index="0" class="_optList_0">
+            <input id="_optList_0" tabindex="18" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optList_0.Checked, events : { change : optList_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Facility \ Resource Phone List</label>
+            </div>
+          </div>
+          <div index="1" class="_optList_1">
+            <input id="_optList_1" tabindex="20" type="radio" name="Frame1_radios" checked="checked" style="float: left" data-bind="customChecked : _optList_1.Checked, events : { change : optList_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Employee Phone List</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset id="frmResource" class="frmResource" data-bind="visible : frmResource.Visible">
+        <legend id="frmResource_legend" class="frmResource_legend"></legend>
+        <div>
+          <label id="Label1" tabindex="12" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Facility \ Resource</label>
+          <label id="Label2" tabindex="11" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Phone Type</label>
+          <button id="cmdClearFacility" tabindex="24" class="cmdClearFacility" type="button" data-bind="events : { click : cmdClearFacility_Click }, ">Clear Filters</button>
+          <div class="cboFFacilityPos" id="cboFFacilityPos">
+            <select id="cboFFacility" tabindex="26" class="cboFFacility" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboFFacility.ComboBoxItems, customText : cboFFacility.CustomText, comboSelectedIndex : cboFFacility.SelectedIndex, events : { change : cboFFacility_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboFTypePos" id="cboFTypePos">
+            <select id="cboFType" tabindex="25" class="cboFType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboFType.ComboBoxItems, customText : cboFType.CustomText, comboSelectedIndex : cboFType.SelectedIndex, events : { change : cboFType_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdPrintFacility" tabindex="30" class="cmdPrintFacility" type="button" data-bind="events : { click : cmdPrintFacility_Click }, ">Print List</button>
+          <label id="lbFacilityCount" tabindex="25" class="lbFacilityCount" data-bind="text : lbFacilityCount.Text, imagePath : lbFacilityCount.ImagePath">Total Rows</label>
+          <div id="sprResource" data-role="mobilizespread" tabindex="7" class="sprResource" data-bind="widgetvalue: sprResource"></div>
+        </div>
+      </fieldset>
+      <fieldset id="frmEmployee" class="frmEmployee" data-bind="visible : frmEmployee.Visible">
+        <legend id="frmEmployee_legend" class="frmEmployee_legend"></legend>
+        <div>
+          <label id="Label6" tabindex="21" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Facility </label>
+          <label id="Label5" tabindex="19" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Unit</label>
+          <label id="Label3" tabindex="16" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Phone Type</label>
+          <label id="Label4" tabindex="17" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Assign Type</label>
+          <label id="Label7" tabindex="23" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Group</label>
+          <div class="chkCBOnly">
+            <input id="chkCBOnly" tabindex="15" type="checkbox" style="float: left" data-bind="events : { click : chkCBOnly_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Call Back Only</label>
+            </div>
+          </div>
+          <button id="cmdClearEmployee" tabindex="4" class="cmdClearEmployee" type="button" data-bind="events : { click : cmdClearEmployee_Click }, ">Clear Filters</button>
+          <div class="cboEFacilityPos" id="cboEFacilityPos">
+            <select id="cboEFacility" tabindex="11" class="cboEFacility" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEFacility.ComboBoxItems, customText : cboEFacility.CustomText, comboSelectedIndex : cboEFacility.SelectedIndex, events : { change : cboEFacility_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboUnitPos" id="cboUnitPos">
+            <select id="cboUnit" tabindex="9" class="cboUnit" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboUnit.ComboBoxItems, customText : cboUnit.CustomText, comboSelectedIndex : cboUnit.SelectedIndex, events : { change : cboUnit_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboETypePos" id="cboETypePos">
+            <select id="cboEType" tabindex="5" class="cboEType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEType.ComboBoxItems, customText : cboEType.CustomText, comboSelectedIndex : cboEType.SelectedIndex, events : { change : cboEType_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboAssignTypePos" id="cboAssignTypePos">
+            <select id="cboAssignType" tabindex="6" class="cboAssignType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAssignType.ComboBoxItems, customText : cboAssignType.CustomText, comboSelectedIndex : cboAssignType.SelectedIndex, events : { change : cboAssignType_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="cboGroupPos" id="cboGroupPos">
+            <select id="cboGroup" tabindex="13" class="cboGroup" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboGroup.ComboBoxItems, customText : cboGroup.CustomText, comboSelectedIndex : cboGroup.SelectedIndex, events : { change : cboGroup_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdPrintEmployee" tabindex="17" class="cmdPrintEmployee" type="button" data-bind="events : { click : cmdPrintEmployee_Click }, ">Print List</button>
+          <label id="lbEmployeeCount" tabindex="26" class="lbEmployeeCount" data-bind="text : lbEmployeeCount.Text, imagePath : lbEmployeeCount.ImagePath">Total Rows</label>
+          <div id="sprEmployeeList" data-role="mobilizespread" tabindex="1" class="sprEmployeeList" data-bind="widgetvalue: sprEmployeeList"></div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

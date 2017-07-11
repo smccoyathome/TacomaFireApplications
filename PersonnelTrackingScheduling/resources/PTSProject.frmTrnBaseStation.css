@@ -1,0 +1,384 @@
+.PTSProject_frmTrnBaseStation {
+}
+.PTSProject_frmTrnBaseStation .frmTrnBaseStation {
+	background-color: #404000;
+	min-width: 1222px;
+	min-height: 784px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .frmTrainlBaseStation {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 1209px;
+	height: 121px;
+	border: 2px groove;
+}
+.PTSProject_frmTrnBaseStation .frmTrainlBaseStation:enabled {
+	color: #FFC080;
+}
+.PTSProject_frmTrnBaseStation .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 992px;
+	top: 24px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrnBaseStation .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrnBaseStation .frmBattOpt {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 184px;
+	top: 32px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrnBaseStation .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrnBaseStation .optAll {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optAll:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .opt182 {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 96px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .opt182:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .opt181 {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .opt181:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .opt183 {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 96px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .opt183:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrnBaseStation .Frame4 {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 360px;
+	top: 32px;
+	position: absolute;
+	width: 177px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTrnBaseStation .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrnBaseStation .optA {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optA:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .optA * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optC {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optC:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .optC * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optB {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optB:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .optB * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optD {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 88px;
+	top: 32px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optD:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .optD * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrnBaseStation ._lbSubTitle_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: Aqua;
+	left: 32px;
+	top: 40px;
+	position: absolute;
+	width: 121px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmTrnBaseStation .Frame1 {
+	background-color: #404000;
+	left: 600px;
+	top: 48px;
+	position: absolute;
+	width: 353px;
+	height: 41px;
+	border: 2px groove;
+}
+.PTSProject_frmTrnBaseStation .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrnBaseStation .optGrp1 {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 24px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optGrp1:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .optGrp1 * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optGrp2 {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 140px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optGrp2:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .optGrp2 * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optGrp3 {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 256px;
+	top: 16px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTrnBaseStation .optGrp3:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTrnBaseStation .optGrp3 * {
+	Cursor: default;
+}
+.PTSProject_frmTrnBaseStation .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrnBaseStation .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	width: 121px;
+	height: 25px;
+}
+.PTSProject_frmTrnBaseStation .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrnBaseStation .cboYearPos {
+	top: 56px;
+	left: 32px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.PTSProject_frmTrnBaseStation .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 992px;
+	top: 56px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrnBaseStation .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrnBaseStation .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 992px;
+	top: 88px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTrnBaseStation .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTrnBaseStation .frmTrainlBaseStation_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTrnBaseStation .sprReport {
+	left: 8px;
+	top: 136px;
+	position: absolute;
+	width: 1209px;
+	height: 633px;
+}
+.PTSProject_frmTrnBaseStation .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTrnBaseStation .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

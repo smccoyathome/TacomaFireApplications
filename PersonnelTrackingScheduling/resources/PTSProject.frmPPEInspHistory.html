@@ -1,0 +1,129 @@
+<div>
+  <div data-width="735" data-height="403" name="frmPPEInspHistory" data-title="PPE Inspection History" class="PTSProject_frmPPEInspHistory" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmPPEInspHistory">
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend"></legend>
+        <div>
+          <div class="chkDisplayOption">
+            <input id="chkDisplayOption" tabindex="15" type="checkbox" style="float: left" data-bind="events : { click : chkDisplayOption_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Change to "Not Inspected" Options</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset id="frmNotInspectedOptions" class="frmNotInspectedOptions" data-bind="visible : frmNotInspectedOptions.Visible">
+        <legend id="frmNotInspectedOptions_legend" class="frmNotInspectedOptions_legend">List Not Inspected Items by following filters:</legend>
+        <div>
+          <fieldset id="frmBattOpt" class="frmBattOpt">
+            <legend id="frmBattOpt_legend" class="frmBattOpt_legend"></legend>
+            <div>
+              <div class="optAll">
+                <input id="optAll" tabindex="21" type="radio" name="frmBattOpt_radios" checked="checked" style="float: left" data-bind="customChecked : optAll.Checked, events : { change : optAll_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ALL</label>
+                </div>
+              </div>
+              <div class="opt182">
+                <input id="opt182" tabindex="23" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt182.Checked, events : { change : opt182_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 2</label>
+                </div>
+              </div>
+              <div class="opt181">
+                <input id="opt181" tabindex="22" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt181.Checked, events : { change : opt181_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 1</label>
+                </div>
+              </div>
+              <div class="opt183">
+                <input id="opt183" tabindex="24" type="radio" name="frmBattOpt_radios" style="float: left" data-bind="customChecked : opt183.Checked, events : { change : opt183_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Batt 3</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="Frame4" class="Frame4">
+            <legend id="Frame4_legend" class="Frame4_legend"></legend>
+            <div>
+              <div class="optA">
+                <input id="optA" tabindex="25" type="radio" name="Frame4_radios" style="float: left" data-bind="customChecked : optA.Checked, events : { change : optA_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift A</label>
+                </div>
+              </div>
+              <div class="optC">
+                <input id="optC" tabindex="27" type="radio" name="Frame4_radios" style="float: left" data-bind="customChecked : optC.Checked, events : { change : optC_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift C</label>
+                </div>
+              </div>
+              <div class="optB">
+                <input id="optB" tabindex="26" type="radio" name="Frame4_radios" style="float: left" data-bind="customChecked : optB.Checked, events : { change : optB_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift B</label>
+                </div>
+              </div>
+              <div class="optD">
+                <input id="optD" tabindex="28" type="radio" name="Frame4_radios" style="float: left" data-bind="customChecked : optD.Checked, events : { change : optD_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Shift D</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <label id="Label1" tabindex="31" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Item Type: </label>
+          <div class="cboTypePos" id="cboTypePos">
+            <select id="cboType" tabindex="16" class="cboType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboType.ComboBoxItems, customText : cboType.CustomText, comboSelectedIndex : cboType.SelectedIndex, events : { change : cboType_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="lbBrand" tabindex="30" class="lbBrand" data-bind="text : lbBrand.Text, imagePath : lbBrand.ImagePath">Manufacturer: </label>
+          <div class="cboBrandPos" id="cboBrandPos" data-bind="visible : cboBrand.Visible">
+            <select id="cboBrand" tabindex="17" class="cboBrand" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboBrand.ComboBoxItems, enabled : cboBrand.Enabled, customText : cboBrand.CustomText, comboSelectedIndex : cboBrand.SelectedIndex, events : { change : cboBrand_SelectionChangeCommitted }, "></select>
+          </div>
+          <fieldset id="Frame3" class="Frame3">
+            <legend id="Frame3_legend" class="Frame3_legend"></legend>
+            <div>
+              <div class="opt6Month">
+                <input id="opt6Month" tabindex="19" type="radio" name="Frame3_radios" checked="checked" style="float: left" data-bind="customChecked : opt6Month.Checked, events : { change : opt6Month_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Items Not Inspected past 6 months</label>
+                </div>
+              </div>
+              <div class="opt12Month">
+                <input id="opt12Month" tabindex="20" type="radio" name="Frame3_radios" style="float: left" data-bind="customChecked : opt12Month.Checked, events : { change : opt12Month_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Items Not Inspected past year</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <button id="cmdClear" tabindex="18" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear Filters</button>
+        </div>
+      </fieldset>
+      <fieldset id="frmInpectedOptions" class="frmInpectedOptions" data-bind="visible : frmInpectedOptions.Visible">
+        <legend id="frmInpectedOptions_legend" class="frmInpectedOptions_legend">List Inspections by one of the options:</legend>
+        <div>
+          <label id="Label2" tabindex="23" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Display Inspections for a specific Employee</label>
+          <label id="lbEmpID" tabindex="17" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath">lbEmpID</label>
+          <div class="cboEmpListPos" id="cboEmpListPos">
+            <select id="cboEmpList" tabindex="8" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="chkInactive">
+            <input id="chkInactive" tabindex="9" type="checkbox" style="float: left" data-bind="events : { click : chkInactive_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Inactive Employees</label>
+            </div>
+          </div>
+          <label id="Label11" tabindex="22" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">OR Display Inspections for a specific Item by Tracking \#</label>
+          <input id="txtTrackingNum" tabindex="10" Value="txtTrackingNum" class="txtTrackingNum" data-bind="value : txtTrackingNum.Text" />
+          <button id="cmdSearchNum" tabindex="11" class="cmdSearchNum" type="button" data-bind="events : { click : cmdSearchNum_Click }, ">Search</button>
+        </div>
+      </fieldset>
+      <button id="cmdClose" tabindex="1" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <button id="cmdPrintList" tabindex="2" class="cmdPrintList" type="button" data-bind="events : { click : cmdPrintList_Click }, ">Print List</button>
+      <label id="lbTotalCount" tabindex="24" class="lbTotalCount" data-bind="text : lbTotalCount.Text, imagePath : lbTotalCount.ImagePath">List Count:  0</label>
+      <div id="sprList" data-role="mobilizespread" tabindex="15" class="sprList" data-bind="widgetvalue: sprList"></div>
+    </form>
+  </div>
+</div>

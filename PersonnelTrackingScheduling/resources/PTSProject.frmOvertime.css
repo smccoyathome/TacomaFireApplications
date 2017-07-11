@@ -1,0 +1,190 @@
+.PTSProject_frmOvertime {
+}
+.PTSProject_frmOvertime .frmOvertime {
+	background-color: Teal;
+	min-width: 778px;
+	min-height: 490px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmOvertime .Frame1 {
+	background-color: Teal;
+	left: 408px;
+	top: 0px;
+	position: absolute;
+	width: 201px;
+	height: 54px;
+	border: 2px groove;
+}
+.PTSProject_frmOvertime .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmOvertime ._cboOption_0 {
+	background-color: Teal;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 8px;
+	top: 12px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmOvertime ._cboOption_0:enabled {
+	color: #C0C0FF;
+}
+.PTSProject_frmOvertime ._cboOption_0 * {
+	Cursor: default;
+}
+.PTSProject_frmOvertime ._cboOption_2 {
+	background-color: Teal;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 112px;
+	top: 18px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmOvertime ._cboOption_2:enabled {
+	color: #C0C0FF;
+}
+.PTSProject_frmOvertime ._cboOption_2 * {
+	Cursor: default;
+}
+.PTSProject_frmOvertime ._cboOption_1 {
+	background-color: Teal;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 8px;
+	top: 30px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmOvertime ._cboOption_1:enabled {
+	color: #C0C0FF;
+}
+.PTSProject_frmOvertime ._cboOption_1 * {
+	Cursor: default;
+}
+.PTSProject_frmOvertime .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmOvertime .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: #FFFFC0;
+	left: 185px;
+	top: 13px;
+	position: absolute;
+	width: 98px;
+	height: 28px;
+}
+.PTSProject_frmOvertime .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	color: #FFFFC0;
+	left: 3px;
+	top: 14px;
+	position: absolute;
+	width: 90px;
+	height: 20px;
+}
+.PTSProject_frmOvertime .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmOvertime .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmOvertime .cboYearPos {
+	top: 14px;
+	left: 94px;
+	position: absolute;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmOvertime .cboMonth {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmOvertime .cboMonth:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmOvertime .cboMonthPos {
+	top: 14px;
+	left: 281px;
+	position: absolute;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmOvertime .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 624px;
+	top: 14px;
+	position: absolute;
+	width: 71px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmOvertime .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmOvertime .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 704px;
+	top: 14px;
+	position: absolute;
+	width: 71px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmOvertime .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmOvertime .sprOT {
+	left: 2px;
+	top: 56px;
+	position: absolute;
+	width: 769px;
+	height: 430px;
+}
+.PTSProject_frmOvertime .sprOT .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmOvertime .sprOT .k-spreadsheet-action-bar {
+	display: none;
+}
+

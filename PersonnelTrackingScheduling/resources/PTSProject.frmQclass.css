@@ -1,0 +1,306 @@
+.PTSProject_frmQclass {
+}
+.PTSProject_frmQclass .frmQclass {
+	background-color: #804040;
+	min-width: 798px;
+	min-height: 482px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmQclass .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmQclass .sprQ1 {
+	left: 264px;
+	top: 8px;
+	position: absolute;
+	width: 529px;
+	height: 465px;
+}
+.PTSProject_frmQclass .sprQ1 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmQclass .sprQ1 .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmQclass .cboClass {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	width: 233px;
+	height: 21px;
+}
+.PTSProject_frmQclass .cboClass:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmQclass .cboClassPos {
+	top: 24px;
+	left: 8px;
+	position: absolute;
+	width: 233px;
+	height: 21px;
+}
+.PTSProject_frmQclass .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmQclass .cboPersonnel {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 233px;
+	height: 24px;
+}
+.PTSProject_frmQclass .cboPersonnel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmQclass .cboPersonnelPos {
+	top: 76px;
+	left: 8px;
+	position: absolute;
+	width: 233px;
+	height: 24px;
+}
+.PTSProject_frmQclass .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 108px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmQclass .frmParam1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 8px;
+	top: 128px;
+	position: absolute;
+	width: 249px;
+	height: 69px;
+	overflow: hidden;
+}
+.PTSProject_frmQclass .frmParam1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmQclass ._optParam_0 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 237px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmQclass ._optParam_0:enabled {
+	color: Green;
+}
+.PTSProject_frmQclass ._optParam_0 * {
+	Cursor: default;
+}
+.PTSProject_frmQclass ._optParam_1 {
+	background-color: rgba(240, 240, 240, 1);
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 237px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmQclass ._optParam_1:enabled {
+	color: #C00000;
+}
+.PTSProject_frmQclass ._optParam_1 * {
+	Cursor: default;
+}
+.PTSProject_frmQclass .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 212px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmQclass .calStart.k-datepicker {
+	left: 8px;
+	top: 232px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmQclass .calStart {
+}
+.PTSProject_frmQclass .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 260px;
+	position: absolute;
+	width: 193px;
+	height: 25px;
+}
+.PTSProject_frmQclass .calEnd.k-datepicker {
+	left: 8px;
+	top: 276px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmQclass .calEnd {
+}
+.PTSProject_frmQclass .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 308px;
+	position: absolute;
+	width: 229px;
+	height: 25px;
+}
+.PTSProject_frmQclass .calClassStart.k-datepicker {
+	left: 8px;
+	top: 328px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmQclass .calClassStart {
+}
+.PTSProject_frmQclass .Label7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 356px;
+	position: absolute;
+	width: 229px;
+	height: 25px;
+}
+.PTSProject_frmQclass .calClassEnd.k-datepicker {
+	left: 8px;
+	top: 376px;
+	position: absolute;
+	width: 153px;
+	height: 20px;
+}
+.PTSProject_frmQclass .calClassEnd {
+}
+.PTSProject_frmQclass .cmdQuery {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 4px;
+	top: 440px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmQclass .cmdQuery:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmQclass .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 60px;
+	top: 440px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmQclass .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmQclass .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 116px;
+	top: 440px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmQclass .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmQclass .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 172px;
+	top: 440px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmQclass .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

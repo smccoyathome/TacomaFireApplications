@@ -1,0 +1,4854 @@
+.PTSProject_frmDispatchScheduler {
+}
+.PTSProject_frmDispatchScheduler .frmDispatchScheduler {
+	background-color: #004040;
+	min-width: 738px;
+	min-height: 671px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmDispatchScheduler .mnuPrintPayReport {
+}
+.PTSProject_frmDispatchScheduler .mnuSpacer1 {
+}
+.PTSProject_frmDispatchScheduler .mnuClose {
+}
+.PTSProject_frmDispatchScheduler .mnuSystem {
+}
+.PTSProject_frmDispatchScheduler .mnuEmpInfo {
+}
+.PTSProject_frmDispatchScheduler .mnuSeniorInq {
+}
+.PTSProject_frmDispatchScheduler .mnuImmune {
+}
+.PTSProject_frmDispatchScheduler .mnu_transfer_req {
+}
+.PTSProject_frmDispatchScheduler .mnuPMCerts {
+}
+.PTSProject_frmDispatchScheduler .mnuPPE {
+}
+.PTSProject_frmDispatchScheduler .mnupersonnel {
+}
+.PTSProject_frmDispatchScheduler .mnuIndSchedule {
+}
+.PTSProject_frmDispatchScheduler .mnuBattalion1 {
+}
+.PTSProject_frmDispatchScheduler .mnuBattalion2 {
+}
+.PTSProject_frmDispatchScheduler .mnuNewBatt3 {
+}
+.PTSProject_frmDispatchScheduler .mnuBattalion3 {
+}
+.PTSProject_frmDispatchScheduler .mnuBattalion4 {
+}
+.PTSProject_frmDispatchScheduler .mnuEMS {
+}
+.PTSProject_frmDispatchScheduler .mnuEMSDaily {
+}
+.PTSProject_frmDispatchScheduler .mnuHazmat {
+}
+.PTSProject_frmDispatchScheduler .mnuBattStaff {
+}
+.PTSProject_frmDispatchScheduler .mnu_watch_duty {
+}
+.PTSProject_frmDispatchScheduler .mnu_Vacation {
+}
+.PTSProject_frmDispatchScheduler .mnu_PMVacationSched {
+}
+.PTSProject_frmDispatchScheduler .mnu_FCCVacationSched {
+}
+.PTSProject_frmDispatchScheduler .mnuSchedule {
+}
+.PTSProject_frmDispatchScheduler .mnuAssign {
+}
+.PTSProject_frmDispatchScheduler .mnuRoster {
+}
+.PTSProject_frmDispatchScheduler .mnu_DDGroups {
+}
+.PTSProject_frmDispatchScheduler .mnuProlist {
+}
+.PTSProject_frmDispatchScheduler .mnuSenior {
+}
+.PTSProject_frmDispatchScheduler .mnuBenefit {
+}
+.PTSProject_frmDispatchScheduler .mnu_emp_facility {
+}
+.PTSProject_frmDispatchScheduler .mnuAuditDDHOL {
+}
+.PTSProject_frmDispatchScheduler .mnu_IndivPayrollSO {
+}
+.PTSProject_frmDispatchScheduler .mnuIndTimeCard2 {
+}
+.PTSProject_frmDispatchScheduler .Mnuperson {
+}
+.PTSProject_frmDispatchScheduler .mnu181 {
+}
+.PTSProject_frmDispatchScheduler .mnu182 {
+}
+.PTSProject_frmDispatchScheduler .mnu183 {
+}
+.PTSProject_frmDispatchScheduler .mnuBDWork {
+}
+.PTSProject_frmDispatchScheduler .mnuEMSPay {
+}
+.PTSProject_frmDispatchScheduler .mnuHazPay {
+}
+.PTSProject_frmDispatchScheduler .mnuMarPay {
+}
+.PTSProject_frmDispatchScheduler .mnuBattPay {
+}
+.PTSProject_frmDispatchScheduler .mnuDisPay {
+}
+.PTSProject_frmDispatchScheduler .mnuPayroll {
+}
+.PTSProject_frmDispatchScheduler .mnuIndTimeCard {
+}
+.PTSProject_frmDispatchScheduler .mnuIndYearSched {
+}
+.PTSProject_frmDispatchScheduler .mnuDailyStaff {
+}
+.PTSProject_frmDispatchScheduler .mnuOvertime {
+}
+.PTSProject_frmDispatchScheduler .mnuExtraOff {
+}
+.PTSProject_frmDispatchScheduler .mnu_sa_report {
+}
+.PTSProject_frmDispatchScheduler .mnuShiftCal {
+}
+.PTSProject_frmDispatchScheduler .mnuTransfer {
+}
+.PTSProject_frmDispatchScheduler .mnuSchedul {
+}
+.PTSProject_frmDispatchScheduler .mnuDailyLeave {
+}
+.PTSProject_frmDispatchScheduler .mnuAnnual {
+}
+.PTSProject_frmDispatchScheduler .mnu_dailysickleave {
+}
+.PTSProject_frmDispatchScheduler .mnuIndLeave {
+}
+.PTSProject_frmDispatchScheduler .mnu_sick_usage {
+}
+.PTSProject_frmDispatchScheduler .mnu_PMLeave {
+}
+.PTSProject_frmDispatchScheduler .mnuDispatchLeave {
+}
+.PTSProject_frmDispatchScheduler .mnuLeaveReports {
+}
+.PTSProject_frmDispatchScheduler .mnutimecard {
+}
+.PTSProject_frmDispatchScheduler .mnuIndAnnualPayroll {
+}
+.PTSProject_frmDispatchScheduler .mnupersonnelsignoff {
+}
+.PTSProject_frmDispatchScheduler .mnuPayrollReports {
+}
+.PTSProject_frmDispatchScheduler .mnu_QuarterlyMinimumDrill {
+}
+.PTSProject_frmDispatchScheduler .mnu_FCCMinDrills {
+}
+.PTSProject_frmDispatchScheduler .mnu_ReadingAssign {
+}
+.PTSProject_frmDispatchScheduler .mnu_OTEPReport {
+}
+.PTSProject_frmDispatchScheduler .mnu_PMRecertReport {
+}
+.PTSProject_frmDispatchScheduler .mnu_PMBaseStaReport {
+}
+.PTSProject_frmDispatchScheduler .mnu_TrainingReports {
+}
+.PTSProject_frmDispatchScheduler .mnuReports {
+}
+.PTSProject_frmDispatchScheduler .mnu_trainingtracker {
+}
+.PTSProject_frmDispatchScheduler .mnu_IndTrainReport {
+}
+.PTSProject_frmDispatchScheduler .mnu_IndPMRecert {
+}
+.PTSProject_frmDispatchScheduler .mnuALSProc {
+}
+.PTSProject_frmDispatchScheduler .mnuTrnReports {
+}
+.PTSProject_frmDispatchScheduler .mnuTrainQuery {
+}
+.PTSProject_frmDispatchScheduler .mnu_TrainingQuerynew {
+}
+.PTSProject_frmDispatchScheduler .mnu_Queries {
+}
+.PTSProject_frmDispatchScheduler .mnuTraining {
+}
+.PTSProject_frmDispatchScheduler .mnuCascade {
+}
+.PTSProject_frmDispatchScheduler .mnuPrintScreen {
+}
+.PTSProject_frmDispatchScheduler .mnuWindow {
+}
+.PTSProject_frmDispatchScheduler .mnuAbout {
+}
+.PTSProject_frmDispatchScheduler .mnu_HelpPrntScrn {
+}
+.PTSProject_frmDispatchScheduler .mnu_timecodes {
+}
+.PTSProject_frmDispatchScheduler .mnu_payrolllegend {
+}
+.PTSProject_frmDispatchScheduler .mnu_legend {
+}
+.PTSProject_frmDispatchScheduler .mnu_IndLegend {
+}
+.PTSProject_frmDispatchScheduler .mnu_payup_calc {
+}
+.PTSProject_frmDispatchScheduler .mnuTrainCodeHelp {
+}
+.PTSProject_frmDispatchScheduler .mnuHelp {
+}
+.PTSProject_frmDispatchScheduler .mnuLeave {
+}
+.PTSProject_frmDispatchScheduler .mnuPayUp {
+}
+.PTSProject_frmDispatchScheduler .mnuPayDown {
+}
+.PTSProject_frmDispatchScheduler .mnuKOT {
+}
+.PTSProject_frmDispatchScheduler .mnuTrade {
+}
+.PTSProject_frmDispatchScheduler .mnuRemove {
+}
+.PTSProject_frmDispatchScheduler .mnuReport {
+}
+.PTSProject_frmDispatchScheduler .mnu_viewtimecard {
+}
+.PTSProject_frmDispatchScheduler .mnuViewDetail {
+}
+.PTSProject_frmDispatchScheduler .mnuWeeklyPopUp {
+}
+.PTSProject_frmDispatchScheduler .MainMenu1 {
+	position: relative;
+	z-index: 16777271;
+}
+.PTSProject_frmDispatchScheduler .Ctx_mnuWeeklyPopUp {
+	width: 153px;
+	height: 26px;
+}
+.PTSProject_frmDispatchScheduler .Ctx_mnuWeeklyPopUp li.k-item {
+	border-width: 0;
+}
+.PTSProject_frmDispatchScheduler .Ctx_mnuWeeklyPopUp hr {
+	float: left;
+	border: none;
+	border-left: 1px black solid;
+	height: 15px;
+	margin-top: 0;
+	margin: 5px;
+	border-color: #c5c5c5;
+}
+.PTSProject_frmDispatchScheduler .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 0px;
+	top: 40px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler .calWeek:enabled {
+	color: Black;
+}
+.PTSProject_frmDispatchScheduler .calWeek.k-datepicker {
+	left: 88px;
+	top: 40px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler .calWeek {
+}
+.PTSProject_frmDispatchScheduler .lbLocked {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 208px;
+	top: 40px;
+	position: absolute;
+	width: 134px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler .pnSelected {
+	background-color: rgba(240, 240, 240, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 40px;
+	position: absolute;
+	width: 102px;
+	height: 15px;
+}
+.PTSProject_frmDispatchScheduler .lbStaff {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 312px;
+	top: 40px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmDispatchScheduler .cboSelectName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 128px;
+	height: 21px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler .cboSelectName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDispatchScheduler .cboSelectNamePos {
+	top: 40px;
+	left: 400px;
+	position: absolute;
+	width: 128px;
+	height: 21px;
+}
+.PTSProject_frmDispatchScheduler .lbAllStaff {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 536px;
+	top: 40px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler .cboFullList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 136px;
+	height: 21px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler .cboFullList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDispatchScheduler .cboFullListPos {
+	top: 40px;
+	left: 592px;
+	position: absolute;
+	width: 136px;
+	height: 21px;
+}
+.PTSProject_frmDispatchScheduler .Label2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 12px;
+	top: 72px;
+	position: absolute;
+	width: 45px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler .Label3 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 56px;
+	top: 72px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbWeekDay_0 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbShiftArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 224px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler ._lbWeekDay_1 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbShiftArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 304px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler ._lbWeekDay_2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbShiftArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 384px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler ._lbWeekDay_3 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbShiftArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 464px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler ._lbWeekDay_4 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbShiftArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 544px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler ._lbWeekDay_5 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbShiftArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 632px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler ._lbWeekDay_6 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbShiftArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 704px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 92px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 92px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 92px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos1am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos1am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos1am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos1am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos1am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos1am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos1am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP1am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP1am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP1am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP1am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP1am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP1am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP1am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._Line1_9 {
+	background-color: Gray;
+	left: 32px;
+	top: 112px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 116px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 116px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 116px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos2am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 116px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos2am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 116px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos2am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 116px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos2am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 116px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos2am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 116px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos2am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 116px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos2am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 116px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP2am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP2am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP2am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP2am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP2am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP2am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP2am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._Line1_0 {
+	background-color: Gray;
+	left: 32px;
+	top: 136px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 144px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 144px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 144px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP3am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP3pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 160px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 160px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 160px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 160px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 160px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 160px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 160px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 160px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 160px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos3pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 160px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._Line1_1 {
+	background-color: Gray;
+	left: 32px;
+	top: 179px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 180px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 180px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 180px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP4am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP4pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 196px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 196px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 196px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 196px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 196px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 196px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 196px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 196px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 196px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos4pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 196px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP4pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._Line1_2 {
+	background-color: Gray;
+	left: 32px;
+	top: 215px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 216px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 216px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 216px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP5am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP5pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 232px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 232px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 232px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos5pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 232px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._Line1_3 {
+	background-color: Gray;
+	left: 32px;
+	top: 249px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 252px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 252px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 252px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP6am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP6pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 268px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 268px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 268px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 268px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 268px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 268px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 268px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 268px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 268px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos6pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 268px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._Line1_4 {
+	background-color: Gray;
+	left: 32px;
+	top: 285px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 288px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 288px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 288px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP7am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP7pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 304px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 304px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 304px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos7pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._Line1_5 {
+	background-color: Gray;
+	left: 32px;
+	top: 322px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 327px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 327px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 327px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos8am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 327px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP8am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos8am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 327px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP8am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos8am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 327px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP8am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos8am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 327px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP8am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos8am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 327px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP8am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos8am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 327px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP8am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos8am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 327px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP8am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._Line1_11 {
+	background-color: Gray;
+	left: 32px;
+	top: 347px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 350px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 350px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 350px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 350px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 350px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 350px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 350px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 350px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 350px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 350px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 366px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 366px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 366px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 366px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 366px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 366px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 366px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 366px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 366px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbPos9pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 366px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP9pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._Line1_6 {
+	background-color: Gray;
+	left: 32px;
+	top: 387px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 392px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 392px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 392px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 392px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 392px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 392px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 392px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 392px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 392px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 392px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP10am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 408px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 408px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 408px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 408px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 408px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 408px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 408px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 408px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 408px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos10pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 408px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP10pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP10pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._Line1_7 {
+	background-color: Gray;
+	left: 32px;
+	top: 426px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 428px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 428px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 428px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 428px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 428px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 428px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 428px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 428px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 428px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 428px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP11am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 444px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 444px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 444px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 444px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 444px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 444px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 444px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 444px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 444px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos11pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 444px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP11pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP11pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._Line1_8 {
+	background-color: Gray;
+	left: 32px;
+	top: 462px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 464px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 464px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 464px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 464px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 464px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 464px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 464px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 464px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 464px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 464px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP12am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 480px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 480px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_20 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 480px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos12pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 480px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP12pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP12pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._Line1_10 {
+	background-color: Gray;
+	left: 32px;
+	top: 498px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_21 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 500px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_21 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 500px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_21 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 120px;
+	top: 500px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 500px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 500px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 500px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 500px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 500px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 500px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 500px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP13am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._lbUnitArray_22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 16px;
+	top: 516px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbPositionArray_22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 56px;
+	top: 516px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmDispatchScheduler ._lbAMPM_22 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 120px;
+	top: 516px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 516px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 516px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 516px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 516px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 516px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 516px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._lbPos13pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 516px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDispatchScheduler ._shpP13pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler ._shpP13pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler .Shape1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: #804040;
+	stroke: Black;
+}
+.PTSProject_frmDispatchScheduler .picTrash {
+	background-color: Teal;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	background-image: url("/Resources/images/frmDispatchSchedule.picTrash.Image.png");
+	background-repeat: no-repeat;
+	left: 32px;
+	top: 552px;
+	position: absolute;
+	width: 20px;
+	height: 18px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 56px;
+	top: 552px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.PTSProject_frmDispatchScheduler ._lstLeave_0 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 557px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lstLeave_1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 240px;
+	top: 557px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lstLeave_2 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 320px;
+	top: 557px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lstLeave_3 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 400px;
+	top: 557px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lstLeave_4 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 480px;
+	top: 557px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lstLeave_5 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 560px;
+	top: 557px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler ._lstLeave_6 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 640px;
+	top: 557px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmDispatchScheduler .cmdPayroll {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 28px;
+	top: 576px;
+	position: absolute;
+	width: 119px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDispatchScheduler .cmdPayroll:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDispatchScheduler .cmdReport {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 28px;
+	top: 600px;
+	position: absolute;
+	width: 119px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDispatchScheduler .cmdReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDispatchScheduler .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 28px;
+	top: 624px;
+	position: absolute;
+	width: 117px;
+	height: 21px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDispatchScheduler .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

@@ -1,0 +1,119 @@
+.PTSProject_dlgTransfer {
+}
+.PTSProject_dlgTransfer .dlgTransfer {
+	background-color: Gray;
+	min-width: 329px;
+	min-height: 198px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgTransfer .calStartDate {
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+}
+.PTSProject_dlgTransfer .calStartDate.k-datepicker {
+	left: 168px;
+	top: 16px;
+	position: absolute;
+	width: 150px;
+	height: 23px;
+}
+.PTSProject_dlgTransfer .lbStartDate {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 19px;
+	position: absolute;
+	width: 160px;
+	height: 26px;
+}
+.PTSProject_dlgTransfer .chkTemp {
+	background-color: Gray;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 153px;
+	height: 33px;
+	width: auto;
+}
+.PTSProject_dlgTransfer .chkTemp:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_dlgTransfer .calEndDate {
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+}
+.PTSProject_dlgTransfer .calEndDate.k-datepicker {
+	left: 168px;
+	top: 75px;
+	position: absolute;
+	width: 150px;
+	height: 23px;
+}
+.PTSProject_dlgTransfer .lbEndDate {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 77px;
+	position: absolute;
+	width: 128px;
+	height: 20px;
+}
+.PTSProject_dlgTransfer .cmdDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 64px;
+	top: 152px;
+	position: absolute;
+	width: 83px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgTransfer .cmdDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgTransfer .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 168px;
+	top: 152px;
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgTransfer .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

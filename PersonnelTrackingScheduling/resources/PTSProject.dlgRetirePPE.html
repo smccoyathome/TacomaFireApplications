@@ -1,0 +1,43 @@
+<div>
+  <div data-width="544" data-height="182" name="dlgRetirePPE" data-title="Retire PPE Information" class="PTSProject_dlgRetirePPE" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgRetirePPE">
+      <fieldset id="frmPPEItem" class="frmPPEItem">
+        <legend id="frmPPEItem_legend" class="frmPPEItem_legend"></legend>
+        <div>
+          <label id="lbRetiredDate" tabindex="19" class="lbRetiredDate" data-bind="text : lbRetiredDate.Text, imagePath : lbRetiredDate.ImagePath">Retired Date</label>
+          <label id="Label17" tabindex="15" class="Label17" data-bind="text : Label17.Text, imagePath : Label17.ImagePath">Tracking / Barcode</label>
+          <div class="chkManufDate">
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PPE Manufacturered Date?</label>
+            </div>
+            <input id="chkManufDate" tabindex="8" type="checkbox" style="float: left" />
+          </div>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteRetired" tabindex="18" class="dteRetired" data-bind="dateTimePickerValue : dteRetired.Value, DateTimeMinDate : dteRetired.MinDate, DateTimeMaxDate : dteRetired.MaxDate" />
+          <input id="txtTrackingNumber" tabindex="7" Value="txtTrackingNumber" class="txtTrackingNumber" data-bind="value : txtTrackingNumber.Text" />
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dteManufDate" tabindex="9" class="dteManufDate" data-bind="dateTimePickerValue : dteManufDate.Value, visible : dteManufDate.Visible, DateTimeMinDate : dteManufDate.MinDate, DateTimeMaxDate : dteManufDate.MaxDate" />
+          <button disabled="disabled" id="cmdEditItem" tabindex="3" data-tag="0" class="cmdEditItem" type="button" data-bind="enabled : cmdEditItem.Enabled, events : { click : cmdEditItem_Click }, ">Update</button>
+          <label id="Label14" tabindex="12" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">PPE Item</label>
+          <label id="lbItemColorSize" tabindex="14" class="lbItemColorSize" data-bind="text : lbItemColorSize.Text, imagePath : lbItemColorSize.ImagePath">Size/Color</label>
+          <label id="lbItemBrand" tabindex="13" class="lbItemBrand" data-bind="text : lbItemBrand.Text, imagePath : lbItemBrand.ImagePath">Brand/Manufacturer</label>
+          <div class="cboItemTypePos" id="cboItemTypePos">
+            <select data-role="combobox" id="cboItemType" tabindex="4" class="cboItemType" data-text-field="Text" data-value-field="Value" data-bind="source : cboItemType.ComboBoxItems, customText : cboItemType.CustomText, comboSelectedIndex : cboItemType.SelectedIndex, events : { change : cboItemType_TextChanged }, "></select>
+          </div>
+          <div class="cboColorSizePos" id="cboColorSizePos" data-bind="visible : cboColorSize.Visible">
+            <select data-role="combobox" id="cboColorSize" tabindex="6" class="cboColorSize" data-text-field="Text" data-value-field="Value" data-bind="source : cboColorSize.ComboBoxItems, enabled : cboColorSize.Enabled, customText : cboColorSize.CustomText, comboSelectedIndex : cboColorSize.SelectedIndex"></select>
+          </div>
+          <div class="cboItemBrandPos" id="cboItemBrandPos" data-bind="visible : cboItemBrand.Visible">
+            <select data-role="combobox" id="cboItemBrand" tabindex="5" class="cboItemBrand" data-text-field="Text" data-value-field="Value" data-bind="source : cboItemBrand.ComboBoxItems, enabled : cboItemBrand.Enabled, customText : cboItemBrand.CustomText, comboSelectedIndex : cboItemBrand.SelectedIndex"></select>
+          </div>
+          <button id="cmdClose" tabindex="17" data-tag="0" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+          <label id="lbReason" tabindex="11" class="lbReason" data-bind="text : lbReason.Text, imagePath : lbReason.ImagePath">Retire Reason</label>
+          <label id="lbRetireComment" tabindex="10" class="lbRetireComment" data-bind="text : lbRetireComment.Text, imagePath : lbRetireComment.ImagePath">Retire Comment</label>
+          <div class="cboReasonPos" id="cboReasonPos">
+            <select data-role="combobox" id="cboReason" tabindex="2" class="cboReason" data-text-field="Text" data-value-field="Value" data-bind="source : cboReason.ComboBoxItems, customText : cboReason.CustomText, comboSelectedIndex : cboReason.SelectedIndex"></select>
+          </div>
+          <textarea id="txtComment" tabindex="1" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+          <label id="lbUniformID" tabindex="16" class="lbUniformID" data-bind="text : lbUniformID.Text, imagePath : lbUniformID.ImagePath">lbUniformID</label>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

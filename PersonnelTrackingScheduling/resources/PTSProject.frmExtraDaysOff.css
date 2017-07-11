@@ -1,0 +1,152 @@
+.PTSProject_frmExtraDaysOff {
+}
+.PTSProject_frmExtraDaysOff .frmExtraDaysOff {
+	background-color: Teal;
+	min-width: 727px;
+	min-height: 517px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+.PTSProject_frmExtraDaysOff .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 560px;
+	top: 8px;
+	position: absolute;
+	width: 71px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmExtraDaysOff .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmExtraDaysOff .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 640px;
+	top: 8px;
+	position: absolute;
+	width: 71px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmExtraDaysOff .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmExtraDaysOff .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 14px;
+	position: absolute;
+	width: 90px;
+	height: 20px;
+}
+.PTSProject_frmExtraDaysOff .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmExtraDaysOff .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmExtraDaysOff .cboYearPos {
+	top: 14px;
+	left: 100px;
+	position: absolute;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmExtraDaysOff .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 191px;
+	top: 14px;
+	position: absolute;
+	width: 90px;
+	height: 20px;
+}
+.PTSProject_frmExtraDaysOff .cboMonth {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmExtraDaysOff .cboMonth:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmExtraDaysOff .cboMonthPos {
+	top: 14px;
+	left: 287px;
+	position: absolute;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmExtraDaysOff .sprDaysOff {
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 712px;
+	height: 351px;
+}
+.PTSProject_frmExtraDaysOff .sprDaysOff .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmExtraDaysOff .sprDaysOff .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmExtraDaysOff .Label2 {
+	background-color: #00C0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: Yellow;
+	left: 96px;
+	top: 392px;
+	position: absolute;
+	width: 537px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmExtraDaysOff .sprDetail {
+	left: 16px;
+	top: 416px;
+	position: absolute;
+	width: 697px;
+	height: 97px;
+}
+.PTSProject_frmExtraDaysOff .sprDetail .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmExtraDaysOff .sprDetail .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,27 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<div id="messageBox" class="dialog status" data-bind="visible: isVisible, attr:{class:status}">
+    <div class="dialog-overlay"></div>
+    <div class="dialog-content">
+        <div class="divhoz" style="margin-left: auto; margin-right: auto;">
+            <div style="vertical-align:top; width:15%; min-width: 60px; text-align: center;">
+                <i class="material-icons info icon" data-bind="visible : vsques">&#xE88F;</i>
+                <i class="material-icons warning icon" data-bind="visible : vswar">&#xE002;</i>
+                <i class="material-icons error icon" data-bind="visible : vserr">&#xE000;</i>
+            </div>
+            <div style="width: 80%">
+                <h2 data-bind="text: caption"></h2>
+                <div>
+                    <p data-bind="text : textValue"></p>
+                    <div class="footer">
+                        <button class="btn" data-bind="click: myclick, visible : vsok" data-result="ok">Ok</button>
+                        <button class="btn" data-bind="click: myclick, visible : vsyes" data-result="yes">Yes</button>
+                        <button class="btn" data-bind="click: myclick, visible : vsno" data-result="no">No</button>
+                        <button class="btn" data-bind="click: myclick, visible : vsretry" data-result="retry">Retry</button>
+                        <button class="btn" data-bind="click: myclick, visible : vscancel" data-result="cancel">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

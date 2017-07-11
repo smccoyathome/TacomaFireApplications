@@ -1,0 +1,123 @@
+.PTSProject_frmDailyBattWorksheet {
+}
+.PTSProject_frmDailyBattWorksheet .frmDailyBattWorksheet {
+	background-color: #404040;
+	min-width: 899px;
+	min-height: 713px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmDailyBattWorksheet .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmDailyBattWorksheet .dtReportDate {
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+}
+.PTSProject_frmDailyBattWorksheet .dtReportDate.k-datepicker {
+	left: 104px;
+	top: 8px;
+	position: absolute;
+	width: 121px;
+	height: 19px;
+}
+.PTSProject_frmDailyBattWorksheet .optBatt1 {
+	background-color: #404040;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 256px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDailyBattWorksheet .optBatt1:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDailyBattWorksheet .optBatt1 * {
+	Cursor: default;
+}
+.PTSProject_frmDailyBattWorksheet .optBatt2 {
+	background-color: #404040;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 360px;
+	top: 8px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmDailyBattWorksheet .optBatt2:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmDailyBattWorksheet .optBatt2 * {
+	Cursor: default;
+}
+.PTSProject_frmDailyBattWorksheet .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 480px;
+	top: 8px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailyBattWorksheet .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailyBattWorksheet .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 600px;
+	top: 8px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDailyBattWorksheet .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDailyBattWorksheet .sprReport {
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 883px;
+	height: 677px;
+}
+.PTSProject_frmDailyBattWorksheet .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmDailyBattWorksheet .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

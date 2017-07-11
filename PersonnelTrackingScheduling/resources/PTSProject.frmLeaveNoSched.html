@@ -1,0 +1,11 @@
+<div>
+  <div data-width="551" data-height="266" name="frmLeaveNoSched" data-title="Leave Without Schedule Report" class="PTSProject_frmLeaveNoSched" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmLeaveNoSched">
+      <button id="cmdRefresh" tabindex="7" class="cmdRefresh" type="button" data-bind="events : { click : cmdRefresh_Click }, ">Refresh List</button>
+      <button id="cmdPrint" tabindex="3" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Report</button>
+      <button id="cmdClose" tabindex="2" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label1" tabindex="0" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Employees with Leave Records for Datetimes Not Scheduled to work...</label>
+      <div id="sprReport" data-role="mobilizespread" tabindex="3" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

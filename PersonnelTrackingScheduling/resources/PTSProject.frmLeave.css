@@ -1,0 +1,98 @@
+.PTSProject_frmLeave {
+}
+.PTSProject_frmLeave .frmLeave {
+	background-color: Teal;
+	min-width: 797px;
+	min-height: 535px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmLeave .calDate {
+	font-family: Arial;
+	font-size: 12.6px;
+}
+.PTSProject_frmLeave .calDate.k-datepicker {
+	left: 144px;
+	top: 7px;
+	position: absolute;
+	width: 148px;
+	height: 24px;
+}
+.PTSProject_frmLeave .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 312px;
+	top: 8px;
+	position: absolute;
+	width: 92px;
+	height: 32px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLeave .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLeave .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.7px;
+	left: 413px;
+	top: 8px;
+	position: absolute;
+	width: 92px;
+	height: 32px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmLeave .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmLeave .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFFC0;
+	left: 10px;
+	top: 10px;
+	position: absolute;
+	width: 139px;
+	height: 22px;
+}
+.PTSProject_frmLeave .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	color: #80FF80;
+	left: 504px;
+	top: 32px;
+	position: absolute;
+	width: 281px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmLeave .sprLeave {
+	left: 0px;
+	top: 48px;
+	position: absolute;
+	width: 791px;
+	height: 481px;
+}
+.PTSProject_frmLeave .sprLeave .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmLeave .sprLeave .k-spreadsheet-action-bar {
+	display: none;
+}
+

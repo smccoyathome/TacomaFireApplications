@@ -1,0 +1,23 @@
+<div>
+  <div data-width="899" data-height="713" name="frmDailyBattWorksheet" data-title="Battalion Daily Worksheet" class="PTSProject_frmDailyBattWorksheet" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmDailyBattWorksheet">
+      <label id="Label1" tabindex="2" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Date:</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtReportDate" tabindex="24" class="dtReportDate" data-bind="dateTimePickerValue : dtReportDate.Value, DateTimeMinDate : dtReportDate.MinDate, DateTimeMaxDate : dtReportDate.MaxDate, events : { click : dtReportDate_Click, change : dtReportDate_ValueChanged }, " />
+      <div class="optBatt1">
+        <input id="optBatt1" tabindex="26" type="radio" name="MainForm_radios" checked="checked" style="float: left" data-bind="customChecked : optBatt1.Checked, events : { change : optBatt1_CheckedChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Battalion 1</label>
+        </div>
+      </div>
+      <div class="optBatt2">
+        <input id="optBatt2" tabindex="27" type="radio" name="MainForm_radios" style="float: left" data-bind="customChecked : optBatt2.Checked, events : { change : optBatt2_CheckedChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Battalion 2</label>
+        </div>
+      </div>
+      <button id="cmdPrint" tabindex="29" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="28" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div id="sprReport" data-role="mobilizespread" tabindex="0" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

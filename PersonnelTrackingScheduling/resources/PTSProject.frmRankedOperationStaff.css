@@ -1,0 +1,130 @@
+.PTSProject_frmRankedOperationStaff {
+}
+.PTSProject_frmRankedOperationStaff .frmRankedOperationStaff {
+	background-color: #000040;
+	min-width: 643px;
+	min-height: 470px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmRankedOperationStaff .Frame1 {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 627px;
+	height: 97px;
+	border: 2px groove;
+}
+.PTSProject_frmRankedOperationStaff .Frame1:enabled {
+	color: Aqua;
+}
+.PTSProject_frmRankedOperationStaff .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 472px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmRankedOperationStaff .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRankedOperationStaff .cboGroup {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	width: 185px;
+	height: 24px;
+}
+.PTSProject_frmRankedOperationStaff .cboGroup:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRankedOperationStaff .cboGroupPos {
+	top: 32px;
+	left: 16px;
+	position: absolute;
+	width: 185px;
+	height: 24px;
+}
+.PTSProject_frmRankedOperationStaff .chkSelectAll {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 216px;
+	top: 32px;
+	position: absolute;
+	width: 241px;
+	height: 26px;
+	width: auto;
+}
+.PTSProject_frmRankedOperationStaff .chkSelectAll:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmRankedOperationStaff .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 472px;
+	top: 56px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmRankedOperationStaff .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmRankedOperationStaff .lbCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Lime;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 433px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmRankedOperationStaff .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmRankedOperationStaff .sprReport {
+	left: 8px;
+	top: 112px;
+	position: absolute;
+	width: 627px;
+	height: 345px;
+}
+.PTSProject_frmRankedOperationStaff .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmRankedOperationStaff .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,43 @@
+<div>
+  <div data-width="815" data-height="512" data-removeControlBox="true" name="frmIndTrainReport" data-title="Individual Training Report" class="PTSProject_frmIndTrainReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmIndTrainReport">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <div class="chkInactive">
+            <input id="chkInactive" tabindex="18" type="checkbox" style="float: left" data-bind="events : { click : chkInactive_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Inactive Employees</label>
+            </div>
+          </div>
+          <div class="cboEmployeePos" id="cboEmployeePos">
+            <select id="cboEmployee" tabindex="17" class="cboEmployee" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmployee.ComboBoxItems, customText : cboEmployee.CustomText, comboSelectedIndex : cboEmployee.SelectedIndex, events : { change : cboEmployee_SelectionChangeCommitted }, "></select>
+          </div>
+          <button id="cmdByDate" tabindex="15" data-tag="T" class="cmdByDate" type="button" data-bind="buttonText : cmdByDate.Text, events : { click : cmdByDate_Click }, ">Sort by Type</button>
+          <button id="cmdReportLevel" tabindex="16" data-tag="S" class="cmdReportLevel" type="button" data-bind="buttonText : cmdReportLevel.Text, events : { click : cmdReportLevel_Click }, ">Summary</button>
+          <label id="Label1" tabindex="11" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Employee:</label>
+          <label id="Label2" tabindex="17" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select date Range</label>
+          <label id="_lbSubTitle_0" tabindex="14" index="0" class="_lbSubTitle_0" data-bind="text : _lbSubTitle_0.Text, imagePath : _lbSubTitle_0.ImagePath">Primary Training Type</label>
+          <label id="_lbSubTitle_3" tabindex="12" index="3" class="_lbSubTitle_3" data-bind="text : _lbSubTitle_3.Text, imagePath : _lbSubTitle_3.ImagePath">Specific Training </label>
+          <div id="cboPrimary" class="cboPrimary" title="&lt;cboPrimary,UpgradeHelpers.Gui.ComboBoxHelper&gt;">
+            <h1 class="WebMapStubs" controlType="UpgradeHelpers.Gui.ComboBoxHelper">cboPrimary</h1>
+          </div>
+          <div id="lstSpecific" tabindex="14" class="lstSpecific" data-role="listbox" style="overflow:auto" data-bind="source : lstSpecific.ListBoxItems, listBoxSelectedIndices : lstSpecific.ListBoxSelectedIndices, events : { click : lstSpecific_Click }, "></div>
+          <label id="Label3" tabindex="16" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">From:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtStart" tabindex="19" class="dtStart" data-bind="dateTimePickerValue : dtStart.Value, DateTimeMinDate : dtStart.MinDate, DateTimeMaxDate : dtStart.MaxDate, events : { click : dtStart_Click, change : dtStart_ValueChanged }, " />
+          <label id="Label4" tabindex="15" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Thru:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtEnd" tabindex="20" class="dtEnd" data-bind="dateTimePickerValue : dtEnd.Value, DateTimeMinDate : dtEnd.MinDate, DateTimeMaxDate : dtEnd.MaxDate, events : { click : dtEnd_Click, change : dtEnd_ValueChanged }, " />
+          <label id="_lbSubTitle_1" tabindex="13" index="1" class="_lbSubTitle_1" data-bind="text : _lbSubTitle_1.Text, imagePath : _lbSubTitle_1.ImagePath">Secondary Training Type</label>
+          <div id="cboSecondary" class="cboSecondary" title="&lt;cboSecondary,UpgradeHelpers.Gui.ComboBoxHelper&gt;">
+            <h1 class="WebMapStubs" controlType="UpgradeHelpers.Gui.ComboBoxHelper">cboSecondary</h1>
+          </div>
+          <button id="cmdClear" tabindex="28" data-tag="T" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear Filters</button>
+        </div>
+      </fieldset>
+      <button id="cmdPrint" tabindex="30" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdExit" tabindex="29" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+      <label id="lbEmpName" tabindex="20" class="lbEmpName" data-bind="text : lbEmpName.Text, imagePath : lbEmpName.ImagePath"></label>
+      <div id="sprInd" data-role="mobilizespread" tabindex="0" class="sprInd" data-bind="widgetvalue: sprInd"></div>
+    </form>
+  </div>
+</div>

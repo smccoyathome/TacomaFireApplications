@@ -1,0 +1,11 @@
+<div>
+  <div data-width="636" data-height="478" data-removeControlBox="true" name="frmException1" data-title="Battalion 1 Time Card Exception Report" class="PTSProject_frmException1" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmException1">
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calDate" tabindex="1" class="calDate" data-bind="dateTimePickerValue : calDate.Value, DateTimeMinDate : calDate.MinDate, DateTimeMaxDate : calDate.MaxDate, events : { change : calDate_Click }, " />
+      <button id="cmdPrint" tabindex="3" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label1" tabindex="1" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Date</label>
+      <div id="sprExcept" data-role="mobilizespread" tabindex="4" class="sprExcept" data-bind="widgetvalue: sprExcept"></div>
+    </form>
+  </div>
+</div>

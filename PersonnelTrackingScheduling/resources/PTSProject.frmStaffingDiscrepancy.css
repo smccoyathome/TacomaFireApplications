@@ -1,0 +1,172 @@
+.PTSProject_frmStaffingDiscrepancy {
+}
+.PTSProject_frmStaffingDiscrepancy .frmStaffingDiscrepancy {
+	background-color: #004000;
+	min-width: 502px;
+	min-height: 370px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+}
+.PTSProject_frmStaffingDiscrepancy .chkDateFilter {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 217px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmStaffingDiscrepancy .chkDateFilter:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmStaffingDiscrepancy .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 360px;
+	top: 8px;
+	position: absolute;
+	width: 128px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmStaffingDiscrepancy .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingDiscrepancy .dtStartDate {
+	font-family: Arial;
+	font-size: 11.52px;
+}
+.PTSProject_frmStaffingDiscrepancy .dtStartDate.k-datepicker {
+	left: 80px;
+	top: 32px;
+	position: absolute;
+	width: 137px;
+	height: 22px;
+}
+.PTSProject_frmStaffingDiscrepancy .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 360px;
+	top: 36px;
+	position: absolute;
+	width: 128px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmStaffingDiscrepancy .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingDiscrepancy .lbStart {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmStaffingDiscrepancy .lbEnd {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmStaffingDiscrepancy .dtEndDate {
+	font-family: Arial;
+	font-size: 11.52px;
+}
+.PTSProject_frmStaffingDiscrepancy .dtEndDate.k-datepicker {
+	left: 80px;
+	top: 64px;
+	position: absolute;
+	width: 137px;
+	height: 22px;
+}
+.PTSProject_frmStaffingDiscrepancy .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 360px;
+	top: 64px;
+	position: absolute;
+	width: 128px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmStaffingDiscrepancy .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingDiscrepancy .lbTotal {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	color: #80FF80;
+	left: 40px;
+	top: 96px;
+	position: absolute;
+	width: 177px;
+	height: 17px;
+	text-align: center;
+	visibility: hidden;
+}
+.PTSProject_frmStaffingDiscrepancy .sprReport {
+	left: 8px;
+	top: 112px;
+	position: absolute;
+	width: 489px;
+	height: 249px;
+}
+.PTSProject_frmStaffingDiscrepancy .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmStaffingDiscrepancy .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmStaffingDiscrepancy .sprReport2 {
+	left: 144px;
+	top: 176px;
+	position: absolute;
+	width: 181px;
+	height: 113px;
+	visibility: hidden;
+}
+.PTSProject_frmStaffingDiscrepancy .sprReport2 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmStaffingDiscrepancy .sprReport2 .k-spreadsheet-action-bar {
+	display: none;
+}
+

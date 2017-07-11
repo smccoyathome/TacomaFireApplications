@@ -1,0 +1,10 @@
+<div>
+  <div data-width="794" data-height="512" name="frmReportHazmat" data-title="Fire Report" class="TFDIncident_frmReportHazmat" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmReportHazmat">
+      <label id="Label1" tabindex="1" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Hazmat Report - Print Preview</label>
+      <button id="cmdPrint" tabindex="1" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Report</button>
+      <button id="cmdClose" tabindex="3" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div id="sprHazmat" data-role="mobilizespread" tabindex="3" class="sprHazmat" data-bind="widgetvalue: sprHazmat"></div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,108 @@
+.PTSProject_dlgSignOff {
+}
+.PTSProject_dlgSignOff .dlgSignOff {
+	background-color: #000040;
+	min-width: 596px;
+	min-height: 349px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgSignOff .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	width: 228px;
+	height: 24px;
+}
+.PTSProject_dlgSignOff .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSignOff .cboNameListPos {
+	top: 8px;
+	left: 126px;
+	position: absolute;
+	width: 228px;
+	height: 24px;
+}
+.PTSProject_dlgSignOff .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 464px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgSignOff .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSignOff ._Label11_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 10px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgSignOff .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgSignOff .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgSignOff .sprReport {
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 582px;
+	height: 281px;
+}
+.PTSProject_dlgSignOff .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgSignOff .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgSignOff .sprPrintList {
+	left: 8px;
+	top: 200px;
+	position: absolute;
+	width: 449px;
+	height: 89px;
+	visibility: hidden;
+}
+.PTSProject_dlgSignOff .sprPrintList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgSignOff .sprPrintList .k-spreadsheet-action-bar {
+	display: none;
+}
+

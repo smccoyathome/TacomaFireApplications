@@ -1,0 +1,56 @@
+.PTSProject_dlgMessage {
+}
+.PTSProject_dlgMessage .dlgMessage {
+	background-color: #000040;
+	min-width: 353px;
+	min-height: 131px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgMessage .txtMessage {
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 249px;
+	height: 113px;
+}
+.PTSProject_dlgMessage .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 264px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgMessage .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgMessage .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 264px;
+	top: 40px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgMessage .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

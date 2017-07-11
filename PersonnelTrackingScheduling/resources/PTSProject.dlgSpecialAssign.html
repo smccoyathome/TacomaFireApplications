@@ -1,0 +1,42 @@
+<div>
+  <div data-width="362" data-height="381" data-removeControlBox="true" name="dlgSpecialAssign" data-title="Schedule Special Assignment" class="PTSProject_dlgSpecialAssign" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgSpecialAssign">
+      <fieldset id="frmType" class="frmType">
+        <legend id="frmType_legend" class="frmType_legend">Special Assignment Type</legend>
+        <div>
+          <div index="0" class="_optType_0">
+            <input id="_optType_0" tabindex="1" type="radio" name="frmType_radios" checked="checked" style="float: left" data-bind="enabled : _optType_0.Enabled, customChecked : _optType_0.Checked, events : { change : optType_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optType_0.Enabled">Today Only</label>
+            </div>
+          </div>
+          <div index="1" class="_optType_1">
+            <input id="_optType_1" tabindex="2" type="radio" name="frmType_radios" style="float: left" data-bind="enabled : _optType_1.Enabled, customChecked : _optType_1.Checked, events : { change : optType_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optType_1.Enabled">For a Specified Date Range</label>
+            </div>
+          </div>
+          <div index="2" class="_optType_2">
+            <input id="_optType_2" tabindex="3" type="radio" name="frmType_radios" style="float: left" data-bind="enabled : _optType_2.Enabled, customChecked : _optType_2.Checked, events : { change : optType_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optType_2.Enabled">For the Rest of the Schedule</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div class="chkBothShifts" data-bind="visible : chkBothShifts.Visible">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Schedule Both AM an PM Shifts</label>
+        </div>
+        <input id="chkBothShifts" tabindex="4" type="checkbox" style="float: left" />
+      </div>
+      <label id="lbStart" tabindex="9" class="lbStart" data-bind="visible : lbStart.Visible, text : lbStart.Text, imagePath : lbStart.ImagePath">Special Assignment - Start Date:</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calStart" tabindex="5" class="calStart" data-bind="dateTimePickerValue : calStart.Value, visible : calStart.Visible, DateTimeMinDate : calStart.MinDate, DateTimeMaxDate : calStart.MaxDate" />
+      <label id="lbEnd" tabindex="10" class="lbEnd" data-bind="visible : lbEnd.Visible, text : lbEnd.Text, imagePath : lbEnd.ImagePath">End Date:           Last Date of Special Assignment</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calEnd" tabindex="6" class="calEnd" data-bind="dateTimePickerValue : calEnd.Value, visible : calEnd.Visible, DateTimeMinDate : calEnd.MinDate, DateTimeMaxDate : calEnd.MaxDate" />
+      <label id="lbWarning" tabindex="11" class="lbWarning" data-bind="visible : lbWarning.Visible, text : lbWarning.Text, imagePath : lbWarning.ImagePath">WARNING!!  This action will change the Employee's Schedule... this day forward until the end!!  The only way to restore it will be to adjust each scheduled day individually.</label>
+      <button id="cmdOK" tabindex="7" class="cmdOK" type="button" data-bind="events : { click : cmdOK_Click }, ">OK</button>
+      <button id="cmdCancel" tabindex="8" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+    </form>
+  </div>
+</div>

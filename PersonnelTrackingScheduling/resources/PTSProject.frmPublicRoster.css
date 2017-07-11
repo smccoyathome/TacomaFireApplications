@@ -1,0 +1,91 @@
+.PTSProject_frmPublicRoster {
+}
+.PTSProject_frmPublicRoster .frmPublicRoster {
+	background-color: rgba(240, 240, 240, 1);
+	min-width: 741px;
+	min-height: 541px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmPublicRoster .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 416px;
+	top: 2px;
+	position: absolute;
+	width: 113px;
+	height: 28px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPublicRoster .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPublicRoster .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 536px;
+	top: 2px;
+	position: absolute;
+	width: 97px;
+	height: 28px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPublicRoster .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPublicRoster .cboName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	width: 229px;
+	height: 24px;
+}
+.PTSProject_frmPublicRoster .cboName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPublicRoster .cboNamePos {
+	top: 3px;
+	left: 118px;
+	position: absolute;
+	width: 229px;
+	height: 24px;
+}
+.PTSProject_frmPublicRoster .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Maroon;
+	left: 8px;
+	top: 5px;
+	position: absolute;
+	width: 107px;
+	height: 20px;
+}
+.PTSProject_frmPublicRoster .sprRoster {
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 723px;
+	height: 498px;
+}
+.PTSProject_frmPublicRoster .sprRoster .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPublicRoster .sprRoster .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,4293 @@
+.PTSProject_frmWeekly {
+}
+.PTSProject_frmWeekly .frmWeekly {
+	background-color: Teal;
+	min-width: 732px;
+	min-height: 591px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmWeekly .mnuPrintPayReport {
+}
+.PTSProject_frmWeekly .mnuSpacer1 {
+}
+.PTSProject_frmWeekly .mnuClose {
+}
+.PTSProject_frmWeekly .mnuSystem {
+}
+.PTSProject_frmWeekly .mnuEmpInfo {
+}
+.PTSProject_frmWeekly .mnuSeniorInq {
+}
+.PTSProject_frmWeekly .mnuImmune {
+}
+.PTSProject_frmWeekly .mnu_transfer_req {
+}
+.PTSProject_frmWeekly .mnuPMCerts {
+}
+.PTSProject_frmWeekly .mnuPPE {
+}
+.PTSProject_frmWeekly .mnupersonnel {
+}
+.PTSProject_frmWeekly .mnuIndSchedule {
+}
+.PTSProject_frmWeekly .mnuBattalion1 {
+}
+.PTSProject_frmWeekly .mnuBattalion2 {
+}
+.PTSProject_frmWeekly .mnuNewBatt3 {
+}
+.PTSProject_frmWeekly .mnuBattalion3 {
+}
+.PTSProject_frmWeekly .mnuBattalion4 {
+}
+.PTSProject_frmWeekly .mnuEMS {
+}
+.PTSProject_frmWeekly .mnuEMSDaily {
+}
+.PTSProject_frmWeekly .mnuHazmat {
+}
+.PTSProject_frmWeekly .mnuBattStaff {
+}
+.PTSProject_frmWeekly .mnuDispatch {
+}
+.PTSProject_frmWeekly .mnu_watch_duty {
+}
+.PTSProject_frmWeekly .mnu_Vacation {
+}
+.PTSProject_frmWeekly .mnu_PMVacationSched {
+}
+.PTSProject_frmWeekly .mnu_HZMVacationSched {
+}
+.PTSProject_frmWeekly .mnuNewBatt1 {
+}
+.PTSProject_frmWeekly .mnuNewBatt2 {
+}
+.PTSProject_frmWeekly .mnu_old {
+}
+.PTSProject_frmWeekly .mnuSchedule {
+}
+.PTSProject_frmWeekly .mnuAssign {
+}
+.PTSProject_frmWeekly .mnuRoster {
+}
+.PTSProject_frmWeekly .mnuFRoster {
+}
+.PTSProject_frmWeekly .mnu_DDGroups {
+}
+.PTSProject_frmWeekly .mnuProlist {
+}
+.PTSProject_frmWeekly .mnuSenior {
+}
+.PTSProject_frmWeekly .mnuBenefit {
+}
+.PTSProject_frmWeekly .mnu_emp_facility {
+}
+.PTSProject_frmWeekly .MnuAuditDDHOL {
+}
+.PTSProject_frmWeekly .mnu_IndivPayrollSO {
+}
+.PTSProject_frmWeekly .mnuIndTimeCard2 {
+}
+.PTSProject_frmWeekly .mnuperson {
+}
+.PTSProject_frmWeekly .mnu181 {
+}
+.PTSProject_frmWeekly .mnu182 {
+}
+.PTSProject_frmWeekly .mnu183 {
+}
+.PTSProject_frmWeekly .mnuBDWork {
+}
+.PTSProject_frmWeekly .mnuEMSPay {
+}
+.PTSProject_frmWeekly .mnuHazPay {
+}
+.PTSProject_frmWeekly .mnuMarPay {
+}
+.PTSProject_frmWeekly .mnuBattPay {
+}
+.PTSProject_frmWeekly .mnuDisPay {
+}
+.PTSProject_frmWeekly .mnuPayroll {
+}
+.PTSProject_frmWeekly .mnuIndTimeCard {
+}
+.PTSProject_frmWeekly .mnuIndYearSched {
+}
+.PTSProject_frmWeekly .mnuDailyStaff {
+}
+.PTSProject_frmWeekly .mnuOvertime {
+}
+.PTSProject_frmWeekly .mnuExtraOff {
+}
+.PTSProject_frmWeekly .mnu_sa_report {
+}
+.PTSProject_frmWeekly .mnuShiftCal {
+}
+.PTSProject_frmWeekly .mnuTransfer {
+}
+.PTSProject_frmWeekly .mnuSchedul {
+}
+.PTSProject_frmWeekly .mnuDailyLeave {
+}
+.PTSProject_frmWeekly .mnuAnnual {
+}
+.PTSProject_frmWeekly .mnu_dailysickleave {
+}
+.PTSProject_frmWeekly .mnuIndLeave {
+}
+.PTSProject_frmWeekly .mnu_sick_usage {
+}
+.PTSProject_frmWeekly .mnu_PMLeave {
+}
+.PTSProject_frmWeekly .mnuDispatchLeave {
+}
+.PTSProject_frmWeekly .mnu_HZMLeave {
+}
+.PTSProject_frmWeekly .mnuLeaveReports {
+}
+.PTSProject_frmWeekly .mnutimecard {
+}
+.PTSProject_frmWeekly .mnuIndAnnualPayroll {
+}
+.PTSProject_frmWeekly .mnupersonnelsignoff {
+}
+.PTSProject_frmWeekly .mnuPayrollReports {
+}
+.PTSProject_frmWeekly .mnu_QuarterlyMinimumDrill {
+}
+.PTSProject_frmWeekly .mnu_FCCMinDrills {
+}
+.PTSProject_frmWeekly .mnu_ReadingAssign {
+}
+.PTSProject_frmWeekly .mnu_OTEPReport {
+}
+.PTSProject_frmWeekly .mnu_PMRecertReport {
+}
+.PTSProject_frmWeekly .mnu_PMBaseStaReport {
+}
+.PTSProject_frmWeekly .mnu_TrainingReports {
+}
+.PTSProject_frmWeekly .mnuReports {
+}
+.PTSProject_frmWeekly .mnu_trainingtracker {
+}
+.PTSProject_frmWeekly .mnu_IndTrainReport {
+}
+.PTSProject_frmWeekly .mnu_IndPMRecert {
+}
+.PTSProject_frmWeekly .mnuALSProc {
+}
+.PTSProject_frmWeekly .mnuTrnReports {
+}
+.PTSProject_frmWeekly .mnuTrainQuery {
+}
+.PTSProject_frmWeekly .mnu_TrainingQuerynew {
+}
+.PTSProject_frmWeekly .mnu_Queries {
+}
+.PTSProject_frmWeekly .mnuTraining {
+}
+.PTSProject_frmWeekly .mnuCascade {
+}
+.PTSProject_frmWeekly .mnuPrintScreen {
+}
+.PTSProject_frmWeekly .mnuWindow {
+}
+.PTSProject_frmWeekly .mnuContents {
+}
+.PTSProject_frmWeekly .mnuAbout {
+}
+.PTSProject_frmWeekly .mnu_HelpPrntScrn {
+}
+.PTSProject_frmWeekly .mnu_timecodes {
+}
+.PTSProject_frmWeekly .mnu_payrolllegend {
+}
+.PTSProject_frmWeekly .mnu_legend {
+}
+.PTSProject_frmWeekly .mnu_IndLegend {
+}
+.PTSProject_frmWeekly .mnu_payup_calc {
+}
+.PTSProject_frmWeekly .mnuTrainCodeHelp {
+}
+.PTSProject_frmWeekly .mnuHelp {
+}
+.PTSProject_frmWeekly .mnuLeave {
+}
+.PTSProject_frmWeekly .mnuPayUp {
+}
+.PTSProject_frmWeekly .mnuPayDown {
+}
+.PTSProject_frmWeekly .mnuKOT {
+}
+.PTSProject_frmWeekly .mnuTrade {
+}
+.PTSProject_frmWeekly .mnuRemove {
+}
+.PTSProject_frmWeekly .mnuSendTo181 {
+}
+.PTSProject_frmWeekly .mnuSendTo182 {
+}
+.PTSProject_frmWeekly .mnuReport {
+}
+.PTSProject_frmWeekly .mnu_viewtimecard {
+}
+.PTSProject_frmWeekly .mnuViewDetail {
+}
+.PTSProject_frmWeekly .mnuWeeklyPopUp {
+}
+.PTSProject_frmWeekly .MainMenu1 {
+	position: relative;
+	z-index: 16777271;
+}
+.PTSProject_frmWeekly .Ctx_mnuWeeklyPopUp {
+	width: 153px;
+	height: 26px;
+}
+.PTSProject_frmWeekly .Ctx_mnuWeeklyPopUp li.k-item {
+	border-width: 0;
+}
+.PTSProject_frmWeekly .Ctx_mnuWeeklyPopUp hr {
+	float: left;
+	border: none;
+	border-left: 1px black solid;
+	height: 15px;
+	margin-top: 0;
+	margin: 5px;
+	border-color: #c5c5c5;
+}
+.PTSProject_frmWeekly .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 0px;
+	top: 40px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmWeekly .calWeek:enabled {
+	color: Black;
+}
+.PTSProject_frmWeekly .calWeek.k-datepicker {
+	left: 88px;
+	top: 40px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_frmWeekly .calWeek {
+}
+.PTSProject_frmWeekly .lbLocked {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 208px;
+	top: 40px;
+	position: absolute;
+	width: 134px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmWeekly .pnSelected {
+	background-color: rgba(240, 240, 240, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 40px;
+	position: absolute;
+	width: 102px;
+	height: 15px;
+}
+.PTSProject_frmWeekly .lbStaff {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 312px;
+	top: 40px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmWeekly .cboSelectName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 128px;
+	height: 21px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly .cboSelectName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmWeekly .cboSelectNamePos {
+	top: 40px;
+	left: 400px;
+	position: absolute;
+	width: 128px;
+	height: 21px;
+}
+.PTSProject_frmWeekly .lbAllStaff {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 536px;
+	top: 40px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmWeekly .cboFullList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 136px;
+	height: 21px;
+}
+.PTSProject_frmWeekly .cboFullList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmWeekly .cboFullListPos {
+	top: 40px;
+	left: 592px;
+	position: absolute;
+	width: 136px;
+	height: 21px;
+}
+.PTSProject_frmWeekly .Label2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 4px;
+	top: 72px;
+	position: absolute;
+	width: 45px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmWeekly .Label3 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 48px;
+	top: 72px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbWeekDay_0 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbShiftArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 216px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmWeekly ._lbWeekDay_1 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbShiftArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 296px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmWeekly ._lbWeekDay_2 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbShiftArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 376px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmWeekly ._lbWeekDay_3 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbShiftArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 456px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmWeekly ._lbWeekDay_4 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbShiftArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 536px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmWeekly ._lbWeekDay_5 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbShiftArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 624px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmWeekly ._lbWeekDay_6 {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbShiftArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #804040;
+	left: 696px;
+	top: 72px;
+	position: absolute;
+	width: 9px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmWeekly ._lbUnitArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 92px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 92px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_0 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 92px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP1am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP1pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 108px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 108px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 108px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos1pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._Line1_0 {
+	background-color: Gray;
+	left: 24px;
+	top: 126px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 128px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 128px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 128px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 128px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 128px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 128px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 128px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 128px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 128px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 128px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP2am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP2pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 144px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 144px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 144px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos2pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 144px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._Line1_1 {
+	background-color: Gray;
+	left: 24px;
+	top: 163px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 164px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 164px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 164px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 164px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 164px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 164px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 164px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 164px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 164px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 164px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP3am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP3pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 180px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 180px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_5 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 180px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos3pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP3pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._Line1_2 {
+	background-color: Gray;
+	left: 24px;
+	top: 199px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 200px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 200px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_6 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 200px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 200px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 200px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 200px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 200px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 200px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 200px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 200px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP4am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP4pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 216px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 216px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_7 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 216px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos4pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 216px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._Line1_3 {
+	background-color: Gray;
+	left: 24px;
+	top: 233px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 236px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 236px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_8 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 236px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 236px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 236px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 236px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 236px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 236px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 236px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 236px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP5am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP5pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 252px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 252px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_9 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 252px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos5pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 252px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._Line1_4 {
+	background-color: Gray;
+	left: 24px;
+	top: 269px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 272px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 272px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_10 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 272px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP6am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP6pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 288px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 288px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_11 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 288px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos6pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._Line1_5 {
+	background-color: Gray;
+	left: 24px;
+	top: 306px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 308px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 308px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_12 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 308px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 308px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 308px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 308px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 308px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 308px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 308px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 308px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP7am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 324px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 324px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_13 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 324px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 324px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 324px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 324px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 324px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 324px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 324px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos7pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 324px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP7pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP7pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._Line1_6 {
+	background-color: Gray;
+	left: 24px;
+	top: 342px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 344px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 344px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 344px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 344px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 344px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 344px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 344px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 344px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 344px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 344px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP8am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 360px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 360px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_15 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 360px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 360px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 360px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 360px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 360px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 360px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 360px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos8pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 360px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP8pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP8pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._Line1_7 {
+	background-color: Gray;
+	left: 24px;
+	top: 378px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 380px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 380px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_16 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 380px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 380px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP9am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 396px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 396px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 396px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 396px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 396px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 396px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 396px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 396px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 396px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos9pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 396px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP9pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP9pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._Line1_8 {
+	background-color: Gray;
+	left: 24px;
+	top: 414px;
+	position: absolute;
+	width: 689px;
+	height: 1px;
+}
+.PTSProject_frmWeekly ._lbUnitArray_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 416px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 416px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_18 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #E0E0E0;
+	left: 112px;
+	top: 416px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10am_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 416px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10am_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 416px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10am_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 416px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10am_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 416px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10am_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 416px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10am_5 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 416px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10am_6 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 416px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP10am_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10am_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10am_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10am_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10am_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10am_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10am_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10pm_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._lbUnitArray_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 432px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPositionArray_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 48px;
+	top: 432px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbAMPM_19 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	color: #FFE0C0;
+	left: 112px;
+	top: 432px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10pm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10pm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10pm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10pm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10pm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10pm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._lbPos10pm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 432px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmWeekly ._shpP10pm_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10pm_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10pm_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10pm_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10pm_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly ._shpP10pm_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: Red;
+	stroke: Black;
+}
+.PTSProject_frmWeekly .Shape1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	color: #804040;
+	stroke: Black;
+}
+.PTSProject_frmWeekly .picTrash {
+	background-color: Teal;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	background-image: url("/Resources/images/frmWeekly.picTrash.Image.png");
+	background-repeat: no-repeat;
+	left: 15px;
+	top: 464px;
+	position: absolute;
+	width: 20px;
+	height: 18px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly .Label4 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 48px;
+	top: 464px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.PTSProject_frmWeekly ._lstLeave_0 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 152px;
+	top: 469px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly ._lstLeave_1 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 232px;
+	top: 469px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly ._lstLeave_2 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 312px;
+	top: 469px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly ._lstLeave_3 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 392px;
+	top: 469px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly ._lstLeave_4 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 472px;
+	top: 469px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly ._lstLeave_5 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 469px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly ._lstLeave_6 {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: rgba(0, 0, 0, 1);
+	left: 632px;
+	top: 469px;
+	position: absolute;
+	width: 77px;
+	height: 96px;
+	visibility: inherit;
+}
+.PTSProject_frmWeekly .cmdPayroll {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 12px;
+	top: 496px;
+	position: absolute;
+	width: 119px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmWeekly .cmdPayroll:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmWeekly .cmdReport {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 12px;
+	top: 520px;
+	position: absolute;
+	width: 119px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmWeekly .cmdReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmWeekly .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 12px;
+	top: 544px;
+	position: absolute;
+	width: 117px;
+	height: 21px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmWeekly .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

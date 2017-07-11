@@ -1,0 +1,73 @@
+.PTSProject_dlgScheduleDetail {
+}
+.PTSProject_dlgScheduleDetail .dlgScheduleDetail {
+	background-color: #400000;
+	min-width: 550px;
+	min-height: 240px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_dlgScheduleDetail .lbTitle {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 513px;
+	height: 17px;
+}
+.PTSProject_dlgScheduleDetail .sprDetail {
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 537px;
+	height: 137px;
+}
+.PTSProject_dlgScheduleDetail .sprDetail .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgScheduleDetail .sprDetail .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_dlgScheduleDetail .txtComment {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 8px;
+	top: 184px;
+	position: absolute;
+	overflow: auto;
+	width: 449px;
+	height: 49px;
+}
+.PTSProject_dlgScheduleDetail .txtComment:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgScheduleDetail .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 464px;
+	top: 184px;
+	position: absolute;
+	width: 81px;
+	height: 49px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgScheduleDetail .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

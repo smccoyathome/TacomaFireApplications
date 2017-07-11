@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2EFBF43-07B4-4565-8E14-0C2F55B9C827}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stubs</RootNamespace>
+    <AssemblyName>Stubs</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Newtonsoft.Json -->
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Packages\Microsoft.AspNet.Mvc.5.2.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <!-- Helpers -->
+  <ItemGroup>
+    <Reference Include="UpgradeHelpers.Utils, Version=0.0.0.0, Culture=neutral, PublicKeyToken=72aeb7ea29952ec4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\UpgradeHelpers.Utils.0.0.0.0\lib\net45\UpgradeHelpers.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.BasicViewModels, Version=0.0.0.0, Culture=neutral, PublicKeyToken=72aeb7ea29952ec4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\UpgradeHelpers.WebMap.BasicViewModels.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.BasicViewModels.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=72aeb7ea29952ec4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\UpgradeHelpers.WebMap.Core.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.Server.Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=72aeb7ea29952ec4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\UpgradeHelpers.WebMap.Server.Common.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.Server.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UpgradeHelpers.WebMap.WFBaseViewModels, Version=0.0.0.0, Culture=neutral, PublicKeyToken=72aeb7ea29952ec4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\UpgradeHelpers.WebMap.WFBaseViewModels.0.0.0.0\lib\net45\UpgradeHelpers.WebMap.WFBaseViewModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Customizations\Customizations.csproj">
+      <Project>{4531f942-1652-4660-9b18-02b1116009a0}</Project>
+      <Name>Customizations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="System.Windows.Forms\RichTextBox.cs" />
+    <Compile Include="System.Windows.Forms\ButtonExtensions.cs" />
+    <Compile Include="System.Windows.Forms\LabelExtensions.cs" />
+    <Compile Include="System.Windows.Forms\Control.cs" />
+    <Compile Include="System.Windows.Forms\ControlExtensions.cs" />
+    <Compile Include="System.Windows.Forms\TextBoxBaseExtensions.cs" />
+    <Compile Include="System.Windows.Forms\RichTextBoxScrollBars.cs" />
+    <Compile Include="System.Windows.Forms\ButtonBaseExtensions.cs" />
+    <Compile Include="System.Windows.Forms\Cursor.cs" />
+    <Compile Include="System.Windows.Forms\Cursors.cs" />
+    <Compile Include="System.Windows.Forms\RightToLeft.cs" />
+    <Compile Include="System.Windows.Forms\TextImageRelation.cs" />
+    <Compile Include="System.Windows.Forms\FormExtensions.cs" />
+    <Compile Include="System.Windows.Forms\IButtonControl.cs" />
+    <Compile Include="System.Windows.Forms\AutoScaleMode.cs" />
+    <Compile Include="System.Windows.Forms\FormBorderStyle.cs" />
+    <Compile Include="System.Windows.Forms\TextBoxExtensions.cs" />
+    <Compile Include="System.Windows.Forms\GroupBoxExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DockStyle.cs" />
+    <Compile Include="System.Windows.Forms\CheckBoxExtensions.cs" />
+    <Compile Include="System.Windows.Forms\ListBox.cs" />
+    <Compile Include="System.Windows.Forms\ListBoxExtensions.cs" />
+    <Compile Include="System.Windows.Forms\RadioButtonExtensions.cs" />
+    <Compile Include="System.Windows.Forms\Appearance.cs" />
+    <Compile Include="System.Windows.Forms\TreeViewExtensions.cs" />
+    <Compile Include="System.Windows.Forms\TreeViewEventHandler.cs" />
+    <Compile Include="System.Windows.Forms\TreeNodeExtensions.cs" />
+    <Compile Include="System.Windows.Forms\FormStartPosition.cs" />
+    <Compile Include="System.Windows.Forms\MonthCalendarExtensions.cs" />
+    <Compile Include="System.Windows.Forms\ComboBoxExtensions.cs" />
+    <Compile Include="System.Windows.Forms\PictureBoxExtensions.cs" />
+    <Compile Include="System.Windows.Forms\PictureBoxSizeMode.cs" />
+    <Compile Include="System.Windows.Forms\KeyPressEventArgsExtensions.cs" />
+    <Compile Include="System.Windows.Forms\KeyPressEventHandler.cs" />
+    <Compile Include="System.Windows.Forms\TabControl.cs" />
+    <Compile Include="System.Windows.Forms\MaskedTextBoxExtensions.cs" />
+    <Compile Include="System.Windows.Forms\PanelExtensions.cs" />
+    <Compile Include="System.Windows.Forms\TabPageExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DrawMode.cs" />
+    <Compile Include="System.Windows.Forms\ComboBoxStyle.cs" />
+    <Compile Include="System.Windows.Forms\TabSizeMode.cs" />
+    <Compile Include="System.Windows.Forms\TabControlCancelEventArgsExtensions.cs" />
+    <Compile Include="System.Windows.Forms\TabControlCancelEventHandler.cs" />
+    <Compile Include="System.Windows.Forms\BoundsSpecified.cs" />
+    <Compile Include="System.Windows.Forms\ToolStripMenuItemExtensions.cs" />
+    <Compile Include="System.Windows.Forms\MenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="System.Windows.Forms\ToolStripItemExtensions.cs" />
+    <Compile Include="System.Windows.Forms\MergeAction.cs" />
+    <Compile Include="System.Windows.Forms\ToolStripDropDownItemExtensions.cs" />
+    <Compile Include="System.Windows.Forms\FormWindowState.cs" />
+    <Compile Include="System.Windows.Forms\Day.cs" />
+    <Compile Include="System.Windows.Forms\DateRangeEventArgs.cs" />
+    <Compile Include="System.Windows.Forms\DateRangeEventHandler.cs" />
+    <Compile Include="System.Windows.Forms\SelectionRangeExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DateTimePickerExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DateTimePickerFormat.cs" />
+    <Compile Include="System.Windows.Forms\ToolStripDropDownClosingEventArgs.cs" />
+    <Compile Include="System.Windows.Forms\ContextMenuStripExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DragEventArgsExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DragEventHandler.cs" />
+    <Compile Include="System.Windows.Forms\MouseEventArgsExtensions.cs" />
+    <Compile Include="System.Windows.Forms\MouseEventHandler.cs" />
+    <Compile Include="System.Windows.Forms\ToolStripDropDownClosingEventHandler.cs" />
+    <Compile Include="System.Windows.Forms\MdiLayout.cs" />
+    <Compile Include="System.Windows.Forms\ScrollBars.cs" />
+    <Compile Include="System.Windows.Forms\DataGridViewCellStyle.cs" />
+    <Compile Include="System.Windows.Forms\DataGridViewExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DataGridViewColumnHeadersHeightSizeMode.cs" />
+    <Compile Include="System.Windows.Forms\DataGridViewColumnExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DataGridViewCellExtensions.cs" />
+    <Compile Include="System.Windows.Forms\DataGridViewTextBoxCell.cs" />
+    <Compile Include="System.Windows.Forms\DataGridViewRowHeadersWidthSizeMode.cs" />
+    <Compile Include="System.Windows.Forms\MessageBoxDefaultButton.cs" />
+    <Compile Include="System.Windows.Forms\PrintDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="System.Windows.Forms\CommonDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="System.Drawing\Point.cs" />
+    <Compile Include="System.Drawing\Size.cs" />
+    <Compile Include="System.Drawing\ColorExtensions.cs" />
+    <Compile Include="System.Drawing\SizeF.cs" />
+    <Compile Include="System.Drawing\ColorTranslatorExtensions.cs" />
+    <Compile Include="System.Drawing\Icon.cs" />
+    <Compile Include="System.Drawing\StringTrimming.cs" />
+    <Compile Include="System.Drawing.Drawing2D\DashStyle.cs" />
+    <Compile Include="System.Drawing.Printing\PrinterSettings.cs" />
+    <Compile Include="FarPoint.Win.Spread\SheetViewExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread\NamedStyleExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\TextCellTypeExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread\TipAppearance.cs" />
+    <Compile Include="FarPoint.Win.Spread.Model\ReferenceStyle.cs" />
+    <Compile Include="FarPoint.Win.Spread\CellExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread\ColumnFooter.cs" />
+    <Compile Include="FarPoint.Win.Spread\Columns.cs" />
+    <Compile Include="FarPoint.Win.Spread\ColumnsExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread\ColumnExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread\HeaderAutoText.cs" />
+    <Compile Include="FarPoint.Win.Spread\Rows.cs" />
+    <Compile Include="FarPoint.Win.Spread\RowsExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread\GridLine.cs" />
+    <Compile Include="FarPoint.Win.Spread\GridLineType.cs" />
+    <Compile Include="FarPoint.Win.Spread\OperationMode.cs" />
+    <Compile Include="FarPoint.Win.Spread\RowHeaderExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread\FpSpreadExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\ICellType.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\IRenderer.cs" />
+    <Compile Include="FarPoint.Win.Spread\NamedStyleCollection.cs" />
+    <Compile Include="FarPoint.Win.Spread\SheetViewCollection.cs" />
+    <Compile Include="FarPoint.Win.Spread\SpreadHScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FarPoint.Win.Spread\SpreadVScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FarPoint.Win.Spread.CellType\EditBaseCellType.cs" />
+    <Compile Include="FarPoint.Win.Spread\NoPrinterPrintInfo.cs" />
+    <Compile Include="FarPoint.Win.Spread\InputMap.cs" />
+    <Compile Include="FarPoint.Win.Spread\PrintInfo.cs" />
+    <Compile Include="FarPoint.Win.Spread\PrintMargin.cs" />
+    <Compile Include="FarPoint.Win.Spread\PrintHeader.cs" />
+    <Compile Include="FarPoint.Win.Spread\SelectionBlockOptions.cs" />
+    <Compile Include="FarPoint.Win.Spread\Keystroke.cs" />
+    <Compile Include="FarPoint.Win.Spread\SpreadActions.cs" />
+    <Compile Include="FarPoint.Win.Spread\InputMapMode.cs" />
+    <Compile Include="FarPoint.Win.Spread.Model\SelectionPolicy.cs" />
+    <Compile Include="FarPoint.Win.Spread\DefaultFocusIndicatorRenderer.cs" />
+    <Compile Include="FarPoint.Win.Spread\DefaultScrollBarRenderer.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\GeneralCellType.cs" />
+    <Compile Include="FarPoint.Win.Spread\ScrollBarPolicy.cs" />
+    <Compile Include="FarPoint.Win.Spread\CellClickEventArgs.cs" />
+    <Compile Include="FarPoint.Win.Spread\CellClickEventHandler.cs" />
+    <Compile Include="FarPoint.Win.Spread\IFocusIndicatorRenderer.cs" />
+    <Compile Include="FarPoint.Win.Spread\FpScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FarPoint.Win.Spread\FpScrollBarButtonCollection.cs" />
+    <Compile Include="FarPoint.Win.Spread\IScrollBarRenderer.cs" />
+    <Compile Include="FarPoint.Win.Spread\ScrollBarTrackPolicy.cs" />
+    <Compile Include="FarPoint.Win.Spread\SpreadSkin.cs" />
+    <Compile Include="FarPoint.Win.Spread\DefaultSpreadSkins.cs" />
+    <Compile Include="FarPoint.Win.Spread\StyleInfo.cs" />
+    <Compile Include="FarPoint.Win.Spread\FilterBar.cs" />
+    <Compile Include="FarPoint.Win.Spread\SelectionStyles.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\CheckBoxCellTypeExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread.Model\SelectionUnit.cs" />
+    <Compile Include="FarPoint.Win.Spread\EditorNotifyEventArgs.cs" />
+    <Compile Include="FarPoint.Win.Spread\EditorNotifyEventHandler.cs" />
+    <Compile Include="FarPoint.Win.Spread\PrintOrientation.cs" />
+    <Compile Include="FarPoint.Win.Spread\SpreadView.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\NumberCellType.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\ComboBoxCellTypeExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\DateTimeCellTypeExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\DateTimeFormat.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\CharacterSet.cs" />
+    <Compile Include="FarPoint.Win.Spread\ChangeEventArgs.cs" />
+    <Compile Include="FarPoint.Win.Spread\ChangeEventHandler.cs" />
+    <Compile Include="FarPoint.Win.Spread\AlternatingRows.cs" />
+    <Compile Include="FarPoint.Win.Spread\AlternatingRow.cs" />
+    <Compile Include="FarPoint.Win.Spread\ScrollTipPolicy.cs" />
+    <Compile Include="FarPoint.Win.Spread.CellType\ButtonCellTypeExtensions.cs" />
+    <Compile Include="FarPoint.Win.Spread\AdvanceEventArgs.cs" />
+    <Compile Include="FarPoint.Win.Spread\AdvanceEventHandler.cs" />
+    <Compile Include="FarPoint.Win\ComplexBorderSide.cs" />
+    <Compile Include="FarPoint.Win\ComplexBorderSideStyle.cs" />
+    <Compile Include="FarPoint.Win\IBorder.cs" />
+    <Compile Include="FarPoint.Win\VisualStyles.cs" />
+    <Compile Include="FarPoint.Win\CheckBoxPicture.cs" />
+    <Compile Include="FarPoint.Win\Picture.cs" />
+    <Compile Include="FarPoint.Win\RenderStyle.cs" />
+    <Compile Include="FarPoint.Win\HorizontalAlignment.cs" />
+    <Compile Include="FarPoint.Win\VerticalAlignment.cs" />
+    <Compile Include="FarPoint.Win\AutoSearch.cs" />
+    <Compile Include="FarPoint.Win\ButtonAlign.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\_Application.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\ApplicationEvents4_Event.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\Application.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\ApplicationClass.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\_Document.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\DocumentEvents2_Event.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\Document.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\Documents.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\Selection.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\Range.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdSaveOptions.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdWindowState.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\_Global.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\Global.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\GlobalClass.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\PageSetup.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\LineNumbering.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdOrientation.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdPaperTray.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdSectionStart.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdVerticalAlignment.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdGutterStyle.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdPrintOutRange.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdPrintOutItem.cs" />
+    <Compile Include="Microsoft.Office.Interop.Word\WdPrintOutPages.cs" />
+    <Compile Include="Microsoft.VisualBasic.Compatibility.VB6\DriveListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Microsoft.VisualBasic.Compatibility.VB6\DirListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Microsoft.VisualBasic.Compatibility.VB6\FileListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SAPBAPIControlLib\_CWdoAuto.cs" />
+    <Compile Include="SAPBAPIControlLib\_CWdoAutoEvents_Event.cs" />
+    <Compile Include="SAPBAPIControlLib\SAPBAPIControl.cs" />
+    <Compile Include="SAPBAPIControlLib\SAPBAPIControlClass.cs" />
+    <Compile Include="SAPLogonCtrl\_CSAPLogonControl.cs" />
+    <Compile Include="SAPLogonCtrl\_CSAPLogonControlEvents_Event.cs" />
+    <Compile Include="SAPLogonCtrl\SAPLogonControl.cs" />
+    <Compile Include="SAPLogonCtrl\SAPLogonControlClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,552 @@
+<div>
+    <div data-width="1000" data-height="700" data-removeControlBox="true" name="wzdFire" data-title="TFD Incident Reporting System - Report Entry Wizard" class="TFDIncident_wzdFire" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+        <form class="wzdFire">
+            <fieldset id="frmFireInfo" data-bind="enabled : frmFireInfo.Enabled">
+                <div id="frmFireInfo" class="frmFireInfo" data-bind="visible: frmFireInfo.Visible, style : { backgroundColor : frmFireInfo.BackColor.Value }">
+                    <label id="_lbFrameTitle_0" tabindex="113" index="0" class="_lbFrameTitle_0" data-bind="style : { color : _lbFrameTitle_0.ForeColor.Value }, text : _lbFrameTitle_0.Text, imagePath : _lbFrameTitle_0.ImagePath">FIRE INFORMATION</label>
+                    <fieldset id="frmFireOnly" class="frmFireOnly" data-bind="style : { backgroundColor : frmFireOnly.BackColor.Value }, visible : frmFireOnly.Visible">
+                        <legend id="frmFireOnly_legend" class="frmFireOnly_legend"></legend>
+                        <div>
+                            <fieldset id="frmBsmtorAttic" data-bind="enabled : frmBsmtorAttic.Enabled">
+                                <div id="frmBsmtorAttic" class="frmBsmtorAttic" data-bind="style : { backgroundColor : frmBsmtorAttic.BackColor.Value }">
+                                    <input id="txtFloorOfOrigin" tabindex="163" Value="txtFloorOfOrigin" class="txtFloorOfOrigin" data-bind="style : { backgroundColor : txtFloorOfOrigin.BackColor.Value, color : txtFloorOfOrigin.ForeColor.Value }, value : txtFloorOfOrigin.Text, events : { change : txtFloorOfOrigin_TextChanged }, " />
+                                    <label id="lbFlOfOrigin" tabindex="184" class="lbFlOfOrigin" data-bind="style : { color : lbFlOfOrigin.ForeColor.Value }, text : lbFlOfOrigin.Text, imagePath : lbFlOfOrigin.ImagePath">FLOOR OF ORIGIN</label>
+                                    <div index="0" class="_optFloor_0" data-bind="style : { backgroundColor : _optFloor_0.BackColor.Value, color : _optFloor_0.ForeColor.Value }">
+                                        <input id="_optFloor_0" tabindex="164" type="checkbox" style="float: left" data-bind="checkState : _optFloor_0.Checked, events : { click : optFloor_CheckStateChanged }, " />
+                                        <div style="float: left;overflow:hidden">
+                                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">BASEMENT</label>
+                                        </div>
+                                    </div>
+                                    <div index="1" class="_optFloor_1" data-bind="style : { backgroundColor : _optFloor_1.BackColor.Value, color : _optFloor_1.ForeColor.Value }">
+                                        <input id="_optFloor_1" tabindex="165" type="checkbox" style="float: left" data-bind="checkState : _optFloor_1.Checked, events : { click : optFloor_CheckStateChanged }, " />
+                                        <div style="float: left;overflow:hidden">
+                                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ATTIC</label>
+                                        </div>
+                                    </div>
+                                    <div index="2" class="_optFloor_2" data-bind="style : { backgroundColor : _optFloor_2.BackColor.Value, color : _optFloor_2.ForeColor.Value }">
+                                        <input id="_optFloor_2" tabindex="166" type="checkbox" style="float: left" data-bind="checkState : _optFloor_2.Checked, events : { click : optFloor_CheckStateChanged }, " />
+                                        <div style="float: left;overflow:hidden">
+                                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ROOF</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <label id="lbBurnDamage" tabindex="170" class="lbBurnDamage" data-bind="visible : lbBurnDamage.Visible, text : lbBurnDamage.Text, imagePath : lbBurnDamage.ImagePath">BURN DAMAGE</label>
+                            <div class="cboBurnDamagePos" id="cboBurnDamagePos" data-bind="visible : cboBurnDamage.Visible">
+                                <select data-role="mobilizecombobox" id="" index="1" tabindex="155" class="cboBurnDamage" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboBurnDamage, source : cboBurnDamage.ComboBoxItems, events : { change : cboBurnDamage_SelectionChangeCommitted }, "></select>
+                            </div>
+                            <label id="lbSmokeDamage" tabindex="145" class="lbSmokeDamage" data-bind="visible : lbSmokeDamage.Visible, text : lbSmokeDamage.Text, imagePath : lbSmokeDamage.ImagePath">SMOKE DAMAGE</label>
+                            <div class="cboSmokeDamagePos" id="cboSmokeDamagePos" data-bind="visible : cboSmokeDamage.Visible">
+                                <select data-role="mobilizecombobox" id="cboSmokeDamage" index="1" tabindex="156" class="cboSmokeDamage" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboSmokeDamage, source : cboSmokeDamage.ComboBoxItems, events : { change : cboSmokeDamage_SelectionChangeCommitted }, "></select>
+                            </div>
+                            <label id="lbContribFireSpread" tabindex="143" class="lbContribFireSpread" data-bind="visible : lbContribFireSpread.Visible, text : lbContribFireSpread.Text, imagePath : lbContribFireSpread.ImagePath">ITEMS CONTRIBUTING TO FIRE SPREAD</label>
+                            <div id="lstItemContribFireSpread" tabindex="157" data-selectable="multiple" class="lstItemContribFireSpread" data-role="listbox" style="overflow:auto" data-bind="source : lstItemContribFireSpread.ListBoxItems, listBoxSelectedIndices : lstItemContribFireSpread.ListBoxSelectedIndices, visible : lstItemContribFireSpread.Visible, events : { change : lstItemContribFireSpread_SelectedIndexChanged }, ">
+                                <option value="lstItemContribFireSpread">"lstItemContribFireSpread"</option>
+                            </div>
+                            <label id="lbEquipInvolvIgnition" tabindex="144" class="lbEquipInvolvIgnition" data-bind="visible : lbEquipInvolvIgnition.Visible, text : lbEquipInvolvIgnition.Text, imagePath : lbEquipInvolvIgnition.ImagePath">EQUIPMENT INVOLVED IN IGNITION</label>
+                            <div id="lstEquipInvolvIgnition" tabindex="158" data-selectable="multiple" class="lstEquipInvolvIgnition" data-role="listbox" style="overflow:auto" data-bind="source : lstEquipInvolvIgnition.ListBoxItems, listBoxSelectedIndices : lstEquipInvolvIgnition.ListBoxSelectedIndices, visible : lstEquipInvolvIgnition.Visible, events : { change : lstEquipInvolvIgnition_SelectedIndexChanged }, ">
+                                <option value="lstEquipInvolvIgnition ">"lstEquipInvolvIgnition "</option>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <label id="lbAreaOrigin" tabindex="116" class="lbAreaOrigin" data-bind="style : { color : lbAreaOrigin.ForeColor.Value }, text : lbAreaOrigin.Text, imagePath : lbAreaOrigin.ImagePath">AREA OF ORIGIN</label>
+                    <div class="cboAreaOfOriginPos" id="cboAreaOfOriginPos">
+                        <select data-role="mobilizecombobox" id="cboAreaOfOrigin" index="1" tabindex="142" class="cboAreaOfOrigin" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboAreaOfOrigin, source : cboAreaOfOrigin.ComboBoxItems, events : { change : cboAreaOfOrigin_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbHeatSource" tabindex="117" class="lbHeatSource" data-bind="style : { color : lbHeatSource.ForeColor.Value }, text : lbHeatSource.Text, imagePath : lbHeatSource.ImagePath">HEAT SOURCE</label>
+                    <div class="cboHeatSourcePos" id="cboHeatSourcePos">
+                        <select data-role="mobilizecombobox" id="cboHeatSource" index="1" tabindex="143" class="cboHeatSource" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboHeatSource, source : cboHeatSource.ComboBoxItems, events : { change : cboHeatSource_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbFirstIgnited" tabindex="169" class="lbFirstIgnited" data-bind="visible : lbFirstIgnited.Visible, text : lbFirstIgnited.Text, imagePath : lbFirstIgnited.ImagePath">FIRST ITEM IGNITED</label>
+                    <div class="cboFirstItemIgnitedPos" id="cboFirstItemIgnitedPos" data-bind="visible : cboFirstItemIgnited.Visible">
+                        <select data-role="mobilizecombobox" id="cboFirstItemIgnited" index="1" tabindex="144" class="cboFirstItemIgnited" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboFirstItemIgnited, source : cboFirstItemIgnited.ComboBoxItems, events : { change : cboFirstItemIgnited_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbGenCauseIgnition" tabindex="172" class="lbGenCauseIgnition" data-bind="visible : lbGenCauseIgnition.Visible, text : lbGenCauseIgnition.Text, imagePath : lbGenCauseIgnition.ImagePath">GENERAL CAUSE OF IGNITION</label>
+                    <div class="cboGenCauseOfIgnitionPos" id="cboGenCauseOfIgnitionPos" data-bind="visible : cboGenCauseOfIgnition.Visible">
+                        <select data-role="mobilizecombobox" id="cboGenCauseOfIgnition" index="1" tabindex="145" class="cboGenCauseOfIgnition" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboGenCauseOfIgnition, source : cboGenCauseOfIgnition.ComboBoxItems, events : { change : cboGenCauseOfIgnition_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbSpecCauseOfIgnition" tabindex="173" class="lbSpecCauseOfIgnition" data-bind="visible : lbSpecCauseOfIgnition.Visible, text : lbSpecCauseOfIgnition.Text, imagePath : lbSpecCauseOfIgnition.ImagePath">SPECIFIC CAUSE OF IGNITION</label>
+                    <div class="cboSpecCauseOfIgnitionPos" id="cboSpecCauseOfIgnitionPos" data-bind="visible : cboSpecCauseOfIgnition.Visible">
+                        <select data-role="mobilizecombobox" id="cboSpecCauseOfIgnition" index="1" tabindex="146" class="cboSpecCauseOfIgnition" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboSpecCauseOfIgnition, source : cboSpecCauseOfIgnition.ComboBoxItems, events : { change : cboSpecCauseOfIgnition_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbPhyContribFactors" tabindex="115" class="lbPhyContribFactors" data-bind="style : { color : lbPhyContribFactors.ForeColor.Value }, text : lbPhyContribFactors.Text, imagePath : lbPhyContribFactors.ImagePath">PHYSICAL CONTRIBUTING FACTORS</label>
+                    <div id="lstPhysicalContribFactors" tabindex="147" data-selectable="multiple" class="lstPhysicalContribFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstPhysicalContribFactors.ListBoxItems, listBoxSelectedIndices : lstPhysicalContribFactors.ListBoxSelectedIndices, events : { change : lstPhysicalContribFactors_SelectedIndexChanged }, ">
+                        <option value="lstPhysicalContribFactors ">"lstPhysicalContribFactors "</option>
+                    </div>
+                    <label id="lbHumanContribFactors" tabindex="114" class="lbHumanContribFactors" data-bind="style : { color : lbHumanContribFactors.ForeColor.Value }, text : lbHumanContribFactors.Text, imagePath : lbHumanContribFactors.ImagePath">HUMAN CONTRIBUTING FACTORS</label>
+                    <div id="lstHumanContribFactors" tabindex="148" data-selectable="multiple" class="lstHumanContribFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstHumanContribFactors.ListBoxItems, listBoxSelectedIndices : lstHumanContribFactors.ListBoxSelectedIndices, events : { change : lstHumanContribFactors_SelectedIndexChanged }, ">
+                        <option value="lstHumanContribFactors ">"lstHumanContribFactors "</option>
+                    </div>
+                    <fieldset id="frmHFDetail" data-bind="enabled : frmHFDetail.Enabled">
+                        <div id="frmHFDetail" class="frmHFDetail" data-bind="visible : frmHFDetail.Visible">
+                            <div index="0" class="_optHFGender_0">
+                                <input id="_optHFGender_0" tabindex="172" type="radio" name="frmHFDetail_radios" checked="checked" style="float: left" data-bind="customChecked : _optHFGender_0.Checked" />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">MALE</label>
+                                </div>
+                            </div>
+                            <div index="1" class="_optHFGender_1">
+                                <input id="_optHFGender_1" tabindex="173" type="radio" name="frmHFDetail_radios" style="float: left" data-bind="customChecked : _optHFGender_1.Checked" />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">FEMALE</label>
+                                </div>
+                            </div>
+                            <label id="Label11" tabindex="254" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">AGE</label>
+                            <input id="txtHFAge" tabindex="174" Value="Text1" class="txtHFAge" data-bind="style : { backgroundColor : txtHFAge.BackColor.Value, color : txtHFAge.ForeColor.Value }, value : txtHFAge.Text, events : { change : txtHFAge_TextChanged }, " />
+                        </div>
+                    </fieldset>
+                    <label id="lbSuppressFactors" tabindex="171" class="lbSuppressFactors" data-bind="style : { color : lbSuppressFactors.ForeColor.Value }, text : lbSuppressFactors.Text, imagePath : lbSuppressFactors.ImagePath">SUPPRESSION FACTORS</label>
+                    <div id="lstSuppressionFactors" tabindex="149" data-selectable="multiple" class="lstSuppressionFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstSuppressionFactors.ListBoxItems, listBoxSelectedIndices : lstSuppressionFactors.ListBoxSelectedIndices, events : { change : lstSuppressionFactors_SelectedIndexChanged }, ">
+                        <option value="lstSuppressionFactors ">"lstSuppressionFactors "</option>
+                    </div>
+                </div>
+
+            </fieldset>
+            <label id="lbFireLocationTitle" tabindex="128" class="lbFireLocationTitle" data-bind="text : lbFireLocationTitle.Text, imagePath : lbFireLocationTitle.ImagePath">Location:</label>
+            <label id="lbFireLocation" tabindex="127" class="lbFireLocation" data-bind="text : lbFireLocation.Text, imagePath : lbFireLocation.ImagePath">901 Fawcett Av, TAC</label>
+            <label id="lbFireIncTitle" tabindex="129" class="lbFireIncTitle" data-bind="text : lbFireIncTitle.Text, imagePath : lbFireIncTitle.ImagePath">Incident \#: </label>
+            <label id="lbFireIncNo" tabindex="130" class="lbFireIncNo" data-bind="text : lbFireIncNo.Text, imagePath : lbFireIncNo.ImagePath">T002310042</label>
+            <label id="LbUnitTitle" tabindex="45" class="LbUnitTitle" data-bind="text : LbUnitTitle.Text, imagePath : LbUnitTitle.ImagePath">Unit:</label>
+            <label id="lbFireUnit" tabindex="131" class="lbFireUnit" data-bind="text : lbFireUnit.Text, imagePath : lbFireUnit.ImagePath">E2</label>
+            <fieldset id="frmFireType" data-tag="5" data-bind="enabled : frmFireType.Enabled">
+                <div id="frmFireType" class="frmFireType" data-bind="visible: frmFireType.Visible, style : { backgroundColor : frmFireType.BackColor.Value }">
+                    <fieldset id="_imgMain_5" index="5" class="_imgMain_5" data-bind="enabled : _imgMain_5.Enabled, style : { backgroundImage : _imgMain_5.Image }"></fieldset>
+                    <label id="_lbFrameTitle_5" tabindex="37" index="5" class="_lbFrameTitle_5" data-bind="style : { color : _lbFrameTitle_5.ForeColor.Value }, text : _lbFrameTitle_5.Text, imagePath : _lbFrameTitle_5.ImagePath">FIRE TYPE</label>
+                    <fieldset id="Frame1" class="Frame1" data-bind="style : { backgroundColor : Frame1.BackColor.Value }">
+                        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+                        <div>
+                            <label id="lbFireType" tabindex="217" class="lbFireType" data-bind="style : { color : lbFireType.ForeColor.Value }, text : lbFireType.Text, imagePath : lbFireType.ImagePath">SELECT FIRE TYPE</label>
+                            <div index="0" class="_optType_0" data-bind="style : { backgroundColor : _optType_0.BackColor.Value, color : _optType_0.ForeColor.Value }, visible : _optType_0.Visible">
+                                <input id="_optType_0" tabindex="47" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optType_0.Checked, events : { change : optType_CheckedChanged }, " />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _optType_0.Text">STRUCTURE</label>
+                                </div>
+                            </div>
+                            <div index="1" class="_optType_1" data-bind="style : { backgroundColor : _optType_1.BackColor.Value, color : _optType_1.ForeColor.Value }, visible : _optType_1.Visible">
+                                <input id="_optType_1" tabindex="48" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optType_1.Checked, events : { change : optType_CheckedChanged }, " />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _optType_1.Text">MOBILE</label>
+                                </div>
+                            </div>
+                            <div index="2" class="_optType_2" data-bind="style : { backgroundColor : _optType_2.BackColor.Value, color : _optType_2.ForeColor.Value }, visible : _optType_2.Visible">
+                                <input id="_optType_2" tabindex="49" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optType_2.Checked, events : { change : optType_CheckedChanged }, " />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _optType_2.Text">BRUSH/GRASS/TREES</label>
+                                </div>
+                            </div>
+                            <div index="3" class="_optType_3" data-bind="style : { backgroundColor : _optType_3.BackColor.Value, color : _optType_3.ForeColor.Value }, visible : _optType_3.Visible">
+                                <input id="_optType_3" tabindex="50" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optType_3.Checked, events : { change : optType_CheckedChanged }, " />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _optType_3.Text">DUMPSTER</label>
+                                </div>
+                            </div>
+                            <div index="4" class="_optType_4" data-bind="style : { backgroundColor : _optType_4.BackColor.Value, color : _optType_4.ForeColor.Value }, visible : _optType_4.Visible">
+                                <input id="_optType_4" tabindex="51" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optType_4.Checked, events : { change : optType_CheckedChanged }, " />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _optType_4.Text">OTHER OUTSIDE FIRE</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="chkExposures" data-bind="visible : chkExposures.Visible">
+                        <input id="chkExposures" tabindex="54" type="checkbox" style="float: left" data-bind="events : { click : chkExposures_CheckStateChanged }, " />
+                        <div style="float: left;overflow:hidden">
+                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">STRUCTURE EXPOSURES?</label>
+                        </div>
+                    </div>
+                    <label id="lbNumExp" tabindex="248" class="lbNumExp" data-bind="visible : lbNumExp.Visible, text : lbNumExp.Text, imagePath : lbNumExp.ImagePath">\# OF EXPOSURES</label>
+                    <input id="txtNumberExposures" tabindex="56" class="txtNumberExposures" data-bind="style : { backgroundColor : txtNumberExposures.BackColor.Value, color : txtNumberExposures.ForeColor.Value }, visible : txtNumberExposures.Visible, value : txtNumberExposures.Text, events : { change : txtNumberExposures_TextChanged }, " />
+                    <div class="chkMobileInvolved" data-bind="visible : chkMobileInvolved.Visible">
+                        <input id="chkMobileInvolved" tabindex="55" type="checkbox" style="float: left" />
+                        <div style="float: left;overflow:hidden">
+                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">MOBILE PROPERTY INVOLVED?</label>
+                        </div>
+                    </div>
+                    <div class="chkAddressCorrection" data-bind="visible : chkAddressCorrection.Visible">
+                        <input id="chkAddressCorrection" tabindex="53" type="checkbox" style="float: left" data-bind="events : { click : chkAddressCorrection_CheckStateChanged }, " />
+                        <div style="float: left;overflow:hidden">
+                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Address Correction Needed</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset id="frmReportStatus" data-tag="2" data-bind="enabled : frmReportStatus.Enabled">
+                <div id="frmReportStatus" class="frmReportStatus" data-bind="visible: frmReportStatus.Visible, style : { backgroundColor : frmReportStatus.BackColor.Value }">
+                    <fieldset id="_imgMain_2" data-tag="2" index="2" class="_imgMain_2" data-bind="enabled : _imgMain_2.Enabled, style : { backgroundImage : _imgMain_2.Image }"></fieldset>
+                    <label id="_lbFrameTitle_2" tabindex="165" data-tag="2" index="2" class="_lbFrameTitle_2" data-bind="style : { color : _lbFrameTitle_2.ForeColor.Value }, text : _lbFrameTitle_2.Text, imagePath : _lbFrameTitle_2.ImagePath">FIRE REPORT STATUS</label>
+                    <label id="lbIncidentNumberTitle" tabindex="164" class="lbIncidentNumberTitle" data-bind="style : { color : lbIncidentNumberTitle.ForeColor.Value }, text : lbIncidentNumberTitle.Text, imagePath : lbIncidentNumberTitle.ImagePath">INCIDENT \#:</label>
+                    <label id="lblIncidentNumber" tabindex="163" class="lblIncidentNumber" data-bind="style : { color : lblIncidentNumber.ForeColor.Value }, text : lblIncidentNumber.Text, imagePath : lblIncidentNumber.ImagePath">001230056</label>
+                    <label id="Label9" tabindex="210" class="Label9" data-bind="style : { color : Label9.ForeColor.Value }, text : Label9.Text, imagePath : Label9.ImagePath">CURRENT REPORT:</label>
+                    <label id="lbRSCurrReportType" tabindex="209" class="lbRSCurrReportType" data-bind="style : { color : lbRSCurrReportType.ForeColor.Value }, text : lbRSCurrReportType.Text, imagePath : lbRSCurrReportType.ImagePath">Mobile Property Fire Report</label>
+                    <label id="lbReportByTitle" tabindex="162" class="lbReportByTitle" data-bind="style : { color : lbReportByTitle.ForeColor.Value }, text : lbReportByTitle.Text, imagePath : lbReportByTitle.ImagePath">REPORTED BY:</label>
+                    <label id="lbReportedBy" tabindex="161" class="lbReportedBy" data-bind="style : { color : lbReportedBy.ForeColor.Value }, text : lbReportedBy.Text, imagePath : lbReportedBy.ImagePath">Hilderbrand, Robert</label>
+                    <label id="lblEmployeeID" tabindex="160" class="lblEmployeeID" data-bind="style : { color : lblEmployeeID.ForeColor.Value }, text : lblEmployeeID.Text, imagePath : lblEmployeeID.ImagePath">02341</label>
+                    <label id="lblPosition" tabindex="159" class="lblPosition" data-bind="style : { color : lblPosition.ForeColor.Value }, text : lblPosition.Text, imagePath : lblPosition.ImagePath">Officer</label>
+                    <label id="Label7" tabindex="185" class="Label7" data-bind="style : { color : Label7.ForeColor.Value }, text : Label7.Text, imagePath : Label7.ImagePath">ASSIGNMENT:</label>
+                    <label id="lblUnit" tabindex="158" class="lblUnit" data-bind="style : { color : lblUnit.ForeColor.Value }, text : lblUnit.Text, imagePath : lblUnit.ImagePath">E10</label>
+                    <label id="lblShift" tabindex="157" class="lblShift" data-bind="style : { color : lblShift.ForeColor.Value }, text : lblShift.Text, imagePath : lblShift.ImagePath">D Shift</label>
+                    <label id="Label1" tabindex="235" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">REPORTS FOR THIS INCIDENT</label>
+                    <div id="lstMessage" tabindex="211" class="lstMessage" data-role="listbox" style="overflow:auto" data-bind="source : lstMessage.ListBoxItems, listBoxSelectedIndices : lstMessage.ListBoxSelectedIndices"></div>
+                    <button id="cmdSave" tabindex="198" class="cmdSave" type="button" data-bind="enabled : cmdSave.Enabled, events : { click : cmdSave_Click }, ">Save Report as Complete</button>
+                    <button id="cmdSaveIncomplete" tabindex="197" class="cmdSaveIncomplete" type="button" data-bind="events : { click : cmdSaveIncomplete_Click }, ">Save Report as Incomplete</button>
+                    <button id="cmdAbandon" tabindex="196" class="cmdAbandon" type="button" data-bind="events : { click : cmdAbandon_Click }, ">Exit WITHOUT Saving Report</button>
+                </div>
+            </fieldset>
+            <fieldset id="frmOutsideInfo" data-tag="1" data-bind="enabled : frmOutsideInfo.Enabled">
+                <div id="frmOutsideInfo" class="frmOutsideInfo" data-bind="visible: frmOutsideInfo.Visible, style : { backgroundColor : frmOutsideInfo.BackColor.Value }">
+                    <label id="_lbFrameTitle_1" tabindex="119" data-tag="1" index="1" class="_lbFrameTitle_1" data-bind="style : { color : _lbFrameTitle_1.ForeColor.Value }, text : _lbFrameTitle_1.Text, imagePath : _lbFrameTitle_1.ImagePath">OUTSIDE FIRE</label>
+                    <div class="cboOSHeatSourcePos" id="cboOSHeatSourcePos" data-bind="visible : cboOSHeatSource.Visible">
+                        <select data-role="mobilizecombobox" id="cboOSHeatSource" index="1" tabindex="176" class="cboOSHeatSource" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboOSHeatSource, source : cboOSHeatSource.ComboBoxItems, events : { change : cboOSHeatSource_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbOSHeatSource" tabindex="182" class="lbOSHeatSource" data-bind="visible : lbOSHeatSource.Visible, text : lbOSHeatSource.Text, imagePath : lbOSHeatSource.ImagePath">HEAT SOURCE</label>
+                    <label id="lbOSCauseOfIgnition" tabindex="124" class="lbOSCauseOfIgnition" data-bind="visible : lbOSCauseOfIgnition.Visible, text : lbOSCauseOfIgnition.Text, imagePath : lbOSCauseOfIgnition.ImagePath">GENERAL CAUSE OF IGNITION</label>
+                    <div class="cboOSCauseOfIgnitionPos" id="cboOSCauseOfIgnitionPos" data-bind="visible : cboOSCauseOfIgnition.Visible">
+                        <select data-role="mobilizecombobox" id="cboOSCauseOfIgnition" index="1" tabindex="177" class="cboOSCauseOfIgnition" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboOSCauseOfIgnition, source : cboOSCauseOfIgnition.ComboBoxItems, events : { change : cboOSCauseOfIgnition_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbSpecOSCauseOfIgnition" tabindex="174" class="lbSpecOSCauseOfIgnition" data-bind="style : { color : lbSpecOSCauseOfIgnition.ForeColor.Value }, text : lbSpecOSCauseOfIgnition.Text, imagePath : lbSpecOSCauseOfIgnition.ImagePath">SPECIFIC CAUSE OF IGNITION</label>
+                    <div class="cboOSSpecCauseOfIgnitionPos" id="cboOSSpecCauseOfIgnitionPos">
+                        <select data-role="mobilizecombobox" id="cboOSSpecCauseOfIgnition" index="1" tabindex="178" class="cboOSSpecCauseOfIgnition" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboOSSpecCauseOfIgnition, source : cboOSSpecCauseOfIgnition.ComboBoxItems, events : { change : cboOSSpecCauseOfIgnition_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <input id="txtOSLoss" tabindex="179" Value="0" class="txtOSLoss" data-bind="style : { backgroundColor : txtOSLoss.BackColor.Value, color : txtOSLoss.ForeColor.Value }, value : txtOSLoss.Text, events : { change : txtOSLoss_TextChanged }, " />
+                    <label id="lbOSContentLoss" tabindex="122" class="lbOSContentLoss" data-bind="style : { color : lbOSContentLoss.ForeColor.Value }, text : lbOSContentLoss.Text, imagePath : lbOSContentLoss.ImagePath">CONTENT LOSS</label>
+                    <div class="cboOSAreaUnitsPos" id="cboOSAreaUnitsPos">
+                        <select data-role="mobilizecombobox" id="cboOSAreaUnits" index="1" tabindex="180" class="cboOSAreaUnits" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboOSAreaUnits, source : cboOSAreaUnits.ComboBoxItems, events : { change : cboOSAreaUnits_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbOSAreaUnits" tabindex="121" class="lbOSAreaUnits" data-bind="style : { color : lbOSAreaUnits.ForeColor.Value }, text : lbOSAreaUnits.Text, imagePath : lbOSAreaUnits.ImagePath">AREA UNITS</label>
+                    <input id="txtOSAreaAffected" tabindex="181" Value=" txtOSAreaAffected" class="txtOSAreaAffected" data-bind="style : { backgroundColor : txtOSAreaAffected.BackColor.Value, color : txtOSAreaAffected.ForeColor.Value }, value : txtOSAreaAffected.Text, events : { change : txtOSAreaAffected_TextChanged }, " />
+                    <label id="lbOSAreaAffected" tabindex="123" class="lbOSAreaAffected" data-bind="style : { color : lbOSAreaAffected.ForeColor.Value }, text : lbOSAreaAffected.Text, imagePath : lbOSAreaAffected.ImagePath">AREA AFFECTED</label>
+                    <div class="cboOSMaterialInvolvedPos" id="cboOSMaterialInvolvedPos" data-bind="visible : cboOSMaterialInvolved.Visible">
+                        <select data-role="mobilizecombobox" id="cboOSMaterialInvolved" index="1" tabindex="182" class="cboOSMaterialInvolved" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboOSMaterialInvolved, source : cboOSMaterialInvolved.ComboBoxItems, events : { change : cboOSMaterialInvolved_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbOSMaterialInvolved" tabindex="120" class="lbOSMaterialInvolved" data-bind="visible : lbOSMaterialInvolved.Visible, text : lbOSMaterialInvolved.Text, imagePath : lbOSMaterialInvolved.ImagePath">MATERIAL INVOLVED</label>
+                </div>
+            </fieldset>
+            <fieldset id="frmName" data-tag="3" data-bind="enabled : frmName.Enabled">
+                <div id="frmName" class="frmName" data-bind="visible: frmName.Visible, style : { backgroundColor : frmName.BackColor.Value }">
+                    <label id="_lbFrameTitle_3" tabindex="90" index="3" class="_lbFrameTitle_3" data-bind="style : { color : _lbFrameTitle_3.ForeColor.Value }, text : _lbFrameTitle_3.Text, imagePath : _lbFrameTitle_3.ImagePath">PERSON OF INTEREST</label>
+                    <input id="txtFirstName" tabindex="122" Value="txtFirstName" class="txtFirstName" data-bind="style : { backgroundColor : txtFirstName.BackColor.Value, color : txtFirstName.ForeColor.Value }, value : txtFirstName.Text, events : { change : txtFirstName_TextChanged }, " />
+                    <input id="txtLastName" tabindex="123" Value="txtLastName" class="txtLastName" data-bind="style : { backgroundColor : txtLastName.BackColor.Value, color : txtLastName.ForeColor.Value }, value : txtLastName.Text, events : { change : txtLastName_TextChanged }, " />
+                    <input id="txtMI" tabindex="124" Value="txtMI" class="txtMI" data-bind="value : txtMI.Text, events : { change : txtMI_TextChanged }, " />
+                    <label id="lbFirstName" tabindex="101" class="lbFirstName" data-bind="style : { color : lbFirstName.ForeColor.Value }, text : lbFirstName.Text, imagePath : lbFirstName.ImagePath">FIRST NAME</label>
+                    <label id="lbLastName" tabindex="100" class="lbLastName" data-bind="style : { color : lbLastName.ForeColor.Value }, text : lbLastName.Text, imagePath : lbLastName.ImagePath">LAST NAME</label>
+                    <label id="lbMI" tabindex="133" class="lbMI" data-bind="style : { color : lbMI.ForeColor.Value }, text : lbMI.Text, imagePath : lbMI.ImagePath">M.I.</label>
+                    <input id="txtBusinessName" tabindex="125" class="txtBusinessName" data-bind="style : { backgroundColor : txtBusinessName.BackColor.Value, color : txtBusinessName.ForeColor.Value }, value : txtBusinessName.Text, events : { change : txtBusinessName_TextChanged }, " />
+                    <label id="lbBusinessName" tabindex="239" class="lbBusinessName" data-bind="text : lbBusinessName.Text, imagePath : lbBusinessName.ImagePath">BUSINESS NAME</label>
+                    <input id="txtHouseNumber" tabindex="126" Value="txtHouseNumber" class="txtHouseNumber" data-bind="value : txtHouseNumber.Text, events : { change : txtHouseNumber_TextChanged }, " />
+                    <div class="cboPrefixPos" id="cboPrefixPos">
+                        <select data-role="mobilizecombobox" id="cboPrefix" index="1" tabindex="127" class="cboPrefix" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboPrefix, source : cboPrefix.ComboBoxItems, events : { change : cboPrefix_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <input id="txtStreetName" tabindex="128" Value="txtStreetName" class="txtStreetName" data-bind="value : txtStreetName.Text, events : { change : txtStreetName_TextChanged }, " />
+                    <div class="cboStreetTypePos" id="cboStreetTypePos">
+                        <select data-role="mobilizecombobox" id="cboStreetType" index="1" tabindex="129" class="cboStreetType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboStreetType, source : cboStreetType.ComboBoxItems, events : { change : cboStreetType_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <div class="cboSuffixPos" id="cboSuffixPos">
+                        <select data-role="mobilizecombobox" id="cboSuffix" index="1" tabindex="130" class="cboSuffix" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboSuffix, source : cboSuffix.ComboBoxItems, events : { change : cboSuffix_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <input id="txtCity" tabindex="131" Value="txtCity" class="txtCity" data-bind="value : txtCity.Text" />
+                    <div class="cboStatePos" id="cboStatePos">
+                        <select data-role="mobilizecombobox" id="cboState" index="1" tabindex="132" class="cboState" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboState, source : cboState.ComboBoxItems"></select>
+                    </div>
+                    <input id="txtZipcode" tabindex="133" Value="txtZipcode" class="txtZipcode" data-bind="value : txtZipcode.Text, events : { change : txtZipcode_TextChanged }, " />
+                    <label id="lbStreetType" tabindex="105" class="lbStreetType" data-bind="style : { color : lbStreetType.ForeColor.Value }, text : lbStreetType.Text, imagePath : lbStreetType.ImagePath">TYPE</label>
+                    <label id="lbSuffix" tabindex="104" class="lbSuffix" data-bind="style : { color : lbSuffix.ForeColor.Value }, text : lbSuffix.Text, imagePath : lbSuffix.ImagePath">SUFFIX</label>
+                    <label id="lbCity" tabindex="103" class="lbCity" data-bind="style : { color : lbCity.ForeColor.Value }, text : lbCity.Text, imagePath : lbCity.ImagePath">CITY</label>
+                    <label id="lbState" tabindex="102" class="lbState" data-bind="style : { color : lbState.ForeColor.Value }, text : lbState.Text, imagePath : lbState.ImagePath">STATE</label>
+                    <label id="lblZipcode" tabindex="181" class="lblZipcode" data-bind="style : { color : lblZipcode.ForeColor.Value }, text : lblZipcode.Text, imagePath : lblZipcode.ImagePath">ZIPCODE</label>
+                    <label id="lbHouseNum" tabindex="108" class="lbHouseNum" data-bind="style : { color : lbHouseNum.ForeColor.Value }, text : lbHouseNum.Text, imagePath : lbHouseNum.ImagePath">HOUSE\#</label>
+                    <label id="lbPrefix" tabindex="107" class="lbPrefix" data-bind="style : { color : lbPrefix.ForeColor.Value }, text : lbPrefix.Text, imagePath : lbPrefix.ImagePath">PREFIX</label>
+                    <label id="lbStreetName" tabindex="106" class="lbStreetName" data-bind="style : { color : lbStreetName.ForeColor.Value }, text : lbStreetName.Text, imagePath : lbStreetName.ImagePath">STREET NAME</label>
+                    <label id="lbRole" tabindex="99" class="lbRole" data-bind="style : { color : lbRole.ForeColor.Value }, text : lbRole.Text, imagePath : lbRole.ImagePath">ROLE</label>
+                    <div class="cboRolePos" id="cboRolePos">
+                        <select data-role="mobilizecombobox" id="cboRole" index="1" tabindex="134" class="cboRole" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboRole, source : cboRole.ComboBoxItems, events : { change : cboRole_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbHomePhone" tabindex="94" class="lbHomePhone" data-bind="style : { color : lbHomePhone.ForeColor.Value }, text : lbHomePhone.Text, imagePath : lbHomePhone.ImagePath">HOME PHONE</label>
+                    <input id="txtHomePhone" tabindex="137" Value="txtHomePhone" class="txtHomePhone" data-bind="value : txtHomePhone.Text, events : { change : txtHomePhone_TextChanged }, " />
+                    <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calBirthdate" tabindex="13" class="calBirthdate" data-bind="dateTimePickerValue : calBirthdate.Value, DateTimeMinDate : calBirthdate.MinDate, DateTimeMaxDate : calBirthdate.MaxDate, events : { change : calBirthdate_Click }, " />
+                    <label id="lbBirthdate" tabindex="95" class="lbBirthdate" data-bind="style : { color : lbBirthdate.ForeColor.Value }, text : lbBirthdate.Text, imagePath : lbBirthdate.ImagePath">BIRTHDATE</label>
+                    <label id="lbWorkPhone" tabindex="93" class="lbWorkPhone" data-bind="style : { color : lbWorkPhone.ForeColor.Value }, text : lbWorkPhone.Text, imagePath : lbWorkPhone.ImagePath">WORK PHONE</label>
+                    <input id="txtWorkPhone" tabindex="138" Value="txtWorkPhone" class="txtWorkPhone" data-bind="value : txtWorkPhone.Text, events : { change : txtWorkPhone_TextChanged }, " />
+                    <fieldset id="frmGender" class="frmGender" data-bind="style : { backgroundColor : frmGender.BackColor.Value }">
+                        <legend id="frmGender_legend" class="frmGender_legend"></legend>
+                        <div>
+                            <div index="0" class="_optGender_0" data-bind="style : { backgroundColor : _optGender_0.BackColor.Value, color : _optGender_0.ForeColor.Value }">
+                                <input id="_optGender_0" tabindex="117" type="radio" name="frmGender_radios" style="float: left" data-bind="customChecked : _optGender_0.Checked, events : { change : optGender_CheckedChanged }, " />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">MALE</label>
+                                </div>
+                            </div>
+                            <div index="1" class="_optGender_1" data-bind="style : { backgroundColor : _optGender_1.BackColor.Value, color : _optGender_1.ForeColor.Value }">
+                                <input id="_optGender_1" tabindex="118" type="radio" name="frmGender_radios" style="float: left" data-bind="customChecked : _optGender_1.Checked, events : { change : optGender_CheckedChanged }, " />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">FEMALE</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <label id="lbGender" tabindex="98" class="lbGender" data-bind="style : { color : lbGender.ForeColor.Value }, text : lbGender.Text, imagePath : lbGender.ImagePath">GENDER</label>
+                    <label id="lbWorkPlace" tabindex="92" class="lbWorkPlace" data-bind="style : { color : lbWorkPlace.ForeColor.Value }, text : lbWorkPlace.Text, imagePath : lbWorkPlace.ImagePath">WORK PLACE</label>
+                    <input id="txtWorkPlace" tabindex="139" Value="txtWorkPlace" class="txtWorkPlace" data-bind="value : txtWorkPlace.Text, events : { change : txtWorkPlace_TextChanged }, " />
+                    <label id="lbRace" tabindex="97" class="lbRace" data-bind="style : { color : lbRace.ForeColor.Value }, text : lbRace.Text, imagePath : lbRace.ImagePath">RACE</label>
+                    <div class="cboRacePos" id="cboRacePos">
+                        <select data-role="mobilizecombobox" id="cboRace" index="1" tabindex="136" class="cboRace" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboRace, source : cboRace.ComboBoxItems, events : { change : cboRace_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <fieldset id="frmEthnicity" class="frmEthnicity" data-bind="style : { backgroundColor : frmEthnicity.BackColor.Value }">
+                        <legend id="frmEthnicity_legend" class="frmEthnicity_legend"></legend>
+                        <div>
+                            <div index="0" class="_optEthnicity_0" data-bind="style : { backgroundColor : _optEthnicity_0.BackColor.Value, color : _optEthnicity_0.ForeColor.Value }">
+                                <input id="_optEthnicity_0" tabindex="119" type="radio" name="frmEthnicity_radios" style="float: left" data-bind="customChecked : _optEthnicity_0.Checked" />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">HISPANIC</label>
+                                </div>
+                            </div>
+                            <div index="1" class="_optEthnicity_1" data-bind="style : { backgroundColor : _optEthnicity_1.BackColor.Value, color : _optEthnicity_1.ForeColor.Value }">
+                                <input id="_optEthnicity_1" tabindex="120" type="radio" name="frmEthnicity_radios" style="float: left" data-bind="customChecked : _optEthnicity_1.Checked" />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">NON-HISPANIC</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <button disabled="disabled" id="cmdAddNewName" tabindex="140" data-tag="1" class="cmdAddNewName" type="button" data-bind="enabled : cmdAddNewName.Enabled, events : { click : cmdAddNewName_Click }, ">More Names...</button>
+                    <label id="lbEthnicity" tabindex="96" class="lbEthnicity" data-bind="style : { color : lbEthnicity.ForeColor.Value }, text : lbEthnicity.Text, imagePath : lbEthnicity.ImagePath">ETHNICITY</label>
+                </div>
+            </fieldset>
+            <fieldset id="frmMobileProp" data-tag="8" data-bind="enabled : frmMobileProp.Enabled">
+                <div id="frmMobileProp" class="frmMobileProp" data-bind="visible: frmMobileProp.Visible, style : { backgroundColor : frmMobileProp.BackColor.Value }">
+                    <label id="_lbFrameTitle_8" tabindex="43" index="8" class="_lbFrameTitle_8" data-bind="style : { color : _lbFrameTitle_8.ForeColor.Value }, text : _lbFrameTitle_8.Text, imagePath : _lbFrameTitle_8.ImagePath">MOBILE PROPERTY INFORMATION</label>
+                    <label id="lbMobilePropType" tabindex="110" class="lbMobilePropType" data-bind="style : { color : lbMobilePropType.ForeColor.Value }, text : lbMobilePropType.Text, imagePath : lbMobilePropType.ImagePath">TYPE OF MOBILE PROPERTY</label>
+                    <div class="cboMobilePropTypePos" id="cboMobilePropTypePos">
+                        <select data-role="mobilizecombobox" id="cboMobilePropType" index="1" tabindex="77" class="cboMobilePropType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboMobilePropType, source : cboMobilePropType.ComboBoxItems,  events : { change : cboMobilePropType_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbMobilePropValue" tabindex="111" class="lbMobilePropValue" data-bind="style : { color : lbMobilePropValue.ForeColor.Value }, text : lbMobilePropValue.Text, imagePath : lbMobilePropValue.ImagePath">PROPERTY VALUE</label>
+                    <input id="txtMobilePropValue" tabindex="78" class="txtMobilePropValue" data-role="maskedtextbox" data-bind="style : { backgroundColor : txtMobilePropValue.BackColor.Value, color : txtMobilePropValue.ForeColor.Value }, value : txtMobilePropValue.Text, maskedTextBoxMask : txtMobilePropValue.Mask, maskedTextBoxPrompt : txtMobilePropValue.PromptChar, maskedTextBoxFormat : txtMobilePropValue.TextMaskFormat, events : { change : txtMobilePropValue_TextChanged }, " />
+                    <label id="lbVesselLength" tabindex="109" class="lbVesselLength" data-bind="style : { color : lbVesselLength.ForeColor.Value }, visible : lbVesselLength.Visible, text : lbVesselLength.Text, imagePath : lbVesselLength.ImagePath">WATER VESSEL LENGTH</label>
+                    <input id="txtVesselLength" tabindex="79" Value="txtVesselLength" class="txtVesselLength" data-bind="visible : txtVesselLength.Visible, value : txtVesselLength.Text" />
+                    <fieldset id="frmPassengerVehicleInfo" class="frmPassengerVehicleInfo" data-bind="style : { backgroundColor : frmPassengerVehicleInfo.BackColor.Value, color : frmPassengerVehicleInfo.ForeColor.Value }">
+                        <legend id="frmPassengerVehicleInfo_legend" class="frmPassengerVehicleInfo_legend"> Vehicle Information</legend>
+                        <div>
+                            <div class="cboMobileMakePos" id="cboMobileMakePos">
+                                <select data-role="mobilizecombobox" id="cboMobileMake" index="1" tabindex="84" class="cboMobileMake" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboMobileMake, source : cboMobileMake.ComboBoxItems, events : { change : cboMobileMake_SelectionChangeCommitted }, "></select>
+                            </div>
+                            <label id="lbVehicleMake" tabindex="149" class="lbVehicleMake" data-bind="style : { color : lbVehicleMake.ForeColor.Value }, text : lbVehicleMake.Text, imagePath : lbVehicleMake.ImagePath">MAKE</label>
+                            <label id="lbOtherMake" tabindex="249" class="lbOtherMake" data-bind="style : { color : lbOtherMake.ForeColor.Value }, visible : lbOtherMake.Visible, text : lbOtherMake.Text">OTHER MAKE</label>
+                            <input id="txtVehicleMake" tabindex="85" Value="txtVehicleMake" class="txtVehicleMake" data-bind="style : { backgroundColor : txtVehicleMake.BackColor.Value, color : txtVehicleMake.ForeColor.Value }, visible : txtVehicleMake.Visible, value : txtVehicleMake.Text, events : { change : txtVehicleMake_TextChanged }, " />
+                            <input id="txtVehicleModel" tabindex="86" Value="txtVehicleModel" class="txtVehicleModel" data-bind="value : txtVehicleModel.Text" />
+                            <label id="lbVehicleModel" tabindex="148" class="lbVehicleModel" data-bind="style : { color : lbVehicleModel.ForeColor.Value }, text : lbVehicleModel.Text, imagePath : lbVehicleModel.ImagePath">MODEL</label>
+                            <input id="txtVehicleYear" tabindex="87" Value="txtVehicleYear" class="txtVehicleYear" data-bind="style : { backgroundColor : txtVehicleYear.BackColor.Value, color : txtVehicleYear.ForeColor.Value }, value : txtVehicleYear.Text, events : { blur : txtVehicleYear_Leave }, " />
+                            <label id="lbVehicleYear" tabindex="147" class="lbVehicleYear" data-bind="style : { color : lbVehicleYear.ForeColor.Value }, text : lbVehicleYear.Text, imagePath : lbVehicleYear.ImagePath">YEAR</label>
+                            <input id="txtVIN" tabindex="88" Value=" txtVIN" class="txtVIN" data-bind="value : txtVIN.Text" />
+                            <label id="lbVIN" tabindex="150" class="lbVIN" data-bind="style : { color : lbVIN.ForeColor.Value }, text : lbVIN.Text, imagePath : lbVIN.ImagePath">VIN \#</label>
+                            <div class="cboLicenseStatePos" id="cboLicenseStatePos">
+                                <select data-role="mobilizecombobox" id="cboLicenseState" index="1" tabindex="95" class="cboLicenseState" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboLicenseState, source : cboLicenseState.ComboBoxItems"></select>
+                            </div>
+                            <label id="lbLicenseSt" tabindex="250" class="lbLicenseSt" data-bind="style : { color : lbLicenseSt.ForeColor.Value }, text : lbLicenseSt.Text, imagePath : lbLicenseSt.ImagePath">LICENSE STATE</label>
+                        </div>
+                    </fieldset>
+                    <label id="lbVYearMes" tabindex="255" class="lbVYearMes" data-bind="visible : lbVYearMes.Visible, text : lbVYearMes.Text, imagePath : lbVYearMes.ImagePath">4 digit Year required If unknown make best guess</label>
+                </div>
+            </fieldset>
+            <fieldset id="frmNarration" data-tag="7" data-bind="enabled : frmNarration.Enabled">
+                <div id="frmNarration" class="frmNarration" data-bind="visible: frmNarration.Visible, style : { backgroundColor : frmNarration.BackColor.Value }">
+                    <label id="_lbFrameTitle_7" tabindex="41" index="7" class="_lbFrameTitle_7" data-bind="style : { color : _lbFrameTitle_7.ForeColor.Value }, text : _lbFrameTitle_7.Text, imagePath : _lbFrameTitle_7.ImagePath">NARRATION</label>
+                    <textarea id="rtxNarration" tabindex="76" class="rtxNarration" data-bind="events : { click : rtxNarration_Click }, "></textarea>
+                    <button id="cmdAddNames" tabindex="75" class="cmdAddNames" type="button" data-bind="events : { click : cmdAddNames_Click }, ">Add Person of Interest</button>
+                </div>
+            </fieldset>
+            <fieldset id="frmLoss" data-tag="6" data-bind="enabled : frmLoss.Enabled">
+                <div id="frmLoss" class="frmLoss" data-bind="visible: frmLoss.Visible, style : { backgroundColor : frmLoss.BackColor.Value }, visible : frmLoss.Visible">
+                    <label id="_lbFrameTitle_6" tabindex="39" index="6" class="_lbFrameTitle_6" data-bind="style : { color : _lbFrameTitle_6.ForeColor.Value }, text : _lbFrameTitle_6.Text, imagePath : _lbFrameTitle_6.ImagePath">FIRE LOSS</label>
+                    <fieldset id="frmPropLoss" data-bind="enabled : frmPropLoss.Enabled">
+                        <div id="frmPropLoss" class="frmPropLoss" data-bind="style : { backgroundColor : frmPropLoss.BackColor.Value }, visible : frmPropLoss.Visible">
+                            <label id="lbSqFtBurned" tabindex="179" class="lbSqFtBurned" data-bind="visible : lbSqFtBurned.Visible, text : lbSqFtBurned.Text, imagePath : lbSqFtBurned.ImagePath">SQ FT BURNED</label>
+                            <input id="txtSqFtBurned" tabindex="63" class="txtSqFtBurned" data-role="maskedtextbox" data-bind="style : { backgroundColor : txtSqFtBurned.BackColor.Value, color : txtSqFtBurned.ForeColor.Value }, visible : txtSqFtBurned.Visible, value : txtSqFtBurned.Text, maskedTextBoxMask : txtSqFtBurned.Mask, maskedTextBoxPrompt : txtSqFtBurned.PromptChar, maskedTextBoxFormat : txtSqFtBurned.TextMaskFormat, events : { blur : txtSqFtBurned_Leave, change : txtSqFtBurned_TextChanged }, " />
+                            <label id="lbSqFtSmokeDamage" tabindex="180" class="lbSqFtSmokeDamage" data-bind="style : { color : lbSqFtSmokeDamage.ForeColor.Value }, text : lbSqFtSmokeDamage.Text, imagePath : lbSqFtSmokeDamage.ImagePath">SQ FT SMOKE DAMAGED</label>
+                            <input id="txtSqFtSmokeDamage" tabindex="64" class="txtSqFtSmokeDamage" data-role="maskedtextbox" data-bind="style : { backgroundColor : txtSqFtSmokeDamage.BackColor.Value, color : txtSqFtSmokeDamage.ForeColor.Value }, value : txtSqFtSmokeDamage.Text, maskedTextBoxMask : txtSqFtSmokeDamage.Mask, maskedTextBoxPrompt : txtSqFtSmokeDamage.PromptChar, maskedTextBoxFormat : txtSqFtSmokeDamage.TextMaskFormat, events : { blur : txtSqFtSmokeDamage_Leave, change : txtSqFtSmokeDamage_TextChanged }, " />
+                            <label id="lbNoBusinessDisplaced" tabindex="178" class="lbNoBusinessDisplaced" data-bind="style : { color : lbNoBusinessDisplaced.ForeColor.Value }, text : lbNoBusinessDisplaced.Text, imagePath : lbNoBusinessDisplaced.ImagePath">NUMBER OF BUSINESSES DISPLACED</label>
+                            <input id="txtNoBusinessDisplaced" tabindex="65" Value="txtNoBusinessDisplaced" class="txtNoBusinessDisplaced" data-bind="style : { backgroundColor : txtNoBusinessDisplaced.BackColor.Value, color : txtNoBusinessDisplaced.ForeColor.Value }, value : txtNoBusinessDisplaced.Text, events : { change : txtNoBusinessDisplaced_TextChanged }, " />
+                            <label id="lbNoPeopleDisplaced" tabindex="177" class="lbNoPeopleDisplaced" data-bind="style : { color : lbNoPeopleDisplaced.ForeColor.Value }, text : lbNoPeopleDisplaced.Text, imagePath : lbNoPeopleDisplaced.ImagePath">NUMBER OF PEOPLE DISPLACED</label>
+                            <input id="txtNoPeopleDisplaced" tabindex="66" Value="txtNoPeopleDisplaced" class="txtNoPeopleDisplaced" data-bind="style : { backgroundColor : txtNoPeopleDisplaced.BackColor.Value, color : txtNoPeopleDisplaced.ForeColor.Value }, value : txtNoPeopleDisplaced.Text, events : { change : txtNoPeopleDisplaced_TextChanged }, " />
+                            <label id="lbJobsLost" tabindex="176" class="lbJobsLost" data-bind="style : { color : lbJobsLost.ForeColor.Value }, text : lbJobsLost.Text, imagePath : lbJobsLost.ImagePath">JOBS LOST</label>
+                            <input id="txtJobsLost" tabindex="67" Value="txtJobsLost" class="txtJobsLost" data-bind="value : txtJobsLost.Text, events : { change : txtJobsLost_TextChanged }, " />
+                        </div>
+                    </fieldset>
+                    <label id="lbPropLoss" tabindex="125" class="lbPropLoss" data-bind="style : { color : lbPropLoss.ForeColor.Value }, text : lbPropLoss.Text, imagePath : lbPropLoss.ImagePath">PROPERTY LOSS</label>
+                    <input id="txtPropLoss" tabindex="59" class="txtPropLoss" data-role="maskedtextbox" data-bind="style : { backgroundColor : txtPropLoss.BackColor.Value, color : txtPropLoss.ForeColor.Value }, value : txtPropLoss.Text, maskedTextBoxMask : txtPropLoss.Mask, maskedTextBoxPrompt : txtPropLoss.PromptChar, maskedTextBoxFormat : txtPropLoss.TextMaskFormat, events : { change : txtPropLoss_TextChanged }, " />
+                    <input id="txtContentLoss" tabindex="60" class="txtContentLoss" data-role="maskedtextbox" data-bind="style : { backgroundColor : txtContentLoss.BackColor.Value, color : txtContentLoss.ForeColor.Value }, value : txtContentLoss.Text, maskedTextBoxMask : txtContentLoss.Mask, maskedTextBoxPrompt : txtContentLoss.PromptChar, maskedTextBoxFormat : txtContentLoss.TextMaskFormat, events : { change : txtContentLoss_TextChanged }, " />
+                    <label id="lbContentLoss" tabindex="126" class="lbContentLoss" data-bind="style : { color : lbContentLoss.ForeColor.Value }, text : lbContentLoss.Text, imagePath : lbContentLoss.ImagePath">CONTENT LOSS</label>
+                </div>
+            </fieldset>
+            <fieldset id="frmBldgInfo" data-tag="4" data-bind="enabled : frmBldgInfo.Enabled">
+                <div id="frmBldgInfo" class="frmBldgInfo" data-bind="visible: frmBldgInfo.Visible, style : { backgroundColor : frmBldgInfo.BackColor.Value }">
+                    <label id="_lbFrameTitle_4" tabindex="35" index="4" class="_lbFrameTitle_4" data-bind="style : { color : _lbFrameTitle_4.ForeColor.Value }, text : _lbFrameTitle_4.Text, imagePath : _lbFrameTitle_4.ImagePath">BUILDING INFORMATION</label>
+                    <label id="lbTotSqFt" tabindex="83" class="lbTotSqFt" data-bind="style : { color : lbTotSqFt.ForeColor.Value }, text : lbTotSqFt.Text, imagePath : lbTotSqFt.ImagePath">TOTAL SQ. FOOTAGE</label>
+                    <input id="txtTotalSqFootage" tabindex="6" class="txtTotalSqFootage" data-role="maskedtextbox" data-bind="style : { backgroundColor : txtTotalSqFootage.BackColor.Value, color : txtTotalSqFootage.ForeColor.Value }, value : txtTotalSqFootage.Text, maskedTextBoxMask : txtTotalSqFootage.Mask, maskedTextBoxPrompt : txtTotalSqFootage.PromptChar, maskedTextBoxFormat : txtTotalSqFootage.TextMaskFormat, events : { blur : txtTotalSqFootage_Leave, change : txtTotalSqFootage_TextChanged }, " />
+                    <label id="lbGenOccupancy" tabindex="87" class="lbGenOccupancy" data-bind="style : { color : lbGenOccupancy.ForeColor.Value }, text : lbGenOccupancy.Text, imagePath : lbGenOccupancy.ImagePath">GENERAL OCCUPANCY</label>
+                    <input id="txtNumberOfStories" tabindex="7" Value="txtNumberOfStories" class="txtNumberOfStories" data-bind="style : { backgroundColor : txtNumberOfStories.BackColor.Value, color : txtNumberOfStories.ForeColor.Value }, value : txtNumberOfStories.Text, events : { change : txtNumberOfStories_TextChanged }, " />
+                    <label id="lbNoStories" tabindex="82" class="lbNoStories" data-bind="style : { color : lbNoStories.ForeColor.Value }, text : lbNoStories.Text, imagePath : lbNoStories.ImagePath">STORIES</label>
+                    <label id="lbBasementLevel" tabindex="252" class="lbBasementLevel" data-bind="style : { color : lbBasementLevel.ForeColor.Value }, text : lbBasementLevel.Text, imagePath : lbBasementLevel.ImagePath">BASEMENT LEVELS</label>
+                    <input id="txtBasementLevels" tabindex="8" class="txtBasementLevels" data-bind="style : { backgroundColor : txtBasementLevels.BackColor.Value, color : txtBasementLevels.ForeColor.Value }, value : txtBasementLevels.Text, events : { change : txtBasementLevels_TextChanged }, " />
+                    <div class="cboGeneralPropertyUsePos" id="cboGeneralPropertyUsePos">
+                        <select data-role="mobilizecombobox" id="cboGeneralPropertyUse" index="1" tabindex="1" class="cboGeneralPropertyUse" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboGeneralPropertyUse, source : cboGeneralPropertyUse.ComboBoxItems, events : { change : cboGeneralPropertyUse_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <label id="lbSpecificOccupancy" tabindex="86" class="lbSpecificOccupancy" data-bind="style : { color : lbSpecificOccupancy.ForeColor.Value }, text : lbSpecificOccupancy.Text, imagePath : lbSpecificOccupancy.ImagePath">SPECIFIC OCCUPANCY</label>
+                    <input id="txtNumberOfUnits" tabindex="9" Value="txtNumberOfUnits" class="txtNumberOfUnits" data-bind="style : { backgroundColor : txtNumberOfUnits.BackColor.Value, color : txtNumberOfUnits.ForeColor.Value }, visible : txtNumberOfUnits.Visible, value : txtNumberOfUnits.Text, events : { change : txtNumberOfUnits_TextChanged }, " />
+                    <label id="lbNumberOfUnits" tabindex="132" class="lbNumberOfUnits" data-bind="visible : lbNumberOfUnits.Visible, text : lbNumberOfUnits.Text, imagePath : lbNumberOfUnits.ImagePath">NUMBER OF UNITS/SUITES </label>
+                    <div class="cboSpecificPropertyUsePos" id="cboSpecificPropertyUsePos">
+                        <select data-role="mobilizecombobox" id="cboSpecificPropertyUse" index="1" tabindex="2" class="cboSpecificPropertyUse" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboSpecificPropertyUse, source : cboSpecificPropertyUse.ComboBoxItems, events : { change : cboSpecificPropertyUse_SelectionChangeCommitted } "></select>
+                    </div>
+                    <input id="txtNumberOfOccupants" tabindex="10" Value="txtNumberOfOccupied" class="txtNumberOfOccupants" data-bind="style : { backgroundColor : txtNumberOfOccupants.BackColor.Value, color : txtNumberOfOccupants.ForeColor.Value }, value : txtNumberOfOccupants.Text, events : { change : txtNumberOfOccupants_TextChanged }, " />
+                    <label id="lbNoOccupants" tabindex="74" class="lbNoOccupants" data-bind="style : { color : lbNoOccupants.ForeColor.Value }, text : lbNoOccupants.Text, imagePath : lbNoOccupants.ImagePath">NUMBER OF OCCUPANTS </label>
+                    <label id="lbBldgStatus" tabindex="85" class="lbBldgStatus" data-bind="style : { color : lbBldgStatus.ForeColor.Value }, text : lbBldgStatus.Text, imagePath : lbBldgStatus.ImagePath">BUILDING STATUS</label>
+                    <div class="cboBuildingStatusPos" id="cboBuildingStatusPos">
+                        <select data-role="mobilizecombobox" id="cboBuildingStatus" index="1" tabindex="3" class="cboBuildingStatus" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboBuildingStatus, source : cboBuildingStatus.ComboBoxItems, events : { change : cboBuildingStatus_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <input id="txtNumberOfBusinesses" tabindex="11" Value="txtNumberOfBusinesses" class="txtNumberOfBusinesses" data-bind="style : { backgroundColor : txtNumberOfBusinesses.BackColor.Value, color : txtNumberOfBusinesses.ForeColor.Value }, value : txtNumberOfBusinesses.Text, events : { change : txtNumberOfBusinesses_TextChanged }, " />
+                    <label id="lbNoBusinesses" tabindex="73" class="lbNoBusinesses" data-bind="style : { color : lbNoBusinesses.ForeColor.Value }, text : lbNoBusinesses.Text, imagePath : lbNoBusinesses.ImagePath">NUMBER OF BUSINESSES </label>
+                    <label id="lbConstructionType" tabindex="84" class="lbConstructionType" data-bind="style : { color : lbConstructionType.ForeColor.Value }, text : lbConstructionType.Text, imagePath : lbConstructionType.ImagePath">CONSTRUCTION TYPE</label>
+                    <input id="txtPropValue" tabindex="12" class="txtPropValue" data-role="maskedtextbox" data-bind="style : { backgroundColor : txtPropValue.BackColor.Value, color : txtPropValue.ForeColor.Value }, value : txtPropValue.Text, maskedTextBoxMask : txtPropValue.Mask, maskedTextBoxPrompt : txtPropValue.PromptChar, maskedTextBoxFormat : txtPropValue.TextMaskFormat, events : { change : txtPropValue_TextChanged }, " />
+                    <div class="cboConstructionTypePos" id="cboConstructionTypePos">
+                        <select data-role="mobilizecombobox" id="cboConstructionType" index="1" tabindex="4" class="cboConstructionType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboConstructionType, source : cboConstructionType.ComboBoxItems, events : { change : cboConstructionType_SelectionChangeCommitted }, "></select>
+                    </div>
+                    <div class="chkRental" data-bind="visible : chkRental.Visible">
+                        <div style="float: left;overflow:hidden">
+                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">RENTAL?</label>
+                        </div>
+                        <input id="chkRental" tabindex="5" type="checkbox" style="float: left" />
+                    </div>
+                    <label id="lbPropValue" tabindex="72" class="lbPropValue" data-bind="style : { color : lbPropValue.ForeColor.Value }, text : lbPropValue.Text, imagePath : lbPropValue.ImagePath">PROPERTY VALUE</label>
+                    <fieldset id="frmAlarmInfo" class="frmAlarmInfo" data-bind="visible : frmAlarmInfo.Visible">
+                        <legend id="frmAlarmInfo_legend" class="frmAlarmInfo_legend"></legend>
+                        <div>
+                            <fieldset id="frmAlarm" class="frmAlarm">
+                                <legend id="frmAlarm_legend" class="frmAlarm_legend">Fire Alarm Information</legend>
+                                <div>
+                                    <div index="0" class="_optAlarmType_0">
+                                        <input id="_optAlarmType_0" tabindex="33" type="radio" name="frmAlarm_radios" checked="checked" style="float: left" data-bind="customChecked : _optAlarmType_0.Checked, events : { change : optAlarmType_CheckedChanged }, " />
+                                        <div style="float: left;overflow:hidden">
+                                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">NO ALARM INVOLVED</label>
+                                        </div>
+                                    </div>
+                                    <div index="1" class="_optAlarmType_1">
+                                        <input id="_optAlarmType_1" tabindex="34" type="radio" name="frmAlarm_radios" style="float: left" data-bind="customChecked : _optAlarmType_1.Checked, events : { change : optAlarmType_CheckedChanged }, " />
+                                        <div style="float: left;overflow:hidden">
+                                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">UNIT DETECTORS ONLY (RESIDENTIAL)</label>
+                                        </div>
+                                    </div>
+                                    <div index="2" class="_optAlarmType_2">
+                                        <input id="_optAlarmType_2" tabindex="35" type="radio" name="frmAlarm_radios" style="float: left" data-bind="customChecked : _optAlarmType_2.Checked, events : { change : optAlarmType_CheckedChanged }, " />
+                                        <div style="float: left;overflow:hidden">
+                                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ALARM SYSTEM</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="chkAlarmOperated" data-bind="style : { color : chkAlarmOperated.ForeColor.Value }, visible : chkAlarmOperated.Visible">
+                                <input id="chkAlarmOperated" tabindex="24" type="checkbox" style="float: left" data-bind="checkState : chkAlarmOperated.Checked, enabled : chkAlarmOperated.Enabled, events : { click : chkAlarmOperated_CheckStateChanged }, " />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkAlarmOperated.Enabled">DETECTOR/ALARM OPERATED</label>
+                                </div>
+                            </div>
+                            <label id="lbAlarmProblems" tabindex="138" class="lbAlarmProblems" data-bind="style : { color : lbAlarmProblems.ForeColor.Value }, visible : lbAlarmProblems.Visible, text : lbAlarmProblems.Text, imagePath : lbAlarmProblems.ImagePath">PROBLEMS</label>
+                            <label id="lbSystemType" tabindex="135" class="lbSystemType" data-bind="style : { color : lbSystemType.ForeColor.Value }, text : lbSystemType.Text, imagePath : lbSystemType.ImagePath">SYSTEM TYPE</label>
+                            <div class="cboAlarmTypePos" id="cboAlarmTypePos" data-bind="visible : cboAlarmType.Visible">
+                                <select data-role="mobilizecombobox" id="cboAlarmType" index="1" tabindex="25" class="cboAlarmType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboAlarmType, source : cboAlarmType.ComboBoxItems, events : { change : cboAlarmType_SelectionChangeCommitted }, "></select>
+                            </div>
+
+                            <div id="lstAlarmFailure" tabindex="28" data-selectable="multiple" class="lstAlarmFailure" data-role="listbox" style="overflow:auto" data-bind="source : lstAlarmFailure.ListBoxItems, listBoxSelectedIndices : lstAlarmFailure.ListBoxSelectedIndices, visible : lstAlarmFailure.Visible, events : { change : lstAlarmFailure_SelectedIndexChanged }, ">
+                                <option value="lstAlarmFailure">"lstAlarmFailure"</option>
+                            </div>
+                            <label id="lbInitiatingDevice" tabindex="137" class="lbInitiatingDevice" data-bind="visible : lbInitiatingDevice.Visible, text : lbInitiatingDevice.Text, imagePath : lbInitiatingDevice.ImagePath">INITIATING DEVICE</label>
+                            <div class="cboInitiatingDevicePos" id="cboInitiatingDevicePos" data-bind="visible : cboInitiatingDevice.Visible">
+                                <select data-role="mobilizecombobox" id="cboInitiatingDevice" index="1" tabindex="26" class="cboInitiatingDevice" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboInitiatingDevice, source : cboInitiatingDevice.ComboBoxItems,  events : { change : cboInitiatingDevice_SelectionChangeCommitted }, "></select>
+                            </div>
+                            <label id="lbEffectiveness" tabindex="136" class="lbEffectiveness" data-bind="visible : lbEffectiveness.Visible, style : { color : lbEffectiveness.ForeColor.Value }, text : lbEffectiveness.Text, imagePath : lbEffectiveness.ImagePath">EFFECTIVENESS</label>
+                            <div class="cboEffectivenessPos" id="cboEffectivenessPos" data-bind="visible : cboEffectiveness.Visible">
+                                <select data-role="mobilizecombobox" id="cboEffectiveness" index="1" tabindex="27" class="cboEffectiveness" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboEffectiveness, source : cboEffectiveness.ComboBoxItems, events : { change : cboEffectiveness_SelectionChangeCommitted }, "></select>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset id="frmExtinguishingSysInfo" class="frmExtinguishingSysInfo" data-bind="visible : frmExtinguishingSysInfo.Visible">
+                        <legend id="frmExtinguishingSysInfo_legend" class="frmExtinguishingSysInfo_legend"></legend>
+                        <div>
+                            <fieldset id="frmExtinguishingSystems" class="frmExtinguishingSystems">
+                                <legend id="frmExtinguishingSystems_legend" class="frmExtinguishingSystems_legend">Extinguishing System Information</legend>
+                                <div>
+                                    <div index="0" class="_optExtinguish_0">
+                                        <input id="_optExtinguish_0" tabindex="42" type="radio" name="frmExtinguishingSystems_radios" checked="checked" style="float: left" data-bind="customChecked : _optExtinguish_0.Checked, events : { change : optExtinguish_CheckedChanged }, " />
+                                        <div style="float: left;overflow:hidden">
+                                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">NO EXTINGUISHING SYSTEM INVOLVED</label>
+                                        </div>
+                                    </div>
+                                    <div index="1" class="_optExtinguish_1">
+                                        <input id="_optExtinguish_1" tabindex="43" type="radio" name="frmExtinguishingSystems_radios" style="float: left" data-bind="customChecked : _optExtinguish_1.Checked, events : { change : optExtinguish_CheckedChanged }, " />
+                                        <div style="float: left;overflow:hidden">
+                                            <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">EXTINGUISHING SYSTEM INVOLVED</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <label id="lbExtProblems" tabindex="168" class="lbExtProblems" data-bind="style : { color : lbExtProblems.ForeColor.Value }, text : lbExtProblems.Text, imagePath : lbExtProblems.ImagePath">PROBLEMS</label>
+                            <div class="chkExtOperated" data-bind="style : { color : chkExtOperated.ForeColor.Value }, visible : chkExtOperated.Visible">
+                                <input id="chkExtOperated" tabindex="36" type="checkbox" style="float: left" data-bind="checkState : chkExtOperated.Checked, enabled : chkExtOperated.Enabled" />
+                                <div style="float: left;overflow:hidden">
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkExtOperated.Enabled">EXTINGUISHING SYSTEM OPERATED</label>
+                                </div>
+                            </div>
+                            <div id="lstExtFailure" tabindex="39" data-selectable="multiple" class="lstExtFailure" data-role="listbox" style="overflow:auto" data-bind="source : lstExtFailure.ListBoxItems, listBoxSelectedIndices : lstExtFailure.ListBoxSelectedIndices, events : { change : lstExtFailure_SelectedIndexChanged }, ">
+                                <option value="lstExtFailure">"lstExtFailure"</option>
+                            </div>
+                            <label id="lbExtSysType" tabindex="140" class="lbExtSysType" data-bind="style : { color : lbExtSysType.ForeColor.Value }, text : lbExtSysType.Text, imagePath : lbExtSysType.ImagePath">SYSTEM TYPE</label>
+                            <div class="cboSysTypePos" id="cboSysTypePos" data-bind="visible : cboSysType.Visible">
+                                <select data-role="mobilizecombobox" id="cboSysType" index="1" tabindex="37" class="cboSysType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboSysType, source : cboSysType.ComboBoxItems, events : { change : cboSysType_SelectionChangeCommitted }, "></select>
+                            </div>
+                            <label id="lbExtEffectiveness" tabindex="141" class="lbExtEffectiveness" data-bind="style : { color : lbExtEffectiveness.ForeColor.Value }, text : lbExtEffectiveness.Text, imagePath : lbExtEffectiveness.ImagePath">EFFECTIVENESS</label>
+                            <div class="cboExtEffectivenessPos" id="cboExtEffectivenessPos" data-bind="visible : cboExtEffectiveness.Visible">
+                                <select data-role="mobilizecombobox" id="cboExtEffectiveness" index="1" tabindex="38" class="cboExtEffectiveness" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboExtEffectiveness, source : cboExtEffectiveness.ComboBoxItems, events : { change : cboExtEffectiveness_SelectionChangeCommitted }, "></select>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </fieldset>
+            <fieldset id="frmExposureAddress" data-bind="enabled : frmExposureAddress.Enabled">
+                <div id="frmExposureAddress" class="frmExposureAddress" data-bind="visible: frmExposureAddress.Visible, style : { backgroundColor : frmExposureAddress.BackColor.Value }">
+                    <label id="_lbFrameTitle_9" tabindex="220" index="9" class="_lbFrameTitle_9" data-bind="style : { color : _lbFrameTitle_9.ForeColor.Value }, text : _lbFrameTitle_9.Text, imagePath : _lbFrameTitle_9.ImagePath">FIRE - ADDRESS CORRECTION</label>
+                    <fieldset id="Frame2" class="Frame2">
+                        <legend id="Frame2_legend" class="Frame2_legend"></legend>
+                        <div>
+                            <input id="txtXHouseNumber" tabindex="214" class="txtXHouseNumber" data-bind="style : { backgroundColor : txtXHouseNumber.BackColor.Value, color : txtXHouseNumber.ForeColor.Value }, value : txtXHouseNumber.Text, events : { change : txtXHouseNumber_TextChanged }, " />
+                            <label id="Label2" tabindex="233" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">HOUSE\#</label>
+                            <div class="cboXPrefixPos" id="cboXPrefixPos">
+                                <select data-role="mobilizecombobox" id="cboXPrefix" index="1" tabindex="215" class="cboXPrefix" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboXPrefix, source : cboXPrefix.ComboBoxItems, events : { change : cboXPrefix_SelectionChangeCommitted }, "></select>
+                            </div>
+                            <label id="Label3" tabindex="232" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">PREFIX</label>
+                            <input id="txtXStreetName" tabindex="216" class="txtXStreetName" data-bind="style : { backgroundColor : txtXStreetName.BackColor.Value, color : txtXStreetName.ForeColor.Value }, value : txtXStreetName.Text, events : { change : txtXStreetName_TextChanged }, " />
+                            <label id="Label4" tabindex="231" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">STREET NAME</label>
+                            <div class="cboXStreetTypePos" id="cboXStreetTypePos">
+                                <select data-role="mobilizecombobox" id="cboXStreetType" index="1" tabindex="217" class="cboXStreetType" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboXStreetType, source : cboXStreetType.ComboBoxItems"></select>
+                            </div>
+                            <label id="Label5" tabindex="230" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">STREET TYPE</label>
+                            <div class="cboXSuffixPos" id="cboXSuffixPos">
+                                <select data-role="mobilizecombobox" id="cboXSuffix" index="1" tabindex="218" class="cboXSuffix" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboXSuffix, source : cboXSuffix.ComboBoxItems, events : { change : cboXSuffix_SelectionChangeCommitted }, "></select>
+                            </div>
+                            <label id="Label6" tabindex="229" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">SUFFIX</label>
+                            <div class="cboCityCodePos" id="cboCityCodePos">
+                                <select data-role="mobilizecombobox" id="cboCityCode" index="1" tabindex="219" class="cboCityCode" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboCityCode, source : cboCityCode.ComboBoxItems, events : { change : cboCityCode_SelectionChangeCommitted }, "></select>
+                            </div>
+                            <label id="Label8" tabindex="228" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">CITY</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </fieldset>
+            <fieldset id="NavBar" class="NavBar" data-bind="enabled : NavBar.Enabled">
+                <button id="_NavButton_0" tabindex="228" index="0" class="_NavButton_0" type="button" data-bind="enabled : _NavButton_0.Enabled, visible : _NavButton_0.Visible, events : { click : NavButton_Click }, ">Cancel</button>
+                <button id="_NavButton_1" tabindex="229" index="1" class="_NavButton_1" type="button" data-bind="enabled : _NavButton_1.Enabled, visible : _NavButton_1.Visible, events : { click : NavButton_Click }, ">Back</button>
+                <label id="lbNavMessage" tabindex="237" class="lbNavMessage" data-bind="visible : lbNavMessage.Visible, text : lbNavMessage.Text, imagePath : lbNavMessage.ImagePath">Make Selection</label>
+                <button id="_NavButton_2" tabindex="230" index="2" class="_NavButton_2" type="button" data-bind="enabled : _NavButton_2.Enabled, visible : _NavButton_2.Visible, events : { click : NavButton_Click }, ">Next</button>
+                <button id="_NavButton_3" tabindex="231" index="3" class="_NavButton_3" type="button" data-bind="enabled : _NavButton_3.Enabled, visible : _NavButton_3.Visible, events : { click : NavButton_Click }, ">Save and Quit</button>
+                <button id="_NavButton_4" tabindex="232" index="4" class="_NavButton_4" type="button" data-bind="enabled : _NavButton_4.Enabled, visible : _NavButton_4.Visible, events : { click : NavButton_Click }, ">Finish</button>
+                <label id="Label23" tabindex="238" class="Label23" data-bind="text : Label23.Text, imagePath : Label23.ImagePath">Wizard Navigation Bar</label>
+            </fieldset>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+.TFDIncident_frmReportEMS {
+}
+.TFDIncident_frmReportEMS .frmReportEMS {
+	background-color: #99A6BB;
+	min-width: 794px;
+	min-height: 512px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmReportEMS .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 16.56px;
+	font-weight: bold;
+	font-style: italic;
+	color: Navy;
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	width: 477px;
+	height: 25px;
+}
+.TFDIncident_frmReportEMS .cmdViewHIPAA {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 380px;
+	top: 36px;
+	position: absolute;
+	width: 201px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportEMS .cmdViewHIPAA:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportEMS .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 580px;
+	top: 36px;
+	position: absolute;
+	width: 117px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportEMS .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportEMS .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 696px;
+	top: 36px;
+	position: absolute;
+	width: 93px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportEMS .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportEMS .sprEMSReport {
+	left: 4px;
+	top: 64px;
+	position: absolute;
+	width: 785px;
+	height: 441px;
+}
+.TFDIncident_frmReportEMS .sprEMSReport .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmReportEMS .sprEMSReport .k-spreadsheet-action-bar {
+	display: none;
+}
+.TFDIncident_frmReportEMS .sprHIPAAReport {
+	left: 4px;
+	top: 64px;
+	position: absolute;
+	width: 785px;
+	height: 441px;
+}
+.TFDIncident_frmReportEMS .sprHIPAAReport .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmReportEMS .sprHIPAAReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

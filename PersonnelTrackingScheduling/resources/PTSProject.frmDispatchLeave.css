@@ -1,0 +1,124 @@
+.PTSProject_frmDispatchLeave {
+}
+.PTSProject_frmDispatchLeave .frmDispatchLeave {
+	background-color: #404040;
+	min-width: 710px;
+	min-height: 703px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmDispatchLeave .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 8px;
+	position: absolute;
+	width: 82px;
+	height: 36px;
+}
+.PTSProject_frmDispatchLeave .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmDispatchLeave .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDispatchLeave .cboYearPos {
+	top: 8px;
+	left: 88px;
+	position: absolute;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmDispatchLeave .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 184px;
+	top: 8px;
+	position: absolute;
+	width: 90px;
+	height: 36px;
+}
+.PTSProject_frmDispatchLeave .cboMonth {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmDispatchLeave .cboMonth:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDispatchLeave .cboMonthPos {
+	top: 8px;
+	left: 272px;
+	position: absolute;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmDispatchLeave .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 480px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDispatchLeave .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDispatchLeave .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 584px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmDispatchLeave .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmDispatchLeave .sprMonth2 {
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 697px;
+	height: 641px;
+}
+.PTSProject_frmDispatchLeave .sprMonth2 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmDispatchLeave .sprMonth2 .k-spreadsheet-action-bar {
+	display: none;
+}
+

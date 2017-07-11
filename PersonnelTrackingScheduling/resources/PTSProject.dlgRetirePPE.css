@@ -1,0 +1,318 @@
+.PTSProject_dlgRetirePPE {
+}
+.PTSProject_dlgRetirePPE .dlgRetirePPE {
+	background-color: #404000;
+	min-width: 544px;
+	min-height: 182px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgRetirePPE .frmPPEItem {
+	background-color: #404000;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 4px;
+	top: 2px;
+	position: absolute;
+	width: 537px;
+	height: 177px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.PTSProject_dlgRetirePPE .frmPPEItem:enabled {
+	color: Aqua;
+}
+.PTSProject_dlgRetirePPE .lbRetiredDate {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRetirePPE .Label17 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 128px;
+	top: 16px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRetirePPE .chkManufDate {
+	background-color: #404000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 272px;
+	top: 16px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_dlgRetirePPE .chkManufDate:enabled {
+	color: #C0FFC0;
+}
+.PTSProject_dlgRetirePPE .dteRetired.k-datepicker {
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_dlgRetirePPE .dteRetired {
+}
+.PTSProject_dlgRetirePPE .txtTrackingNumber {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	left: 128px;
+	top: 32px;
+	position: absolute;
+	width: 137px;
+	height: 20px;
+}
+.PTSProject_dlgRetirePPE .txtTrackingNumber:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRetirePPE .dteManufDate.k-datepicker {
+	left: 272px;
+	top: 32px;
+	position: absolute;
+	width: 144px;
+	height: 17px;
+}
+.PTSProject_dlgRetirePPE .dteManufDate {
+}
+.PTSProject_dlgRetirePPE .cmdEditItem {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 440px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgRetirePPE .cmdEditItem:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRetirePPE .Label14 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRetirePPE .lbItemColorSize {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 136px;
+	top: 56px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRetirePPE .lbItemBrand {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 272px;
+	top: 56px;
+	position: absolute;
+	width: 144px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRetirePPE .cboItemType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 97px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_dlgRetirePPE .cboItemType:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRetirePPE .cboItemTypePos {
+	top: 72px;
+	left: 8px;
+	position: absolute;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_dlgRetirePPE .cboColorSize {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_dlgRetirePPE .cboColorSize:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRetirePPE .cboColorSizePos {
+	top: 72px;
+	left: 136px;
+	position: absolute;
+	width: 113px;
+	height: 20px;
+}
+.PTSProject_dlgRetirePPE .cboItemBrand {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 144px;
+	height: 20px;
+}
+.PTSProject_dlgRetirePPE .cboItemBrand:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRetirePPE .cboItemBrandPos {
+	top: 72px;
+	left: 272px;
+	position: absolute;
+	width: 144px;
+	height: 20px;
+}
+.PTSProject_dlgRetirePPE .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 440px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgRetirePPE .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRetirePPE .lbReason {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRetirePPE .lbRetireComment {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 160px;
+	top: 104px;
+	position: absolute;
+	width: 265px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgRetirePPE .cboReason {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 129px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_dlgRetirePPE .cboReason:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgRetirePPE .cboReasonPos {
+	top: 120px;
+	left: 8px;
+	position: absolute;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_dlgRetirePPE .txtComment {
+	left: 160px;
+	top: 120px;
+	position: absolute;
+	width: 265px;
+	height: 41px;
+}
+.PTSProject_dlgRetirePPE .lbUniformID {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 8px;
+	top: 160px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_dlgRetirePPE .frmPPEItem_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

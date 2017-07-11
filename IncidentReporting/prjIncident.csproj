@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!-- This tasks is used to embed scripts and content elements -->
+  <Target Name="AddToResources" DependsOnTargets="CompileTypeScript">
+    <ItemGroup>
+      <Resource Include="scripts\**\*.*" />
+      <Resource Include="resources\**\*.*" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>2.0</TypeScriptToolsVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41E72F7E-990D-498A-B8F0-0CBAAB208E58}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TFDIncident</RootNamespace>
+    <AssemblyName>TFDIncident</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobilize.WebMap.Client.Controls">
+      <HintPath>..\Packages\Mobilize.WebMap.Client.Controls.0.0.0.0\lib\Mobilize.WebMap.Client.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobilize.WebMap.Client.Kendo">
+      <HintPath>..\packages\Mobilize.WebMap.Client.Kendo.0.0.0.0\lib\Mobilize.WebMap.Client.Kendo.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <!-- Fasterflect -->
+    <Reference Include="Fasterflect">
+      <HintPath>..\packages\fasterflect.2.1.3\lib\net40\Fasterflect.dll</HintPath>
+    </Reference>
+    <!-- System.Net.Http -->
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <!-- ResourceVirtualPathProvider -->
+    <Reference Include="ResourceVirtualPathProvider">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ResourceVirtualPathProvider.1.0.5\lib\net45\ResourceVirtualPathProvider.dll</HintPath>
+    </Reference>
+    <!-- Microsoft.Practices.Unity -->
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\packages\Unity.Interception.3.5.1404.0\lib\Net45\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <!-- Helpers Nugets -->
+  <ItemGroup>
+    <Reference Include="Mobilize.WebMap.Client.Kendo">
+      <HintPath>..\..\packages\Mobilize.WebMap.Client.Kendo.0.0.0.0\lib\Mobilize.WebMap.Client.Kendo.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stubs\Stubs.csproj">
+      <Project>{f2efbf43-07b4-4565-8e14-0c2f55b9c827}</Project>
+      <Name>Stubs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\Unity.Interception\Unity.Interception.csproj">
+      <Project>{f8186b23-b0e1-4646-b5f3-14357841e2ba}</Project>
+      <Name>Unity.Interception</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.DB.ADO\UpgradeHelpers.DB.ADO.csproj">
+      <Project>{99220d3d-4722-432c-9681-adfff2065d68}</Project>
+      <Name>UpgradeHelpers.DB.ADO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.DB.Essentials\UpgradeHelpers.DB.Essentials.csproj">
+      <Project>{b5d4a0ee-0d52-4ee8-829d-48daf1e56b8e}</Project>
+      <Name>UpgradeHelpers.DB.Essentials</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.BasicViewModels\UpgradeHelpers.WebMap.BasicViewModels.csproj">
+      <Project>{22bbd658-ed3d-49d0-95c8-c6cab1d3a00b}</Project>
+      <Name>UpgradeHelpers.WebMap.BasicViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Controls\UpgradeHelpers.WebMap.Controls.csproj">
+      <Project>{c73d3b98-2151-428d-bf17-22965c2597dd}</Project>
+      <Name>UpgradeHelpers.WebMap.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Core\UpgradeHelpers.WebMap.Core.csproj">
+      <Project>{ef2dd653-fec0-4fe9-aa36-ff4a8b7565ee}</Project>
+      <Name>UpgradeHelpers.WebMap.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.DB.ADO.Surrogates\UpgradeHelpers.WebMap.DB.ADO.Surrogates.csproj">
+      <Project>{d7b29853-4f12-4d47-ab9a-9f9a89e41ebc}</Project>
+      <Name>UpgradeHelpers.WebMap.DB.ADO.Surrogates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Dictionary\UpgradeHelpers.WebMap.Dictionary.csproj">
+      <Project>{805f3916-64db-4515-b677-8f30440ef84c}</Project>
+      <Name>UpgradeHelpers.WebMap.Dictionary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.EventAggregator\UpgradeHelpers.WebMap.EventAggregator.csproj">
+      <Project>{d6b85851-971e-4c14-ba6a-7b1ebb3f3f71}</Project>
+      <Name>UpgradeHelpers.WebMap.EventAggregator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.List\UpgradeHelpers.WebMap.List.csproj">
+      <Project>{a3289396-e5ba-4275-92e2-f06cacc7749c}</Project>
+      <Name>UpgradeHelpers.WebMap.List</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Server.Common.Config\UpgradeHelpers.WebMap.Server.Common.Config.csproj">
+      <Project>{cf033088-58c1-474c-a88f-dc853a1522ed}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.Common.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Server.Common\UpgradeHelpers.WebMap.Server.Common.csproj">
+      <Project>{4c980141-ca63-4b31-93d7-a24c4adf5ead}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Server.MVC\UpgradeHelpers.WebMap.Server.MVC.csproj">
+      <Project>{673ff702-fbb9-47fb-be6f-0e41630f68dc}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Server.v2\UpgradeHelpers.WebMap.Server.v2.csproj">
+      <Project>{b4018bf1-4807-440d-952a-2ea2ab9608f3}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.v2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Surrogates.BasicSurrogates\UpgradeHelpers.WebMap.Surrogates.BasicSurrogates.csproj">
+      <Project>{2c2a8857-0e89-4867-99f9-d0ccfa64c3c8}</Project>
+      <Name>UpgradeHelpers.WebMap.Surrogates.BasicSurrogates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.Surrogates\UpgradeHelpers.WebMap.Surrogates.csproj">
+      <Project>{05ea2f9a-8ef5-4bdb-be6c-49a672051ece}</Project>
+      <Name>UpgradeHelpers.WebMap.Surrogates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.TypeCacheUtils\UpgradeHelpers.WebMap.TypeCacheUtils.csproj">
+      <Project>{81374682-5f24-402e-a4e0-822ac3005a1a}</Project>
+      <Name>UpgradeHelpers.WebMap.TypeCacheUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.WebMap.WFBaseViewModels\UpgradeHelpers.WebMap.WFBaseViewModels.csproj">
+      <Project>{e1334146-c07f-4eac-ac03-73f8c6e051ae}</Project>
+      <Name>UpgradeHelpers.WebMap.WFBaseViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Customizations\Customizations.csproj">
+      <Project>{4531f942-1652-4660-9b18-02b1116009a0}</Project>
+      <Name>Customizations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.TabproLib, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\lib\AxInterop.TabproLib.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Configuration">
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.XML">
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+    </Reference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.DB.ADO\UpgradeHelpers.DB.ADO.csproj">
+      <Project>{99220D3D-4722-432C-9681-ADFFF2065D68}</Project>
+      <Name>UpgradeHelpers.DB.ADO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.DB.Essentials\UpgradeHelpers.DB.Essentials.csproj">
+      <Project>{B5D4A0EE-0D52-4EE8-829D-48DAF1E56B8E}</Project>
+      <Name>UpgradeHelpers.DB.Essentials</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui\UpgradeHelpers.Gui.csproj">
+      <Project>{F852374C-22BA-4CB6-AA34-DA1A589B9D8D}</Project>
+      <Name>UpgradeHelpers.Gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui.ContainerHelper\UpgradeHelpers.Gui.ContainerHelper.csproj">
+      <Project>{A4C9E0B1-7C82-427A-80F1-B548B5A1B1E8}</Project>
+      <Name>UpgradeHelpers.Gui.ContainerHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Utils\UpgradeHelpers.Utils.csproj">
+      <Project>{1A91E8F9-BEFF-4B66-98DF-4BFEE15FA39F}</Project>
+      <Name>UpgradeHelpers.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Gui.Graphics\UpgradeHelpers.Gui.Graphics.csproj">
+      <Project>{72E5FF68-A339-4924-85D9-31C32EC540F6}</Project>
+      <Name>UpgradeHelpers.Gui.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.SupportHelper\UpgradeHelpers.SupportHelper.csproj">
+      <Project>{2104ADE2-996D-4769-B4EE-ADD2FAE011F8}</Project>
+      <Name>UpgradeHelpers.SupportHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Utils.ReflectionHelper\UpgradeHelpers.Utils.ReflectionHelper.csproj">
+      <Project>{9ad53694-7256-4635-aeea-92ff88652713}</Project>
+      <Name>UpgradeHelpers.Utils.ReflectionHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.Utils\UpgradeHelpers.Utils.csproj">
+      <Project>{1a91e8f9-beff-4b66-98df-4bfee15fa39f}</Project>
+      <Name>UpgradeHelpers.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.VB\UpgradeHelpers.VB.csproj">
+      <Project>{9BE0611B-C690-4268-AB56-81D679F07022}</Project>
+      <Name>UpgradeHelpers.VB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.NotUpgradeHelper\UpgradeHelpers.NotUpgradeHelper.csproj">
+      <Project>{4D15E9B3-ECF3-4267-99A4-83C25FFD8EC4}</Project>
+      <Name>UpgradeHelpers.NotUpgradeHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSupport\UpgradeHelpers.FontHelper\UpgradeHelpers.FontHelper.csproj">
+      <Project>{71513051-C991-499F-806D-E5A9007A70CA}</Project>
+      <Name>UpgradeHelpers.FontHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeSolution1Support\UpgradeSolution1Support.csproj">
+      <Project>{AA62384B-9BEA-4FD8-8EE7-92F26CBD5BF8}</Project>
+      <Name>UpgradeSolution1Support</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaRegistration.cs" />
+    <Compile Include="clsEPCR.cs" />
+    <Compile Include="Configuration\SettingsManager.cs" />
+    <Compile Include="dlgFDCares.cs" />
+    <Compile Include="frmReportUnit.cs" />
+    <Compile Include="clsHIPAA.cs" />
+    <Compile Include="dlgHIPAAMsg.cs" />
+    <Compile Include="frmMutualAid.cs" />
+    <Compile Include="frmHelp.cs" />
+    <Compile Include="frmReportOther.cs" />
+    <Compile Include="frmReportCasualty.cs" />
+    <Compile Include="frmReportRupture.cs" />
+    <Compile Include="clsMiscReports.cs" />
+    <Compile Include="frmReportHazmat.cs" />
+    <Compile Include="frmNotification.cs" />
+    <Compile Include="clsNotification.cs" />
+    <Compile Include="frmReportFire.cs" />
+    <Compile Include="frmReportIncd.cs" />
+    <Compile Include="frmQueryResults.cs" />
+    <Compile Include="frmFieldReport.cs" />
+    <Compile Include="clsIncident.cs" />
+    <Compile Include="clsInquiry.cs" />
+    <Compile Include="frmSplash.cs" />
+    <Compile Include="clsFire.cs" />
+    <Compile Include="frmReportEMS.cs" />
+    <Compile Include="frmEMSReport.cs" />
+    <Compile Include="clsCasualty.cs" />
+    <Compile Include="clsUnit.cs" />
+    <Compile Include="clsEMS.cs" />
+    <Compile Include="clsRupture.cs" />
+    <Compile Include="frmOtherReports.cs" />
+    <Compile Include="frmHazmatReport.cs" />
+    <Compile Include="wzdEMS.cs" />
+    <Compile Include="wzdHazmat.cs" />
+    <Compile Include="clsHazmat.cs" />
+    <Compile Include="clsEMSCodes.cs" />
+    <Compile Include="clsCommonCodes.cs" />
+    <Compile Include="wzdFire.cs" />
+    <Compile Include="frmIncident.cs" />
+    <Compile Include="clsReportLog.cs" />
+    <Compile Include="clsPersonnel.cs" />
+    <Compile Include="frmMainWizard.cs" />
+    <Compile Include="clsFireCodes.cs" />
+    <Compile Include="frmFireReport.cs" />
+    <Compile Include="IncidentMain.cs" />
+    <Compile Include="MDIIncident.cs" />
+    <Compile Include="frmMain.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\dlgFDCaresController.cs" />
+    <Compile Include="Controllers\frmReportUnitController.cs" />
+    <Compile Include="Controllers\dlgHIPAAMsgController.cs" />
+    <Compile Include="Controllers\Form1Controller.cs" />
+    <Compile Include="Controllers\frmHelpController.cs" />
+    <Compile Include="Controllers\frmReportOtherController.cs" />
+    <Compile Include="Controllers\frmReportCasualtyController.cs" />
+    <Compile Include="Controllers\frmReportRuptureController.cs" />
+    <Compile Include="Controllers\frmReportHazmatController.cs" />
+    <Compile Include="Controllers\frmNotificationController.cs" />
+    <Compile Include="Controllers\frmReportFireController.cs" />
+    <Compile Include="Controllers\frmReportIncdController.cs" />
+    <Compile Include="Controllers\frmQueryResultsController.cs" />
+    <Compile Include="Controllers\frmFieldReportController.cs" />
+    <Compile Include="Controllers\frmSplashController.cs" />
+    <Compile Include="Controllers\frmReportEMSController.cs" />
+    <Compile Include="Controllers\frmEMSReportController.cs" />
+    <Compile Include="Controllers\frmOtherReportsController.cs" />
+    <Compile Include="Controllers\frmHazmatReportController.cs" />
+    <Compile Include="Controllers\wzdEmsController.cs" />
+    <Compile Include="Controllers\wzdHazmatController.cs" />
+    <Compile Include="Controllers\wzdFireController.cs" />
+    <Compile Include="Controllers\frmIncidentController.cs" />
+    <Compile Include="Controllers\wzdMainController.cs" />
+    <Compile Include="Controllers\frmFireReportController.cs" />
+    <Compile Include="Controllers\MDIIncidentController.cs" />
+    <Compile Include="Controllers\frmMainController.cs" />
+    <Compile Include="Models\dlgFDCaresViewModel.cs" />
+    <Compile Include="Models\frmReportUnitViewModel.cs" />
+    <Compile Include="Models\dlgHIPAAMsgViewModel.cs" />
+    <Compile Include="Models\Form1ViewModel.cs" />
+    <Compile Include="Models\frmHelpViewModel.cs" />
+    <Compile Include="Models\frmReportOtherViewModel.cs" />
+    <Compile Include="Models\frmReportCasualtyViewModel.cs" />
+    <Compile Include="Models\frmReportRuptureViewModel.cs" />
+    <Compile Include="Models\frmReportHazmatViewModel.cs" />
+    <Compile Include="Models\frmNotificationViewModel.cs" />
+    <Compile Include="Models\frmReportFireViewModel.cs" />
+    <Compile Include="Models\frmReportIncdViewModel.cs" />
+    <Compile Include="Models\frmQueryResultsViewModel.cs" />
+    <Compile Include="Models\frmFieldReportViewModel.cs" />
+    <Compile Include="Models\frmSplashViewModel.cs" />
+    <Compile Include="Models\frmReportEMSViewModel.cs" />
+    <Compile Include="Models\frmEMSReportViewModel.cs" />
+    <Compile Include="Models\frmOtherReportsViewModel.cs" />
+    <Compile Include="Models\frmHazmatReportViewModel.cs" />
+    <Compile Include="Models\wzdEmsViewModel.cs" />
+    <Compile Include="Models\wzdHazmatViewModel.cs" />
+    <Compile Include="Models\wzdFireViewModel.cs" />
+    <Compile Include="Models\frmIncidentViewModel.cs" />
+    <Compile Include="Models\wzdMainViewModel.cs" />
+    <Compile Include="Models\frmFireReportViewModel.cs" />
+    <Compile Include="Models\MDIIncidentViewModel.cs" />
+    <Compile Include="Models\frmMainViewModel.cs" />
+    <Compile Include="Models\RecordSetHelperViewModel.cs" />
+    <Content Include="resources\TFDIncident.dlgFDCares.html" />
+    <Content Include="resources\TFDIncident.frmReportUnit.html" />
+    <Content Include="resources\TFDIncident.dlgHIPAAMsg.html" />
+    <Content Include="resources\TFDIncident.Form1.html" />
+    <Content Include="resources\TFDIncident.frmHelp.html" />
+    <Content Include="resources\TFDIncident.frmReportOther.html" />
+    <Content Include="resources\TFDIncident.frmReportCasualty.html" />
+    <Content Include="resources\TFDIncident.frmReportRupture.html" />
+    <Content Include="resources\TFDIncident.frmReportHazmat.html" />
+    <Content Include="resources\TFDIncident.frmNotification.html" />
+    <Content Include="resources\TFDIncident.frmReportFire.html" />
+    <Content Include="resources\TFDIncident.frmReportIncd.html" />
+    <Content Include="resources\TFDIncident.frmQueryResults.html" />
+    <Content Include="resources\TFDIncident.frmFieldReport.html" />
+    <Content Include="resources\TFDIncident.frmSplash.html" />
+    <Content Include="resources\TFDIncident.frmReportEMS.html" />
+    <Content Include="resources\TFDIncident.frmEMSReport.html" />
+    <Content Include="resources\TFDIncident.frmOtherReports.html" />
+    <Content Include="resources\TFDIncident.frmHazmatReport.html" />
+    <Content Include="resources\TFDIncident.wzdEms.html" />
+    <Content Include="resources\TFDIncident.wzdHazmat.html" />
+    <Content Include="resources\TFDIncident.wzdFire.html" />
+    <Content Include="resources\TFDIncident.frmIncident.html" />
+    <Content Include="resources\TFDIncident.wzdMain.html" />
+    <Content Include="resources\TFDIncident.frmFireReport.html" />
+    <Content Include="resources\TFDIncident.MDIIncident.html" />
+    <Content Include="resources\TFDIncident.frmMain.html" />
+    <Content Include="resources\TFDIncident.dlgFDCares.css" />
+    <Content Include="resources\TFDIncident.frmReportUnit.css" />
+    <Content Include="resources\TFDIncident.dlgHIPAAMsg.css" />
+    <Content Include="resources\TFDIncident.Form1.css" />
+    <Content Include="resources\TFDIncident.frmHelp.css" />
+    <Content Include="resources\TFDIncident.frmReportOther.css" />
+    <Content Include="resources\TFDIncident.frmReportCasualty.css" />
+    <Content Include="resources\TFDIncident.frmReportRupture.css" />
+    <Content Include="resources\TFDIncident.frmReportHazmat.css" />
+    <Content Include="resources\TFDIncident.frmNotification.css" />
+    <Content Include="resources\TFDIncident.frmReportFire.css" />
+    <Content Include="resources\TFDIncident.frmReportIncd.css" />
+    <Content Include="resources\TFDIncident.frmQueryResults.css" />
+    <Content Include="resources\TFDIncident.frmFieldReport.css" />
+    <Content Include="resources\TFDIncident.frmSplash.css" />
+    <Content Include="resources\TFDIncident.frmReportEMS.css" />
+    <Content Include="resources\TFDIncident.frmEMSReport.css" />
+    <Content Include="resources\TFDIncident.frmOtherReports.css" />
+    <Content Include="resources\TFDIncident.frmHazmatReport.css" />
+    <Content Include="resources\TFDIncident.wzdEms.css" />
+    <Content Include="resources\TFDIncident.wzdHazmat.css" />
+    <Content Include="resources\TFDIncident.wzdFire.css" />
+    <Content Include="resources\TFDIncident.frmIncident.css" />
+    <Content Include="resources\TFDIncident.wzdMain.css" />
+    <Content Include="resources\TFDIncident.frmFireReport.css" />
+    <Content Include="resources\TFDIncident.MDIIncident.css" />
+    <Content Include="resources\TFDIncident.frmMain.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Code\RegisterVirtualPathProvider.cs" />
+    <Compile Include="App_Start\ExternalConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\Startup.EntryPoint.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="scripts\helpers\*.ts" />
+    <Content Include="scripts\directives\*.js" />
+    <Content Include="scripts\typings\**\*.ts" />
+    <Content Include="scripts\helpers\*.map" />
+    <Content Include="scripts\helpers\*.js" />
+    <Content Include="scripts\usercontrols\*.js;scripts\usercontrols\*.txt" />
+    <Content Include="Web.config" />
+    <Content Include="resources\error.html" />
+    <Content Include="resources\Images\**\**" />
+    <Content Include="Views\**\*.cshtml" />
+    <Content Include="Views\**\*.config" />
+    <Content Include="resources\libs\**\**" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ZipFile.pubxml" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61227</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/prjIncident</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PrepareForBuildDependsOn>AddToResources;@(PrepareForBuildDependsOn)</PrepareForBuildDependsOn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>commonjs</TypeScriptModuleKind>
+  </PropertyGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\**\*.ts" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>commonjs</TypeScriptModuleKind>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

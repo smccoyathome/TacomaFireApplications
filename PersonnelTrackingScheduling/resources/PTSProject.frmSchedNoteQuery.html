@@ -1,0 +1,22 @@
+<div>
+  <div data-width="500" data-height="314" name="frmSchedNoteQuery" data-title="Query Individual Schedule Notes" class="PTSProject_frmSchedNoteQuery" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmSchedNoteQuery">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"> Filter by </legend>
+        <div>
+          <button id="cmdExit" tabindex="4" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+          <label id="Label2" tabindex="5" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">From</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtStartDate" tabindex="1" class="dtStartDate" data-bind="dateTimePickerValue : dtStartDate.Value, DateTimeMinDate : dtStartDate.MinDate, DateTimeMaxDate : dtStartDate.MaxDate, events : { click : dtStartDate_Click, change : dtStartDate_ValueChanged }, " />
+          <button id="cmdClear" tabindex="2" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear Filter</button>
+          <label id="Label1" tabindex="8" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">To</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtEndDate" tabindex="7" class="dtEndDate" data-bind="dateTimePickerValue : dtEndDate.Value, DateTimeMinDate : dtEndDate.MinDate, DateTimeMaxDate : dtEndDate.MaxDate, events : { click : dtEndDate_Click, change : dtEndDate_ValueChanged }, " />
+          <button id="cmdPrint" tabindex="3" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print List</button>
+          <label id="_lbSubTitle_5" tabindex="10" index="5" class="_lbSubTitle_5" data-bind="text : _lbSubTitle_5.Text, imagePath : _lbSubTitle_5.ImagePath">By Comments:</label>
+          <input id="txtCommentSearch" tabindex="9" Value="txtCommentSearch" class="txtCommentSearch" data-bind="value : txtCommentSearch.Text, events : { change : txtCommentSearch_TextChanged }, " />
+          <label id="lbCount" tabindex="6" class="lbCount" data-bind="text : lbCount.Text, imagePath : lbCount.ImagePath">List Count:  </label>
+        </div>
+      </fieldset>
+      <div id="sprReport" data-role="mobilizespread" tabindex="11" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

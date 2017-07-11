@@ -1,0 +1,37 @@
+<div>
+  <div data-width="392" data-height="254" data-removeControlBox="true" name="frmNewPromo" data-title="New Promotion" class="PTSProject_frmNewPromo" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmNewPromo">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <div data-bind="spEnabled : Shape1.Enabled, spVisible : Shape1.Visible">
+            <svg version="1.1" class="Shape1_svg" style="left:0px;top:16px;width:396px;height:33px;position:absolute;">
+              <rect x="0" y="0" height="33" width="396" id="Shape1" class="Shape1"></rect>
+            </svg>
+          </div>
+          <label id="Label1" tabindex="12" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">New Promotion For :</label>
+          <label id="lbName" tabindex="13" class="lbName" data-bind="text : lbName.Text, imagePath : lbName.ImagePath">lbName</label>
+          <div class="cboPromotionPos" id="cboPromotionPos">
+            <select data-role="combobox" id="cboPromotion" tabindex="7" class="cboPromotion" data-text-field="Text" data-value-field="Value" data-bind="source : cboPromotion.ComboBoxItems, customText : cboPromotion.CustomText, comboSelectedIndex : cboPromotion.SelectedIndex"></select>
+          </div>
+          <label id="Label2" tabindex="11" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Promotion List</label>
+          <label id="Label3" tabindex="10" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Promotion Date</label>
+          <input id="txtPromotionDate" tabindex="6" class="txtPromotionDate" data-bind="value : txtPromotionDate.Text, selectedRange : txtPromotionDate.SelectedRange" />
+          <label id="Label4" tabindex="9" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Exclusion Days</label>
+          <input id="txtEDays" tabindex="5" class="txtEDays" data-bind="value : txtEDays.Text, selectedRange : txtEDays.SelectedRange" />
+          <div class="chkStatus">
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Active for this list</label>
+            </div>
+            <input id="chkStatus" tabindex="3" type="checkbox" checked="checked" style="float: left" />
+          </div>
+          <label id="Label5" tabindex="8" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Comments</label>
+          <textarea id="txtComments" tabindex="4" class="txtComments" data-bind="value : txtComments.Text"></textarea>
+          <label id="Line1" class="Line1" data-bind="text : Line1.Text, imagePath : Line1.ImagePath"></label>
+          <button id="cmdAddPromo" tabindex="2" class="cmdAddPromo" type="button" data-bind="events : { click : cmdAddPromo_Click }, ">Add Promotion</button>
+          <button id="cmdCancel" tabindex="1" class="cmdCancel" type="button" data-bind="events : { click : cmdCancel_Click }, ">Cancel</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

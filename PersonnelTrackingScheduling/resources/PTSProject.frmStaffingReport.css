@@ -1,0 +1,355 @@
+.PTSProject_frmStaffingReport {
+}
+.PTSProject_frmStaffingReport .frmStaffingReport {
+	background-color: #000040;
+	min-width: 840px;
+	min-height: 533px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+}
+.PTSProject_frmStaffingReport .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 32px;
+	top: 6px;
+	position: absolute;
+	width: 81px;
+	height: 20px;
+}
+.PTSProject_frmStaffingReport .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 115px;
+	height: 23px;
+}
+.PTSProject_frmStaffingReport .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingReport .cboYearPos {
+	top: 6px;
+	left: 124px;
+	position: absolute;
+	width: 115px;
+	height: 23px;
+}
+.PTSProject_frmStaffingReport .txtTotal {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 480px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	text-align: center;
+}
+.PTSProject_frmStaffingReport .txtTotal:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingReport .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 616px;
+	top: 8px;
+	position: absolute;
+	width: 191px;
+	height: 22px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmStaffingReport .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingReport .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #80FF80;
+	left: 256px;
+	top: 16px;
+	position: absolute;
+	width: 209px;
+	height: 36px;
+	text-align: center;
+}
+.PTSProject_frmStaffingReport .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 32px;
+	top: 32px;
+	position: absolute;
+	width: 90px;
+	height: 20px;
+}
+.PTSProject_frmStaffingReport .cboMonth {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 119px;
+	height: 23px;
+}
+.PTSProject_frmStaffingReport .cboMonth:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingReport .cboMonthPos {
+	top: 32px;
+	left: 120px;
+	position: absolute;
+	width: 119px;
+	height: 23px;
+}
+.PTSProject_frmStaffingReport .cmdRunReport {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 480px;
+	top: 32px;
+	position: absolute;
+	width: 97px;
+	height: 22px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmStaffingReport .cmdRunReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingReport .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 616px;
+	top: 32px;
+	position: absolute;
+	width: 191px;
+	height: 22px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmStaffingReport .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingReport .sprReportGrid {
+	left: 16px;
+	top: 56px;
+	position: absolute;
+	width: 813px;
+	height: 225px;
+}
+.PTSProject_frmStaffingReport .sprReportGrid .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmStaffingReport .sprReportGrid .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmStaffingReport .sprReport {
+	left: 32px;
+	top: 224px;
+	position: absolute;
+	width: 49px;
+	height: 33px;
+	visibility: hidden;
+}
+.PTSProject_frmStaffingReport .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmStaffingReport .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmStaffingReport .lbDetailDisplayed {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #80FF80;
+	left: 8px;
+	top: 280px;
+	position: absolute;
+	width: 161px;
+	height: 41px;
+	text-align: center;
+}
+.PTSProject_frmStaffingReport .Label2 {
+	background-color: Navy;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 168px;
+	top: 280px;
+	position: absolute;
+	width: 657px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmStaffingReport .sprCSRs {
+	left: 168px;
+	top: 304px;
+	position: absolute;
+	width: 560px;
+	height: 209px;
+}
+.PTSProject_frmStaffingReport .sprCSRs .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmStaffingReport .sprCSRs .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmStaffingReport .sprDetail {
+	left: 168px;
+	top: 304px;
+	position: absolute;
+	width: 641px;
+	height: 209px;
+}
+.PTSProject_frmStaffingReport .sprDetail .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmStaffingReport .sprDetail .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmStaffingReport .sprCallBackDetail {
+	left: 168px;
+	top: 304px;
+	position: absolute;
+	width: 662px;
+	height: 209px;
+}
+.PTSProject_frmStaffingReport .sprCallBackDetail .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmStaffingReport .sprCallBackDetail .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmStaffingReport .Frame1 {
+	background-color: #000040;
+	left: 8px;
+	top: 320px;
+	position: absolute;
+	width: 153px;
+	height: 105px;
+	border: 2px groove;
+}
+.PTSProject_frmStaffingReport .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingReport .optWorking {
+	background-color: #000040;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmStaffingReport .optWorking:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmStaffingReport .optWorking * {
+	Cursor: default;
+}
+.PTSProject_frmStaffingReport .optCallback {
+	background-color: #000040;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 137px;
+	height: 33px;
+	cursor: default;
+}
+.PTSProject_frmStaffingReport .optCallback:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmStaffingReport .optCallback * {
+	Cursor: default;
+}
+.PTSProject_frmStaffingReport .optCSRs {
+	background-color: #000040;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 137px;
+	height: 33px;
+	cursor: default;
+}
+.PTSProject_frmStaffingReport .optCSRs:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmStaffingReport .optCSRs * {
+	Cursor: default;
+}
+.PTSProject_frmStaffingReport .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmStaffingReport .cmdPrintDetail {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 432px;
+	position: absolute;
+	width: 151px;
+	height: 22px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmStaffingReport .cmdPrintDetail:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmStaffingReport .lbListNote {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: Lime;
+	left: 16px;
+	top: 464px;
+	position: absolute;
+	width: 137px;
+	height: 81px;
+	text-align: center;
+}
+

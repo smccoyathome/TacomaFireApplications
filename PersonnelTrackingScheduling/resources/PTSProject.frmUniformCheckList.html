@@ -1,0 +1,17 @@
+<div>
+  <div data-width="895" data-height="553" name="frmUniformCheckList" data-title="TFD PPE Checklist for Batt - Shift" class="PTSProject_frmUniformCheckList" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmUniformCheckList">
+      <button id="cmdExit" tabindex="2" class="cmdExit" type="button" data-bind="events : { click : cmdExit_Click }, ">Exit</button>
+      <button disabled="disabled" id="cmdPrintChecklist" tabindex="1" class="cmdPrintChecklist" type="button" data-bind="enabled : cmdPrintChecklist.Enabled, events : { click : cmdPrintChecklist_Click }, ">Print Inspection Check List</button>
+      <div class="chkOldFormat">
+        <input id="chkOldFormat" tabindex="36" type="checkbox" style="float: left" data-bind="events : { click : chkOldFormat_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Print Old Format...</label>
+        </div>
+      </div>
+      <label id="lbCount" tabindex="2" class="lbCount" data-bind="text : lbCount.Text, imagePath : lbCount.ImagePath">Total Count:  </label>
+      <div id="sprCheckList" data-role="mobilizespread" tabindex="3" class="sprCheckList" data-bind="widgetvalue: sprCheckList"></div>
+      <div id="sprCheckList2" data-role="mobilizespread" tabindex="4" class="sprCheckList2" data-bind="widgetvalue: sprCheckList2"></div>
+    </form>
+  </div>
+</div>

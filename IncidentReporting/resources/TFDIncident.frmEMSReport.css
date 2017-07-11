@@ -1,0 +1,6809 @@
+.TFDIncident_frmEMSReport {
+}
+.TFDIncident_frmEMSReport .frmEMSReport {
+	background-color: Navy;
+	min-width: 814px;
+	min-height: 544px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+}
+.TFDIncident_frmEMSReport .lbExamDate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: -1460px;
+	top: -852px;
+	position: absolute;
+	width: 129px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport .picEMSBar {
+	background-color: Navy;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 814px;
+	height: 41px;
+}
+.TFDIncident_frmEMSReport .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: #FFE0C0;
+	left: -4px;
+	top: 0px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	text-align: right;
+}
+.TFDIncident_frmEMSReport .lbIncident {
+	background-color: Transparent;
+	cursor: default;
+	color: White;
+	left: 116px;
+	top: 0px;
+	position: absolute;
+	width: 141px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cmdSave_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 328px;
+	top: 0px;
+	position: absolute;
+	width: 65px;
+	height: 42px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport ._cmdSave_3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._cmdSave_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 392px;
+	top: 0px;
+	position: absolute;
+	width: 141px;
+	height: 42px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport ._cmdSave_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .lbLockedMessage {
+	background-color: #FFFFC0;
+	cursor: default;
+	color: #C04000;
+	left: 392px;
+	top: 0px;
+	position: absolute;
+	width: 297px;
+	height: 37px;
+	text-align: center;
+}
+.TFDIncident_frmEMSReport ._cmdSave_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 532px;
+	top: 0px;
+	position: absolute;
+	width: 157px;
+	height: 42px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport ._cmdSave_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._cmdSave_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 688px;
+	top: 0px;
+	position: absolute;
+	width: 129px;
+	height: 42px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport ._cmdSave_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .cmdHIPAAInfo {
+	left: 232px;
+	top: 8px;
+	position: absolute;
+	width: 85px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .lbLocation {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: White;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 285px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .tabEMS {
+	left: 0px;
+	top: 39px;
+	position: absolute;
+	min-width: 814px;
+	min-height: 505px;
+	outline-style: none;
+}
+.TFDIncident_frmEMSReport .tabPage1 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame5 {
+	background-color: #99A6BB;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 764px;
+	height: 141px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame5:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .txtFirstName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 4px;
+	top: 16px;
+	position: absolute;
+	width: 237px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtFirstName:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .txtLastName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 244px;
+	top: 16px;
+	position: absolute;
+	width: 309px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtLastName:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .txtMI {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 560px;
+	top: 16px;
+	position: absolute;
+	width: 45px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtMI:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .mskSSN {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 616px;
+	top: 16px;
+	position: absolute;
+	width: 121px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .mskSSN:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 248px;
+	top: 40px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_19 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 572px;
+	top: 40px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_18 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 648px;
+	top: 40px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 60px;
+	position: absolute;
+	width: 201px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .txtBillingAddress {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 8px;
+	top: 76px;
+	position: absolute;
+	width: 389px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtBillingAddress:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .txtCity {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 404px;
+	top: 76px;
+	position: absolute;
+	width: 201px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtCity:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboState {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboState:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboStatePos {
+	top: 76px;
+	left: 612px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .txtZipCode {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 680px;
+	top: 76px;
+	position: absolute;
+	width: 73px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtZipCode:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 404px;
+	top: 104px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_16 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 612px;
+	top: 104px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_17 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 680px;
+	top: 104px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .txtHomePhone {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 120px;
+	top: 108px;
+	position: absolute;
+	width: 165px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtHomePhone:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 112px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame5_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .Frame4 {
+	background-color: #99A6BB;
+	left: 315px;
+	top: 155px;
+	position: absolute;
+	width: 449px;
+	height: 297px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame4:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .chkDNR {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 309px;
+	height: 33px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkDNR:enabled {
+	color: #804000;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_14 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 48px;
+	position: absolute;
+	width: 357px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .lstPriorMedicalHistory {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 12px;
+	top: 68px;
+	position: absolute;
+	width: 417px;
+	height: 95px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_15 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 168px;
+	position: absolute;
+	width: 381px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .lstPossibleFactors {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 16px;
+	top: 188px;
+	position: absolute;
+	width: 413px;
+	height: 95px;
+}
+.TFDIncident_frmEMSReport .Frame4_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .Frame1 {
+	background-color: #99A6BB;
+	left: 4px;
+	top: 156px;
+	position: absolute;
+	width: 305px;
+	height: 125px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .mskBirthdate {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 120px;
+	top: 20px;
+	position: absolute;
+	width: 109px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .mskBirthdate:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_10 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 24px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_11 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 88px;
+	top: 44px;
+	position: absolute;
+	width: 61px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport ._Line2_0 {
+	background-color: Navy;
+	left: 10px;
+	top: 57px;
+	position: absolute;
+	width: 77px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._Line1_0 {
+	background-color: Navy;
+	left: 120px;
+	top: 57px;
+	position: absolute;
+	width: 160px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_12 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 64px;
+	position: absolute;
+	width: 61px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .txtPatientAge {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 120px;
+	top: 64px;
+	position: absolute;
+	width: 65px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtPatientAge:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_13 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 16px;
+	top: 88px;
+	position: absolute;
+	width: 93px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .cboPatientAgeUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboPatientAgeUnits:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboPatientAgeUnitsPos {
+	top: 92px;
+	left: 120px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .frmGender {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 4px;
+	top: 291px;
+	position: absolute;
+	width: 305px;
+	height: 49px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmGender:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optGender_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 32px;
+	top: 20px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optGender_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optGender_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optGender_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 168px;
+	top: 20px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optGender_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optGender_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmGender_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .Frame3 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 4px;
+	top: 346px;
+	position: absolute;
+	width: 305px;
+	height: 53px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboRace {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboRace:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboRacePos {
+	top: 20px;
+	left: 16px;
+	position: absolute;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .frmEthnicity {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 4px;
+	top: 403px;
+	position: absolute;
+	width: 309px;
+	height: 49px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmEthnicity:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEthnicity_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 24px;
+	top: 20px;
+	position: absolute;
+	width: 101px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEthnicity_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEthnicity_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEthnicity_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 148px;
+	top: 20px;
+	position: absolute;
+	width: 141px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEthnicity_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEthnicity_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmEthnicity_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .tabPage2 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame6 {
+	background-color: #99A6BB;
+	left: 7px;
+	top: 0px;
+	position: absolute;
+	width: 421px;
+	height: 45px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame6:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_20 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	color: Navy;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 109px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .cboMechCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboMechCode:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboMechCodePos {
+	top: 16px;
+	left: 112px;
+	position: absolute;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame6_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .lbVitals {
+	background-color: Transparent;
+	cursor: default;
+	color: Maroon;
+	left: 432px;
+	top: 1px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .chkNoVitals {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 504px;
+	top: 3px;
+	position: absolute;
+	width: 273px;
+	height: 38px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkNoVitals:enabled {
+	color: Maroon;
+}
+.TFDIncident_frmEMSReport .tabVitals {
+	left: 434px;
+	top: 29px;
+	position: absolute;
+	min-width: 338px;
+	min-height: 384px;
+	outline-style: none;
+}
+.TFDIncident_frmEMSReport .tabPage15 {
+	background-color: #99A6BB;
+	width: 330px;
+	height: 353px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame15 {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 325px;
+	height: 360px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .Frame15:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._txtTime_0 {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 4px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtTime_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbVitalsID_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 248px;
+	top: 4px;
+	position: absolute;
+	width: 41px;
+	height: 25px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbVitalsTime_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVitalsPosition_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 28px;
+	position: absolute;
+	width: 105px;
+	height: 37px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_0Pos {
+	top: 32px;
+	left: 124px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 60px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbRespiration_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 68px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtPulse_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 92px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulse_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPulse_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 100px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboECG_0Pos {
+	top: 120px;
+	left: 84px;
+	position: absolute;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbECG_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 128px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbSystolic_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 148px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 148px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 176px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._chkPalp_0 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 196px;
+	top: 176px;
+	position: absolute;
+	width: 93px;
+	height: 25px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport ._chkPalp_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbDiastolic_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 180px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 204px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbGlucose_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 208px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 92px;
+	top: 236px;
+	position: absolute;
+	width: 53px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 192px;
+	top: 236px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_0:enabled {
+	color: #404040;
+}
+.TFDIncident_frmEMSReport ._lbPulseOxy_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 240px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 148px;
+	top: 240px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-style: italic;
+	color: Navy;
+	left: 252px;
+	top: 240px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbGCS_0 {
+	background-color: Transparent;
+	cursor: default;
+	color: Maroon;
+	left: 8px;
+	top: 260px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._Line3_0 {
+	background-color: Navy;
+	left: 53px;
+	top: 270px;
+	position: absolute;
+	width: 248px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboEyes_0Pos {
+	top: 280px;
+	left: 84px;
+	position: absolute;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbEyes_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 284px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVerbal_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 308px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_0Pos {
+	top: 308px;
+	left: 84px;
+	position: absolute;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbMotor_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 336px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboMotor_0Pos {
+	top: 336px;
+	left: 84px;
+	position: absolute;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .tabPage16 {
+	background-color: #99A6BB;
+	width: 330px;
+	height: 353px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame17 {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 324px;
+	height: 365px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .Frame17:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._txtTime_1 {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 0px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtTime_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbVitalsTime_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 4px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVitalsID_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 268px;
+	top: 4px;
+	position: absolute;
+	width: 29px;
+	height: 25px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbVitalsPosition_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 37px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_1Pos {
+	top: 32px;
+	left: 124px;
+	position: absolute;
+	width: 161px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 60px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbRespiration_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 64px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtPulse_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 88px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulse_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPulse_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboECG_1Pos {
+	top: 116px;
+	left: 88px;
+	position: absolute;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbECG_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 120px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 144px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbSystolic_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 148px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 176px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbDiastolic_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 180px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._chkPalp_1 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 196px;
+	top: 180px;
+	position: absolute;
+	width: 101px;
+	height: 21px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport ._chkPalp_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 208px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbGlucose_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 212px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 92px;
+	top: 240px;
+	position: absolute;
+	width: 53px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 196px;
+	top: 240px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_1:enabled {
+	color: #404040;
+}
+.TFDIncident_frmEMSReport ._lbPulseOxy_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 0px;
+	top: 244px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 148px;
+	top: 244px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-style: italic;
+	color: Navy;
+	left: 256px;
+	top: 244px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport ._lbGCS_1 {
+	background-color: Transparent;
+	cursor: default;
+	color: Maroon;
+	left: 0px;
+	top: 264px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._Line3_1 {
+	background-color: Navy;
+	left: 51px;
+	top: 274px;
+	position: absolute;
+	width: 263px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboEyes_1Pos {
+	top: 284px;
+	left: 76px;
+	position: absolute;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbEyes_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 288px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVerbal_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 0px;
+	top: 313px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_1Pos {
+	top: 313px;
+	left: 76px;
+	position: absolute;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboMotor_1Pos {
+	top: 340px;
+	left: 76px;
+	position: absolute;
+	width: 237px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbMotor_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 0px;
+	top: 341px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .tabPage17 {
+	background-color: #99A6BB;
+	width: 330px;
+	height: 353px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame18 {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 321px;
+	height: 361px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .Frame18:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbVitalsTime_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 0px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtTime_2 {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 0px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtTime_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbVitalsID_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 260px;
+	top: 4px;
+	position: absolute;
+	width: 33px;
+	height: 25px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbVitalsPosition_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 24px;
+	position: absolute;
+	width: 85px;
+	height: 45px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 181px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_2Pos {
+	top: 28px;
+	left: 124px;
+	position: absolute;
+	width: 181px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 56px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbRespiration_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 60px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtPulse_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 84px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulse_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPulse_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 88px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboECG_2Pos {
+	top: 112px;
+	left: 64px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbECG_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 116px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 140px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbSystolic_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 144px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 172px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbDiastolic_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 176px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._chkPalp_2 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 196px;
+	top: 176px;
+	position: absolute;
+	width: 93px;
+	height: 21px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport ._chkPalp_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 204px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbGlucose_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 0px;
+	top: 212px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 92px;
+	top: 236px;
+	position: absolute;
+	width: 49px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 188px;
+	top: 236px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_2:enabled {
+	color: #404040;
+}
+.TFDIncident_frmEMSReport ._lbPulseOxy_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 0px;
+	top: 240px;
+	position: absolute;
+	width: 93px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 144px;
+	top: 240px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-style: italic;
+	color: Navy;
+	left: 248px;
+	top: 240px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbGCS_2 {
+	background-color: Transparent;
+	cursor: default;
+	color: Maroon;
+	left: 0px;
+	top: 261px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._Line3_2 {
+	background-color: Navy;
+	left: 55px;
+	top: 270px;
+	position: absolute;
+	width: 258px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboEyes_2Pos {
+	top: 281px;
+	left: 64px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbEyes_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 0px;
+	top: 284px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVerbal_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 0px;
+	top: 309px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_2Pos {
+	top: 309px;
+	left: 64px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboMotor_2Pos {
+	top: 336px;
+	left: 64px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbMotor_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 0px;
+	top: 337px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .tabPage18 {
+	background-color: #99A6BB;
+	width: 330px;
+	height: 353px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame19 {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 325px;
+	height: 365px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .Frame19:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._txtTime_3 {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 0px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtTime_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbVitalsTime_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVitalsPosition_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 101px;
+	height: 37px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_3Pos {
+	top: 28px;
+	left: 124px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 56px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbRespiration_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 60px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVitalsID_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 264px;
+	top: 64px;
+	position: absolute;
+	width: 37px;
+	height: 25px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._txtPulse_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 84px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulse_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPulse_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 88px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbECG_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 116px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboECG_3Pos {
+	top: 116px;
+	left: 88px;
+	position: absolute;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 144px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbSystolic_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 148px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 172px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._chkPalp_3 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 192px;
+	top: 176px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport ._chkPalp_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbDiastolic_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 180px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 124px;
+	top: 204px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbGlucose_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 212px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport ._lbPulseOxy_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 240px;
+	position: absolute;
+	width: 93px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 92px;
+	top: 240px;
+	position: absolute;
+	width: 45px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 140px;
+	top: 240px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 188px;
+	top: 240px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_3:enabled {
+	color: #404040;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-style: italic;
+	color: Navy;
+	left: 248px;
+	top: 240px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport ._lbGCS_3 {
+	background-color: Transparent;
+	cursor: default;
+	color: Maroon;
+	left: 4px;
+	top: 260px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._Line3_3 {
+	background-color: Navy;
+	left: 55px;
+	top: 271px;
+	position: absolute;
+	width: 247px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboEyes_3Pos {
+	top: 284px;
+	left: 80px;
+	position: absolute;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbEyes_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 288px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVerbal_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 312px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_3Pos {
+	top: 312px;
+	left: 80px;
+	position: absolute;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbMotor_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 341px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboMotor_3Pos {
+	top: 341px;
+	left: 80px;
+	position: absolute;
+	width: 221px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .tabPage19 {
+	background-color: #99A6BB;
+	width: 330px;
+	height: 353px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame20 {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 329px;
+	height: 365px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .Frame20:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._txtTime_4 {
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 128px;
+	top: 0px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtTime_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbVitalsTime_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 4px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVitalsID_4 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 224px;
+	top: 4px;
+	position: absolute;
+	width: 37px;
+	height: 25px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbVitalsPosition_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 24px;
+	position: absolute;
+	width: 97px;
+	height: 37px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 185px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVitalsPosition_4Pos {
+	top: 28px;
+	left: 128px;
+	position: absolute;
+	width: 185px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 128px;
+	top: 56px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtRespiration_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbRespiration_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 60px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cmdMore {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 256px;
+	top: 64px;
+	position: absolute;
+	width: 61px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdMore:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._txtPulse_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 128px;
+	top: 84px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulse_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPulse_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 88px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 229px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboECG_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboECG_4Pos {
+	top: 116px;
+	left: 96px;
+	position: absolute;
+	width: 229px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbECG_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 120px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 128px;
+	top: 144px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtSystolic_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbSystolic_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 148px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 128px;
+	top: 176px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtDiastolic_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbDiastolic_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 180px;
+	position: absolute;
+	width: 105px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._chkPalp_4 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 204px;
+	top: 180px;
+	position: absolute;
+	width: 105px;
+	height: 21px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport ._chkPalp_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 128px;
+	top: 208px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtGlucose_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbGlucose_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 212px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 92px;
+	top: 240px;
+	position: absolute;
+	width: 49px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPulseOxy_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 192px;
+	top: 240px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtPerOxy_4:enabled {
+	color: #404040;
+}
+.TFDIncident_frmEMSReport ._lbPulseOxy_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 244px;
+	position: absolute;
+	width: 89px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 144px;
+	top: 244px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbOxy1_9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-style: italic;
+	color: Navy;
+	left: 252px;
+	top: 244px;
+	position: absolute;
+	width: 69px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbGCS_4 {
+	background-color: Transparent;
+	cursor: default;
+	color: Maroon;
+	left: 8px;
+	top: 261px;
+	position: absolute;
+	width: 49px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._Line3_4 {
+	background-color: Navy;
+	left: 52px;
+	top: 269px;
+	position: absolute;
+	width: 267px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboEyes_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboEyes_4Pos {
+	top: 284px;
+	left: 84px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbEyes_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 288px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboVerbal_4Pos {
+	top: 312px;
+	left: 84px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbVerbal_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 313px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboMotor_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboMotor_4Pos {
+	top: 340px;
+	left: 84px;
+	position: absolute;
+	width: 233px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbMotor_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 341px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .frmInjury {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 7px;
+	top: 46px;
+	position: absolute;
+	width: 421px;
+	height: 97px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmInjury:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboInjuryType {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 297px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboInjuryType:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboInjuryTypePos {
+	top: 16px;
+	left: 116px;
+	position: absolute;
+	width: 297px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_21 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboBodyPart {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 297px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboBodyPart:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboBodyPartPos {
+	top: 44px;
+	left: 116px;
+	position: absolute;
+	width: 297px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_22 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 109px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .chkMajTrauma {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 193px;
+	height: 21px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkMajTrauma:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .chkMajorTrauma {
+	background-color: #FF8080;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 18.72px;
+	left: 14px;
+	top: 256px;
+	position: absolute;
+	width: 177px;
+	height: 33px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkMajorTrauma:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .frmInjury_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .frmIllness {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 7px;
+	top: 151px;
+	position: absolute;
+	width: 421px;
+	height: 49px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmIllness:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboPrimaryIllness {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 405px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboPrimaryIllness:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboPrimaryIllnessPos {
+	top: 16px;
+	left: 8px;
+	position: absolute;
+	width: 405px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .frmIllness_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .frmSecondaryIllness {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 7px;
+	top: 206px;
+	position: absolute;
+	width: 421px;
+	height: 81px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmSecondaryIllness:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .lstSecondaryIllness {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 405px;
+	height: 43px;
+}
+.TFDIncident_frmEMSReport .frmSecondaryIllness_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .frmPupils {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 7px;
+	top: 294px;
+	position: absolute;
+	width: 421px;
+	height: 49px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmPupils:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optPupils_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 28px;
+	top: 16px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optPupils_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optPupils_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optPupils_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 140px;
+	top: 16px;
+	position: absolute;
+	width: 125px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optPupils_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optPupils_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmPupils_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .frmLevelOfConsciousness {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 7px;
+	top: 352px;
+	position: absolute;
+	width: 421px;
+	height: 45px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmLevelOfConsciousness:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 97px;
+	height: 15px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 104px;
+	top: 20px;
+	position: absolute;
+	width: 209px;
+	height: 17px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_2 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 324px;
+	top: 20px;
+	position: absolute;
+	width: 85px;
+	height: 19px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optLevelOfConsciouness_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmLevelOfConsciousness_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .frmRespiratoryEffort {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 7px;
+	top: 413px;
+	position: absolute;
+	width: 421px;
+	height: 49px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmRespiratoryEffort:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_2 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 200px;
+	top: 12px;
+	position: absolute;
+	width: 201px;
+	height: 31px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 4px;
+	top: 16px;
+	position: absolute;
+	width: 89px;
+	height: 23px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 96px;
+	top: 16px;
+	position: absolute;
+	width: 97px;
+	height: 23px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optRespiratoryEffort_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmRespiratoryEffort_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .frmSeverity {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 435px;
+	top: 417px;
+	position: absolute;
+	width: 337px;
+	height: 49px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmSeverity:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optSeverity_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 4px;
+	top: 16px;
+	position: absolute;
+	width: 125px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optSeverity_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optSeverity_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optSeverity_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 128px;
+	top: 16px;
+	position: absolute;
+	width: 85px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optSeverity_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optSeverity_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optSeverity_2 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 204px;
+	top: 16px;
+	position: absolute;
+	width: 125px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optSeverity_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optSeverity_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmSeverity_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .tabPage3 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_24 {
+	background-color: #99A6BB;
+	cursor: default;
+	color: Navy;
+	left: 420px;
+	top: 4px;
+	position: absolute;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_23 {
+	background-color: #99A6BB;
+	cursor: default;
+	color: Navy;
+	left: 2px;
+	top: 5px;
+	position: absolute;
+	width: 209px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame7 {
+	background-color: #99A6BB;
+	left: 0px;
+	top: 22px;
+	position: absolute;
+	width: 405px;
+	height: 421px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame7:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .chkCPRPerformed {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 248px;
+	top: 12px;
+	position: absolute;
+	width: 149px;
+	height: 25px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkCPRPerformed:enabled {
+	color: #804000;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_25 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 289px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .cboBLSProcedures {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 377px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboBLSProcedures:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboBLSProceduresPos {
+	top: 40px;
+	left: 12px;
+	position: absolute;
+	width: 377px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_26 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 16px;
+	top: 68px;
+	position: absolute;
+	width: 253px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .txtOtherBLSProcedures {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 12px;
+	top: 88px;
+	position: absolute;
+	width: 377px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtOtherBLSProcedures:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_27 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 12px;
+	top: 116px;
+	position: absolute;
+	width: 205px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .lstBLSPersonnel {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 12px;
+	top: 140px;
+	position: absolute;
+	width: 377px;
+	height: 95px;
+}
+.TFDIncident_frmEMSReport .cmdAddBLS {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 72px;
+	top: 248px;
+	position: absolute;
+	width: 229px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdAddBLS:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .lstBLSProcedures {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 12px;
+	top: 284px;
+	position: absolute;
+	width: 377px;
+	height: 95px;
+}
+.TFDIncident_frmEMSReport .cmdRemoveBLSProcedures {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 72px;
+	top: 388px;
+	position: absolute;
+	width: 229px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdRemoveBLSProcedures:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .Frame7_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .Frame8 {
+	background-color: #99A6BB;
+	left: 421px;
+	top: 22px;
+	position: absolute;
+	width: 357px;
+	height: 421px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame8:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_28 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 12px;
+	top: 16px;
+	position: absolute;
+	width: 233px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .cboALSProcedures {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboALSProcedures:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboALSProceduresPos {
+	top: 36px;
+	left: 12px;
+	position: absolute;
+	width: 337px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .frmALSAttempts {
+	background-color: #99A6BB;
+	left: 12px;
+	top: 64px;
+	position: absolute;
+	width: 333px;
+	height: 53px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmALSAttempts:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_31 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .txtAttempts {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 96px;
+	top: 20px;
+	position: absolute;
+	width: 45px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtAttempts:enabled {
+	color: #404040;
+}
+.TFDIncident_frmEMSReport .chkSuccessful {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 152px;
+	top: 20px;
+	position: absolute;
+	width: 149px;
+	height: 25px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkSuccessful:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .frmALSAttempts_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_29 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 12px;
+	top: 124px;
+	position: absolute;
+	width: 277px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .txtOtherALSProcedures {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 12px;
+	top: 148px;
+	position: absolute;
+	width: 333px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtOtherALSProcedures:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_30 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 12px;
+	top: 180px;
+	position: absolute;
+	width: 241px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .cboALSPersonnel {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboALSPersonnel:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboALSPersonnelPos {
+	top: 200px;
+	left: 12px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cmdAddALS {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 44px;
+	top: 248px;
+	position: absolute;
+	width: 229px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdAddALS:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .lstALSProcedures {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 12px;
+	top: 284px;
+	position: absolute;
+	width: 333px;
+	height: 95px;
+}
+.TFDIncident_frmEMSReport .cmdRemoveALSProcedures {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 44px;
+	top: 388px;
+	position: absolute;
+	width: 229px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdRemoveALSProcedures:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .Frame8_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .tabPage4 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame9 {
+	background-color: #99A6BB;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 769px;
+	height: 53px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame9:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_36 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 265px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboTreatmentAuth {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboTreatmentAuth:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboTreatmentAuthPos {
+	top: 16px;
+	left: 260px;
+	position: absolute;
+	width: 241px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_32 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 508px;
+	top: 16px;
+	position: absolute;
+	width: 205px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .txtExtricationTime {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 696px;
+	top: 16px;
+	position: absolute;
+	width: 53px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtExtricationTime:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .Frame9_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .Frame21 {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 432px;
+	top: 59px;
+	position: absolute;
+	width: 305px;
+	height: 33px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .Frame21:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_34 {
+	background-color: #99A6BB;
+	cursor: default;
+	color: #804000;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .chkSalineLock {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 140px;
+	top: 0px;
+	position: absolute;
+	width: 149px;
+	height: 25px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkSalineLock:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .Frame2 {
+	background-color: #99A6BB;
+	left: 8px;
+	top: 87px;
+	position: absolute;
+	width: 309px;
+	height: 337px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_35 {
+	background-color: #99A6BB;
+	cursor: default;
+	color: #804000;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 213px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboMedications {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboMedications:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboMedicationsPos {
+	top: 40px;
+	left: 16px;
+	position: absolute;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .txtDosage {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 228px;
+	top: 68px;
+	position: absolute;
+	width: 61px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtDosage:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_33 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 16px;
+	top: 72px;
+	position: absolute;
+	width: 237px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .cmdAddMedications {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 64px;
+	top: 112px;
+	position: absolute;
+	width: 185px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdAddMedications:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .lstMedications {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 16px;
+	top: 156px;
+	position: absolute;
+	width: 281px;
+	height: 123px;
+}
+.TFDIncident_frmEMSReport .cmdRemoveMedication {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 64px;
+	top: 296px;
+	position: absolute;
+	width: 185px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdRemoveMedication:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .vaTabPro2 {
+	left: 432px;
+	top: 93px;
+	position: absolute;
+	min-width: 337px;
+	min-height: 373px;
+	outline-style: none;
+}
+.TFDIncident_frmEMSReport .tabPage10 {
+	background-color: #99A6BB;
+	width: 329px;
+	height: 342px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport ._lbGauge_0 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 31px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboGauge_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboGauge_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboGauge_0Pos {
+	top: 31px;
+	left: 136px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbIVID_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 188px;
+	top: 45px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbSite_0 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 80px;
+	top: 91px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboSite_0Pos {
+	top: 91px;
+	left: 136px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbRate_0 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 139px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRate_0Pos {
+	top: 144px;
+	left: 136px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbAmount_0 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 49px;
+	top: 189px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 136px;
+	top: 190px;
+	position: absolute;
+	width: 117px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbRoute_0 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 57px;
+	top: 234px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_0 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRoute_0Pos {
+	top: 234px;
+	left: 136px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .tabPage11 {
+	background-color: #99A6BB;
+	width: 329px;
+	height: 342px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport ._lbGauge_1 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 81px;
+	top: 38px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboGauge_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboGauge_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboGauge_1Pos {
+	top: 39px;
+	left: 152px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbIVID_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 216px;
+	top: 64px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbSite_1 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 89px;
+	top: 94px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboSite_1Pos {
+	top: 94px;
+	left: 152px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbRate_1 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 89px;
+	top: 146px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRate_1Pos {
+	top: 146px;
+	left: 152px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbAmount_1 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 57px;
+	top: 195px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 152px;
+	top: 196px;
+	position: absolute;
+	width: 117px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbRoute_1 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 249px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRoute_1Pos {
+	top: 249px;
+	left: 152px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .tabPage12 {
+	background-color: #99A6BB;
+	width: 329px;
+	height: 342px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport ._cboGauge_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboGauge_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboGauge_2Pos {
+	top: 35px;
+	left: 132px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbGauge_2 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 53px;
+	top: 38px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbIVID_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 188px;
+	top: 59px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbRoute_2 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 53px;
+	top: 92px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRoute_2Pos {
+	top: 92px;
+	left: 132px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbRate_2 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 58px;
+	top: 147px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRate_2Pos {
+	top: 147px;
+	left: 132px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbAmount_2 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 45px;
+	top: 195px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 132px;
+	top: 196px;
+	position: absolute;
+	width: 117px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbSite_2 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 247px;
+	position: absolute;
+	width: 78px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboSite_2Pos {
+	top: 247px;
+	left: 132px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .tabPage13 {
+	background-color: #99A6BB;
+	width: 329px;
+	height: 342px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport ._lbGauge_3 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 48px;
+	top: 35px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboGauge_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboGauge_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboGauge_3Pos {
+	top: 35px;
+	left: 137px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbIVID_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 193px;
+	top: 60px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbRoute_3 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 48px;
+	top: 85px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRoute_3Pos {
+	top: 85px;
+	left: 137px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRate_3Pos {
+	top: 130px;
+	left: 137px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbRate_3 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 48px;
+	top: 133px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 137px;
+	top: 184px;
+	position: absolute;
+	width: 117px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbAmount_3 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 44px;
+	top: 187px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboSite_3Pos {
+	top: 238px;
+	left: 137px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbSite_3 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 44px;
+	top: 241px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .tabPage14 {
+	background-color: #99A6BB;
+	width: 329px;
+	height: 342px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport ._cboGauge_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboGauge_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboGauge_4Pos {
+	top: 44px;
+	left: 116px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbGauge_4 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 44px;
+	top: 46px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbIVID_4 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 160px;
+	top: 68px;
+	position: absolute;
+	width: 97px;
+	height: 21px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._cboRoute_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRoute_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRoute_4Pos {
+	top: 96px;
+	left: 116px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbRoute_4 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 44px;
+	top: 98px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboRate_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboRate_4Pos {
+	top: 144px;
+	left: 115px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbRate_4 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 43px;
+	top: 146px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 115px;
+	top: 188px;
+	position: absolute;
+	width: 117px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport ._txtAmount_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbAmount_4 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 43px;
+	top: 190px;
+	position: absolute;
+	width: 81px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbSite_4 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 44px;
+	top: 232px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_4 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._cboSite_4:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._cboSite_4Pos {
+	top: 232px;
+	left: 115px;
+	position: absolute;
+	width: 117px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cmdMoreIVs {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 72px;
+	top: 284px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdMoreIVs:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .tabPage5 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame10 {
+	background-color: #99A6BB;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 749px;
+	height: 397px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame10:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_37 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 56px;
+	position: absolute;
+	width: 273px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboBaseStationContact {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboBaseStationContact:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboBaseStationContactPos {
+	top: 56px;
+	left: 288px;
+	position: absolute;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .frmBaseStationContact {
+	background-color: #99A6BB;
+	left: 292px;
+	top: 84px;
+	position: absolute;
+	width: 325px;
+	height: 37px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmBaseStationContact:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._optMDorRN_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optMDorRN_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optMDorRN_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optMDorRN_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 100px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optMDorRN_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optMDorRN_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optMDorRN_2 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 14.4px;
+	left: 204px;
+	top: 16px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optMDorRN_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optMDorRN_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmBaseStationContact_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_38 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 152px;
+	position: absolute;
+	width: 169px;
+	height: 33px;
+}
+.TFDIncident_frmEMSReport .cboTransportBy {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboTransportBy:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboTransportByPos {
+	top: 152px;
+	left: 292px;
+	position: absolute;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboTransportTo {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboTransportTo:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboTransportToPos {
+	top: 200px;
+	left: 292px;
+	position: absolute;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_39 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 206px;
+	position: absolute;
+	width: 169px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboTransportFrom {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboTransportFrom:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboTransportFromPos {
+	top: 248px;
+	left: 292px;
+	position: absolute;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_40 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 252px;
+	position: absolute;
+	width: 185px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .chkDiverted {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 400px;
+	top: 288px;
+	position: absolute;
+	width: 133px;
+	height: 33px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkDiverted:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_41 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 180px;
+	top: 296px;
+	position: absolute;
+	width: 105px;
+	height: 33px;
+}
+.TFDIncident_frmEMSReport .txtMileage {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 292px;
+	top: 296px;
+	position: absolute;
+	width: 77px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtMileage:enabled {
+	color: #404040;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_42 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 72px;
+	top: 360px;
+	position: absolute;
+	width: 241px;
+	height: 33px;
+}
+.TFDIncident_frmEMSReport .cboHospitalChosenBy {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboHospitalChosenBy:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboHospitalChosenByPos {
+	top: 360px;
+	left: 292px;
+	position: absolute;
+	width: 325px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame10_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .tabPage6 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame11 {
+	background-color: #99A6BB;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 800px;
+	height: 369px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame11:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_45 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 248px;
+	top: 20px;
+	position: absolute;
+	width: 121px;
+	height: 41px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_46 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 12px;
+	top: 24px;
+	position: absolute;
+	width: 137px;
+	height: 33px;
+}
+.TFDIncident_frmEMSReport .txtTraumaID {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 128px;
+	top: 24px;
+	position: absolute;
+	width: 109px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtTraumaID:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboProtectiveDevice {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboProtectiveDevice:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboProtectiveDevicePos {
+	top: 24px;
+	left: 356px;
+	position: absolute;
+	width: 177px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_43 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 540px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 41px;
+}
+.TFDIncident_frmEMSReport .cboPatientLocation {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 157px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboPatientLocation:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboPatientLocationPos {
+	top: 24px;
+	left: 628px;
+	position: absolute;
+	width: 157px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_47 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Navy;
+	left: 20px;
+	top: 88px;
+	position: absolute;
+	width: 273px;
+	height: 41px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_44 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Navy;
+	left: 352px;
+	top: 88px;
+	position: absolute;
+	width: 413px;
+	height: 29px;
+}
+.TFDIncident_frmEMSReport .lstTrauma1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 12px;
+	top: 116px;
+	position: absolute;
+	width: 333px;
+	height: 43px;
+}
+.TFDIncident_frmEMSReport .lstTrauma3 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 360px;
+	top: 116px;
+	position: absolute;
+	width: 397px;
+	height: 238px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_48 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Navy;
+	left: 20px;
+	top: 184px;
+	position: absolute;
+	width: 281px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .lstTrauma2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 16px;
+	top: 212px;
+	position: absolute;
+	width: 329px;
+	height: 147px;
+}
+.TFDIncident_frmEMSReport .Frame11_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .tabPage7 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame12 {
+	background-color: #99A6BB;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 787px;
+	height: 405px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame12:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_53 {
+	background-color: #99A6BB;
+	cursor: default;
+	color: Navy;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 329px;
+	height: 29px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_49 {
+	background-color: #99A6BB;
+	cursor: default;
+	color: Navy;
+	left: 464px;
+	top: 24px;
+	position: absolute;
+	width: 285px;
+	height: 29px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_52 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 361px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_50 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 540px;
+	top: 68px;
+	position: absolute;
+	width: 197px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .cboCPRPerformedBy {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 309px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboCPRPerformedBy:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboCPRPerformedByPos {
+	top: 88px;
+	left: 16px;
+	position: absolute;
+	width: 309px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_51 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	color: Navy;
+	left: 504px;
+	top: 92px;
+	position: absolute;
+	width: 189px;
+	height: 29px;
+}
+.TFDIncident_frmEMSReport .chkCPRTrained {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 28px;
+	top: 124px;
+	position: absolute;
+	width: 209px;
+	height: 41px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkCPRTrained:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .Shape1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Navy;
+	stroke-width: 3;
+	color: Black;
+}
+.TFDIncident_frmEMSReport .frmArrestToCPR {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 352px;
+	top: 128px;
+	position: absolute;
+	width: 345px;
+	height: 41px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .frmArrestToCPR:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 169px;
+	height: 37px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_1 {
+	background-color: #99A6BB;
+	left: 208px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_2 {
+	background-color: #99A6BB;
+	left: 256px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_3 {
+	background-color: #99A6BB;
+	left: 304px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToCPR_3 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .cmdClear1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 688px;
+	top: 136px;
+	position: absolute;
+	width: 65px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdClear1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .chkWitnessedArrest {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 28px;
+	top: 168px;
+	position: absolute;
+	width: 209px;
+	height: 41px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkWitnessedArrest:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .frmArrestToALS {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 352px;
+	top: 176px;
+	position: absolute;
+	width: 361px;
+	height: 53px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .frmArrestToALS:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 169px;
+	height: 37px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_1 {
+	background-color: #99A6BB;
+	left: 208px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_2 {
+	background-color: #99A6BB;
+	left: 256px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_3 {
+	background-color: #99A6BB;
+	left: 304px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToALS_3 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .cmdClear2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 688px;
+	top: 184px;
+	position: absolute;
+	width: 65px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdClear2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .cmdAddCPR {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 48px;
+	top: 212px;
+	position: absolute;
+	width: 233px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdAddCPR:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .frmArrestToShock {
+	background-color: #99A6BB;
+	cursor: default;
+	left: 352px;
+	top: 220px;
+	position: absolute;
+	width: 369px;
+	height: 53px;
+	overflow: hidden;
+}
+.TFDIncident_frmEMSReport .frmArrestToShock:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 169px;
+	height: 37px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_1 {
+	background-color: #99A6BB;
+	left: 208px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_2 {
+	background-color: #99A6BB;
+	left: 256px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_2:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_2 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_3 {
+	background-color: #99A6BB;
+	left: 304px;
+	top: 16px;
+	position: absolute;
+	width: 13px;
+	height: 21px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_3:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optArrestToShock_3 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .cmdClear3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 688px;
+	top: 228px;
+	position: absolute;
+	width: 65px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdClear3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .lstCPRPerformedBy {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	color: Navy;
+	left: 16px;
+	top: 256px;
+	position: absolute;
+	width: 309px;
+	height: 89px;
+}
+.TFDIncident_frmEMSReport .chkPulseRestored {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 384px;
+	top: 288px;
+	position: absolute;
+	width: 197px;
+	height: 33px;
+	width: auto;
+}
+.TFDIncident_frmEMSReport .chkPulseRestored:enabled {
+	color: #804000;
+}
+.TFDIncident_frmEMSReport .cmdRemoveCPR {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 44px;
+	top: 368px;
+	position: absolute;
+	width: 237px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdRemoveCPR:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .Frame12_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .tabPage8 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .txtBFirstName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 8px;
+	top: 13px;
+	position: absolute;
+	width: 189px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtBFirstName:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .txtBLastName {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 220px;
+	top: 13px;
+	position: absolute;
+	width: 249px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtBLastName:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .txtBMI {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 488px;
+	top: 13px;
+	position: absolute;
+	width: 41px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtBMI:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .txtBHomePhone {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 547px;
+	top: 13px;
+	position: absolute;
+	width: 165px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtBHomePhone:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_61 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 4px;
+	top: 40px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_62 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 217px;
+	top: 40px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_60 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 497px;
+	top: 40px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_63 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 544px;
+	top: 40px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame13 {
+	background-color: #99A6BB;
+	left: 8px;
+	top: 65px;
+	position: absolute;
+	width: 704px;
+	height: 401px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame13:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 36px;
+	top: 20px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .txtBBirthdate {
+	background-color: White;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 184px;
+	top: 20px;
+	position: absolute;
+	width: 129px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtBBirthdate:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_64 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 120px;
+	top: 44px;
+	position: absolute;
+	width: 33px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport ._Line1_1 {
+	background-color: Navy;
+	left: 47px;
+	top: 52px;
+	position: absolute;
+	width: 69px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._Line2_1 {
+	background-color: Navy;
+	left: 159px;
+	top: 52px;
+	position: absolute;
+	width: 154px;
+	height: 1px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_1 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 52px;
+	top: 68px;
+	position: absolute;
+	width: 73px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .txtAge {
+	background-color: White;
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 188px;
+	top: 68px;
+	position: absolute;
+	width: 73px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtAge:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_2 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 52px;
+	top: 100px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboAgeUnits {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 201px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboAgeUnits:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboAgeUnitsPos {
+	top: 100px;
+	left: 188px;
+	position: absolute;
+	width: 201px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .frmBasicGender {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 44px;
+	top: 144px;
+	position: absolute;
+	width: 337px;
+	height: 57px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmBasicGender:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEMSGender_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 36px;
+	top: 20px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEMSGender_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEMSGender_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEMSGender_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 192px;
+	top: 20px;
+	position: absolute;
+	width: 113px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEMSGender_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEMSGender_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmBasicGender_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_3 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 56px;
+	top: 224px;
+	position: absolute;
+	width: 65px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboEMSRace {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboEMSRace:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboEMSRacePos {
+	top: 224px;
+	left: 144px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .frmBasicEthnicity {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 44px;
+	top: 260px;
+	position: absolute;
+	width: 349px;
+	height: 61px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .frmBasicEthnicity:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEMSEthnicity_0 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 32px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEMSEthnicity_0:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEMSEthnicity_0 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEMSEthnicity_1 {
+	background-color: #99A6BB;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 168px;
+	top: 24px;
+	position: absolute;
+	width: 145px;
+	height: 25px;
+	cursor: default;
+}
+.TFDIncident_frmEMSReport ._optEMSEthnicity_1:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport ._optEMSEthnicity_1 * {
+	Cursor: default;
+}
+.TFDIncident_frmEMSReport .frmBasicEthnicity_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_4 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 52px;
+	top: 340px;
+	position: absolute;
+	width: 241px;
+	height: 33px;
+}
+.TFDIncident_frmEMSReport .cboServiceProvided {
+	background-color: White;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 345px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboServiceProvided:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboServiceProvidedPos {
+	top: 364px;
+	left: 48px;
+	position: absolute;
+	width: 345px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame13_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .tabPage9 {
+	background-color: #99A6BB;
+	width: 806px;
+	height: 474px;
+	outline-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.TFDIncident_frmEMSReport .Frame14 {
+	background-color: #99A6BB;
+	left: 8px;
+	top: -1px;
+	position: absolute;
+	width: 792px;
+	height: 109px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame14:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport ._lbPInfo_59 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 225px;
+	height: 29px;
+}
+.TFDIncident_frmEMSReport .cboIncidentLocation {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboIncidentLocation:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboIncidentLocationPos {
+	top: 20px;
+	left: 184px;
+	position: absolute;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_54 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 520px;
+	top: 20px;
+	position: absolute;
+	width: 157px;
+	height: 29px;
+}
+.TFDIncident_frmEMSReport .txtIncidentZipcode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 684px;
+	top: 20px;
+	position: absolute;
+	width: 101px;
+	height: 24px;
+}
+.TFDIncident_frmEMSReport .txtIncidentZipcode:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboIncidentSetting {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboIncidentSetting:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboIncidentSettingPos {
+	top: 48px;
+	left: 184px;
+	position: absolute;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_58 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 51px;
+	position: absolute;
+	width: 197px;
+	height: 29px;
+}
+.TFDIncident_frmEMSReport .FDCaresBtn {
+	left: 640px;
+	top: 68px;
+	position: absolute;
+	width: 145px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_57 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 8px;
+	top: 76px;
+	position: absolute;
+	width: 185px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport .cboResearchCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboResearchCode:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboResearchCodePos {
+	top: 76px;
+	left: 184px;
+	position: absolute;
+	width: 301px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame14_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.TFDIncident_frmEMSReport .Frame16 {
+	background-color: #99A6BB;
+	left: 8px;
+	top: 107px;
+	position: absolute;
+	width: 792px;
+	height: 365px;
+	border: 2px groove;
+}
+.TFDIncident_frmEMSReport .Frame16:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .cmdAddNarration {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 544px;
+	top: 20px;
+	position: absolute;
+	width: 237px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmEMSReport .cmdAddNarration:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmEMSReport .cboNarrList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .cboNarrList:enabled {
+	color: Navy;
+}
+.TFDIncident_frmEMSReport .cboNarrListPos {
+	top: 24px;
+	left: 204px;
+	position: absolute;
+	width: 333px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_56 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 25px;
+	position: absolute;
+	width: 189px;
+	height: 21px;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_55 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 56px;
+	position: absolute;
+	width: 421px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .lbNarrAuthor {
+	background-color: #E0E0E0;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 372px;
+	top: 56px;
+	position: absolute;
+	width: 349px;
+	height: 17px;
+}
+.TFDIncident_frmEMSReport .lbNarrID {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 724px;
+	top: 56px;
+	position: absolute;
+	width: 61px;
+	height: 17px;
+	visibility: hidden;
+}
+.TFDIncident_frmEMSReport ._lbPInfo_65 {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	color: Navy;
+	left: 12px;
+	top: 80px;
+	position: absolute;
+	width: 421px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .rtxNarration {
+	background-color: White;
+	font-family: Verdana;
+	font-size: 12.24px;
+	left: 8px;
+	top: 100px;
+	position: absolute;
+	width: 772px;
+	height: 225px;
+}
+.TFDIncident_frmEMSReport .lbNarrMessage {
+	background-color: #99A6BB;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	font-style: italic;
+	color: Navy;
+	left: 148px;
+	top: 332px;
+	position: absolute;
+	width: 461px;
+	height: 25px;
+}
+.TFDIncident_frmEMSReport .Frame16_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+

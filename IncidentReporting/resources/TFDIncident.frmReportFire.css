@@ -1,0 +1,76 @@
+.TFDIncident_frmReportFire {
+}
+.TFDIncident_frmReportFire .frmReportFire {
+	background-color: #C5CEAC;
+	min-width: 794px;
+	min-height: 512px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmReportFire .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 16.56px;
+	font-weight: bold;
+	font-style: italic;
+	color: Navy;
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	width: 477px;
+	height: 25px;
+}
+.TFDIncident_frmReportFire .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 504px;
+	top: 4px;
+	position: absolute;
+	width: 125px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportFire .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportFire .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	left: 632px;
+	top: 4px;
+	position: absolute;
+	width: 125px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmReportFire .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmReportFire .sprFireReport {
+	left: 4px;
+	top: 40px;
+	position: absolute;
+	width: 790px;
+	height: 472px;
+}
+.TFDIncident_frmReportFire .sprFireReport .k-tabstrip-wrapper {
+	display: none;
+}
+.TFDIncident_frmReportFire .sprFireReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

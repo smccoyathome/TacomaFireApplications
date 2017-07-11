@@ -1,0 +1,191 @@
+.PTSProject_frmSchedNoteQuery {
+}
+.PTSProject_frmSchedNoteQuery .frmSchedNoteQuery {
+	background-color: #000040;
+	min-width: 500px;
+	min-height: 314px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmSchedNoteQuery .Frame1 {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 13.5px;
+	left: 8px;
+	top: 0px;
+	position: absolute;
+	width: 486px;
+	height: 105px;
+	border: 2px groove;
+}
+.PTSProject_frmSchedNoteQuery .Frame1:enabled {
+	color: Aqua;
+}
+.PTSProject_frmSchedNoteQuery .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 344px;
+	top: 16px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSchedNoteQuery .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSchedNoteQuery .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmSchedNoteQuery .dtStartDate {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+.PTSProject_frmSchedNoteQuery .dtStartDate.k-datepicker {
+	left: 104px;
+	top: 24px;
+	position: absolute;
+	width: 121px;
+	height: 19px;
+}
+.PTSProject_frmSchedNoteQuery .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 344px;
+	top: 40px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSchedNoteQuery .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSchedNoteQuery .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmSchedNoteQuery .dtEndDate {
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+.PTSProject_frmSchedNoteQuery .dtEndDate.k-datepicker {
+	left: 104px;
+	top: 48px;
+	position: absolute;
+	width: 121px;
+	height: 19px;
+}
+.PTSProject_frmSchedNoteQuery .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 344px;
+	top: 64px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmSchedNoteQuery .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSchedNoteQuery ._lbSubTitle_5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #FFFFC0;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 89px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmSchedNoteQuery .txtCommentSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 104px;
+	top: 72px;
+	position: absolute;
+	width: 209px;
+	height: 19px;
+}
+.PTSProject_frmSchedNoteQuery .txtCommentSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmSchedNoteQuery .lbCount {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: Lime;
+	left: 304px;
+	top: 88px;
+	position: absolute;
+	width: 177px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmSchedNoteQuery .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmSchedNoteQuery .sprReport {
+	left: 8px;
+	top: 104px;
+	position: absolute;
+	width: 486px;
+	height: 201px;
+}
+.PTSProject_frmSchedNoteQuery .sprReport .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmSchedNoteQuery .sprReport .k-spreadsheet-action-bar {
+	display: none;
+}
+

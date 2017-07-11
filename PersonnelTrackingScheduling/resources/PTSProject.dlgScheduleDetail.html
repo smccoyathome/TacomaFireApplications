@@ -1,0 +1,10 @@
+<div>
+  <div data-width="550" data-height="240" name="dlgScheduleDetail" data-title="Schedule Detail" class="PTSProject_dlgScheduleDetail" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgScheduleDetail">
+      <label id="lbTitle" tabindex="2" class="lbTitle" data-bind="text : lbTitle.Text, imagePath : lbTitle.ImagePath">Schedule Detail</label>
+      <div id="sprDetail" data-role="mobilizespread" tabindex="1" class="sprDetail" data-bind="widgetvalue: sprDetail"></div>
+      <textarea id="txtComment" tabindex="8" Value="txtComment" class="txtComment" data-bind="visible : txtComment.Visible, value : txtComment.Text"></textarea>
+      <button id="OKButton" tabindex="1" class="OKButton" type="button" data-bind="events : { click : OKButton_Click }, ">Close</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,177 @@
+<div>
+  <div data-width="778" data-height="714" name="dlgVacationRequest" data-title="Vacation Request " class="PTSProject_dlgVacationRequest" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="dlgVacationRequest">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Select an Action</legend>
+        <div>
+          <div class="optRequest" data-bind="visible : optRequest.Visible">
+            <input id="optRequest" tabindex="11" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optRequest.Checked, events : { change : optRequest_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Request Vacation</label>
+            </div>
+          </div>
+          <div class="optDelete" data-bind="visible : optDelete.Visible">
+            <input id="optDelete" tabindex="13" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optDelete.Checked, events : { change : optDelete_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Delete Requests/Available Shifts</label>
+            </div>
+          </div>
+          <div class="optUpdate" data-bind="visible : optUpdate.Visible">
+            <input id="optUpdate" tabindex="14" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optUpdate.Checked, events : { change : optUpdate_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Update / Schedule Leave </label>
+            </div>
+          </div>
+          <div class="optAvailable">
+            <input id="optAvailable" tabindex="12" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optAvailable.Checked, events : { change : optAvailable_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Make Shift Available </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset id="Frame2" class="Frame2">
+        <legend id="Frame2_legend" class="Frame2_legend">Vacation Wanted</legend>
+        <div>
+          <label id="Label1" tabindex="66" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Filter by Name :</label>
+          <div class="cboReqNameListPos" id="cboReqNameListPos">
+            <select id="cboReqNameList" tabindex="73" class="cboReqNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboReqNameList.ComboBoxItems, customText : cboReqNameList.CustomText, comboSelectedIndex : cboReqNameList.SelectedIndex, events : { change : cboReqNameList_SelectionChangeCommitted }, "></select>
+          </div>
+          <div class="chkPMOnly">
+            <input id="chkPMOnly" tabindex="80" type="checkbox" style="float: left" data-bind="events : { click : chkPMOnly_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Paramedics Only</label>
+            </div>
+          </div>
+          <div class="chkHZMOnly">
+            <input id="chkHZMOnly" tabindex="81" type="checkbox" style="float: left" data-bind="events : { click : chkHZMOnly_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Hazmat Only</label>
+            </div>
+          </div>
+          <label id="Label18" tabindex="70" class="Label18" data-bind="text : Label18.Text, imagePath : Label18.ImagePath">* Timestamp Info as cell note</label>
+          <label id="Label19" tabindex="71" class="Label19" data-bind="text : Label19.Text, imagePath : Label19.ImagePath">* VAC/HOL Available as cell note </label>
+          <button id="cmdClearRequest" tabindex="72" class="cmdClearRequest" type="button" data-bind="events : { click : cmdClearRequest_Click }, ">Clear Filter / Refresh Grid</button>
+          <div id="sprRequests" data-role="mobilizespread" tabindex="76" class="sprRequests" data-bind="widgetvalue: sprRequests"></div>
+        </div>
+      </fieldset>
+      <fieldset id="frmShiftAvail" class="frmShiftAvail" data-bind="visible : frmShiftAvail.Visible">
+        <legend id="frmShiftAvail_legend" class="frmShiftAvail_legend"></legend>
+        <div>
+          <div id="calAvail" tabindex="30" class="calAvail" data-role="calendar" data-bind="dateTimePickerValue : calAvail.Value, monthCalendarSelectionRange : calAvail.SelectionRange, DateTimeMinDate : calAvail.MinDate, events : { change : calAvail_DateChanged }, "></div>
+          <label id="lbSelectTitle1" tabindex="25" class="lbSelectTitle1" data-bind="text : lbSelectTitle1.Text, imagePath : lbSelectTitle1.ImagePath">Scheduled Leave Totals</label>
+          <div class="chkAM">
+            <input id="chkAM" tabindex="32" type="checkbox" checked="checked" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">AM</label>
+            </div>
+          </div>
+          <div class="chkPM">
+            <input id="chkPM" tabindex="31" type="checkbox" checked="checked" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM</label>
+            </div>
+          </div>
+          <label id="lbSelectAM" tabindex="27" class="lbSelectAM" data-bind="visible : lbSelectAM.Visible, text : lbSelectAM.Text, imagePath : lbSelectAM.ImagePath">lbSelectAM</label>
+          <label id="lbREGam" tabindex="29" class="lbREGam" data-bind="visible : lbREGam.Visible, text : lbREGam.Text, imagePath : lbREGam.ImagePath">lbREGam</label>
+          <button disabled="disabled" id="cmdAvailDone" tabindex="29" class="cmdAvailDone" type="button" data-bind="enabled : cmdAvailDone.Enabled, events : { click : cmdAvailDone_Click }, ">Done</button>
+          <label id="lbSelectPM" tabindex="26" class="lbSelectPM" data-bind="visible : lbSelectPM.Visible, text : lbSelectPM.Text, imagePath : lbSelectPM.ImagePath">lbSelectPM</label>
+          <label id="lbREGpm" tabindex="28" class="lbREGpm" data-bind="visible : lbREGpm.Visible, text : lbREGpm.Text, imagePath : lbREGpm.ImagePath">lbREGpm</label>
+          <label id="Label11" tabindex="58" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">Give Date Out On:</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dtpGiveOut" tabindex="42" class="dtpGiveOut" data-bind="dateTimePickerValue : dtpGiveOut.Value, DateTimeMinDate : dtpGiveOut.MinDate, DateTimeMaxDate : dtpGiveOut.MaxDate" />
+          <label id="lbAvailComment" tabindex="31" class="lbAvailComment" data-bind="visible : lbAvailComment.Visible, text : lbAvailComment.Text, imagePath : lbAvailComment.ImagePath">Add Comment:</label>
+          <textarea id="txtAvailComment" tabindex="38" Value="txtAvailComment" class="txtAvailComment" data-bind="visible : txtAvailComment.Visible, value : txtAvailComment.Text"></textarea>
+          <label id="lbExistPM" tabindex="38" class="lbExistPM" data-bind="text : lbExistPM.Text, imagePath : lbExistPM.ImagePath">llbExistPM</label>
+          <label id="lbExistAM" tabindex="37" class="lbExistAM" data-bind="text : lbExistAM.Text, imagePath : lbExistAM.ImagePath">llbExistAM</label>
+        </div>
+      </fieldset>
+      <fieldset id="frmRequestVAC" class="frmRequestVAC" data-bind="visible : frmRequestVAC.Visible">
+        <legend id="frmRequestVAC_legend" class="frmRequestVAC_legend"></legend>
+        <div>
+          <label id="lblName" tabindex="16" class="lblName" data-bind="text : lblName.Text, imagePath : lblName.ImagePath">Select Name:</label>
+          <div class="cboNameListPos" id="cboNameListPos">
+            <select id="cboNameList" tabindex="15" class="cboNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboNameList.ComboBoxItems, customText : cboNameList.CustomText, comboSelectedIndex : cboNameList.SelectedIndex, events : { change : cboNameList_SelectionChangeCommitted }, "></select>
+          </div>
+          <label id="Label6" tabindex="35" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Scheduled Shifts</label>
+          <label id="lblDate" tabindex="17" class="lblDate" data-bind="text : lblDate.Text, imagePath : lblDate.ImagePath">Pick Date/Shift Wanted:</label>
+          <div id="lstCurrSched" data-selectable="multiple" tabindex="16" class="lstCurrSched" data-role="listbox" style="overflow:auto" data-bind="source : lstCurrSched.ListBoxItems, listBoxSelectedIndices : lstCurrSched.ListBoxSelectedIndices, events : { change : lstCurrSched_SelectedIndexChanged }, "></div>
+          <label id="Label7" tabindex="36" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Vacation Shifts</label>
+          <label id="Label5" tabindex="18" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Select Date To Give Up, if you don't have leave available:</label>
+          <div id="lstCurrVAC" data-selectable="multiple" tabindex="17" class="lstCurrVAC" data-role="listbox" style="overflow:auto" data-bind="source : lstCurrVAC.ListBoxItems, listBoxSelectedIndices : lstCurrVAC.ListBoxSelectedIndices"></div>
+          <label id="Label17" tabindex="69" class="Label17" data-bind="text : Label17.Text, imagePath : Label17.ImagePath">Available Leave  VAC  /  HOL</label>
+          <button disabled="disabled" id="cmdReqDone" tabindex="19" class="cmdReqDone" type="button" data-bind="enabled : cmdReqDone.Enabled, events : { click : cmdReqDone_Click }, ">Done</button>
+          <label id="lbVAC" tabindex="33" class="lbVAC" data-bind="text : lbVAC.Text, imagePath : lbVAC.ImagePath">lbVAC</label>
+          <label id="lbHOL" tabindex="34" class="lbHOL" data-bind="text : lbHOL.Text, imagePath : lbHOL.ImagePath">lbHOL</label>
+          <textarea id="txtComment" tabindex="18" Value="txtComment" class="txtComment" data-bind="value : txtComment.Text"></textarea>
+          <label id="Label4" tabindex="19" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Add Comment:</label>
+        </div>
+      </fieldset>
+      <fieldset id="frmUpdateRequest" class="frmUpdateRequest" data-bind="visible : frmUpdateRequest.Visible">
+        <legend id="frmUpdateRequest_legend" class="frmUpdateRequest_legend"></legend>
+        <div>
+          <label id="Label9" tabindex="49" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Employee Name</label>
+          <div class="cboUpdateNameListPos" id="cboUpdateNameListPos">
+            <select id="cboUpdateNameList" tabindex="53" class="cboUpdateNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboUpdateNameList.ComboBoxItems, customText : cboUpdateNameList.CustomText, comboSelectedIndex : cboUpdateNameList.SelectedIndex, events : { change : cboUpdateNameList_TextChanged }, "></select>
+          </div>
+          <label id="Label10" tabindex="50" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Leave Date</label>
+          <label id="lbgiveup" tabindex="51" class="lbgiveup" data-bind="visible : lbgiveup.Visible, text : lbgiveup.Text, imagePath : lbgiveup.ImagePath">Give Up Date</label>
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calRequestDate" tabindex="48" class="calRequestDate" data-bind="dateTimePickerValue : calRequestDate.Value, DateTimeMinDate : calRequestDate.MinDate, DateTimeMaxDate : calRequestDate.MaxDate" />
+          <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calGiveUpDate" tabindex="51" class="calGiveUpDate" data-bind="dateTimePickerValue : calGiveUpDate.Value, visible : calGiveUpDate.Visible, DateTimeMinDate : calGiveUpDate.MinDate, DateTimeMaxDate : calGiveUpDate.MaxDate" />
+          <div class="chkUpdateAM">
+            <input id="chkUpdateAM" tabindex="50" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">AM</label>
+            </div>
+          </div>
+          <div class="chkUpdatePM">
+            <input id="chkUpdatePM" tabindex="49" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM</label>
+            </div>
+          </div>
+          <div class="chkGiveUpAM" data-bind="visible : chkGiveUpAM.Visible">
+            <input id="chkGiveUpAM" tabindex="62" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">AM</label>
+            </div>
+          </div>
+          <div class="chkGiveUpPM" data-bind="visible : chkGiveUpPM.Visible">
+            <input id="chkGiveUpPM" tabindex="63" type="checkbox" style="float: left" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM</label>
+            </div>
+          </div>
+          <label id="Label12" tabindex="52" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">Leave KOT</label>
+          <label id="Label8" tabindex="42" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Update Comment</label>
+          <div class="cboKOTPos" id="cboKOTPos">
+            <select id="cboKOT" tabindex="52" class="cboKOT" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboKOT.ComboBoxItems, customText : cboKOT.CustomText, comboSelectedIndex : cboKOT.SelectedIndex, events : { change : cboKOT_TextChanged }, "></select>
+          </div>
+          <textarea id="txtUpdateComment" tabindex="45" Value="txtUpdateComment" class="txtUpdateComment" data-bind="value : txtUpdateComment.Text"></textarea>
+          <label id="Label20" tabindex="72" class="Label20" data-bind="text : Label20.Text, imagePath : Label20.ImagePath">Available Leave  VAC  /  HOL</label>
+          <label id="lbUpdateVAC" tabindex="74" class="lbUpdateVAC" data-bind="text : lbUpdateVAC.Text, imagePath : lbUpdateVAC.ImagePath">lbVAC</label>
+          <label id="lbUpdateHOL" tabindex="73" class="lbUpdateHOL" data-bind="text : lbUpdateHOL.Text, imagePath : lbUpdateHOL.ImagePath">lbHOL</label>
+          <label id="lbAvailPM" tabindex="56" class="lbAvailPM" data-bind="text : lbAvailPM.Text, imagePath : lbAvailPM.ImagePath">lbAvailPM</label>
+          <label id="lbAvailAM" tabindex="54" class="lbAvailAM" data-bind="text : lbAvailAM.Text, imagePath : lbAvailAM.ImagePath">lbAvailAM</label>
+          <button disabled="disabled" id="cmdUpdateDone" tabindex="46" class="cmdUpdateDone" type="button" data-bind="enabled : cmdUpdateDone.Enabled, events : { click : cmdUpdateDone_Click }, ">Done</button>
+          <label id="lbRequestPM" tabindex="55" class="lbRequestPM" data-bind="text : lbRequestPM.Text, imagePath : lbRequestPM.ImagePath">lbRequestPM</label>
+          <label id="lbRequestAM" tabindex="53" class="lbRequestAM" data-bind="text : lbRequestAM.Text, imagePath : lbRequestAM.ImagePath">lbRequestAM</label>
+        </div>
+      </fieldset>
+      <div id="sprAvailable" data-role="mobilizespread" tabindex="10" class="sprAvailable" data-bind="widgetvalue: sprAvailable"></div>
+      <button id="cmdClearAvail" tabindex="44" class="cmdClearAvail" type="button" data-bind="events : { click : cmdClearAvail_Click }, ">Refresh Grid</button>
+      <label id="Label3" tabindex="12" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Shifts Available</label>
+      <fieldset id="frmLegend" class="frmLegend" data-bind="visible : frmLegend.Visible">
+        <legend id="frmLegend_legend" class="frmLegend_legend"></legend>
+        <div>
+          <label id="Label15" tabindex="60" class="Label15" data-bind="text : Label15.Text, imagePath : Label15.ImagePath">Red = Shift Wanted/Give Out on Date Clicked</label>
+          <label id="Label13" tabindex="61" class="Label13" data-bind="text : Label13.Text, imagePath : Label13.ImagePath">Green = Created Today</label>
+          <label id="Label14" tabindex="62" class="Label14" data-bind="text : Label14.Text, imagePath : Label14.ImagePath">Blue = Now Past Due</label>
+          <label id="Label21" tabindex="75" class="Label21" data-bind="text : Label21.Text, imagePath : Label21.ImagePath">Purple = Leave currently scheduled for same date...</label>
+        </div>
+      </fieldset>
+      <label id="Label2" tabindex="13" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Vacation Granted</label>
+      <div id="sprGranted" data-role="mobilizespread" tabindex="11" class="sprGranted" data-bind="widgetvalue: sprGranted"></div>
+      <button id="CancelButton_Renamed" tabindex="1" class="CancelButton_Renamed" type="button" data-bind="events : { click : CancelButton_Renamed_Click }, ">Back</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+<div>
+  <div data-width="869" data-height="555" name="frmNewQClass" data-title="Class Participation Query Form" class="PTSProject_frmNewQClass" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmNewQClass">
+      <label id="Label9" tabindex="16" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Select Primary Training Type</label>
+      <div id="sprQ1" data-role="mobilizespread" tabindex="0" class="sprQ1" data-bind="widgetvalue: sprQ1"></div>
+      <div class="cboPrimaryPos" id="cboPrimaryPos">
+        <select id="cboPrimary" tabindex="9" class="cboPrimary" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPrimary.ComboBoxItems, customText : cboPrimary.CustomText, comboSelectedIndex : cboPrimary.SelectedIndex, events : { change : cboPrimary_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label8" tabindex="17" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Select Secondary Training Type</label>
+      <div class="cboSecondaryPos" id="cboSecondaryPos">
+        <select id="cboSecondary" tabindex="10" class="cboSecondary" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboSecondary.ComboBoxItems, customText : cboSecondary.CustomText, comboSelectedIndex : cboSecondary.SelectedIndex, events : { change : cboSecondary_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label1" tabindex="24" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Specific Training</label>
+      <div class="cboClassPos" id="cboClassPos">
+        <select id="cboClass" tabindex="18" class="cboClass" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboClass.ComboBoxItems, customText : cboClass.CustomText, comboSelectedIndex : cboClass.SelectedIndex, events : { change : cboClass_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label4" tabindex="21" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Select Personnel</label>
+      <div class="cboPersonnelPos" id="cboPersonnelPos">
+        <select id="cboPersonnel" tabindex="14" class="cboPersonnel" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPersonnel.ComboBoxItems, customText : cboPersonnel.CustomText, comboSelectedIndex : cboPersonnel.SelectedIndex"></select>
+      </div>
+      <label id="Label5" tabindex="20" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">Select Query Type</label>
+      <fieldset id="frmParam1" data-bind="enabled : frmParam1.Enabled">
+        <div id="frmParam1" class="frmParam1">
+          <div index="0" class="_optParam_0">
+            <input id="_optParam_0" tabindex="12" type="radio" name="frmParam1_radios" style="float: left" data-bind="customChecked : _optParam_0.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">All Personnel who have Attended</label>
+            </div>
+          </div>
+          <div index="1" class="_optParam_1">
+            <input id="_optParam_1" tabindex="11" type="radio" name="frmParam1_radios" checked="checked" style="float: left" data-bind="customChecked : _optParam_1.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">All Personnel who have NOT Attended</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <label id="Label2" tabindex="23" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Select Query Start Date</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calStart" tabindex="13" class="calStart" data-bind="dateTimePickerValue : calStart.Value, DateTimeMinDate : calStart.MinDate, DateTimeMaxDate : calStart.MaxDate" />
+      <label id="Label3" tabindex="22" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Select Query End Date</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calEnd" tabindex="20" class="calEnd" data-bind="dateTimePickerValue : calEnd.Value, DateTimeMinDate : calEnd.MinDate, DateTimeMaxDate : calEnd.MaxDate" />
+      <label id="Label6" tabindex="19" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">Select Start Date for Next Classes</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calClassStart" tabindex="21" class="calClassStart" data-bind="dateTimePickerValue : calClassStart.Value, DateTimeMinDate : calClassStart.MinDate, DateTimeMaxDate : calClassStart.MaxDate" />
+      <label id="Label7" tabindex="18" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">Select End Date for Next Classes</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calClassEnd" tabindex="22" class="calClassEnd" data-bind="dateTimePickerValue : calClassEnd.Value, DateTimeMinDate : calClassEnd.MinDate, DateTimeMaxDate : calClassEnd.MaxDate" />
+      <button id="cmdQuery" tabindex="16" class="cmdQuery" type="button" data-bind="events : { click : cmdQuery_Click }, ">Query</button>
+      <button id="cmdClear" tabindex="15" class="cmdClear" type="button" data-bind="events : { click : cmdClear_Click }, ">Clear</button>
+      <button id="cmdPrint" tabindex="17" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="19" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+    </form>
+  </div>
+</div>

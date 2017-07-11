@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildThisFileDirectory)\..\..\GlobalItems\WebMapHelpers.properties" />
+  <!-- This tasks is used to embed scripts and content elements -->
+  <Target Name="AddResources" DependsOnTargets="CompileTypeScript">
+    <ItemGroup>
+      <Resource Include="scripts\**\*.*" />
+      <Resource Include="resources\**\*.*" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C73D3B98-2151-428D-BF17-22965C2597DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UpgradeHelpers.WebMap.Controls</RootNamespace>
+    <AssemblyName>UpgradeHelpers.WebMap.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>TRACE</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.2.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>
+      </HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADODataControlHelper.cs" />
+    <Compile Include="AreaRegistration.cs" />
+    <Compile Include="Controllers\GridDatasourceController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\ResumeOperationController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UpgradeHelpers.DB.ADO\UpgradeHelpers.DB.ADO.csproj">
+      <Project>{99220D3D-4722-432C-9681-ADFFF2065D68}</Project>
+      <Name>UpgradeHelpers.DB.ADO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeHelpers.DB.Essentials\UpgradeHelpers.DB.Essentials.csproj">
+      <Project>{B5D4A0EE-0D52-4EE8-829D-48DAF1E56B8E}</Project>
+      <Name>UpgradeHelpers.DB.Essentials</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeHelpers.WebMap.BasicViewModels\UpgradeHelpers.WebMap.BasicViewModels.csproj">
+      <Project>{22bbd658-ed3d-49d0-95c8-c6cab1d3a00b}</Project>
+      <Name>UpgradeHelpers.WebMap.BasicViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeHelpers.WebMap.Core\UpgradeHelpers.WebMap.Core.csproj">
+      <Project>{EF2DD653-FEC0-4FE9-AA36-FF4A8B7565EE}</Project>
+      <Name>UpgradeHelpers.WebMap.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeHelpers.WebMap.Server.Common\UpgradeHelpers.WebMap.Server.Common.csproj">
+      <Project>{4C980141-CA63-4B31-93D7-A24C4ADF5EAD}</Project>
+      <Name>UpgradeHelpers.WebMap.Server.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpgradeHelpers.WebMap.WFBaseViewModels\UpgradeHelpers.WebMap.WFBaseViewModels.csproj">
+      <Project>{e1334146-c07f-4eac-ac03-73f8c6e051ae}</Project>
+      <Name>UpgradeHelpers.WebMap.WFBaseViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildThisFileDirectory)\..\..\GlobalItems\WebMapHelpers.targets" />
+  <PropertyGroup>
+    <PrepareForBuildDependsOn>AddResources;@(PrepareForBuildDependsOn)</PrepareForBuildDependsOn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="resources\Images\b_first.png" />
+    <Content Include="resources\Images\b_last.png" />
+    <Content Include="resources\Images\b_next.png" />
+    <Content Include="resources\Images\b_prev.png" />
+    <Content Include="scripts\helpers\jquery.blockUI.d.ts" />
+    <Content Include="scripts\helpers\jquery.caret.d.ts" />
+    <Content Include="scripts\helpers\jquery.d.ts" />
+    <Content Include="scripts\helpers\kendo.all.d.ts" />
+    <Content Include="scripts\helpers\WebMap.all.d.ts" />
+    <TypeScriptCompile Include="scripts\helpers\require.d.ts" />
+    <TypeScriptCompile Include="scripts\usercontrols\UpgradeHelpers_DB_ADO_ADODataControlHelper.ts" />
+    <TypeScriptCompile Include="scripts\usercontrols\UpgradeHelpers_Gui_ShapeHelper.ts" />
+    <TypeScriptCompile Include="scripts\usercontrols\UpgradeHelpers_VB6_Gui_ShapeHelper.ts" />
+    <TypeScriptCompile Include="scripts\usercontrols\UpgradeHelpers_WebMap_Controls_ADODataControlHelper_Angular.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

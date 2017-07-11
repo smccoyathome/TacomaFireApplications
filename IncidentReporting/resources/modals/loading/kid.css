@@ -1,0 +1,217 @@
+.transition, #loading .baby, #loading .baby * {
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#loading {
+    background: #f1f1f1;
+}
+
+    #loading .baby {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: -20px;
+    }
+
+        #loading .baby .back {
+            width: 75px;
+            height: 20px;
+            background: #ff6b24;
+            position: absolute;
+            bottom: 5px;
+            left: 35px;
+            z-index: -1;
+        }
+
+            #loading .baby .back .tail {
+                width: 5px;
+                height: 5px;
+                position: absolute;
+                background: #ff6b24;
+                top: -22px;
+                right: 13px;
+                border-radius: 50%;
+                -moz-transform: rotate(20deg);
+                -ms-transform: rotate(20deg);
+                -o-transform: rotate(20deg);
+                -webkit-transform: rotate(20deg);
+                transform: rotate(20deg);
+            }
+
+            #loading .baby .back .feet {
+                background: #ff6b24;
+                width: 15px;
+                height: 27px;
+                position: absolute;
+                right: -6px;
+                border-radius: 50%;
+            }
+
+            #loading .baby .back .hand {
+                background: #ff5402;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                position: absolute;
+                width: 52px;
+                height: 8px;
+                top: 15px;
+                z-index: 1;
+            }
+
+                #loading .baby .back .hand:after {
+                    content: " ";
+                    width: 16px;
+                    height: 13px;
+                    position: absolute;
+                    background: #ff5402;
+                    right: -7px;
+                    top: -2px;
+                    -moz-border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                }
+
+            #loading .baby .back .ass {
+                position: absolute;
+                width: 30px;
+                height: 40px;
+                background: #ff6b24;
+                left: 25px;
+                border-radius: 50%;
+                bottom: 0px;
+                -moz-transform: skew(-30deg);
+                -ms-transform: skew(-30deg);
+                -webkit-transform: skew(-30deg);
+                -o-transform: skew(-30deg);
+                transform: skew(-30deg);
+            }
+
+                #loading .baby .back .ass:after {
+                    content: " ";
+                    position: absolute;
+                    width: 30px;
+                    height: 40px;
+                    background: #ff6b24;
+                    right: -15px;
+                    border-radius: 50%;
+                    bottom: 0px;
+                    -moz-transform: skew(30deg);
+                    -ms-transform: skew(30deg);
+                    -webkit-transform: skew(30deg);
+                    -o-transform: skew(30deg);
+                    transform: skew(30deg);
+                    -moz-transition: all 0.25s linear;
+                    -o-transition: all 0.25s linear;
+                    -webkit-transition: all 0.25s linear;
+                    transition: all 0.25s linear;
+                }
+
+        #loading .baby .head {
+            width: 60px;
+            height: 60px;
+            background: #ff6b24;
+            -moz-border-radius: 50% 60% 50% 40%;
+            -webkit-border-radius: 50%;
+            border-radius: 50% 60% 50% 40%;
+        }
+
+            #loading .baby .head .eye {
+                width: 10px;
+                height: 2px;
+                background: #000;
+                -moz-border-radius: 1px;
+                -webkit-border-radius: 1px;
+                border-radius: 1px;
+                position: absolute;
+                top: 40px;
+                left: 6px;
+            }
+
+            #loading .baby .head .cheek {
+                width: 10px;
+                height: 4px;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                background: #df0009;
+                position: absolute;
+                top: 44px;
+                left: 13px;
+            }
+
+            #loading .baby .head .horn {
+                width: 10px;
+                height: 18px;
+                background: #ff6b24;
+                position: absolute;
+                top: -8px;
+                left: 18px;
+                -moz-border-radius: 130% 30% 0% 0%;
+                -webkit-border-radius: 130%;
+                border-radius: 130% 30% 0% 0%;
+                -moz-transform: rotate(-20deg);
+                -ms-transform: rotate(-20deg);
+                -webkit-transform: rotate(-20deg);
+                -o-transform: rotate(-20deg);
+                transform: rotate(-20deg);
+            }
+
+        #loading .baby.down .back {
+            width: 85px;
+        }
+
+            #loading .baby.down .back .tail {
+                top: -10px;
+                right: 26px;
+            }
+
+            #loading .baby.down .back .ass {
+                height: 25px;
+            }
+
+                #loading .baby.down .back .ass:after {
+                    height: 28px;
+                    width: 36px;
+                }
+
+            #loading .baby.down .back .feet {
+                height: 24px;
+                top: -1px;
+            }
+
+            #loading .baby.down .back .hand {
+                width: 45px;
+            }
+
+                #loading .baby.down .back .hand:after {
+                    height: 11px;
+                    top: -1px;
+                }
+
+        #loading .baby.down .head {
+            -moz-border-radius: 70% 60% 60% 40%;
+            -webkit-border-radius: 70%;
+            border-radius: 70% 60% 60% 40%;
+            margin-left: -5px;
+        }
+
+            #loading .baby.down .head .eye {
+                left: 0;
+            }
+
+            #loading .baby.down .head .cheek {
+                left: 8px;
+            }
+
+            #loading .baby.down .head .horn {
+                -moz-transform: rotate(20deg);
+                -ms-transform: rotate(20deg);
+                -webkit-transform: rotate(20deg);
+                -o-transform: rotate(20deg);
+                transform: rotate(20deg);
+            }

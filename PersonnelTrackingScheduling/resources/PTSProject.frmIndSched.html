@@ -1,0 +1,201 @@
+<div>
+  <div data-width="826" data-height="653" name="frmIndSched" data-title="Individual Leave Scheduling" class="PTSProject_frmIndSched" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text, events : { focus : frmIndSched_Activated, blur : frmIndSched_Deactivate }, ">
+    <form class="frmIndSched">
+      <label id="Label11" tabindex="15" class="Label11" data-bind="text : Label11.Text, imagePath : Label11.ImagePath">Select Employee</label>
+      <div data-bind="spEnabled : Shape3.Enabled, spVisible : Shape3.Visible">
+        <svg version="1.1" class="Shape3_svg" style="left:8px;top:8px;width:353px;height:166px;position:absolute;">
+          <rect x="0" y="0" height="166" width="353" id="Shape3" class="Shape3"></rect>
+        </svg>
+      </div>
+      <div id="calSched" tabindex="48" class="calSched" data-role="calendar" data-bind="dateTimePickerValue : calSched.Value, DateTimeMinDate : calSched.MinDate, events : { change : calSched_Click, dblchange : calSched_DoubleClick }, "></div>
+      <button id="cmdAvailable" tabindex="96" class="cmdAvailable" type="button" data-bind="enabled : cmdAvailable.Enabled, visible : cmdAvailable.Visible, events : { click : cmdAvailable_Click }, ">Manage Available To Work Days</button>
+      <div class="cboNameListPos" id="cboNameListPos">
+        <select data-role="combobox" id="cboNameList" tabindex="1" class="cboNameList" data-text-field="Text" data-value-field="Value" data-bind="source : cboNameList.ComboBoxItems, customText : cboNameList.CustomText, comboSelectedIndex : cboNameList.SelectedIndex, events : { change : cboNameList_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdClose" tabindex="33" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="lbTitle" tabindex="7" class="lbTitle" data-bind="text : lbTitle.Text, imagePath : lbTitle.ImagePath"></label>
+      <label id="lbCity" tabindex="8" class="lbCity" data-bind="style : { color : lbCity.ForeColor.Value }, text : lbCity.Text, imagePath : lbCity.ImagePath"></label>
+      <label id="lbZip" tabindex="5" class="lbZip" data-bind="style : { color : lbZip.ForeColor.Value }, text : lbZip.Text, imagePath : lbZip.ImagePath"></label>
+      <label id="lbAddress" tabindex="6" class="lbAddress" data-bind="style : { color : lbAddress.ForeColor.Value }, text : lbAddress.Text, imagePath : lbAddress.ImagePath"></label>
+      <label id="lbPhone" tabindex="9" class="lbPhone" data-bind="style : { color : lbPhone.ForeColor.Value }, text : lbPhone.Text, imagePath : lbPhone.ImagePath"></label>
+      <label id="lbType" tabindex="2" class="lbType" data-bind="text : lbType.Text, imagePath : lbType.ImagePath">lbType</label>
+      <label id="Label6" tabindex="10" class="Label6" data-bind="style : { color : Label6.ForeColor.Value }, text : Label6.Text, imagePath : Label6.ImagePath">COT SD</label>
+      <label id="lbCOThire" tabindex="11" class="lbCOThire" data-bind="style : { color : lbCOThire.ForeColor.Value }, text : lbCOThire.Text, imagePath : lbCOThire.ImagePath"></label>
+      <label id="Label1" tabindex="4" class="Label1" data-bind="style : { color : Label1.ForeColor.Value }, text : Label1.Text, imagePath : Label1.ImagePath">TFD HD</label>
+      <label id="lbTFDhire" tabindex="3" class="lbTFDhire" data-bind="text : lbTFDhire.Text, imagePath : lbTFDhire.ImagePath"></label>
+      <label id="Line1" class="Line1" data-bind="text : Line1.Text, imagePath : Line1.ImagePath"></label>
+      <label id="Label8" tabindex="12" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Batt</label>
+      <label id="Label9" tabindex="13" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Shift</label>
+      <label id="Label10" tabindex="14" class="Label10" data-bind="text : Label10.Text, imagePath : Label10.ImagePath">Unit</label>
+      <label id="Label12" tabindex="16" class="Label12" data-bind="text : Label12.Text, imagePath : Label12.ImagePath">Position</label>
+      <label id="lbDebit" tabindex="17" class="lbDebit" data-bind="text : lbDebit.Text, imagePath : lbDebit.ImagePath">Debit Group</label>
+      <label id="lbBatt" tabindex="18" class="lbBatt" data-bind="text : lbBatt.Text, imagePath : lbBatt.ImagePath"></label>
+      <label id="lbShift" tabindex="19" class="lbShift" data-bind="text : lbShift.Text, imagePath : lbShift.ImagePath"></label>
+      <label id="lbUnit" tabindex="20" class="lbUnit" data-bind="text : lbUnit.Text, imagePath : lbUnit.ImagePath"></label>
+      <label id="lbPos" tabindex="21" class="lbPos" data-bind="text : lbPos.Text, imagePath : lbPos.ImagePath"></label>
+      <label id="lbTotalDebits" tabindex="22" class="lbTotalDebits" data-bind="text : lbTotalDebits.Text, imagePath : lbTotalDebits.ImagePath"></label>
+      <button id="cmdNotes" tabindex="100" class="cmdNotes" type="button" data-bind="visible : cmdNotes.Visible, events : { click : cmdNotes_Click }, ">Notes</button>
+      <div data-bind="spEnabled : Shape2.Enabled, spVisible : Shape2.Visible">
+        <svg version="1.1" class="Shape2_svg" style="left:8px;top:160px;width:353px;height:145px;position:absolute;">
+          <rect x="0" y="0" height="145" width="353" id="Shape2" class="Shape2"></rect>
+        </svg>
+      </div>
+      <button id="cmdAdjustHOLMax" tabindex="85" class="cmdAdjustHOLMax" type="button" data-bind="enabled : cmdAdjustHOLMax.Enabled, visible : cmdAdjustHOLMax.Visible, events : { click : cmdAdjustHOLMax_Click }, ">Change HOL Max</button>
+      <label id="LeaveTot" tabindex="25" class="LeaveTot" data-bind="text : LeaveTot.Text, imagePath : LeaveTot.ImagePath">Leave Totals</label>
+      <div class="chkRecert" data-bind="visible : chkRecert.Visible">
+        <input id="chkRecert" tabindex="95" type="checkbox" style="float: left" data-bind="events : { click : chkRecert_CheckStateChanged }, " />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM Recert Skills</label>
+        </div>
+      </div>
+      <label id="Label21" tabindex="79" class="Label21" data-bind="text : Label21.Text, imagePath : Label21.ImagePath">VAC</label>
+      <label id="Label3" tabindex="71" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">VAC-Bank</label>
+      <label id="Label22" tabindex="26" class="Label22" data-bind="text : Label22.Text, imagePath : Label22.ImagePath">Holiday</label>
+      <label id="Label23" tabindex="27" class="Label23" data-bind="text : Label23.Text, imagePath : Label23.ImagePath">Military</label>
+      <label id="lbKellyTitle" tabindex="65" class="lbKellyTitle" data-bind="visible : lbKellyTitle.Visible, text : lbKellyTitle.Text, imagePath : lbKellyTitle.ImagePath">Kelly</label>
+      <label id="lbYear" tabindex="80" class="lbYear" data-bind="text : lbYear.Text, imagePath : lbYear.ImagePath"></label>
+      <label id="Label29" tabindex="76" class="Label29" data-bind="text : Label29.Text, imagePath : Label29.ImagePath">Sched</label>
+      <label id="lbVacation" tabindex="78" class="lbVacation" data-bind="text : lbVacation.Text, imagePath : lbVacation.ImagePath"></label>
+      <label id="lbVacBank" tabindex="70" class="lbVacBank" data-bind="text : lbVacBank.Text, imagePath : lbVacBank.ImagePath"></label>
+      <label id="lbHoliday" tabindex="24" class="lbHoliday" data-bind="text : lbHoliday.Text, imagePath : lbHoliday.ImagePath"></label>
+      <label id="lbMilitary" tabindex="28" class="lbMilitary" data-bind="text : lbMilitary.Text, imagePath : lbMilitary.ImagePath"></label>
+      <label id="lbKelly" tabindex="66" class="lbKelly" data-bind="visible : lbKelly.Visible, text : lbKelly.Text, imagePath : lbKelly.ImagePath"></label>
+      <label id="Label30" tabindex="77" class="Label30" data-bind="text : Label30.Text, imagePath : Label30.ImagePath">Open</label>
+      <label id="Line7" class="Line7" data-bind="text : Line7.Text, imagePath : Line7.ImagePath"></label>
+      <label id="lbVacOpen" tabindex="29" class="lbVacOpen" data-bind="text : lbVacOpen.Text, imagePath : lbVacOpen.ImagePath"></label>
+      <label id="lbVacBankOpen" tabindex="72" class="lbVacBankOpen" data-bind="text : lbVacBankOpen.Text, imagePath : lbVacBankOpen.ImagePath"></label>
+      <label id="lbHolOpen" tabindex="30" class="lbHolOpen" data-bind="text : lbHolOpen.Text, imagePath : lbHolOpen.ImagePath"></label>
+      <label id="lbMilOpen" tabindex="31" class="lbMilOpen" data-bind="text : lbMilOpen.Text, imagePath : lbMilOpen.ImagePath"></label>
+      <label id="lbKelOpen" tabindex="67" class="lbKelOpen" data-bind="visible : lbKelOpen.Visible, text : lbKelOpen.Text, imagePath : lbKelOpen.ImagePath"></label>
+      <label id="lbMILInfo" tabindex="89" class="lbMILInfo" data-bind="text : lbMILInfo.Text, imagePath : lbMILInfo.ImagePath">*3 shifts available as of 6/12/2008</label>
+      <div data-bind="spEnabled : Shape4.Enabled, spVisible : Shape4.Visible">
+        <svg version="1.1" class="Shape4_svg" style="left:8px;top:304px;width:353px;height:45px;position:absolute;">
+          <rect x="0" y="0" height="45" width="353" id="Shape4" class="Shape4"></rect>
+        </svg>
+      </div>
+      <label id="lbCallBackNum" tabindex="90" class="lbCallBackNum" data-bind="text : lbCallBackNum.Text, imagePath : lbCallBackNum.ImagePath">lbCallBackNum</label>
+      <button id="cmdCallBack" tabindex="93" class="cmdCallBack" type="button" data-bind="enabled : cmdCallBack.Enabled, visible : cmdCallBack.Visible, events : { click : cmdCallBack_Click }, ">Change Callback \#</button>
+      <label id="lbSpecEvent" tabindex="92" class="lbSpecEvent" data-bind="text : lbSpecEvent.Text, imagePath : lbSpecEvent.ImagePath">lbSpecEvent</label>
+      <div data-bind="spEnabled : Shape1.Enabled, spVisible : Shape1.Visible">
+        <svg version="1.1" class="Shape1_svg" style="left:8px;top:352px;width:353px;height:225px;position:absolute;">
+          <rect x="0" y="0" height="225" width="353" id="Shape1" class="Shape1"></rect>
+        </svg>
+      </div>
+      <label id="Label20" tabindex="41" class="Label20" data-bind="text : Label20.Text, imagePath : Label20.ImagePath">Update Schedule</label>
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend">Leave Type</legend>
+        <div>
+          <div index="0" class="_optLeaveType_0">
+            <input id="_optLeaveType_0" tabindex="34" type="radio" name="Frame1_radios" checked="checked" style="float: left" data-bind="customChecked : _optLeaveType_0.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Vacation</label>
+            </div>
+          </div>
+          <div index="6" class="_optLeaveType_6">
+            <input id="_optLeaveType_6" tabindex="41" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optLeaveType_6.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">VAC Bank</label>
+            </div>
+          </div>
+          <div index="1" class="_optLeaveType_1">
+            <input id="_optLeaveType_1" tabindex="35" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optLeaveType_1.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Holiday</label>
+            </div>
+          </div>
+          <div index="7" class="_optLeaveType_7">
+            <input id="_optLeaveType_7" tabindex="43" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optLeaveType_7.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PTO</label>
+            </div>
+          </div>
+          <div class="chkSCKflag">
+            <input id="chkSCKflag" tabindex="42" type="checkbox" style="float: left" data-bind="events : { click : chkSCKflag_CheckStateChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Instead of SCK Leave</label>
+            </div>
+          </div>
+          <div index="2" class="_optLeaveType_2">
+            <input id="_optLeaveType_2" tabindex="36" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optLeaveType_2.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Military Leave</label>
+            </div>
+          </div>
+          <div index="3" class="_optLeaveType_3">
+            <input id="_optLeaveType_3" tabindex="37" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optLeaveType_3.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Other</label>
+            </div>
+          </div>
+          <label id="Label2" tabindex="69" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Time Type</label>
+          <label id="Line2" class="Line2" data-bind="text : Line2.Text, imagePath : Line2.ImagePath"></label>
+          <div index="4" class="_optLeaveType_4">
+            <input id="_optLeaveType_4" tabindex="38" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optLeaveType_4.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Debit </label>
+            </div>
+          </div>
+          <div index="5" class="_optLeaveType_5">
+            <input id="_optLeaveType_5" tabindex="39" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optLeaveType_5.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Regular </label>
+            </div>
+          </div>
+          <div index="8" class="_optLeaveType_8">
+            <input id="_optLeaveType_8" tabindex="44" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : _optLeaveType_8.Checked" />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Unsched Debit</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calLeaveDate" tabindex="49" class="calLeaveDate" data-bind="dateTimePickerValue : calLeaveDate.Value, DateTimeMinDate : calLeaveDate.MinDate, DateTimeMaxDate : calLeaveDate.MaxDate" />
+      <div class="chkAM">
+        <input id="chkAM" tabindex="45" type="checkbox" checked="checked" style="float: left" />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">AM</label>
+        </div>
+      </div>
+      <div class="chkPM">
+        <input id="chkPM" tabindex="46" type="checkbox" checked="checked" style="float: left" />
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">PM</label>
+        </div>
+      </div>
+      <button id="cmdAdd" tabindex="65" class="cmdAdd" type="button" data-bind="enabled : cmdAdd.Enabled, events : { click : cmdAdd_Click }, ">Add</button>
+      <button id="cmdDelete" tabindex="66" class="cmdDelete" type="button" data-bind="enabled : cmdDelete.Enabled, events : { click : cmdDelete_Click }, ">Delete</button>
+      <label id="Label4" tabindex="81" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Note:  The * on the calendar indicates a "cycle day"</label>
+      <button id="cmdUpdate" tabindex="67" class="cmdUpdate" type="button" data-bind="enabled : cmdUpdate.Enabled, events : { click : cmdUpdate_Click }, ">Update</button>
+      <label id="lbSelectTitle1" tabindex="58" class="lbSelectTitle1" data-bind="visible : lbSelectTitle1.Visible, text : lbSelectTitle1.Text, imagePath : lbSelectTitle1.ImagePath">Sched Leave Totals:</label>
+      <label id="lbSelectTitle2" tabindex="44" class="lbSelectTitle2" data-bind="visible : lbSelectTitle2.Visible, text : lbSelectTitle2.Text, imagePath : lbSelectTitle2.ImagePath">REG</label>
+      <label id="lbSelectTitle3" tabindex="47" class="lbSelectTitle3" data-bind="visible : lbSelectTitle3.Visible, text : lbSelectTitle3.Text, imagePath : lbSelectTitle3.ImagePath">PAR</label>
+      <label id="lbSelectTitle4" tabindex="45" class="lbSelectTitle4" data-bind="visible : lbSelectTitle4.Visible, text : lbSelectTitle4.Text, imagePath : lbSelectTitle4.ImagePath">HZM</label>
+      <label id="lbSelectTitle5" tabindex="46" class="lbSelectTitle5" data-bind="visible : lbSelectTitle5.Visible, text : lbSelectTitle5.Text, imagePath : lbSelectTitle5.ImagePath">MRN</label>
+      <label id="lbSelectTitle6" tabindex="62" class="lbSelectTitle6" data-bind="visible : lbSelectTitle6.Visible, text : lbSelectTitle6.Text, imagePath : lbSelectTitle6.ImagePath">BATT</label>
+      <label id="lbSelectTitle7" tabindex="86" class="lbSelectTitle7" data-bind="visible : lbSelectTitle7.Visible, text : lbSelectTitle7.Text, imagePath : lbSelectTitle7.ImagePath">FCC</label>
+      <label id="lbSelectAM" tabindex="56" class="lbSelectAM" data-bind="visible : lbSelectAM.Visible, text : lbSelectAM.Text, imagePath : lbSelectAM.ImagePath"></label>
+      <label id="lbREGam" tabindex="48" class="lbREGam" data-bind="visible : lbREGam.Visible, text : lbREGam.Text, imagePath : lbREGam.ImagePath"></label>
+      <label id="lbPMam" tabindex="51" class="lbPMam" data-bind="visible : lbPMam.Visible, text : lbPMam.Text, imagePath : lbPMam.ImagePath"></label>
+      <label id="lbHZMam" tabindex="49" class="lbHZMam" data-bind="visible : lbHZMam.Visible, text : lbHZMam.Text, imagePath : lbHZMam.ImagePath"></label>
+      <label id="lbMRNam" tabindex="50" class="lbMRNam" data-bind="visible : lbMRNam.Visible, text : lbMRNam.Text, imagePath : lbMRNam.ImagePath"></label>
+      <label id="lbBATam" tabindex="63" class="lbBATam" data-bind="visible : lbBATam.Visible, text : lbBATam.Text, imagePath : lbBATam.ImagePath"></label>
+      <label id="lbFCCam" tabindex="85" class="lbFCCam" data-bind="visible : lbFCCam.Visible, text : lbFCCam.Text, imagePath : lbFCCam.ImagePath"></label>
+      <button id="cmdSenority" tabindex="24" class="cmdSenority" type="button" data-bind="enabled : cmdSenority.Enabled, events : { click : cmdSenority_Click }, ">Seniority Ranking</button>
+      <button id="cmdPrint" tabindex="2" class="cmdPrint" type="button" data-bind="enabled : cmdPrint.Enabled, events : { click : cmdPrint_Click }, ">Leave Report</button>
+      <button id="cmdSchedReport" tabindex="78" class="cmdSchedReport" type="button" data-bind="enabled : cmdSchedReport.Enabled, events : { click : cmdSchedReport_Click }, ">Sched Report</button>
+      <button id="cmdTimeCard" tabindex="77" class="cmdTimeCard" type="button" data-bind="enabled : cmdTimeCard.Enabled, events : { click : cmdTimeCard_Click }, ">Time Card</button>
+      <button disabled="disabled" id="cmdRequestVAC" tabindex="86" class="cmdRequestVAC" type="button" data-bind="enabled : cmdRequestVAC.Enabled, events : { click : cmdRequestVAC_Click }, ">Request Vacation</button>
+      <button disabled="disabled" id="cmdReqTransfer" tabindex="90" class="cmdReqTransfer" type="button" data-bind="enabled : cmdReqTransfer.Enabled, events : { click : cmdReqTransfer_Click }, ">Request Transfer</button>
+      <label id="lbSelectPM" tabindex="57" class="lbSelectPM" data-bind="visible : lbSelectPM.Visible, text : lbSelectPM.Text, imagePath : lbSelectPM.ImagePath"></label>
+      <label id="lbREGpm" tabindex="52" class="lbREGpm" data-bind="visible : lbREGpm.Visible, text : lbREGpm.Text, imagePath : lbREGpm.ImagePath"></label>
+      <label id="lbPMpm" tabindex="53" class="lbPMpm" data-bind="visible : lbPMpm.Visible, text : lbPMpm.Text, imagePath : lbPMpm.ImagePath"></label>
+      <label id="lbHZMpm" tabindex="54" class="lbHZMpm" data-bind="visible : lbHZMpm.Visible, text : lbHZMpm.Text, imagePath : lbHZMpm.ImagePath"></label>
+      <label id="lbMRNpm" tabindex="55" class="lbMRNpm" data-bind="visible : lbMRNpm.Visible, text : lbMRNpm.Text, imagePath : lbMRNpm.ImagePath"></label>
+      <label id="lbBATpm" tabindex="64" class="lbBATpm" data-bind="visible : lbBATpm.Visible, text : lbBATpm.Text, imagePath : lbBATpm.ImagePath"></label>
+      <label id="lbFCCpm" tabindex="84" class="lbFCCpm" data-bind="visible : lbFCCpm.Visible, text : lbFCCpm.Text, imagePath : lbFCCpm.ImagePath"></label>
+      <button id="cmdContacts" tabindex="97" class="cmdContacts" type="button" data-bind="events : { click : cmdContacts_Click }, ">Update Contact(s)</button>
+      <button id="cmdAddress" tabindex="98" class="cmdAddress" type="button" data-bind="events : { click : cmdAddress_Click }, ">Update Address(es)</button>
+      <button id="cmdPhone" tabindex="99" class="cmdPhone" type="button" data-bind="events : { click : cmdPhone_Click }, ">Update Phone(s)</button>
+    </form>
+  </div>
+</div>

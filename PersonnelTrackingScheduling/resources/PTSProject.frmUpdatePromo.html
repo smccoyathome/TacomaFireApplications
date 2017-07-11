@@ -1,0 +1,35 @@
+<div>
+  <div data-width="599" data-height="383" data-removeControlBox="true" name="frmUpdatePromo" data-title="Update Promotion Lists" class="PTSProject_frmUpdatePromo" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmUpdatePromo">
+      <div data-bind="spEnabled : Shape1.Enabled, spVisible : Shape1.Visible">
+        <svg version="1.1" class="Shape1_svg" style="left:0px;top:-1px;width:712px;height:41px;position:absolute;">
+          <rect x="0" y="0" height="41" width="712" id="Shape1" class="Shape1"></rect>
+        </svg>
+      </div>
+      <div class="cboPromotionPos" id="cboPromotionPos">
+        <select id="cboPromotion" tabindex="2" class="cboPromotion" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPromotion.ComboBoxItems, customText : cboPromotion.CustomText, comboSelectedIndex : cboPromotion.SelectedIndex, events : { change : cboPromotion_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label1" tabindex="0" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Promotion List</label>
+      <div id="sprPromoList" data-role="mobilizespread" tabindex="15" class="sprPromoList" data-bind="widgetvalue: sprPromoList"></div>
+      <label id="lbAction" tabindex="14" class="lbAction" data-bind="visible : lbAction.Visible, text : lbAction.Text, imagePath : lbAction.ImagePath">Action</label>
+      <label id="lbName" tabindex="9" class="lbName" data-bind="visible : lbName.Visible, text : lbName.Text, imagePath : lbName.ImagePath"></label>
+      <label id="lbEmpId" tabindex="10" class="lbEmpId" data-bind="visible : lbEmpId.Visible, text : lbEmpId.Text, imagePath : lbEmpId.ImagePath"></label>
+      <label id="lbEntry1" tabindex="11" class="lbEntry1" data-bind="visible : lbEntry1.Visible, text : lbEntry1.Text, imagePath : lbEntry1.ImagePath">Promotion Date</label>
+      <input id="txtPromoDate" tabindex="3" Value="txtPromoDate" class="txtPromoDate" data-bind="visible : txtPromoDate.Visible, value : txtPromoDate.Text, selectedRange : txtPromoDate.SelectedRange" />
+      <label id="lbEntry2" tabindex="12" class="lbEntry2" data-bind="visible : lbEntry2.Visible, text : lbEntry2.Text, imagePath : lbEntry2.ImagePath">Exclusion Days</label>
+      <input id="txtExclusion" tabindex="4" Value="txtExclusion" class="txtExclusion" data-bind="visible : txtExclusion.Visible, value : txtExclusion.Text, selectedRange : txtExclusion.SelectedRange" />
+      <div class="chkActive" data-bind="visible : chkActive.Visible">
+        <div style="float: left;overflow:hidden">
+          <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Active for this List?</label>
+        </div>
+        <input id="chkActive" tabindex="5" type="checkbox" style="float: left" />
+      </div>
+      <label id="lbEntry3" tabindex="13" class="lbEntry3" data-bind="visible : lbEntry3.Visible, text : lbEntry3.Text, imagePath : lbEntry3.ImagePath">Comments</label>
+      <textarea id="txtComment" tabindex="6" Value="txtComment" class="txtComment" data-bind="visible : txtComment.Visible, value : txtComment.Text"></textarea>
+      <button id="cmdPrint" tabindex="19" class="cmdPrint" type="button" data-bind="visible : cmdPrint.Visible, events : { click : cmdPrint_Click }, ">Print List</button>
+      <button id="cmdUpdate" tabindex="7" class="cmdUpdate" type="button" data-bind="visible : cmdUpdate.Visible, events : { click : cmdUpdate_Click }, ">Update</button>
+      <button id="cmdClose" tabindex="9" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <button id="cmdRemove" tabindex="8" class="cmdRemove" type="button" data-bind="visible : cmdRemove.Visible, events : { click : cmdRemove_Click }, ">Remove</button>
+    </form>
+  </div>
+</div>

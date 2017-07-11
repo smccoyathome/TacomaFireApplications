@@ -1,0 +1,1634 @@
+.PTSProject_frmPayroll {
+}
+.PTSProject_frmPayroll .frmPayroll {
+	background-color: #400040;
+	min-width: 758px;
+	min-height: 552px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmPayroll .frmFilterList {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 748px;
+	height: 97px;
+	overflow: hidden;
+}
+.PTSProject_frmPayroll .frmFilterList:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .frmBattOpt {
+	background-color: #400040;
+	left: 152px;
+	top: 0px;
+	position: absolute;
+	width: 145px;
+	height: 49px;
+	border: 2px groove;
+}
+.PTSProject_frmPayroll .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .optAll {
+	background-color: #400040;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayroll .optAll:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmPayroll .opt182 {
+	background-color: #400040;
+	left: 72px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayroll .opt182:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmPayroll .opt181 {
+	background-color: #400040;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayroll .opt181:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmPayroll .opt183 {
+	background-color: #400040;
+	left: 72px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayroll .opt183:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmPayroll .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPayroll ._Label6_0 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 16px;
+	top: 8px;
+	position: absolute;
+	width: 113px;
+	height: 17px;
+}
+.PTSProject_frmPayroll .Label4 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 304px;
+	top: 8px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPayroll .cboBenefit {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 89px;
+	height: 24px;
+}
+.PTSProject_frmPayroll .cboBenefit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboBenefitPos {
+	top: 8px;
+	left: 400px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+}
+.PTSProject_frmPayroll ._Label3_0 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 496px;
+	top: 8px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .cboUnit {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 57px;
+	height: 24px;
+}
+.PTSProject_frmPayroll .cboUnit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboUnitPos {
+	top: 8px;
+	left: 536px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.PTSProject_frmPayroll .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 608px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 688px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cboClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboPayPeriod {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmPayroll .cboPayPeriod:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboPayPeriodPos {
+	top: 24px;
+	left: 16px;
+	position: absolute;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmPayroll .Label1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 304px;
+	top: 32px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmPayroll .cboAssignmentCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 89px;
+	height: 24px;
+}
+.PTSProject_frmPayroll .cboAssignmentCode:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboAssignmentCodePos {
+	top: 32px;
+	left: 400px;
+	position: absolute;
+	width: 89px;
+	height: 24px;
+}
+.PTSProject_frmPayroll ._Label3_1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 496px;
+	top: 32px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 57px;
+	height: 24px;
+}
+.PTSProject_frmPayroll .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboYearPos {
+	top: 32px;
+	left: 536px;
+	position: absolute;
+	width: 57px;
+	height: 24px;
+}
+.PTSProject_frmPayroll ._Label6_1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 16px;
+	top: 48px;
+	position: absolute;
+	width: 89px;
+	height: 17px;
+}
+.PTSProject_frmPayroll .Frame3 {
+	background-color: #400040;
+	left: 152px;
+	top: 48px;
+	position: absolute;
+	width: 145px;
+	height: 49px;
+	border: 2px groove;
+}
+.PTSProject_frmPayroll .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .optA {
+	background-color: #400040;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayroll .optA:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .optA * {
+	Cursor: default;
+}
+.PTSProject_frmPayroll .optC {
+	background-color: #400040;
+	left: 72px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayroll .optC:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .optC * {
+	Cursor: default;
+}
+.PTSProject_frmPayroll .optB {
+	background-color: #400040;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayroll .optB:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .optB * {
+	Cursor: default;
+}
+.PTSProject_frmPayroll .optD {
+	background-color: #400040;
+	left: 72px;
+	top: 24px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmPayroll .optD:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmPayroll .optD * {
+	Cursor: default;
+}
+.PTSProject_frmPayroll .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPayroll .cmdReport {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 616px;
+	top: 48px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .chkNotUploaded {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 320px;
+	top: 56px;
+	position: absolute;
+	width: 185px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmPayroll .chkNotUploaded:enabled {
+	color: Yellow;
+}
+.PTSProject_frmPayroll .txtNameSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 129px;
+	height: 24px;
+}
+.PTSProject_frmPayroll .txtNameSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .lbCount {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	color: Red;
+	left: 304px;
+	top: 80px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .cmdPrintList {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 472px;
+	top: 80px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdPrintList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cmdUploadALL {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 616px;
+	top: 64px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdUploadALL:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cmdOKToPay {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 616px;
+	top: 88px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdOKToPay:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .sprEmployeeList {
+	left: 16px;
+	top: 96px;
+	position: absolute;
+	width: 565px;
+	height: 105px;
+}
+.PTSProject_frmPayroll .sprEmployeeList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPayroll .sprEmployeeList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmPayroll .chkAll {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 592px;
+	top: 112px;
+	position: absolute;
+	width: 137px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmPayroll .chkAll:enabled {
+	color: Aqua;
+}
+.PTSProject_frmPayroll .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 616px;
+	top: 136px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cmdSave {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 616px;
+	top: 152px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdSave:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .lbPayrollHrs {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 600px;
+	top: 176px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.PTSProject_frmPayroll .lbTotalHrs {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Red;
+	left: 576px;
+	top: 192px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll ._Label2_1 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: Yellow;
+	left: 2px;
+	top: 208px;
+	position: absolute;
+	width: 11px;
+	height: 136px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .sprWeek1 {
+	left: 16px;
+	top: 208px;
+	position: absolute;
+	width: 737px;
+	height: 89px;
+}
+.PTSProject_frmPayroll .sprWeek1 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPayroll .sprWeek1 .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmPayroll .frmWeek1 {
+	background-color: #400040;
+	left: 16px;
+	top: 296px;
+	position: absolute;
+	width: 729px;
+	height: 73px;
+	border: 2px groove;
+}
+.PTSProject_frmPayroll .frmWeek1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .Label20 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 4px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label11 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 59px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label8 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 120px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label7 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 199px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label5 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 264px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label10 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 320px;
+	top: 8px;
+	position: absolute;
+	width: 87px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label9 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 408px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label12 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 479px;
+	top: 8px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label19 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 516px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label18 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 547px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label17 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 576px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label14 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 607px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label13 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 636px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label16 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 667px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label15 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 696px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .txtActivity1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 4px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtActivity1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtCostCenter1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 58px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtCostCenter1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtWBSElement1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 120px;
+	top: 24px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtWBSElement1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboOrder1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 72px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboOrder1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboOrder1Pos {
+	top: 24px;
+	left: 197px;
+	position: absolute;
+	width: 72px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .txtOper1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 272px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtOper1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboAAType1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 77px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboAAType1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboAAType1Pos {
+	top: 24px;
+	left: 328px;
+	position: absolute;
+	width: 77px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboJobCode1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 65px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboJobCode1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboJobCode1Pos {
+	top: 24px;
+	left: 408px;
+	position: absolute;
+	width: 65px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboStep1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 33px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboStep1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboStep1Pos {
+	top: 24px;
+	left: 480px;
+	position: absolute;
+	width: 33px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .txtMo1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 516px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtMo1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtTu1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 546px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtTu1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtWe1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 576px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtWe1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtTh1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 606px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtTh1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtFr1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 636px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtFr1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtSa1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 666px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtSa1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtSu1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 696px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtSu1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cmdApply1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 632px;
+	top: 48px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdApply1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll ._Label35_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: Lime;
+	left: 448px;
+	top: 56px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.PTSProject_frmPayroll .frmWeek1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPayroll ._Label2_0 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: Yellow;
+	left: 2px;
+	top: 384px;
+	position: absolute;
+	width: 10px;
+	height: 127px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .sprWeek2 {
+	left: 16px;
+	top: 384px;
+	position: absolute;
+	width: 737px;
+	height: 89px;
+}
+.PTSProject_frmPayroll .sprWeek2 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPayroll .sprWeek2 .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmPayroll .frmWeek2 {
+	background-color: #400040;
+	left: 16px;
+	top: 472px;
+	position: absolute;
+	width: 729px;
+	height: 73px;
+	border: 2px groove;
+}
+.PTSProject_frmPayroll .frmWeek2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .Label34 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 4px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label33 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 59px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label30 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 120px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label31 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 199px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label32 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 264px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label28 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 320px;
+	top: 8px;
+	position: absolute;
+	width: 87px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label29 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 408px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label27 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 479px;
+	top: 8px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label36 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 516px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label21 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 547px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label22 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 576px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label25 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 607px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label26 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 636px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label23 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 667px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .Label24 {
+	background-color: #400040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 696px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmPayroll .txtActivity2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 4px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtActivity2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtCostCenter2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 58px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtCostCenter2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtWBSElement2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 120px;
+	top: 24px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtWBSElement2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboOrder2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 72px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboOrder2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboOrder2Pos {
+	top: 24px;
+	left: 197px;
+	position: absolute;
+	width: 72px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .txtOper2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 272px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtOper2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboAAType2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 77px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboAAType2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboAAType2Pos {
+	top: 24px;
+	left: 328px;
+	position: absolute;
+	width: 77px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboJobCode2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 65px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboJobCode2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboJobCode2Pos {
+	top: 24px;
+	left: 408px;
+	position: absolute;
+	width: 65px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboStep2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 33px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .cboStep2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cboStep2Pos {
+	top: 24px;
+	left: 480px;
+	position: absolute;
+	width: 33px;
+	height: 23px;
+}
+.PTSProject_frmPayroll .txtMo2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 516px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtMo2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtTu2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 546px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtTu2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtWe2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 576px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtWe2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtTh2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 606px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtTh2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtFr2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 636px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtFr2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtSa2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 666px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtSa2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .txtSu2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 696px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmPayroll .txtSu2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll .cmdApply2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 632px;
+	top: 48px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmPayroll .cmdApply2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmPayroll ._Label35_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: Lime;
+	left: 448px;
+	top: 56px;
+	position: absolute;
+	width: 169px;
+	height: 17px;
+}
+.PTSProject_frmPayroll .frmWeek2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmPayroll .sprTimeSheet {
+	left: 16px;
+	top: 576px;
+	position: absolute;
+	width: 713px;
+	height: 57px;
+	visibility: hidden;
+}
+.PTSProject_frmPayroll .sprTimeSheet .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmPayroll .sprTimeSheet .k-spreadsheet-action-bar {
+	display: none;
+}
+

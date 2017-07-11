@@ -1,0 +1,3341 @@
+.PTSProject_frmEMSDailySched {
+}
+.PTSProject_frmEMSDailySched .frmEMSDailySched {
+	background-color: Teal;
+	min-width: 815px;
+	min-height: 393px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmEMSDailySched .MainMenu1 {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 817px;
+	height: 24px;
+	position: relative;
+	z-index: 16777271;
+}
+.PTSProject_frmEMSDailySched .mnuSystem {
+	Width: 57px;
+	Height: 20px;
+}
+.PTSProject_frmEMSDailySched .mnuPrintPayPeriodReport {
+	Width: 246px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuSpacer1 {
+}
+.PTSProject_frmEMSDailySched .mnuClose {
+	Width: 246px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnupersonnel {
+	Width: 71px;
+	Height: 20px;
+}
+.PTSProject_frmEMSDailySched .mnuEmpInfo {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuSeniorityInq {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuImmune {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_transfer_req {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuPPE {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuSchedule {
+	Width: 78px;
+	Height: 20px;
+}
+.PTSProject_frmEMSDailySched .mnuIndSchedule {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuBattalion1 {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuBattalion2 {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuNewBatt3 {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuBattalion3 {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuBattalion4 {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuEMS {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuHazmat {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuMarine {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuBattStaff {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuDispatch {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_watch_duty {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_Vacation {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_PMVacationSched {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuReports {
+	Width: 59px;
+	Height: 20px;
+}
+.PTSProject_frmEMSDailySched .mnuperson {
+	Width: 129px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuAssign {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuRoster {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_DDGroups {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuProlist {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuSenior {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuBenefit {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_emp_facility {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_IndivPayrollSO {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuIndTimeCard2 {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuSchedul {
+	Width: 129px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuBDWork {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu181 {
+	Width: 133px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu182 {
+	Width: 133px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu183 {
+	Width: 133px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnupayroll {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuEMSPay {
+	Width: 151px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuHazPay {
+	Width: 151px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuMarPay {
+	Width: 151px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuBattPay {
+	Width: 151px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuDisPay {
+	Width: 151px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuIndTimeCard {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuIndYearSched {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuDailyStaff {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuOvertime {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_sa_report {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuShiftCal {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuTransfer {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuLeaveReports {
+	Width: 129px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuDailyLeave {
+	Width: 204px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuAnnual {
+	Width: 204px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_dailysickleave {
+	Width: 204px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuIndLeave {
+	Width: 204px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_PMLeave {
+	Width: 204px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuDispatchLeave {
+	Width: 204px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnupayrollreports {
+	Width: 129px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnutimecard {
+	Width: 203px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuindannualpayroll {
+	Width: 203px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnupersonnelsignoff {
+	Width: 203px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_TrainingReports {
+	Width: 129px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_QuarterlyMinimumDrill {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_ReadingAssign {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_OTEPReport {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_PMRecertReport {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuTraining {
+	Width: 63px;
+	Height: 20px;
+}
+.PTSProject_frmEMSDailySched .mnu_trainingtracker {
+	Width: 191px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .MnuTrnReports {
+	Width: 191px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_IndTrainReport {
+	Width: 221px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_IndPMRecert {
+	Width: 221px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_Queries {
+	Width: 191px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuTrainQuery {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_TrainingQuerynew {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuWindow {
+	Width: 63px;
+	Height: 20px;
+}
+.PTSProject_frmEMSDailySched .mnuCascade {
+	Width: 173px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuPrintScreen {
+	Width: 173px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuHelp {
+	Width: 44px;
+	Height: 20px;
+}
+.PTSProject_frmEMSDailySched .mnuContents {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuAbout {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_timecodes {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_payrolllegend {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_legend {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_IndLegend {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_payup_calc {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuTrainCodeHelp {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuEMSPopup {
+	Width: 32px;
+	Height: 19px;
+}
+.PTSProject_frmEMSDailySched .mnuNewSched {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuLeave {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuPayUp {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuPayDown {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuKOT {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuTrade {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuRemove {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuSendTo181 {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuSendTo182 {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuSendTo183 {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnu_viewtimecard {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuReport {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .mnuViewDetail {
+	Width: 253px;
+	Height: 22px;
+}
+.PTSProject_frmEMSDailySched .Ctx_mnuEMSPopup {
+	width: 61px;
+	height: 4px;
+}
+.PTSProject_frmEMSDailySched .Ctx_mnuEMSPopup li.k-item {
+	border-width: 0;
+}
+.PTSProject_frmEMSDailySched .Ctx_mnuEMSPopup hr {
+	float: left;
+	border: none;
+	border-left: 1px black solid;
+	height: 15px;
+	margin-top: 0;
+	margin: 5px;
+	border-color: #c5c5c5;
+}
+.PTSProject_frmEMSDailySched .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 2px;
+	top: 25px;
+	position: absolute;
+	width: 77px;
+	height: 17px;
+}
+.PTSProject_frmEMSDailySched .calSchedDate.k-datepicker {
+	left: 80px;
+	top: 25px;
+	position: absolute;
+	width: 97px;
+	height: 20px;
+}
+.PTSProject_frmEMSDailySched .calSchedDate {
+}
+.PTSProject_frmEMSDailySched .lbShift {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 192px;
+	top: 25px;
+	position: absolute;
+	width: 29px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmEMSDailySched .lbLocked {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 238px;
+	top: 25px;
+	position: absolute;
+	width: 138px;
+	height: 20px;
+	text-align: center;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched .lbPeriodClosed {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 238px;
+	top: 25px;
+	position: absolute;
+	width: 157px;
+	height: 20px;
+	text-align: center;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched .pnSelected {
+	background-color: rgba(240, 240, 240, 1);
+	border-style: inset;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 249px;
+	top: 26px;
+	position: absolute;
+	width: 109px;
+	height: 16px;
+	text-align: center;
+}
+.PTSProject_frmEMSDailySched .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 400px;
+	top: 26px;
+	position: absolute;
+	width: 99px;
+	height: 17px;
+}
+.PTSProject_frmEMSDailySched .cboSelectName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 174px;
+	height: 21px;
+}
+.PTSProject_frmEMSDailySched .cboSelectName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEMSDailySched .cboSelectNamePos {
+	top: 26px;
+	left: 504px;
+	position: absolute;
+	width: 174px;
+	height: 21px;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_9 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_9 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 52px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 53px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 53px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 53px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 53px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 53px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_36 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_36 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 68px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_36 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 68px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 69px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_0 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 69px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_4 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 69px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_4 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 69px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_8 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 69px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_8 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 69px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_8 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_12 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 69px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_12 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 461px;
+	top: 69px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_12 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_16 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 69px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_16 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 69px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_16 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_36 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_8 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_12 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_16 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 84px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_16 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_36 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 84px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_36 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 84px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 85px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 85px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_4 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 85px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 85px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_8 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 85px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_8 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 85px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_12 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 85px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_12 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 85px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_16 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 85px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_37 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 100px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_37 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 100px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_37 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 101px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_1 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 101px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_5 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 101px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_5 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 101px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_9 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 101px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_9 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 101px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_9 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_13 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 101px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_13 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 101px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_13 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_17 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 101px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_17 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 101px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_17 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_37 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_9 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_17 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_37 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 116px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_37 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 116px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 117px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 117px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_5 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 117px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 117px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_9 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 117px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_9 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 117px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_13 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 117px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_13 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 117px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_13 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_17 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 117px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_17 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 117px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_38 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_10 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_14 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_18 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_38 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 132px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_38 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 132px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 133px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_2 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 133px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_6 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 133px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_6 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 133px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_10 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 133px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_10 {
+	background-color: White;
+	cursor: default;
+	color: Black;
+	left: 326px;
+	top: 133px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_14 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 133px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_14 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 133px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_18 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 133px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_18 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 133px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_38 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_38 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 148px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_38 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 148px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 149px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 149px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_6 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 149px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 149px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_10 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 149px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_10 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_14 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 149px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_14 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 149px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_14 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_18 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 149px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_18 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 149px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_18 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_10 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 150px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_39 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_7 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_11 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_15 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_19 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_39 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 164px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_39 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 164px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 165px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_3 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_7 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 165px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_7 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_11 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 165px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_11 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_15 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 165px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_15 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_19 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 165px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_19 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 165px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_39 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_7 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_11 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_15 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_19 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_39 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 684px;
+	top: 180px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_39 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 732px;
+	top: 180px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 5px;
+	top: 181px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 181px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_7 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 181px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_7 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 181px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_11 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 181px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_15 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 181px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_15 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 181px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_19 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 181px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_19 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 181px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_11 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 182px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_7 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched ._boxUnit_8 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmEMSDailySched .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 560px;
+	top: 200px;
+	position: absolute;
+	width: 70px;
+	height: 15px;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 201px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 201px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_7 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 201px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbUnit_8 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 413px;
+	top: 201px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_20 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_24 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_28 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_32 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched .sprLeave {
+	left: 552px;
+	top: 216px;
+	position: absolute;
+	width: 258px;
+	height: 168px;
+}
+.PTSProject_frmEMSDailySched .sprLeave .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmEMSDailySched .sprLeave .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_20 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 217px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_20 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 217px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_24 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 217px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_24 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 217px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_28 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 217px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_28 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 217px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_32 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 217px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_32 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 217px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_20 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 233px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_20 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 233px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_20 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_24 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 233px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_24 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 233px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_24 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_28 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 233px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_28 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 233px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_28 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_32 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 233px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_32 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 233px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_32 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_21 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_29 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_21 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 249px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_21 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 249px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_25 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 249px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_25 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 249px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_25 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_29 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 249px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_29 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 249px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_33 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 249px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_33 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 249px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_33 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_21 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_25 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_29 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_33 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_21 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 265px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_21 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_25 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 265px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_25 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_29 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 265px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_29 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_33 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 265px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_33 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 265px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_22 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 281px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_22 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 281px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_22 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_26 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 281px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_26 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 281px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_26 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_30 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 281px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_30 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 281px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_30 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_34 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 281px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_34 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 281px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_34 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_22 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_26 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_30 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_34 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_22 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 297px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_22 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 297px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_26 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 297px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_26 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 297px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_30 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 297px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_30 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 297px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_34 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 297px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_34 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 297px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_23 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_27 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_31 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpAM_35 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_23 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 313px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_23 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 313px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_27 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 313px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_27 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 313px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_31 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 313px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_31 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 313px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosition_35 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 313px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPosam_35 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 313px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_23 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 329px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_23 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 54px;
+	top: 329px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_23 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_27 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 329px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_27 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 329px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_31 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 329px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_31 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 329px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_31 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._lbPositionPM_35 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 329px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._lbPospm_35 {
+	background-color: #E0E0E0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 461px;
+	top: 329px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_35 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched ._shpPayUpPM_27 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmEMSDailySched .picTrash {
+	background-color: Teal;
+	cursor: default;
+	background-image: url("/Resources/images/frmEMSDailySched.picTrash.Image.png");
+	background-repeat: no-repeat;
+	left: 16px;
+	top: 360px;
+	position: absolute;
+	width: 24px;
+	height: 22px;
+}
+.PTSProject_frmEMSDailySched .cmdPayroll {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 56px;
+	top: 360px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEMSDailySched .cmdPayroll:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEMSDailySched .cmdReport {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 176px;
+	top: 360px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEMSDailySched .cmdReport:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEMSDailySched .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 304px;
+	top: 360px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEMSDailySched .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmEMSDailySched .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 432px;
+	top: 360px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmEMSDailySched .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

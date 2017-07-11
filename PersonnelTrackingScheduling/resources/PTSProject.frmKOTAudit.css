@@ -1,0 +1,406 @@
+.PTSProject_frmKOTAudit {
+}
+.PTSProject_frmKOTAudit .frmKOTAudit {
+	background-color: #000040;
+	min-width: 628px;
+	min-height: 444px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .frmFilterList {
+	background-color: #000040;
+	font-family: Arial;
+	font-size: 16.2px;
+	font-weight: bold;
+	font-style: italic;
+	left: 16px;
+	top: 8px;
+	position: absolute;
+	width: 476px;
+	height: 129px;
+	border: 2px groove;
+}
+.PTSProject_frmKOTAudit .frmFilterList:enabled {
+	color: #8080FF;
+}
+.PTSProject_frmKOTAudit .frmBattOpt {
+	background-color: #000040;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 145px;
+	height: 65px;
+	border: 2px groove;
+}
+.PTSProject_frmKOTAudit .frmBattOpt:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmKOTAudit .optAll {
+	background-color: #000040;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .optAll:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmKOTAudit .optAll * {
+	Cursor: default;
+}
+.PTSProject_frmKOTAudit .opt182 {
+	background-color: #000040;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 72px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .opt182:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmKOTAudit .opt182 * {
+	Cursor: default;
+}
+.PTSProject_frmKOTAudit .opt181 {
+	background-color: #000040;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .opt181:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmKOTAudit .opt181 * {
+	Cursor: default;
+}
+.PTSProject_frmKOTAudit .opt183 {
+	background-color: #000040;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 72px;
+	top: 40px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .opt183:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmKOTAudit .opt183 * {
+	Cursor: default;
+}
+.PTSProject_frmKOTAudit .frmBattOpt_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmKOTAudit .Frame3 {
+	background-color: #000040;
+	left: 160px;
+	top: 24px;
+	position: absolute;
+	width: 169px;
+	height: 65px;
+	border: 2px groove;
+}
+.PTSProject_frmKOTAudit .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmKOTAudit .optA {
+	background-color: #000040;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .optA:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmKOTAudit .optA * {
+	Cursor: default;
+}
+.PTSProject_frmKOTAudit .optC {
+	background-color: #000040;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 88px;
+	top: 16px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .optC:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmKOTAudit .optC * {
+	Cursor: default;
+}
+.PTSProject_frmKOTAudit .optB {
+	background-color: #000040;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .optB:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmKOTAudit .optB * {
+	Cursor: default;
+}
+.PTSProject_frmKOTAudit .optD {
+	background-color: #000040;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	font-weight: bold;
+	left: 88px;
+	top: 40px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmKOTAudit .optD:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmKOTAudit .optD * {
+	Cursor: default;
+}
+.PTSProject_frmKOTAudit .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmKOTAudit .Label1 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 344px;
+	top: 32px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmKOTAudit .cboAssignmentCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 105px;
+	height: 29px;
+}
+.PTSProject_frmKOTAudit .cboAssignmentCode:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmKOTAudit .cboAssignmentCodePos {
+	top: 48px;
+	left: 352px;
+	position: absolute;
+	width: 105px;
+	height: 29px;
+}
+.PTSProject_frmKOTAudit ._Label3_0 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 360px;
+	top: 80px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmKOTAudit .cboUnit {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 73px;
+	height: 29px;
+}
+.PTSProject_frmKOTAudit .cboUnit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmKOTAudit .cboUnitPos {
+	top: 96px;
+	left: 360px;
+	position: absolute;
+	width: 73px;
+	height: 29px;
+}
+.PTSProject_frmKOTAudit ._Label6_1 {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 16px;
+	top: 104px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+}
+.PTSProject_frmKOTAudit .txtNameSearch {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 80px;
+	top: 104px;
+	position: absolute;
+	width: 209px;
+	height: 22px;
+}
+.PTSProject_frmKOTAudit .txtNameSearch:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmKOTAudit .frmFilterList_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmKOTAudit .cboClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 512px;
+	top: 32px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmKOTAudit .cboClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmKOTAudit .cmdClear {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 512px;
+	top: 64px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmKOTAudit .cmdClear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmKOTAudit .cmdPrintList {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 512px;
+	top: 96px;
+	position: absolute;
+	width: 89px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmKOTAudit .cmdPrintList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmKOTAudit .lbCount {
+	background-color: #000040;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	color: Red;
+	left: 480px;
+	top: 144px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmKOTAudit .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	font-style: italic;
+	color: #C0FFFF;
+	left: 16px;
+	top: 152px;
+	position: absolute;
+	width: 401px;
+	height: 17px;
+}
+.PTSProject_frmKOTAudit .sprEmployeeList {
+	left: 8px;
+	top: 168px;
+	position: absolute;
+	width: 602px;
+	height: 265px;
+}
+.PTSProject_frmKOTAudit .sprEmployeeList .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmKOTAudit .sprEmployeeList .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmKOTAudit .sprTimeSheet {
+	left: 16px;
+	top: 536px;
+	position: absolute;
+	width: 713px;
+	height: 57px;
+	visibility: hidden;
+}
+.PTSProject_frmKOTAudit .sprTimeSheet .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmKOTAudit .sprTimeSheet .k-spreadsheet-action-bar {
+	display: none;
+}
+

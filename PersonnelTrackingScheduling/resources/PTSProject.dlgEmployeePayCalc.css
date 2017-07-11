@@ -1,0 +1,160 @@
+.PTSProject_dlgEmployeePayCalc {
+}
+.PTSProject_dlgEmployeePayCalc .dlgEmployeePayCalc {
+	background-color: #0000C0;
+	min-width: 400px;
+	min-height: 183px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgEmployeePayCalc .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 312px;
+	top: 8px;
+	position: absolute;
+	width: 81px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgEmployeePayCalc .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgEmployeePayCalc .cboEmpList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 192px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_dlgEmployeePayCalc .cboEmpList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgEmployeePayCalc .cboEmpListPos {
+	top: 16px;
+	left: 112px;
+	position: absolute;
+	width: 192px;
+	height: 20px;
+}
+.PTSProject_dlgEmployeePayCalc .Label2 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 20px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+}
+.PTSProject_dlgEmployeePayCalc .lbJobStep {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 112px;
+	top: 48px;
+	position: absolute;
+	width: 265px;
+	height: 17px;
+}
+.PTSProject_dlgEmployeePayCalc .Label3 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 72px;
+	position: absolute;
+	width: 97px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_dlgEmployeePayCalc .cboJobCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 277px;
+	height: 20px;
+	visibility: inherit;
+}
+.PTSProject_dlgEmployeePayCalc .cboJobCode:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgEmployeePayCalc .cboJobCodePos {
+	top: 72px;
+	left: 112px;
+	position: absolute;
+	width: 277px;
+	height: 20px;
+}
+.PTSProject_dlgEmployeePayCalc .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 152px;
+	top: 104px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+}
+.PTSProject_dlgEmployeePayCalc .txtStep {
+	background-color: #C0C0FF;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #C00000;
+	left: 200px;
+	top: 104px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_dlgEmployeePayCalc .lbMessage {
+	background-color: #8080FF;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: Yellow;
+	left: 48px;
+	top: 136px;
+	position: absolute;
+	width: 305px;
+	height: 41px;
+	text-align: center;
+}
+

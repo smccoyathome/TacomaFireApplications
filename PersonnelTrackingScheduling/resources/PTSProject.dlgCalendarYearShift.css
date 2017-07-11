@@ -1,0 +1,57 @@
+.PTSProject_dlgCalendarYearShift {
+}
+.PTSProject_dlgCalendarYearShift .dlgCalendarYearShift {
+	background-color: #404000;
+	min-width: 382px;
+	min-height: 453px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgCalendarYearShift .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: Yellow;
+	left: 24px;
+	top: 8px;
+	position: absolute;
+	width: 225px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_dlgCalendarYearShift .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	font-weight: bold;
+	left: 264px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgCalendarYearShift .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgCalendarYearShift .sprGrid {
+	left: 16px;
+	top: 56px;
+	position: absolute;
+	width: 345px;
+	height: 385px;
+}
+.PTSProject_dlgCalendarYearShift .sprGrid .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_dlgCalendarYearShift .sprGrid .k-spreadsheet-action-bar {
+	display: none;
+}
+

@@ -1,0 +1,57 @@
+<div>
+  <div data-width="273" data-height="337" data-removeControlBox="true" name="frmAdjustAssign" data-title="Adjust Assignment Status" class="PTSProject_frmAdjustAssign" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmAdjustAssign">
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <label id="Label1" tabindex="9" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Active Employee for this Position</label>
+          <label id="lbUnit" tabindex="10" class="lbUnit" data-bind="text : lbUnit.Text, imagePath : lbUnit.ImagePath">lbUnit</label>
+          <label id="lbPosition" tabindex="11" class="lbPosition" data-bind="text : lbPosition.Text, imagePath : lbPosition.ImagePath">lbPosition</label>
+          <label id="lbShift" tabindex="12" class="lbShift" data-bind="text : lbShift.Text, imagePath : lbShift.ImagePath">lbShift</label>
+          <fieldset id="optAssigned" class="optAssigned">
+            <legend id="optAssigned_legend" class="optAssigned_legend">Currently Assigned</legend>
+            <div>
+              <div index="0" class="_opbEmp_0" data-bind="visible : _opbEmp_0.Visible">
+                <input id="_opbEmp_0" tabindex="2" type="radio" name="optAssigned_radios" style="float: left" data-bind="customChecked : _opbEmp_0.Checked, events : { change : opbEmp_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _opbEmp_0.Text">Option1</label>
+                </div>
+              </div>
+              <div index="1" class="_opbEmp_1" data-bind="visible : _opbEmp_1.Visible">
+                <input id="_opbEmp_1" tabindex="3" type="radio" name="optAssigned_radios" style="float: left" data-bind="customChecked : _opbEmp_1.Checked, events : { change : opbEmp_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _opbEmp_1.Text">Option1</label>
+                </div>
+              </div>
+              <div index="2" class="_opbEmp_2" data-bind="visible : _opbEmp_2.Visible">
+                <input id="_opbEmp_2" tabindex="4" type="radio" name="optAssigned_radios" style="float: left" data-bind="customChecked : _opbEmp_2.Checked, events : { change : opbEmp_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _opbEmp_2.Text">Option1</label>
+                </div>
+              </div>
+              <div index="3" class="_opbEmp_3" data-bind="visible : _opbEmp_3.Visible">
+                <input id="_opbEmp_3" tabindex="5" type="radio" name="optAssigned_radios" style="float: left" data-bind="customChecked : _opbEmp_3.Checked, events : { change : opbEmp_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _opbEmp_3.Text">Option1</label>
+                </div>
+              </div>
+              <div index="4" class="_opbEmp_4" data-bind="visible : _opbEmp_4.Visible">
+                <input id="_opbEmp_4" tabindex="6" type="radio" name="optAssigned_radios" style="float: left" data-bind="customChecked : _opbEmp_4.Checked, events : { change : opbEmp_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _opbEmp_4.Text">Option1</label>
+                </div>
+              </div>
+              <div index="5" class="_opbEmp_5" data-bind="visible : _opbEmp_5.Visible">
+                <input id="_opbEmp_5" tabindex="7" type="radio" name="optAssigned_radios" style="float: left" data-bind="customChecked : _opbEmp_5.Checked, events : { change : opbEmp_CheckedChanged }, " />
+                <div style="float: left;overflow:hidden">
+                  <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="text : _opbEmp_5.Text">Option1</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <button id="cmdDone" tabindex="1" class="cmdDone" type="button" data-bind="events : { click : cmdDone_Click }, ">Done</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,1363 @@
+<div>
+  <div data-width="732" data-height="591" data-removeControlBox="true" name="frmWeekly" data-title="Weekly Scheduler" class="PTSProject_frmWeekly" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text, events : { focus : frmWeekly_Activated, blur : frmWeekly_Deactivate }, ">
+    <form class="frmWeekly">
+      <ul id="MainMenu1" class="MainMenu1" data-role="menu">
+        <li id="mnuSystem" data-bind="menuEnabled : mnuSystem.Enabled, visible : mnuSystem.Available">
+          <a>System</a>
+          <ul>
+            <li id="mnuPrintPayReport" data-bind="menuEnabled : mnuPrintPayReport.Enabled, visible : mnuPrintPayReport.Available, events : { click : mnuPrintPayReport_Click }, ">
+              <a>Print Pay Period Report</a>
+            </li>
+            <li id="mnuSpacer1" class="k-separator" data-bind="menuEnabled : mnuSpacer1.Enabled"></li>
+            <li id="mnuClose" data-bind="menuEnabled : mnuClose.Enabled, visible : mnuClose.Available, events : { click : mnuClose_Click }, ">
+              <a>Close Weekly Scheduler</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnupersonnel" data-bind="menuEnabled : mnupersonnel.Enabled, visible : mnupersonnel.Available">
+          <a>Personnel</a>
+          <ul>
+            <li id="mnuEmpInfo" data-bind="menuEnabled : mnuEmpInfo.Enabled, visible : mnuEmpInfo.Available, events : { click : mnuEmpInfo_Click }, ">
+              <a>Update Employee Information</a>
+            </li>
+            <li id="mnuSeniorInq" data-bind="menuEnabled : mnuSeniorInq.Enabled, visible : mnuSeniorInq.Available, events : { click : mnuSeniorInq_Click }, ">
+              <a>Seniority Ranking Inquiry</a>
+            </li>
+            <li id="mnuImmune" data-bind="menuEnabled : mnuImmune.Enabled, visible : mnuImmune.Available, events : { click : mnuImmune_Click }, ">
+              <a>Manage Employee Immunizations</a>
+            </li>
+            <li id="mnu_transfer_req" data-bind="menuEnabled : mnu_transfer_req.Enabled, visible : mnu_transfer_req.Available, events : { click : mnu_transfer_req_Click }, ">
+              <a>Manage Requests For Transfer</a>
+            </li>
+            <li id="mnuPMCerts" data-bind="menuEnabled : mnuPMCerts.Enabled, visible : mnuPMCerts.Available, events : { click : mnuPMCerts_Click }, ">
+              <a>Manage Paramedic Certifications</a>
+            </li>
+            <li id="mnuPPE" data-bind="menuEnabled : mnuPPE.Enabled, visible : mnuPPE.Available, events : { click : mnuPPE_Click }, ">
+              <a>Manage WDL and PPE Info</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuSchedule" data-bind="menuEnabled : mnuSchedule.Enabled, visible : mnuSchedule.Available">
+          <a>Scheduling</a>
+          <ul>
+            <li id="mnuIndSchedule" data-bind="menuEnabled : mnuIndSchedule.Enabled, visible : mnuIndSchedule.Available, events : { click : mnuIndSchedule_Click }, ">
+              <a>Individual Scheduler</a>
+            </li>
+            <li id="mnuBattalion1" data-bind="menuEnabled : mnuBattalion1.Enabled, visible : mnuBattalion1.Available, events : { click : mnuBattalion1_Click }, ">
+              <a>Battalion 1 Scheduler</a>
+            </li>
+            <li id="mnuBattalion2" data-bind="menuEnabled : mnuBattalion2.Enabled, visible : mnuBattalion2.Available, events : { click : mnuBattalion2_Click }, ">
+              <a>Battalion 2 Scheduler</a>
+            </li>
+            <li id="mnuNewBatt3" data-bind="menuEnabled : mnuNewBatt3.Enabled, visible : mnuNewBatt3.Available, events : { click : mnuNewBatt3_Click }, ">
+              <a>Battalion 3 Scheduler</a>
+            </li>
+            <li id="mnuBattalion3" data-bind="menuEnabled : mnuBattalion3.Enabled, visible : mnuBattalion3.Available, events : { click : mnuBattalion3_Click }, ">
+              <a>Batt 4 Sched (Special Unit)</a>
+            </li>
+            <li id="mnuBattalion4" data-bind="menuEnabled : mnuBattalion4.Enabled, visible : mnuBattalion4.Available, events : { click : mnuBattalion4_Click }, ">
+              <a>Batt 5 Sched (Reserve Unit)</a>
+            </li>
+            <li id="mnuEMS" data-bind="menuEnabled : mnuEMS.Enabled, visible : mnuEMS.Available, events : { click : mnuEMS_Click }, ">
+              <a>EMS Scheduler</a>
+            </li>
+            <li id="mnuEMSDaily" data-bind="menuEnabled : mnuEMSDaily.Enabled, visible : mnuEMSDaily.Available, events : { click : mnuEMSDaily_Click }, ">
+              <a>EMS Daily Scheduler</a>
+            </li>
+            <li id="mnuHazmat" data-bind="menuEnabled : mnuHazmat.Enabled, visible : mnuHazmat.Available">
+              <a>Hazmat Schedule</a>
+            </li>
+            <li id="mnuBattStaff" data-bind="menuEnabled : mnuBattStaff.Enabled, visible : mnuBattStaff.Available">
+              <a>Battalion Staff Schedule</a>
+            </li>
+            <li id="mnuDispatch" data-bind="menuEnabled : mnuDispatch.Enabled, visible : mnuDispatch.Available, events : { click : mnuDispatch_Click }, ">
+              <a>Dispatch Schedule</a>
+            </li>
+            <li id="mnu_watch_duty" data-bind="menuEnabled : mnu_watch_duty.Enabled, visible : mnu_watch_duty.Available, events : { click : mnu_watch_duty_Click }, ">
+              <a>Assign Watch Duty</a>
+            </li>
+            <li id="mnu_Vacation" data-bind="menuEnabled : mnu_Vacation.Enabled, visible : mnu_Vacation.Available, events : { click : mnu_Vacation_Click }, ">
+              <a>Vacation Scheduler</a>
+            </li>
+            <li id="mnu_PMVacationSched" data-bind="menuEnabled : mnu_PMVacationSched.Enabled, visible : mnu_PMVacationSched.Available, events : { click : mnu_PMVacationSched_Click }, ">
+              <a>Paramedic Vacation Scheduler</a>
+            </li>
+            <li id="mnu_HZMVacationSched" data-bind="menuEnabled : mnu_HZMVacationSched.Enabled, visible : mnu_HZMVacationSched.Available, events : { click : mnu_HZMVacationSched_Click }, ">
+              <a>Hazmat Vacation Scheduler</a>
+            </li>
+            <li id="mnu_old" data-bind="menuEnabled : mnu_old.Enabled, visible : mnu_old.Available">
+              <a>Hidden Battalion Schedulers</a>
+              <ul>
+                <li id="mnuNewBatt1" data-bind="menuEnabled : mnuNewBatt1.Enabled, visible : mnuNewBatt1.Available, events : { click : mnuNewBatt1_Click }, ">
+                  <a>New Battalion 1 Scheduler</a>
+                </li>
+                <li id="mnuNewBatt2" data-bind="menuEnabled : mnuNewBatt2.Enabled, visible : mnuNewBatt2.Available, events : { click : mnuNewBatt2_Click }, ">
+                  <a>New Battalion 2 Scheduler</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuReports" data-bind="menuEnabled : mnuReports.Enabled, visible : mnuReports.Available">
+          <a>Reports</a>
+          <ul>
+            <li id="mnuperson" data-bind="menuEnabled : mnuperson.Enabled, visible : mnuperson.Available">
+              <a>Personnel</a>
+              <ul>
+                <li id="mnuAssign" data-bind="menuEnabled : mnuAssign.Enabled, visible : mnuAssign.Available, events : { click : mnuAssign_Click }, ">
+                  <a>Assignments</a>
+                </li>
+                <li id="mnuRoster" data-bind="menuEnabled : mnuRoster.Enabled, visible : mnuRoster.Available, events : { click : mnuRoster_Click }, ">
+                  <a>Roster</a>
+                </li>
+                <li id="mnuFRoster" data-bind="menuEnabled : mnuFRoster.Enabled, visible : mnuFRoster.Available, events : { click : mnuFRoster_Click }, ">
+                  <a>Filtered Roster</a>
+                </li>
+                <li id="mnu_DDGroups" data-bind="menuEnabled : mnu_DDGroups.Enabled, visible : mnu_DDGroups.Available, events : { click : mnu_DDGroups_Click }, ">
+                  <a>Debit Day Groups</a>
+                </li>
+                <li id="mnuProlist" data-bind="menuEnabled : mnuProlist.Enabled, visible : mnuProlist.Available, events : { click : mnuProlist_Click }, ">
+                  <a>Promotion Lists</a>
+                </li>
+                <li id="mnuSenior" data-bind="menuEnabled : mnuSenior.Enabled, visible : mnuSenior.Available, events : { click : mnuSenior_Click }, ">
+                  <a>Serniority Ranking Lists</a>
+                </li>
+                <li id="mnuBenefit" data-bind="menuEnabled : mnuBenefit.Enabled, visible : mnuBenefit.Available, events : { click : mnuBenefit_Click }, ">
+                  <a>CF1 Benefit Listing</a>
+                </li>
+                <li id="mnu_emp_facility" data-bind="menuEnabled : mnu_emp_facility.Enabled, visible : mnu_emp_facility.Available, events : { click : mnu_emp_facility_Click }, ">
+                  <a>Employee List by Facility</a>
+                </li>
+                <li id="MnuAuditDDHOL" data-bind="menuEnabled : MnuAuditDDHOL.Enabled, visible : MnuAuditDDHOL.Available, events : { click : MnuAuditDDHOL_Click }, ">
+                  <a>Debit Day / Holiday Audit</a>
+                </li>
+                <li id="mnu_IndivPayrollSO" data-bind="menuEnabled : mnu_IndivPayrollSO.Enabled, visible : mnu_IndivPayrollSO.Available, events : { click : mnu_IndivPayrollSO_Click }, ">
+                  <a>Individual Payroll SignOff </a>
+                </li>
+                <li id="mnuIndTimeCard2" data-bind="menuEnabled : mnuIndTimeCard2.Enabled, visible : mnuIndTimeCard2.Available, events : { click : mnuIndTimeCard2_Click }, ">
+                  <a>Individual Time Cards</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnuSchedul" data-bind="menuEnabled : mnuSchedul.Enabled, visible : mnuSchedul.Available">
+              <a>Schedule</a>
+              <ul>
+                <li id="mnuBDWork" data-bind="menuEnabled : mnuBDWork.Enabled, visible : mnuBDWork.Available">
+                  <a>Battalion Time Card Worksheets</a>
+                  <ul>
+                    <li id="mnu181" data-bind="menuEnabled : mnu181.Enabled, visible : mnu181.Available, events : { click : mnu181_Click }, ">
+                      <a>Battalion 1</a>
+                    </li>
+                    <li id="mnu182" data-bind="menuEnabled : mnu182.Enabled, visible : mnu182.Available, events : { click : mnu182_Click }, ">
+                      <a>Battalion 2</a>
+                    </li>
+                    <li id="mnu183" data-bind="menuEnabled : mnu183.Enabled, visible : mnu183.Available, events : { click : mnu183_Click }, ">
+                      <a>Battalion 3</a>
+                    </li>
+                  </ul>
+                  <span></span>
+                </li>
+                <li id="mnuPayroll" data-bind="menuEnabled : mnuPayroll.Enabled, visible : mnuPayroll.Available">
+                  <a>Payroll Worksheets</a>
+                  <ul>
+                    <li id="mnuEMSPay" data-bind="menuEnabled : mnuEMSPay.Enabled, visible : mnuEMSPay.Available, events : { click : mnuEMSPay_Click }, ">
+                      <a>EMS</a>
+                    </li>
+                    <li id="mnuHazPay" data-bind="menuEnabled : mnuHazPay.Enabled, visible : mnuHazPay.Available, events : { click : mnuHazPay_Click }, ">
+                      <a>HazMat</a>
+                    </li>
+                    <li id="mnuMarPay" data-bind="menuEnabled : mnuMarPay.Enabled, visible : mnuMarPay.Available, events : { click : mnuMarPay_Click }, ">
+                      <a>Marine</a>
+                    </li>
+                    <li id="mnuBattPay" data-bind="menuEnabled : mnuBattPay.Enabled, visible : mnuBattPay.Available, events : { click : mnuBattPay_Click }, ">
+                      <a>Battalion Staff</a>
+                    </li>
+                    <li id="mnuDisPay" data-bind="menuEnabled : mnuDisPay.Enabled, visible : mnuDisPay.Available, events : { click : mnuDisPay_Click }, ">
+                      <a>Dispatch</a>
+                    </li>
+                  </ul>
+                  <span></span>
+                </li>
+                <li id="mnuIndTimeCard" data-bind="menuEnabled : mnuIndTimeCard.Enabled, visible : mnuIndTimeCard.Available, events : { click : mnuIndTimeCard_Click }, ">
+                  <a>Individual Time Cards</a>
+                </li>
+                <li id="mnuIndYearSched" data-bind="menuEnabled : mnuIndYearSched.Enabled, visible : mnuIndYearSched.Available, events : { click : mnuIndYearSched_Click }, ">
+                  <a>Individual Yearly Schedule</a>
+                </li>
+                <li id="mnuDailyStaff" data-bind="menuEnabled : mnuDailyStaff.Enabled, visible : mnuDailyStaff.Available, events : { click : mnuDailyStaff_Click }, ">
+                  <a>Daily Staffing Report</a>
+                </li>
+                <li id="mnuOvertime" data-bind="menuEnabled : mnuOvertime.Enabled, visible : mnuOvertime.Available, events : { click : mnuOvertime_Click }, ">
+                  <a>Overtime Detail Report</a>
+                </li>
+                <li id="mnuExtraOff" data-bind="menuEnabled : mnuExtraOff.Enabled, visible : mnuExtraOff.Available, events : { click : mnuExtraOff_Click }, ">
+                  <a>Extra-Unplanned Days Off Report</a>
+                </li>
+                <li id="mnu_sa_report" data-bind="menuEnabled : mnu_sa_report.Enabled, visible : mnu_sa_report.Available, events : { click : mnu_sa_report_Click }, ">
+                  <a>Special Assignment Yearly Report</a>
+                </li>
+                <li id="mnuShiftCal" data-bind="menuEnabled : mnuShiftCal.Enabled, visible : mnuShiftCal.Available, events : { click : mnuShiftCal_Click }, ">
+                  <a>Shift Calendar</a>
+                </li>
+                <li id="mnuTransfer" data-bind="menuEnabled : mnuTransfer.Enabled, visible : mnuTransfer.Available, events : { click : mnuTransfer_Click }, ">
+                  <a>Transfer Schedule</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnuLeaveReports" data-bind="menuEnabled : mnuLeaveReports.Enabled, visible : mnuLeaveReports.Available">
+              <a>Leave</a>
+              <ul>
+                <li id="mnuDailyLeave" data-bind="menuEnabled : mnuDailyLeave.Enabled, visible : mnuDailyLeave.Available, events : { click : mnuDailyLeave_Click }, ">
+                  <a>Daily Leave</a>
+                </li>
+                <li id="mnuAnnual" data-bind="menuEnabled : mnuAnnual.Enabled, visible : mnuAnnual.Available, events : { click : mnuAnnual_Click }, ">
+                  <a>Annual Leave</a>
+                </li>
+                <li id="mnu_dailysickleave" data-bind="menuEnabled : mnu_dailysickleave.Enabled, visible : mnu_dailysickleave.Available, events : { click : mnu_dailysickleave_Click }, ">
+                  <a>Daily Sick Leave</a>
+                </li>
+                <li id="mnuIndLeave" data-bind="menuEnabled : mnuIndLeave.Enabled, visible : mnuIndLeave.Available, events : { click : mnuIndLeave_Click }, ">
+                  <a>Individual Leave</a>
+                </li>
+                <li id="mnu_sick_usage" data-bind="menuEnabled : mnu_sick_usage.Enabled, visible : mnu_sick_usage.Available, events : { click : mnu_sick_usage_Click }, ">
+                  <a>Sick Leave Usage Report</a>
+                </li>
+                <li id="mnu_PMLeave" data-bind="menuEnabled : mnu_PMLeave.Enabled, visible : mnu_PMLeave.Available, events : { click : mnu_PMLeave_Click }, ">
+                  <a>Paramedic Leave Report</a>
+                </li>
+                <li id="mnuDispatchLeave" data-bind="menuEnabled : mnuDispatchLeave.Enabled, visible : mnuDispatchLeave.Available, events : { click : mnuDispatchLeave_Click }, ">
+                  <a>Dispatch Leave Report</a>
+                </li>
+                <li id="mnu_HZMLeave" data-bind="menuEnabled : mnu_HZMLeave.Enabled, visible : mnu_HZMLeave.Available, events : { click : mnu_HZMLeave_Click }, ">
+                  <a>Hazmat Leave Report</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnuPayrollReports" data-bind="menuEnabled : mnuPayrollReports.Enabled, visible : mnuPayrollReports.Available">
+              <a>Payroll</a>
+              <ul>
+                <li id="mnutimecard" data-bind="menuEnabled : mnutimecard.Enabled, visible : mnutimecard.Available, events : { click : mnutimecard_Click }, ">
+                  <a>Individual Time Cards</a>
+                </li>
+                <li id="mnuIndAnnualPayroll" data-bind="menuEnabled : mnuIndAnnualPayroll.Enabled, visible : mnuIndAnnualPayroll.Available, events : { click : mnuIndAnnualPayroll_Click }, ">
+                  <a>Individual Payroll Report</a>
+                </li>
+                <li id="mnupersonnelsignoff" data-bind="menuEnabled : mnupersonnelsignoff.Enabled, visible : mnupersonnelsignoff.Available, events : { click : mnupersonnelsignoff_Click }, ">
+                  <a>Payroll Sign Off</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnu_TrainingReports" data-bind="menuEnabled : mnu_TrainingReports.Enabled, visible : mnu_TrainingReports.Available">
+              <a>Training</a>
+              <ul>
+                <li id="mnu_QuarterlyMinimumDrill" data-bind="menuEnabled : mnu_QuarterlyMinimumDrill.Enabled, visible : mnu_QuarterlyMinimumDrill.Available, events : { click : mnu_QuarterlyMinimumDrill_Click }, ">
+                  <a>Quarterly Minimum Standards Drills</a>
+                </li>
+                <li id="mnu_FCCMinDrills" data-bind="menuEnabled : mnu_FCCMinDrills.Enabled, visible : mnu_FCCMinDrills.Available, events : { click : mnu_FCCMinDrills_Click }, ">
+                  <a>FCC Min Standards Drills</a>
+                </li>
+                <li id="mnu_ReadingAssign" data-bind="menuEnabled : mnu_ReadingAssign.Enabled, visible : mnu_ReadingAssign.Available, events : { click : mnu_ReadingAssign_Click }, ">
+                  <a>Required Reading Assignments</a>
+                </li>
+                <li id="mnu_OTEPReport" data-bind="menuEnabled : mnu_OTEPReport.Enabled, visible : mnu_OTEPReport.Available, events : { click : mnu_OTEPReport_Click }, ">
+                  <a>Annual OTEP Training Report</a>
+                </li>
+                <li id="mnu_PMRecertReport" data-bind="menuEnabled : mnu_PMRecertReport.Enabled, visible : mnu_PMRecertReport.Available, events : { click : mnu_PMRecertReport_Click }, ">
+                  <a>Paramedic Recertification Report</a>
+                </li>
+                <li id="mnu_PMBaseStaReport" data-bind="menuEnabled : mnu_PMBaseStaReport.Enabled, visible : mnu_PMBaseStaReport.Available, events : { click : mnu_PMBaseStaReport_Click }, ">
+                  <a>Paramedic Base Station Report</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuTraining" data-bind="menuEnabled : mnuTraining.Enabled, visible : mnuTraining.Available">
+          <a>Training</a>
+          <ul>
+            <li id="mnu_trainingtracker" data-bind="menuEnabled : mnu_trainingtracker.Enabled, visible : mnu_trainingtracker.Available, events : { click : mnu_trainingtracker_Click }, ">
+              <a>Field Training Tracker</a>
+            </li>
+            <li id="mnuTrnReports" data-bind="menuEnabled : mnuTrnReports.Enabled, visible : mnuTrnReports.Available">
+              <a>Training Reports</a>
+              <ul>
+                <li id="mnu_IndTrainReport" data-bind="menuEnabled : mnu_IndTrainReport.Enabled, visible : mnu_IndTrainReport.Available, events : { click : mnu_IndTrainReport_Click }, ">
+                  <a>Individual Training Report</a>
+                </li>
+                <li id="mnu_IndPMRecert" data-bind="menuEnabled : mnu_IndPMRecert.Enabled, visible : mnu_IndPMRecert.Available, events : { click : mnu_IndPMRecert_Click }, ">
+                  <a>Individual PM Recert Report</a>
+                </li>
+                <li id="mnuALSProc" data-bind="menuEnabled : mnuALSProc.Enabled, visible : mnuALSProc.Available, events : { click : mnuALSProc_Click }, ">
+                  <a>Individual ALS Procedures (IRS)</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+            <li id="mnu_Queries" data-bind="menuEnabled : mnu_Queries.Enabled, visible : mnu_Queries.Available">
+              <a>Training Class Queries</a>
+              <ul>
+                <li id="mnuTrainQuery" data-bind="menuEnabled : mnuTrainQuery.Enabled, visible : mnuTrainQuery.Available, events : { click : mnuTrainQuery_Click }, ">
+                  <a>Training Class Attendance Query</a>
+                </li>
+                <li id="mnu_TrainingQuerynew" data-bind="menuEnabled : mnu_TrainingQuerynew.Enabled, visible : mnu_TrainingQuerynew.Available, events : { click : mnu_TrainingQuerynew_Click }, ">
+                  <a>Training Query Tool (new)</a>
+                </li>
+              </ul>
+              <span></span>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuWindow" data-bind="menuEnabled : mnuWindow.Enabled, visible : mnuWindow.Available">
+          <a>Window</a>
+          <ul>
+            <li id="mnuCascade" data-bind="menuEnabled : mnuCascade.Enabled, visible : mnuCascade.Available, events : { click : mnuCascade_Click }, ">
+              <a>Cascade Windows</a>
+            </li>
+            <li id="mnuPrintScreen" data-bind="menuEnabled : mnuPrintScreen.Enabled, visible : mnuPrintScreen.Available, events : { click : mnuPrintScreen_Click }, ">
+              <a>Print Screen</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuHelp" data-bind="menuEnabled : mnuHelp.Enabled, visible : mnuHelp.Available">
+          <a>Help</a>
+          <ul>
+            <li id="mnuContents" data-bind="menuEnabled : mnuContents.Enabled, visible : mnuContents.Available">
+              <a>Contents</a>
+            </li>
+            <li id="mnuAbout" data-bind="menuEnabled : mnuAbout.Enabled, visible : mnuAbout.Available, events : { click : mnuAbout_Click }, ">
+              <a>About PTS</a>
+            </li>
+            <li id="mnu_HelpPrntScrn" data-bind="menuEnabled : mnu_HelpPrntScrn.Enabled, visible : mnu_HelpPrntScrn.Available, events : { click : mnu_HelpPrntScrn_Click }, ">
+              <a>How to Print Screen</a>
+            </li>
+            <li id="mnu_timecodes" data-bind="menuEnabled : mnu_timecodes.Enabled, visible : mnu_timecodes.Available, events : { click : mnu_timecodes_Click }, ">
+              <a>Payroll Time Card codes</a>
+            </li>
+            <li id="mnu_payrolllegend" data-bind="menuEnabled : mnu_payrolllegend.Enabled, visible : mnu_payrolllegend.Available, events : { click : mnu_payrolllegend_Click }, ">
+              <a>Payroll Timecard Legend</a>
+            </li>
+            <li id="mnu_legend" data-bind="menuEnabled : mnu_legend.Enabled, visible : mnu_legend.Available, events : { click : mnu_legend_Click }, ">
+              <a>Battalion Scheduler Legend</a>
+            </li>
+            <li id="mnu_IndLegend" data-bind="menuEnabled : mnu_IndLegend.Enabled, visible : mnu_IndLegend.Available, events : { click : mnu_IndLegend_Click }, ">
+              <a>Individual Scheduler Legend</a>
+            </li>
+            <li id="mnu_payup_calc" data-bind="menuEnabled : mnu_payup_calc.Enabled, visible : mnu_payup_calc.Available, events : { click : mnu_payup_calc_Click }, ">
+              <a>Employee Pay Up / Step Calculator</a>
+            </li>
+            <li id="mnuTrainCodeHelp" data-bind="menuEnabled : mnuTrainCodeHelp.Enabled, visible : mnuTrainCodeHelp.Available, events : { click : mnuTrainCodeHelp_Click }, ">
+              <a>Training Codes</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+        <li id="mnuWeeklyPopUp" data-bind="menuEnabled : mnuWeeklyPopUp.Enabled, visible : mnuWeeklyPopUp.Available">
+          <a>Update Schedule Info</a>
+          <ul>
+            <li id="mnuLeave" data-bind="menuEnabled : mnuLeave.Enabled, visible : mnuLeave.Available, events : { click : mnuLeave_Click }, ">
+              <a>Schedule Leave</a>
+            </li>
+            <li id="mnuPayUp" data-bind="menuEnabled : mnuPayUp.Enabled, visible : mnuPayUp.Available, events : { click : mnuPayUp_Click }, ">
+              <a>Upgrade Pay</a>
+            </li>
+            <li id="mnuPayDown" data-bind="menuEnabled : mnuPayDown.Enabled, visible : mnuPayDown.Available, events : { click : mnuPayDown_Click }, ">
+              <a>Remove Pay Upgrade</a>
+            </li>
+            <li id="mnuKOT" data-bind="menuEnabled : mnuKOT.Enabled, visible : mnuKOT.Available, events : { click : mnuKOT_Click }, ">
+              <a>Change KOT</a>
+            </li>
+            <li id="mnuTrade" data-bind="menuEnabled : mnuTrade.Enabled, visible : mnuTrade.Available, events : { click : mnuTrade_Click }, ">
+              <a>Enact a Trade</a>
+            </li>
+            <li id="mnuRemove" data-bind="menuEnabled : mnuRemove.Enabled, visible : mnuRemove.Available, events : { click : mnuRemove_Click }, ">
+              <a>Remove From Schedule</a>
+            </li>
+            <li id="mnuSendTo181" data-bind="menuEnabled : mnuSendTo181.Enabled, visible : mnuSendTo181.Available, events : { click : mnuSendTo181_Click }, ">
+              <a>Send to Battalion 1</a>
+            </li>
+            <li id="mnuSendTo182" data-bind="menuEnabled : mnuSendTo182.Enabled, visible : mnuSendTo182.Available, events : { click : mnuSendTo182_Click }, ">
+              <a>Send to Battalion 2</a>
+            </li>
+            <li id="mnuReport" data-bind="menuEnabled : mnuReport.Enabled, visible : mnuReport.Available, events : { click : mnuReport_Click }, ">
+              <a>View This Individuals Leave Report</a>
+            </li>
+            <li id="mnu_viewtimecard" data-bind="menuEnabled : mnu_viewtimecard.Enabled, visible : mnu_viewtimecard.Available, events : { click : mnu_viewtimecard_Click }, ">
+              <a>View Time Card</a>
+            </li>
+            <li id="mnuViewDetail" data-bind="menuEnabled : mnuViewDetail.Enabled, visible : mnuViewDetail.Available, events : { click : mnuViewDetail_Click }, ">
+              <a>View Schedule Detail</a>
+            </li>
+          </ul>
+          <span></span>
+        </li>
+      </ul>
+      <ul id="Ctx_mnuWeeklyPopUp" class="Ctx_mnuWeeklyPopUp" data-role="contextmenu" data-bind="contextMenu : Ctx_mnuWeeklyPopUp.Ctx_mnuWeeklyPopUp, contextMenuShow : Ctx_mnuWeeklyPopUp.ContextShow, events : { open : Ctx_mnuWeeklyPopUp_Opening, close : Ctx_mnuWeeklyPopUp_Closing }, "></ul>
+      <label id="Label1" tabindex="3" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Week</label>
+      <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calWeek" tabindex="1" class="calWeek" data-bind="dateTimePickerValue : calWeek.Value, DateTimeMinDate : calWeek.MinDate, DateTimeMaxDate : calWeek.MaxDate, events : { change : calWeek_Click }, " />
+      <label id="lbLocked" tabindex="234" class="lbLocked" data-bind="visible : lbLocked.Visible, text : lbLocked.Text, imagePath : lbLocked.ImagePath">Schedule Locked</label>
+      <label id="pnSelected" tabindex="221" class="pnSelected" data-bind="visible : pnSelected.Visible, text : pnSelected.Text, imagePath : pnSelected.ImagePath, events : { mousedown : pnSelected_MouseDown }, "></label>
+      <label id="lbStaff" tabindex="233" class="lbStaff" data-bind="text : lbStaff.Text, imagePath : lbStaff.ImagePath">Battalion</label>
+      <div class="cboSelectNamePos" id="cboSelectNamePos">
+        <select data-role="combobox" id="cboSelectName" tabindex="2" class="cboSelectName" data-text-field="Text" data-value-field="Value" data-bind="source : cboSelectName.ComboBoxItems, enabled : cboSelectName.Enabled, customText : cboSelectName.CustomText, comboSelectedIndex : cboSelectName.SelectedIndex, events : { change : cboSelectName_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbAllStaff" tabindex="231" class="lbAllStaff" data-bind="visible : lbAllStaff.Visible, text : lbAllStaff.Text, imagePath : lbAllStaff.ImagePath">All Staff</label>
+      <div class="cboFullListPos" id="cboFullListPos" data-bind="visible : cboFullList.Visible">
+        <select data-role="combobox" id="cboFullList" tabindex="231" class="cboFullList" data-text-field="Text" data-value-field="Value" data-bind="source : cboFullList.ComboBoxItems, enabled : cboFullList.Enabled, customText : cboFullList.CustomText, comboSelectedIndex : cboFullList.SelectedIndex, events : { change : cboFullList_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label2" tabindex="24" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Unit</label>
+      <label id="Label3" tabindex="45" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Position</label>
+      <label id="_lbWeekDay_0" tabindex="46" index="0" class="_lbWeekDay_0" data-bind="style : { color : _lbWeekDay_0.ForeColor.Value }, text : _lbWeekDay_0.Text, imagePath : _lbWeekDay_0.ImagePath">lbWeekDay</label>
+      <label id="_lbShiftArray_0" tabindex="206" index="0" class="_lbShiftArray_0" data-bind="text : _lbShiftArray_0.Text, imagePath : _lbShiftArray_0.ImagePath">A</label>
+      <label id="_lbWeekDay_1" tabindex="47" index="1" class="_lbWeekDay_1" data-bind="style : { color : _lbWeekDay_1.ForeColor.Value }, text : _lbWeekDay_1.Text, imagePath : _lbWeekDay_1.ImagePath">lbWeekDay</label>
+      <label id="_lbShiftArray_1" tabindex="207" index="1" class="_lbShiftArray_1" data-bind="text : _lbShiftArray_1.Text, imagePath : _lbShiftArray_1.ImagePath">A</label>
+      <label id="_lbWeekDay_2" tabindex="48" index="2" class="_lbWeekDay_2" data-bind="style : { color : _lbWeekDay_2.ForeColor.Value }, text : _lbWeekDay_2.Text, imagePath : _lbWeekDay_2.ImagePath">lbWeekDay</label>
+      <label id="_lbShiftArray_2" tabindex="208" index="2" class="_lbShiftArray_2" data-bind="text : _lbShiftArray_2.Text, imagePath : _lbShiftArray_2.ImagePath">A</label>
+      <label id="_lbWeekDay_3" tabindex="49" index="3" class="_lbWeekDay_3" data-bind="style : { color : _lbWeekDay_3.ForeColor.Value }, text : _lbWeekDay_3.Text, imagePath : _lbWeekDay_3.ImagePath">lbWeekDay</label>
+      <label id="_lbShiftArray_3" tabindex="209" index="3" class="_lbShiftArray_3" data-bind="text : _lbShiftArray_3.Text, imagePath : _lbShiftArray_3.ImagePath">A</label>
+      <label id="_lbWeekDay_4" tabindex="50" index="4" class="_lbWeekDay_4" data-bind="style : { color : _lbWeekDay_4.ForeColor.Value }, text : _lbWeekDay_4.Text, imagePath : _lbWeekDay_4.ImagePath">lbWeekDay</label>
+      <label id="_lbShiftArray_4" tabindex="210" index="4" class="_lbShiftArray_4" data-bind="text : _lbShiftArray_4.Text, imagePath : _lbShiftArray_4.ImagePath">A</label>
+      <label id="_lbWeekDay_5" tabindex="51" index="5" class="_lbWeekDay_5" data-bind="style : { color : _lbWeekDay_5.ForeColor.Value }, text : _lbWeekDay_5.Text, imagePath : _lbWeekDay_5.ImagePath">lbWeekDay</label>
+      <label id="_lbShiftArray_5" tabindex="211" index="5" class="_lbShiftArray_5" data-bind="text : _lbShiftArray_5.Text, imagePath : _lbShiftArray_5.ImagePath">A</label>
+      <label id="_lbWeekDay_6" tabindex="52" index="6" class="_lbWeekDay_6" data-bind="style : { color : _lbWeekDay_6.ForeColor.Value }, text : _lbWeekDay_6.Text, imagePath : _lbWeekDay_6.ImagePath">lbWeekDay</label>
+      <label id="_lbShiftArray_6" tabindex="212" index="6" class="_lbShiftArray_6" data-bind="text : _lbShiftArray_6.Text, imagePath : _lbShiftArray_6.ImagePath">A</label>
+      <label id="_lbUnitArray_0" tabindex="4" index="0" class="_lbUnitArray_0" data-bind="visible : _lbUnitArray_0.Visible, text : _lbUnitArray_0.Text, imagePath : _lbUnitArray_0.ImagePath">E03</label>
+      <label id="_lbPositionArray_0" tabindex="25" index="0" class="_lbPositionArray_0" data-bind="visible : _lbPositionArray_0.Visible, text : _lbPositionArray_0.Text, imagePath : _lbPositionArray_0.ImagePath">INCHARG</label>
+      <label id="_lbAMPM_0" tabindex="186" index="0" class="_lbAMPM_0" data-bind="visible : _lbAMPM_0.Visible, text : _lbAMPM_0.Text, imagePath : _lbAMPM_0.ImagePath">AM</label>
+      <label id="_lbPos1am_0" tabindex="53" index="0" class="_lbPos1am_0" data-bind="DragDrop : _lbPos1am_0.lbPos1am_DragDrop, DragOver : _lbPos1am_0.lbPos1am_DragOver, style : { backgroundColor : _lbPos1am_0.BackColor.Value, color : _lbPos1am_0.ForeColor.Value }, enabled : _lbPos1am_0.Enabled, visible : _lbPos1am_0.Visible, text : _lbPos1am_0.Text, imagePath : _lbPos1am_0.ImagePath, events : { mousedown : _lbPos1am_0_MouseDown }, ">1-AM</label>
+      <label id="_lbPos1am_1" tabindex="54" index="1" class="_lbPos1am_1" data-bind="DragDrop : _lbPos1am_1.lbPos1am_DragDrop, DragOver : _lbPos1am_1.lbPos1am_DragOver, style : { backgroundColor : _lbPos1am_1.BackColor.Value, color : _lbPos1am_1.ForeColor.Value }, enabled : _lbPos1am_1.Enabled, visible : _lbPos1am_1.Visible, text : _lbPos1am_1.Text, imagePath : _lbPos1am_1.ImagePath, events : { mousedown : _lbPos1am_1_MouseDown }, ">1-AM</label>
+      <label id="_lbPos1am_2" tabindex="55" index="2" class="_lbPos1am_2" data-bind="DragDrop : _lbPos1am_2.lbPos1am_DragDrop, DragOver : _lbPos1am_2.lbPos1am_DragOver, style : { backgroundColor : _lbPos1am_2.BackColor.Value, color : _lbPos1am_2.ForeColor.Value }, enabled : _lbPos1am_2.Enabled, visible : _lbPos1am_2.Visible, text : _lbPos1am_2.Text, imagePath : _lbPos1am_2.ImagePath, events : { mousedown : _lbPos1am_2_MouseDown }, ">1-AM</label>
+      <label id="_lbPos1am_3" tabindex="56" index="3" class="_lbPos1am_3" data-bind="DragDrop : _lbPos1am_3.lbPos1am_DragDrop, DragOver : _lbPos1am_3.lbPos1am_DragOver, style : { backgroundColor : _lbPos1am_3.BackColor.Value, color : _lbPos1am_3.ForeColor.Value }, enabled : _lbPos1am_3.Enabled, visible : _lbPos1am_3.Visible, text : _lbPos1am_3.Text, imagePath : _lbPos1am_3.ImagePath, events : { mousedown : _lbPos1am_3_MouseDown }, ">1-AM</label>
+      <label id="_lbPos1am_4" tabindex="57" index="4" class="_lbPos1am_4" data-bind="DragDrop : _lbPos1am_4.lbPos1am_DragDrop, DragOver : _lbPos1am_4.lbPos1am_DragOver, style : { backgroundColor : _lbPos1am_4.BackColor.Value, color : _lbPos1am_4.ForeColor.Value }, enabled : _lbPos1am_4.Enabled, visible : _lbPos1am_4.Visible, text : _lbPos1am_4.Text, imagePath : _lbPos1am_4.ImagePath, events : { mousedown : _lbPos1am_4_MouseDown }, ">1-AM</label>
+      <label id="_lbPos1am_5" tabindex="58" index="5" class="_lbPos1am_5" data-bind="DragDrop : _lbPos1am_5.lbPos1am_DragDrop, DragOver : _lbPos1am_5.lbPos1am_DragOver, style : { backgroundColor : _lbPos1am_5.BackColor.Value, color : _lbPos1am_5.ForeColor.Value }, enabled : _lbPos1am_5.Enabled, visible : _lbPos1am_5.Visible, text : _lbPos1am_5.Text, imagePath : _lbPos1am_5.ImagePath, events : { mousedown : _lbPos1am_5_MouseDown }, ">1-AM</label>
+      <label id="_lbPos1am_6" tabindex="59" index="6" class="_lbPos1am_6" data-bind="DragDrop : _lbPos1am_6.lbPos1am_DragDrop, DragOver : _lbPos1am_6.lbPos1am_DragOver, style : { backgroundColor : _lbPos1am_6.BackColor.Value, color : _lbPos1am_6.ForeColor.Value }, enabled : _lbPos1am_6.Enabled, visible : _lbPos1am_6.Visible, text : _lbPos1am_6.Text, imagePath : _lbPos1am_6.ImagePath, events : { mousedown : _lbPos1am_6_MouseDown }, ">1-AM</label>
+      <div data-bind="spEnabled : _shpP1am_0.Enabled, spVisible : _shpP1am_0.Visible">
+        <svg version="1.1" class="_shpP1am_0_svg" style="left:222px;top:93px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1am_0" class="_shpP1am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1am_1.Enabled, spVisible : _shpP1am_1.Visible">
+        <svg version="1.1" class="_shpP1am_1_svg" style="left:302px;top:93px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1am_1" class="_shpP1am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1am_2.Enabled, spVisible : _shpP1am_2.Visible">
+        <svg version="1.1" class="_shpP1am_2_svg" style="left:383px;top:93px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1am_2" class="_shpP1am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1am_3.Enabled, spVisible : _shpP1am_3.Visible">
+        <svg version="1.1" class="_shpP1am_3_svg" style="left:462px;top:93px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1am_3" class="_shpP1am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1am_4.Enabled, spVisible : _shpP1am_4.Visible">
+        <svg version="1.1" class="_shpP1am_4_svg" style="left:542px;top:93px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1am_4" class="_shpP1am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1am_5.Enabled, spVisible : _shpP1am_5.Visible">
+        <svg version="1.1" class="_shpP1am_5_svg" style="left:623px;top:93px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1am_5" class="_shpP1am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1am_6.Enabled, spVisible : _shpP1am_6.Visible">
+        <svg version="1.1" class="_shpP1am_6_svg" style="left:702px;top:93px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1am_6" class="_shpP1am_6"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1pm_0.Enabled, spVisible : _shpP1pm_0.Visible">
+        <svg version="1.1" class="_shpP1pm_0_svg" style="left:222px;top:107px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1pm_0" class="_shpP1pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1pm_1.Enabled, spVisible : _shpP1pm_1.Visible">
+        <svg version="1.1" class="_shpP1pm_1_svg" style="left:302px;top:107px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1pm_1" class="_shpP1pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1pm_2.Enabled, spVisible : _shpP1pm_2.Visible">
+        <svg version="1.1" class="_shpP1pm_2_svg" style="left:383px;top:107px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1pm_2" class="_shpP1pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1pm_3.Enabled, spVisible : _shpP1pm_3.Visible">
+        <svg version="1.1" class="_shpP1pm_3_svg" style="left:462px;top:107px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1pm_3" class="_shpP1pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1pm_4.Enabled, spVisible : _shpP1pm_4.Visible">
+        <svg version="1.1" class="_shpP1pm_4_svg" style="left:542px;top:107px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1pm_4" class="_shpP1pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1pm_5.Enabled, spVisible : _shpP1pm_5.Visible">
+        <svg version="1.1" class="_shpP1pm_5_svg" style="left:623px;top:107px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1pm_5" class="_shpP1pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP1pm_6.Enabled, spVisible : _shpP1pm_6.Visible">
+        <svg version="1.1" class="_shpP1pm_6_svg" style="left:702px;top:107px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP1pm_6" class="_shpP1pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_1" tabindex="5" index="1" class="_lbUnitArray_1" data-bind="visible : _lbUnitArray_1.Visible, text : _lbUnitArray_1.Text, imagePath : _lbUnitArray_1.ImagePath">E03</label>
+      <label id="_lbPositionArray_1" tabindex="26" index="1" class="_lbPositionArray_1" data-bind="visible : _lbPositionArray_1.Visible, text : _lbPositionArray_1.Text, imagePath : _lbPositionArray_1.ImagePath">4th</label>
+      <label id="_lbAMPM_1" tabindex="187" index="1" class="_lbAMPM_1" data-bind="visible : _lbAMPM_1.Visible, text : _lbAMPM_1.Text, imagePath : _lbAMPM_1.ImagePath">PM</label>
+      <label id="_lbPos1pm_0" tabindex="60" index="0" class="_lbPos1pm_0" data-bind="DragDrop : _lbPos1pm_0.lbPos1pm_DragDrop, DragOver : _lbPos1pm_0.lbPos1pm_DragOver, style : { backgroundColor : _lbPos1pm_0.BackColor.Value, color : _lbPos1pm_0.ForeColor.Value }, enabled : _lbPos1pm_0.Enabled, visible : _lbPos1pm_0.Visible, text : _lbPos1pm_0.Text, imagePath : _lbPos1pm_0.ImagePath, events : { mousedown : _lbPos1pm_0_MouseDown }, ">1-PM</label>
+      <label id="_lbPos1pm_1" tabindex="61" index="1" class="_lbPos1pm_1" data-bind="DragDrop : _lbPos1pm_1.lbPos1pm_DragDrop, DragOver : _lbPos1pm_1.lbPos1pm_DragOver, style : { backgroundColor : _lbPos1pm_1.BackColor.Value, color : _lbPos1pm_1.ForeColor.Value }, enabled : _lbPos1pm_1.Enabled, visible : _lbPos1pm_1.Visible, text : _lbPos1pm_1.Text, imagePath : _lbPos1pm_1.ImagePath, events : { mousedown : _lbPos1pm_1_MouseDown }, ">1-PM</label>
+      <label id="_lbPos1pm_2" tabindex="62" index="2" class="_lbPos1pm_2" data-bind="DragDrop : _lbPos1pm_2.lbPos1pm_DragDrop, DragOver : _lbPos1pm_2.lbPos1pm_DragOver, style : { backgroundColor : _lbPos1pm_2.BackColor.Value, color : _lbPos1pm_2.ForeColor.Value }, enabled : _lbPos1pm_2.Enabled, visible : _lbPos1pm_2.Visible, text : _lbPos1pm_2.Text, imagePath : _lbPos1pm_2.ImagePath, events : { mousedown : _lbPos1pm_2_MouseDown }, ">1-PM</label>
+      <label id="_lbPos1pm_3" tabindex="63" index="3" class="_lbPos1pm_3" data-bind="DragDrop : _lbPos1pm_3.lbPos1pm_DragDrop, DragOver : _lbPos1pm_3.lbPos1pm_DragOver, style : { backgroundColor : _lbPos1pm_3.BackColor.Value, color : _lbPos1pm_3.ForeColor.Value }, enabled : _lbPos1pm_3.Enabled, visible : _lbPos1pm_3.Visible, text : _lbPos1pm_3.Text, imagePath : _lbPos1pm_3.ImagePath, events : { mousedown : _lbPos1pm_3_MouseDown }, ">1-PM</label>
+      <label id="_lbPos1pm_4" tabindex="64" index="4" class="_lbPos1pm_4" data-bind="DragDrop : _lbPos1pm_4.lbPos1pm_DragDrop, DragOver : _lbPos1pm_4.lbPos1pm_DragOver, style : { backgroundColor : _lbPos1pm_4.BackColor.Value, color : _lbPos1pm_4.ForeColor.Value }, enabled : _lbPos1pm_4.Enabled, visible : _lbPos1pm_4.Visible, text : _lbPos1pm_4.Text, imagePath : _lbPos1pm_4.ImagePath, events : { mousedown : _lbPos1pm_4_MouseDown }, ">1-PM</label>
+      <label id="_lbPos1pm_5" tabindex="65" index="5" class="_lbPos1pm_5" data-bind="DragDrop : _lbPos1pm_5.lbPos1pm_DragDrop, DragOver : _lbPos1pm_5.lbPos1pm_DragOver, style : { backgroundColor : _lbPos1pm_5.BackColor.Value, color : _lbPos1pm_5.ForeColor.Value }, enabled : _lbPos1pm_5.Enabled, visible : _lbPos1pm_5.Visible, text : _lbPos1pm_5.Text, imagePath : _lbPos1pm_5.ImagePath, events : { mousedown : _lbPos1pm_5_MouseDown }, ">1-PM</label>
+      <label id="_lbPos1pm_6" tabindex="66" index="6" class="_lbPos1pm_6" data-bind="DragDrop : _lbPos1pm_6.lbPos1pm_DragDrop, DragOver : _lbPos1pm_6.lbPos1pm_DragOver, style : { backgroundColor : _lbPos1pm_6.BackColor.Value, color : _lbPos1pm_6.ForeColor.Value }, enabled : _lbPos1pm_6.Enabled, visible : _lbPos1pm_6.Visible, text : _lbPos1pm_6.Text, imagePath : _lbPos1pm_6.ImagePath, events : { mousedown : _lbPos1pm_6_MouseDown }, ">1-PM</label>
+      <label id="_Line1_0" index="0" class="_Line1_0" data-bind="visible : _Line1_0.Visible, text : _Line1_0.Text, imagePath : _Line1_0.ImagePath"></label>
+      <label id="_lbUnitArray_2" tabindex="6" index="2" class="_lbUnitArray_2" data-bind="visible : _lbUnitArray_2.Visible, text : _lbUnitArray_2.Text, imagePath : _lbUnitArray_2.ImagePath">E03</label>
+      <label id="_lbPositionArray_2" tabindex="27" index="2" class="_lbPositionArray_2" data-bind="visible : _lbPositionArray_2.Visible, text : _lbPositionArray_2.Text, imagePath : _lbPositionArray_2.ImagePath">4th</label>
+      <label id="_lbAMPM_2" tabindex="188" index="2" class="_lbAMPM_2" data-bind="visible : _lbAMPM_2.Visible, text : _lbAMPM_2.Text, imagePath : _lbAMPM_2.ImagePath">AM</label>
+      <label id="_lbPos2am_0" tabindex="67" index="0" class="_lbPos2am_0" data-bind="DragDrop : _lbPos2am_0.lbPos2am_DragDrop, DragOver : _lbPos2am_0.lbPos2am_DragOver, style : { backgroundColor : _lbPos2am_0.BackColor.Value, color : _lbPos2am_0.ForeColor.Value }, enabled : _lbPos2am_0.Enabled, visible : _lbPos2am_0.Visible, text : _lbPos2am_0.Text, imagePath : _lbPos2am_0.ImagePath, events : { mousedown : _lbPos2am_0_MouseDown }, ">2-AM</label>
+      <label id="_lbPos2am_1" tabindex="68" index="1" class="_lbPos2am_1" data-bind="DragDrop : _lbPos2am_1.lbPos2am_DragDrop, DragOver : _lbPos2am_1.lbPos2am_DragOver, style : { backgroundColor : _lbPos2am_1.BackColor.Value, color : _lbPos2am_1.ForeColor.Value }, enabled : _lbPos2am_1.Enabled, visible : _lbPos2am_1.Visible, text : _lbPos2am_1.Text, imagePath : _lbPos2am_1.ImagePath, events : { mousedown : _lbPos2am_1_MouseDown }, ">2-AM</label>
+      <label id="_lbPos2am_2" tabindex="69" index="2" class="_lbPos2am_2" data-bind="DragDrop : _lbPos2am_2.lbPos2am_DragDrop, DragOver : _lbPos2am_2.lbPos2am_DragOver, style : { backgroundColor : _lbPos2am_2.BackColor.Value, color : _lbPos2am_2.ForeColor.Value }, enabled : _lbPos2am_2.Enabled, visible : _lbPos2am_2.Visible, text : _lbPos2am_2.Text, imagePath : _lbPos2am_2.ImagePath, events : { mousedown : _lbPos2am_2_MouseDown }, ">2-AM</label>
+      <label id="_lbPos2am_3" tabindex="70" index="3" class="_lbPos2am_3" data-bind="DragDrop : _lbPos2am_3.lbPos2am_DragDrop, DragOver : _lbPos2am_3.lbPos2am_DragOver, style : { backgroundColor : _lbPos2am_3.BackColor.Value, color : _lbPos2am_3.ForeColor.Value }, enabled : _lbPos2am_3.Enabled, visible : _lbPos2am_3.Visible, text : _lbPos2am_3.Text, imagePath : _lbPos2am_3.ImagePath, events : { mousedown : _lbPos2am_3_MouseDown }, ">2-AM</label>
+      <label id="_lbPos2am_4" tabindex="71" index="4" class="_lbPos2am_4" data-bind="DragDrop : _lbPos2am_4.lbPos2am_DragDrop, DragOver : _lbPos2am_4.lbPos2am_DragOver, style : { backgroundColor : _lbPos2am_4.BackColor.Value, color : _lbPos2am_4.ForeColor.Value }, enabled : _lbPos2am_4.Enabled, visible : _lbPos2am_4.Visible, text : _lbPos2am_4.Text, imagePath : _lbPos2am_4.ImagePath, events : { mousedown : _lbPos2am_4_MouseDown }, ">2-AM</label>
+      <label id="_lbPos2am_5" tabindex="72" index="5" class="_lbPos2am_5" data-bind="DragDrop : _lbPos2am_5.lbPos2am_DragDrop, DragOver : _lbPos2am_5.lbPos2am_DragOver, style : { backgroundColor : _lbPos2am_5.BackColor.Value, color : _lbPos2am_5.ForeColor.Value }, enabled : _lbPos2am_5.Enabled, visible : _lbPos2am_5.Visible, text : _lbPos2am_5.Text, imagePath : _lbPos2am_5.ImagePath, events : { mousedown : _lbPos2am_5_MouseDown }, ">2-AM</label>
+      <label id="_lbPos2am_6" tabindex="73" index="6" class="_lbPos2am_6" data-bind="DragDrop : _lbPos2am_6.lbPos2am_DragDrop, DragOver : _lbPos2am_6.lbPos2am_DragOver, style : { backgroundColor : _lbPos2am_6.BackColor.Value, color : _lbPos2am_6.ForeColor.Value }, enabled : _lbPos2am_6.Enabled, visible : _lbPos2am_6.Visible, text : _lbPos2am_6.Text, imagePath : _lbPos2am_6.ImagePath, events : { mousedown : _lbPos2am_6_MouseDown }, ">2-AM</label>
+      <div data-bind="spEnabled : _shpP2am_0.Enabled, spVisible : _shpP2am_0.Visible">
+        <svg version="1.1" class="_shpP2am_0_svg" style="left:222px;top:129px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2am_0" class="_shpP2am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2am_1.Enabled, spVisible : _shpP2am_1.Visible">
+        <svg version="1.1" class="_shpP2am_1_svg" style="left:302px;top:129px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2am_1" class="_shpP2am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2am_2.Enabled, spVisible : _shpP2am_2.Visible">
+        <svg version="1.1" class="_shpP2am_2_svg" style="left:383px;top:129px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2am_2" class="_shpP2am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2am_3.Enabled, spVisible : _shpP2am_3.Visible">
+        <svg version="1.1" class="_shpP2am_3_svg" style="left:462px;top:129px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2am_3" class="_shpP2am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2am_4.Enabled, spVisible : _shpP2am_4.Visible">
+        <svg version="1.1" class="_shpP2am_4_svg" style="left:542px;top:129px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2am_4" class="_shpP2am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2am_5.Enabled, spVisible : _shpP2am_5.Visible">
+        <svg version="1.1" class="_shpP2am_5_svg" style="left:623px;top:129px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2am_5" class="_shpP2am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2am_6.Enabled, spVisible : _shpP2am_6.Visible">
+        <svg version="1.1" class="_shpP2am_6_svg" style="left:702px;top:129px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2am_6" class="_shpP2am_6"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2pm_0.Enabled, spVisible : _shpP2pm_0.Visible">
+        <svg version="1.1" class="_shpP2pm_0_svg" style="left:222px;top:143px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2pm_0" class="_shpP2pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2pm_1.Enabled, spVisible : _shpP2pm_1.Visible">
+        <svg version="1.1" class="_shpP2pm_1_svg" style="left:302px;top:143px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2pm_1" class="_shpP2pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2pm_2.Enabled, spVisible : _shpP2pm_2.Visible">
+        <svg version="1.1" class="_shpP2pm_2_svg" style="left:383px;top:143px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2pm_2" class="_shpP2pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2pm_3.Enabled, spVisible : _shpP2pm_3.Visible">
+        <svg version="1.1" class="_shpP2pm_3_svg" style="left:462px;top:143px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2pm_3" class="_shpP2pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2pm_4.Enabled, spVisible : _shpP2pm_4.Visible">
+        <svg version="1.1" class="_shpP2pm_4_svg" style="left:542px;top:143px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2pm_4" class="_shpP2pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2pm_5.Enabled, spVisible : _shpP2pm_5.Visible">
+        <svg version="1.1" class="_shpP2pm_5_svg" style="left:623px;top:143px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2pm_5" class="_shpP2pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP2pm_6.Enabled, spVisible : _shpP2pm_6.Visible">
+        <svg version="1.1" class="_shpP2pm_6_svg" style="left:702px;top:143px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP2pm_6" class="_shpP2pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_3" tabindex="7" index="3" class="_lbUnitArray_3" data-bind="visible : _lbUnitArray_3.Visible, text : _lbUnitArray_3.Text, imagePath : _lbUnitArray_3.ImagePath">E03</label>
+      <label id="_lbPositionArray_3" tabindex="28" index="3" class="_lbPositionArray_3" data-bind="visible : _lbPositionArray_3.Visible, text : _lbPositionArray_3.Text, imagePath : _lbPositionArray_3.ImagePath">4th</label>
+      <label id="_lbAMPM_3" tabindex="189" index="3" class="_lbAMPM_3" data-bind="visible : _lbAMPM_3.Visible, text : _lbAMPM_3.Text, imagePath : _lbAMPM_3.ImagePath">PM</label>
+      <label id="_lbPos2pm_0" tabindex="74" index="0" class="_lbPos2pm_0" data-bind="DragDrop : _lbPos2pm_0.lbPos2pm_DragDrop, DragOver : _lbPos2pm_0.lbPos2pm_DragOver, style : { backgroundColor : _lbPos2pm_0.BackColor.Value, color : _lbPos2pm_0.ForeColor.Value }, enabled : _lbPos2pm_0.Enabled, visible : _lbPos2pm_0.Visible, text : _lbPos2pm_0.Text, imagePath : _lbPos2pm_0.ImagePath, events : { mousedown : _lbPos2pm_0_MouseDown }, ">2-PM</label>
+      <label id="_lbPos2pm_1" tabindex="75" index="1" class="_lbPos2pm_1" data-bind="DragDrop : _lbPos2pm_1.lbPos2pm_DragDrop, DragOver : _lbPos2pm_1.lbPos2pm_DragOver, style : { backgroundColor : _lbPos2pm_1.BackColor.Value, color : _lbPos2pm_1.ForeColor.Value }, enabled : _lbPos2pm_1.Enabled, visible : _lbPos2pm_1.Visible, text : _lbPos2pm_1.Text, imagePath : _lbPos2pm_1.ImagePath, events : { mousedown : _lbPos2pm_1_MouseDown }, ">2-PM</label>
+      <label id="_lbPos2pm_2" tabindex="76" index="2" class="_lbPos2pm_2" data-bind="DragDrop : _lbPos2pm_2.lbPos2pm_DragDrop, DragOver : _lbPos2pm_2.lbPos2pm_DragOver, style : { backgroundColor : _lbPos2pm_2.BackColor.Value, color : _lbPos2pm_2.ForeColor.Value }, enabled : _lbPos2pm_2.Enabled, visible : _lbPos2pm_2.Visible, text : _lbPos2pm_2.Text, imagePath : _lbPos2pm_2.ImagePath, events : { mousedown : _lbPos2pm_2_MouseDown }, ">2-PM</label>
+      <label id="_lbPos2pm_3" tabindex="77" index="3" class="_lbPos2pm_3" data-bind="DragDrop : _lbPos2pm_3.lbPos2pm_DragDrop, DragOver : _lbPos2pm_3.lbPos2pm_DragOver, style : { backgroundColor : _lbPos2pm_3.BackColor.Value, color : _lbPos2pm_3.ForeColor.Value }, enabled : _lbPos2pm_3.Enabled, visible : _lbPos2pm_3.Visible, text : _lbPos2pm_3.Text, imagePath : _lbPos2pm_3.ImagePath, events : { mousedown : _lbPos2pm_3_MouseDown }, ">2-PM</label>
+      <label id="_lbPos2pm_4" tabindex="78" index="4" class="_lbPos2pm_4" data-bind="DragDrop : _lbPos2pm_4.lbPos2pm_DragDrop, DragOver : _lbPos2pm_4.lbPos2pm_DragOver, style : { backgroundColor : _lbPos2pm_4.BackColor.Value, color : _lbPos2pm_4.ForeColor.Value }, enabled : _lbPos2pm_4.Enabled, visible : _lbPos2pm_4.Visible, text : _lbPos2pm_4.Text, imagePath : _lbPos2pm_4.ImagePath, events : { mousedown : _lbPos2pm_4_MouseDown }, ">2-PM</label>
+      <label id="_lbPos2pm_5" tabindex="79" index="5" class="_lbPos2pm_5" data-bind="DragDrop : _lbPos2pm_5.lbPos2pm_DragDrop, DragOver : _lbPos2pm_5.lbPos2pm_DragOver, style : { backgroundColor : _lbPos2pm_5.BackColor.Value, color : _lbPos2pm_5.ForeColor.Value }, enabled : _lbPos2pm_5.Enabled, visible : _lbPos2pm_5.Visible, text : _lbPos2pm_5.Text, imagePath : _lbPos2pm_5.ImagePath, events : { mousedown : _lbPos2pm_5_MouseDown }, ">2-PM</label>
+      <label id="_lbPos2pm_6" tabindex="80" index="6" class="_lbPos2pm_6" data-bind="DragDrop : _lbPos2pm_6.lbPos2pm_DragDrop, DragOver : _lbPos2pm_6.lbPos2pm_DragOver, style : { backgroundColor : _lbPos2pm_6.BackColor.Value, color : _lbPos2pm_6.ForeColor.Value }, enabled : _lbPos2pm_6.Enabled, visible : _lbPos2pm_6.Visible, text : _lbPos2pm_6.Text, imagePath : _lbPos2pm_6.ImagePath, events : { mousedown : _lbPos2pm_6_MouseDown }, ">2-PM</label>
+      <label id="_Line1_1" index="1" class="_Line1_1" data-bind="visible : _Line1_1.Visible, text : _Line1_1.Text, imagePath : _Line1_1.ImagePath"></label>
+      <label id="_lbUnitArray_4" tabindex="8" index="4" class="_lbUnitArray_4" data-bind="visible : _lbUnitArray_4.Visible, text : _lbUnitArray_4.Text, imagePath : _lbUnitArray_4.ImagePath">E03</label>
+      <label id="_lbPositionArray_4" tabindex="29" index="4" class="_lbPositionArray_4" data-bind="visible : _lbPositionArray_4.Visible, text : _lbPositionArray_4.Text, imagePath : _lbPositionArray_4.ImagePath">4th</label>
+      <label id="_lbAMPM_4" tabindex="190" index="4" class="_lbAMPM_4" data-bind="visible : _lbAMPM_4.Visible, text : _lbAMPM_4.Text, imagePath : _lbAMPM_4.ImagePath">AM</label>
+      <label id="_lbPos3am_0" tabindex="81" index="0" class="_lbPos3am_0" data-bind="DragDrop : _lbPos3am_0.lbPos3am_DragDrop, DragOver : _lbPos3am_0.lbPos3am_DragOver, style : { backgroundColor : _lbPos3am_0.BackColor.Value, color : _lbPos3am_0.ForeColor.Value }, enabled : _lbPos3am_0.Enabled, visible : _lbPos3am_0.Visible, text : _lbPos3am_0.Text, imagePath : _lbPos3am_0.ImagePath, events : { mousedown : _lbPos3am_0_MouseDown }, ">3-AM</label>
+      <label id="_lbPos3am_1" tabindex="82" index="1" class="_lbPos3am_1" data-bind="DragDrop : _lbPos3am_1.lbPos3am_DragDrop, DragOver : _lbPos3am_1.lbPos3am_DragOver, style : { backgroundColor : _lbPos3am_1.BackColor.Value, color : _lbPos3am_1.ForeColor.Value }, enabled : _lbPos3am_1.Enabled, visible : _lbPos3am_1.Visible, text : _lbPos3am_1.Text, imagePath : _lbPos3am_1.ImagePath, events : { mousedown : _lbPos3am_1_MouseDown }, ">3-AM</label>
+      <label id="_lbPos3am_2" tabindex="83" index="2" class="_lbPos3am_2" data-bind="DragDrop : _lbPos3am_2.lbPos3am_DragDrop, DragOver : _lbPos3am_2.lbPos3am_DragOver, style : { backgroundColor : _lbPos3am_2.BackColor.Value, color : _lbPos3am_2.ForeColor.Value }, enabled : _lbPos3am_2.Enabled, visible : _lbPos3am_2.Visible, text : _lbPos3am_2.Text, imagePath : _lbPos3am_2.ImagePath, events : { mousedown : _lbPos3am_2_MouseDown }, ">3-AM</label>
+      <label id="_lbPos3am_3" tabindex="84" index="3" class="_lbPos3am_3" data-bind="DragDrop : _lbPos3am_3.lbPos3am_DragDrop, DragOver : _lbPos3am_3.lbPos3am_DragOver, style : { backgroundColor : _lbPos3am_3.BackColor.Value, color : _lbPos3am_3.ForeColor.Value }, enabled : _lbPos3am_3.Enabled, visible : _lbPos3am_3.Visible, text : _lbPos3am_3.Text, imagePath : _lbPos3am_3.ImagePath, events : { mousedown : _lbPos3am_3_MouseDown }, ">3-AM</label>
+      <label id="_lbPos3am_4" tabindex="85" index="4" class="_lbPos3am_4" data-bind="DragDrop : _lbPos3am_4.lbPos3am_DragDrop, DragOver : _lbPos3am_4.lbPos3am_DragOver, style : { backgroundColor : _lbPos3am_4.BackColor.Value, color : _lbPos3am_4.ForeColor.Value }, enabled : _lbPos3am_4.Enabled, visible : _lbPos3am_4.Visible, text : _lbPos3am_4.Text, imagePath : _lbPos3am_4.ImagePath, events : { mousedown : _lbPos3am_4_MouseDown }, ">3-AM</label>
+      <label id="_lbPos3am_5" tabindex="86" index="5" class="_lbPos3am_5" data-bind="DragDrop : _lbPos3am_5.lbPos3am_DragDrop, DragOver : _lbPos3am_5.lbPos3am_DragOver, style : { backgroundColor : _lbPos3am_5.BackColor.Value, color : _lbPos3am_5.ForeColor.Value }, enabled : _lbPos3am_5.Enabled, visible : _lbPos3am_5.Visible, text : _lbPos3am_5.Text, imagePath : _lbPos3am_5.ImagePath, events : { mousedown : _lbPos3am_5_MouseDown }, ">3-AM</label>
+      <label id="_lbPos3am_6" tabindex="87" index="6" class="_lbPos3am_6" data-bind="DragDrop : _lbPos3am_6.lbPos3am_DragDrop, DragOver : _lbPos3am_6.lbPos3am_DragOver, style : { backgroundColor : _lbPos3am_6.BackColor.Value, color : _lbPos3am_6.ForeColor.Value }, enabled : _lbPos3am_6.Enabled, visible : _lbPos3am_6.Visible, text : _lbPos3am_6.Text, imagePath : _lbPos3am_6.ImagePath, events : { mousedown : _lbPos3am_6_MouseDown }, ">3-AM</label>
+      <div data-bind="spEnabled : _shpP3am_0.Enabled, spVisible : _shpP3am_0.Visible">
+        <svg version="1.1" class="_shpP3am_0_svg" style="left:222px;top:165px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3am_0" class="_shpP3am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3am_1.Enabled, spVisible : _shpP3am_1.Visible">
+        <svg version="1.1" class="_shpP3am_1_svg" style="left:302px;top:165px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3am_1" class="_shpP3am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3am_2.Enabled, spVisible : _shpP3am_2.Visible">
+        <svg version="1.1" class="_shpP3am_2_svg" style="left:383px;top:165px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3am_2" class="_shpP3am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3am_3.Enabled, spVisible : _shpP3am_3.Visible">
+        <svg version="1.1" class="_shpP3am_3_svg" style="left:462px;top:165px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3am_3" class="_shpP3am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3am_4.Enabled, spVisible : _shpP3am_4.Visible">
+        <svg version="1.1" class="_shpP3am_4_svg" style="left:542px;top:165px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3am_4" class="_shpP3am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3am_5.Enabled, spVisible : _shpP3am_5.Visible">
+        <svg version="1.1" class="_shpP3am_5_svg" style="left:623px;top:165px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3am_5" class="_shpP3am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3am_6.Enabled, spVisible : _shpP3am_6.Visible">
+        <svg version="1.1" class="_shpP3am_6_svg" style="left:702px;top:165px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3am_6" class="_shpP3am_6"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3pm_0.Enabled, spVisible : _shpP3pm_0.Visible">
+        <svg version="1.1" class="_shpP3pm_0_svg" style="left:222px;top:179px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3pm_0" class="_shpP3pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3pm_1.Enabled, spVisible : _shpP3pm_1.Visible">
+        <svg version="1.1" class="_shpP3pm_1_svg" style="left:302px;top:179px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3pm_1" class="_shpP3pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3pm_2.Enabled, spVisible : _shpP3pm_2.Visible">
+        <svg version="1.1" class="_shpP3pm_2_svg" style="left:383px;top:179px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3pm_2" class="_shpP3pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3pm_4.Enabled, spVisible : _shpP3pm_4.Visible">
+        <svg version="1.1" class="_shpP3pm_4_svg" style="left:542px;top:179px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3pm_4" class="_shpP3pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3pm_5.Enabled, spVisible : _shpP3pm_5.Visible">
+        <svg version="1.1" class="_shpP3pm_5_svg" style="left:623px;top:179px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3pm_5" class="_shpP3pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP3pm_6.Enabled, spVisible : _shpP3pm_6.Visible">
+        <svg version="1.1" class="_shpP3pm_6_svg" style="left:702px;top:179px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3pm_6" class="_shpP3pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_5" tabindex="9" index="5" class="_lbUnitArray_5" data-bind="visible : _lbUnitArray_5.Visible, text : _lbUnitArray_5.Text, imagePath : _lbUnitArray_5.ImagePath">E03</label>
+      <label id="_lbPositionArray_5" tabindex="30" index="5" class="_lbPositionArray_5" data-bind="visible : _lbPositionArray_5.Visible, text : _lbPositionArray_5.Text, imagePath : _lbPositionArray_5.ImagePath">4th</label>
+      <label id="_lbAMPM_5" tabindex="191" index="5" class="_lbAMPM_5" data-bind="visible : _lbAMPM_5.Visible, text : _lbAMPM_5.Text, imagePath : _lbAMPM_5.ImagePath">PM</label>
+      <label id="_lbPos3pm_0" tabindex="88" index="0" class="_lbPos3pm_0" data-bind="DragDrop : _lbPos3pm_0.lbPos3pm_DragDrop, DragOver : _lbPos3pm_0.lbPos3pm_DragOver, style : { backgroundColor : _lbPos3pm_0.BackColor.Value, color : _lbPos3pm_0.ForeColor.Value }, enabled : _lbPos3pm_0.Enabled, visible : _lbPos3pm_0.Visible, text : _lbPos3pm_0.Text, imagePath : _lbPos3pm_0.ImagePath, events : { mousedown : _lbPos3pm_0_MouseDown }, ">3-PM</label>
+      <label id="_lbPos3pm_1" tabindex="89" index="1" class="_lbPos3pm_1" data-bind="DragDrop : _lbPos3pm_1.lbPos3pm_DragDrop, DragOver : _lbPos3pm_1.lbPos3pm_DragOver, style : { backgroundColor : _lbPos3pm_1.BackColor.Value, color : _lbPos3pm_1.ForeColor.Value }, enabled : _lbPos3pm_1.Enabled, visible : _lbPos3pm_1.Visible, text : _lbPos3pm_1.Text, imagePath : _lbPos3pm_1.ImagePath, events : { mousedown : _lbPos3pm_1_MouseDown }, ">3-PM</label>
+      <label id="_lbPos3pm_2" tabindex="90" index="2" class="_lbPos3pm_2" data-bind="DragDrop : _lbPos3pm_2.lbPos3pm_DragDrop, DragOver : _lbPos3pm_2.lbPos3pm_DragOver, style : { backgroundColor : _lbPos3pm_2.BackColor.Value, color : _lbPos3pm_2.ForeColor.Value }, enabled : _lbPos3pm_2.Enabled, visible : _lbPos3pm_2.Visible, text : _lbPos3pm_2.Text, imagePath : _lbPos3pm_2.ImagePath, events : { mousedown : _lbPos3pm_2_MouseDown }, ">3-PM</label>
+      <label id="_lbPos3pm_3" tabindex="91" index="3" class="_lbPos3pm_3" data-bind="DragDrop : _lbPos3pm_3.lbPos3pm_DragDrop, DragOver : _lbPos3pm_3.lbPos3pm_DragOver, style : { backgroundColor : _lbPos3pm_3.BackColor.Value, color : _lbPos3pm_3.ForeColor.Value }, enabled : _lbPos3pm_3.Enabled, visible : _lbPos3pm_3.Visible, text : _lbPos3pm_3.Text, imagePath : _lbPos3pm_3.ImagePath, events : { mousedown : _lbPos3pm_3_MouseDown }, ">3-PM</label>
+      <label id="_lbPos3pm_4" tabindex="92" index="4" class="_lbPos3pm_4" data-bind="DragDrop : _lbPos3pm_4.lbPos3pm_DragDrop, DragOver : _lbPos3pm_4.lbPos3pm_DragOver, style : { backgroundColor : _lbPos3pm_4.BackColor.Value, color : _lbPos3pm_4.ForeColor.Value }, enabled : _lbPos3pm_4.Enabled, visible : _lbPos3pm_4.Visible, text : _lbPos3pm_4.Text, imagePath : _lbPos3pm_4.ImagePath, events : { mousedown : _lbPos3pm_4_MouseDown }, ">3-PM</label>
+      <label id="_lbPos3pm_5" tabindex="93" index="5" class="_lbPos3pm_5" data-bind="DragDrop : _lbPos3pm_5.lbPos3pm_DragDrop, DragOver : _lbPos3pm_5.lbPos3pm_DragOver, style : { backgroundColor : _lbPos3pm_5.BackColor.Value, color : _lbPos3pm_5.ForeColor.Value }, enabled : _lbPos3pm_5.Enabled, visible : _lbPos3pm_5.Visible, text : _lbPos3pm_5.Text, imagePath : _lbPos3pm_5.ImagePath, events : { mousedown : _lbPos3pm_5_MouseDown }, ">3-PM</label>
+      <label id="_lbPos3pm_6" tabindex="94" index="6" class="_lbPos3pm_6" data-bind="DragDrop : _lbPos3pm_6.lbPos3pm_DragDrop, DragOver : _lbPos3pm_6.lbPos3pm_DragOver, style : { backgroundColor : _lbPos3pm_6.BackColor.Value, color : _lbPos3pm_6.ForeColor.Value }, enabled : _lbPos3pm_6.Enabled, visible : _lbPos3pm_6.Visible, text : _lbPos3pm_6.Text, imagePath : _lbPos3pm_6.ImagePath, events : { mousedown : _lbPos3pm_6_MouseDown }, ">3-PM</label>
+      <div data-bind="spEnabled : _shpP3pm_3.Enabled, spVisible : _shpP3pm_3.Visible">
+        <svg version="1.1" class="_shpP3pm_3_svg" style="left:462px;top:182px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP3pm_3" class="_shpP3pm_3"></circle>
+        </svg>
+      </div>
+      <label id="_Line1_2" index="2" class="_Line1_2" data-bind="visible : _Line1_2.Visible, text : _Line1_2.Text, imagePath : _Line1_2.ImagePath"></label>
+      <label id="_lbUnitArray_6" tabindex="10" index="6" class="_lbUnitArray_6" data-bind="visible : _lbUnitArray_6.Visible, text : _lbUnitArray_6.Text, imagePath : _lbUnitArray_6.ImagePath">E03</label>
+      <label id="_lbPositionArray_6" tabindex="31" index="6" class="_lbPositionArray_6" data-bind="visible : _lbPositionArray_6.Visible, text : _lbPositionArray_6.Text, imagePath : _lbPositionArray_6.ImagePath">4th</label>
+      <label id="_lbAMPM_6" tabindex="192" index="6" class="_lbAMPM_6" data-bind="visible : _lbAMPM_6.Visible, text : _lbAMPM_6.Text, imagePath : _lbAMPM_6.ImagePath">AM</label>
+      <label id="_lbPos4am_0" tabindex="95" index="0" class="_lbPos4am_0" data-bind="DragDrop : _lbPos4am_0.lbPos4am_DragDrop, DragOver : _lbPos4am_0.lbPos4am_DragOver, style : { backgroundColor : _lbPos4am_0.BackColor.Value, color : _lbPos4am_0.ForeColor.Value }, enabled : _lbPos4am_0.Enabled, visible : _lbPos4am_0.Visible, text : _lbPos4am_0.Text, imagePath : _lbPos4am_0.ImagePath, events : { mousedown : _lbPos4am_0_MouseDown }, ">4-AM</label>
+      <label id="_lbPos4am_1" tabindex="96" index="1" class="_lbPos4am_1" data-bind="DragDrop : _lbPos4am_1.lbPos4am_DragDrop, DragOver : _lbPos4am_1.lbPos4am_DragOver, style : { backgroundColor : _lbPos4am_1.BackColor.Value, color : _lbPos4am_1.ForeColor.Value }, enabled : _lbPos4am_1.Enabled, visible : _lbPos4am_1.Visible, text : _lbPos4am_1.Text, imagePath : _lbPos4am_1.ImagePath, events : { mousedown : _lbPos4am_1_MouseDown }, ">4-AM</label>
+      <label id="_lbPos4am_2" tabindex="97" index="2" class="_lbPos4am_2" data-bind="DragDrop : _lbPos4am_2.lbPos4am_DragDrop, DragOver : _lbPos4am_2.lbPos4am_DragOver, style : { backgroundColor : _lbPos4am_2.BackColor.Value, color : _lbPos4am_2.ForeColor.Value }, enabled : _lbPos4am_2.Enabled, visible : _lbPos4am_2.Visible, text : _lbPos4am_2.Text, imagePath : _lbPos4am_2.ImagePath, events : { mousedown : _lbPos4am_2_MouseDown }, ">4-AM</label>
+      <label id="_lbPos4am_3" tabindex="98" index="3" class="_lbPos4am_3" data-bind="DragDrop : _lbPos4am_3.lbPos4am_DragDrop, DragOver : _lbPos4am_3.lbPos4am_DragOver, style : { backgroundColor : _lbPos4am_3.BackColor.Value, color : _lbPos4am_3.ForeColor.Value }, enabled : _lbPos4am_3.Enabled, visible : _lbPos4am_3.Visible, text : _lbPos4am_3.Text, imagePath : _lbPos4am_3.ImagePath, events : { mousedown : _lbPos4am_3_MouseDown }, ">4-AM</label>
+      <label id="_lbPos4am_4" tabindex="99" index="4" class="_lbPos4am_4" data-bind="DragDrop : _lbPos4am_4.lbPos4am_DragDrop, DragOver : _lbPos4am_4.lbPos4am_DragOver, style : { backgroundColor : _lbPos4am_4.BackColor.Value, color : _lbPos4am_4.ForeColor.Value }, enabled : _lbPos4am_4.Enabled, visible : _lbPos4am_4.Visible, text : _lbPos4am_4.Text, imagePath : _lbPos4am_4.ImagePath, events : { mousedown : _lbPos4am_4_MouseDown }, ">4-AM</label>
+      <label id="_lbPos4am_5" tabindex="100" index="5" class="_lbPos4am_5" data-bind="DragDrop : _lbPos4am_5.lbPos4am_DragDrop, DragOver : _lbPos4am_5.lbPos4am_DragOver, style : { backgroundColor : _lbPos4am_5.BackColor.Value, color : _lbPos4am_5.ForeColor.Value }, enabled : _lbPos4am_5.Enabled, visible : _lbPos4am_5.Visible, text : _lbPos4am_5.Text, imagePath : _lbPos4am_5.ImagePath, events : { mousedown : _lbPos4am_5_MouseDown }, ">4-AM</label>
+      <label id="_lbPos4am_6" tabindex="101" index="6" class="_lbPos4am_6" data-bind="DragDrop : _lbPos4am_6.lbPos4am_DragDrop, DragOver : _lbPos4am_6.lbPos4am_DragOver, style : { backgroundColor : _lbPos4am_6.BackColor.Value, color : _lbPos4am_6.ForeColor.Value }, enabled : _lbPos4am_6.Enabled, visible : _lbPos4am_6.Visible, text : _lbPos4am_6.Text, imagePath : _lbPos4am_6.ImagePath, events : { mousedown : _lbPos4am_6_MouseDown }, ">4-AM</label>
+      <div data-bind="spEnabled : _shpP4am_0.Enabled, spVisible : _shpP4am_0.Visible">
+        <svg version="1.1" class="_shpP4am_0_svg" style="left:222px;top:201px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4am_0" class="_shpP4am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4am_1.Enabled, spVisible : _shpP4am_1.Visible">
+        <svg version="1.1" class="_shpP4am_1_svg" style="left:302px;top:201px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4am_1" class="_shpP4am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4am_2.Enabled, spVisible : _shpP4am_2.Visible">
+        <svg version="1.1" class="_shpP4am_2_svg" style="left:383px;top:201px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4am_2" class="_shpP4am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4am_3.Enabled, spVisible : _shpP4am_3.Visible">
+        <svg version="1.1" class="_shpP4am_3_svg" style="left:462px;top:201px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4am_3" class="_shpP4am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4am_4.Enabled, spVisible : _shpP4am_4.Visible">
+        <svg version="1.1" class="_shpP4am_4_svg" style="left:542px;top:201px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4am_4" class="_shpP4am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4am_5.Enabled, spVisible : _shpP4am_5.Visible">
+        <svg version="1.1" class="_shpP4am_5_svg" style="left:623px;top:201px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4am_5" class="_shpP4am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4am_6.Enabled, spVisible : _shpP4am_6.Visible">
+        <svg version="1.1" class="_shpP4am_6_svg" style="left:702px;top:201px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4am_6" class="_shpP4am_6"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4pm_0.Enabled, spVisible : _shpP4pm_0.Visible">
+        <svg version="1.1" class="_shpP4pm_0_svg" style="left:222px;top:215px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4pm_0" class="_shpP4pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4pm_1.Enabled, spVisible : _shpP4pm_1.Visible">
+        <svg version="1.1" class="_shpP4pm_1_svg" style="left:302px;top:215px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4pm_1" class="_shpP4pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4pm_2.Enabled, spVisible : _shpP4pm_2.Visible">
+        <svg version="1.1" class="_shpP4pm_2_svg" style="left:383px;top:215px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4pm_2" class="_shpP4pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4pm_3.Enabled, spVisible : _shpP4pm_3.Visible">
+        <svg version="1.1" class="_shpP4pm_3_svg" style="left:462px;top:215px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4pm_3" class="_shpP4pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4pm_4.Enabled, spVisible : _shpP4pm_4.Visible">
+        <svg version="1.1" class="_shpP4pm_4_svg" style="left:542px;top:215px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4pm_4" class="_shpP4pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4pm_5.Enabled, spVisible : _shpP4pm_5.Visible">
+        <svg version="1.1" class="_shpP4pm_5_svg" style="left:623px;top:215px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4pm_5" class="_shpP4pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP4pm_6.Enabled, spVisible : _shpP4pm_6.Visible">
+        <svg version="1.1" class="_shpP4pm_6_svg" style="left:702px;top:215px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP4pm_6" class="_shpP4pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_7" tabindex="11" index="7" class="_lbUnitArray_7" data-bind="visible : _lbUnitArray_7.Visible, text : _lbUnitArray_7.Text, imagePath : _lbUnitArray_7.ImagePath">E03</label>
+      <label id="_lbPositionArray_7" tabindex="32" index="7" class="_lbPositionArray_7" data-bind="visible : _lbPositionArray_7.Visible, text : _lbPositionArray_7.Text, imagePath : _lbPositionArray_7.ImagePath">4th</label>
+      <label id="_lbAMPM_7" tabindex="193" index="7" class="_lbAMPM_7" data-bind="visible : _lbAMPM_7.Visible, text : _lbAMPM_7.Text, imagePath : _lbAMPM_7.ImagePath">PM</label>
+      <label id="_lbPos4pm_0" tabindex="102" index="0" class="_lbPos4pm_0" data-bind="DragDrop : _lbPos4pm_0.lbPos4pm_DragDrop, DragOver : _lbPos4pm_0.lbPos4pm_DragOver, style : { backgroundColor : _lbPos4pm_0.BackColor.Value, color : _lbPos4pm_0.ForeColor.Value }, enabled : _lbPos4pm_0.Enabled, visible : _lbPos4pm_0.Visible, text : _lbPos4pm_0.Text, imagePath : _lbPos4pm_0.ImagePath, events : { mousedown : _lbPos4pm_0_MouseDown }, ">4-PM</label>
+      <label id="_lbPos4pm_1" tabindex="103" index="1" class="_lbPos4pm_1" data-bind="DragDrop : _lbPos4pm_1.lbPos4pm_DragDrop, DragOver : _lbPos4pm_1.lbPos4pm_DragOver, style : { backgroundColor : _lbPos4pm_1.BackColor.Value, color : _lbPos4pm_1.ForeColor.Value }, enabled : _lbPos4pm_1.Enabled, visible : _lbPos4pm_1.Visible, text : _lbPos4pm_1.Text, imagePath : _lbPos4pm_1.ImagePath, events : { mousedown : _lbPos4pm_1_MouseDown }, ">4-PM</label>
+      <label id="_lbPos4pm_2" tabindex="104" index="2" class="_lbPos4pm_2" data-bind="DragDrop : _lbPos4pm_2.lbPos4pm_DragDrop, DragOver : _lbPos4pm_2.lbPos4pm_DragOver, style : { backgroundColor : _lbPos4pm_2.BackColor.Value, color : _lbPos4pm_2.ForeColor.Value }, enabled : _lbPos4pm_2.Enabled, visible : _lbPos4pm_2.Visible, text : _lbPos4pm_2.Text, imagePath : _lbPos4pm_2.ImagePath, events : { mousedown : _lbPos4pm_2_MouseDown }, ">4-PM</label>
+      <label id="_lbPos4pm_3" tabindex="105" index="3" class="_lbPos4pm_3" data-bind="DragDrop : _lbPos4pm_3.lbPos4pm_DragDrop, DragOver : _lbPos4pm_3.lbPos4pm_DragOver, style : { backgroundColor : _lbPos4pm_3.BackColor.Value, color : _lbPos4pm_3.ForeColor.Value }, enabled : _lbPos4pm_3.Enabled, visible : _lbPos4pm_3.Visible, text : _lbPos4pm_3.Text, imagePath : _lbPos4pm_3.ImagePath, events : { mousedown : _lbPos4pm_3_MouseDown }, ">4-PM</label>
+      <label id="_lbPos4pm_4" tabindex="106" index="4" class="_lbPos4pm_4" data-bind="DragDrop : _lbPos4pm_4.lbPos4pm_DragDrop, DragOver : _lbPos4pm_4.lbPos4pm_DragOver, style : { backgroundColor : _lbPos4pm_4.BackColor.Value, color : _lbPos4pm_4.ForeColor.Value }, enabled : _lbPos4pm_4.Enabled, visible : _lbPos4pm_4.Visible, text : _lbPos4pm_4.Text, imagePath : _lbPos4pm_4.ImagePath, events : { mousedown : _lbPos4pm_4_MouseDown }, ">4-PM</label>
+      <label id="_lbPos4pm_5" tabindex="107" index="5" class="_lbPos4pm_5" data-bind="DragDrop : _lbPos4pm_5.lbPos4pm_DragDrop, DragOver : _lbPos4pm_5.lbPos4pm_DragOver, style : { backgroundColor : _lbPos4pm_5.BackColor.Value, color : _lbPos4pm_5.ForeColor.Value }, enabled : _lbPos4pm_5.Enabled, visible : _lbPos4pm_5.Visible, text : _lbPos4pm_5.Text, imagePath : _lbPos4pm_5.ImagePath, events : { mousedown : _lbPos4pm_5_MouseDown }, ">4-PM</label>
+      <label id="_lbPos4pm_6" tabindex="108" index="6" class="_lbPos4pm_6" data-bind="DragDrop : _lbPos4pm_6.lbPos4pm_DragDrop, DragOver : _lbPos4pm_6.lbPos4pm_DragOver, style : { backgroundColor : _lbPos4pm_6.BackColor.Value, color : _lbPos4pm_6.ForeColor.Value }, enabled : _lbPos4pm_6.Enabled, visible : _lbPos4pm_6.Visible, text : _lbPos4pm_6.Text, imagePath : _lbPos4pm_6.ImagePath, events : { mousedown : _lbPos4pm_6_MouseDown }, ">4-PM</label>
+      <label id="_Line1_3" index="3" class="_Line1_3" data-bind="visible : _Line1_3.Visible, text : _Line1_3.Text, imagePath : _Line1_3.ImagePath"></label>
+      <label id="_lbUnitArray_8" tabindex="12" index="8" class="_lbUnitArray_8" data-bind="visible : _lbUnitArray_8.Visible, text : _lbUnitArray_8.Text, imagePath : _lbUnitArray_8.ImagePath">E03</label>
+      <label id="_lbPositionArray_8" tabindex="33" index="8" class="_lbPositionArray_8" data-bind="visible : _lbPositionArray_8.Visible, text : _lbPositionArray_8.Text, imagePath : _lbPositionArray_8.ImagePath">4th</label>
+      <label id="_lbAMPM_8" tabindex="194" index="8" class="_lbAMPM_8" data-bind="visible : _lbAMPM_8.Visible, text : _lbAMPM_8.Text, imagePath : _lbAMPM_8.ImagePath">AM</label>
+      <label id="_lbPos5am_0" tabindex="109" index="0" class="_lbPos5am_0" data-bind="DragDrop : _lbPos5am_0.lbPos5am_DragDrop, DragOver : _lbPos5am_0.lbPos5am_DragOver, style : { backgroundColor : _lbPos5am_0.BackColor.Value, color : _lbPos5am_0.ForeColor.Value }, enabled : _lbPos5am_0.Enabled, visible : _lbPos5am_0.Visible, text : _lbPos5am_0.Text, imagePath : _lbPos5am_0.ImagePath, events : { mousedown : _lbPos5am_0_MouseDown }, ">5-AM</label>
+      <label id="_lbPos5am_1" tabindex="110" index="1" class="_lbPos5am_1" data-bind="DragDrop : _lbPos5am_1.lbPos5am_DragDrop, DragOver : _lbPos5am_1.lbPos5am_DragOver, style : { backgroundColor : _lbPos5am_1.BackColor.Value, color : _lbPos5am_1.ForeColor.Value }, enabled : _lbPos5am_1.Enabled, visible : _lbPos5am_1.Visible, text : _lbPos5am_1.Text, imagePath : _lbPos5am_1.ImagePath, events : { mousedown : _lbPos5am_1_MouseDown }, ">5-AM</label>
+      <label id="_lbPos5am_2" tabindex="111" index="2" class="_lbPos5am_2" data-bind="DragDrop : _lbPos5am_2.lbPos5am_DragDrop, DragOver : _lbPos5am_2.lbPos5am_DragOver, style : { backgroundColor : _lbPos5am_2.BackColor.Value, color : _lbPos5am_2.ForeColor.Value }, enabled : _lbPos5am_2.Enabled, visible : _lbPos5am_2.Visible, text : _lbPos5am_2.Text, imagePath : _lbPos5am_2.ImagePath, events : { mousedown : _lbPos5am_2_MouseDown }, ">5-AM</label>
+      <label id="_lbPos5am_3" tabindex="112" index="3" class="_lbPos5am_3" data-bind="DragDrop : _lbPos5am_3.lbPos5am_DragDrop, DragOver : _lbPos5am_3.lbPos5am_DragOver, style : { backgroundColor : _lbPos5am_3.BackColor.Value, color : _lbPos5am_3.ForeColor.Value }, enabled : _lbPos5am_3.Enabled, visible : _lbPos5am_3.Visible, text : _lbPos5am_3.Text, imagePath : _lbPos5am_3.ImagePath, events : { mousedown : _lbPos5am_3_MouseDown }, ">5-AM</label>
+      <label id="_lbPos5am_4" tabindex="113" index="4" class="_lbPos5am_4" data-bind="DragDrop : _lbPos5am_4.lbPos5am_DragDrop, DragOver : _lbPos5am_4.lbPos5am_DragOver, style : { backgroundColor : _lbPos5am_4.BackColor.Value, color : _lbPos5am_4.ForeColor.Value }, enabled : _lbPos5am_4.Enabled, visible : _lbPos5am_4.Visible, text : _lbPos5am_4.Text, imagePath : _lbPos5am_4.ImagePath, events : { mousedown : _lbPos5am_4_MouseDown }, ">5-AM</label>
+      <label id="_lbPos5am_5" tabindex="114" index="5" class="_lbPos5am_5" data-bind="DragDrop : _lbPos5am_5.lbPos5am_DragDrop, DragOver : _lbPos5am_5.lbPos5am_DragOver, style : { backgroundColor : _lbPos5am_5.BackColor.Value, color : _lbPos5am_5.ForeColor.Value }, enabled : _lbPos5am_5.Enabled, visible : _lbPos5am_5.Visible, text : _lbPos5am_5.Text, imagePath : _lbPos5am_5.ImagePath, events : { mousedown : _lbPos5am_5_MouseDown }, ">5-AM</label>
+      <label id="_lbPos5am_6" tabindex="115" index="6" class="_lbPos5am_6" data-bind="DragDrop : _lbPos5am_6.lbPos5am_DragDrop, DragOver : _lbPos5am_6.lbPos5am_DragOver, style : { backgroundColor : _lbPos5am_6.BackColor.Value, color : _lbPos5am_6.ForeColor.Value }, enabled : _lbPos5am_6.Enabled, visible : _lbPos5am_6.Visible, text : _lbPos5am_6.Text, imagePath : _lbPos5am_6.ImagePath, events : { mousedown : _lbPos5am_6_MouseDown }, ">5-AM</label>
+      <div data-bind="spEnabled : _shpP5am_0.Enabled, spVisible : _shpP5am_0.Visible">
+        <svg version="1.1" class="_shpP5am_0_svg" style="left:222px;top:237px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5am_0" class="_shpP5am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5am_1.Enabled, spVisible : _shpP5am_1.Visible">
+        <svg version="1.1" class="_shpP5am_1_svg" style="left:302px;top:237px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5am_1" class="_shpP5am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5am_2.Enabled, spVisible : _shpP5am_2.Visible">
+        <svg version="1.1" class="_shpP5am_2_svg" style="left:383px;top:237px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5am_2" class="_shpP5am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5am_3.Enabled, spVisible : _shpP5am_3.Visible">
+        <svg version="1.1" class="_shpP5am_3_svg" style="left:462px;top:237px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5am_3" class="_shpP5am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5am_4.Enabled, spVisible : _shpP5am_4.Visible">
+        <svg version="1.1" class="_shpP5am_4_svg" style="left:542px;top:237px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5am_4" class="_shpP5am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5am_5.Enabled, spVisible : _shpP5am_5.Visible">
+        <svg version="1.1" class="_shpP5am_5_svg" style="left:623px;top:237px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5am_5" class="_shpP5am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5am_6.Enabled, spVisible : _shpP5am_6.Visible">
+        <svg version="1.1" class="_shpP5am_6_svg" style="left:702px;top:237px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5am_6" class="_shpP5am_6"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5pm_0.Enabled, spVisible : _shpP5pm_0.Visible">
+        <svg version="1.1" class="_shpP5pm_0_svg" style="left:222px;top:251px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5pm_0" class="_shpP5pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5pm_1.Enabled, spVisible : _shpP5pm_1.Visible">
+        <svg version="1.1" class="_shpP5pm_1_svg" style="left:302px;top:251px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5pm_1" class="_shpP5pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5pm_2.Enabled, spVisible : _shpP5pm_2.Visible">
+        <svg version="1.1" class="_shpP5pm_2_svg" style="left:383px;top:251px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5pm_2" class="_shpP5pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5pm_3.Enabled, spVisible : _shpP5pm_3.Visible">
+        <svg version="1.1" class="_shpP5pm_3_svg" style="left:462px;top:251px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5pm_3" class="_shpP5pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5pm_4.Enabled, spVisible : _shpP5pm_4.Visible">
+        <svg version="1.1" class="_shpP5pm_4_svg" style="left:542px;top:251px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5pm_4" class="_shpP5pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5pm_5.Enabled, spVisible : _shpP5pm_5.Visible">
+        <svg version="1.1" class="_shpP5pm_5_svg" style="left:623px;top:251px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5pm_5" class="_shpP5pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP5pm_6.Enabled, spVisible : _shpP5pm_6.Visible">
+        <svg version="1.1" class="_shpP5pm_6_svg" style="left:702px;top:251px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP5pm_6" class="_shpP5pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_9" tabindex="13" index="9" class="_lbUnitArray_9" data-bind="visible : _lbUnitArray_9.Visible, text : _lbUnitArray_9.Text, imagePath : _lbUnitArray_9.ImagePath">E03</label>
+      <label id="_lbPositionArray_9" tabindex="34" index="9" class="_lbPositionArray_9" data-bind="visible : _lbPositionArray_9.Visible, text : _lbPositionArray_9.Text, imagePath : _lbPositionArray_9.ImagePath">4th</label>
+      <label id="_lbAMPM_9" tabindex="195" index="9" class="_lbAMPM_9" data-bind="visible : _lbAMPM_9.Visible, text : _lbAMPM_9.Text, imagePath : _lbAMPM_9.ImagePath">PM</label>
+      <label id="_lbPos5pm_0" tabindex="116" index="0" class="_lbPos5pm_0" data-bind="DragDrop : _lbPos5pm_0.lbPos5pm_DragDrop, DragOver : _lbPos5pm_0.lbPos5pm_DragOver, style : { backgroundColor : _lbPos5pm_0.BackColor.Value, color : _lbPos5pm_0.ForeColor.Value }, enabled : _lbPos5pm_0.Enabled, visible : _lbPos5pm_0.Visible, text : _lbPos5pm_0.Text, imagePath : _lbPos5pm_0.ImagePath, events : { mousedown : _lbPos5pm_0_MouseDown }, ">5-PM</label>
+      <label id="_lbPos5pm_1" tabindex="117" index="1" class="_lbPos5pm_1" data-bind="DragDrop : _lbPos5pm_1.lbPos5pm_DragDrop, DragOver : _lbPos5pm_1.lbPos5pm_DragOver, style : { backgroundColor : _lbPos5pm_1.BackColor.Value, color : _lbPos5pm_1.ForeColor.Value }, enabled : _lbPos5pm_1.Enabled, visible : _lbPos5pm_1.Visible, text : _lbPos5pm_1.Text, imagePath : _lbPos5pm_1.ImagePath, events : { mousedown : _lbPos5pm_1_MouseDown }, ">5-PM</label>
+      <label id="_lbPos5pm_2" tabindex="118" index="2" class="_lbPos5pm_2" data-bind="DragDrop : _lbPos5pm_2.lbPos5pm_DragDrop, DragOver : _lbPos5pm_2.lbPos5pm_DragOver, style : { backgroundColor : _lbPos5pm_2.BackColor.Value, color : _lbPos5pm_2.ForeColor.Value }, enabled : _lbPos5pm_2.Enabled, visible : _lbPos5pm_2.Visible, text : _lbPos5pm_2.Text, imagePath : _lbPos5pm_2.ImagePath, events : { mousedown : _lbPos5pm_2_MouseDown }, ">5-PM</label>
+      <label id="_lbPos5pm_3" tabindex="119" index="3" class="_lbPos5pm_3" data-bind="DragDrop : _lbPos5pm_3.lbPos5pm_DragDrop, DragOver : _lbPos5pm_3.lbPos5pm_DragOver, style : { backgroundColor : _lbPos5pm_3.BackColor.Value, color : _lbPos5pm_3.ForeColor.Value }, enabled : _lbPos5pm_3.Enabled, visible : _lbPos5pm_3.Visible, text : _lbPos5pm_3.Text, imagePath : _lbPos5pm_3.ImagePath, events : { mousedown : _lbPos5pm_3_MouseDown }, ">5-PM</label>
+      <label id="_lbPos5pm_4" tabindex="120" index="4" class="_lbPos5pm_4" data-bind="DragDrop : _lbPos5pm_4.lbPos5pm_DragDrop, DragOver : _lbPos5pm_4.lbPos5pm_DragOver, style : { backgroundColor : _lbPos5pm_4.BackColor.Value, color : _lbPos5pm_4.ForeColor.Value }, enabled : _lbPos5pm_4.Enabled, visible : _lbPos5pm_4.Visible, text : _lbPos5pm_4.Text, imagePath : _lbPos5pm_4.ImagePath, events : { mousedown : _lbPos5pm_4_MouseDown }, ">5-PM</label>
+      <label id="_lbPos5pm_5" tabindex="121" index="5" class="_lbPos5pm_5" data-bind="DragDrop : _lbPos5pm_5.lbPos5pm_DragDrop, DragOver : _lbPos5pm_5.lbPos5pm_DragOver, style : { backgroundColor : _lbPos5pm_5.BackColor.Value, color : _lbPos5pm_5.ForeColor.Value }, enabled : _lbPos5pm_5.Enabled, visible : _lbPos5pm_5.Visible, text : _lbPos5pm_5.Text, imagePath : _lbPos5pm_5.ImagePath, events : { mousedown : _lbPos5pm_5_MouseDown }, ">5-PM</label>
+      <label id="_lbPos5pm_6" tabindex="122" index="6" class="_lbPos5pm_6" data-bind="DragDrop : _lbPos5pm_6.lbPos5pm_DragDrop, DragOver : _lbPos5pm_6.lbPos5pm_DragOver, style : { backgroundColor : _lbPos5pm_6.BackColor.Value, color : _lbPos5pm_6.ForeColor.Value }, enabled : _lbPos5pm_6.Enabled, visible : _lbPos5pm_6.Visible, text : _lbPos5pm_6.Text, imagePath : _lbPos5pm_6.ImagePath, events : { mousedown : _lbPos5pm_6_MouseDown }, ">5-PM</label>
+      <label id="_Line1_4" index="4" class="_Line1_4" data-bind="visible : _Line1_4.Visible, text : _Line1_4.Text, imagePath : _Line1_4.ImagePath"></label>
+      <label id="_lbUnitArray_10" tabindex="14" index="10" class="_lbUnitArray_10" data-bind="visible : _lbUnitArray_10.Visible, text : _lbUnitArray_10.Text, imagePath : _lbUnitArray_10.ImagePath">E03</label>
+      <label id="_lbPositionArray_10" tabindex="35" index="10" class="_lbPositionArray_10" data-bind="visible : _lbPositionArray_10.Visible, text : _lbPositionArray_10.Text, imagePath : _lbPositionArray_10.ImagePath">4th</label>
+      <label id="_lbAMPM_10" tabindex="196" index="10" class="_lbAMPM_10" data-bind="visible : _lbAMPM_10.Visible, text : _lbAMPM_10.Text, imagePath : _lbAMPM_10.ImagePath">AM</label>
+      <label id="_lbPos6am_0" tabindex="123" index="0" class="_lbPos6am_0" data-bind="DragDrop : _lbPos6am_0.lbPos6am_DragDrop, DragOver : _lbPos6am_0.lbPos6am_DragOver, style : { backgroundColor : _lbPos6am_0.BackColor.Value, color : _lbPos6am_0.ForeColor.Value }, enabled : _lbPos6am_0.Enabled, visible : _lbPos6am_0.Visible, text : _lbPos6am_0.Text, imagePath : _lbPos6am_0.ImagePath, events : { mousedown : _lbPos6am_0_MouseDown }, ">6-AM</label>
+      <label id="_lbPos6am_1" tabindex="124" index="1" class="_lbPos6am_1" data-bind="DragDrop : _lbPos6am_1.lbPos6am_DragDrop, DragOver : _lbPos6am_1.lbPos6am_DragOver, style : { backgroundColor : _lbPos6am_1.BackColor.Value, color : _lbPos6am_1.ForeColor.Value }, enabled : _lbPos6am_1.Enabled, visible : _lbPos6am_1.Visible, text : _lbPos6am_1.Text, imagePath : _lbPos6am_1.ImagePath, events : { mousedown : _lbPos6am_1_MouseDown }, ">6-AM</label>
+      <label id="_lbPos6am_2" tabindex="125" index="2" class="_lbPos6am_2" data-bind="DragDrop : _lbPos6am_2.lbPos6am_DragDrop, DragOver : _lbPos6am_2.lbPos6am_DragOver, style : { backgroundColor : _lbPos6am_2.BackColor.Value, color : _lbPos6am_2.ForeColor.Value }, enabled : _lbPos6am_2.Enabled, visible : _lbPos6am_2.Visible, text : _lbPos6am_2.Text, imagePath : _lbPos6am_2.ImagePath, events : { mousedown : _lbPos6am_2_MouseDown }, ">6-AM</label>
+      <label id="_lbPos6am_3" tabindex="126" index="3" class="_lbPos6am_3" data-bind="DragDrop : _lbPos6am_3.lbPos6am_DragDrop, DragOver : _lbPos6am_3.lbPos6am_DragOver, style : { backgroundColor : _lbPos6am_3.BackColor.Value, color : _lbPos6am_3.ForeColor.Value }, enabled : _lbPos6am_3.Enabled, visible : _lbPos6am_3.Visible, text : _lbPos6am_3.Text, imagePath : _lbPos6am_3.ImagePath, events : { mousedown : _lbPos6am_3_MouseDown }, ">6-AM</label>
+      <label id="_lbPos6am_4" tabindex="127" index="4" class="_lbPos6am_4" data-bind="DragDrop : _lbPos6am_4.lbPos6am_DragDrop, DragOver : _lbPos6am_4.lbPos6am_DragOver, style : { backgroundColor : _lbPos6am_4.BackColor.Value, color : _lbPos6am_4.ForeColor.Value }, enabled : _lbPos6am_4.Enabled, visible : _lbPos6am_4.Visible, text : _lbPos6am_4.Text, imagePath : _lbPos6am_4.ImagePath, events : { mousedown : _lbPos6am_4_MouseDown }, ">6-AM</label>
+      <label id="_lbPos6am_5" tabindex="128" index="5" class="_lbPos6am_5" data-bind="DragDrop : _lbPos6am_5.lbPos6am_DragDrop, DragOver : _lbPos6am_5.lbPos6am_DragOver, style : { backgroundColor : _lbPos6am_5.BackColor.Value, color : _lbPos6am_5.ForeColor.Value }, enabled : _lbPos6am_5.Enabled, visible : _lbPos6am_5.Visible, text : _lbPos6am_5.Text, imagePath : _lbPos6am_5.ImagePath, events : { mousedown : _lbPos6am_5_MouseDown }, ">6-AM</label>
+      <label id="_lbPos6am_6" tabindex="129" index="6" class="_lbPos6am_6" data-bind="DragDrop : _lbPos6am_6.lbPos6am_DragDrop, DragOver : _lbPos6am_6.lbPos6am_DragOver, style : { backgroundColor : _lbPos6am_6.BackColor.Value, color : _lbPos6am_6.ForeColor.Value }, enabled : _lbPos6am_6.Enabled, visible : _lbPos6am_6.Visible, text : _lbPos6am_6.Text, imagePath : _lbPos6am_6.ImagePath, events : { mousedown : _lbPos6am_6_MouseDown }, ">6-AM</label>
+      <div data-bind="spEnabled : _shpP6am_0.Enabled, spVisible : _shpP6am_0.Visible">
+        <svg version="1.1" class="_shpP6am_0_svg" style="left:222px;top:273px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6am_0" class="_shpP6am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6am_1.Enabled, spVisible : _shpP6am_1.Visible">
+        <svg version="1.1" class="_shpP6am_1_svg" style="left:302px;top:273px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6am_1" class="_shpP6am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6am_2.Enabled, spVisible : _shpP6am_2.Visible">
+        <svg version="1.1" class="_shpP6am_2_svg" style="left:383px;top:273px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6am_2" class="_shpP6am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6am_3.Enabled, spVisible : _shpP6am_3.Visible">
+        <svg version="1.1" class="_shpP6am_3_svg" style="left:462px;top:273px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6am_3" class="_shpP6am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6am_4.Enabled, spVisible : _shpP6am_4.Visible">
+        <svg version="1.1" class="_shpP6am_4_svg" style="left:542px;top:273px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6am_4" class="_shpP6am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6am_5.Enabled, spVisible : _shpP6am_5.Visible">
+        <svg version="1.1" class="_shpP6am_5_svg" style="left:621px;top:273px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6am_5" class="_shpP6am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6am_6.Enabled, spVisible : _shpP6am_6.Visible">
+        <svg version="1.1" class="_shpP6am_6_svg" style="left:702px;top:273px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6am_6" class="_shpP6am_6"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6pm_0.Enabled, spVisible : _shpP6pm_0.Visible">
+        <svg version="1.1" class="_shpP6pm_0_svg" style="left:222px;top:287px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6pm_0" class="_shpP6pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6pm_1.Enabled, spVisible : _shpP6pm_1.Visible">
+        <svg version="1.1" class="_shpP6pm_1_svg" style="left:302px;top:287px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6pm_1" class="_shpP6pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6pm_2.Enabled, spVisible : _shpP6pm_2.Visible">
+        <svg version="1.1" class="_shpP6pm_2_svg" style="left:383px;top:287px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6pm_2" class="_shpP6pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6pm_3.Enabled, spVisible : _shpP6pm_3.Visible">
+        <svg version="1.1" class="_shpP6pm_3_svg" style="left:462px;top:287px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6pm_3" class="_shpP6pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6pm_4.Enabled, spVisible : _shpP6pm_4.Visible">
+        <svg version="1.1" class="_shpP6pm_4_svg" style="left:542px;top:287px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6pm_4" class="_shpP6pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6pm_5.Enabled, spVisible : _shpP6pm_5.Visible">
+        <svg version="1.1" class="_shpP6pm_5_svg" style="left:621px;top:287px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6pm_5" class="_shpP6pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP6pm_6.Enabled, spVisible : _shpP6pm_6.Visible">
+        <svg version="1.1" class="_shpP6pm_6_svg" style="left:702px;top:287px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP6pm_6" class="_shpP6pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_11" tabindex="15" index="11" class="_lbUnitArray_11" data-bind="visible : _lbUnitArray_11.Visible, text : _lbUnitArray_11.Text, imagePath : _lbUnitArray_11.ImagePath">E03</label>
+      <label id="_lbPositionArray_11" tabindex="36" index="11" class="_lbPositionArray_11" data-bind="visible : _lbPositionArray_11.Visible, text : _lbPositionArray_11.Text, imagePath : _lbPositionArray_11.ImagePath">4th</label>
+      <label id="_lbAMPM_11" tabindex="197" index="11" class="_lbAMPM_11" data-bind="visible : _lbAMPM_11.Visible, text : _lbAMPM_11.Text, imagePath : _lbAMPM_11.ImagePath">PM</label>
+      <label id="_lbPos6pm_0" tabindex="130" index="0" class="_lbPos6pm_0" data-bind="DragDrop : _lbPos6pm_0.lbPos6pm_DragDrop, DragOver : _lbPos6pm_0.lbPos6pm_DragOver, style : { backgroundColor : _lbPos6pm_0.BackColor.Value, color : _lbPos6pm_0.ForeColor.Value }, enabled : _lbPos6pm_0.Enabled, visible : _lbPos6pm_0.Visible, text : _lbPos6pm_0.Text, imagePath : _lbPos6pm_0.ImagePath, events : { mousedown : _lbPos6pm_0_MouseDown }, ">6-PM</label>
+      <label id="_lbPos6pm_1" tabindex="131" index="1" class="_lbPos6pm_1" data-bind="DragDrop : _lbPos6pm_1.lbPos6pm_DragDrop, DragOver : _lbPos6pm_1.lbPos6pm_DragOver, style : { backgroundColor : _lbPos6pm_1.BackColor.Value, color : _lbPos6pm_1.ForeColor.Value }, enabled : _lbPos6pm_1.Enabled, visible : _lbPos6pm_1.Visible, text : _lbPos6pm_1.Text, imagePath : _lbPos6pm_1.ImagePath, events : { mousedown : _lbPos6pm_1_MouseDown }, ">6-PM</label>
+      <label id="_lbPos6pm_2" tabindex="132" index="2" class="_lbPos6pm_2" data-bind="DragDrop : _lbPos6pm_2.lbPos6pm_DragDrop, DragOver : _lbPos6pm_2.lbPos6pm_DragOver, style : { backgroundColor : _lbPos6pm_2.BackColor.Value, color : _lbPos6pm_2.ForeColor.Value }, enabled : _lbPos6pm_2.Enabled, visible : _lbPos6pm_2.Visible, text : _lbPos6pm_2.Text, imagePath : _lbPos6pm_2.ImagePath, events : { mousedown : _lbPos6pm_2_MouseDown }, ">6-PM</label>
+      <label id="_lbPos6pm_3" tabindex="133" index="3" class="_lbPos6pm_3" data-bind="DragDrop : _lbPos6pm_3.lbPos6pm_DragDrop, DragOver : _lbPos6pm_3.lbPos6pm_DragOver, style : { backgroundColor : _lbPos6pm_3.BackColor.Value, color : _lbPos6pm_3.ForeColor.Value }, enabled : _lbPos6pm_3.Enabled, visible : _lbPos6pm_3.Visible, text : _lbPos6pm_3.Text, imagePath : _lbPos6pm_3.ImagePath, events : { mousedown : _lbPos6pm_3_MouseDown }, ">6-PM</label>
+      <label id="_lbPos6pm_4" tabindex="134" index="4" class="_lbPos6pm_4" data-bind="DragDrop : _lbPos6pm_4.lbPos6pm_DragDrop, DragOver : _lbPos6pm_4.lbPos6pm_DragOver, style : { backgroundColor : _lbPos6pm_4.BackColor.Value, color : _lbPos6pm_4.ForeColor.Value }, enabled : _lbPos6pm_4.Enabled, visible : _lbPos6pm_4.Visible, text : _lbPos6pm_4.Text, imagePath : _lbPos6pm_4.ImagePath, events : { mousedown : _lbPos6pm_4_MouseDown }, ">6-PM</label>
+      <label id="_lbPos6pm_5" tabindex="135" index="5" class="_lbPos6pm_5" data-bind="DragDrop : _lbPos6pm_5.lbPos6pm_DragDrop, DragOver : _lbPos6pm_5.lbPos6pm_DragOver, style : { backgroundColor : _lbPos6pm_5.BackColor.Value, color : _lbPos6pm_5.ForeColor.Value }, enabled : _lbPos6pm_5.Enabled, visible : _lbPos6pm_5.Visible, text : _lbPos6pm_5.Text, imagePath : _lbPos6pm_5.ImagePath, events : { mousedown : _lbPos6pm_5_MouseDown }, ">6-PM</label>
+      <label id="_lbPos6pm_6" tabindex="136" index="6" class="_lbPos6pm_6" data-bind="DragDrop : _lbPos6pm_6.lbPos6pm_DragDrop, DragOver : _lbPos6pm_6.lbPos6pm_DragOver, style : { backgroundColor : _lbPos6pm_6.BackColor.Value, color : _lbPos6pm_6.ForeColor.Value }, enabled : _lbPos6pm_6.Enabled, visible : _lbPos6pm_6.Visible, text : _lbPos6pm_6.Text, imagePath : _lbPos6pm_6.ImagePath, events : { mousedown : _lbPos6pm_6_MouseDown }, ">6-PM</label>
+      <label id="_Line1_5" index="5" class="_Line1_5" data-bind="visible : _Line1_5.Visible, text : _Line1_5.Text, imagePath : _Line1_5.ImagePath"></label>
+      <label id="_lbUnitArray_12" tabindex="16" index="12" class="_lbUnitArray_12" data-bind="visible : _lbUnitArray_12.Visible, text : _lbUnitArray_12.Text, imagePath : _lbUnitArray_12.ImagePath">E03</label>
+      <label id="_lbPositionArray_12" tabindex="37" index="12" class="_lbPositionArray_12" data-bind="visible : _lbPositionArray_12.Visible, text : _lbPositionArray_12.Text, imagePath : _lbPositionArray_12.ImagePath">4th</label>
+      <label id="_lbAMPM_12" tabindex="198" index="12" class="_lbAMPM_12" data-bind="visible : _lbAMPM_12.Visible, text : _lbAMPM_12.Text, imagePath : _lbAMPM_12.ImagePath">AM</label>
+      <label id="_lbPos7am_0" tabindex="223" index="0" class="_lbPos7am_0" data-bind="DragDrop : _lbPos7am_0.lbPos7am_DragDrop, DragOver : _lbPos7am_0.lbPos7am_DragOver, style : { backgroundColor : _lbPos7am_0.BackColor.Value, color : _lbPos7am_0.ForeColor.Value }, enabled : _lbPos7am_0.Enabled, visible : _lbPos7am_0.Visible, text : _lbPos7am_0.Text, imagePath : _lbPos7am_0.ImagePath, events : { mousedown : _lbPos7am_0_MouseDown }, ">7-AM</label>
+      <label id="_lbPos7am_1" tabindex="224" index="1" class="_lbPos7am_1" data-bind="DragDrop : _lbPos7am_1.lbPos7am_DragDrop, DragOver : _lbPos7am_1.lbPos7am_DragOver, style : { backgroundColor : _lbPos7am_1.BackColor.Value, color : _lbPos7am_1.ForeColor.Value }, enabled : _lbPos7am_1.Enabled, visible : _lbPos7am_1.Visible, text : _lbPos7am_1.Text, imagePath : _lbPos7am_1.ImagePath, events : { mousedown : _lbPos7am_1_MouseDown }, ">7-AM</label>
+      <label id="_lbPos7am_2" tabindex="225" index="2" class="_lbPos7am_2" data-bind="DragDrop : _lbPos7am_2.lbPos7am_DragDrop, DragOver : _lbPos7am_2.lbPos7am_DragOver, style : { backgroundColor : _lbPos7am_2.BackColor.Value, color : _lbPos7am_2.ForeColor.Value }, enabled : _lbPos7am_2.Enabled, visible : _lbPos7am_2.Visible, text : _lbPos7am_2.Text, imagePath : _lbPos7am_2.ImagePath, events : { mousedown : _lbPos7am_2_MouseDown }, ">7-AM</label>
+      <label id="_lbPos7am_3" tabindex="226" index="3" class="_lbPos7am_3" data-bind="DragDrop : _lbPos7am_3.lbPos7am_DragDrop, DragOver : _lbPos7am_3.lbPos7am_DragOver, style : { backgroundColor : _lbPos7am_3.BackColor.Value, color : _lbPos7am_3.ForeColor.Value }, enabled : _lbPos7am_3.Enabled, visible : _lbPos7am_3.Visible, text : _lbPos7am_3.Text, imagePath : _lbPos7am_3.ImagePath, events : { mousedown : _lbPos7am_3_MouseDown }, ">7-AM</label>
+      <label id="_lbPos7am_4" tabindex="227" index="4" class="_lbPos7am_4" data-bind="DragDrop : _lbPos7am_4.lbPos7am_DragDrop, DragOver : _lbPos7am_4.lbPos7am_DragOver, style : { backgroundColor : _lbPos7am_4.BackColor.Value, color : _lbPos7am_4.ForeColor.Value }, enabled : _lbPos7am_4.Enabled, visible : _lbPos7am_4.Visible, text : _lbPos7am_4.Text, imagePath : _lbPos7am_4.ImagePath, events : { mousedown : _lbPos7am_4_MouseDown }, ">7-AM</label>
+      <label id="_lbPos7am_5" tabindex="228" index="5" class="_lbPos7am_5" data-bind="DragDrop : _lbPos7am_5.lbPos7am_DragDrop, DragOver : _lbPos7am_5.lbPos7am_DragOver, style : { backgroundColor : _lbPos7am_5.BackColor.Value, color : _lbPos7am_5.ForeColor.Value }, enabled : _lbPos7am_5.Enabled, visible : _lbPos7am_5.Visible, text : _lbPos7am_5.Text, imagePath : _lbPos7am_5.ImagePath, events : { mousedown : _lbPos7am_5_MouseDown }, ">7-AM</label>
+      <label id="_lbPos7am_6" tabindex="229" index="6" class="_lbPos7am_6" data-bind="DragDrop : _lbPos7am_6.lbPos7am_DragDrop, DragOver : _lbPos7am_6.lbPos7am_DragOver, style : { backgroundColor : _lbPos7am_6.BackColor.Value, color : _lbPos7am_6.ForeColor.Value }, enabled : _lbPos7am_6.Enabled, visible : _lbPos7am_6.Visible, text : _lbPos7am_6.Text, imagePath : _lbPos7am_6.ImagePath, events : { mousedown : _lbPos7am_6_MouseDown }, ">7-AM</label>
+      <div data-bind="spEnabled : _shpP7am_0.Enabled, spVisible : _shpP7am_0.Visible">
+        <svg version="1.1" class="_shpP7am_0_svg" style="left:222px;top:309px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7am_0" class="_shpP7am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7am_1.Enabled, spVisible : _shpP7am_1.Visible">
+        <svg version="1.1" class="_shpP7am_1_svg" style="left:302px;top:309px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7am_1" class="_shpP7am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7am_2.Enabled, spVisible : _shpP7am_2.Visible">
+        <svg version="1.1" class="_shpP7am_2_svg" style="left:383px;top:309px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7am_2" class="_shpP7am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7am_3.Enabled, spVisible : _shpP7am_3.Visible">
+        <svg version="1.1" class="_shpP7am_3_svg" style="left:462px;top:309px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7am_3" class="_shpP7am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7am_4.Enabled, spVisible : _shpP7am_4.Visible">
+        <svg version="1.1" class="_shpP7am_4_svg" style="left:542px;top:309px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7am_4" class="_shpP7am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7am_5.Enabled, spVisible : _shpP7am_5.Visible">
+        <svg version="1.1" class="_shpP7am_5_svg" style="left:623px;top:309px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7am_5" class="_shpP7am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7am_6.Enabled, spVisible : _shpP7am_6.Visible">
+        <svg version="1.1" class="_shpP7am_6_svg" style="left:702px;top:309px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7am_6" class="_shpP7am_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_13" tabindex="17" index="13" class="_lbUnitArray_13" data-bind="visible : _lbUnitArray_13.Visible, text : _lbUnitArray_13.Text, imagePath : _lbUnitArray_13.ImagePath">E03</label>
+      <label id="_lbPositionArray_13" tabindex="38" index="13" class="_lbPositionArray_13" data-bind="visible : _lbPositionArray_13.Visible, text : _lbPositionArray_13.Text, imagePath : _lbPositionArray_13.ImagePath">4th</label>
+      <label id="_lbAMPM_13" tabindex="199" index="13" class="_lbAMPM_13" data-bind="visible : _lbAMPM_13.Visible, text : _lbAMPM_13.Text, imagePath : _lbAMPM_13.ImagePath">PM</label>
+      <label id="_lbPos7pm_0" tabindex="137" index="0" class="_lbPos7pm_0" data-bind="DragDrop : _lbPos7pm_0.lbPos7pm_DragDrop, DragOver : _lbPos7pm_0.lbPos7pm_DragOver, style : { backgroundColor : _lbPos7pm_0.BackColor.Value, color : _lbPos7pm_0.ForeColor.Value }, enabled : _lbPos7pm_0.Enabled, visible : _lbPos7pm_0.Visible, text : _lbPos7pm_0.Text, imagePath : _lbPos7pm_0.ImagePath, events : { mousedown : _lbPos7pm_0_MouseDown }, ">7-PM</label>
+      <label id="_lbPos7pm_1" tabindex="138" index="1" class="_lbPos7pm_1" data-bind="DragDrop : _lbPos7pm_1.lbPos7pm_DragDrop, DragOver : _lbPos7pm_1.lbPos7pm_DragOver, style : { backgroundColor : _lbPos7pm_1.BackColor.Value, color : _lbPos7pm_1.ForeColor.Value }, enabled : _lbPos7pm_1.Enabled, visible : _lbPos7pm_1.Visible, text : _lbPos7pm_1.Text, imagePath : _lbPos7pm_1.ImagePath, events : { mousedown : _lbPos7pm_1_MouseDown }, ">7-PM</label>
+      <label id="_lbPos7pm_2" tabindex="139" index="2" class="_lbPos7pm_2" data-bind="DragDrop : _lbPos7pm_2.lbPos7pm_DragDrop, DragOver : _lbPos7pm_2.lbPos7pm_DragOver, style : { backgroundColor : _lbPos7pm_2.BackColor.Value, color : _lbPos7pm_2.ForeColor.Value }, enabled : _lbPos7pm_2.Enabled, visible : _lbPos7pm_2.Visible, text : _lbPos7pm_2.Text, imagePath : _lbPos7pm_2.ImagePath, events : { mousedown : _lbPos7pm_2_MouseDown }, ">7-PM</label>
+      <label id="_lbPos7pm_3" tabindex="140" index="3" class="_lbPos7pm_3" data-bind="DragDrop : _lbPos7pm_3.lbPos7pm_DragDrop, DragOver : _lbPos7pm_3.lbPos7pm_DragOver, style : { backgroundColor : _lbPos7pm_3.BackColor.Value, color : _lbPos7pm_3.ForeColor.Value }, enabled : _lbPos7pm_3.Enabled, visible : _lbPos7pm_3.Visible, text : _lbPos7pm_3.Text, imagePath : _lbPos7pm_3.ImagePath, events : { mousedown : _lbPos7pm_3_MouseDown }, ">7-PM</label>
+      <label id="_lbPos7pm_4" tabindex="141" index="4" class="_lbPos7pm_4" data-bind="DragDrop : _lbPos7pm_4.lbPos7pm_DragDrop, DragOver : _lbPos7pm_4.lbPos7pm_DragOver, style : { backgroundColor : _lbPos7pm_4.BackColor.Value, color : _lbPos7pm_4.ForeColor.Value }, enabled : _lbPos7pm_4.Enabled, visible : _lbPos7pm_4.Visible, text : _lbPos7pm_4.Text, imagePath : _lbPos7pm_4.ImagePath, events : { mousedown : _lbPos7pm_4_MouseDown }, ">7-PM</label>
+      <label id="_lbPos7pm_5" tabindex="142" index="5" class="_lbPos7pm_5" data-bind="DragDrop : _lbPos7pm_5.lbPos7pm_DragDrop, DragOver : _lbPos7pm_5.lbPos7pm_DragOver, style : { backgroundColor : _lbPos7pm_5.BackColor.Value, color : _lbPos7pm_5.ForeColor.Value }, enabled : _lbPos7pm_5.Enabled, visible : _lbPos7pm_5.Visible, text : _lbPos7pm_5.Text, imagePath : _lbPos7pm_5.ImagePath, events : { mousedown : _lbPos7pm_5_MouseDown }, ">7-PM</label>
+      <label id="_lbPos7pm_6" tabindex="143" index="6" class="_lbPos7pm_6" data-bind="DragDrop : _lbPos7pm_6.lbPos7pm_DragDrop, DragOver : _lbPos7pm_6.lbPos7pm_DragOver, style : { backgroundColor : _lbPos7pm_6.BackColor.Value, color : _lbPos7pm_6.ForeColor.Value }, enabled : _lbPos7pm_6.Enabled, visible : _lbPos7pm_6.Visible, text : _lbPos7pm_6.Text, imagePath : _lbPos7pm_6.ImagePath, events : { mousedown : _lbPos7pm_6_MouseDown }, ">7-PM</label>
+      <div data-bind="spEnabled : _shpP7pm_0.Enabled, spVisible : _shpP7pm_0.Visible">
+        <svg version="1.1" class="_shpP7pm_0_svg" style="left:222px;top:326px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7pm_0" class="_shpP7pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7pm_1.Enabled, spVisible : _shpP7pm_1.Visible">
+        <svg version="1.1" class="_shpP7pm_1_svg" style="left:302px;top:326px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7pm_1" class="_shpP7pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7pm_2.Enabled, spVisible : _shpP7pm_2.Visible">
+        <svg version="1.1" class="_shpP7pm_2_svg" style="left:383px;top:326px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7pm_2" class="_shpP7pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7pm_3.Enabled, spVisible : _shpP7pm_3.Visible">
+        <svg version="1.1" class="_shpP7pm_3_svg" style="left:462px;top:326px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7pm_3" class="_shpP7pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7pm_4.Enabled, spVisible : _shpP7pm_4.Visible">
+        <svg version="1.1" class="_shpP7pm_4_svg" style="left:542px;top:326px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7pm_4" class="_shpP7pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7pm_5.Enabled, spVisible : _shpP7pm_5.Visible">
+        <svg version="1.1" class="_shpP7pm_5_svg" style="left:623px;top:326px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7pm_5" class="_shpP7pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP7pm_6.Enabled, spVisible : _shpP7pm_6.Visible">
+        <svg version="1.1" class="_shpP7pm_6_svg" style="left:702px;top:326px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP7pm_6" class="_shpP7pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_Line1_6" index="6" class="_Line1_6" data-bind="visible : _Line1_6.Visible, text : _Line1_6.Text, imagePath : _Line1_6.ImagePath"></label>
+      <label id="_lbUnitArray_14" tabindex="18" index="14" class="_lbUnitArray_14" data-bind="visible : _lbUnitArray_14.Visible, text : _lbUnitArray_14.Text, imagePath : _lbUnitArray_14.ImagePath">E03</label>
+      <label id="_lbPositionArray_14" tabindex="39" index="14" class="_lbPositionArray_14" data-bind="visible : _lbPositionArray_14.Visible, text : _lbPositionArray_14.Text, imagePath : _lbPositionArray_14.ImagePath">4th</label>
+      <label id="_lbAMPM_14" tabindex="200" index="14" class="_lbAMPM_14" data-bind="visible : _lbAMPM_14.Visible, text : _lbAMPM_14.Text, imagePath : _lbAMPM_14.ImagePath">AM</label>
+      <label id="_lbPos8am_0" tabindex="144" index="0" class="_lbPos8am_0" data-bind="DragDrop : _lbPos8am_0.lbPos8am_DragDrop, DragOver : _lbPos8am_0.lbPos8am_DragOver, style : { backgroundColor : _lbPos8am_0.BackColor.Value, color : _lbPos8am_0.ForeColor.Value }, enabled : _lbPos8am_0.Enabled, visible : _lbPos8am_0.Visible, text : _lbPos8am_0.Text, imagePath : _lbPos8am_0.ImagePath, events : { mousedown : _lbPos8am_0_MouseDown }, ">8-AM</label>
+      <label id="_lbPos8am_1" tabindex="145" index="1" class="_lbPos8am_1" data-bind="DragDrop : _lbPos8am_1.lbPos8am_DragDrop, DragOver : _lbPos8am_1.lbPos8am_DragOver, style : { backgroundColor : _lbPos8am_1.BackColor.Value, color : _lbPos8am_1.ForeColor.Value }, enabled : _lbPos8am_1.Enabled, visible : _lbPos8am_1.Visible, text : _lbPos8am_1.Text, imagePath : _lbPos8am_1.ImagePath, events : { mousedown : _lbPos8am_1_MouseDown }, ">8-AM</label>
+      <label id="_lbPos8am_2" tabindex="146" index="2" class="_lbPos8am_2" data-bind="DragDrop : _lbPos8am_2.lbPos8am_DragDrop, DragOver : _lbPos8am_2.lbPos8am_DragOver, style : { backgroundColor : _lbPos8am_2.BackColor.Value, color : _lbPos8am_2.ForeColor.Value }, enabled : _lbPos8am_2.Enabled, visible : _lbPos8am_2.Visible, text : _lbPos8am_2.Text, imagePath : _lbPos8am_2.ImagePath, events : { mousedown : _lbPos8am_2_MouseDown }, ">8-AM</label>
+      <label id="_lbPos8am_3" tabindex="147" index="3" class="_lbPos8am_3" data-bind="DragDrop : _lbPos8am_3.lbPos8am_DragDrop, DragOver : _lbPos8am_3.lbPos8am_DragOver, style : { backgroundColor : _lbPos8am_3.BackColor.Value, color : _lbPos8am_3.ForeColor.Value }, enabled : _lbPos8am_3.Enabled, visible : _lbPos8am_3.Visible, text : _lbPos8am_3.Text, imagePath : _lbPos8am_3.ImagePath, events : { mousedown : _lbPos8am_3_MouseDown }, ">8-AM</label>
+      <label id="_lbPos8am_4" tabindex="148" index="4" class="_lbPos8am_4" data-bind="DragDrop : _lbPos8am_4.lbPos8am_DragDrop, DragOver : _lbPos8am_4.lbPos8am_DragOver, style : { backgroundColor : _lbPos8am_4.BackColor.Value, color : _lbPos8am_4.ForeColor.Value }, enabled : _lbPos8am_4.Enabled, visible : _lbPos8am_4.Visible, text : _lbPos8am_4.Text, imagePath : _lbPos8am_4.ImagePath, events : { mousedown : _lbPos8am_4_MouseDown }, ">8-AM</label>
+      <label id="_lbPos8am_5" tabindex="149" index="5" class="_lbPos8am_5" data-bind="DragDrop : _lbPos8am_5.lbPos8am_DragDrop, DragOver : _lbPos8am_5.lbPos8am_DragOver, style : { backgroundColor : _lbPos8am_5.BackColor.Value, color : _lbPos8am_5.ForeColor.Value }, enabled : _lbPos8am_5.Enabled, visible : _lbPos8am_5.Visible, text : _lbPos8am_5.Text, imagePath : _lbPos8am_5.ImagePath, events : { mousedown : _lbPos8am_5_MouseDown }, ">8-AM</label>
+      <label id="_lbPos8am_6" tabindex="150" index="6" class="_lbPos8am_6" data-bind="DragDrop : _lbPos8am_6.lbPos8am_DragDrop, DragOver : _lbPos8am_6.lbPos8am_DragOver, style : { backgroundColor : _lbPos8am_6.BackColor.Value, color : _lbPos8am_6.ForeColor.Value }, enabled : _lbPos8am_6.Enabled, visible : _lbPos8am_6.Visible, text : _lbPos8am_6.Text, imagePath : _lbPos8am_6.ImagePath, events : { mousedown : _lbPos8am_6_MouseDown }, ">8-AM</label>
+      <div data-bind="spEnabled : _shpP8am_0.Enabled, spVisible : _shpP8am_0.Visible">
+        <svg version="1.1" class="_shpP8am_0_svg" style="left:222px;top:345px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8am_0" class="_shpP8am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8am_1.Enabled, spVisible : _shpP8am_1.Visible">
+        <svg version="1.1" class="_shpP8am_1_svg" style="left:302px;top:345px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8am_1" class="_shpP8am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8am_2.Enabled, spVisible : _shpP8am_2.Visible">
+        <svg version="1.1" class="_shpP8am_2_svg" style="left:383px;top:345px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8am_2" class="_shpP8am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8am_3.Enabled, spVisible : _shpP8am_3.Visible">
+        <svg version="1.1" class="_shpP8am_3_svg" style="left:462px;top:345px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8am_3" class="_shpP8am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8am_4.Enabled, spVisible : _shpP8am_4.Visible">
+        <svg version="1.1" class="_shpP8am_4_svg" style="left:542px;top:345px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8am_4" class="_shpP8am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8am_5.Enabled, spVisible : _shpP8am_5.Visible">
+        <svg version="1.1" class="_shpP8am_5_svg" style="left:623px;top:345px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8am_5" class="_shpP8am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8am_6.Enabled, spVisible : _shpP8am_6.Visible">
+        <svg version="1.1" class="_shpP8am_6_svg" style="left:702px;top:345px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8am_6" class="_shpP8am_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_15" tabindex="19" index="15" class="_lbUnitArray_15" data-bind="visible : _lbUnitArray_15.Visible, text : _lbUnitArray_15.Text, imagePath : _lbUnitArray_15.ImagePath">E03</label>
+      <label id="_lbPositionArray_15" tabindex="40" index="15" class="_lbPositionArray_15" data-bind="visible : _lbPositionArray_15.Visible, text : _lbPositionArray_15.Text, imagePath : _lbPositionArray_15.ImagePath">4th</label>
+      <label id="_lbAMPM_15" tabindex="201" index="15" class="_lbAMPM_15" data-bind="visible : _lbAMPM_15.Visible, text : _lbAMPM_15.Text, imagePath : _lbAMPM_15.ImagePath">PM</label>
+      <label id="_lbPos8pm_0" tabindex="151" index="0" class="_lbPos8pm_0" data-bind="DragDrop : _lbPos8pm_0.lbPos8pm_DragDrop, DragOver : _lbPos8pm_0.lbPos8pm_DragOver, style : { backgroundColor : _lbPos8pm_0.BackColor.Value, color : _lbPos8pm_0.ForeColor.Value }, enabled : _lbPos8pm_0.Enabled, visible : _lbPos8pm_0.Visible, text : _lbPos8pm_0.Text, imagePath : _lbPos8pm_0.ImagePath, events : { mousedown : _lbPos8pm_0_MouseDown }, ">8-PM</label>
+      <label id="_lbPos8pm_1" tabindex="152" index="1" class="_lbPos8pm_1" data-bind="DragDrop : _lbPos8pm_1.lbPos8pm_DragDrop, DragOver : _lbPos8pm_1.lbPos8pm_DragOver, style : { backgroundColor : _lbPos8pm_1.BackColor.Value, color : _lbPos8pm_1.ForeColor.Value }, enabled : _lbPos8pm_1.Enabled, visible : _lbPos8pm_1.Visible, text : _lbPos8pm_1.Text, imagePath : _lbPos8pm_1.ImagePath, events : { mousedown : _lbPos8pm_1_MouseDown }, ">8-PM</label>
+      <label id="_lbPos8pm_2" tabindex="153" index="2" class="_lbPos8pm_2" data-bind="DragDrop : _lbPos8pm_2.lbPos8pm_DragDrop, DragOver : _lbPos8pm_2.lbPos8pm_DragOver, style : { backgroundColor : _lbPos8pm_2.BackColor.Value, color : _lbPos8pm_2.ForeColor.Value }, enabled : _lbPos8pm_2.Enabled, visible : _lbPos8pm_2.Visible, text : _lbPos8pm_2.Text, imagePath : _lbPos8pm_2.ImagePath, events : { mousedown : _lbPos8pm_2_MouseDown }, ">8-PM</label>
+      <label id="_lbPos8pm_3" tabindex="154" index="3" class="_lbPos8pm_3" data-bind="DragDrop : _lbPos8pm_3.lbPos8pm_DragDrop, DragOver : _lbPos8pm_3.lbPos8pm_DragOver, style : { backgroundColor : _lbPos8pm_3.BackColor.Value, color : _lbPos8pm_3.ForeColor.Value }, enabled : _lbPos8pm_3.Enabled, visible : _lbPos8pm_3.Visible, text : _lbPos8pm_3.Text, imagePath : _lbPos8pm_3.ImagePath, events : { mousedown : _lbPos8pm_3_MouseDown }, ">8-PM</label>
+      <label id="_lbPos8pm_4" tabindex="155" index="4" class="_lbPos8pm_4" data-bind="DragDrop : _lbPos8pm_4.lbPos8pm_DragDrop, DragOver : _lbPos8pm_4.lbPos8pm_DragOver, style : { backgroundColor : _lbPos8pm_4.BackColor.Value, color : _lbPos8pm_4.ForeColor.Value }, enabled : _lbPos8pm_4.Enabled, visible : _lbPos8pm_4.Visible, text : _lbPos8pm_4.Text, imagePath : _lbPos8pm_4.ImagePath, events : { mousedown : _lbPos8pm_4_MouseDown }, ">8-PM</label>
+      <label id="_lbPos8pm_5" tabindex="156" index="5" class="_lbPos8pm_5" data-bind="DragDrop : _lbPos8pm_5.lbPos8pm_DragDrop, DragOver : _lbPos8pm_5.lbPos8pm_DragOver, style : { backgroundColor : _lbPos8pm_5.BackColor.Value, color : _lbPos8pm_5.ForeColor.Value }, enabled : _lbPos8pm_5.Enabled, visible : _lbPos8pm_5.Visible, text : _lbPos8pm_5.Text, imagePath : _lbPos8pm_5.ImagePath, events : { mousedown : _lbPos8pm_5_MouseDown }, ">8-PM</label>
+      <label id="_lbPos8pm_6" tabindex="157" index="6" class="_lbPos8pm_6" data-bind="DragDrop : _lbPos8pm_6.lbPos8pm_DragDrop, DragOver : _lbPos8pm_6.lbPos8pm_DragOver, style : { backgroundColor : _lbPos8pm_6.BackColor.Value, color : _lbPos8pm_6.ForeColor.Value }, enabled : _lbPos8pm_6.Enabled, visible : _lbPos8pm_6.Visible, text : _lbPos8pm_6.Text, imagePath : _lbPos8pm_6.ImagePath, events : { mousedown : _lbPos8pm_6_MouseDown }, ">8-PM</label>
+      <div data-bind="spEnabled : _shpP8pm_0.Enabled, spVisible : _shpP8pm_0.Visible">
+        <svg version="1.1" class="_shpP8pm_0_svg" style="left:222px;top:362px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8pm_0" class="_shpP8pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8pm_1.Enabled, spVisible : _shpP8pm_1.Visible">
+        <svg version="1.1" class="_shpP8pm_1_svg" style="left:302px;top:362px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8pm_1" class="_shpP8pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8pm_2.Enabled, spVisible : _shpP8pm_2.Visible">
+        <svg version="1.1" class="_shpP8pm_2_svg" style="left:383px;top:362px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8pm_2" class="_shpP8pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8pm_3.Enabled, spVisible : _shpP8pm_3.Visible">
+        <svg version="1.1" class="_shpP8pm_3_svg" style="left:462px;top:362px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8pm_3" class="_shpP8pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8pm_4.Enabled, spVisible : _shpP8pm_4.Visible">
+        <svg version="1.1" class="_shpP8pm_4_svg" style="left:542px;top:362px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8pm_4" class="_shpP8pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8pm_5.Enabled, spVisible : _shpP8pm_5.Visible">
+        <svg version="1.1" class="_shpP8pm_5_svg" style="left:623px;top:362px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8pm_5" class="_shpP8pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP8pm_6.Enabled, spVisible : _shpP8pm_6.Visible">
+        <svg version="1.1" class="_shpP8pm_6_svg" style="left:702px;top:362px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP8pm_6" class="_shpP8pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_Line1_7" index="7" class="_Line1_7" data-bind="visible : _Line1_7.Visible, text : _Line1_7.Text, imagePath : _Line1_7.ImagePath"></label>
+      <label id="_lbUnitArray_16" tabindex="20" index="16" class="_lbUnitArray_16" data-bind="visible : _lbUnitArray_16.Visible, text : _lbUnitArray_16.Text, imagePath : _lbUnitArray_16.ImagePath">E03</label>
+      <label id="_lbPositionArray_16" tabindex="41" index="16" class="_lbPositionArray_16" data-bind="visible : _lbPositionArray_16.Visible, text : _lbPositionArray_16.Text, imagePath : _lbPositionArray_16.ImagePath">4th</label>
+      <label id="_lbAMPM_16" tabindex="202" index="16" class="_lbAMPM_16" data-bind="visible : _lbAMPM_16.Visible, text : _lbAMPM_16.Text, imagePath : _lbAMPM_16.ImagePath">AM</label>
+      <label id="_lbPos9am_0" tabindex="158" index="0" class="_lbPos9am_0" data-bind="DragDrop : _lbPos9am_0.lbPos9am_DragDrop, DragOver : _lbPos9am_0.lbPos9am_DragOver, style : { backgroundColor : _lbPos9am_0.BackColor.Value, color : _lbPos9am_0.ForeColor.Value }, enabled : _lbPos9am_0.Enabled, visible : _lbPos9am_0.Visible, text : _lbPos9am_0.Text, imagePath : _lbPos9am_0.ImagePath, events : { mousedown : _lbPos9am_0_MouseDown }, ">9-AM</label>
+      <label id="_lbPos9am_1" tabindex="159" index="1" class="_lbPos9am_1" data-bind="DragDrop : _lbPos9am_1.lbPos9am_DragDrop, DragOver : _lbPos9am_1.lbPos9am_DragOver, style : { backgroundColor : _lbPos9am_1.BackColor.Value, color : _lbPos9am_1.ForeColor.Value }, enabled : _lbPos9am_1.Enabled, visible : _lbPos9am_1.Visible, text : _lbPos9am_1.Text, imagePath : _lbPos9am_1.ImagePath, events : { mousedown : _lbPos9am_1_MouseDown }, ">9-AM</label>
+      <label id="_lbPos9am_2" tabindex="160" index="2" class="_lbPos9am_2" data-bind="DragDrop : _lbPos9am_2.lbPos9am_DragDrop, DragOver : _lbPos9am_2.lbPos9am_DragOver, style : { backgroundColor : _lbPos9am_2.BackColor.Value, color : _lbPos9am_2.ForeColor.Value }, enabled : _lbPos9am_2.Enabled, visible : _lbPos9am_2.Visible, text : _lbPos9am_2.Text, imagePath : _lbPos9am_2.ImagePath, events : { mousedown : _lbPos9am_2_MouseDown }, ">9-AM</label>
+      <label id="_lbPos9am_3" tabindex="161" index="3" class="_lbPos9am_3" data-bind="DragDrop : _lbPos9am_3.lbPos9am_DragDrop, DragOver : _lbPos9am_3.lbPos9am_DragOver, style : { backgroundColor : _lbPos9am_3.BackColor.Value, color : _lbPos9am_3.ForeColor.Value }, enabled : _lbPos9am_3.Enabled, visible : _lbPos9am_3.Visible, text : _lbPos9am_3.Text, imagePath : _lbPos9am_3.ImagePath, events : { mousedown : _lbPos9am_3_MouseDown }, ">9-AM</label>
+      <label id="_lbPos9am_4" tabindex="162" index="4" class="_lbPos9am_4" data-bind="DragDrop : _lbPos9am_4.lbPos9am_DragDrop, DragOver : _lbPos9am_4.lbPos9am_DragOver, style : { backgroundColor : _lbPos9am_4.BackColor.Value, color : _lbPos9am_4.ForeColor.Value }, enabled : _lbPos9am_4.Enabled, visible : _lbPos9am_4.Visible, text : _lbPos9am_4.Text, imagePath : _lbPos9am_4.ImagePath, events : { mousedown : _lbPos9am_4_MouseDown }, ">9-AM</label>
+      <label id="_lbPos9am_5" tabindex="163" index="5" class="_lbPos9am_5" data-bind="DragDrop : _lbPos9am_5.lbPos9am_DragDrop, DragOver : _lbPos9am_5.lbPos9am_DragOver, style : { backgroundColor : _lbPos9am_5.BackColor.Value, color : _lbPos9am_5.ForeColor.Value }, enabled : _lbPos9am_5.Enabled, visible : _lbPos9am_5.Visible, text : _lbPos9am_5.Text, imagePath : _lbPos9am_5.ImagePath, events : { mousedown : _lbPos9am_5_MouseDown }, ">9-AM</label>
+      <label id="_lbPos9am_6" tabindex="164" index="6" class="_lbPos9am_6" data-bind="DragDrop : _lbPos9am_6.lbPos9am_DragDrop, DragOver : _lbPos9am_6.lbPos9am_DragOver, style : { backgroundColor : _lbPos9am_6.BackColor.Value, color : _lbPos9am_6.ForeColor.Value }, enabled : _lbPos9am_6.Enabled, visible : _lbPos9am_6.Visible, text : _lbPos9am_6.Text, imagePath : _lbPos9am_6.ImagePath, events : { mousedown : _lbPos9am_6_MouseDown }, ">9-AM</label>
+      <div data-bind="spEnabled : _shpP9am_0.Enabled, spVisible : _shpP9am_0.Visible">
+        <svg version="1.1" class="_shpP9am_0_svg" style="left:222px;top:381px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9am_0" class="_shpP9am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9am_1.Enabled, spVisible : _shpP9am_1.Visible">
+        <svg version="1.1" class="_shpP9am_1_svg" style="left:302px;top:381px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9am_1" class="_shpP9am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9am_2.Enabled, spVisible : _shpP9am_2.Visible">
+        <svg version="1.1" class="_shpP9am_2_svg" style="left:383px;top:381px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9am_2" class="_shpP9am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9am_3.Enabled, spVisible : _shpP9am_3.Visible">
+        <svg version="1.1" class="_shpP9am_3_svg" style="left:462px;top:381px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9am_3" class="_shpP9am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9am_4.Enabled, spVisible : _shpP9am_4.Visible">
+        <svg version="1.1" class="_shpP9am_4_svg" style="left:542px;top:381px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9am_4" class="_shpP9am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9am_5.Enabled, spVisible : _shpP9am_5.Visible">
+        <svg version="1.1" class="_shpP9am_5_svg" style="left:623px;top:381px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9am_5" class="_shpP9am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9am_6.Enabled, spVisible : _shpP9am_6.Visible">
+        <svg version="1.1" class="_shpP9am_6_svg" style="left:702px;top:381px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9am_6" class="_shpP9am_6"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_17" tabindex="21" index="17" class="_lbUnitArray_17" data-bind="visible : _lbUnitArray_17.Visible, text : _lbUnitArray_17.Text, imagePath : _lbUnitArray_17.ImagePath">E03</label>
+      <label id="_lbPositionArray_17" tabindex="42" index="17" class="_lbPositionArray_17" data-bind="visible : _lbPositionArray_17.Visible, text : _lbPositionArray_17.Text, imagePath : _lbPositionArray_17.ImagePath">4th</label>
+      <label id="_lbAMPM_17" tabindex="203" index="17" class="_lbAMPM_17" data-bind="visible : _lbAMPM_17.Visible, text : _lbAMPM_17.Text, imagePath : _lbAMPM_17.ImagePath">PM</label>
+      <label id="_lbPos9pm_0" tabindex="165" index="0" class="_lbPos9pm_0" data-bind="DragDrop : _lbPos9pm_0.lbPos9pm_DragDrop, DragOver : _lbPos9pm_0.lbPos9pm_DragOver, style : { backgroundColor : _lbPos9pm_0.BackColor.Value, color : _lbPos9pm_0.ForeColor.Value }, enabled : _lbPos9pm_0.Enabled, visible : _lbPos9pm_0.Visible, text : _lbPos9pm_0.Text, imagePath : _lbPos9pm_0.ImagePath, events : { mousedown : _lbPos9pm_0_MouseDown }, ">9-PM</label>
+      <label id="_lbPos9pm_1" tabindex="166" index="1" class="_lbPos9pm_1" data-bind="DragDrop : _lbPos9pm_1.lbPos9pm_DragDrop, DragOver : _lbPos9pm_1.lbPos9pm_DragOver, style : { backgroundColor : _lbPos9pm_1.BackColor.Value, color : _lbPos9pm_1.ForeColor.Value }, enabled : _lbPos9pm_1.Enabled, visible : _lbPos9pm_1.Visible, text : _lbPos9pm_1.Text, imagePath : _lbPos9pm_1.ImagePath, events : { mousedown : _lbPos9pm_1_MouseDown }, ">9-PM</label>
+      <label id="_lbPos9pm_2" tabindex="167" index="2" class="_lbPos9pm_2" data-bind="DragDrop : _lbPos9pm_2.lbPos9pm_DragDrop, DragOver : _lbPos9pm_2.lbPos9pm_DragOver, style : { backgroundColor : _lbPos9pm_2.BackColor.Value, color : _lbPos9pm_2.ForeColor.Value }, enabled : _lbPos9pm_2.Enabled, visible : _lbPos9pm_2.Visible, text : _lbPos9pm_2.Text, imagePath : _lbPos9pm_2.ImagePath, events : { mousedown : _lbPos9pm_2_MouseDown }, ">9-PM</label>
+      <label id="_lbPos9pm_3" tabindex="168" index="3" class="_lbPos9pm_3" data-bind="DragDrop : _lbPos9pm_3.lbPos9pm_DragDrop, DragOver : _lbPos9pm_3.lbPos9pm_DragOver, style : { backgroundColor : _lbPos9pm_3.BackColor.Value, color : _lbPos9pm_3.ForeColor.Value }, enabled : _lbPos9pm_3.Enabled, visible : _lbPos9pm_3.Visible, text : _lbPos9pm_3.Text, imagePath : _lbPos9pm_3.ImagePath, events : { mousedown : _lbPos9pm_3_MouseDown }, ">9-PM</label>
+      <label id="_lbPos9pm_4" tabindex="169" index="4" class="_lbPos9pm_4" data-bind="DragDrop : _lbPos9pm_4.lbPos9pm_DragDrop, DragOver : _lbPos9pm_4.lbPos9pm_DragOver, style : { backgroundColor : _lbPos9pm_4.BackColor.Value, color : _lbPos9pm_4.ForeColor.Value }, enabled : _lbPos9pm_4.Enabled, visible : _lbPos9pm_4.Visible, text : _lbPos9pm_4.Text, imagePath : _lbPos9pm_4.ImagePath, events : { mousedown : _lbPos9pm_4_MouseDown }, ">9-PM</label>
+      <label id="_lbPos9pm_5" tabindex="170" index="5" class="_lbPos9pm_5" data-bind="DragDrop : _lbPos9pm_5.lbPos9pm_DragDrop, DragOver : _lbPos9pm_5.lbPos9pm_DragOver, style : { backgroundColor : _lbPos9pm_5.BackColor.Value, color : _lbPos9pm_5.ForeColor.Value }, enabled : _lbPos9pm_5.Enabled, visible : _lbPos9pm_5.Visible, text : _lbPos9pm_5.Text, imagePath : _lbPos9pm_5.ImagePath, events : { mousedown : _lbPos9pm_5_MouseDown }, ">9-PM</label>
+      <label id="_lbPos9pm_6" tabindex="171" index="6" class="_lbPos9pm_6" data-bind="DragDrop : _lbPos9pm_6.lbPos9pm_DragDrop, DragOver : _lbPos9pm_6.lbPos9pm_DragOver, style : { backgroundColor : _lbPos9pm_6.BackColor.Value, color : _lbPos9pm_6.ForeColor.Value }, enabled : _lbPos9pm_6.Enabled, visible : _lbPos9pm_6.Visible, text : _lbPos9pm_6.Text, imagePath : _lbPos9pm_6.ImagePath, events : { mousedown : _lbPos9pm_6_MouseDown }, ">9-PM</label>
+      <div data-bind="spEnabled : _shpP9pm_0.Enabled, spVisible : _shpP9pm_0.Visible">
+        <svg version="1.1" class="_shpP9pm_0_svg" style="left:222px;top:398px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9pm_0" class="_shpP9pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9pm_1.Enabled, spVisible : _shpP9pm_1.Visible">
+        <svg version="1.1" class="_shpP9pm_1_svg" style="left:302px;top:398px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9pm_1" class="_shpP9pm_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9pm_2.Enabled, spVisible : _shpP9pm_2.Visible">
+        <svg version="1.1" class="_shpP9pm_2_svg" style="left:383px;top:398px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9pm_2" class="_shpP9pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9pm_3.Enabled, spVisible : _shpP9pm_3.Visible">
+        <svg version="1.1" class="_shpP9pm_3_svg" style="left:462px;top:398px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9pm_3" class="_shpP9pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9pm_4.Enabled, spVisible : _shpP9pm_4.Visible">
+        <svg version="1.1" class="_shpP9pm_4_svg" style="left:542px;top:398px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9pm_4" class="_shpP9pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9pm_5.Enabled, spVisible : _shpP9pm_5.Visible">
+        <svg version="1.1" class="_shpP9pm_5_svg" style="left:623px;top:398px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9pm_5" class="_shpP9pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP9pm_6.Enabled, spVisible : _shpP9pm_6.Visible">
+        <svg version="1.1" class="_shpP9pm_6_svg" style="left:702px;top:398px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP9pm_6" class="_shpP9pm_6"></circle>
+        </svg>
+      </div>
+      <label id="_Line1_8" index="8" class="_Line1_8" data-bind="visible : _Line1_8.Visible, text : _Line1_8.Text, imagePath : _Line1_8.ImagePath"></label>
+      <label id="_lbUnitArray_18" tabindex="22" index="18" class="_lbUnitArray_18" data-bind="visible : _lbUnitArray_18.Visible, text : _lbUnitArray_18.Text, imagePath : _lbUnitArray_18.ImagePath">E03</label>
+      <label id="_lbPositionArray_18" tabindex="43" index="18" class="_lbPositionArray_18" data-bind="visible : _lbPositionArray_18.Visible, text : _lbPositionArray_18.Text, imagePath : _lbPositionArray_18.ImagePath">4th</label>
+      <label id="_lbAMPM_18" tabindex="204" index="18" class="_lbAMPM_18" data-bind="visible : _lbAMPM_18.Visible, text : _lbAMPM_18.Text, imagePath : _lbAMPM_18.ImagePath">AM</label>
+      <label id="_lbPos10am_0" tabindex="172" index="0" class="_lbPos10am_0" data-bind="DragDrop : _lbPos10am_0.lbPos10am_DragDrop, DragOver : _lbPos10am_0.lbPos10am_DragOver, style : { backgroundColor : _lbPos10am_0.BackColor.Value, color : _lbPos10am_0.ForeColor.Value }, enabled : _lbPos10am_0.Enabled, visible : _lbPos10am_0.Visible, text : _lbPos10am_0.Text, imagePath : _lbPos10am_0.ImagePath, events : { mousedown : _lbPos10am_0_MouseDown }, ">10-AM</label>
+      <label id="_lbPos10am_1" tabindex="173" index="1" class="_lbPos10am_1" data-bind="DragDrop : _lbPos10am_1.lbPos10am_DragDrop, DragOver : _lbPos10am_1.lbPos10am_DragOver, style : { backgroundColor : _lbPos10am_1.BackColor.Value, color : _lbPos10am_1.ForeColor.Value }, enabled : _lbPos10am_1.Enabled, visible : _lbPos10am_1.Visible, text : _lbPos10am_1.Text, imagePath : _lbPos10am_1.ImagePath, events : { mousedown : _lbPos10am_1_MouseDown }, ">10-AM</label>
+      <label id="_lbPos10am_2" tabindex="174" index="2" class="_lbPos10am_2" data-bind="DragDrop : _lbPos10am_2.lbPos10am_DragDrop, DragOver : _lbPos10am_2.lbPos10am_DragOver, style : { backgroundColor : _lbPos10am_2.BackColor.Value, color : _lbPos10am_2.ForeColor.Value }, enabled : _lbPos10am_2.Enabled, visible : _lbPos10am_2.Visible, text : _lbPos10am_2.Text, imagePath : _lbPos10am_2.ImagePath, events : { mousedown : _lbPos10am_2_MouseDown }, ">10-AM</label>
+      <label id="_lbPos10am_3" tabindex="175" index="3" class="_lbPos10am_3" data-bind="DragDrop : _lbPos10am_3.lbPos10am_DragDrop, DragOver : _lbPos10am_3.lbPos10am_DragOver, style : { backgroundColor : _lbPos10am_3.BackColor.Value, color : _lbPos10am_3.ForeColor.Value }, enabled : _lbPos10am_3.Enabled, visible : _lbPos10am_3.Visible, text : _lbPos10am_3.Text, imagePath : _lbPos10am_3.ImagePath, events : { mousedown : _lbPos10am_3_MouseDown }, ">10-AM</label>
+      <label id="_lbPos10am_4" tabindex="176" index="4" class="_lbPos10am_4" data-bind="DragDrop : _lbPos10am_4.lbPos10am_DragDrop, DragOver : _lbPos10am_4.lbPos10am_DragOver, style : { backgroundColor : _lbPos10am_4.BackColor.Value, color : _lbPos10am_4.ForeColor.Value }, enabled : _lbPos10am_4.Enabled, visible : _lbPos10am_4.Visible, text : _lbPos10am_4.Text, imagePath : _lbPos10am_4.ImagePath, events : { mousedown : _lbPos10am_4_MouseDown }, ">10-AM</label>
+      <label id="_lbPos10am_5" tabindex="177" index="5" class="_lbPos10am_5" data-bind="DragDrop : _lbPos10am_5.lbPos10am_DragDrop, DragOver : _lbPos10am_5.lbPos10am_DragOver, style : { backgroundColor : _lbPos10am_5.BackColor.Value, color : _lbPos10am_5.ForeColor.Value }, enabled : _lbPos10am_5.Enabled, visible : _lbPos10am_5.Visible, text : _lbPos10am_5.Text, imagePath : _lbPos10am_5.ImagePath, events : { mousedown : _lbPos10am_5_MouseDown }, ">10-AM</label>
+      <label id="_lbPos10am_6" tabindex="178" index="6" class="_lbPos10am_6" data-bind="DragDrop : _lbPos10am_6.lbPos10am_DragDrop, DragOver : _lbPos10am_6.lbPos10am_DragOver, style : { backgroundColor : _lbPos10am_6.BackColor.Value, color : _lbPos10am_6.ForeColor.Value }, enabled : _lbPos10am_6.Enabled, visible : _lbPos10am_6.Visible, text : _lbPos10am_6.Text, imagePath : _lbPos10am_6.ImagePath, events : { mousedown : _lbPos10am_6_MouseDown }, ">10-AM</label>
+      <div data-bind="spEnabled : _shpP10am_0.Enabled, spVisible : _shpP10am_0.Visible">
+        <svg version="1.1" class="_shpP10am_0_svg" style="left:222px;top:417px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10am_0" class="_shpP10am_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10am_1.Enabled, spVisible : _shpP10am_1.Visible">
+        <svg version="1.1" class="_shpP10am_1_svg" style="left:302px;top:417px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10am_1" class="_shpP10am_1"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10am_2.Enabled, spVisible : _shpP10am_2.Visible">
+        <svg version="1.1" class="_shpP10am_2_svg" style="left:383px;top:417px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10am_2" class="_shpP10am_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10am_3.Enabled, spVisible : _shpP10am_3.Visible">
+        <svg version="1.1" class="_shpP10am_3_svg" style="left:462px;top:417px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10am_3" class="_shpP10am_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10am_4.Enabled, spVisible : _shpP10am_4.Visible">
+        <svg version="1.1" class="_shpP10am_4_svg" style="left:542px;top:417px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10am_4" class="_shpP10am_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10am_5.Enabled, spVisible : _shpP10am_5.Visible">
+        <svg version="1.1" class="_shpP10am_5_svg" style="left:623px;top:417px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10am_5" class="_shpP10am_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10am_6.Enabled, spVisible : _shpP10am_6.Visible">
+        <svg version="1.1" class="_shpP10am_6_svg" style="left:702px;top:417px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10am_6" class="_shpP10am_6"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10pm_1.Enabled, spVisible : _shpP10pm_1.Visible">
+        <svg version="1.1" class="_shpP10pm_1_svg" style="left:302px;top:431px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10pm_1" class="_shpP10pm_1"></circle>
+        </svg>
+      </div>
+      <label id="_lbUnitArray_19" tabindex="23" index="19" class="_lbUnitArray_19" data-bind="visible : _lbUnitArray_19.Visible, text : _lbUnitArray_19.Text, imagePath : _lbUnitArray_19.ImagePath">E03</label>
+      <label id="_lbPositionArray_19" tabindex="44" index="19" class="_lbPositionArray_19" data-bind="visible : _lbPositionArray_19.Visible, text : _lbPositionArray_19.Text, imagePath : _lbPositionArray_19.ImagePath">4th</label>
+      <label id="_lbAMPM_19" tabindex="205" index="19" class="_lbAMPM_19" data-bind="visible : _lbAMPM_19.Visible, text : _lbAMPM_19.Text, imagePath : _lbAMPM_19.ImagePath">PM</label>
+      <label id="_lbPos10pm_0" tabindex="179" index="0" class="_lbPos10pm_0" data-bind="DragDrop : _lbPos10pm_0.lbPos10pm_DragDrop, DragOver : _lbPos10pm_0.lbPos10pm_DragOver, style : { backgroundColor : _lbPos10pm_0.BackColor.Value, color : _lbPos10pm_0.ForeColor.Value }, enabled : _lbPos10pm_0.Enabled, visible : _lbPos10pm_0.Visible, text : _lbPos10pm_0.Text, imagePath : _lbPos10pm_0.ImagePath, events : { mousedown : _lbPos10pm_0_MouseDown }, ">10-PM</label>
+      <label id="_lbPos10pm_1" tabindex="180" index="1" class="_lbPos10pm_1" data-bind="DragDrop : _lbPos10pm_1.lbPos10pm_DragDrop, DragOver : _lbPos10pm_1.lbPos10pm_DragOver, style : { backgroundColor : _lbPos10pm_1.BackColor.Value, color : _lbPos10pm_1.ForeColor.Value }, enabled : _lbPos10pm_1.Enabled, visible : _lbPos10pm_1.Visible, text : _lbPos10pm_1.Text, imagePath : _lbPos10pm_1.ImagePath, events : { mousedown : _lbPos10pm_1_MouseDown }, ">10-PM</label>
+      <label id="_lbPos10pm_2" tabindex="181" index="2" class="_lbPos10pm_2" data-bind="DragDrop : _lbPos10pm_2.lbPos10pm_DragDrop, DragOver : _lbPos10pm_2.lbPos10pm_DragOver, style : { backgroundColor : _lbPos10pm_2.BackColor.Value, color : _lbPos10pm_2.ForeColor.Value }, enabled : _lbPos10pm_2.Enabled, visible : _lbPos10pm_2.Visible, text : _lbPos10pm_2.Text, imagePath : _lbPos10pm_2.ImagePath, events : { mousedown : _lbPos10pm_2_MouseDown }, ">10-PM</label>
+      <label id="_lbPos10pm_3" tabindex="182" index="3" class="_lbPos10pm_3" data-bind="DragDrop : _lbPos10pm_3.lbPos10pm_DragDrop, DragOver : _lbPos10pm_3.lbPos10pm_DragOver, style : { backgroundColor : _lbPos10pm_3.BackColor.Value, color : _lbPos10pm_3.ForeColor.Value }, enabled : _lbPos10pm_3.Enabled, visible : _lbPos10pm_3.Visible, text : _lbPos10pm_3.Text, imagePath : _lbPos10pm_3.ImagePath, events : { mousedown : _lbPos10pm_3_MouseDown }, ">10-PM</label>
+      <label id="_lbPos10pm_4" tabindex="183" index="4" class="_lbPos10pm_4" data-bind="DragDrop : _lbPos10pm_4.lbPos10pm_DragDrop, DragOver : _lbPos10pm_4.lbPos10pm_DragOver, style : { backgroundColor : _lbPos10pm_4.BackColor.Value, color : _lbPos10pm_4.ForeColor.Value }, enabled : _lbPos10pm_4.Enabled, visible : _lbPos10pm_4.Visible, text : _lbPos10pm_4.Text, imagePath : _lbPos10pm_4.ImagePath, events : { mousedown : _lbPos10pm_4_MouseDown }, ">10-PM</label>
+      <label id="_lbPos10pm_5" tabindex="184" index="5" class="_lbPos10pm_5" data-bind="DragDrop : _lbPos10pm_5.lbPos10pm_DragDrop, DragOver : _lbPos10pm_5.lbPos10pm_DragOver, style : { backgroundColor : _lbPos10pm_5.BackColor.Value, color : _lbPos10pm_5.ForeColor.Value }, enabled : _lbPos10pm_5.Enabled, visible : _lbPos10pm_5.Visible, text : _lbPos10pm_5.Text, imagePath : _lbPos10pm_5.ImagePath, events : { mousedown : _lbPos10pm_5_MouseDown }, ">10-PM</label>
+      <label id="_lbPos10pm_6" tabindex="185" index="6" class="_lbPos10pm_6" data-bind="DragDrop : _lbPos10pm_6.lbPos10pm_DragDrop, DragOver : _lbPos10pm_6.lbPos10pm_DragOver, style : { backgroundColor : _lbPos10pm_6.BackColor.Value, color : _lbPos10pm_6.ForeColor.Value }, enabled : _lbPos10pm_6.Enabled, visible : _lbPos10pm_6.Visible, text : _lbPos10pm_6.Text, imagePath : _lbPos10pm_6.ImagePath, events : { mousedown : _lbPos10pm_6_MouseDown }, ">10-PM</label>
+      <div data-bind="spEnabled : _shpP10pm_0.Enabled, spVisible : _shpP10pm_0.Visible">
+        <svg version="1.1" class="_shpP10pm_0_svg" style="left:222px;top:434px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10pm_0" class="_shpP10pm_0"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10pm_2.Enabled, spVisible : _shpP10pm_2.Visible">
+        <svg version="1.1" class="_shpP10pm_2_svg" style="left:383px;top:434px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10pm_2" class="_shpP10pm_2"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10pm_3.Enabled, spVisible : _shpP10pm_3.Visible">
+        <svg version="1.1" class="_shpP10pm_3_svg" style="left:462px;top:434px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10pm_3" class="_shpP10pm_3"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10pm_4.Enabled, spVisible : _shpP10pm_4.Visible">
+        <svg version="1.1" class="_shpP10pm_4_svg" style="left:542px;top:434px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10pm_4" class="_shpP10pm_4"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10pm_5.Enabled, spVisible : _shpP10pm_5.Visible">
+        <svg version="1.1" class="_shpP10pm_5_svg" style="left:623px;top:434px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10pm_5" class="_shpP10pm_5"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : _shpP10pm_6.Enabled, spVisible : _shpP10pm_6.Visible">
+        <svg version="1.1" class="_shpP10pm_6_svg" style="left:702px;top:434px;width:10px;height:10px;position:absolute;">
+          <circle cx="5" cy="5" r="5" id="_shpP10pm_6" class="_shpP10pm_6"></circle>
+        </svg>
+      </div>
+      <div data-bind="spEnabled : Shape1.Enabled, spVisible : Shape1.Visible">
+        <svg version="1.1" class="Shape1_svg" style="left:2px;top:456px;width:726px;height:121px;position:absolute;">
+          <rect x="0" y="0" height="121" width="726" id="Shape1" class="Shape1"></rect>
+        </svg>
+      </div>
+      <fieldset id="picTrash" class="picTrash" data-bind="DragDrop : picTrash.picTrash_DragDrop, DragOver : picTrash.picTrash_DragOver, enabled : picTrash.Enabled"></fieldset>
+      <label id="Label4" tabindex="220" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">On Leave</label>
+      <div id="_lstLeave_0" tabindex="214" index="0" class="_lstLeave_0" data-role="listbox" style="overflow:auto" data-bind="source : _lstLeave_0.ListBoxItems, listBoxSelectedIndices : _lstLeave_0.ListBoxSelectedIndices, dblclickEvent : _lstLeave_0.lstLeave_DoubleClick, events : { blur : lstLeave_Leave, mousedown : lstLeave_MouseDown }, "></div>
+      <div id="_lstLeave_1" tabindex="215" index="1" class="_lstLeave_1" data-role="listbox" style="overflow:auto" data-bind="source : _lstLeave_1.ListBoxItems, listBoxSelectedIndices : _lstLeave_1.ListBoxSelectedIndices, dblclickEvent : _lstLeave_1.lstLeave_DoubleClick, events : { blur : lstLeave_Leave, mousedown : lstLeave_MouseDown }, "></div>
+      <div id="_lstLeave_2" tabindex="216" index="2" class="_lstLeave_2" data-role="listbox" style="overflow:auto" data-bind="source : _lstLeave_2.ListBoxItems, listBoxSelectedIndices : _lstLeave_2.ListBoxSelectedIndices, dblclickEvent : _lstLeave_2.lstLeave_DoubleClick, events : { blur : lstLeave_Leave, mousedown : lstLeave_MouseDown }, "></div>
+      <div id="_lstLeave_3" tabindex="217" index="3" class="_lstLeave_3" data-role="listbox" style="overflow:auto" data-bind="source : _lstLeave_3.ListBoxItems, listBoxSelectedIndices : _lstLeave_3.ListBoxSelectedIndices, dblclickEvent : _lstLeave_3.lstLeave_DoubleClick, events : { blur : lstLeave_Leave, mousedown : lstLeave_MouseDown }, "></div>
+      <div id="_lstLeave_4" tabindex="218" index="4" class="_lstLeave_4" data-role="listbox" style="overflow:auto" data-bind="source : _lstLeave_4.ListBoxItems, listBoxSelectedIndices : _lstLeave_4.ListBoxSelectedIndices, dblclickEvent : _lstLeave_4.lstLeave_DoubleClick, events : { blur : lstLeave_Leave, mousedown : lstLeave_MouseDown }, "></div>
+      <div id="_lstLeave_5" tabindex="219" index="5" class="_lstLeave_5" data-role="listbox" style="overflow:auto" data-bind="source : _lstLeave_5.ListBoxItems, listBoxSelectedIndices : _lstLeave_5.ListBoxSelectedIndices, dblclickEvent : _lstLeave_5.lstLeave_DoubleClick, events : { blur : lstLeave_Leave, mousedown : lstLeave_MouseDown }, "></div>
+      <div id="_lstLeave_6" tabindex="220" index="6" class="_lstLeave_6" data-role="listbox" style="overflow:auto" data-bind="source : _lstLeave_6.ListBoxItems, listBoxSelectedIndices : _lstLeave_6.ListBoxSelectedIndices, dblclickEvent : _lstLeave_6.lstLeave_DoubleClick, events : { blur : lstLeave_Leave, mousedown : lstLeave_MouseDown }, "></div>
+      <button id="cmdPayroll" tabindex="236" class="cmdPayroll" type="button" data-bind="enabled : cmdPayroll.Enabled, visible : cmdPayroll.Visible, buttonText : cmdPayroll.Text, events : { click : cmdPayroll_Click }, ">Dispatch Payroll</button>
+      <button id="cmdReport" tabindex="233" class="cmdReport" type="button" data-bind="events : { click : cmdReport_Click }, ">Pay Period Report</button>
+      <button id="cmdClose" tabindex="3" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+    </form>
+  </div>
+</div>

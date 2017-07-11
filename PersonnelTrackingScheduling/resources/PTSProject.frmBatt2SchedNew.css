@@ -1,0 +1,6582 @@
+.PTSProject_frmBatt2SchedNew {
+}
+.PTSProject_frmBatt2SchedNew .frmBatt2SchedNew {
+	background-color: #000040;
+	min-width: 811px;
+	min-height: 750px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmBatt2SchedNew .MainMenu1 {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 811px;
+	height: 24px;
+	position: relative;
+	z-index: 16777271;
+}
+.PTSProject_frmBatt2SchedNew .mnuSystem {
+	Width: 57px;
+	Height: 20px;
+}
+.PTSProject_frmBatt2SchedNew .mnuTimeCard {
+	Width: 260px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuException {
+	Width: 260px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPrintDailyLeave {
+	Width: 260px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPrintAll {
+	Width: 260px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSpacer1 {
+}
+.PTSProject_frmBatt2SchedNew .mnuClose {
+	Width: 260px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPersonnel {
+	Width: 71px;
+	Height: 20px;
+}
+.PTSProject_frmBatt2SchedNew .mnuEmpInfo {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSenoirInq {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuImmune {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_transfer_req {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPMCerts {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPPE {
+	Width: 254px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSchedule {
+	Width: 78px;
+	Height: 20px;
+}
+.PTSProject_frmBatt2SchedNew .mnuIndSchedule {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuNewBatt1 {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuNewBatt2 {
+	Width: 32px;
+	Height: 19px;
+}
+.PTSProject_frmBatt2SchedNew .mnuBattalion3 {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuBattalion4 {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuEMS {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuHazmat {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuMarine {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuBattStaff {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuDispatch {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_watch_duty {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_Vacation {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_PMVacationSched {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_HZMVacationSched {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_FCCVacationSched {
+	Width: 234px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuReports {
+	Width: 59px;
+	Height: 20px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPersonnelReports {
+	Width: 126px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuAssignReport {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuRoster {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuFRoster {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuDebitReport {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuProlist {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSenior {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_emp_facility {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .MnuAuditDDHOL {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_IndivPayrollSO {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuIndTimeCard2 {
+	Width: 211px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSchedul {
+	Width: 126px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuBDWork {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu181 {
+	Width: 130px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu182 {
+	Width: 130px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnupayroll {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuEMSPay {
+	Width: 148px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuHazPay {
+	Width: 148px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuMarPay {
+	Width: 148px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuBattPay {
+	Width: 148px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuDisPay {
+	Width: 148px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuIndTimeCard {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuIndYearSched {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuDailyStaff {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuOvertime {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .MnuExtraOff {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_sa_report {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuShiftCal {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuTransfer {
+	Width: 250px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuLeaveReports {
+	Width: 126px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuDailyLeave {
+	Width: 201px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuAnnual {
+	Width: 201px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_dailysickleave {
+	Width: 201px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuIndLeave {
+	Width: 201px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_sick_usage {
+	Width: 201px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_PMLeave {
+	Width: 201px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuDispatchLeave {
+	Width: 201px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_HZMLeave {
+	Width: 201px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_Battalion {
+	Width: 126px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .MnuCBStaffing {
+	Width: 243px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_LeaveNoSched {
+	Width: 243px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_staffdiscrepancy {
+	Width: 243px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_PMCSRCalc {
+	Width: 243px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_SchedNotes {
+	Width: 243px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_PPEQuery {
+	Width: 243px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnupayrollreports {
+	Width: 126px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_timecard {
+	Width: 203px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuindannualpayroll {
+	Width: 203px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnupersonnelsignoff {
+	Width: 203px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_TrainingReports {
+	Width: 126px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_QuarterlyMinimumDrill {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_FCCMinDrills {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_ReadingAssign {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_OTEPReport {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_PMRecertReport {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_PMBaseStaReport {
+	Width: 263px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuTraining {
+	Width: 63px;
+	Height: 20px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_trainingtracker {
+	Width: 191px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuTrnReports {
+	Width: 191px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_IndTrainReport {
+	Width: 238px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_IndPMRecert {
+	Width: 238px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuALSProc {
+	Width: 238px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_Queries {
+	Width: 191px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuTrainQuery {
+	Width: 247px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_TrainingQuerynew {
+	Width: 247px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuWindow {
+	Width: 63px;
+	Height: 20px;
+}
+.PTSProject_frmBatt2SchedNew .mnuCascade {
+	Width: 170px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPrintScreen {
+	Width: 170px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuHelp {
+	Width: 44px;
+	Height: 20px;
+}
+.PTSProject_frmBatt2SchedNew .mnuAbout {
+	Width: 139px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuContents {
+	Width: 139px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_timecodes {
+	Width: 251px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuTrainCodeHelp {
+	Width: 251px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSpacer2 {
+}
+.PTSProject_frmBatt2SchedNew .mnu_HelpPrntScrn {
+	Width: 251px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_payup_calc {
+	Width: 251px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSpacer3 {
+}
+.PTSProject_frmBatt2SchedNew .mnu_payrolllegend {
+	Width: 251px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_legend {
+	Width: 251px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_IndLegend {
+	Width: 251px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu182PopUp {
+	Width: 32px;
+	Height: 19px;
+}
+.PTSProject_frmBatt2SchedNew .mnuLeave {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuNewSched {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPayUp {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuPayDown {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuKOT {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuRover {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuDebit {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuTrade {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuCancelTrade {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuRemove {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSendTo181 {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuReport {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuTradeDetail {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnu_viewtimecard {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuSADetail {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .mnuReschedSA {
+	Width: 255px;
+	Height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .Ctx_mnu182PopUp {
+	width: 61px;
+	height: 4px;
+}
+.PTSProject_frmBatt2SchedNew .Ctx_mnu182PopUp li.k-item {
+	border-width: 0;
+}
+.PTSProject_frmBatt2SchedNew .Ctx_mnu182PopUp hr {
+	float: left;
+	border: none;
+	border-left: 1px black solid;
+	height: 15px;
+	margin-top: 0;
+	margin: 5px;
+	border-color: #c5c5c5;
+}
+.PTSProject_frmBatt2SchedNew .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 7px;
+	top: 32px;
+	position: absolute;
+	width: 29px;
+	height: 17px;
+}
+.PTSProject_frmBatt2SchedNew .calSchedDate.k-datepicker {
+	left: 39px;
+	top: 32px;
+	position: absolute;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmBatt2SchedNew .calSchedDate {
+}
+.PTSProject_frmBatt2SchedNew .lbLocked {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 187px;
+	top: 32px;
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .lbShift {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 191px;
+	top: 32px;
+	position: absolute;
+	width: 21px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .lbPeriodClosed {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 199px;
+	top: 32px;
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 331px;
+	top: 32px;
+	position: absolute;
+	width: 53px;
+	height: 17px;
+}
+.PTSProject_frmBatt2SchedNew .cboRovers {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 133px;
+	height: 21px;
+}
+.PTSProject_frmBatt2SchedNew .cboRovers:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cboRoversPos {
+	top: 32px;
+	left: 383px;
+	position: absolute;
+	width: 133px;
+	height: 21px;
+}
+.PTSProject_frmBatt2SchedNew .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 519px;
+	top: 32px;
+	position: absolute;
+	width: 41px;
+	height: 17px;
+}
+.PTSProject_frmBatt2SchedNew .cboDebit {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	width: 133px;
+	height: 21px;
+}
+.PTSProject_frmBatt2SchedNew .cboDebit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cboDebitPos {
+	top: 32px;
+	left: 555px;
+	position: absolute;
+	width: 133px;
+	height: 21px;
+}
+.PTSProject_frmBatt2SchedNew .Label7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 695px;
+	top: 32px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .lbDebitGroup {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 767px;
+	top: 32px;
+	position: absolute;
+	width: 29px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .cmdToday {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	left: 175px;
+	top: 33px;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdToday:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .pnSelected {
+	background-color: rgba(240, 240, 240, 1);
+	border-style: inset;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 215px;
+	top: 33px;
+	position: absolute;
+	width: 109px;
+	height: 16px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .Label5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 680px;
+	top: 48px;
+	position: absolute;
+	width: 126px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_17 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 688px;
+	top: 48px;
+	position: absolute;
+	width: 29px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 60px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_0 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 63px;
+	top: 60px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 60px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_1 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 200px;
+	top: 60px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 60px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_2 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 336px;
+	top: 60px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 60px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_3 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 471px;
+	top: 60px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 60px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_4 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 608px;
+	top: 60px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .boxFCC {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 76px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_0 {
+	background-color: White;
+	cursor: default;
+	color: Black;
+	left: 53px;
+	top: 76px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_4 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 76px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_4 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 76px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_8 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 76px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_8 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 76px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_8 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_12 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 76px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_12 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 76px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_12 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_16 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 76px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_16 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 76px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_16 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_68 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 76px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_68 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 76px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_68 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_0 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_4 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_8 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_12 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_16 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_0 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 92px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_4 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 92px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_4 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_8 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 92px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_8 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_12 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 92px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_12 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_16 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 92px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_16 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 92px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_68 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 92px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_68 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 92px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_68 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_9 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_13 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_17 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 108px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_1 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_5 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 108px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_5 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_9 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 108px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_9 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_13 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 108px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_13 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_17 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 108px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_17 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 108px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_69 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 108px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_69 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 108px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_69 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_9 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_17 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 124px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 124px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_1 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_5 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 124px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 124px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_9 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 124px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_9 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 124px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_13 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 124px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_13 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 124px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_13 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_17 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 124px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_17 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 124px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_69 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 124px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_69 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 124px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_69 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_10 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_14 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_18 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 140px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_2 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 140px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_6 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 140px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_10 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 140px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_10 {
+	background-color: White;
+	cursor: default;
+	color: Black;
+	left: 326px;
+	top: 140px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_14 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 140px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_14 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 140px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_18 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 140px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_18 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 140px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_70 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 140px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_70 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 140px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_70 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_6 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 141px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_2 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_10 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_14 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_18 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 156px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 156px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_6 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 156px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 156px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_10 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 156px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_10 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 156px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_14 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 156px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_14 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 156px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_18 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 156px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_18 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 156px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_70 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 156px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_70 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 156px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_70 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_7 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_11 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_15 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_19 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 172px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_3 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 172px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_7 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 172px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_7 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 172px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_11 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 172px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_11 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 172px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_15 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 172px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_15 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 172px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_19 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 172px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_19 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 172px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_71 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 172px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_71 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 172px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_71 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_3 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_7 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_11 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_15 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_19 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_3 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 188px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_3 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 188px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_7 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 188px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_7 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 188px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_11 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 188px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_11 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 188px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_15 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 188px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_15 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 188px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_19 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 188px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_19 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 188px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_71 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 188px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_71 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 188px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_71 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_5 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_6 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_7 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_8 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_9 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_5 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 208px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_5 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 63px;
+	top: 208px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_6 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 208px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_6 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 200px;
+	top: 208px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_7 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 208px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_7 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 336px;
+	top: 208px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_8 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 208px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_8 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 471px;
+	top: 208px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_9 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 208px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_9 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 607px;
+	top: 208px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_72 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 208px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_72 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 208px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_72 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_20 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_24 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_28 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_32 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_36 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_20 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 224px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_20 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 224px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_24 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 224px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_24 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 224px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_28 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 224px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_28 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 224px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_32 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 224px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_32 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 224px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_36 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 224px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_36 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 224px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_72 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 224px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_72 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 224px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_72 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_20 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_24 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_28 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_32 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_36 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_20 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 240px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_20 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 240px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_24 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 240px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_24 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 240px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_28 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 240px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_28 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 240px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_32 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 240px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_32 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 240px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_36 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 240px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_36 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 240px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_73 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 240px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_73 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 240px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_73 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_21 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_29 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_37 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_21 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 256px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_21 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 256px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_25 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 256px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_25 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 256px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_25 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_29 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 256px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_29 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 256px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_33 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 256px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_33 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 256px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_33 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_37 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 256px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_37 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 256px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_73 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 256px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_73 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 256px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_73 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_21 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_25 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_29 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_33 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_37 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_21 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 272px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_21 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_25 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 272px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_25 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_29 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 272px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_29 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_33 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 272px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_33 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_37 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 272px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_37 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 272px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_74 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 272px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_74 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 272px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_74 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_22 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_26 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 287px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_26 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_30 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_34 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_38 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_22 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 288px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_22 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_26 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_30 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 288px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_30 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_34 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 288px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_34 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_38 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 288px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_38 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 288px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_74 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 288px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_74 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 288px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_74 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_22 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_26 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_30 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_34 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_38 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_22 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 304px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_22 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_26 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 304px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_26 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_30 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 304px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_30 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_34 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 304px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_34 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_38 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 304px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_38 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 304px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_75 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 304px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_75 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 304px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_75 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_23 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_27 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_31 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_35 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_39 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_23 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 320px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_23 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 320px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_27 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 320px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_27 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 320px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_31 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 320px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_31 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 320px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_35 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 320px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_35 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 320px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_39 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 320px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_39 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 320px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_75 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 320px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_75 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 320px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_75 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_23 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 335px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_23 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_27 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 335px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_27 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_31 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 335px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_31 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_35 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 335px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_35 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_39 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_23 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 336px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_27 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 336px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_31 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 336px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_35 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 336px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_39 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 336px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_39 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 336px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_76 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 336px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_76 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 336px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_76 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_18 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_17 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_16 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_15 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_14 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_10 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 356px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_10 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 63px;
+	top: 356px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_11 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 356px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_11 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 200px;
+	top: 356px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_12 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 356px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_12 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 336px;
+	top: 356px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_13 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 356px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_13 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 471px;
+	top: 356px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_14 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 356px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_14 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 607px;
+	top: 356px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_76 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 356px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_76 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 356px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_76 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_40 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 372px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_40 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 372px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_40 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_44 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 372px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_44 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 372px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_44 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_48 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 372px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_48 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 372px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_48 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_52 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 372px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_52 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 372px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_52 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_56 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 372px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_56 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 372px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_56 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_77 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 372px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_77 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 372px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_77 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_40 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_44 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_48 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_40 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 388px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_40 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 388px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_44 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 388px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_44 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 388px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_48 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 388px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_48 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 388px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_52 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 388px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_52 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 388px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_52 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_56 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 388px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_56 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 388px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_56 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_77 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 388px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_77 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 388px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_77 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_41 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_49 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_41 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 404px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_41 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 404px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_45 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 404px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_45 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 404px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_45 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_49 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 404px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_49 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 404px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_53 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 404px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_53 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 404px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_53 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_57 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 404px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_57 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 404px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_57 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_78 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 404px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_78 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 404px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_78 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_41 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_45 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_49 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_53 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_41 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 420px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_41 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 420px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_45 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 420px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_45 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 420px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_49 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 420px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_49 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 420px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_53 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 420px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_53 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 420px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_57 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 420px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_57 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 420px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_57 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_78 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 420px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_78 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 420px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_78 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_42 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_46 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 435px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_46 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_50 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_54 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_42 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 436px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_42 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 436px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_46 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 436px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_50 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 436px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_50 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 436px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_54 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 436px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_54 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 436px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_58 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 436px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_58 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 436px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_58 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_79 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 436px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_79 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 436px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_79 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_42 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_46 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_50 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_54 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_42 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 452px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_42 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 452px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_46 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 452px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_46 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 452px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_50 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 452px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_50 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 452px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_54 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 452px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_54 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 452px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_58 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 452px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_58 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 452px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_58 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_79 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 452px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_79 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 452px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_79 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_43 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 468px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_43 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 468px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_43 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_47 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 468px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_47 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 468px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_47 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_51 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 468px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_51 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 468px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_51 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_55 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 468px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_55 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 468px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_55 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_59 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 468px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_59 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 468px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_59 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_80 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 468px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_80 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 468px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_80 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_43 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 484px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_43 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 484px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_43 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_47 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 484px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_47 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 484px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_47 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_51 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 278px;
+	top: 484px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_51 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 326px;
+	top: 484px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_51 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_55 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 414px;
+	top: 484px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_55 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 462px;
+	top: 484px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_55 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_59 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 550px;
+	top: 484px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_59 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 598px;
+	top: 484px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_59 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_80 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 686px;
+	top: 484px;
+	position: absolute;
+	width: 51px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_80 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 738px;
+	top: 484px;
+	position: absolute;
+	width: 67px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_80 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_10 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_13 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_11 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._boxUnit_12 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: Silver;
+	stroke-width: 3;
+	color: Black;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_15 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 505px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_15 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 63px;
+	top: 505px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbUnit_16 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 505px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbDrillGroup_16 {
+	background-color: #FFC080;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 200px;
+	top: 505px;
+	position: absolute;
+	width: 49px;
+	height: 13px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 328px;
+	top: 505px;
+	position: absolute;
+	width: 127px;
+	height: 23px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 544px;
+	top: 505px;
+	position: absolute;
+	width: 127px;
+	height: 21px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_60 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 521px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_60 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 521px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_60 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_64 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 521px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_64 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 521px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_64 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew .sprLeave {
+	left: 279px;
+	top: 521px;
+	position: absolute;
+	width: 259px;
+	height: 121px;
+}
+.PTSProject_frmBatt2SchedNew .sprLeave .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmBatt2SchedNew .sprLeave .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmBatt2SchedNew .lstSA {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 552px;
+	top: 521px;
+	position: absolute;
+	width: 121px;
+	height: 121px;
+}
+.PTSProject_frmBatt2SchedNew .cmdBattWorkSheet {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 695px;
+	top: 536px;
+	position: absolute;
+	width: 105px;
+	height: 57px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdBattWorkSheet:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_60 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 537px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_60 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 537px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_60 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_64 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 537px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_64 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 537px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_64 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_61 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 553px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_61 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 553px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_61 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_65 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 553px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_65 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 553px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_65 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_61 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 569px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_61 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 569px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_61 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_65 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 569px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_65 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 569px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_65 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_62 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 585px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_62 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 585px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_62 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_66 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 585px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_66 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 585px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_66 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_62 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 601px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_62 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 601px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_62 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_66 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 601px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_66 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 601px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_66 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew .lbTo181 {
+	background-color: Teal;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFC0;
+	left: 695px;
+	top: 608px;
+	position: absolute;
+	width: 105px;
+	height: 29px;
+	text-align: center;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_63 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 617px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_63 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 617px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_63 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosition_67 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 617px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPosam_67 {
+	background-color: White;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 617px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpAM_67 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_63 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 6px;
+	top: 633px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_63 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 53px;
+	top: 633px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._shpPayUpPM_63 {
+	fill: rgba(255, 255, 255, 1);
+	fill-opacity: 0;
+	stroke: rgba(0, 0, 0, 1);
+	stroke-width: 1;
+	color: Red;
+}
+.PTSProject_frmBatt2SchedNew ._lbPositionPM_67 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 142px;
+	top: 633px;
+	position: absolute;
+	width: 45px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew ._lbPospm_67 {
+	background-color: #FFE0C0;
+	cursor: default;
+	color: rgba(0, 0, 0, 1);
+	left: 190px;
+	top: 633px;
+	position: absolute;
+	width: 81px;
+	height: 13px;
+	visibility: hidden;
+}
+.PTSProject_frmBatt2SchedNew .cmdPayRoll {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 16px;
+	top: 668px;
+	position: absolute;
+	width: 120px;
+	height: 69px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdPayRoll:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cmdMissing {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 176px;
+	top: 668px;
+	position: absolute;
+	width: 217px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdMissing:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cmdRefresh {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 407px;
+	top: 668px;
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdRefresh:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cmdSignOff {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 543px;
+	top: 668px;
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdSignOff:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cmdListGray {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 671px;
+	top: 668px;
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdListGray:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .picTrash {
+	background-color: Teal;
+	cursor: default;
+	background-image: url("/Resources/images/frmBatt2SchedNew.picTrash.Image.png");
+	background-repeat: no-repeat;
+	left: 152px;
+	top: 672px;
+	position: absolute;
+	width: 24px;
+	height: 22px;
+}
+.PTSProject_frmBatt2SchedNew .cmdBatt1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 176px;
+	top: 708px;
+	position: absolute;
+	width: 216px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdBatt1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cmdAvailToWork {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 408px;
+	top: 708px;
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdAvailToWork:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cmdNotes {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 540px;
+	top: 708px;
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdNotes:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmBatt2SchedNew .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 671px;
+	top: 708px;
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmBatt2SchedNew .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

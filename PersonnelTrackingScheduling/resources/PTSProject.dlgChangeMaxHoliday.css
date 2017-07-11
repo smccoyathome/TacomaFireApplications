@@ -1,0 +1,108 @@
+.PTSProject_dlgChangeMaxHoliday {
+}
+.PTSProject_dlgChangeMaxHoliday .dlgChangeMaxHoliday {
+	background-color: #400000;
+	min-width: 343px;
+	min-height: 120px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_dlgChangeMaxHoliday .Label1 {
+	background-color: #400000;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FF8080;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 193px;
+	height: 17px;
+}
+.PTSProject_dlgChangeMaxHoliday .lblEmployeeName {
+	background-color: #400000;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.5px;
+	color: #FFFF80;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 249px;
+	height: 25px;
+}
+.PTSProject_dlgChangeMaxHoliday .OKButton {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 256px;
+	top: 40px;
+	position: absolute;
+	width: 81px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgChangeMaxHoliday .OKButton:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgChangeMaxHoliday .Label2 {
+	background-color: #400000;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	color: #FFFFC0;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_dlgChangeMaxHoliday .txtTotal {
+	background-color: rgba(255, 255, 255, 1);
+	border-style: inset;
+	cursor: text;
+	font-family: Arial;
+	font-size: 14.4px;
+	left: 16px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 27px;
+}
+.PTSProject_dlgChangeMaxHoliday .txtTotal:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_dlgChangeMaxHoliday .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 256px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_dlgChangeMaxHoliday .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

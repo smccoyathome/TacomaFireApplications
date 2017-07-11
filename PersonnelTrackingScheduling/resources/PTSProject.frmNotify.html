@@ -1,0 +1,18 @@
+<div>
+  <div data-width="773" data-height="507" data-removeControlBox="true" name="frmNotify" data-title="Pay Period Review" class="PTSProject_frmNotify" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmNotify">
+      <div class="cboNotifyPos" id="cboNotifyPos">
+        <select id="cboNotify" tabindex="2" class="cboNotify" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboNotify.ComboBoxItems, customText : cboNotify.CustomText, comboSelectedIndex : cboNotify.SelectedIndex, events : { change : cboNotify_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbSearch" tabindex="2" class="lbSearch" data-bind="text : lbSearch.Text, imagePath : lbSearch.ImagePath">Select PayRoll Period</label>
+      <div id="sprPay" data-role="mobilizespread" tabindex="3" class="sprPay" data-bind="widgetvalue: sprPay"></div>
+      <label id="lbLog" tabindex="5" class="lbLog" data-bind="text : lbLog.Text, imagePath : lbLog.ImagePath">SignOff Log:</label>
+      <label id="lbLogDate" tabindex="6" class="lbLogDate" data-bind="text : lbLogDate.Text, imagePath : lbLogDate.ImagePath"></label>
+      <div id="lstLog" tabindex="37" class="lstLog" data-role="listbox" style="overflow:auto" data-bind="source : lstLog.ListBoxItems, listBoxSelectedIndices : lstLog.ListBoxSelectedIndices"></div>
+      <button disabled="disabled" id="cmdClosePeriod" tabindex="42" data-tag="Open" class="cmdClosePeriod" type="button" data-bind="enabled : cmdClosePeriod.Enabled, buttonText : cmdClosePeriod.Text, events : { click : cmdClosePeriod_Click }, ">Close Pay Period</button>
+      <button id="cmdPrint" tabindex="41" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Pay Period Review</button>
+      <button id="cmdPayDetail" tabindex="40" class="cmdPayDetail" type="button" data-bind="events : { click : cmdPayDetail_Click }, ">View Individual Time Cards</button>
+      <button id="cmdClose" tabindex="1" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Exit</button>
+    </form>
+  </div>
+</div>

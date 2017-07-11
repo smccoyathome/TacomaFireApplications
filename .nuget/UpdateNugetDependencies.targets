@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project DefaultTargets="CheckDependenciesFiles" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <HelpersDir>S:\WebMapHelpers</HelpersDir>
+  </PropertyGroup>
+  
+  <!-- DO NOT CHANGE BELOW-->
+  <Import Project="$(HelpersDir)\externals\CommonMSBuildTargets\Project.targets"/>
+  <ItemGroup>
+    <Project Include="$(Root)**\*.csproj" />
+  </ItemGroup>
+  
+  <Target Name="CheckDependenciesFiles" DependsOnTargets="GetUserName">
+    <Exec  Condition="!Exists('$(HelpersDir)\build\$(username).dependencies)')" Command="type NUL > %22$(HelpersDir)\build\$(username).dependencies%22" />
+    <Exec  Condition="!Exists('$(MSBuildThisFileDirectory)$(username).dependencies)')" Command="echo $(HelpersDir)\Build\WebMapHelpers.proj > $(username).dependencies" />
+    <CallTarget Targets="UpdateNugetDependencies" />
+  </Target>
+
+  <Target Name="GetUserName">
+    <Exec Command="echo %username%" ConsoleToMSBuild="true">
+      <Output TaskParameter="ConsoleOutput" PropertyName="username" />
+    </Exec>
+  </Target>
+
+</Project>

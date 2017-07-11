@@ -1,0 +1,635 @@
+.PTSProject_frmUniformLaundryHistory {
+}
+.PTSProject_frmUniformLaundryHistory .frmUniformLaundryHistory {
+	background-color: #400000;
+	min-width: 561px;
+	min-height: 440px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory .txtTrackingNumber {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	left: 136px;
+	top: 8px;
+	position: absolute;
+	width: 129px;
+	height: 19px;
+}
+.PTSProject_frmUniformLaundryHistory .txtTrackingNumber:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .cmdFind {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 272px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUniformLaundryHistory .cmdFind:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 440px;
+	top: 8px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUniformLaundryHistory .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .Frame1 {
+	background-color: #400000;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 545px;
+	height: 105px;
+	border: 2px groove;
+}
+.PTSProject_frmUniformLaundryHistory .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory ._Label_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbItem {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 16px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_5 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 272px;
+	top: 16px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbBrand {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 360px;
+	top: 16px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbTrackingNumber {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 32px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 272px;
+	top: 32px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbManufDate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 360px;
+	top: 32px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbRetiredReason {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 48px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 272px;
+	top: 48px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbColorSize {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 360px;
+	top: 48px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbRetiredDate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 64px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 272px;
+	top: 64px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbLocation {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 360px;
+	top: 64px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory ._Label_7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #C0FFC0;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmUniformLaundryHistory .lbLastInspDate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 96px;
+	top: 80px;
+	position: absolute;
+	width: 170px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory .lbUniformID {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 464px;
+	top: 80px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmUniformLaundryHistory .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmUniformLaundryHistory .sprLaunderGrid {
+	left: 8px;
+	top: 136px;
+	position: absolute;
+	width: 545px;
+	height: 97px;
+}
+.PTSProject_frmUniformLaundryHistory .sprLaunderGrid .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmUniformLaundryHistory .sprLaunderGrid .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmUniformLaundryHistory .Frame2 {
+	background-color: #400000;
+	left: 8px;
+	top: 232px;
+	position: absolute;
+	width: 193px;
+	height: 201px;
+	border: 2px groove;
+}
+.PTSProject_frmUniformLaundryHistory .Frame2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .chkFlagged {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmUniformLaundryHistory .chkFlagged:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmUniformLaundryHistory .dteDateFlagged {
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_frmUniformLaundryHistory .dteDateFlagged.k-datepicker {
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 161px;
+	height: 21px;
+}
+.PTSProject_frmUniformLaundryHistory .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory .cboFlaggedBy {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 161px;
+	height: 23px;
+}
+.PTSProject_frmUniformLaundryHistory .cboFlaggedBy:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .cboFlaggedByPos {
+	top: 80px;
+	left: 16px;
+	position: absolute;
+	width: 161px;
+	height: 23px;
+}
+.PTSProject_frmUniformLaundryHistory .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 16px;
+	top: 112px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory .txtComment {
+	left: 16px;
+	top: 128px;
+	position: absolute;
+	width: 161px;
+	height: 65px;
+}
+.PTSProject_frmUniformLaundryHistory .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmUniformLaundryHistory .Frame3 {
+	background-color: #400000;
+	left: 200px;
+	top: 232px;
+	position: absolute;
+	width: 193px;
+	height: 201px;
+	border: 2px groove;
+}
+.PTSProject_frmUniformLaundryHistory .Frame3:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .chkCleaned {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 16px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmUniformLaundryHistory .chkCleaned:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmUniformLaundryHistory .dteDateCleaned {
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+}
+.PTSProject_frmUniformLaundryHistory .dteDateCleaned.k-datepicker {
+	left: 16px;
+	top: 32px;
+	position: absolute;
+	width: 161px;
+	height: 21px;
+}
+.PTSProject_frmUniformLaundryHistory .Label2 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 16px;
+	top: 64px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory .chkVendor {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 96px;
+	top: 64px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmUniformLaundryHistory .chkVendor:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmUniformLaundryHistory .cboCleanedBy {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	width: 161px;
+	height: 23px;
+}
+.PTSProject_frmUniformLaundryHistory .cboCleanedBy:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .cboCleanedByPos {
+	top: 80px;
+	left: 16px;
+	position: absolute;
+	width: 161px;
+	height: 23px;
+}
+.PTSProject_frmUniformLaundryHistory .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #80FFFF;
+	left: 16px;
+	top: 112px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_frmUniformLaundryHistory .txtLaundryComment {
+	left: 16px;
+	top: 128px;
+	position: absolute;
+	width: 161px;
+	height: 65px;
+}
+.PTSProject_frmUniformLaundryHistory .Frame3_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmUniformLaundryHistory .cmdNewItem {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 416px;
+	top: 248px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUniformLaundryHistory .cmdNewItem:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .cmdEdit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.7px;
+	left: 416px;
+	top: 280px;
+	position: absolute;
+	width: 121px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUniformLaundryHistory .cmdEdit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUniformLaundryHistory .chkApproved {
+	background-color: #400000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 408px;
+	top: 320px;
+	position: absolute;
+	width: 129px;
+	height: 113px;
+	width: auto;
+}
+.PTSProject_frmUniformLaundryHistory .chkApproved:enabled {
+	color: #80FFFF;
+}
+.PTSProject_frmUniformLaundryHistory .lbLaunderID {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9px;
+	font-weight: bold;
+	color: #E0E0E0;
+	left: 440px;
+	top: 320px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+	visibility: hidden;
+}
+

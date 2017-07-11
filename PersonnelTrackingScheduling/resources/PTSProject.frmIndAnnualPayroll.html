@@ -1,0 +1,17 @@
+<div>
+  <div data-width="734" data-height="534" name="frmIndAnnualPayroll" data-title="Individual Annual Payroll Report" class="PTSProject_frmIndAnnualPayroll" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmIndAnnualPayroll">
+      <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Employee</label>
+      <label id="Label3" tabindex="4" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Report Year</label>
+      <div class="cboYearPos" id="cboYearPos">
+        <select id="cboYear" tabindex="1" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <div class="cboNameListPos" id="cboNameListPos">
+        <select id="cboNameList" tabindex="2" class="cboNameList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboNameList.ComboBoxItems, customText : cboNameList.CustomText, comboSelectedIndex : cboNameList.SelectedIndex, events : { change : cboNameList_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdPrint" tabindex="3" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="4" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <div id="sprIndiv" data-role="mobilizespread" tabindex="6" class="sprIndiv" data-bind="widgetvalue: sprIndiv"></div>
+    </form>
+  </div>
+</div>

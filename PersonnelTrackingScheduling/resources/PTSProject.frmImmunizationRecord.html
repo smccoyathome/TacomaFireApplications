@@ -1,0 +1,14 @@
+<div>
+  <div data-width="769" data-height="525" name="frmImmunizationRecord" data-title="TFD Employee Immunization Record" class="PTSProject_frmImmunizationRecord" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmImmunizationRecord">
+      <label id="Label1" tabindex="2" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Employee</label>
+      <button id="cmdPrint" tabindex="4" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print Report</button>
+      <button id="cmbClose" tabindex="5" class="cmbClose" type="button" data-bind="events : { click : cmbClose_Click }, ">Close</button>
+      <div class="cboEmpListPos" id="cboEmpListPos">
+        <select id="cboEmpList" tabindex="1" class="cboEmpList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboEmpList.ComboBoxItems, customText : cboEmpList.CustomText, comboSelectedIndex : cboEmpList.SelectedIndex, events : { change : cboEmpList_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="lbEmpID" tabindex="1" class="lbEmpID" data-bind="text : lbEmpID.Text, imagePath : lbEmpID.ImagePath">lbEmpID</label>
+      <div id="sprReport" data-role="mobilizespread" tabindex="5" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+    </form>
+  </div>
+</div>

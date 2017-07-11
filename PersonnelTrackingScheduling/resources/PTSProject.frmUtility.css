@@ -1,0 +1,285 @@
+.PTSProject_frmUtility {
+}
+.PTSProject_frmUtility .frmUtility {
+	background-color: Teal;
+	min-width: 408px;
+	min-height: 364px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmUtility .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 14px;
+	top: 8px;
+	position: absolute;
+	width: 90px;
+	height: 35px;
+	text-align: center;
+}
+.PTSProject_frmUtility .cboAction {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	width: 280px;
+	height: 22px;
+	visibility: inherit;
+}
+.PTSProject_frmUtility .cboAction:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUtility .cboActionPos {
+	top: 12px;
+	left: 116px;
+	position: absolute;
+	width: 280px;
+	height: 22px;
+}
+.PTSProject_frmUtility .lbLastDateTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	color: Yellow;
+	left: 0px;
+	top: 48px;
+	position: absolute;
+	width: 277px;
+	height: 28px;
+	text-align: center;
+}
+.PTSProject_frmUtility .lbLastDate {
+	background-color: #FFFFC0;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: Red;
+	left: 280px;
+	top: 50px;
+	position: absolute;
+	width: 116px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmUtility .lbStart {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 10px;
+	top: 96px;
+	position: absolute;
+	width: 133px;
+	height: 20px;
+}
+.PTSProject_frmUtility .calStart.k-datepicker {
+	left: 148px;
+	top: 96px;
+	position: absolute;
+	width: 122px;
+	height: 20px;
+}
+.PTSProject_frmUtility .calStart {
+}
+.PTSProject_frmUtility .frArchive {
+	background-color: #FFE0C0;
+	left: 281px;
+	top: 96px;
+	position: absolute;
+	width: 124px;
+	height: 90px;
+	border: 2px groove;
+}
+.PTSProject_frmUtility .frArchive:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUtility ._chkTable_0 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	left: 10px;
+	top: 20px;
+	position: absolute;
+	width: 104px;
+	height: 16px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmUtility ._chkTable_0:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUtility ._chkTable_1 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	left: 10px;
+	top: 41px;
+	position: absolute;
+	width: 104px;
+	height: 16px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmUtility ._chkTable_1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUtility ._chkTable_2 {
+	background-color: #FFE0C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	left: 10px;
+	top: 63px;
+	position: absolute;
+	width: 104px;
+	height: 16px;
+	visibility: inherit;
+	width: auto;
+}
+.PTSProject_frmUtility ._chkTable_2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUtility .frArchive_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmUtility .calEnd.k-datepicker {
+	left: 148px;
+	top: 130px;
+	position: absolute;
+	width: 122px;
+	height: 20px;
+}
+.PTSProject_frmUtility .calEnd {
+}
+.PTSProject_frmUtility .lbEnd {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFE0C0;
+	left: 10px;
+	top: 132px;
+	position: absolute;
+	width: 133px;
+	height: 20px;
+}
+.PTSProject_frmUtility .chkRemove {
+	background-color: Teal;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	font-style: italic;
+	left: 80px;
+	top: 168px;
+	position: absolute;
+	width: 186px;
+	height: 23px;
+	width: auto;
+}
+.PTSProject_frmUtility .chkRemove:enabled {
+	color: #FFFFC0;
+}
+.PTSProject_frmUtility .lbStatus {
+	background-color: #FFFFC0;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: Navy;
+	left: 15px;
+	top: 202px;
+	position: absolute;
+	width: 364px;
+	height: 20px;
+	text-align: center;
+}
+.PTSProject_frmUtility .pb1 {
+	left: 15px;
+	top: 231px;
+	position: absolute;
+	width: 361px;
+}
+.PTSProject_frmUtility .cmdGo {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 8px;
+	top: 267px;
+	position: absolute;
+	width: 222px;
+	height: 47px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUtility .cmdGo:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUtility .cmdCancel {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 233px;
+	top: 267px;
+	position: absolute;
+	width: 76px;
+	height: 47px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUtility .cmdCancel:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmUtility .cmdExit {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 312px;
+	top: 267px;
+	position: absolute;
+	width: 85px;
+	height: 47px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmUtility .cmdExit:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

@@ -1,0 +1,51 @@
+<div>
+  <div data-width="840" data-height="533" name="frmStaffingReport" data-title="TFD Daily Staffing - Determine Callback Status" class="PTSProject_frmStaffingReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmStaffingReport">
+      <label id="Label3" tabindex="6" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Report Year</label>
+      <div class="cboYearPos" id="cboYearPos">
+        <select id="cboYear" tabindex="7" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <input id="txtTotal" tabindex="33" Value="txtTotal" class="txtTotal" data-bind="value : txtTotal.Text" />
+      <button id="cmdClose" tabindex="6" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label4" tabindex="10" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Change Target Staffing Total, then Click button to rerun Report</label>
+      <label id="Label1" tabindex="7" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Report Month</label>
+      <div class="cboMonthPos" id="cboMonthPos">
+        <select id="cboMonth" tabindex="8" class="cboMonth" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboMonth.ComboBoxItems, customText : cboMonth.CustomText, comboSelectedIndex : cboMonth.SelectedIndex, events : { change : cboMonth_SelectionChangeCommitted }, "></select>
+      </div>
+      <button id="cmdRunReport" tabindex="35" class="cmdRunReport" type="button" data-bind="enabled : cmdRunReport.Enabled, events : { click : cmdRunReport_Click }, ">Run Report</button>
+      <button id="cmdPrint" tabindex="5" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <div id="sprReportGrid" data-role="mobilizespread" tabindex="18" class="sprReportGrid" data-bind="widgetvalue: sprReportGrid"></div>
+      <div id="sprReport" data-role="mobilizespread" tabindex="8" class="sprReport" data-bind="widgetvalue: sprReport"></div>
+      <label id="lbDetailDisplayed" tabindex="16" class="lbDetailDisplayed" data-bind="text : lbDetailDisplayed.Text, imagePath : lbDetailDisplayed.ImagePath"></label>
+      <label id="Label2" tabindex="5" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">^^^^^  Click On cell amount to display daily detail below... ^^^^^</label>
+      <div id="sprCSRs" data-role="mobilizespread" tabindex="21" class="sprCSRs" data-bind="widgetvalue: sprCSRs"></div>
+      <div id="sprDetail" data-role="mobilizespread" tabindex="0" class="sprDetail" data-bind="widgetvalue: sprDetail"></div>
+      <div id="sprCallBackDetail" data-role="mobilizespread" tabindex="17" class="sprCallBackDetail" data-bind="widgetvalue: sprCallBackDetail"></div>
+      <fieldset id="Frame1" class="Frame1">
+        <legend id="Frame1_legend" class="Frame1_legend"></legend>
+        <div>
+          <div class="optWorking">
+            <input id="optWorking" tabindex="36" type="radio" name="Frame1_radios" checked="checked" style="float: left" data-bind="customChecked : optWorking.Checked, events : { change : optWorking_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Working Staff</label>
+            </div>
+          </div>
+          <div class="optCallback">
+            <input id="optCallback" tabindex="37" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optCallback.Checked, events : { change : optCallback_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Qualified Callback Staff</label>
+            </div>
+          </div>
+          <div class="optCSRs">
+            <input id="optCSRs" tabindex="38" type="radio" name="Frame1_radios" style="float: left" data-bind="customChecked : optCSRs.Checked, events : { change : optCSRs_CheckedChanged }, " />
+            <div style="float: left;overflow:hidden">
+              <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Display Available CSRs</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <button id="cmdPrintDetail" tabindex="39" class="cmdPrintDetail" type="button" data-bind="events : { click : cmdPrintDetail_Click }, ">Print Detail</button>
+      <label id="lbListNote" tabindex="19" class="lbListNote" data-bind="visible : lbListNote.Visible, text : lbListNote.Text, imagePath : lbListNote.ImagePath">Note:  List does not include those already Scheduled  OR on Leave</label>
+    </form>
+  </div>
+</div>

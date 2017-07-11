@@ -1,0 +1,126 @@
+.PTSProject_frmParamedicLeave {
+}
+.PTSProject_frmParamedicLeave .frmParamedicLeave {
+	background-color: Teal;
+	min-width: 711px;
+	min-height: 692px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+}
+.PTSProject_frmParamedicLeave .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmParamedicLeave .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmParamedicLeave .cboYearPos {
+	top: 4px;
+	left: 96px;
+	position: absolute;
+	width: 83px;
+	height: 24px;
+}
+.PTSProject_frmParamedicLeave .cboMonth {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmParamedicLeave .cboMonth:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmParamedicLeave .cboMonthPos {
+	top: 4px;
+	left: 288px;
+	position: absolute;
+	width: 119px;
+	height: 24px;
+}
+.PTSProject_frmParamedicLeave .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 480px;
+	top: 4px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmParamedicLeave .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmParamedicLeave .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 584px;
+	top: 4px;
+	position: absolute;
+	width: 97px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmParamedicLeave .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmParamedicLeave .Label3 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 90px;
+	height: 20px;
+}
+.PTSProject_frmParamedicLeave .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.6px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 184px;
+	top: 8px;
+	position: absolute;
+	width: 105px;
+	height: 20px;
+}
+.PTSProject_frmParamedicLeave .sprMonth2 {
+	left: 8px;
+	top: 40px;
+	position: absolute;
+	width: 697px;
+	height: 641px;
+}
+.PTSProject_frmParamedicLeave .sprMonth2 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmParamedicLeave .sprMonth2 .k-spreadsheet-action-bar {
+	display: none;
+}
+

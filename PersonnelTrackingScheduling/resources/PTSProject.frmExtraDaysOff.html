@@ -1,0 +1,19 @@
+<div>
+  <div data-width="727" data-height="517" name="frmExtraDaysOff" data-title="Extra-Unplanned Days Off Report" class="PTSProject_frmExtraDaysOff" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmExtraDaysOff">
+      <button id="cmdPrint" tabindex="62" class="cmdPrint" type="button" data-bind="events : { click : cmdPrint_Click }, ">Print</button>
+      <button id="cmdClose" tabindex="61" class="cmdClose" type="button" data-bind="events : { click : cmdClose_Click }, ">Close</button>
+      <label id="Label3" tabindex="6" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">Report Year</label>
+      <div class="cboYearPos" id="cboYearPos">
+        <select id="cboYear" tabindex="60" class="cboYear" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboYear.ComboBoxItems, customText : cboYear.CustomText, comboSelectedIndex : cboYear.SelectedIndex, events : { change : cboYear_SelectionChangeCommitted }, "></select>
+      </div>
+      <label id="Label1" tabindex="5" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Report Month</label>
+      <div class="cboMonthPos" id="cboMonthPos">
+        <select id="cboMonth" tabindex="59" class="cboMonth" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboMonth.ComboBoxItems, customText : cboMonth.CustomText, comboSelectedIndex : cboMonth.SelectedIndex, events : { change : cboMonth_SelectionChangeCommitted }, "></select>
+      </div>
+      <div id="sprDaysOff" tabindex="-1" class="sprDaysOff" data-bind="style : { backgroundColor : sprDaysOff.BackColor.Value }"></div>
+      <label id="Label2" tabindex="8" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">^^^^^  Click On cell amount to display daily detail below... ^^^^^</label>
+      <div id="sprDetail" data-role="mobilizespread" tabindex="7" class="sprDetail" data-bind="widgetvalue: sprDetail"></div>
+    </form>
+  </div>
+</div>

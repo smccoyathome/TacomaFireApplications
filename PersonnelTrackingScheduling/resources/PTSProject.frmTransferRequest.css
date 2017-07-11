@@ -1,0 +1,698 @@
+.PTSProject_frmTransferRequest {
+}
+.PTSProject_frmTransferRequest .frmTransferRequest {
+	background-color: #004000;
+	min-width: 728px;
+	min-height: 580px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmTransferRequest .Frame2 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	left: 8px;
+	top: 8px;
+	position: absolute;
+	width: 713px;
+	height: 561px;
+	border: 2px groove;
+}
+.PTSProject_frmTransferRequest .Frame2:enabled {
+	color: #FFFF80;
+}
+.PTSProject_frmTransferRequest .Frame1 {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 512px;
+	top: 16px;
+	position: absolute;
+	width: 185px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTransferRequest .Frame1:enabled {
+	color: Red;
+}
+.PTSProject_frmTransferRequest .optNewPosition {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 32px;
+	top: 16px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTransferRequest .optNewPosition:enabled {
+	color: Yellow;
+}
+.PTSProject_frmTransferRequest .optNewPosition * {
+	Cursor: default;
+}
+.PTSProject_frmTransferRequest .optRequest {
+	background-color: #004000;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 32px;
+	top: 32px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	cursor: default;
+}
+.PTSProject_frmTransferRequest .optRequest:enabled {
+	color: Yellow;
+}
+.PTSProject_frmTransferRequest .optRequest * {
+	Cursor: default;
+}
+.PTSProject_frmTransferRequest .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTransferRequest .Label1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 8px;
+	top: 24px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmTransferRequest .cboReqNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 241px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .cboReqNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .cboReqNameListPos {
+	top: 24px;
+	left: 120px;
+	position: absolute;
+	width: 241px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .cmdClearRequest {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 368px;
+	top: 24px;
+	position: absolute;
+	width: 126px;
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferRequest .cmdClearRequest:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFC080;
+	left: 8px;
+	top: 48px;
+	position: absolute;
+	width: 105px;
+	height: 17px;
+	text-align: right;
+}
+.PTSProject_frmTransferRequest .cboReqPositionList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 241px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .cboReqPositionList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .cboReqPositionListPos {
+	top: 48px;
+	left: 120px;
+	position: absolute;
+	width: 241px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .frmAddPosition {
+	background-color: #004000;
+	left: 512px;
+	top: 72px;
+	position: absolute;
+	width: 185px;
+	height: 313px;
+	border: 2px groove;
+}
+.PTSProject_frmTransferRequest .frmAddPosition:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .chkPMOnly {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	left: 72px;
+	top: 16px;
+	position: absolute;
+	width: 97px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmTransferRequest .chkPMOnly:enabled {
+	color: #80FF80;
+}
+.PTSProject_frmTransferRequest .Label7 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 24px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .cboUnitList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .cboUnitList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .cboUnitListPos {
+	top: 40px;
+	left: 16px;
+	position: absolute;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .Label6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 72px;
+	position: absolute;
+	width: 81px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .cboPositionList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .cboPositionList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .cboPositionListPos {
+	top: 88px;
+	left: 16px;
+	position: absolute;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .Label8 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 120px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .cboShiftList {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .cboShiftList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .cboShiftListPos {
+	top: 136px;
+	left: 16px;
+	position: absolute;
+	width: 129px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .Label9 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 168px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .dteOpenDate {
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+}
+.PTSProject_frmTransferRequest .dteOpenDate.k-datepicker {
+	left: 16px;
+	top: 184px;
+	position: absolute;
+	width: 129px;
+	height: 19px;
+}
+.PTSProject_frmTransferRequest .Label10 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 16px;
+	top: 208px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .dteCloseDate {
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+}
+.PTSProject_frmTransferRequest .dteCloseDate.k-datepicker {
+	left: 16px;
+	top: 224px;
+	position: absolute;
+	width: 129px;
+	height: 19px;
+}
+.PTSProject_frmTransferRequest .cmdAddPosition {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 16px;
+	top: 264px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferRequest .cmdAddPosition:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .frmAddPosition_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTransferRequest .frmRequest {
+	background-color: #004000;
+	left: 512px;
+	top: 72px;
+	position: absolute;
+	width: 185px;
+	height: 313px;
+	border: 2px groove;
+}
+.PTSProject_frmTransferRequest .frmRequest:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .lblName {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 16px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 169px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .cboNameListPos {
+	top: 32px;
+	left: 8px;
+	position: absolute;
+	width: 169px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .lblDate {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #8080FF;
+	left: 8px;
+	top: 64px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .lstAvailPositions {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 169px;
+	height: 28px;
+}
+.PTSProject_frmTransferRequest .Label5 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #80FF80;
+	left: 8px;
+	top: 136px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .cboPriority {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	width: 169px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .cboPriority:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .cboPriorityPos {
+	top: 152px;
+	left: 8px;
+	position: absolute;
+	width: 169px;
+	height: 20px;
+}
+.PTSProject_frmTransferRequest .Label3 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 8px;
+	top: 184px;
+	position: absolute;
+	width: 161px;
+	height: 17px;
+}
+.PTSProject_frmTransferRequest .txtComment {
+	left: 8px;
+	top: 200px;
+	position: absolute;
+	width: 169px;
+	height: 57px;
+}
+.PTSProject_frmTransferRequest .cmdReqDone {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 272px;
+	position: absolute;
+	width: 169px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferRequest .cmdReqDone:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .frmRequest_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTransferRequest .cmdAssign {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 80px;
+	position: absolute;
+	width: 167px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferRequest .cmdAssign:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 368px;
+	top: 80px;
+	position: absolute;
+	width: 126px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferRequest .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .sprRequests {
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	left: 8px;
+	top: 96px;
+	position: absolute;
+	width: 492px;
+	height: 209px;
+}
+.PTSProject_frmTransferRequest .sprRequests .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTransferRequest .sprRequests .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmTransferRequest .Label2 {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 136px;
+	top: 312px;
+	position: absolute;
+	width: 153px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmTransferRequest .chkActiveOnly {
+	background-color: #004000;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	font-style: italic;
+	left: 8px;
+	top: 320px;
+	position: absolute;
+	width: 129px;
+	height: 17px;
+	width: auto;
+}
+.PTSProject_frmTransferRequest .chkActiveOnly:enabled {
+	color: #FFC080;
+}
+.PTSProject_frmTransferRequest .cmdInactivate {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 320px;
+	top: 320px;
+	position: absolute;
+	width: 167px;
+	height: 17px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferRequest .cmdInactivate:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .sprPositions {
+	font-family: Microsoft Sans Serif;
+	font-size: 9.9px;
+	left: 8px;
+	top: 336px;
+	position: absolute;
+	width: 492px;
+	height: 209px;
+}
+.PTSProject_frmTransferRequest .sprPositions .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmTransferRequest .sprPositions .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmTransferRequest .cmdDisplay {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 512px;
+	top: 456px;
+	position: absolute;
+	width: 185px;
+	height: 49px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferRequest .cmdDisplay:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .Frame2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTransferRequest .frmLegend {
+	background-color: #004000;
+	left: 520px;
+	top: 392px;
+	position: absolute;
+	width: 185px;
+	height: 57px;
+	border: 2px groove;
+}
+.PTSProject_frmTransferRequest .frmLegend:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmTransferRequest .Label14 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 0px;
+	top: 16px;
+	position: absolute;
+	width: 137px;
+	height: 33px;
+	text-align: center;
+}
+.PTSProject_frmTransferRequest .frmLegend_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmTransferRequest .CancelButton_Renamed {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 520px;
+	top: 520px;
+	position: absolute;
+	width: 185px;
+	height: 33px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmTransferRequest .CancelButton_Renamed:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+

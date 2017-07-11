@@ -1,0 +1,1477 @@
+.PTSProject_frmIndTimeCard {
+}
+.PTSProject_frmIndTimeCard .frmIndTimeCard {
+	background-color: #0000C0;
+	min-width: 752px;
+	min-height: 681px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.PTSProject_frmIndTimeCard .chkAllEmp {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	left: 88px;
+	top: 8px;
+	position: absolute;
+	width: 193px;
+	height: 33px;
+	width: auto;
+}
+.PTSProject_frmIndTimeCard .chkAllEmp:enabled {
+	color: Lime;
+}
+.PTSProject_frmIndTimeCard .cboNotify {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	width: 183px;
+	height: 25px;
+}
+.PTSProject_frmIndTimeCard .cboNotify:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboNotifyPos {
+	top: 16px;
+	left: 440px;
+	position: absolute;
+	width: 183px;
+	height: 25px;
+}
+.PTSProject_frmIndTimeCard .cmdPrint {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	left: 632px;
+	top: 16px;
+	position: absolute;
+	width: 108px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTimeCard .cmdPrint:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .lbSearch {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: #FFE0C0;
+	left: 290px;
+	top: 18px;
+	position: absolute;
+	width: 142px;
+	height: 22px;
+}
+.PTSProject_frmIndTimeCard ._Label11_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: #FFFFC0;
+	left: 2px;
+	top: 34px;
+	position: absolute;
+	width: 81px;
+	height: 41px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .cboNameList {
+	background-color: White;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	width: 221px;
+	height: 24px;
+}
+.PTSProject_frmIndTimeCard .cboNameList:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboNameListPos {
+	top: 40px;
+	left: 88px;
+	position: absolute;
+	width: 221px;
+	height: 24px;
+}
+.PTSProject_frmIndTimeCard ._Label3_6 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: #80FFFF;
+	left: 288px;
+	top: 48px;
+	position: absolute;
+	width: 142px;
+	height: 25px;
+	text-align: right;
+}
+.PTSProject_frmIndTimeCard .cboYear {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 73px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboYear:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboYearPos {
+	top: 48px;
+	left: 440px;
+	position: absolute;
+	width: 73px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cmdClose {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	left: 632px;
+	top: 48px;
+	position: absolute;
+	width: 108px;
+	height: 30px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTimeCard .cmdClose:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .Label4 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.08px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 88px;
+	top: 72px;
+	position: absolute;
+	width: 225px;
+	height: 17px;
+}
+.PTSProject_frmIndTimeCard .Frame1 {
+	background-color: #0000C0;
+	left: 8px;
+	top: 88px;
+	position: absolute;
+	width: 737px;
+	height: 129px;
+	border: 2px groove;
+}
+.PTSProject_frmIndTimeCard .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard ._Label3_0 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 8px;
+	top: 14px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard ._Label3_1 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 72px;
+	top: 14px;
+	position: absolute;
+	width: 201px;
+	height: 17px;
+}
+.PTSProject_frmIndTimeCard ._Label3_3 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 288px;
+	top: 14px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard ._Label3_4 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 368px;
+	top: 14px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+}
+.PTSProject_frmIndTimeCard ._Label3_2 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	color: #FFC080;
+	left: 416px;
+	top: 14px;
+	position: absolute;
+	width: 249px;
+	height: 17px;
+}
+.PTSProject_frmIndTimeCard .txtEmplNum {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 8px;
+	top: 30px;
+	position: absolute;
+	width: 57px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtEmplNum:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtEmpName {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 72px;
+	top: 30px;
+	position: absolute;
+	width: 209px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtEmpName:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtJobCode {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 288px;
+	top: 30px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtJobCode:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtStep {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	font-weight: bold;
+	left: 368px;
+	top: 30px;
+	position: absolute;
+	width: 33px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtStep:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .lbJobCodeDescription {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	font-weight: bold;
+	color: Yellow;
+	left: 416px;
+	top: 32px;
+	position: absolute;
+	width: 313px;
+	height: 41px;
+}
+.PTSProject_frmIndTimeCard .lbVerify {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 12.96px;
+	font-weight: bold;
+	color: Red;
+	left: 8px;
+	top: 56px;
+	position: absolute;
+	width: 393px;
+	height: 17px;
+}
+.PTSProject_frmIndTimeCard .cmdVerify {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 8px;
+	top: 88px;
+	position: absolute;
+	width: 124px;
+	height: 34px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTimeCard .cmdVerify:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cmdApprove {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 504px;
+	top: 88px;
+	position: absolute;
+	width: 116px;
+	height: 34px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTimeCard .cmdApprove:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cmdUpload {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Microsoft Sans Serif;
+	font-size: 11.52px;
+	left: 624px;
+	top: 88px;
+	position: absolute;
+	width: 108px;
+	height: 34px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTimeCard .cmdUpload:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .lblCostCenter {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFFFC0;
+	left: 352px;
+	top: 96px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmIndTimeCard .lblPayRate {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	color: #FFFFC0;
+	left: 424px;
+	top: 96px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	visibility: hidden;
+}
+.PTSProject_frmIndTimeCard .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmIndTimeCard .Label1 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 8px;
+	top: 224px;
+	position: absolute;
+	width: 145px;
+	height: 17px;
+}
+.PTSProject_frmIndTimeCard ._Label3_5 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Aqua;
+	left: 512px;
+	top: 224px;
+	position: absolute;
+	width: 153px;
+	height: 25px;
+	text-align: right;
+}
+.PTSProject_frmIndTimeCard .lbTotalHrs {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	font-weight: bold;
+	color: Red;
+	left: 680px;
+	top: 224px;
+	position: absolute;
+	width: 57px;
+	height: 25px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .sprWeek1 {
+	left: 8px;
+	top: 248px;
+	position: absolute;
+	width: 737px;
+	height: 105px;
+}
+.PTSProject_frmIndTimeCard .sprWeek1 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmIndTimeCard .sprWeek1 .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmIndTimeCard .frmWeek1 {
+	background-color: #0000C0;
+	left: 8px;
+	top: 360px;
+	position: absolute;
+	width: 737px;
+	height: 81px;
+	border: 2px groove;
+}
+.PTSProject_frmIndTimeCard .frmWeek1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard ._Label20_1 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 4px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard ._Label11_1 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 59px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label8 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 120px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label7 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 199px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label5 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 264px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label10 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 320px;
+	top: 8px;
+	position: absolute;
+	width: 87px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label9 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 408px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label12 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 479px;
+	top: 8px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label19 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 516px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label18 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 547px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label17 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 576px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label14 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 607px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label13 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 636px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label16 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 667px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label15 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 696px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .txtActivity1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 4px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtActivity1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtCostCenter1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 58px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtCostCenter1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtWBSElement1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 120px;
+	top: 24px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtWBSElement1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboOrder1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 72px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboOrder1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboOrder1Pos {
+	top: 24px;
+	left: 197px;
+	position: absolute;
+	width: 72px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .txtOper1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 272px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtOper1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboAAType1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 77px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboAAType1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboAAType1Pos {
+	top: 24px;
+	left: 328px;
+	position: absolute;
+	width: 77px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboJobCode1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 65px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboJobCode1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboJobCode1Pos {
+	top: 24px;
+	left: 408px;
+	position: absolute;
+	width: 65px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboStep1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 33px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboStep1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboStep1Pos {
+	top: 24px;
+	left: 480px;
+	position: absolute;
+	width: 33px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .txtMo1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 516px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtMo1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtTu1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 546px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtTu1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtWe1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 576px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtWe1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtTh1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 606px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtTh1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtFr1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 636px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtFr1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtSa1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 666px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtSa1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtSu1 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 696px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtSu1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cmdApply1 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 584px;
+	top: 48px;
+	position: absolute;
+	width: 137px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTimeCard .cmdApply1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard ._Label35_0 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Lime;
+	left: 320px;
+	top: 56px;
+	position: absolute;
+	width: 265px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .frmWeek1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmIndTimeCard .Label2 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #FFFF80;
+	left: 8px;
+	top: 440px;
+	position: absolute;
+	width: 121px;
+	height: 17px;
+}
+.PTSProject_frmIndTimeCard .sprWeek2 {
+	left: 8px;
+	top: 464px;
+	position: absolute;
+	width: 737px;
+	height: 113px;
+}
+.PTSProject_frmIndTimeCard .sprWeek2 .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmIndTimeCard .sprWeek2 .k-spreadsheet-action-bar {
+	display: none;
+}
+.PTSProject_frmIndTimeCard .frmWeek2 {
+	background-color: #0000C0;
+	left: 8px;
+	top: 584px;
+	position: absolute;
+	width: 737px;
+	height: 81px;
+	border: 2px groove;
+}
+.PTSProject_frmIndTimeCard .frmWeek2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .Label34 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 4px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label33 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 59px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label30 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 120px;
+	top: 8px;
+	position: absolute;
+	width: 73px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label31 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 199px;
+	top: 8px;
+	position: absolute;
+	width: 57px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label32 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 264px;
+	top: 8px;
+	position: absolute;
+	width: 49px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label28 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 320px;
+	top: 8px;
+	position: absolute;
+	width: 87px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label29 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 408px;
+	top: 8px;
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label27 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 479px;
+	top: 8px;
+	position: absolute;
+	width: 33px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label36 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 516px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label21 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 547px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label22 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 576px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label25 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 607px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label26 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 636px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label23 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 667px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .Label24 {
+	background-color: #0000C0;
+	cursor: default;
+	font-family: Arial;
+	font-size: 9.360001px;
+	font-weight: bold;
+	color: #C0FFFF;
+	left: 696px;
+	top: 8px;
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .txtActivity2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 4px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtActivity2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtCostCenter2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 58px;
+	top: 24px;
+	position: absolute;
+	width: 57px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtCostCenter2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtWBSElement2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 120px;
+	top: 24px;
+	position: absolute;
+	width: 73px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtWBSElement2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboOrder2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 72px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboOrder2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboOrder2Pos {
+	top: 24px;
+	left: 197px;
+	position: absolute;
+	width: 72px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .txtOper2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 272px;
+	top: 24px;
+	position: absolute;
+	width: 49px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtOper2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboAAType2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 77px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboAAType2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboAAType2Pos {
+	top: 24px;
+	left: 328px;
+	position: absolute;
+	width: 77px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboJobCode2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 65px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboJobCode2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboJobCode2Pos {
+	top: 24px;
+	left: 408px;
+	position: absolute;
+	width: 65px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboStep2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.8px;
+	width: 33px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .cboStep2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cboStep2Pos {
+	top: 24px;
+	left: 480px;
+	position: absolute;
+	width: 33px;
+	height: 23px;
+}
+.PTSProject_frmIndTimeCard .txtMo2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 516px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtMo2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtTu2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 546px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtTu2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtWe2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 576px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtWe2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtTh2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 606px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtTh2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtFr2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 636px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtFr2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtSa2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 666px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtSa2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .txtSu2 {
+	background-color: rgba(255, 255, 255, 1);
+	cursor: text;
+	font-family: Arial;
+	font-size: 10.8px;
+	left: 696px;
+	top: 24px;
+	position: absolute;
+	width: 25px;
+	height: 21px;
+}
+.PTSProject_frmIndTimeCard .txtSu2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard .cmdApply2 {
+	background-color: rgba(240, 240, 240, 1);
+	cursor: default;
+	font-family: Arial;
+	font-size: 11.52px;
+	left: 592px;
+	top: 48px;
+	position: absolute;
+	width: 129px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.PTSProject_frmIndTimeCard .cmdApply2:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.PTSProject_frmIndTimeCard ._Label35_1 {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Arial;
+	font-size: 13.68px;
+	color: Lime;
+	left: 328px;
+	top: 56px;
+	position: absolute;
+	width: 265px;
+	height: 17px;
+	text-align: center;
+}
+.PTSProject_frmIndTimeCard .frmWeek2_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+.PTSProject_frmIndTimeCard .sprTimeSheet {
+	left: 8px;
+	top: 680px;
+	position: absolute;
+	width: 713px;
+	height: 57px;
+	visibility: hidden;
+}
+.PTSProject_frmIndTimeCard .sprTimeSheet .k-tabstrip-wrapper {
+	display: none;
+}
+.PTSProject_frmIndTimeCard .sprTimeSheet .k-spreadsheet-action-bar {
+	display: none;
+}
+

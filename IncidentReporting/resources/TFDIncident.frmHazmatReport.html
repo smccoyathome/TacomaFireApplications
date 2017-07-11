@@ -1,0 +1,281 @@
+<div>
+  <div data-width="814" data-height="544" data-removeControlBox="true" name="frmHazmatReport" data-title="Form1" class="TFDIncident_frmHazmatReport" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
+    <form class="frmHazmatReport">
+      <button disabled="disabled" id="cmdMoreChemicals" tabindex="-1" class="cmdMoreChemicals" type="button" data-bind="enabled : cmdMoreChemicals.Enabled, events : { click : cmdMoreChemicals_Click }, ">ADD ADDITIONAL CHEMICALS...</button>
+      <label id="lbChemDetailID" tabindex="69" class="lbChemDetailID" data-bind="text : lbChemDetailID.Text, imagePath : lbChemDetailID.ImagePath"></label>
+      <fieldset id="picHazmatBar" class="picHazmatBar" data-bind="enabled : picHazmatBar.Enabled">
+        <label id="Label2" tabindex="56" class="Label2" data-bind="text : Label2.Text, imagePath : Label2.ImagePath">Incident \#</label>
+        <label id="lbIncident" tabindex="57" class="lbIncident" data-bind="text : lbIncident.Text, imagePath : lbIncident.ImagePath">001230012</label>
+        <button id="_cmdSave_3" tabindex="8" index="3" class="_cmdSave_3" type="button" data-bind="enabled : _cmdSave_3.Enabled, visible : _cmdSave_3.Visible, events : { click : cmdSave_Click }, ">Print</button>
+        <button id="_cmdSave_0" tabindex="3" index="0" class="_cmdSave_0" type="button" data-bind="enabled : _cmdSave_0.Enabled, visible : _cmdSave_0.Visible, events : { click : cmdSave_Click }, ">Save as Complete</button>
+        <button id="_cmdSave_1" tabindex="2" index="1" class="_cmdSave_1" type="button" data-bind="enabled : _cmdSave_1.Enabled, visible : _cmdSave_1.Visible, events : { click : cmdSave_Click }, ">Save as Incomplete</button>
+        <button id="_cmdSave_2" tabindex="1" index="2" class="_cmdSave_2" type="button" data-bind="enabled : _cmdSave_2.Enabled, visible : _cmdSave_2.Visible, events : { click : cmdSave_Click }, ">Cancel and Exit</button>
+        <label id="lbLockedMessage" tabindex="114" class="lbLockedMessage" data-bind="text : lbLockedMessage.Text, imagePath : lbLockedMessage.ImagePath">READ ONLY - Records Locked</label>
+        <label id="lbLocation" tabindex="55" class="lbLocation" data-bind="text : lbLocation.Text, imagePath : lbLocation.ImagePath">lbLocation</label>
+      </fieldset>
+      <div id="tabHazmat" SelectedIndex="0" tabindex="58" class="tabHazmat" data-role="tabstrip" data-animation="{ open: { duration: 0, effects: '' }}" data-bind="visible : tabHazmat.Visible, selectedIndex : tabHazmat.SelectedIndex">
+        <ul>
+          <li data-bind="enabled : tabHazmat.Items[0].Enabled, visible : tabHazmat.Items[0].Visible">
+            <span class="k-link" data-bind="text : tabHazmat.Items[0].Text">General Information</span>
+          </li>
+          <li data-bind="enabled : tabHazmat.Items[1].Enabled, visible : tabHazmat.Items[1].Visible">
+            <span class="k-link" data-bind="text : tabHazmat.Items[1].Text">Hazmat Release</span>
+          </li>
+          <li data-bind="enabled : tabHazmat.Items[2].Enabled, visible : tabHazmat.Items[2].Visible">
+            <span class="k-link" data-bind="text : tabHazmat.Items[2].Text">Chemical Detail</span>
+          </li>
+          <li data-bind="enabled : tabHazmat.Items[3].Enabled, visible : tabHazmat.Items[3].Visible">
+            <span class="k-link" data-bind="text : tabHazmat.Items[3].Text">Drug Lab</span>
+          </li>
+          <li data-bind="enabled : tabHazmat.Items[4].Enabled, visible : tabHazmat.Items[4].Visible">
+            <span class="k-link" data-bind="text : tabHazmat.Items[4].Text">Narration</span>
+          </li>
+        </ul>
+        <div id="tabPage1" class="tabPage1">
+          <div>
+            <fieldset id="Frame3" class="Frame3">
+              <legend id="Frame3_legend" class="Frame3_legend"></legend>
+              <div>
+                <label id="Label1" tabindex="73" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">HAZMAT INCIDENT TYPE</label>
+                <div class="cboIncidentTypePos" id="cboIncidentTypePos">
+                  <select id="cboIncidentType" tabindex="16" class="cboIncidentType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboIncidentType.ComboBoxItems, customText : cboIncidentType.CustomText, comboSelectedIndex : cboIncidentType.SelectedIndex, events : { change : cboIncidentType_SelectionChangeCommitted, blur : cboIncidentType_Leave }, "></select>
+                </div>
+                <label id="Label6" tabindex="74" class="Label6" data-bind="text : Label6.Text, imagePath : Label6.ImagePath">HAZMAT ACTIONS TAKEN</label>
+                <label id="Label5" tabindex="72" class="Label5" data-bind="text : Label5.Text, imagePath : Label5.ImagePath">HAZARDOUS MATERIAL ID SOURCE</label>
+                <div id="lstActionsTaken" data-selectable="multiple" tabindex="19" class="lstActionsTaken" data-role="listbox" style="overflow:auto" data-bind="source : lstActionsTaken.ListBoxItems, listBoxSelectedIndices : lstActionsTaken.ListBoxSelectedIndices"></div>
+                <div class="cboHazmatIDSourcePos" id="cboHazmatIDSourcePos">
+                  <select id="cboHazmatIDSource" tabindex="17" class="cboHazmatIDSource" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboHazmatIDSource.ComboBoxItems, customText : cboHazmatIDSource.CustomText, comboSelectedIndex : cboHazmatIDSource.SelectedIndex, events : { change : cboHazmatIDSource_SelectionChangeCommitted, blur : cboHazmatIDSource_Leave }, "></select>
+                </div>
+                <label id="lbDispOfRelease" tabindex="71" class="lbDispOfRelease" data-bind="text : lbDispOfRelease.Text, imagePath : lbDispOfRelease.ImagePath">DISPOSITION OF HAZMAT INCIDENT</label>
+                <div class="cboDispositionPos" id="cboDispositionPos">
+                  <select id="cboDisposition" tabindex="18" class="cboDisposition" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboDisposition.ComboBoxItems, customText : cboDisposition.CustomText, comboSelectedIndex : cboDisposition.SelectedIndex, events : { change : cboDisposition_SelectionChangeCommitted, blur : cboDisposition_Leave }, "></select>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset id="Frame2" class="Frame2">
+              <legend id="Frame2_legend" class="Frame2_legend">OUTSIDE RESOURCES</legend>
+              <div>
+                <label id="Label3" tabindex="62" class="Label3" data-bind="text : Label3.Text, imagePath : Label3.ImagePath">RESOURCE:</label>
+                <div class="cboOutsideResourcePos" id="cboOutsideResourcePos">
+                  <select id="cboOutsideResource" tabindex="9" class="cboOutsideResource" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboOutsideResource.ComboBoxItems, customText : cboOutsideResource.CustomText, comboSelectedIndex : cboOutsideResource.SelectedIndex, events : { change : cboOutsideResource_SelectionChangeCommitted, blur : cboOutsideResource_Leave }, "></select>
+                </div>
+                <label id="Label4" tabindex="61" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">USED FOR:</label>
+                <div class="cboResourceUsePos" id="cboResourceUsePos">
+                  <select id="cboResourceUse" tabindex="10" class="cboResourceUse" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboResourceUse.ComboBoxItems, customText : cboResourceUse.CustomText, comboSelectedIndex : cboResourceUse.SelectedIndex, events : { change : cboResourceUse_SelectionChangeCommitted, blur : cboResourceUse_Leave }, "></select>
+                </div>
+                <button disabled="disabled" id="cmdAddResource" tabindex="11" class="cmdAddResource" type="button" data-bind="enabled : cmdAddResource.Enabled, events : { click : cmdAddResource_Click }, ">Add Resource</button>
+                <div id="lstOutsideResource" data-selectable="multiple" tabindex="12" class="lstOutsideResource" data-role="listbox" style="overflow:auto" data-bind="source : lstOutsideResource.ListBoxItems, listBoxSelectedIndices : lstOutsideResource.ListBoxSelectedIndices"></div>
+                <button disabled="disabled" id="cmdRemoveResource" tabindex="13" class="cmdRemoveResource" type="button" data-bind="enabled : cmdRemoveResource.Enabled, events : { click : cmdRemoveResource_Click }, ">Remove Resource</button>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <div id="tabPage2" class="tabPage2">
+          <div>
+            <fieldset id="Frame4" class="Frame4">
+              <legend id="Frame4_legend" class="Frame4_legend"></legend>
+              <div>
+                <label id="lbGenPropUse" tabindex="78" class="lbGenPropUse" data-bind="text : lbGenPropUse.Text, imagePath : lbGenPropUse.ImagePath">GENERAL PROPERTY USE</label>
+                <div class="cboGeneralPropertyUsePos" id="cboGeneralPropertyUsePos">
+                  <select id="cboGeneralPropertyUse" tabindex="27" class="cboGeneralPropertyUse" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboGeneralPropertyUse.ComboBoxItems, customText : cboGeneralPropertyUse.CustomText, comboSelectedIndex : cboGeneralPropertyUse.SelectedIndex, events : { change : cboGeneralPropertyUse_SelectionChangeCommitted, blur : cboGeneralPropertyUse_Leave }, "></select>
+                </div>
+                <label id="lbSpecPropUse" tabindex="77" class="lbSpecPropUse" data-bind="text : lbSpecPropUse.Text, imagePath : lbSpecPropUse.ImagePath">SPECIFIC PROPERTY USE</label>
+                <div class="cboSpecificPropertyUsePos" id="cboSpecificPropertyUsePos">
+                  <select id="cboSpecificPropertyUse" tabindex="28" class="cboSpecificPropertyUse" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboSpecificPropertyUse.ComboBoxItems, customText : cboSpecificPropertyUse.CustomText, comboSelectedIndex : cboSpecificPropertyUse.SelectedIndex, events : { change : cboSpecificPropertyUse_SelectionChangeCommitted, blur : cboSpecificPropertyUse_Leave }, "></select>
+                </div>
+                <label id="lbAreaOrigin" tabindex="80" class="lbAreaOrigin" data-bind="text : lbAreaOrigin.Text, imagePath : lbAreaOrigin.ImagePath">AREA OF ORIGIN</label>
+                <div class="cboAreaOfOriginPos" id="cboAreaOfOriginPos">
+                  <select id="cboAreaOfOrigin" tabindex="29" class="cboAreaOfOrigin" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAreaOfOrigin.ComboBoxItems, customText : cboAreaOfOrigin.CustomText, comboSelectedIndex : cboAreaOfOrigin.SelectedIndex, events : { change : cboAreaOfOrigin_SelectionChangeCommitted, blur : cboAreaOfOrigin_Leave }, "></select>
+                </div>
+                <label id="lbCauseOfRelease" tabindex="79" class="lbCauseOfRelease" data-bind="text : lbCauseOfRelease.Text, imagePath : lbCauseOfRelease.ImagePath">CAUSE OF RELEASE</label>
+                <div class="cboCauseOfReleasePos" id="cboCauseOfReleasePos">
+                  <select id="cboCauseOfRelease" tabindex="30" class="cboCauseOfRelease" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboCauseOfRelease.ComboBoxItems, customText : cboCauseOfRelease.CustomText, comboSelectedIndex : cboCauseOfRelease.SelectedIndex, events : { change : cboCauseOfRelease_SelectionChangeCommitted, blur : cboCauseOfRelease_Leave }, "></select>
+                </div>
+                <label id="lbReleaseFloor" tabindex="76" class="lbReleaseFloor" data-bind="visible : lbReleaseFloor.Visible, text : lbReleaseFloor.Text, imagePath : lbReleaseFloor.ImagePath">RELEASE FLOOR</label>
+                <input id="txtReleaseFloor" tabindex="31" class="txtReleaseFloor" data-bind="enabled : txtReleaseFloor.Enabled, visible : txtReleaseFloor.Visible, value : txtReleaseFloor.Text" />
+                <div class="cboStreetClassPos" id="cboStreetClassPos" data-bind="visible : cboStreetClass.Visible">
+                  <select id="cboStreetClass" tabindex="32" class="cboStreetClass" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboStreetClass.ComboBoxItems, customText : cboStreetClass.CustomText, comboSelectedIndex : cboStreetClass.SelectedIndex, events : { blur : cboStreetClass_Leave }, "></select>
+                </div>
+                <label id="lbStreetClass" tabindex="81" class="lbStreetClass" data-bind="visible : lbStreetClass.Visible, text : lbStreetClass.Text, imagePath : lbStreetClass.ImagePath">STREET CLASS</label>
+                <label id="lbContribFactors" tabindex="82" class="lbContribFactors" data-bind="text : lbContribFactors.Text, imagePath : lbContribFactors.ImagePath">CONTRIBUTING FACTORS</label>
+                <div id="lstContributingFactors" data-selectable="multiple" tabindex="33" class="lstContributingFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstContributingFactors.ListBoxItems, listBoxSelectedIndices : lstContributingFactors.ListBoxSelectedIndices"></div>
+                <label id="lbMitigatingFactors" tabindex="83" class="lbMitigatingFactors" data-bind="text : lbMitigatingFactors.Text, imagePath : lbMitigatingFactors.ImagePath">MITIGATING FACTORS</label>
+                <div id="lstMitigatingFactors" data-selectable="multiple" tabindex="34" class="lstMitigatingFactors" data-role="listbox" style="overflow:auto" data-bind="source : lstMitigatingFactors.ListBoxItems, listBoxSelectedIndices : lstMitigatingFactors.ListBoxSelectedIndices"></div>
+              </div>
+            </fieldset>
+            <fieldset id="frmOccuredFirst" class="frmOccuredFirst">
+              <legend id="frmOccuredFirst_legend" class="frmOccuredFirst_legend">OCCURRED FIRST:</legend>
+              <div>
+                <div index="0" class="_optOccurredFirst_0">
+                  <input id="_optOccurredFirst_0" tabindex="24" type="radio" name="frmOccuredFirst_radios" style="float: left" data-bind="enabled : _optOccurredFirst_0.Enabled, customChecked : _optOccurredFirst_0.Checked" />
+                  <div style="float: left;overflow:hidden">
+                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optOccurredFirst_0.Enabled">FIRE</label>
+                  </div>
+                </div>
+                <div index="1" class="_optOccurredFirst_1">
+                  <input id="_optOccurredFirst_1" tabindex="25" type="radio" name="frmOccuredFirst_radios" style="float: left" data-bind="enabled : _optOccurredFirst_1.Enabled, customChecked : _optOccurredFirst_1.Checked" />
+                  <div style="float: left;overflow:hidden">
+                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optOccurredFirst_1.Enabled">EXPLOSION</label>
+                  </div>
+                </div>
+                <div index="2" class="_optOccurredFirst_2">
+                  <input id="_optOccurredFirst_2" tabindex="26" type="radio" name="frmOccuredFirst_radios" style="float: left" data-bind="enabled : _optOccurredFirst_2.Enabled, customChecked : _optOccurredFirst_2.Checked" />
+                  <div style="float: left;overflow:hidden">
+                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : _optOccurredFirst_2.Enabled">HAZMAT RELEASE</label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset id="Frame5" class="Frame5">
+              <legend id="Frame5_legend" class="Frame5_legend"></legend>
+              <div>
+                <label id="lbAreaAffectUnits" tabindex="86" class="lbAreaAffectUnits" data-bind="text : lbAreaAffectUnits.Text, imagePath : lbAreaAffectUnits.ImagePath">AREA AFFECTED UNITS</label>
+                <div class="cboAreaAffectedUnitsPos" id="cboAreaAffectedUnitsPos">
+                  <select id="cboAreaAffectedUnits" tabindex="43" class="cboAreaAffectedUnits" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAreaAffectedUnits.ComboBoxItems, customText : cboAreaAffectedUnits.CustomText, comboSelectedIndex : cboAreaAffectedUnits.SelectedIndex, events : { change : cboAreaAffectedUnits_SelectionChangeCommitted, blur : cboAreaAffectedUnits_Leave }, "></select>
+                </div>
+                <input id="txtAreaAffected" tabindex="44" class="txtAreaAffected" data-bind="style : { backgroundColor : txtAreaAffected.BackColor.Value, color : txtAreaAffected.ForeColor.Value }, enabled : txtAreaAffected.Enabled, value : txtAreaAffected.Text, events : { change : txtAreaAffected_TextChanged }, " />
+                <label id="lbAreaAffect" tabindex="87" class="lbAreaAffect" data-bind="text : lbAreaAffect.Text, imagePath : lbAreaAffect.ImagePath">AREA AFFECTED</label>
+                <label id="lbAreaEvacUnits" tabindex="88" class="lbAreaEvacUnits" data-bind="text : lbAreaEvacUnits.Text, imagePath : lbAreaEvacUnits.ImagePath">AREA EVACUATED UNITS</label>
+                <div class="cboAreaEvacuatedUnitsPos" id="cboAreaEvacuatedUnitsPos">
+                  <select id="cboAreaEvacuatedUnits" tabindex="45" class="cboAreaEvacuatedUnits" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAreaEvacuatedUnits.ComboBoxItems, customText : cboAreaEvacuatedUnits.CustomText, comboSelectedIndex : cboAreaEvacuatedUnits.SelectedIndex, events : { blur : cboAreaEvacuatedUnits_Leave }, "></select>
+                </div>
+                <input id="txtAreaEvacuated" tabindex="46" class="txtAreaEvacuated" data-bind="enabled : txtAreaEvacuated.Enabled, value : txtAreaEvacuated.Text" />
+                <label id="lbAreaEvac" tabindex="89" class="lbAreaEvac" data-bind="text : lbAreaEvac.Text, imagePath : lbAreaEvac.ImagePath">AREA EVACUATED</label>
+                <label id="lbPopDensity" tabindex="90" class="lbPopDensity" data-bind="text : lbPopDensity.Text, imagePath : lbPopDensity.ImagePath">POPULATION DENSITY</label>
+                <div class="cboPopulationDensityPos" id="cboPopulationDensityPos">
+                  <select id="cboPopulationDensity" tabindex="47" class="cboPopulationDensity" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPopulationDensity.ComboBoxItems, customText : cboPopulationDensity.CustomText, comboSelectedIndex : cboPopulationDensity.SelectedIndex, events : { change : cboPopulationDensity_SelectionChangeCommitted, blur : cboPopulationDensity_Leave }, "></select>
+                </div>
+                <input id="txtPeopleEvacuated" tabindex="48" class="txtPeopleEvacuated" data-bind="enabled : txtPeopleEvacuated.Enabled, value : txtPeopleEvacuated.Text" />
+                <label id="lbPeopleEvac" tabindex="92" class="lbPeopleEvac" data-bind="text : lbPeopleEvac.Text, imagePath : lbPeopleEvac.ImagePath">PEOPLE EVACUATED</label>
+                <input id="txtBuildingsEvacuated" tabindex="49" class="txtBuildingsEvacuated" data-bind="enabled : txtBuildingsEvacuated.Enabled, value : txtBuildingsEvacuated.Text" />
+                <label id="lbBldgEvac" tabindex="91" class="lbBldgEvac" data-bind="text : lbBldgEvac.Text, imagePath : lbBldgEvac.ImagePath">BUILDINGS EVACUATED</label>
+                <label id="lbEquipInvolved" tabindex="85" class="lbEquipInvolved" data-bind="text : lbEquipInvolved.Text, imagePath : lbEquipInvolved.ImagePath">EQUIPMENT INVOLVED</label>
+                <div id="lstEquipmentInvolved" data-selectable="multiple" tabindex="50" class="lstEquipmentInvolved" data-role="listbox" style="overflow:auto" data-bind="source : lstEquipmentInvolved.ListBoxItems, listBoxSelectedIndices : lstEquipmentInvolved.ListBoxSelectedIndices"></div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <div id="tabPage3" class="tabPage3">
+          <div>
+            <fieldset id="Frame6" class="Frame6">
+              <legend id="Frame6_legend" class="Frame6_legend"></legend>
+              <div>
+                <label id="Label8" tabindex="94" class="Label8" data-bind="text : Label8.Text, imagePath : Label8.ImagePath">Select Chemical Detail to Edit</label>
+                <div class="cboSelectChemicalPos" id="cboSelectChemicalPos">
+                  <select id="cboSelectChemical" tabindex="66" class="cboSelectChemical" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboSelectChemical.ComboBoxItems, customText : cboSelectChemical.CustomText, comboSelectedIndex : cboSelectChemical.SelectedIndex, events : { change : cboSelectChemical_SelectionChangeCommitted, blur : cboSelectChemical_Leave }, "></select>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset id="Frame1" class="Frame1">
+              <legend id="Frame1_legend" class="Frame1_legend">Select Chemical</legend>
+              <div>
+                <label id="lbCommonChemicals" tabindex="66" class="lbCommonChemicals" data-bind="text : lbCommonChemicals.Text, imagePath : lbCommonChemicals.ImagePath">COMMON CHEMICALS</label>
+                <label id="lbChemicalName" tabindex="65" class="lbChemicalName" data-bind="text : lbChemicalName.Text, imagePath : lbChemicalName.ImagePath">CHEMICAL NAME</label>
+                <label id="lbChemicalID" tabindex="64" class="lbChemicalID" data-bind="text : lbChemicalID.Text, imagePath : lbChemicalID.ImagePath"></label>
+                <label id="lbUN" tabindex="67" class="lbUN" data-bind="text : lbUN.Text, imagePath : lbUN.ImagePath">UN \#</label>
+                <div class="cboCommonChemicalsPos" id="cboCommonChemicalsPos">
+                  <select id="cboCommonChemicals" tabindex="59" class="cboCommonChemicals" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboCommonChemicals.ComboBoxItems, customText : cboCommonChemicals.CustomText, comboSelectedIndex : cboCommonChemicals.SelectedIndex, events : { change : cboCommonChemicals_SelectionChangeCommitted, blur : cboCommonChemicals_Leave }, "></select>
+                </div>
+                <div class="cboChemicalNamePos" id="cboChemicalNamePos">
+                  <select id="cboChemicalName" tabindex="60" class="cboChemicalName" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboChemicalName.ComboBoxItems, customText : cboChemicalName.CustomText, comboSelectedIndex : cboChemicalName.SelectedIndex, events : { change : cboChemicalName_SelectionChangeCommitted, blur : cboChemicalName_Leave }, "></select>
+                </div>
+                <div class="cboUNPos" id="cboUNPos">
+                  <select id="cboUN" tabindex="61" class="cboUN" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboUN.ComboBoxItems, customText : cboUN.CustomText, comboSelectedIndex : cboUN.SelectedIndex, events : { change : cboUN_SelectionChangeCommitted, blur : cboUN_Leave }, "></select>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset id="Frame7" class="Frame7">
+              <legend id="Frame7_legend" class="Frame7_legend"></legend>
+              <div>
+                <label id="lbContainerType" tabindex="97" class="lbContainerType" data-bind="text : lbContainerType.Text, imagePath : lbContainerType.ImagePath">CONTAINER TYPE</label>
+                <div class="cboContainerTypePos" id="cboContainerTypePos">
+                  <select id="cboContainerType" tabindex="68" class="cboContainerType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboContainerType.ComboBoxItems, customText : cboContainerType.CustomText, comboSelectedIndex : cboContainerType.SelectedIndex, events : { change : cboContainerType_SelectionChangeCommitted, blur : cboContainerType_Leave }, "></select>
+                </div>
+                <label id="lbContainerCapUnits" tabindex="98" class="lbContainerCapUnits" data-bind="text : lbContainerCapUnits.Text, imagePath : lbContainerCapUnits.ImagePath">CONTAINER CAPACITY UNITS</label>
+                <div class="cboContainerCapacityUnitsPos" id="cboContainerCapacityUnitsPos">
+                  <select id="cboContainerCapacityUnits" tabindex="69" class="cboContainerCapacityUnits" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboContainerCapacityUnits.ComboBoxItems, customText : cboContainerCapacityUnits.CustomText, comboSelectedIndex : cboContainerCapacityUnits.SelectedIndex, events : { change : cboContainerCapacityUnits_SelectionChangeCommitted, blur : cboContainerCapacityUnits_Leave }, "></select>
+                </div>
+                <input id="txtEstContainerCapacity" tabindex="70" class="txtEstContainerCapacity" data-bind="enabled : txtEstContainerCapacity.Enabled, value : txtEstContainerCapacity.Text, events : { change : txtEstContainerCapacity_TextChanged }, " />
+                <label id="lbEstContainerCap" tabindex="99" class="lbEstContainerCap" data-bind="text : lbEstContainerCap.Text, imagePath : lbEstContainerCap.ImagePath">EST. CONTAINER CAPACITY</label>
+                <label id="Label7" tabindex="100" class="Label7" data-bind="text : Label7.Text, imagePath : Label7.ImagePath">AMOUNT RELEASED UNITS</label>
+                <div class="cboAmountReleasedUnitsPos" id="cboAmountReleasedUnitsPos">
+                  <select id="cboAmountReleasedUnits" tabindex="71" class="cboAmountReleasedUnits" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAmountReleasedUnits.ComboBoxItems, customText : cboAmountReleasedUnits.CustomText, comboSelectedIndex : cboAmountReleasedUnits.SelectedIndex, events : { change : cboAmountReleasedUnits_SelectionChangeCommitted, blur : cboAmountReleasedUnits_Leave }, "></select>
+                </div>
+                <input id="txtEstAmountReleased" tabindex="72" class="txtEstAmountReleased" data-bind="style : { backgroundColor : txtEstAmountReleased.BackColor.Value, color : txtEstAmountReleased.ForeColor.Value }, enabled : txtEstAmountReleased.Enabled, value : txtEstAmountReleased.Text, events : { change : txtEstAmountReleased_TextChanged }, " />
+                <label id="lbEstAmountReleased" tabindex="96" class="lbEstAmountReleased" data-bind="text : lbEstAmountReleased.Text, imagePath : lbEstAmountReleased.ImagePath">EST. AMOUNT RELEASED</label>
+              </div>
+            </fieldset>
+            <fieldset id="Frame8" class="Frame8">
+              <legend id="Frame8_legend" class="Frame8_legend"></legend>
+              <div>
+                <label id="lbPhyStateStored" tabindex="102" class="lbPhyStateStored" data-bind="text : lbPhyStateStored.Text, imagePath : lbPhyStateStored.ImagePath">PHYSICAL STATE STORED</label>
+                <div class="cboPhysicalStateStoredPos" id="cboPhysicalStateStoredPos">
+                  <select id="cboPhysicalStateStored" tabindex="78" class="cboPhysicalStateStored" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPhysicalStateStored.ComboBoxItems, customText : cboPhysicalStateStored.CustomText, comboSelectedIndex : cboPhysicalStateStored.SelectedIndex, events : { change : cboPhysicalStateStored_SelectionChangeCommitted, blur : cboPhysicalStateStored_Leave }, "></select>
+                </div>
+                <label id="lbPhyStateReleased" tabindex="103" class="lbPhyStateReleased" data-bind="text : lbPhyStateReleased.Text, imagePath : lbPhyStateReleased.ImagePath">PHYSICAL STATE RELEASED</label>
+                <div class="cboPhysicalStateReleasedPos" id="cboPhysicalStateReleasedPos">
+                  <select id="cboPhysicalStateReleased" tabindex="79" class="cboPhysicalStateReleased" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPhysicalStateReleased.ComboBoxItems, customText : cboPhysicalStateReleased.CustomText, comboSelectedIndex : cboPhysicalStateReleased.SelectedIndex, events : { change : cboPhysicalStateReleased_SelectionChangeCommitted, blur : cboPhysicalStateReleased_Leave }, "></select>
+                </div>
+                <label id="lbPrimaryReleasedInto" tabindex="104" class="lbPrimaryReleasedInto" data-bind="text : lbPrimaryReleasedInto.Text, imagePath : lbPrimaryReleasedInto.ImagePath">PRIMARY RELEASED INTO</label>
+                <div class="cboPrimaryReleasedIntoPos" id="cboPrimaryReleasedIntoPos">
+                  <select id="cboPrimaryReleasedInto" tabindex="80" class="cboPrimaryReleasedInto" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPrimaryReleasedInto.ComboBoxItems, customText : cboPrimaryReleasedInto.CustomText, comboSelectedIndex : cboPrimaryReleasedInto.SelectedIndex, events : { change : cboPrimaryReleasedInto_SelectionChangeCommitted, blur : cboPrimaryReleasedInto_Leave }, "></select>
+                </div>
+                <label id="lbSecondReleasedInto" tabindex="105" class="lbSecondReleasedInto" data-bind="text : lbSecondReleasedInto.Text, imagePath : lbSecondReleasedInto.ImagePath">SECONDARY RELEASED INTO</label>
+                <div class="cboSecondaryReleasedIntoPos" id="cboSecondaryReleasedIntoPos">
+                  <select id="cboSecondaryReleasedInto" tabindex="81" class="cboSecondaryReleasedInto" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboSecondaryReleasedInto.ComboBoxItems, customText : cboSecondaryReleasedInto.CustomText, comboSelectedIndex : cboSecondaryReleasedInto.SelectedIndex, events : { change : cboSecondaryReleasedInto_SelectionChangeCommitted, blur : cboSecondaryReleasedInto_Leave }, "></select>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <div id="tabPage4" class="tabPage4">
+          <div>
+            <fieldset id="Frame9" class="Frame9">
+              <legend id="Frame9_legend" class="Frame9_legend"></legend>
+              <div>
+                <label id="lbDrugLabType" tabindex="108" class="lbDrugLabType" data-bind="text : lbDrugLabType.Text, imagePath : lbDrugLabType.ImagePath">DRUG LAB TYPE</label>
+                <div class="cboDrugLabTypePos" id="cboDrugLabTypePos">
+                  <select id="cboDrugLabType" tabindex="86" class="cboDrugLabType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboDrugLabType.ComboBoxItems, customText : cboDrugLabType.CustomText, comboSelectedIndex : cboDrugLabType.SelectedIndex, events : { change : cboDrugLabType_SelectionChangeCommitted, blur : cboDrugLabType_Leave }, "></select>
+                </div>
+                <label id="Line1" tabindex="110" class="Line1" data-bind="text : Line1.Text, imagePath : Line1.ImagePath"></label>
+                <label id="lbFireServiceMaterialTitle" tabindex="107" class="lbFireServiceMaterialTitle" data-bind="text : lbFireServiceMaterialTitle.Text, imagePath : lbFireServiceMaterialTitle.ImagePath">FIRE SERVICE MATERIAL USED:</label>
+                <div class="cboMaterialUsedPos" id="cboMaterialUsedPos">
+                  <select id="cboMaterialUsed" tabindex="87" class="cboMaterialUsed" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboMaterialUsed.ComboBoxItems, customText : cboMaterialUsed.CustomText, comboSelectedIndex : cboMaterialUsed.SelectedIndex, events : { blur : cboMaterialUsed_Leave }, "></select>
+                </div>
+                <label id="lbQuantity" tabindex="109" class="lbQuantity" data-bind="text : lbQuantity.Text, imagePath : lbQuantity.ImagePath">QUANTITY</label>
+                <input id="txtQuantity" tabindex="88" class="txtQuantity" data-bind="enabled : txtQuantity.Enabled, value : txtQuantity.Text, events : { change : txtQuantity_TextChanged }, " />
+                <div id="lstMaterialUsed" data-selectable="multiple" tabindex="90" class="lstMaterialUsed" data-role="listbox" style="overflow:auto" data-bind="source : lstMaterialUsed.ListBoxItems, listBoxSelectedIndices : lstMaterialUsed.ListBoxSelectedIndices"></div>
+                <button id="cmdAddMaterial" tabindex="89" class="cmdAddMaterial" type="button" data-bind="enabled : cmdAddMaterial.Enabled, events : { click : cmdAddMaterial_Click }, ">Add Material</button>
+                <button id="cmdRemoveMaterial" tabindex="91" class="cmdRemoveMaterial" type="button" data-bind="enabled : cmdRemoveMaterial.Enabled, events : { click : cmdRemoveMaterial_Click }, ">Remove Material</button>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <div id="tabPage5" class="tabPage5">
+          <div>
+            <fieldset id="frmNarrSelection" class="frmNarrSelection">
+              <legend id="frmNarrSelection_legend" class="frmNarrSelection_legend"></legend>
+              <div>
+                <label id="Label9" tabindex="118" class="Label9" data-bind="text : Label9.Text, imagePath : Label9.ImagePath">Select Narration Author</label>
+                <div class="cboNarrListPos" id="cboNarrListPos">
+                  <select id="cboNarrList" tabindex="101" class="cboNarrList" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboNarrList.ComboBoxItems, customText : cboNarrList.CustomText, comboSelectedIndex : cboNarrList.SelectedIndex, events : { change : cboNarrList_SelectionChangeCommitted }, "></select>
+                </div>
+                <label id="lbNarrID" tabindex="117" class="lbNarrID" data-bind="text : lbNarrID.Text, imagePath : lbNarrID.ImagePath">lbNarrID</label>
+                <button id="cmdAddNarration" tabindex="102" data-tag="1" class="cmdAddNarration" type="button" data-bind="enabled : cmdAddNarration.Enabled, visible : cmdAddNarration.Visible, buttonText : cmdAddNarration.Text, events : { click : cmdAddNarration_Click }, ">Add New Narration</button>
+              </div>
+            </fieldset>
+            <fieldset id="Frame10" class="Frame10">
+              <legend id="Frame10_legend" class="Frame10_legend"></legend>
+              <div>
+                <label id="_lbFrameTitle_7" tabindex="112" index="7" class="_lbFrameTitle_7" data-bind="text : _lbFrameTitle_7.Text, imagePath : _lbFrameTitle_7.ImagePath">HAZMAT NARRATION - Author:</label>
+                <label id="lbNarrAuthor" tabindex="111" class="lbNarrAuthor" data-bind="text : lbNarrAuthor.Text, imagePath : lbNarrAuthor.ImagePath"></label>
+                <textarea id="rtxNarration" tabindex="96" class="rtxNarration" data-bind="enabled : rtxNarration.Enabled"></textarea>
+                <label id="lbNarrMessage" tabindex="113" class="lbNarrMessage" data-bind="text : lbNarrMessage.Text, imagePath : lbNarrMessage.ImagePath">Narrations may only be edited by Original Author</label>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

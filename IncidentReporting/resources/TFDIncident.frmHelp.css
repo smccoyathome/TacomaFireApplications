@@ -1,0 +1,79 @@
+.TFDIncident_frmHelp {
+}
+.TFDIncident_frmHelp .frmHelp {
+	background-color: #5C6C4A;
+	min-width: 495px;
+	min-height: 356px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmHelp .lbHelpTitle {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: #C0C000;
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	width: 465px;
+	height: 29px;
+}
+.TFDIncident_frmHelp .txtHelpText {
+	left: 8px;
+	top: 28px;
+	position: absolute;
+	width: 233px;
+	height: 281px;
+}
+.TFDIncident_frmHelp .Label1 {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Verdana;
+	font-size: 12.24px;
+	font-weight: bold;
+	font-style: italic;
+	color: #400000;
+	left: 252px;
+	top: 28px;
+	position: absolute;
+	width: 221px;
+	height: 21px;
+}
+.TFDIncident_frmHelp .tvHelpList {
+	border-style: inset;
+	left: 256px;
+	top: 48px;
+	position: absolute;
+	width: 225px;
+	height: 261px;
+}
+.TFDIncident_frmHelp .cmdClose {
+	left: 380px;
+	top: 316px;
+	position: absolute;
+	width: 101px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+.TFDIncident_frmHelp .cmdCode {
+	left: 8px;
+	top: 320px;
+	position: absolute;
+	width: 153px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	display: table-cell;
+}
+

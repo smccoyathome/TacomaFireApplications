@@ -1,0 +1,188 @@
+.TFDIncident_frmSplash {
+}
+.TFDIncident_frmSplash .frmSplash {
+	background-color: #8F9AA9;
+	min-width: 541px;
+	min-height: 351px;
+	position: absolute;
+	overflow: hidden;
+	cursor: default;
+}
+.TFDIncident_frmSplash .Frame1 {
+	background-color: #8F9AA9;
+	left: 12px;
+	top: 4px;
+	position: absolute;
+	width: 524px;
+	height: 343px;
+	visibility: inherit;
+	border: 2px groove;
+}
+.TFDIncident_frmSplash .Frame1:enabled {
+	color: rgba(0, 0, 0, 1);
+}
+.TFDIncident_frmSplash .lblCompanyProduct {
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 21.6px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 116px;
+	top: 24px;
+	position: absolute;
+	width: 281px;
+	height: 28px;
+}
+.TFDIncident_frmSplash .lblProductName {
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 26.64px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 72px;
+	top: 56px;
+	position: absolute;
+	width: 376px;
+	height: 36px;
+}
+.TFDIncident_frmSplash .lbHelp {
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 21.6px;
+	font-weight: bold;
+	color: #0000C0;
+	left: 272px;
+	top: 96px;
+	position: absolute;
+	width: 247px;
+	height: 56px;
+}
+.TFDIncident_frmSplash .imgLogo {
+	border-style: inset;
+	cursor: default;
+	background-image: url("/Resources/images/frmSplash.imgLogo.Image.png");
+	background-repeat: no-repeat;
+	left: 12px;
+	top: 100px;
+	position: absolute;
+	width: 245px;
+	height: 204px;
+	background-size: 100% 100%;
+	visibility: inherit;
+}
+.TFDIncident_frmSplash .lblVersion {
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 411px;
+	top: 256px;
+	position: absolute;
+	width: 99px;
+	height: 20px;
+	text-align: right;
+}
+.TFDIncident_frmSplash .lbVersionDate {
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 14.4px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	left: 354px;
+	top: 280px;
+	position: absolute;
+	width: 156px;
+	height: 20px;
+	text-align: right;
+}
+.TFDIncident_frmSplash .lbTrainingMode {
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: #FFFFC0;
+	border-style: inset;
+	cursor: default;
+	font-family: Arial;
+	font-size: 16.56px;
+	font-weight: bold;
+	color: #0000C0;
+	left: 8px;
+	top: 304px;
+	position: absolute;
+	width: 194px;
+	height: 25px;
+}
+.TFDIncident_frmSplash .lblCopyright {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.08px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 304px;
+	position: absolute;
+	width: 133px;
+	height: 17px;
+	text-align: right;
+}
+.TFDIncident_frmSplash .lblCompany {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.08px;
+	color: rgba(0, 0, 0, 1);
+	left: 376px;
+	top: 320px;
+	position: absolute;
+	width: 133px;
+	height: 17px;
+	text-align: right;
+}
+.TFDIncident_frmSplash .lblWarning {
+	background-color: Transparent;
+	border-width: 0px;
+	padding: 0px;
+	cursor: default;
+	font-family: Arial;
+	font-size: 10.08px;
+	color: rgba(0, 0, 0, 1);
+	left: 8px;
+	top: 328px;
+	position: absolute;
+	width: 249px;
+	height: 13px;
+}
+.TFDIncident_frmSplash .Frame1_legend {
+	background-color: inherit;
+	margin-left: 5px;
+}
+
