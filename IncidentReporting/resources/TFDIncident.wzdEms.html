@@ -298,22 +298,17 @@
                             <div class="cboInjuryTypePos" id="cboInjuryTypePos">
                                 <select disabled="disabled" id="cboInjuryType" tabindex="49" class="cboInjuryType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboInjuryType.ComboBoxItems, enabled : cboInjuryType.Enabled, customText : cboInjuryType.CustomText, comboSelectedIndex : cboInjuryType.SelectedIndex, events : { change : cboInjuryType_SelectionChangeCommitted, blur : cboInjuryType_Leave }, "></select>
                             </div>
-                            <label id="_lbExam_1" tabindex="201" index="1" class="_lbExam_1" data-bind="text : _lbExam_1.Text, imagePath : _lbExam_1.ImagePath">INJURY TYPE                               BODY PART</label>
+                            <label id="_lbExam_1" tabindex="201" index="1" class="_lbExam_1" data-bind="text : _lbExam_1.Text, imagePath : _lbExam_1.ImagePath">INJURY TYPE</label>
                             <div class="cboBodyPartPos" id="cboBodyPartPos">
                                 <select disabled="disabled" id="cboBodyPart" tabindex="50" class="cboBodyPart" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboBodyPart.ComboBoxItems, enabled : cboBodyPart.Enabled, customText : cboBodyPart.CustomText, comboSelectedIndex : cboBodyPart.SelectedIndex, events : { change : cboBodyPart_SelectionChangeCommitted, blur : cboBodyPart_Leave }, "></select>
                             </div>
+                            <label id="_lbExam_BodyPart" tabindex="201" index="1" class="_lbExam_BodyPart" data-bind="text : _lbExam_BodyPart.Text, imagePath : _lbExam_BodyPart.ImagePath">BODY PART</label>
                             <div class="chkMajTrauma">
                                 <div style="float: left;overflow:hidden">
                                     <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkMajTrauma.Enabled">MAJOR TRAUMA?</label>
                                 </div>
                                 <input id="chkMajTrauma" tabindex="51" type="checkbox" style="float: left" data-bind="enabled : chkMajTrauma.Enabled, events : { click : chkMajTrauma_CheckStateChanged }, " />
-                            </div>
-                            <div class="chkMajorTrauma">
-                                <input id="chkMajorTrauma" tabindex="52" type="checkbox" style="float: left" />
-                                <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">MAJOR TRAUMA</label>
-                                </div>
-                            </div>
+                            </div>                         
                         </div>
                     </fieldset>
                     <fieldset id="frmIllness" class="frmIllness" data-bind="enabled : frmIllness.Enabled">

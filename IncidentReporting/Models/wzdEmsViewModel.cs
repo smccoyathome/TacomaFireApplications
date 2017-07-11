@@ -969,7 +969,9 @@ namespace TFDIncident.ViewModels
 			this.cboInjuryType.TabIndex = 42;
 			this.cboInjuryType.Text = "cboInjuryType";
 			this._lbExam_1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this.cboMechCode = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
+            this._lbExam_BodyPart = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
+
+            this.cboMechCode = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
 			// 
 			// cboMechCode
 			// 
@@ -2714,21 +2716,12 @@ namespace TFDIncident.ViewModels
 			this.imgMain[1] = _imgMain_1;
 			this.imgMain[0].Name = "_imgMain_0";
 			this.imgMain[1].Name = "_imgMain_1";
-			this.chkMajorTrauma = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
-			// 
-			// chkMajorTrauma
-			// 
-			this.chkMajorTrauma.BackColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-			this.chkMajorTrauma.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 15.6F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.chkMajorTrauma.ForeColor = UpgradeHelpers.Helpers.SystemColors.ControlText;
-			this.chkMajorTrauma.Name = "chkMajorTrauma";
-			this.chkMajorTrauma.TabIndex = 200;
-			this.chkMajorTrauma.Text = "MAJOR TRAUMA";
-			this.frmALSAttempts = ctx.Resolve<UpgradeHelpers.BasicViewModels.GroupBoxViewModel>();
-			// 
-			// frmALSAttempts
-			// 
-			this.frmALSAttempts.BackColor = UpgradeHelpers.Helpers.Color.White;
+
+            // 
+            // frmALSAttempts
+            // 
+            this.frmALSAttempts = ctx.Resolve<UpgradeHelpers.BasicViewModels.GroupBoxViewModel>();
+            this.frmALSAttempts.BackColor = UpgradeHelpers.Helpers.Color.White;
 			this.frmALSAttempts.ForeColor = UpgradeHelpers.Helpers.SystemColors.ControlText;
 			this.frmALSAttempts.Name = "frmALSAttempts";
 			this.frmALSAttempts.TabIndex = 423;
@@ -3952,8 +3945,14 @@ namespace TFDIncident.ViewModels
 			lbExam[1].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
 			lbExam[1].Name = "_lbExam_1";
 			lbExam[1].TabIndex = 201;
-			lbExam[1].Text = "INJURY TYPE                               BODY PART";
-			lbExam[0].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
+			lbExam[1].Text = "INJURY TYPE";
+            this._lbExam_BodyPart.BackColor = UpgradeHelpers.Helpers.Color.Transparent;
+            this._lbExam_BodyPart.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
+            this._lbExam_BodyPart.ForeColor = UpgradeHelpers.Helpers.Color.Navy;
+            this._lbExam_BodyPart.Name = "_lbExam_BodyPart";
+            //this._lbExam_BodyPart.TabIndex = 201;
+            this._lbExam_BodyPart.Text = "BODY PART";
+            lbExam[0].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
 			lbExam[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			lbExam[0].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
 			lbExam[0].Name = "_lbExam_0";
@@ -4787,7 +4786,9 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbExam_1 { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel cboMechCode { get; set; }
+        public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbExam_BodyPart { get; set; }
+
+        public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel cboMechCode { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel lbExamDate { get; set; }
 
@@ -5104,8 +5105,6 @@ namespace TFDIncident.ViewModels
 		public virtual UpgradeHelpers.BasicViewModels.GroupBoxViewModel frmALSProcedures { get; set; }
 
 		public virtual System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.PictureBoxViewModel> imgMain { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.CheckBoxViewModel chkMajorTrauma { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.GroupBoxViewModel frmALSAttempts { get; set; }
 

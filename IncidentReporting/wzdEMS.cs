@@ -2711,7 +2711,7 @@ namespace TFDIncident
             else if (ViewModel.CurrFrame.Name == "frmPatientInformation")
             {
                 ViewModel.CurrFrame = ViewModel.frmActionTaken;
-                ViewModel.chkMajorTrauma.CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
+                ViewModel.chkMajTrauma.CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
                 ViewModel.chkCPRPerformed.CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
                 FlipImage();
             }
@@ -5474,7 +5474,7 @@ namespace TFDIncident
             ViewModel.NarrationRequired = 0;
             ViewModel.ReqNarrString = "Describe the Event or Situation Involving Reported Death or Injury";
             ViewModel.ReqNarrString = ViewModel.ReqNarrString + " - Required";
-            ViewModel.chkMajorTrauma.CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
+            ViewModel.chkMajTrauma.CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
             ViewModel.chkCPRPerformed.CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
             ViewModel.CurrFrame = ViewModel.frmActionTaken;
             ViewModel.CurrFrame.Visible = true;

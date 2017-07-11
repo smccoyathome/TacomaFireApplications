@@ -652,9 +652,9 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 23.76px;
+	font-size: large;
 	font-weight: bold;
-	font-style: italic;
+	/* font-style: italic; */
 	color: Navy;
 	left: 8px;
 	top: 0px;
@@ -666,11 +666,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 14.4px;
+	font-size: large;
 	font-weight: bold;
 	color: Maroon;
-	left: 460px;
-	top: 0px;
+	left: 660px;
+	top: 15px;
 	position: absolute;
 	width: 81px;
 	height: 25px;
@@ -687,11 +687,11 @@
 	visibility: hidden;
 }
 .TFDIncident_wzdEms .chkNoVitals {
-	background-color: #99A6BB;
+	background-color: palegoldenrod;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 536px;
+	font-size: medium;
+	left: 830px;
 	top: 4px;
 	position: absolute;
 	width: 273px;
@@ -702,11 +702,11 @@
 	color: Maroon;
 }
 .TFDIncident_wzdEms .tabVitals {
-	left: 600px;
+	left: 650px;
 	top: 40px;
 	position: absolute;
 	min-width: 450px;
-	min-height: 600px;
+	min-height: 500px;
 	outline-style: none;
 }
 .TFDIncident_wzdEms .tabPage1 {
@@ -720,22 +720,22 @@
 }
 .TFDIncident_wzdEms ._txtTime_0 {
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 128px;
-	top: 28px;
+	font-size: medium;
+	left: 130px;
+	top: 20px;
 	position: absolute;
-	width: 57px;
+	width: 70px;
 	height: 24px;
 }
 .TFDIncident_wzdEms ._lbVital_0 {
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 30px;
+	left: 10px;
+	top: 23px;
 	position: absolute;
 	width: 49px;
 	height: 25px;
@@ -744,11 +744,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 52px;
+	left: 10px;
+	top: 60px;
 	position: absolute;
 	width: 89px;
 	height: 37px;
@@ -757,16 +757,16 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	width: 177px;
+	font-size: medium;
+	width: 250px;
 	height: 25px;
 }
 .TFDIncident_wzdEms ._cboVitalsPosition_0:enabled {
 	color: #404040;
 }
 .TFDIncident_wzdEms ._cboVitalsPosition_0Pos {
-	top: 56px;
-	left: 128px;
+	top: 60px;
+	left: 130px;
 	position: absolute;
 	width: 177px;
 	height: 25px;
@@ -775,9 +775,9 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: text;
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 128px;
-	top: 88px;
+	font-size: medium;
+	left: 130px;
+	top: 107px;
 	position: absolute;
 	width: 49px;
 	height: 24px;
@@ -789,11 +789,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 92px;
+	left: 10px;
+	top: 110px;
 	position: absolute;
 	width: 129px;
 	height: 25px;
@@ -810,9 +810,9 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: text;
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 128px;
-	top: 120px;
+	font-size: medium;
+	left: 130px;
+	top: 143px;
 	position: absolute;
 	width: 49px;
 	height: 24px;
@@ -824,11 +824,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 122px;
+	left: 10px;
+	top: 145px;
 	position: absolute;
 	width: 81px;
 	height: 25px;
@@ -837,11 +837,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 12px;
-	top: 148px;
+	left: 10px;
+	top: 183px;
 	position: absolute;
 	width: 57px;
 	height: 25px;
@@ -850,16 +850,16 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	width: 221px;
+	font-size: medium;
+	width: 250px;
 	height: 25px;
 }
 .TFDIncident_wzdEms ._cboECG_0:enabled {
 	color: #404040;
 }
 .TFDIncident_wzdEms ._cboECG_0Pos {
-	top: 148px;
-	left: 84px;
+	top: 180px;
+	left: 130px;
 	position: absolute;
 	width: 221px;
 	height: 25px;
@@ -868,9 +868,9 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: text;
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 128px;
-	top: 180px;
+	font-size: medium;
+	left: 130px;
+	top: 220px;
 	position: absolute;
 	width: 49px;
 	height: 24px;
@@ -882,11 +882,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 184px;
+	left: 10px;
+	top: 223px;
 	position: absolute;
 	width: 113px;
 	height: 25px;
@@ -895,9 +895,9 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: text;
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 128px;
-	top: 212px;
+	font-size: medium;
+	left: 130px;
+	top: 260px;
 	position: absolute;
 	width: 49px;
 	height: 24px;
@@ -909,10 +909,10 @@
 	background-color: #99A6BB;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 188px;
-	top: 212px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 200px;
+	top: 260px;
 	position: absolute;
 	width: 121px;
 	height: 25px;
@@ -925,22 +925,22 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 216px;
+	left: 10px;
+	top: 263px;
 	position: absolute;
-	width: 105px;
+	width: 120px;
 	height: 25px;
 }
 .TFDIncident_wzdEms ._txtGlucose_0 {
 	background-color: rgba(255, 255, 255, 1);
 	cursor: text;
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 128px;
-	top: 244px;
+	font-size: medium;
+	left: 130px;
+	top: 300px;
 	position: absolute;
 	width: 49px;
 	height: 24px;
@@ -952,11 +952,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 248px;
+	left: 10px;
+	top: 303px;
 	position: absolute;
 	width: 97px;
 	height: 25px;
@@ -965,9 +965,9 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: text;
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 100px;
-	top: 276px;
+	font-size: medium;
+	left: 130px;
+	top: 340px;
 	position: absolute;
 	width: 49px;
 	height: 24px;
@@ -979,9 +979,9 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: text;
 	font-family: Verdana;
-	font-size: 12.24px;
-	left: 200px;
-	top: 276px;
+	font-size: medium;
+	left: 240px;
+	top: 340px;
 	position: absolute;
 	width: 49px;
 	height: 24px;
@@ -993,24 +993,24 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 280px;
+	left: 10px;
+	top: 343px;
 	position: absolute;
-	width: 97px;
+	width: 100px;
 	height: 25px;
 }
 .TFDIncident_wzdEms ._lbVital_9 {
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 152px;
-	top: 280px;
+	left: 192px;
+	top: 343px;
 	position: absolute;
 	width: 41px;
 	height: 25px;
@@ -1019,42 +1019,43 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
+	font-size: medium;
 	font-style: italic;
 	color: Navy;
-	left: 256px;
-	top: 280px;
+	left: 315px;
+	top: 343px;
 	position: absolute;
 	width: 45px;
 	height: 17px;
 }
 .TFDIncident_wzdEms ._lbVital_11 {
-	background-color: Transparent;
+	background-color: lightsteelblue;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 14.4px;
+	font-size: medium;
 	font-weight: bold;
-	color: Maroon;
-	left: 8px;
-	top: 308px;
+	color: navy;
+	left: 15px;
+	top: 380px;
 	position: absolute;
-	width: 49px;
-	height: 25px;
+	width: 450px;
+	height: 20px;
+	text-align: center;
 }
 .TFDIncident_wzdEms ._cboEyes_0 {
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	width: 225px;
+	font-size: medium;
+	width: 300px;
 	height: 25px;
 }
 .TFDIncident_wzdEms ._cboEyes_0:enabled {
 	color: #404040;
 }
 .TFDIncident_wzdEms ._cboEyes_0Pos {
-	top: 328px;
-	left: 76px;
+	top: 410px;
+	left: 130px;
 	position: absolute;
 	width: 225px;
 	height: 25px;
@@ -1063,11 +1064,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 4px;
-	top: 332px;
+	left: 10px;
+	top: 413px;
 	position: absolute;
 	width: 65px;
 	height: 25px;
@@ -1076,16 +1077,16 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	width: 225px;
+	font-size: medium;
+	width: 300px;
 	height: 25px;
 }
 .TFDIncident_wzdEms ._cboVerbal_0:enabled {
 	color: #404040;
 }
 .TFDIncident_wzdEms ._cboVerbal_0Pos {
-	top: 356px;
-	left: 76px;
+	top: 450px;
+	left: 130px;
 	position: absolute;
 	width: 225px;
 	height: 25px;
@@ -1094,11 +1095,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 4px;
-	top: 358px;
+	left: 10px;
+	top: 453px;
 	position: absolute;
 	width: 73px;
 	height: 25px;
@@ -1107,11 +1108,11 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 4px;
-	top: 384px;
+	left: 10px;
+	top: 495px;
 	position: absolute;
 	width: 73px;
 	height: 25px;
@@ -1120,16 +1121,16 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	width: 225px;
+	font-size: medium;
+	width: 300px;
 	height: 25px;
 }
 .TFDIncident_wzdEms ._cboMotor_0:enabled {
 	color: #404040;
 }
 .TFDIncident_wzdEms ._cboMotor_0Pos {
-	top: 384px;
-	left: 76px;
+	top: 490px;
+	left: 130px;
 	position: absolute;
 	width: 225px;
 	height: 25px;
@@ -2856,10 +2857,10 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 14.4px;
+	font-size: medium;
 	color: Navy;
-	left: 8px;
-	top: 36px;
+	left: 20px;
+	top: 47px;
 	position: absolute;
 	width: 109px;
 	height: 17px;
@@ -2868,29 +2869,29 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	width: 345px;
+	font-size: medium;
+	width: 440px;
 	height: 25px;
 }
 .TFDIncident_wzdEms .cboMechCode:enabled {
 	color: #404040;
 }
 .TFDIncident_wzdEms .cboMechCodePos {
-	top: 36px;
-	left: 112px;
+	top: 40px;
+	left: 130px;
 	position: absolute;
 	width: 345px;
 	height: 25px;
 }
 .TFDIncident_wzdEms .frmInjury {
-	background-color: #99A6BB;
+	background-color: transparent;
 	font-family: Verdana;
-	font-size: 14.4px;
-	left: 8px;
-	top: 64px;
+	font-size: medium;
+	left: 20px;
+	top: 80px;
 	position: absolute;
-	width: 453px;
-	height: 105px;
+	width: 550px;
+	height: 120px;
 	border: 2px groove;
 }
 .TFDIncident_wzdEms .frmInjury:enabled {
@@ -2900,8 +2901,8 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	width: 329px;
+	font-size: medium;
+	width: 400px;
 	height: 25px;
 }
 .TFDIncident_wzdEms .cboInjuryType:enabled {
@@ -2909,86 +2910,86 @@
 }
 .TFDIncident_wzdEms .cboInjuryTypePos {
 	top: 20px;
-	left: 116px;
+	left: 125px;
 	position: absolute;
-	width: 329px;
+	width: 500px;
 	height: 25px;
 }
 .TFDIncident_wzdEms ._lbExam_1 {
 	background-color: Transparent;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	color: Navy;
-	left: 8px;
-	top: 24px;
+	left: 10px;
+	top: 23px;
 	position: absolute;
 	width: 121px;
-	height: 57px;
+	height: 23px;
+}
+.TFDIncident_wzdEms ._lbExam_BodyPart {
+	background-color: Transparent;
+	cursor: default;
+	font-family: Verdana;
+	font-size: medium;
+	/* font-weight: bold; */
+	color: Navy;
+	left: 10px;
+	top: 63px;
+	position: absolute;
+	width: 121px;
+	height: 23px;
 }
 .TFDIncident_wzdEms .cboBodyPart {
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
 	font-size: 12.24px;
-	width: 329px;
+	width: 400px;
 	height: 25px;
 }
 .TFDIncident_wzdEms .cboBodyPart:enabled {
 	color: #404040;
 }
 .TFDIncident_wzdEms .cboBodyPartPos {
-	top: 52px;
-	left: 116px;
+	top: 60px;
+	left: 125px;
 	position: absolute;
-	width: 329px;
+	width: 400px;
 	height: 25px;
 }
 .TFDIncident_wzdEms .chkMajTrauma {
-	background-color: #99A6BB;
+	background-color: palegoldenrod;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
+	font-size: medium;
 	font-weight: bold;
-	left: 8px;
-	top: 80px;
+	left: 10px;
+	top: 95px;
 	position: absolute;
 	width: 193px;
 	height: 21px;
 	width: auto;
+	border: 1;
 }
 .TFDIncident_wzdEms .chkMajTrauma:enabled {
 	color: Navy;
 }
-.TFDIncident_wzdEms .chkMajorTrauma {
-	background-color: #FF8080;
-	cursor: default;
-	font-family: Verdana;
-	font-size: 18.72px;
-	left: 14px;
-	top: 256px;
-	position: absolute;
-	width: 177px;
-	height: 33px;
-	width: auto;
-}
-.TFDIncident_wzdEms .chkMajorTrauma:enabled {
-	color: rgba(0, 0, 0, 1);
-}
+
 .TFDIncident_wzdEms .frmInjury_legend {
 	background-color: inherit;
 	margin-left: 5px;
 }
 .TFDIncident_wzdEms .frmIllness {
-	background-color: #99A6BB;
+	background-color: transparent;
 	font-family: Verdana;
-	font-size: 14.4px;
-	left: 8px;
-	top: 172px;
+	font-size: medium;
+	left: 20px;
+	top: 230px;
 	position: absolute;
-	width: 453px;
-	height: 53px;
+	width: 550px;
+	height: 70px;
 	border: 2px groove;
 }
 .TFDIncident_wzdEms .frmIllness:enabled {
@@ -2998,33 +2999,33 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
-	width: 429px;
+	font-size: medium;
+	width: 530px;
 	height: 25px;
 }
 .TFDIncident_wzdEms .cboPrimaryIllness:enabled {
 	color: #404040;
 }
 .TFDIncident_wzdEms .cboPrimaryIllnessPos {
-	top: 20px;
-	left: 12px;
+	top: 23px;
+	left: 10px;
 	position: absolute;
-	width: 429px;
-	height: 25px;
+	width: 500px;
+	height: 30px;
 }
 .TFDIncident_wzdEms .frmIllness_legend {
 	background-color: inherit;
 	margin-left: 5px;
 }
 .TFDIncident_wzdEms .frmSecondaryIllness {
-	background-color: #99A6BB;
+	background-color: transparent;
 	font-family: Verdana;
-	font-size: 14.4px;
-	left: 8px;
-	top: 228px;
+	font-size: medium;
+	left: 20px;
+	top: 320px;
 	position: absolute;
-	width: 453px;
-	height: 105px;
+	width: 550px;
+	height: 130px;
 	border: 2px groove;
 }
 .TFDIncident_wzdEms .frmSecondaryIllness:enabled {
@@ -3034,27 +3035,27 @@
 	background-color: rgba(255, 255, 255, 1);
 	cursor: default;
 	font-family: Verdana;
-	font-size: 12.24px;
+	font-size: medium;
 	color: #404040;
-	left: 8px;
-	top: 24px;
+	left: 10px;
+	top: 20px;
 	position: absolute;
-	width: 429px;
-	height: 55px;
+	width: 520px;
+	height: 90px;
 }
 .TFDIncident_wzdEms .frmSecondaryIllness_legend {
 	background-color: inherit;
 	margin-left: 5px;
 }
 .TFDIncident_wzdEms .frmPupils {
-	background-color: #99A6BB;
+	background-color: transparent;
 	font-family: Verdana;
-	font-size: 14.4px;
-	left: 8px;
-	top: 340px;
+	font-size: medium;
+	left: 20px;
+	top: 470px;
 	position: absolute;
-	width: 453px;
-	height: 45px;
+	width: 550px;
+	height: 60px;
 	border: 2px groove;
 }
 .TFDIncident_wzdEms .frmPupils:enabled {
@@ -3063,10 +3064,10 @@
 .TFDIncident_wzdEms ._optPupils_0 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	left: 64px;
-	top: 16px;
+	top: 23px;
 	position: absolute;
 	width: 89px;
 	height: 25px;
@@ -3081,10 +3082,10 @@
 .TFDIncident_wzdEms ._optPupils_1 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 196px;
-	top: 16px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 300px;
+	top: 23px;
 	position: absolute;
 	width: 125px;
 	height: 25px;
@@ -3101,14 +3102,14 @@
 	margin-left: 5px;
 }
 .TFDIncident_wzdEms .frmLevelOfConsciousness {
-	background-color: #99A6BB;
+	background-color: transparent;
 	font-family: Verdana;
-	font-size: 14.4px;
-	left: 8px;
-	top: 392px;
+	font-size: medium;
+	left: 20px;
+	top: 550px;
 	position: absolute;
-	width: 453px;
-	height: 49px;
+	width: 550px;
+	height: 60px;
 	border: 2px groove;
 }
 .TFDIncident_wzdEms .frmLevelOfConsciousness:enabled {
@@ -3117,9 +3118,9 @@
 .TFDIncident_wzdEms ._optLevelOfConsciouness_0 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 12px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 20px;
 	top: 24px;
 	position: absolute;
 	width: 97px;
@@ -3135,9 +3136,9 @@
 .TFDIncident_wzdEms ._optLevelOfConsciouness_1 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 112px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 160px;
 	top: 24px;
 	position: absolute;
 	width: 241px;
@@ -3153,9 +3154,9 @@
 .TFDIncident_wzdEms ._optLevelOfConsciouness_2 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 348px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 420px;
 	top: 24px;
 	position: absolute;
 	width: 85px;
@@ -3173,14 +3174,14 @@
 	margin-left: 5px;
 }
 .TFDIncident_wzdEms .frmRespiratoryEffort {
-	background-color: #99A6BB;
+	background-color: transparent;
 	font-family: Verdana;
-	font-size: 14.4px;
-	left: 8px;
-	top: 444px;
+	font-size: medium;
+	left: 20px;
+	top: 630px;
 	position: absolute;
-	width: 453px;
-	height: 53px;
+	width: 550px;
+	height: 60px;
 	border: 2px groove;
 }
 .TFDIncident_wzdEms .frmRespiratoryEffort:enabled {
@@ -3189,13 +3190,13 @@
 .TFDIncident_wzdEms ._optRespiratoryEffort_2 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 264px;
-	top: 16px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 275px;
+	top: 25px;
 	position: absolute;
-	width: 177px;
-	height: 31px;
+	width: 270px;
+	height: 23px;
 	cursor: default;
 }
 .TFDIncident_wzdEms ._optRespiratoryEffort_2:enabled {
@@ -3207,10 +3208,10 @@
 .TFDIncident_wzdEms ._optRespiratoryEffort_0 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
+	font-size: medium;
+	/* font-weight: bold; */
 	left: 12px;
-	top: 20px;
+	top: 25px;
 	position: absolute;
 	width: 105px;
 	height: 23px;
@@ -3225,10 +3226,10 @@
 .TFDIncident_wzdEms ._optRespiratoryEffort_1 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 136px;
-	top: 20px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 150px;
+	top: 25px;
 	position: absolute;
 	width: 113px;
 	height: 23px;
@@ -3245,14 +3246,14 @@
 	margin-left: 5px;
 }
 .TFDIncident_wzdEms .frmSeverity {
-	background-color: #99A6BB;
+	background-color: transparent;
 	font-family: Verdana;
-	font-size: 14.4px;
-	left: 468px;
-	top: 448px;
+	font-size: medium;
+	left: 653px;
+	top: 630px;
 	position: absolute;
-	width: 341px;
-	height: 49px;
+	width: 480px;
+	height: 60px;
 	border: 2px groove;
 }
 .TFDIncident_wzdEms .frmSeverity:enabled {
@@ -3261,10 +3262,10 @@
 .TFDIncident_wzdEms ._optSeverity_0 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 4px;
-	top: 20px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 10px;
+	top: 25px;
 	position: absolute;
 	width: 137px;
 	height: 25px;
@@ -3279,12 +3280,12 @@
 .TFDIncident_wzdEms ._optSeverity_1 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
+	font-size: medium;
 	font-weight: bold;
-	left: 128px;
-	top: 20px;
+	left: 170px;
+	top: 25px;
 	position: absolute;
-	width: 105px;
+	width: 110px;
 	height: 25px;
 	cursor: default;
 }
@@ -3297,12 +3298,12 @@
 .TFDIncident_wzdEms ._optSeverity_2 {
 	background-color: #99A6BB;
 	font-family: Verdana;
-	font-size: 12.24px;
-	font-weight: bold;
-	left: 212px;
-	top: 20px;
+	font-size: medium;
+	/* font-weight: bold; */
+	left: 300px;
+	top: 25px;
 	position: absolute;
-	width: 125px;
+	width: 150px;
 	height: 25px;
 	cursor: default;
 }
