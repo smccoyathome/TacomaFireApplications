@@ -4867,27 +4867,29 @@
 	font-family: Microsoft Sans Serif;
 	font-size: 12px;
 	font-weight: bold;
-	left: 16px;
+	left: 10px;
 	top: 512px;
 	position: absolute;
-	width: 120px;
+	width: 100px;
 	height: 69px;
 	vertical-align: middle;
 	display: table-cell;
+
 }
 .PTSProject_frmNewBattSched .cmdPayRoll:enabled {
 	color: black;
 }
 .PTSProject_frmNewBattSched .picTrash {
-	background-color: darkolivegreen;
+	background-color: lightgray;
 	cursor: default;
 	background-image: url("/Resources/images/frmNewBattSched.picTrash.Image.png");
 	background-repeat: no-repeat;
-	left: 152px;
+	left: 135px;
 	top: 512px;
 	position: absolute;
 	width: 24px;
 	height: 22px;
+
 }
 .PTSProject_frmNewBattSched .cmdMissing {
 	background-color: lightgray;
@@ -4898,10 +4900,11 @@
 	left: 186px;
 	top: 512px;
 	position: absolute;
-	width: 212px;
+	width: 100px;
 	height: 29px;
 	vertical-align: middle;
 	display: table-cell;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdMissing:enabled {
 	color: black;
@@ -4915,10 +4918,11 @@
 	left: 408px;
 	top: 512px;
 	position: absolute;
-	width: 120px;
+	width: 100px;
 	height: 29px;
 	vertical-align: middle;
 	display: table-cell;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdRefresh:enabled {
 	color: black;
@@ -4932,10 +4936,11 @@
 	left: 552px;
 	top: 512px;
 	position: absolute;
-	width: 121px;
+	width: 100px;
 	height: 29px;
 	vertical-align: middle;
 	display: table-cell;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdListGray:enabled {
 	color: black;
@@ -4949,10 +4954,11 @@
 	left: 680px;
 	top: 512px;
 	position: absolute;
-	width: 120px;
+	width: 100px;
 	height: 29px;
 	vertical-align: middle;
 	display: table-cell;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdSignOff:enabled {
 	color: black;
@@ -4963,13 +4969,14 @@
 	font-family: Microsoft Sans Serif;
 	font-size: 12px;
 	font-weight: bold;
-	left: 148px;
+	left: 135px;
 	top: 552px;
 	position: absolute;
-	width: 120px;
+	width: 100px;
 	height: 29px;
 	display: table-cell;
 	vertical-align: middle;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdBatt2:enabled {
 	color: black;
@@ -4983,10 +4990,11 @@
 	left: 279px;
 	top: 552px;
 	position: absolute;
-	width: 120px;
+	width: 100px;
 	height: 29px;
 	display: table-cell;
 	vertical-align: middle;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdBatt3:enabled {
 	color: black;
@@ -5000,10 +5008,11 @@
 	left: 410px;
 	top: 552px;
 	position: absolute;
-	width: 120px;
+	width: 100px;
 	height: 29px;
 	display: table-cell;
 	vertical-align: middle;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdAvailToWork:enabled {
 	color: black;
@@ -5017,10 +5026,11 @@
 	left: 552px;
 	top: 552px;
 	position: absolute;
-	width: 120px;
+	width: 100px;
 	height: 29px;
 	display: table-cell;
 	vertical-align: middle;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdNotes:enabled {
 	color: black;
@@ -5034,10 +5044,11 @@
 	left: 680px;
 	top: 552px;
 	position: absolute;
-	width: 120px;
+	width: 100px;
 	height: 29px;
 	display: table-cell;
 	vertical-align: middle;
+    /*padding: 2px,2px,2px,2px;*/
 }
 .PTSProject_frmNewBattSched .cmdClose:enabled {
 	color: black;
