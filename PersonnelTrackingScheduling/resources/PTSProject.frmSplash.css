@@ -2,64 +2,48 @@
 }
 .PTSProject_frmSplash .frmSplash {
 	background-color: Blue;
-	min-width: 556px;
-	min-height: 367px;
-	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	position: center;
 	overflow: hidden;
 	cursor: default;
 }
 .PTSProject_frmSplash .Frame1 {
-	background-color: #FFE0C0;
-	left: 8px;
-	top: 8px;
-	position: absolute;
-	width: 540px;
-	height: 350px;
+	background-color: peachpuff;
+	position: center;
+	width: 800px;
+	height: 600px;
 	visibility: inherit;
 	border: 2px groove;
 }
 .PTSProject_frmSplash .Frame1:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmSplash .lblCompanyProduct {
-	white-space: nowrap;
-	overflow: hidden;
-	background-color: #FFE0C0;
-	border-width: 0px;
-	padding: 0px;
+	background-color: transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 21.6px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
-	left: 8px;
+	font-size: xx-large;
+	color: black;
 	top: 16px;
-	position: absolute;
-	width: 521px;
-	height: 28px;
+	position: center;
+	width: 600px;
+	height: 40px;
 	text-align: center;
 }
 .PTSProject_frmSplash .lblProductName {
-	white-space: nowrap;
-	overflow: hidden;
-	background-color: #FFE0C0;
-	border-width: 0px;
-	padding: 0px;
+	background-color: transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 24.48px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
-	left: 16px;
-	top: 48px;
-	position: absolute;
-	width: 513px;
+	font-size: xx-large;
+	color: black;
+	top: 70px;
+	position: center;
+	width: 600px;
 	height: 32px;
 	text-align: center;
 }
-.PTSProject_frmSplash .imgLogo {
-	border-width: 0px;
-	padding: 0px;
+/*.PTSProject_frmSplash .imgLogo {
 	cursor: default;
 	background-image: url("/Resources/images/frmSplash.imgLogo.Image.png");
 	background-repeat: no-repeat;
@@ -70,102 +54,76 @@
 	height: 195px;
 	background-size: 100% 100%;
 	visibility: inherit;
-}
+}*/
 .PTSProject_frmSplash .lbTrainingMode {
-	white-space: nowrap;
-	overflow: hidden;
-	background-color: #C0FFFF;
-	border-width: 0px;
-	padding: 0px;
+	background-color: lightgreen;
 	cursor: default;
 	font-family: Arial;
-	font-size: 21.6px;
-	font-weight: bold;
-	color: #0000C0;
-	left: 240px;
-	top: 128px;
-	position: absolute;
-	width: 286px;
+	font-size: x-large;
+	color: navy;
+	top: 200px;
+	position: center;
+	width: 600px;
 	height: 36px;
 	text-align: center;
 }
 .PTSProject_frmSplash .lbVersionDate {
-	white-space: nowrap;
-	overflow: hidden;
-	background-color: #FFE0C0;
-	border-width: 0px;
-	padding: 0px;
+	background-color: transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 17.28px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
-	left: 288px;
-	top: 208px;
-	position: absolute;
-	width: 197px;
+	font-size: x-large;
+	color: black;
+	top: 250px;
+	position: center;
+	width: 600px;
 	height: 24px;
 	text-align: center;
 }
 .PTSProject_frmSplash .lblVersion {
-	white-space: nowrap;
-	overflow: hidden;
-	background-color: #FFE0C0;
-	border-width: 0px;
-	padding: 0px;
+	background-color: transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
-	left: 328px;
-	top: 240px;
-	position: absolute;
-	width: 112px;
+	font-size: medium;
+	color: black;
+	top: 300px;
+	position: center;
+	width: 600px;
 	height: 20px;
 	text-align: center;
 }
 .PTSProject_frmSplash .lblCopyright {
-	background-color: #FFE0C0;
-	border-width: 0px;
-	padding: 0px;
+	background-color: transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 13.68px;
-	color: rgba(0, 0, 0, 1);
-	left: 328px;
-	top: 288px;
-	position: absolute;
-	width: 181px;
+	font-size: medium;
+	color: black;
+	top: 350px;
+	position: center;
+	width: 600px;
 	height: 25px;
 	text-align: center;
 }
 .PTSProject_frmSplash .lblWarning {
-	background-color: #FFE0C0;
-	border-width: 0px;
-	padding: 0px;
+	background-color: transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 11.52px;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: transparent;
 	left: 8px;
-	top: 312px;
-	position: absolute;
-	width: 310px;
-	height: 13px;
+	top: 400px;
+	position: center;
+	width: 600px;
+	height: 20px;
 }
 .PTSProject_frmSplash .lblCompany {
-	background-color: #FFE0C0;
-	border-width: 0px;
-	padding: 0px;
+	background-color: transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
-	color: rgba(0, 0, 0, 1);
-	left: 324px;
-	top: 312px;
-	position: absolute;
-	width: 189px;
+	font-size: large;
+	color: black;
+	top: 430px;
+	position: center;
+	width: 600px;
 	height: 25px;
 	text-align: center;
 }

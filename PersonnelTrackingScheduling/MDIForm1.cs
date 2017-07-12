@@ -905,8 +905,8 @@ namespace PTSProject
 					GreetingMsg = GreetingMsg + "\n" + "You do not have appropriate Database Security for Your Current Position!";
 					GreetingMsg = GreetingMsg + "\n" + "Contact Debra Lewandowsky for necessary Security updates";
 				}
-				ViewManager.ShowMessage(GreetingMsg, "Welcome to TFD Personnel Tracking & Scheduling", UpgradeHelpers.Helpers.BoxButtons.OK);
-			}
+                ViewManager.ShowMessage(GreetingMsg, "Welcome to TFD Personnel Tracking & Scheduling", UpgradeHelpers.Helpers.BoxButtons.OK);
+            }
 			catch
 			{
 

@@ -1,555 +1,12 @@
 .PTSProject_frmNewBattSched2 {
 }
 .PTSProject_frmNewBattSched2 .frmNewBattSched2 {
-	background-color: #000040;
+	background-color: navy;
 	min-width: 812px;
 	min-height: 593px;
 	position: absolute;
 	overflow: hidden;
 	cursor: default;
-}
-.PTSProject_frmNewBattSched2 .MainMenu1 {
-	left: 0px;
-	top: 0px;
-	position: absolute;
-	width: 812px;
-	height: 24px;
-	position: relative;
-	z-index: 16777271;
-}
-.PTSProject_frmNewBattSched2 .mnuSystem {
-	Width: 57px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched2 .mnuTimeCard {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuException {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuPrintDailyLeave {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuPrintAll {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuSpacer1 {
-}
-.PTSProject_frmNewBattSched2 .mnuClose {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnupersonnel {
-	Width: 71px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched2 .mnuEmpInfo {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuSeniorInq {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuImmune {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_transfer_req {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuPMCerts {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuPPE {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuSchedule {
-	Width: 78px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched2 .mnuIndSchedule {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuBattalion1 {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuNewBatt3 {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuBattalion3 {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuBattalion4 {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuEMS {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuEMSDaily {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuHazmat {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuMarine {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuBattStaff {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuDispatch {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_watch_duty {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_Vacation {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_PMVacationSched {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_HZMVacationSched {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_FCCVacationSched {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_old {
-	Width: 32px;
-	Height: 19px;
-}
-.PTSProject_frmNewBattSched2 .mnuNewBatt1 {
-	Width: 212px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuNewBatt2 {
-	Width: 212px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuReports {
-	Width: 59px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched2 .mnuPersonnelReports {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuAssignment {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuRoster {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuFRoster {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuDebitReport {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuProlist {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuSenior {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuBenefit {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_emp_facility {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .MnuAuditDDHOL {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_IndivPayrollSO {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuIndTimeCard2 {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuSchedul {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuBDWork {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu181 {
-	Width: 130px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu182 {
-	Width: 130px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu183 {
-	Width: 130px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnupayroll {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuEMSPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuHazPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuMarPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuBattPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuDisPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuIndTimeCard {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuIndYearSched {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuDailyStaff {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuOvertime {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .MnuExtraOff {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_sa_report {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuCalendar {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuTransfer {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuLeaveReports {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuDailyLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuAnnual {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_dailysickleave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuIndLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_sick_usage {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_PMLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuDispatchLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_HZMLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_Battalion {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .MnuCBStaffing {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_LeaveNoSched {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .MnuInsteadOfSCKLeave {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_staffdiscrepancy {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_PMCSRCalc {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_SchedNotes {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_PPEQuery {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnupayrollreports {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_timecard {
-	Width: 203px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuindannualpayroll {
-	Width: 203px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnupersonnelsignoff {
-	Width: 203px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_TrainingReports {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_QuarterlyMinimumDrill {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_FCCMinDrills {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_ReadingAssign {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_OTEPReport {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_PMRecertReport {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_PMBaseStaReport {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuTraining {
-	Width: 63px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched2 .mnu_trainingtracker {
-	Width: 191px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuTrnReports {
-	Width: 191px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_IndTrainReport {
-	Width: 238px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_IndPMRecert {
-	Width: 238px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuALSProc {
-	Width: 238px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_Queries {
-	Width: 191px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuTrainQuery {
-	Width: 247px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_TrainingQuerynew {
-	Width: 247px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuWindow {
-	Width: 63px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched2 .mnuCascade {
-	Width: 170px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuPrintScreen {
-	Width: 170px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuHelp {
-	Width: 44px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched2 .mnuContents {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuAbout {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_HelpPrntScrn {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_timecodes {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_payrolllegend {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_legend {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_IndLegend {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_payup_calc {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuTrainCodeHelp {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu182PopUp {
-	Width: 32px;
-	Height: 19px;
-}
-.PTSProject_frmNewBattSched2 .mnuLeave {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuNewSched {
-	Width: 32px;
-	Height: 19px;
-}
-.PTSProject_frmNewBattSched2 .mnuPayUp {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuPayDown {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuKOT {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuRover {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuDebit {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuTrade {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuCancelTrade {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuRemove {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuSendTo181 {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuSendTo183 {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuReport {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuTradeDetail {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnu_viewtimecard {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuSADetail {
-	Width: 252px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched2 .mnuReschedSA {
-	Width: 252px;
-	Height: 22px;
 }
 .PTSProject_frmNewBattSched2 .Ctx_mnu182PopUp {
 	width: 61px;
@@ -565,24 +22,23 @@
 	height: 15px;
 	margin-top: 0;
 	margin: 5px;
-	border-color: #c5c5c5;
+	border-color: darkgray;
 }
 .PTSProject_frmNewBattSched2 .Label1 {
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: #FFFFC0;
+	font-size: small;
+	color: lightyellow;
 	left: 8px;
-	top: 28px;
+	top: 15px;
 	position: absolute;
 	width: 29px;
 	height: 17px;
 }
 .PTSProject_frmNewBattSched2 .calSchedDate.k-datepicker {
 	left: 40px;
-	top: 28px;
+	top: 12px;
 	position: absolute;
 	width: 129px;
 	height: 20px;
@@ -590,32 +46,29 @@
 .PTSProject_frmNewBattSched2 .calSchedDate {
 }
 .PTSProject_frmNewBattSched2 .cmdToday {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
-	left: 176px;
-	top: 28px;
+	left: 172px;
+	top: 15px;
 	position: absolute;
-	width: 17px;
-	height: 17px;
-	padding: 0px 0px 0px 0px;
+	width: 11px;
+	height: 11px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdToday:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .lbLocked {
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: Red;
-	left: 188px;
-	top: 28px;
+	font-size: medium;
+	color: white;
+	left: 195px;
+	top: 30px;
 	position: absolute;
-	width: 150px;
+	width: 138px;
 	height: 20px;
 	text-align: center;
 }
@@ -623,11 +76,10 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
-	font-weight: bold;
-	color: #FFE0C0;
-	left: 192px;
-	top: 28px;
+	font-size: small;
+	color: peachpuff;
+	left: 200px;
+	top: 15px;
 	position: absolute;
 	width: 21px;
 	height: 17px;
@@ -637,13 +89,12 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: Red;
-	left: 200px;
-	top: 28px;
+	font-size: medium;
+	color: white;
+	left: 195px;
+	top: 30px;
 	position: absolute;
-	width: 150px;
+	width: 156px;
 	height: 20px;
 	text-align: center;
 }
@@ -651,67 +102,65 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: #FFFFC0;
+	font-size: small;
+	color: lightyellow;
 	left: 332px;
-	top: 28px;
+	top: 15px;
 	position: absolute;
 	width: 53px;
 	height: 17px;
 }
 .PTSProject_frmNewBattSched2 .cboRovers {
-	background-color: rgba(255, 255, 255, 1);
+	background-color: white;
 	cursor: default;
 	width: 133px;
 	height: 21px;
 }
 .PTSProject_frmNewBattSched2 .cboRovers:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .cboRoversPos {
-	top: 28px;
+	top: 12px;
 	left: 384px;
 	position: absolute;
-	width: 133px;
+	width: 125px;
 	height: 21px;
 }
 .PTSProject_frmNewBattSched2 .Label3 {
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: #FFFFC0;
+	font-size: small;
+	color: lightyellow;
 	left: 520px;
-	top: 28px;
+	top: 15px;
 	position: absolute;
 	width: 41px;
 	height: 17px;
 }
 .PTSProject_frmNewBattSched2 .cboDebit {
-	background-color: rgba(255, 255, 255, 1);
+	background-color: white;
 	cursor: default;
 	width: 133px;
 	height: 21px;
 }
 .PTSProject_frmNewBattSched2 .cboDebit:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .cboDebitPos {
-	top: 28px;
+	top: 12px;
 	left: 556px;
 	position: absolute;
-	width: 133px;
+	width: 125px;
 	height: 21px;
 }
 .PTSProject_frmNewBattSched2 .pnSelected {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	border-style: inset;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 216px;
-	top: 29px;
+	top: 12px;
 	position: absolute;
 	width: 109px;
 	height: 16px;
@@ -721,13 +170,12 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: #FFFFC0;
+	font-size: small;
+	color: lightyellow;
 	left: 696px;
-	top: 32px;
+	top: 15px;
 	position: absolute;
-	width: 65px;
+	width: 57px;
 	height: 17px;
 	text-align: center;
 }
@@ -735,46 +183,45 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
-	font-weight: bold;
-	color: #FFE0C0;
+	font-size: small;
+	color: peachpuff;
 	left: 768px;
-	top: 32px;
+	top: 15px;
 	position: absolute;
 	width: 29px;
 	height: 17px;
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._boxUnit_0 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
 	stroke: Silver;
 	stroke-width: 3;
 	color: Black;
 }
 .PTSProject_frmNewBattSched2 ._boxUnit_1 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
 	stroke: Silver;
 	stroke-width: 3;
 	color: Black;
 }
 .PTSProject_frmNewBattSched2 ._boxUnit_2 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
 	stroke: Silver;
 	stroke-width: 3;
 	color: Black;
 }
 .PTSProject_frmNewBattSched2 ._boxUnit_3 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
 	stroke: Silver;
 	stroke-width: 3;
 	color: Black;
 }
 .PTSProject_frmNewBattSched2 ._boxUnit_4 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
 	stroke: Silver;
 	stroke-width: 3;
@@ -784,9 +231,8 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: #FFFFC0;
+	font-size: small;
+	color: lightyellow;
 	left: 680px;
 	top: 52px;
 	position: absolute;
@@ -795,12 +241,11 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_0 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 6px;
 	top: 56px;
 	position: absolute;
@@ -808,12 +253,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbDrillGroup_0 {
-	background-color: #FFC080;
+	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 64px;
 	top: 56px;
 	position: absolute;
@@ -822,12 +266,11 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_1 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 142px;
 	top: 56px;
 	position: absolute;
@@ -835,12 +278,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbDrillGroup_1 {
-	background-color: #FFC080;
+	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 200px;
 	top: 56px;
 	position: absolute;
@@ -849,12 +291,11 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_2 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 278px;
 	top: 56px;
 	position: absolute;
@@ -862,12 +303,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbDrillGroup_2 {
-	background-color: #FFC080;
+	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 336px;
 	top: 56px;
 	position: absolute;
@@ -876,12 +316,11 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_3 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 414px;
 	top: 56px;
 	position: absolute;
@@ -889,12 +328,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbDrillGroup_3 {
-	background-color: #FFC080;
+	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 472px;
 	top: 56px;
 	position: absolute;
@@ -903,12 +341,11 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_4 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 550px;
 	top: 56px;
 	position: absolute;
@@ -916,12 +353,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbDrillGroup_4 {
-	background-color: #FFC080;
+	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 608px;
 	top: 56px;
 	position: absolute;
@@ -930,12 +366,11 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_11 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: small;
+	color: black;
 	left: 768px;
 	top: 56px;
 	position: absolute;
@@ -944,12 +379,11 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_0 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 6px;
 	top: 72px;
 	position: absolute;
@@ -967,19 +401,18 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_0 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_4 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 142px;
 	top: 72px;
 	position: absolute;
@@ -989,7 +422,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_4 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 190px;
 	top: 72px;
 	position: absolute;
@@ -999,17 +432,16 @@
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_4 {
 	fill: rgba(255, 255, 255, 1);
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_8 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
 	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 278px;
 	top: 72px;
 	position: absolute;
@@ -1019,7 +451,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_8 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 326px;
 	top: 72px;
 	position: absolute;
@@ -1027,19 +459,18 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_8 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_12 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 414px;
 	top: 72px;
 	position: absolute;
@@ -1049,7 +480,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_12 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 462px;
 	top: 72px;
 	position: absolute;
@@ -1057,19 +488,18 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_12 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_16 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 550px;
 	top: 72px;
 	position: absolute;
@@ -1079,7 +509,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_16 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 598px;
 	top: 72px;
 	position: absolute;
@@ -1087,9 +517,9 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_16 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
@@ -1106,7 +536,7 @@
 	font-family: Arial;
 	font-size: 9.360001px;
 	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 684px;
 	top: 74px;
 	position: absolute;
@@ -1116,7 +546,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_44 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 738px;
 	top: 74px;
 	position: absolute;
@@ -1126,42 +556,42 @@
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_44 {
 	fill: rgba(255, 255, 255, 1);
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_0 {
 	fill: rgba(255, 255, 255, 1);
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_4 {
 	fill: rgba(255, 255, 255, 1);
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_8 {
 	fill: rgba(255, 255, 255, 1);
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_12 {
 	fill: rgba(255, 255, 255, 1);
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_16 {
 	fill: rgba(255, 255, 255, 1);
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
@@ -1171,7 +601,7 @@
 	font-family: Arial;
 	font-size: 9.360001px;
 	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 6px;
 	top: 88px;
 	position: absolute;
@@ -1180,9 +610,9 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_0 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 53px;
 	top: 88px;
 	position: absolute;
@@ -1195,7 +625,7 @@
 	font-family: Arial;
 	font-size: 9.360001px;
 	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 142px;
 	top: 88px;
 	position: absolute;
@@ -1204,9 +634,9 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_4 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 190px;
 	top: 88px;
 	position: absolute;
@@ -1219,7 +649,7 @@
 	font-family: Arial;
 	font-size: 9.360001px;
 	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 278px;
 	top: 88px;
 	position: absolute;
@@ -1228,9 +658,9 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_8 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 326px;
 	top: 88px;
 	position: absolute;
@@ -1243,7 +673,7 @@
 	font-family: Arial;
 	font-size: 9.360001px;
 	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 414px;
 	top: 88px;
 	position: absolute;
@@ -1252,9 +682,9 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_12 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 462px;
 	top: 88px;
 	position: absolute;
@@ -1276,7 +706,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_16 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 598px;
@@ -1300,7 +730,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_44 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -1525,7 +955,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_1 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -1556,7 +986,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_5 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 190px;
@@ -1587,7 +1017,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_9 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 326px;
@@ -1611,7 +1041,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_13 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 462px;
@@ -1642,7 +1072,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_17 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 598px;
@@ -1666,7 +1096,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_45 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -1914,7 +1344,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_2 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -1939,7 +1369,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_6 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 190px;
@@ -1963,7 +1393,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_10 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 326px;
@@ -1987,7 +1417,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_14 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 462px;
@@ -2011,7 +1441,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_18 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 598px;
@@ -2035,7 +1465,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_46 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -2283,7 +1713,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_3 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -2308,7 +1738,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_7 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 190px;
@@ -2332,7 +1762,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_11 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 326px;
@@ -2356,7 +1786,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_15 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 462px;
@@ -2380,7 +1810,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_19 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 598px;
@@ -2404,7 +1834,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_47 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -2456,7 +1886,7 @@
 	color: Black;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_5 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
 	font-size: 9.360001px;
@@ -2483,7 +1913,7 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_6 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
 	font-size: 9.360001px;
@@ -2510,7 +1940,7 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_7 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
 	font-size: 9.360001px;
@@ -2537,7 +1967,7 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_8 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
 	font-size: 9.360001px;
@@ -2564,7 +1994,7 @@
 	text-align: center;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_9 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
 	font-size: 9.360001px;
@@ -2785,7 +2215,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_48 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -2851,7 +2281,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_20 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -2875,7 +2305,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_24 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 190px;
@@ -2899,7 +2329,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_28 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 326px;
@@ -2923,7 +2353,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_32 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 462px;
@@ -2947,7 +2377,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_36 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 598px;
@@ -3151,7 +2581,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_49 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -3217,7 +2647,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_21 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -3241,7 +2671,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_25 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 190px;
@@ -3265,7 +2695,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_29 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 326px;
@@ -3289,7 +2719,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_33 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 462px;
@@ -3313,7 +2743,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_37 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 598px;
@@ -3519,7 +2949,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_50 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -3585,7 +3015,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_22 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -3609,7 +3039,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_26 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 190px;
@@ -3633,7 +3063,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_30 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 326px;
@@ -3657,7 +3087,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_34 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 462px;
@@ -3681,7 +3111,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_38 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 598px;
@@ -3890,7 +3320,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_51 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -3928,7 +3358,7 @@
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_27 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 190px;
@@ -3945,7 +3375,7 @@
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_31 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 326px;
@@ -3962,7 +3392,7 @@
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_35 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 462px;
@@ -3987,7 +3417,7 @@
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_23 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -4053,7 +3483,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_39 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 598px;
@@ -4122,7 +3552,7 @@
 	color: Black;
 }
 .PTSProject_frmNewBattSched2 ._lbUnit_10 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
 	font-size: 9.360001px;
@@ -4191,7 +3621,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_52 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -4312,7 +3742,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_40 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -4336,7 +3766,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_53 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 738px;
@@ -4406,7 +3836,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_41 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -4417,7 +3847,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 .lbTo181 {
-	background-color: Teal;
+	background-color: navy;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
@@ -4486,7 +3916,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_42 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
 	color: rgba(0, 0, 0, 1);
 	left: 53px;
@@ -4529,7 +3959,7 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 .lbTo183 {
-	background-color: Teal;
+	background-color: navy;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
@@ -4559,9 +3989,9 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._lbPospm_43 {
-	background-color: #FFE0C0;
+	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 53px;
 	top: 480px;
 	position: absolute;
@@ -4570,18 +4000,17 @@
 	visibility: hidden;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_43 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 .cmdPayRoll {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 16px;
 	top: 512px;
 	position: absolute;
@@ -4590,28 +4019,26 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdPayRoll:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .picTrash {
-	background-color: Teal;
+	background-color: lightgray;
 	cursor: default;
 	background-image: url("/Resources/images/frmNewBattSched2.picTrash.Image.png");
 	background-repeat: no-repeat;
-	left: 144px;
+	left: 150px;
 	top: 512px;
 	position: absolute;
 	width: 24px;
 	height: 22px;
 }
 .PTSProject_frmNewBattSched2 .cmdMissing {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 181px;
 	top: 512px;
 	position: absolute;
@@ -4620,55 +4047,49 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdMissing:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .cmdRefresh {
-	background-color: rgba(240, 240, 240, 1);
-	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
-	left: 408px;
-	top: 512px;
-	position: absolute;
-	width: 120px;
-	height: 29px;
-	padding: 0px 0px 0px 0px;
-	display: table-cell;
-	vertical-align: middle;
-	display: table-cell;
-}
-.PTSProject_frmNewBattSched2 .cmdRefresh:enabled {
-	color: rgba(0, 0, 0, 1);
-}
-.PTSProject_frmNewBattSched2 .cmdSignOff {
-	background-color: rgba(240, 240, 240, 1);
-	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
-	left: 544px;
-	top: 512px;
-	position: absolute;
-	width: 120px;
-	height: 29px;
-	padding: 0px 0px 0px 0px;
-	display: table-cell;
-	vertical-align: middle;
-	display: table-cell;
-}
-.PTSProject_frmNewBattSched2 .cmdSignOff:enabled {
-	color: rgba(0, 0, 0, 1);
-}
-.PTSProject_frmNewBattSched2 .cmdListGray {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10.8px;
-	font-weight: bold;
+	font-size: small;
+	left: 410px;
+	top: 512px;
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.PTSProject_frmNewBattSched2 .cmdRefresh:enabled {
+	color: black;
+}
+.PTSProject_frmNewBattSched2 .cmdSignOff {
+	background-color: lightgray;
+	cursor: default;
+	font-family: Arial;
+	font-size: small;
+	left: 541px;
+	top: 512px;
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.PTSProject_frmNewBattSched2 .cmdSignOff:enabled {
+	color: black;
+}
+.PTSProject_frmNewBattSched2 .cmdListGray {
+	background-color: lightgray;
+	cursor: default;
+	font-family: Arial;
+	font-size: small;
 	left: 672px;
 	top: 512px;
 	position: absolute;
@@ -4677,17 +4098,15 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdListGray:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .cmdBatt1 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 148px;
 	top: 552px;
 	position: absolute;
@@ -4696,17 +4115,15 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdBatt1:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .cmdBatt3 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 279px;
 	top: 552px;
 	position: absolute;
@@ -4715,17 +4132,15 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdBatt3:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .cmdAvailToWork {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 410px;
 	top: 552px;
 	position: absolute;
@@ -4734,17 +4149,15 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdAvailToWork:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .cmdNotes {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 541px;
 	top: 552px;
 	position: absolute;
@@ -4753,17 +4166,15 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdNotes:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmNewBattSched2 .cmdClose {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 9.360001px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 672px;
 	top: 552px;
 	position: absolute;
@@ -4772,9 +4183,8 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmNewBattSched2 .cmdClose:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 

@@ -1,7 +1,7 @@
 <div>
   <div data-width="815" data-height="393" name="frmEMSDailySched" data-title="Paramedic Daily Scheduler" class="PTSProject_frmEMSDailySched" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text, events : { focus : frmEMSDailySched_Activated, blur : frmEMSDailySched_Deactivate }, ">
     <form class="frmEMSDailySched">
-      <ul id="MainMenu1" tabindex="259" class="MainMenu1" data-role="menu">
+      <!--<ul id="MainMenu1" tabindex="259" class="MainMenu1" data-role="menu">
         <li id="mnuSystem" data-bind="menuEnabled : mnuSystem.Enabled, visible : mnuSystem.Available">
           <a>System</a>
           <ul>
@@ -363,7 +363,7 @@
           </ul>
           <span></span>
         </li>
-      </ul>
+      </ul>-->
       <ul id="Ctx_mnuEMSPopup" class="Ctx_mnuEMSPopup" data-role="contextmenu" data-bind="contextMenu : Ctx_mnuEMSPopup.Ctx_mnuEMSPopup, contextMenuShow : Ctx_mnuEMSPopup.ContextShow, events : { close : Ctx_mnuEMSPopup_Closing, open : Ctx_mnuEMSPopup_Opening }, "></ul>
       <label id="Label1" tabindex="159" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Date</label>
       <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calSchedDate" tabindex="12" class="calSchedDate" data-bind="dateTimePickerValue : calSchedDate.Value, DateTimeMinDate : calSchedDate.MinDate, DateTimeMaxDate : calSchedDate.MaxDate, events : { change : calSchedDate_Click }, " />

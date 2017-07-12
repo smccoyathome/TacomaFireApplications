@@ -1,7 +1,7 @@
 <div>
   <div data-width="732" data-height="591" data-removeControlBox="true" name="frmWeekly" data-title="Weekly Scheduler" class="PTSProject_frmWeekly" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text, events : { focus : frmWeekly_Activated, blur : frmWeekly_Deactivate }, ">
     <form class="frmWeekly">
-      <ul id="MainMenu1" class="MainMenu1" data-role="menu">
+      <!--<ul id="MainMenu1" class="MainMenu1" data-role="menu">
         <li id="mnuSystem" data-bind="menuEnabled : mnuSystem.Enabled, visible : mnuSystem.Available">
           <a>System</a>
           <ul>
@@ -402,7 +402,7 @@
           </ul>
           <span></span>
         </li>
-      </ul>
+      </ul>-->
       <ul id="Ctx_mnuWeeklyPopUp" class="Ctx_mnuWeeklyPopUp" data-role="contextmenu" data-bind="contextMenu : Ctx_mnuWeeklyPopUp.Ctx_mnuWeeklyPopUp, contextMenuShow : Ctx_mnuWeeklyPopUp.ContextShow, events : { open : Ctx_mnuWeeklyPopUp_Opening, close : Ctx_mnuWeeklyPopUp_Closing }, "></ul>
       <label id="Label1" tabindex="3" class="Label1" data-bind="text : Label1.Text, imagePath : Label1.ImagePath">Select Week</label>
       <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="calWeek" tabindex="1" class="calWeek" data-bind="dateTimePickerValue : calWeek.Value, DateTimeMinDate : calWeek.MinDate, DateTimeMaxDate : calWeek.MaxDate, events : { change : calWeek_Click }, " />
