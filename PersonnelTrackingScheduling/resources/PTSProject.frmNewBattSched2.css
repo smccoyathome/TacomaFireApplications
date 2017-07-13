@@ -692,12 +692,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_16 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 550px;
 	top: 88px;
 	position: absolute;
@@ -708,7 +707,7 @@
 .PTSProject_frmNewBattSched2 ._lbPospm_16 {
 	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 598px;
 	top: 88px;
 	position: absolute;
@@ -716,12 +715,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_44 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 684px;
 	top: 90px;
 	position: absolute;
@@ -732,7 +730,7 @@
 .PTSProject_frmNewBattSched2 ._lbPospm_44 {
 	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 738px;
 	top: 90px;
 	position: absolute;
@@ -740,54 +738,53 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_44 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_1 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_5 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_9 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_13 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_17 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_1 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 6px;
 	top: 104px;
 	position: absolute;
@@ -797,7 +794,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_1 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 53px;
 	top: 104px;
 	position: absolute;
@@ -805,12 +802,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_5 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 142px;
 	top: 104px;
 	position: absolute;
@@ -820,7 +816,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_5 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 190px;
 	top: 104px;
 	position: absolute;
@@ -828,12 +824,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_9 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 278px;
 	top: 104px;
 	position: absolute;
@@ -843,7 +838,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_9 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 326px;
 	top: 104px;
 	position: absolute;
@@ -851,12 +846,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_13 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 414px;
 	top: 104px;
 	position: absolute;
@@ -866,7 +860,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_13 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 462px;
 	top: 104px;
 	position: absolute;
@@ -874,12 +868,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_17 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 550px;
 	top: 104px;
 	position: absolute;
@@ -889,7 +882,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_17 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 598px;
 	top: 104px;
 	position: absolute;
@@ -897,12 +890,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_45 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 684px;
 	top: 106px;
 	position: absolute;
@@ -912,7 +904,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_45 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 738px;
 	top: 106px;
 	position: absolute;
@@ -920,33 +912,32 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_45 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_9 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_17 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_1 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 6px;
 	top: 120px;
 	position: absolute;
@@ -957,7 +948,7 @@
 .PTSProject_frmNewBattSched2 ._lbPospm_1 {
 	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 53px;
 	top: 120px;
 	position: absolute;
@@ -965,19 +956,18 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_1 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_5 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 142px;
 	top: 120px;
 	position: absolute;
@@ -988,7 +978,7 @@
 .PTSProject_frmNewBattSched2 ._lbPospm_5 {
 	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 190px;
 	top: 120px;
 	position: absolute;
@@ -996,19 +986,18 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_5 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_9 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 278px;
 	top: 120px;
 	position: absolute;
@@ -1019,7 +1008,7 @@
 .PTSProject_frmNewBattSched2 ._lbPospm_9 {
 	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 326px;
 	top: 120px;
 	position: absolute;
@@ -1027,12 +1016,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_13 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 414px;
 	top: 120px;
 	position: absolute;
@@ -1043,7 +1031,7 @@
 .PTSProject_frmNewBattSched2 ._lbPospm_13 {
 	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 462px;
 	top: 120px;
 	position: absolute;
@@ -1051,19 +1039,19 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_13 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_17 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
+	font-size: smaller;
 	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 550px;
 	top: 120px;
 	position: absolute;
@@ -1074,7 +1062,7 @@
 .PTSProject_frmNewBattSched2 ._lbPospm_17 {
 	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 598px;
 	top: 120px;
 	position: absolute;
@@ -1082,12 +1070,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_45 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 684px;
 	top: 122px;
 	position: absolute;
@@ -1098,7 +1085,7 @@
 .PTSProject_frmNewBattSched2 ._lbPospm_45 {
 	background-color: peachpuff;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 738px;
 	top: 122px;
 	position: absolute;
@@ -1106,54 +1093,53 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_45 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_2 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_6 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_10 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_14 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_18 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_2 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 6px;
 	top: 136px;
 	position: absolute;
@@ -1164,7 +1150,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_2 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 53px;
 	top: 136px;
 	position: absolute;
@@ -1175,7 +1161,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_6 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 190px;
 	top: 136px;
 	position: absolute;
@@ -1183,12 +1169,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_10 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 278px;
 	top: 136px;
 	position: absolute;
@@ -1198,7 +1183,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_10 {
 	background-color: White;
 	cursor: default;
-	color: Black;
+	color: black;
 	left: 326px;
 	top: 136px;
 	position: absolute;
@@ -1206,12 +1191,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_14 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 414px;
 	top: 136px;
 	position: absolute;
@@ -1221,7 +1205,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_14 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 462px;
 	top: 136px;
 	position: absolute;
@@ -1229,12 +1213,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_18 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 550px;
 	top: 136px;
 	position: absolute;
@@ -1244,7 +1227,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_18 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 598px;
 	top: 136px;
 	position: absolute;
@@ -1252,12 +1235,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_6 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 142px;
 	top: 137px;
 	position: absolute;
@@ -1265,12 +1247,11 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._lbPosition_46 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 684px;
 	top: 138px;
 	position: absolute;
@@ -1280,7 +1261,7 @@
 .PTSProject_frmNewBattSched2 ._lbPosam_46 {
 	background-color: White;
 	cursor: default;
-	color: rgba(0, 0, 0, 1);
+	color: black;
 	left: 738px;
 	top: 138px;
 	position: absolute;
@@ -1288,54 +1269,53 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpAM_46 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_2 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_6 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_10 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_14 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._shpPayUpPM_18 {
-	fill: rgba(255, 255, 255, 1);
+	fill: transparent;
 	fill-opacity: 0;
-	stroke: rgba(0, 0, 0, 1);
+	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched2 ._lbPositionPM_2 {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 9.360001px;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 1);
+	font-size: smaller;
+	color: black;
 	left: 6px;
 	top: 152px;
 	position: absolute;
