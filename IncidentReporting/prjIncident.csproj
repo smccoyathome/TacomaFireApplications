@@ -490,7 +490,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="scripts\helpers\*.ts" />
-    <Content Include="scripts\directives\*.js" />
+    <Content Include="scripts\directives\DragDrop.js" />
+    <Content Include="scripts\directives\DragOver.js" />
+    <Content Include="scripts\directives\GridBinding.js" />
+    <Content Include="scripts\directives\Label.js" />
+    <Content Include="scripts\directives\Shapes.js" />
+    <Content Include="scripts\directives\spread.js" />
+    <Content Include="scripts\directives\Tree.js" />
+    <Content Include="scripts\directives\UltraGrid.js" />
+    <Content Include="scripts\directives\Visibility.js" />
     <Content Include="scripts\typings\**\*.ts" />
     <Content Include="scripts\helpers\*.map" />
     <Content Include="scripts\helpers\*.js" />

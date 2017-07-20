@@ -262,13 +262,13 @@ namespace TFDIncident.ViewModels
 			this.cboType.Name = "cboType";
 			this.cboType.TabIndex = 2;
 
-			this.sprUnitList = ctx.Resolve<FarPoint.ViewModels.FpSpreadViewModel>();
+			this.sprUnitList = ctx.Resolve<Custom.ViewModels.Grid.CustomGrid>();
             this.sprUnitList.Name = "sprUnitList";
             this.sprUnitList.Enabled = true;
 			this.sprUnitList.TabIndex = 89;
-			this.sprUnitList.TextTip = FarPoint.ViewModels.TextTipPolicy.Off;
-            this.sprUnitList.Lock = true;
-            this.sprUnitList.HideLeftRightBorders = true;
+            //this.sprUnitList.TextTip = FarPoint.ViewModels.TextTipPolicy.Off;
+            //         this.sprUnitList.Lock = true;
+            //         this.sprUnitList.HideLeftRightBorders = true;
 
 
             this.sprIncident = ctx.Resolve<FarPoint.ViewModels.FpSpreadViewModel>();
@@ -504,6 +504,7 @@ namespace TFDIncident.ViewModels
 			this.Label5.Name = "Label5";
 			this.Label5.TabIndex = 38;
 			this.Label5.Text = "Incident#";
+
 			this.Label24 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			// 
 			// Label24
@@ -520,58 +521,59 @@ namespace TFDIncident.ViewModels
 			// 
 			// Label23
 			// 
-			this.Label23.BackColor = UpgradeHelpers.Helpers.Color.Navy;
+			//this.Label23.BackColor = UpgradeHelpers.Helpers.Color.Navy;
 			this.Label23.Enabled = false;
 			this.Label23.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Arial", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.Label23.ForeColor = UpgradeHelpers.Helpers.Color.White;
 			this.Label23.Name = "Label23";
 			this.Label23.TabIndex = 29;
-			this.Label23.Text = "Incident#";
+			//this.Label23.Text = "Incident#";
 			this.Label22 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			// 
 			// Label22
 			// 
-			this.Label22.BackColor = UpgradeHelpers.Helpers.Color.Navy;
+			//this.Label22.BackColor = UpgradeHelpers.Helpers.Color.Navy;
 			this.Label22.Enabled = false;
 			this.Label22.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Arial", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.Label22.ForeColor = UpgradeHelpers.Helpers.Color.White;
 			this.Label22.Name = "Label22";
 			this.Label22.TabIndex = 28;
-			this.Label22.Text = "Time";
-			this.Label21 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
+			//this.Label22.Text = "Time";
+            this.Label21 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			// 
 			// Label21
 			// 
-			this.Label21.BackColor = UpgradeHelpers.Helpers.Color.Navy;
+			//this.Label21.BackColor = UpgradeHelpers.Helpers.Color.Navy;
 			this.Label21.Enabled = false;
 			this.Label21.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Arial", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.Label21.ForeColor = UpgradeHelpers.Helpers.Color.White;
 			this.Label21.Name = "Label21";
 			this.Label21.TabIndex = 27;
-			this.Label21.Text = "Location";
-			this.Label20 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
+			//this.Label21.Text = "Location";
+            this.Label21.Visible = false;
+            this.Label20 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			// 
 			// Label20
 			// 
-			this.Label20.BackColor = UpgradeHelpers.Helpers.Color.Navy;
+			//this.Label20.BackColor = UpgradeHelpers.Helpers.Color.Navy;
 			this.Label20.Enabled = false;
 			this.Label20.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Arial", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.Label20.ForeColor = UpgradeHelpers.Helpers.Color.White;
 			this.Label20.Name = "Label20";
 			this.Label20.TabIndex = 26;
-			this.Label20.Text = "Type";
+			//this.Label20.Text = "Type";
 			this.Label19 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			// 
 			// Label19
 			// 
-			this.Label19.BackColor = UpgradeHelpers.Helpers.Color.Navy;
+			//this.Label19.BackColor = UpgradeHelpers.Helpers.Color.Navy;
 			this.Label19.Enabled = false;
 			this.Label19.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Arial", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.Label19.ForeColor = UpgradeHelpers.Helpers.Color.White;
 			this.Label19.Name = "Label19";
 			this.Label19.TabIndex = 25;
-			this.Label19.Text = "   Unit";
-			this.Label18 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
+			//this.Label19.Text = "   Unit";
+            this.Label18 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			// 
 			// Label18
 			// 
@@ -1440,7 +1442,7 @@ namespace TFDIncident.ViewModels
 			MainTabs.Items.Add(tabPage3);
 			MainTabs.Items.Add(tabPage4);
 			MainTabs.Items.Add(tabPage5);
-			sprUnitList.Sheets.Add(this.sprUnitList_Sheet1);
+			//sprUnitList.Sheets.Add(this.sprUnitList_Sheet1);
 			sprIncident.Sheets.Add(this.sprIncident_Sheet1);
 			sprIncReports.Sheets.Add(this.sprIncReports_Sheet1);
 			sprUnitReports.Sheets.Add(this.sprUnitReports_Sheet1);
@@ -1519,7 +1521,7 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel cboType { get; set; }
 
-		public virtual FarPoint.ViewModels.FpSpreadViewModel sprUnitList { get; set; }
+		public virtual Custom.ViewModels.Grid.CustomGrid  sprUnitList { get; set; }
 
 		public virtual FarPoint.ViewModels.FpSpreadViewModel sprIncident { get; set; }
 
