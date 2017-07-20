@@ -619,7 +619,7 @@ case "Reset Report Status":
     }
 
         public void LoadUnitList()
-        {
+      {
             //Load UnitList For Selected Date
             TFDIncident.clsUnit UnitResponse = Container.Resolve< clsUnit>();
             TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
@@ -630,16 +630,6 @@ case "Reset Report Status":
             int TypeParm = 0;
             //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
             this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.WaitCursor);
-            ViewModel.sprUnitList.MaxRows = 500;
-            ViewModel.sprUnitList.BlockMode = true;
-            ViewModel.sprUnitList.Row = 0;
-            ViewModel.sprUnitList.Row2 = 500;
-            ViewModel.sprUnitList.Col = 1;
-            ViewModel.sprUnitList.Col2 = 7;
-            ViewModel.sprUnitList.Action = FarPoint.ViewModels.FPActionConstants.ActionClearText;
-            ViewModel.sprUnitList.BackColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-            ViewModel.sprUnitList.BlockMode = false;
-            ViewModel.sprUnitList.ClearAllCells();
             int CurrRow = 0;
             //UPGRADE_WARNING: (1068) calUnit.Value of type Variant is being forced to DateTime. More Information: http://www.vbtonet.com/ewis/ewi1068.aspx
             //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.MonthCalendar.SelectionStart was not upgraded
@@ -690,25 +680,36 @@ case "Reset Report Status":
             {
                 //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
                 this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.Arrow);
-                ViewModel.sprUnitList.MaxRows = 1;
+                ViewModel.sprUnitList.Rows = Container.Resolve<Custom.ViewModels.Grid.RowsCollection>();
                 return; //no reports
         }
+            //Create The DataTable to bing in datasource 
+            DataTable sprUnitDataSource = new DataTable();
+            //Create The Columns 
+            DataColumn sprColum = default(DataColumn);
+            sprColum = new System.Data.DataColumn("Unit");
+            sprUnitDataSource.Columns.Add(sprColum);
+            sprColum = new System.Data.DataColumn("Incident #");
+            sprUnitDataSource.Columns.Add(sprColum);
+            sprColum = new System.Data.DataColumn("Time");
+            sprUnitDataSource.Columns.Add(sprColum);
+            sprColum = new System.Data.DataColumn("Location");
+            sprUnitDataSource.Columns.Add(sprColum);
+            sprColum = new System.Data.DataColumn("Type");
+            sprUnitDataSource.Columns.Add(sprColum);
 
+            DataRow row;
+            Custom.ViewModels.Grid.RowsCollection RowCollection = new Custom.ViewModels.Grid.RowsCollection();
             while (!UnitResponse.UnitListing.EOF)
             {
-                ViewModel.sprUnitList.Row = CurrRow;
-                ViewModel.sprUnitList.Col = 2;
-                ViewModel.sprUnitList.Text = IncidentMain.Clean(UnitResponse.UnitListing["tfd_unit"]);
-                ViewModel.sprUnitList.Col = 3;
-                ViewModel.sprUnitList.Text = IncidentMain.Clean(UnitResponse.UnitListing["incident_number"]);
-                ViewModel.sprUnitList.Col = 4;
-                ViewModel.sprUnitList.Text = Convert.ToDateTime(UnitResponse.UnitListing["actual_time"]).ToString("HH:mm");
-                ViewModel.sprUnitList.Col = 5;
-                ViewModel.sprUnitList.Text = IncidentMain.Clean(UnitResponse.UnitListing["location"]);
-                ViewModel.sprUnitList.Col = 6;
-                ViewModel.sprUnitList.Text = IncidentMain.Clean(UnitResponse.UnitListing["inc_descript"]);
-                ViewModel.sprUnitList.Col = 7;
-                ViewModel.sprUnitList.Text = Convert.ToString(UnitResponse.UnitListing["inc_id"]);
+                row = sprUnitDataSource.NewRow();
+                row["Unit"] = IncidentMain.Clean(UnitResponse.UnitListing["tfd_unit"]);
+                row["Incident #"] = IncidentMain.Clean(UnitResponse.UnitListing["incident_number"]);
+                row["Time"] = Convert.ToDateTime(UnitResponse.UnitListing["actual_time"]).ToString("HH:mm");
+                row["Location"] = IncidentMain.Clean(UnitResponse.UnitListing["location"]);
+                row["Type"] = IncidentMain.Clean(UnitResponse.UnitListing["inc_descript"]);
+
+
                 if (Convert.ToDouble(UnitResponse.UnitListing["report_status"]) == IncidentMain.INCOMPLETE)
                 {
                     RowColor = IncidentMain.Shared.RED;
@@ -721,24 +722,14 @@ case "Reset Report Status":
                 {
                     RowColor = IncidentMain.Shared.BLACK;
                 }
-                ViewModel.sprUnitList.BlockMode = true;
-                ViewModel.sprUnitList.Row2 = CurrRow;
-                ViewModel.sprUnitList.Col = 1;
-                ViewModel.sprUnitList.Col2 = 7;
-                ViewModel.sprUnitList.ForeColor = RowColor;
-                ViewModel.sprUnitList.BlockMode = false;
-                ViewModel.sprUnitList.BackColor = RowColor;
-                ViewModel.sprUnitList.SetRowHeight(CurrRow, 20.3f);
-                CurrRow++;
+                sprUnitDataSource.Rows.Add(row);
                 UnitResponse.UnitListing.MoveNext();
-        }
-            ;
-            ViewModel.sprUnitList.MaxRows = CurrRow;
-            ViewModel.sprUnitList.Row = 0;
-            ViewModel.sprUnitList.Col = 1;
-            ViewModel.sprUnitList.Action = FarPoint.ViewModels.FPActionConstants.ActionGotoCell;
+                //ViewModel.sprUnitList.BackColor = RowColor; Row Color
+            }
+            ViewModel.sprUnitList.DataSource = sprUnitDataSource;
             //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
             this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.Arrow);
+
 
         }
 
@@ -3050,8 +3041,8 @@ else
                 //Test to determine if New Report Wizard Launched
                 int ReportID = 0;
                 TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
-                ViewModel.sprUnitList.Row = Row;
-                ViewModel.sprUnitList.Col = 7;
+                //ViewModel.sprUnitList.Row = Row;
+                //ViewModel.sprUnitList.Col = 7;
                 if (Conversion.Val(ViewModel.sprUnitList.Text) == 0)
                 {
                     this.Return();
@@ -3061,7 +3052,7 @@ else
                 {
                     IncidentMain.Shared.gWizardIncidentID = Convert.ToInt32(Conversion.Val(ViewModel.sprUnitList.Text));
                 }
-                ViewModel.sprUnitList.Col = 2;
+                //ViewModel.sprUnitList.Col = 2;
                 IncidentMain.Shared.gWizardUnitID = ViewModel.sprUnitList.Text;
 
                 if (ViewModel.sprUnitList.ForeColor.Value != IncidentMain.Shared.RED.Value)
