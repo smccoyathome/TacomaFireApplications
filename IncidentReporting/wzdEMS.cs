@@ -6,6 +6,7 @@ using UpgradeHelpers.DB.ADO;
 using UpgradeHelpers.Interfaces;
 using UpgradeHelpers.Extensions;
 using UpgradeHelpers.BasicViewModels.Extensions;
+using UpgradeHelpers.Helpers;
 
 namespace TFDIncident
 {
@@ -36,67 +37,25 @@ namespace TFDIncident
                 UpgradeHelpers.Helpers.ActivateHelper.myActiveForm = (UpgradeHelpers.Interfaces.ILogicView<UpgradeHelpers.Interfaces.IViewModel>)eventSender;
             }
         }
-        //TFD Incident Reporting System - Development Prototype
-        //Incident Report Entry Wizard Experimental Prototype
-
-        //Current Focus Objects
-
-
-        //Report Status - from Global Constants
-        //0-NOREPORT, 1-INCOMPLETE, 2-SAVEDINCOMPLETE, 3-COMPLETE
 
         private void EditBirthdate()
         {
             //Edit Birthdate
-            string sBirthDate = "";
-            System.DateTime dBirthDate = DateTime.FromOADate(0);
             int Age = 0;
             ViewModel.FirstTime = -1;
-
-            if (!Information.IsDate(ViewModel.mskBirthdate.Text))
+            if (ViewModel.dpBirthdate.MaxDate != ViewModel.dpBirthdate.Value)
             {
-                ViewModel.mskBirthdate.Text = "__/__/____";
-                ViewModel.txtPatientAge.Text = "";
-                ViewModel.cboPatientAgeUnits.SelectedIndex = -1;
-            }
-            else
-            {
-                sBirthDate = ViewModel.mskBirthdate.Text;
-                System.DateTime TempDate = DateTime.FromOADate(0);
-                dBirthDate = DateTime.Parse((DateTime.TryParse(sBirthDate, out TempDate)) ? TempDate.ToString("M/d/yyyy") : sBirthDate);
-                if (dBirthDate > DateTime.Now)
+                if (ViewModel.dpBirthdate.Value < DateTime.Now)
                 {
-                    ViewModel.mskBirthdate.Text = "__/__/____";
-                    return;
-                }
-                Age = (int)DateAndTime.DateDiff("d", DateTime.Parse(sBirthDate), DateTime.Now, FirstDayOfWeek.Sunday, FirstWeekOfYear.Jan1);
-                if (Age < 30)
-                {
-                    ViewModel.txtPatientAge.Text = Age.ToString();
-                    for (int i = 0; i <= ViewModel.cboPatientAgeUnits.Items.Count - 1; i++)
-                    {
-                        if (ViewModel.cboPatientAgeUnits.GetItemData(i) == 3)
-                        { //Age Unit - Days
+                    Age = (int)DateAndTime.DateDiff("d", ViewModel.dpBirthdate.Value, DateTime.Now, FirstDayOfWeek.Sunday, FirstWeekOfYear.Jan1);
 
-                            ViewModel.cboPatientAgeUnits.SelectedIndex = i;
-                            break;
-                        }
-                    }
-                }
-                else
-                {
-                    Age = (int)DateAndTime.DateDiff("m", DateTime.Parse(sBirthDate), DateTime.Now, FirstDayOfWeek.Sunday, FirstWeekOfYear.Jan1);
-                    if (Age < 12)
+                    if (Age < 30)
                     {
-                        if (dBirthDate.AddMonths(Age) > DateTime.Now)
-                        {
-                            Age--;
-                        }
                         ViewModel.txtPatientAge.Text = Age.ToString();
                         for (int i = 0; i <= ViewModel.cboPatientAgeUnits.Items.Count - 1; i++)
                         {
-                            if (ViewModel.cboPatientAgeUnits.GetItemData(i) == 2)
-                            { //AgeUnit - Months
+                            if (ViewModel.cboPatientAgeUnits.GetItemData(i) == 3)
+                            { //Age Unit - Days
 
                                 ViewModel.cboPatientAgeUnits.SelectedIndex = i;
                                 break;
@@ -105,26 +64,46 @@ namespace TFDIncident
                     }
                     else
                     {
-                        Age = (int)DateAndTime.DateDiff("yyyy", DateTime.Parse(sBirthDate), DateTime.Now, FirstDayOfWeek.Sunday, FirstWeekOfYear.Jan1);
-                        if (dBirthDate.AddYears(Age) > DateTime.Now)
+                        Age = (int)DateAndTime.DateDiff("m", ViewModel.dpBirthdate.Value, DateTime.Now, FirstDayOfWeek.Sunday, FirstWeekOfYear.Jan1);
+                        if (Age < 12)
                         {
-                            Age--;
-                        }
-                        if (Age > 150)
-                        {
-                            ViewManager.ShowMessage("You Have Indicated an Unreasonable Age", "TFD Incident Reporting Wizard", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
-                            ViewModel.mskBirthdate.Text = "__/__/____";
-                        }
-                        else
-                        {
+                            if (ViewModel.dpBirthdate.Value.AddMonths(Age) > DateTime.Now)
+                            {
+                                Age--;
+                            }
                             ViewModel.txtPatientAge.Text = Age.ToString();
                             for (int i = 0; i <= ViewModel.cboPatientAgeUnits.Items.Count - 1; i++)
                             {
-                                if (ViewModel.cboPatientAgeUnits.GetItemData(i) == 1)
-                                { //AgeUnit - Years
+                                if (ViewModel.cboPatientAgeUnits.GetItemData(i) == 2)
+                                { //AgeUnit - Months
 
                                     ViewModel.cboPatientAgeUnits.SelectedIndex = i;
                                     break;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            Age = (int)DateAndTime.DateDiff("yyyy", ViewModel.dpBirthdate.Value, DateTime.Now, FirstDayOfWeek.Sunday, FirstWeekOfYear.Jan1);
+                            if (ViewModel.dpBirthdate.Value.AddYears(Age) > DateTime.Now)
+                            {
+                                Age--;
+                            }
+                            if (Age > 150)
+                            {
+                                ViewManager.ShowMessage("You Have Indicated an Unreasonable Age", "TFD Incident Reporting Wizard", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
+                            }
+                            else
+                            {
+                                ViewModel.txtPatientAge.Text = Age.ToString();
+                                for (int i = 0; i <= ViewModel.cboPatientAgeUnits.Items.Count - 1; i++)
+                                {
+                                    if (ViewModel.cboPatientAgeUnits.GetItemData(i) == 1)
+                                    { //AgeUnit - Years
+
+                                        ViewModel.cboPatientAgeUnits.SelectedIndex = i;
+                                        break;
+                                    }
                                 }
                             }
                         }
@@ -132,7 +111,6 @@ namespace TFDIncident
                 }
             }
             ViewModel.FirstTime = 0;
-
         }
 
         private void EditBasicBirthdate()
@@ -143,7 +121,7 @@ namespace TFDIncident
             int Age = 0;
             ViewModel.FirstTime = -1;
 
-            if (!Information.IsDate(ViewModel.txtBBirthdate.Text))
+            if (!Microsoft.VisualBasic.Information.IsDate(ViewModel.txtBBirthdate.Text))
             {
                 ViewModel.txtBBirthdate.Text = "__/__/____";
                 ViewModel.txtAge.Text = "";
@@ -536,7 +514,7 @@ namespace TFDIncident
             if (ViewModel.cboIncidentLocation.SelectedIndex == -1)
             {
                 ViewModel.cboIncidentLocation.BackColor = IncidentMain.Shared.REQCOLOR;
-                ViewModel.cboIncidentLocation.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                ViewModel.cboIncidentLocation.ForeColor = IncidentMain.Shared.BLACK;
                 ViewModel.cboIncidentLocation.Text = "";
                 result = 0;
             }
@@ -549,13 +527,13 @@ namespace TFDIncident
             if (ViewModel.txtIncidentZipcode.Text == "")
             {
                 ViewModel.txtIncidentZipcode.BackColor = IncidentMain.Shared.REQCOLOR;
-                ViewModel.txtIncidentZipcode.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                ViewModel.txtIncidentZipcode.ForeColor = IncidentMain.Shared.BLACK;
                 result = 0;
             }
             else if (!Double.TryParse(ViewModel.txtIncidentZipcode.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp))
             {
                 ViewModel.txtIncidentZipcode.BackColor = IncidentMain.Shared.REQCOLOR;
-                ViewModel.txtIncidentZipcode.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                ViewModel.txtIncidentZipcode.ForeColor = IncidentMain.Shared.BLACK;
                 ViewModel.txtIncidentZipcode.Text = "";
                 result = 0;
             }
@@ -567,7 +545,7 @@ namespace TFDIncident
             if (ViewModel.cboIncidentSetting.SelectedIndex == -1)
             {
                 ViewModel.cboIncidentSetting.BackColor = IncidentMain.Shared.REQCOLOR;
-                ViewModel.cboIncidentSetting.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                ViewModel.cboIncidentSetting.ForeColor = IncidentMain.Shared.BLACK;
                 ViewModel.cboIncidentSetting.Text = "";
                 result = 0;
             }
@@ -601,7 +579,7 @@ namespace TFDIncident
                     if (ViewModel.txtBFirstName.Text == "")
                     {
                         ViewModel.txtBFirstName.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.txtBFirstName.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.txtBFirstName.ForeColor = IncidentMain.Shared.BLACK;
                         result = 0;
                     }
                     else
@@ -612,7 +590,7 @@ namespace TFDIncident
                     if (ViewModel.txtBLastName.Text == "")
                     {
                         ViewModel.txtBLastName.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.txtBLastName.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.txtBLastName.ForeColor = IncidentMain.Shared.BLACK;
                         result = 0;
                     }
                     else
@@ -627,26 +605,26 @@ namespace TFDIncident
                         if (ViewModel.txtAge.Text == "")
                         {
                             ViewModel.txtAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtAge.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboAgeUnits.SelectedIndex = -1;
                             ViewModel.cboAgeUnits.Text = "";
                             ViewModel.cboAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.txtBBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtBBirthdate.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtBBirthdate.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtAge.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp2))
                         {
                             ViewModel.txtAge.Text = "";
                             ViewModel.txtAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtAge.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboAgeUnits.SelectedIndex = -1;
                             ViewModel.cboAgeUnits.Text = "";
                             ViewModel.txtBBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtBBirthdate.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtBBirthdate.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (Conversion.Val(ViewModel.txtAge.Text) > 150)
@@ -654,13 +632,13 @@ namespace TFDIncident
                             ViewManager.ShowMessage("You have indicated an unreasonable age", "TFD Incident Reporting Wizard", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                             ViewModel.txtAge.Text = "";
                             ViewModel.txtAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtAge.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboAgeUnits.SelectedIndex = -1;
                             ViewModel.cboAgeUnits.Text = "";
                             ViewModel.txtBBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtBBirthdate.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtBBirthdate.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
@@ -674,7 +652,7 @@ namespace TFDIncident
                             if (ViewModel.cboAgeUnits.SelectedIndex == -1)
                             {
                                 ViewModel.cboAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.cboAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.cboAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                                 ViewModel.cboAgeUnits.Text = "";
                                 result = 0;
                             }
@@ -691,9 +669,9 @@ namespace TFDIncident
                                             BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                         ViewModel.txtAge.Text = "";
                                         ViewModel.txtAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                                        ViewModel.txtAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                        ViewModel.txtAge.ForeColor = IncidentMain.Shared.BLACK;
                                         ViewModel.cboAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                                        ViewModel.cboAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                        ViewModel.cboAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                                         ViewModel.cboAgeUnits.SelectedIndex = -1;
                                         result = 0;
                                     }
@@ -705,9 +683,9 @@ namespace TFDIncident
                                                 BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                             ViewModel.txtAge.Text = "";
                                             ViewModel.txtAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                                            ViewModel.txtAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                            ViewModel.txtAge.ForeColor = IncidentMain.Shared.BLACK;
                                             ViewModel.cboAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                                            ViewModel.cboAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                            ViewModel.cboAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                                             ViewModel.cboAgeUnits.SelectedIndex = -1;
                                             result = 0;
                                         }
@@ -716,16 +694,16 @@ namespace TFDIncident
                             }
                         }
                     }
-                    else if (!Information.IsDate(ViewModel.txtBBirthdate.Text))
+                    else if (!Microsoft.VisualBasic.Information.IsDate(ViewModel.txtBBirthdate.Text))
                     {
                         ViewModel.txtBBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.txtBBirthdate.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.txtBBirthdate.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.txtBBirthdate.Text = "__/__/____";
                         ViewModel.txtAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.txtAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.txtAge.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.txtAge.Text = "";
                         ViewModel.cboAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboAgeUnits.SelectedIndex = -1;
                     }
                     else
@@ -745,8 +723,8 @@ namespace TFDIncident
                         ViewModel.frmBasicGender.Font = ViewModel.frmBasicGender.Font.Change(name: IncidentMain.WHITE.ToString());
                         ViewModel.optEMSGender[0].BackColor = IncidentMain.Shared.REQCOLOR;
                         ViewModel.optEMSGender[1].BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.optEMSGender[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                        ViewModel.optEMSGender[1].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.optEMSGender[0].ForeColor = IncidentMain.Shared.BLACK;
+                        ViewModel.optEMSGender[1].ForeColor = IncidentMain.Shared.BLACK;
                     }
                     else
                     {
@@ -758,7 +736,7 @@ namespace TFDIncident
                     if (ViewModel.cboEMSRace.SelectedIndex < 0)
                     {
                         ViewModel.cboEMSRace.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboEMSRace.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboEMSRace.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboEMSRace.Text = "";
                         result = 0;
                     }
@@ -770,7 +748,7 @@ namespace TFDIncident
                     if (ViewModel.cboServiceProvided.SelectedIndex < 0)
                     {
                         ViewModel.cboServiceProvided.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboServiceProvided.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboServiceProvided.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboServiceProvided.Text = "";
                         result = 0;
                     }
@@ -782,7 +760,7 @@ namespace TFDIncident
                     if (ViewModel.cboIncidentLocation.SelectedIndex == -1)
                     {
                         ViewModel.cboIncidentLocation.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboIncidentLocation.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboIncidentLocation.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboIncidentLocation.Text = "";
                         result = 0;
                     }
@@ -794,7 +772,7 @@ namespace TFDIncident
                     if (ViewModel.cboIncidentSetting.SelectedIndex == -1)
                     {
                         ViewModel.cboIncidentSetting.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboIncidentSetting.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboIncidentSetting.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboIncidentSetting.Text = "";
                         result = 0;
                     }
@@ -815,7 +793,7 @@ namespace TFDIncident
                     if (ViewModel.txtFirstName.Text == "")
                     {
                         ViewModel.txtFirstName.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.txtFirstName.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.txtFirstName.ForeColor = IncidentMain.Shared.BLACK;
                         result = 0;
                     }
                     else
@@ -826,7 +804,7 @@ namespace TFDIncident
                     if (ViewModel.txtLastName.Text == "")
                     {
                         ViewModel.txtLastName.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.txtLastName.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.txtLastName.ForeColor = IncidentMain.Shared.BLACK;
                         result = 0;
                     }
                     else
@@ -841,8 +819,8 @@ namespace TFDIncident
                         ViewModel.frmGender.Font = ViewModel.frmGender.Font.Change(name: IncidentMain.WHITE.ToString());
                         ViewModel.optGender[0].BackColor = IncidentMain.Shared.REQCOLOR;
                         ViewModel.optGender[1].BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.optGender[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                        ViewModel.optGender[1].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.optGender[0].ForeColor = IncidentMain.Shared.BLACK;
+                        ViewModel.optGender[1].ForeColor = IncidentMain.Shared.BLACK;
                     }
                     else
                     {
@@ -854,7 +832,7 @@ namespace TFDIncident
                     if (ViewModel.cboRace.SelectedIndex == -1)
                     {
                         ViewModel.cboRace.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboRace.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboRace.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboRace.Text = "";
                         result = 0;
                     }
@@ -864,32 +842,32 @@ namespace TFDIncident
                         ViewModel.cboRace.ForeColor = IncidentMain.Shared.EMSFONT;
                     }
                     //Must enter either birthdate OR age and age units 
-                    if (ViewModel.mskBirthdate.Text == "__/__/____")
+                    if (ViewModel.dpBirthdate.MaxDate == ViewModel.dpBirthdate.Value)
                     {
                         double dbNumericTemp3 = 0;
                         if (ViewModel.txtPatientAge.Text == "")
                         {
                             ViewModel.txtPatientAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtPatientAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtPatientAge.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboPatientAgeUnits.SelectedIndex = -1;
                             ViewModel.cboPatientAgeUnits.Text = "";
                             ViewModel.cboPatientAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboPatientAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                            ViewModel.mskBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.mskBirthdate.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboPatientAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
+                            //ViewModel.mskBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
+                            //ViewModel.mskBirthdate.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtPatientAge.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp3))
                         {
                             ViewModel.txtPatientAge.Text = "";
                             ViewModel.txtPatientAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtPatientAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtPatientAge.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboPatientAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboPatientAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboPatientAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboPatientAgeUnits.SelectedIndex = -1;
                             ViewModel.cboPatientAgeUnits.Text = "";
-                            ViewModel.mskBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.mskBirthdate.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            //ViewModel.mskBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
+                            //ViewModel.mskBirthdate.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (Conversion.Val(ViewModel.txtPatientAge.Text) > 150)
@@ -897,27 +875,27 @@ namespace TFDIncident
                             ViewManager.ShowMessage("You have indicated an unreasonable age", "TFD Incident Reporting Wizard", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                             ViewModel.txtPatientAge.Text = "";
                             ViewModel.txtPatientAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtPatientAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtPatientAge.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboPatientAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboPatientAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboPatientAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboPatientAgeUnits.SelectedIndex = -1;
                             ViewModel.cboPatientAgeUnits.Text = "";
-                            ViewModel.mskBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.mskBirthdate.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            //ViewModel.mskBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
+                            //ViewModel.mskBirthdate.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
                         {
-                            ViewModel.mskBirthdate.BackColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                            ViewModel.mskBirthdate.ForeColor = IncidentMain.Shared.EMSFONT;
-                            ViewModel.mskBirthdate.Text = "__/__/____";
+                            //ViewModel.mskBirthdate.BackColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            //ViewModel.mskBirthdate.ForeColor = IncidentMain.Shared.EMSFONT;
+                            //ViewModel.mskBirthdate.Text = "__/__/____";
                             ViewModel.txtPatientAge.BackColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
                             ViewModel.txtPatientAge.ForeColor = IncidentMain.Shared.EMSFONT;
                             Age = Convert.ToInt32(Conversion.Val(ViewModel.txtPatientAge.Text));
                             if (ViewModel.cboPatientAgeUnits.SelectedIndex == -1)
                             {
                                 ViewModel.cboPatientAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.cboPatientAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.cboPatientAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                                 ViewModel.cboPatientAgeUnits.Text = "";
                                 result = 0;
                             }
@@ -934,9 +912,9 @@ namespace TFDIncident
                                             BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                         ViewModel.txtPatientAge.Text = "";
                                         ViewModel.txtPatientAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                                        ViewModel.txtPatientAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                        ViewModel.txtPatientAge.ForeColor = IncidentMain.Shared.BLACK;
                                         ViewModel.cboPatientAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                                        ViewModel.cboPatientAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                        ViewModel.cboPatientAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                                         ViewModel.cboPatientAgeUnits.SelectedIndex = -1;
                                         result = 0;
                                     }
@@ -948,9 +926,9 @@ namespace TFDIncident
                                                 BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                             ViewModel.txtPatientAge.Text = "";
                                             ViewModel.txtPatientAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                                            ViewModel.txtPatientAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                            ViewModel.txtPatientAge.ForeColor = IncidentMain.Shared.BLACK;
                                             ViewModel.cboPatientAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                                            ViewModel.cboPatientAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                            ViewModel.cboPatientAgeUnits.ForeColor = IncidentMain.Shared.BLACK;
                                             ViewModel.cboPatientAgeUnits.SelectedIndex = -1;
                                             result = 0;
                                         }
@@ -959,22 +937,11 @@ namespace TFDIncident
                             }
                         }
                     }
-                    else if (!Information.IsDate(ViewModel.mskBirthdate.Text))
-                    {
-                        ViewModel.mskBirthdate.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.mskBirthdate.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                        ViewModel.mskBirthdate.Text = "__/__/____";
-                        ViewModel.txtPatientAge.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.txtPatientAge.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                        ViewModel.txtPatientAge.Text = "";
-                        ViewModel.cboPatientAgeUnits.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboPatientAgeUnits.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                        ViewModel.cboPatientAgeUnits.SelectedIndex = -1;
-                    }
+                    
                     else
                     {
-                        ViewModel.mskBirthdate.BackColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                        ViewModel.mskBirthdate.ForeColor = IncidentMain.Shared.EMSFONT;
+                        //ViewModel.mskBirthdate.BackColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        //ViewModel.mskBirthdate.ForeColor = IncidentMain.Shared.EMSFONT;
                         ViewModel.txtPatientAge.BackColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
                         ViewModel.txtPatientAge.ForeColor = IncidentMain.Shared.EMSFONT;
                         ViewModel.cboPatientAgeUnits.BackColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
@@ -992,7 +959,7 @@ namespace TFDIncident
                     if (ViewModel.cboMechCode.SelectedIndex == -1)
                     {
                         ViewModel.cboMechCode.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboMechCode.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboMechCode.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboMechCode.Text = "";
                         result = 0;
                     }
@@ -1025,7 +992,7 @@ namespace TFDIncident
                                 if (ViewModel.cboPrimaryIllness.SelectedIndex == -1)
                                 {
                                     ViewModel.cboPrimaryIllness.BackColor = IncidentMain.Shared.REQCOLOR;
-                                    ViewModel.cboPrimaryIllness.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                    ViewModel.cboPrimaryIllness.ForeColor = IncidentMain.Shared.BLACK;
                                     ViewModel.cboPrimaryIllness.Text = "";
                                     result = 0;
                                 }
@@ -1044,10 +1011,10 @@ namespace TFDIncident
                                 if (ViewModel.cboInjuryType.SelectedIndex == -1)
                                 {
                                     ViewModel.cboInjuryType.BackColor = IncidentMain.Shared.REQCOLOR;
-                                    ViewModel.cboInjuryType.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                    ViewModel.cboInjuryType.ForeColor = IncidentMain.Shared.BLACK;
                                     ViewModel.cboInjuryType.Text = "";
                                     ViewModel.cboBodyPart.BackColor = IncidentMain.Shared.REQCOLOR;
-                                    ViewModel.cboBodyPart.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                    ViewModel.cboBodyPart.ForeColor = IncidentMain.Shared.BLACK;
                                     result = 0;
                                 }
                                 else
@@ -1059,7 +1026,7 @@ namespace TFDIncident
                                     if (ViewModel.cboBodyPart.SelectedIndex == -1)
                                     {
                                         ViewModel.cboBodyPart.BackColor = IncidentMain.Shared.REQCOLOR;
-                                        ViewModel.cboBodyPart.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                        ViewModel.cboBodyPart.ForeColor = IncidentMain.Shared.BLACK;
                                         ViewModel.cboBodyPart.Text = "";
                                         result = 0;
                                     }
@@ -1092,7 +1059,7 @@ namespace TFDIncident
                         for (int i = 0; i <= 1; i++)
                         {
                             ViewModel.optPupils[i].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.optPupils[i].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.optPupils[i].ForeColor = IncidentMain.Shared.BLACK;
                         }
                     }
                     OptCheck = 0;
@@ -1115,7 +1082,7 @@ namespace TFDIncident
                         for (int i = 0; i <= 2; i++)
                         {
                             ViewModel.optLevelOfConsciouness[i].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.optLevelOfConsciouness[i].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.optLevelOfConsciouness[i].ForeColor = IncidentMain.Shared.BLACK;
                         }
                     }
                     OptCheck = 0;
@@ -1138,7 +1105,7 @@ namespace TFDIncident
                         for (int i = 0; i <= 2; i++)
                         {
                             ViewModel.optRespiratoryEffort[i].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.optRespiratoryEffort[i].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.optRespiratoryEffort[i].ForeColor = IncidentMain.Shared.BLACK;
                         }
                     }
                     if (~ViewModel.NoVitals != 0)
@@ -1146,7 +1113,7 @@ namespace TFDIncident
                         if (ViewModel.txtTime[0].Text == "__:__")
                         {
                             ViewModel.txtTime[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtTime[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtTime[0].ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
@@ -1158,14 +1125,14 @@ namespace TFDIncident
                         if (ViewModel.txtPulse[0].Text == "")
                         {
                             ViewModel.txtPulse[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtPulse[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtPulse[0].ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtPulse[0].Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp4))
                         {
                             ViewModel.txtPulse[0].Text = "";
                             ViewModel.txtPulse[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtPulse[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtPulse[0].ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
@@ -1177,14 +1144,14 @@ namespace TFDIncident
                         if (ViewModel.txtRespiration[0].Text == "")
                         {
                             ViewModel.txtRespiration[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtRespiration[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtRespiration[0].ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtRespiration[0].Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp5))
                         {
                             ViewModel.txtRespiration[0].Text = "";
                             ViewModel.txtRespiration[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtRespiration[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtRespiration[0].ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
@@ -1196,14 +1163,14 @@ namespace TFDIncident
                         if (ViewModel.txtSystolic[0].Text == "")
                         {
                             ViewModel.txtSystolic[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtSystolic[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtSystolic[0].ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtSystolic[0].Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp6))
                         {
                             ViewModel.txtSystolic[0].Text = "";
                             ViewModel.txtSystolic[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtSystolic[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtSystolic[0].ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
@@ -1216,9 +1183,9 @@ namespace TFDIncident
                             if (((int)ViewModel.chkPalp[0].CheckState) == ((int)UpgradeHelpers.Helpers.CheckState.Unchecked))
                             {
                                 ViewModel.txtDiastolic[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.txtDiastolic[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.txtDiastolic[0].ForeColor = IncidentMain.Shared.BLACK;
                                 ViewModel.chkPalp[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.chkPalp[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.chkPalp[0].ForeColor = IncidentMain.Shared.BLACK;
                                 result = 0;
                             }
                             else
@@ -1236,7 +1203,7 @@ namespace TFDIncident
                             if (!Double.TryParse(ViewModel.txtDiastolic[0].Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp7))
                             {
                                 ViewModel.txtDiastolic[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.txtDiastolic[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.txtDiastolic[0].ForeColor = IncidentMain.Shared.BLACK;
                                 ViewModel.txtDiastolic[0].Text = "";
                                 result = 0;
                             }
@@ -1267,20 +1234,20 @@ namespace TFDIncident
                                 if (ViewModel.txtPerOxy[0].Text == "")
                                 {
                                     ViewModel.txtPerOxy[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                                    ViewModel.txtPerOxy[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                    ViewModel.txtPerOxy[0].ForeColor = IncidentMain.Shared.BLACK;
                                     result = 0;
                                 }
                                 else if (!Double.TryParse(ViewModel.txtPerOxy[0].Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp10))
                                 {
                                     ViewModel.txtPerOxy[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                                    ViewModel.txtPerOxy[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                    ViewModel.txtPerOxy[0].ForeColor = IncidentMain.Shared.BLACK;
                                     ViewModel.txtPerOxy[0].Text = "";
                                     result = 0;
                                 }
                                 else if (Conversion.Val(ViewModel.txtPerOxy[0].Text) > 100)
                                 {
                                     ViewModel.txtPerOxy[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                                    ViewModel.txtPerOxy[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                    ViewModel.txtPerOxy[0].ForeColor = IncidentMain.Shared.BLACK;
                                     ViewModel.txtPerOxy[0].Text = "";
                                     result = 0;
                                 }
@@ -1305,7 +1272,7 @@ namespace TFDIncident
                             ViewModel.txtPerOxy[0].Text = "";
                         }
                         //Validate Additional Vitals
-                        for (int i = 1; i <= 4; i++)
+                        for (int i = 1; i <= 3; i++)
                         {
                             double dbNumericTemp12 = 0;
                             if (!Double.TryParse(ViewModel.txtPulse[i].Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp12))
@@ -1345,20 +1312,20 @@ namespace TFDIncident
                                     if (ViewModel.txtPerOxy[i].Text == "")
                                     {
                                         ViewModel.txtPerOxy[i].BackColor = IncidentMain.Shared.REQCOLOR;
-                                        ViewModel.txtPerOxy[i].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                        ViewModel.txtPerOxy[i].ForeColor = IncidentMain.Shared.BLACK;
                                         result = 0;
                                     }
                                     else if (!Double.TryParse(ViewModel.txtPerOxy[i].Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp18))
                                     {
                                         ViewModel.txtPerOxy[i].BackColor = IncidentMain.Shared.REQCOLOR;
-                                        ViewModel.txtPerOxy[i].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                        ViewModel.txtPerOxy[i].ForeColor = IncidentMain.Shared.BLACK;
                                         ViewModel.txtPerOxy[i].Text = "";
                                         result = 0;
                                     }
                                     else if (Conversion.Val(ViewModel.txtPerOxy[i].Text) > 100)
                                     {
                                         ViewModel.txtPerOxy[i].BackColor = IncidentMain.Shared.REQCOLOR;
-                                        ViewModel.txtPerOxy[i].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                        ViewModel.txtPerOxy[i].ForeColor = IncidentMain.Shared.BLACK;
                                         ViewModel.txtPerOxy[i].Text = "";
                                         result = 0;
                                     }
@@ -1386,7 +1353,7 @@ namespace TFDIncident
                         if (ViewModel.cboVitalsPosition[0].SelectedIndex == -1)
                         {
                             ViewModel.cboVitalsPosition[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboVitalsPosition[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboVitalsPosition[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboVitalsPosition[0].Text = "";
                             result = 0;
                         }
@@ -1398,7 +1365,7 @@ namespace TFDIncident
                         if (ViewModel.cboEyes[0].SelectedIndex == -1)
                         {
                             ViewModel.cboEyes[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboEyes[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboEyes[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboEyes[0].Text = "";
                             result = 0;
                         }
@@ -1410,7 +1377,7 @@ namespace TFDIncident
                         if (ViewModel.cboVerbal[0].SelectedIndex == -1)
                         {
                             ViewModel.cboVerbal[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboVerbal[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboVerbal[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboVerbal[0].Text = "";
                             result = 0;
                         }
@@ -1422,7 +1389,7 @@ namespace TFDIncident
                         if (ViewModel.cboMotor[0].SelectedIndex == -1)
                         {
                             ViewModel.cboMotor[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboMotor[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboMotor[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboMotor[0].Text = "";
                             result = 0;
                         }
@@ -1472,9 +1439,9 @@ namespace TFDIncident
                         ViewModel.optSeverity[0].BackColor = IncidentMain.Shared.REQCOLOR;
                         ViewModel.optSeverity[1].BackColor = IncidentMain.Shared.REQCOLOR;
                         ViewModel.optSeverity[2].BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.optSeverity[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                        ViewModel.optSeverity[1].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
-                        ViewModel.optSeverity[2].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.optSeverity[0].ForeColor = IncidentMain.Shared.BLACK;
+                        ViewModel.optSeverity[1].ForeColor = IncidentMain.Shared.BLACK;
+                        ViewModel.optSeverity[2].ForeColor = IncidentMain.Shared.BLACK;
                     }
                     else
                     {
@@ -1491,13 +1458,13 @@ namespace TFDIncident
                         if (ViewModel.txtTraumaID.Text == "")
                         {
                             ViewModel.txtTraumaID.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtTraumaID.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtTraumaID.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtTraumaID.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp20))
                         {
                             ViewModel.txtTraumaID.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtTraumaID.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtTraumaID.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.txtTraumaID.Text = "";
                             result = 0;
                         }
@@ -1513,7 +1480,7 @@ namespace TFDIncident
                         if (ViewModel.cboProtectiveDevice.SelectedIndex == -1)
                         {
                             ViewModel.cboProtectiveDevice.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboProtectiveDevice.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboProtectiveDevice.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboProtectiveDevice.Text = "";
                             result = 0;
                         }
@@ -1525,7 +1492,7 @@ namespace TFDIncident
                         if (ViewModel.cboPatientLocation.SelectedIndex == -1)
                         {
                             ViewModel.cboPatientLocation.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboPatientLocation.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboPatientLocation.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboPatientLocation.Text = "";
                             result = 0;
                         }
@@ -1570,11 +1537,11 @@ namespace TFDIncident
                         if (~OptCheck != 0)
                         {
                             ViewModel.lstTrauma1.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.lstTrauma1.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.lstTrauma1.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.lstTrauma2.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.lstTrauma2.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.lstTrauma2.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.lstTrauma3.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.lstTrauma3.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.lstTrauma3.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
@@ -1606,7 +1573,7 @@ namespace TFDIncident
                     if (ViewModel.cboTreatmentAuth.SelectedIndex == -1)
                     {
                         ViewModel.cboTreatmentAuth.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboTreatmentAuth.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboTreatmentAuth.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboTreatmentAuth.Text = "";
                         result = 0;
                     }
@@ -1621,13 +1588,13 @@ namespace TFDIncident
                         if (ViewModel.txtExtricationTime.Text == "")
                         {
                             ViewModel.txtExtricationTime.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtExtricationTime.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtExtricationTime.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtExtricationTime.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp21))
                         {
                             ViewModel.txtExtricationTime.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtExtricationTime.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtExtricationTime.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.txtExtricationTime.Text = "";
                             result = 0;
                         }
@@ -1656,14 +1623,14 @@ namespace TFDIncident
                                 if (ViewModel.txtAttempts.Text == "")
                                 {
                                     ViewModel.txtAttempts.BackColor = IncidentMain.Shared.REQCOLOR;
-                                    ViewModel.txtAttempts.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                    ViewModel.txtAttempts.ForeColor = IncidentMain.Shared.BLACK;
                                     result = 0;
                                 }
                                 else if (!Double.TryParse(ViewModel.txtAttempts.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp22))
                                 {
                                     ViewModel.txtAttempts.Text = "";
                                     ViewModel.txtAttempts.BackColor = IncidentMain.Shared.REQCOLOR;
-                                    ViewModel.txtAttempts.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                    ViewModel.txtAttempts.ForeColor = IncidentMain.Shared.BLACK;
                                     result = 0;
                                 }
                                 else
@@ -1686,7 +1653,7 @@ namespace TFDIncident
                         if (ViewModel.cboGauge[0].SelectedIndex == -1)
                         {
                             ViewModel.cboGauge[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboGauge[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboGauge[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboGauge[0].Text = "";
                             result = 0;
                         }
@@ -1698,7 +1665,7 @@ namespace TFDIncident
                         if (ViewModel.cboRoute[0].SelectedIndex == -1)
                         {
                             ViewModel.cboRoute[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboRoute[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboRoute[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboRoute[0].Text = "";
                             result = 0;
                         }
@@ -1710,7 +1677,7 @@ namespace TFDIncident
                         if (ViewModel.cboRate[0].SelectedIndex == -1)
                         {
                             ViewModel.cboRate[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboRate[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboRate[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboRate[0].Text = "";
                             result = 0;
                         }
@@ -1723,13 +1690,13 @@ namespace TFDIncident
                         if (ViewModel.txtAmount[0].Text == "")
                         {
                             ViewModel.txtAmount[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtAmount[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtAmount[0].ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtAmount[0].Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp23))
                         {
                             ViewModel.txtAmount[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtAmount[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtAmount[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.txtAmount[0].Text = "";
                             result = 0;
                         }
@@ -1752,7 +1719,7 @@ namespace TFDIncident
                         if (ViewModel.cboSite[0].SelectedIndex == -1)
                         {
                             ViewModel.cboSite[0].BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboSite[0].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboSite[0].ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboSite[0].Text = "";
                             result = 0;
                         }
@@ -1781,14 +1748,14 @@ namespace TFDIncident
                         if (ViewModel.txtDosage.Text == "")
                         {
                             ViewModel.txtDosage.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtDosage.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtDosage.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else if (!Double.TryParse(ViewModel.txtDosage.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp25))
                         {
                             ViewModel.txtDosage.Text = "";
                             ViewModel.txtDosage.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.txtDosage.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.txtDosage.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
@@ -1808,7 +1775,7 @@ namespace TFDIncident
                         if (~EMSReport.GetEMSCPRPerformerRS(ViewModel.PatientID) != 0)
                         {
                             ViewModel.cboCPRPerformedBy.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboCPRPerformedBy.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboCPRPerformedBy.ForeColor = IncidentMain.Shared.BLACK;
                             result = 0;
                         }
                         else
@@ -1838,7 +1805,7 @@ namespace TFDIncident
                             for (int i = 0; i <= 3; i++)
                             {
                                 ViewModel.optArrestToCPR[i].BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.optArrestToCPR[i].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.optArrestToCPR[i].ForeColor = IncidentMain.Shared.BLACK;
                             }
                             result = 0;
                         }
@@ -1855,7 +1822,7 @@ namespace TFDIncident
                     if (ViewModel.cboTransportTo.SelectedIndex == -1)
                     {
                         ViewModel.cboTransportTo.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboTransportTo.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboTransportTo.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboTransportTo.Text = "";
                         result = 0;
                     }
@@ -1872,14 +1839,14 @@ namespace TFDIncident
                         if (ViewModel.cboTransportBy.SelectedIndex == -1)
                         {
                             ViewModel.cboTransportBy.BackColor = IncidentMain.Shared.REQCOLOR;
-                            ViewModel.cboTransportBy.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                            ViewModel.cboTransportBy.ForeColor = IncidentMain.Shared.BLACK;
                             ViewModel.cboTransportTo.Text = "";
                             result = 0;
                             double dbNumericTemp26 = 0;
                             if (ViewModel.txtMileage.Text == "")
                             {
                                 ViewModel.txtMileage.BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.txtMileage.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.txtMileage.ForeColor = IncidentMain.Shared.BLACK;
                             }
                             else if (ViewModel.txtMileage.Text == ".")
                             {
@@ -1889,7 +1856,7 @@ namespace TFDIncident
                             else if (!Double.TryParse(ViewModel.txtMileage.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp26))
                             {
                                 ViewModel.txtMileage.BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.txtMileage.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.txtMileage.ForeColor = IncidentMain.Shared.BLACK;
                                 ViewModel.txtMileage.Text = "";
                             }
                             else
@@ -1918,7 +1885,7 @@ namespace TFDIncident
                             else if (ViewModel.txtMileage.Text == "")
                             {
                                 ViewModel.txtMileage.BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.txtMileage.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.txtMileage.ForeColor = IncidentMain.Shared.BLACK;
                                 result = 0;
                             }
                             else if (ViewModel.txtMileage.Text == ".")
@@ -1929,7 +1896,7 @@ namespace TFDIncident
                             else if (!Double.TryParse(ViewModel.txtMileage.Text, NumberStyles.Float, CultureInfo.CurrentCulture.NumberFormat, out dbNumericTemp27))
                             {
                                 ViewModel.txtMileage.BackColor = IncidentMain.Shared.REQCOLOR;
-                                ViewModel.txtMileage.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                                ViewModel.txtMileage.ForeColor = IncidentMain.Shared.BLACK;
                                 ViewModel.txtMileage.Text = "";
                                 result = 0;
                             }
@@ -1950,7 +1917,7 @@ namespace TFDIncident
                     if (ViewModel.cboHospitalChosenBy.SelectedIndex == -1)
                     {
                         ViewModel.cboHospitalChosenBy.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboHospitalChosenBy.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboHospitalChosenBy.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.cboHospitalChosenBy.Text = "";
                         result = 0;
                     }
@@ -1967,7 +1934,7 @@ namespace TFDIncident
                     if (ViewModel.cboTransportFrom.SelectedIndex == -1)
                     {
                         ViewModel.cboTransportFrom.BackColor = IncidentMain.Shared.REQCOLOR;
-                        ViewModel.cboTransportFrom.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                        ViewModel.cboTransportFrom.ForeColor = IncidentMain.Shared.BLACK;
                         ViewModel.lbTrans[2].ForeColor = IncidentMain.Shared.EMSFONT;
                         ViewModel.cboTransportFrom.Text = "";
                         result = 0;
@@ -2139,7 +2106,9 @@ namespace TFDIncident
             ViewModel.txtCity.Text = "";
             ViewModel.txtZipCode.Text = "";
             ViewModel.txtHomePhone.Text = "";
-            ViewModel.mskBirthdate.Text = "__/__/____";
+            ViewModel.dpBirthdate.Value = DateTime.Now;
+            //Start Max is currentdate
+            ViewModel.dpBirthdate.MaxDate = ViewModel.dpBirthdate.Value.Date;
             ViewModel.txtPatientAge.Text = "";
             ViewModel.cboPatientAgeUnits.Items.Clear();
             ViewModel.cboRace.Items.Clear();
@@ -2152,7 +2121,7 @@ namespace TFDIncident
             ViewModel.cboPrimaryIllness.Items.Clear();
             ViewModel.lstSecondaryIllness.Items.Clear();
             ViewModel.chkMajTrauma.CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
-            for (int i = 0; i <= 4; i++)
+            for (int i = 0; i <= 3; i++)
             {
                 ViewModel.chkPalp[i].CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
                 ViewModel.txtTime[i].Text = "__:__";
@@ -3166,7 +3135,7 @@ namespace TFDIncident
                     ViewModel.lbProcs[1].Visible = true;
                     ViewModel.txtOtherBLSProcedures.Visible = true;
                     ViewModel.txtOtherBLSProcedures.BackColor = IncidentMain.Shared.REQCOLOR;
-                    ViewModel.txtOtherBLSProcedures.ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                    ViewModel.txtOtherBLSProcedures.ForeColor = IncidentMain.Shared.BLACK;
                 }
                 else
                 {
@@ -3996,7 +3965,7 @@ namespace TFDIncident
             {
                 if (ViewModel.lstBLSPersonnel.GetSelected(i))
                 {
-                    UpgradeHelpers.Helpers.ListBoxHelper.SetSelectedIndex(ViewModel.lstBLSPersonnel, i);
+                   // UpgradeHelpers.Helpers.ListBoxHelper.SetSelectedIndex(ViewModel.lstBLSPersonnel, i);
                     EmpID = ViewModel.lstBLSPersonnel.Text.Substring(Math.Max(ViewModel.lstBLSPersonnel.Text.Length - 5, 0));
                     EMSReport.ProcedurePatientID = ViewModel.PatientID;
                     EMSReport.Procedure = ViewModel.cboBLSProcedures.GetItemData(ViewModel.cboBLSProcedures.SelectedIndex);
@@ -4518,7 +4487,7 @@ namespace TFDIncident
                     EMSReport.NameLast = IncidentMain.Clean(ViewModel.txtBLastName.Text);
                     EMSReport.NameMI = IncidentMain.Clean(ViewModel.txtBMI.Text);
                     EMSReport.Phone = IncidentMain.Clean(ViewModel.txtBHomePhone.Text);
-                    if (Information.IsDate(ViewModel.txtBBirthdate.Text))
+                    if (Microsoft.VisualBasic.Information.IsDate(ViewModel.txtBBirthdate.Text))
                     {
                         EMSReport.Birthdate = DateTime.Parse(ViewModel.txtBBirthdate.Text).ToString("MM/dd/yyyy");
                     }
@@ -4545,7 +4514,7 @@ namespace TFDIncident
                     EMSReport.NameLast = IncidentMain.Clean(ViewModel.txtBLastName.Text);
                     EMSReport.NameMI = IncidentMain.Clean(ViewModel.txtBMI.Text);
                     EMSReport.Phone = IncidentMain.Clean(ViewModel.txtBHomePhone.Text);
-                    if (Information.IsDate(ViewModel.txtBBirthdate.Text))
+                    if (Microsoft.VisualBasic.Information.IsDate(ViewModel.txtBBirthdate.Text))
                     {
                         EMSReport.Birthdate = DateTime.Parse(ViewModel.txtBBirthdate.Text).ToString("MM/dd/yyyy");
                     }
@@ -4679,9 +4648,21 @@ namespace TFDIncident
                 EMSReport.Zipcode = "0";
             }
             EMSReport.Phone = IncidentMain.Clean(ViewModel.txtHomePhone.Text);
-            if (Information.IsDate(ViewModel.mskBirthdate.Text))
+            //if (Microsoft.VisualBasic.Information.IsDate(ViewModel.mskBirthdate.Text))
+            //{
+            //    EMSReport.Birthdate = DateTime.Parse(ViewModel.mskBirthdate.Text).ToString("MM/dd/yyyy");
+            //}
+            if (ViewModel.dpBirthdate.MaxDate != ViewModel.dpBirthdate.Value)
             {
-                EMSReport.Birthdate = DateTime.Parse(ViewModel.mskBirthdate.Text).ToString("MM/dd/yyyy");
+                var Birthdate = ViewModel.dpBirthdate.Value.Date.ToString("MM/dd/yyyy");
+                if (Microsoft.VisualBasic.Information.IsDate(Birthdate))
+                {
+                    EMSReport.Birthdate = Birthdate;
+                }
+                else
+                {
+                    EMSReport.Birthdate = "";
+                }
             }
             else
             {
@@ -4873,7 +4854,7 @@ namespace TFDIncident
                             {
                                 DateWork = UpgradeHelpers.Helpers.DateTimeHelper.ToString(DateTime.Parse(DateWork).AddDays(1));
                             }
-                            if (Information.IsDate(DateWork + " " + ViewModel.txtTime[i].Text))
+                            if (Microsoft.VisualBasic.Information.IsDate(DateWork + " " + ViewModel.txtTime[i].Text))
                             {
                                 EMSReport.VitalsTime = DateWork + " " + ViewModel.txtTime[i].Text;
                             }
@@ -5586,7 +5567,7 @@ namespace TFDIncident
         }
 
         [UpgradeHelpers.Events.Handler]
-        internal void mskBirthdate_Leave(Object eventSender, System.EventArgs eventArgs)
+        internal void dpBirthdate_Click(Object eventSender, System.EventArgs eventArgs)
         {
             EditBirthdate();
             CheckComplete();
@@ -6099,7 +6080,7 @@ namespace TFDIncident
                 {
                     ViewModel.txtTime[Index].Text = "__:__";
                     ViewModel.txtTime[Index].BackColor = IncidentMain.Shared.REQCOLOR;
-                    ViewModel.txtTime[Index].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                    ViewModel.txtTime[Index].ForeColor = IncidentMain.Shared.BLACK;
                     ViewManager.SetCurrent(ViewModel.txtTime[Index]);
                 }
                 else
@@ -6124,7 +6105,7 @@ namespace TFDIncident
                 {
                     ViewModel.txtTime[Index].Text = "__:__";
                     ViewModel.txtTime[Index].BackColor = IncidentMain.Shared.REQCOLOR;
-                    ViewModel.txtTime[Index].ForeColor = UpgradeHelpers.Helpers.ColorTranslator.FromOle(IncidentMain.WHITE);
+                    ViewModel.txtTime[Index].ForeColor = IncidentMain.Shared.BLACK;
                     ViewManager.SetCurrent(ViewModel.txtTime[Index]);
                 }
                 else
@@ -6206,7 +6187,6 @@ namespace TFDIncident
 
         protected override void ExecuteControlsStartup()
         {
-            ViewModel.tabPage5.LifeCycleStartup();
             ViewModel.tabPage4.LifeCycleStartup();
             ViewModel.tabPage3.LifeCycleStartup();
             ViewModel.tabPage2.LifeCycleStartup();
@@ -6229,12 +6209,10 @@ namespace TFDIncident
             ViewModel.frmPatientInformation.LifeCycleStartup();
             ViewModel.frmGender.LifeCycleStartup();
             ViewModel.frmCPR.LifeCycleStartup();
-            ViewModel.Shape2.LifeCycleStartup();
             ViewModel.frmArrestToCPR.LifeCycleStartup();
             ViewModel.frmArrestToALS.LifeCycleStartup();
             ViewModel.frmArrestToShock.LifeCycleStartup();
             ViewModel.frmTreatmentInfo.LifeCycleStartup();
-            ViewModel.shpMedications.LifeCycleStartup();
             ViewModel.frmExtrication.LifeCycleStartup();
             ViewModel.frmTransportInfo.LifeCycleStartup();
             ViewModel.frmBaseStationContact.LifeCycleStartup();
@@ -6245,7 +6223,6 @@ namespace TFDIncident
 
         protected override void ExecuteControlsShutdown()
         {
-            ViewModel.tabPage5.LifeCycleShutdown();
             ViewModel.tabPage4.LifeCycleShutdown();
             ViewModel.tabPage3.LifeCycleShutdown();
             ViewModel.tabPage2.LifeCycleShutdown();
@@ -6268,12 +6245,10 @@ namespace TFDIncident
             ViewModel.frmPatientInformation.LifeCycleShutdown();
             ViewModel.frmGender.LifeCycleShutdown();
             ViewModel.frmCPR.LifeCycleShutdown();
-            ViewModel.Shape2.LifeCycleShutdown();
             ViewModel.frmArrestToCPR.LifeCycleShutdown();
             ViewModel.frmArrestToALS.LifeCycleShutdown();
             ViewModel.frmArrestToShock.LifeCycleShutdown();
             ViewModel.frmTreatmentInfo.LifeCycleShutdown();
-            ViewModel.shpMedications.LifeCycleShutdown();
             ViewModel.frmExtrication.LifeCycleShutdown();
             ViewModel.frmTransportInfo.LifeCycleShutdown();
             ViewModel.frmBaseStationContact.LifeCycleShutdown();

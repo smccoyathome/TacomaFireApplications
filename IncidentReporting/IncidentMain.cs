@@ -1101,7 +1101,7 @@ namespace TFDIncident
 				RUPTUREFONT = UpgradeHelpers.Helpers.Color.Brown;
 				FIREFONT = UpgradeHelpers.Helpers.Color.FromArgb(89, 112, 65);
 				REQCOLOR = UpgradeHelpers.Helpers.Color.LightBlue;
-				EMSCOLOR = UpgradeHelpers.Helpers.Color.FromArgb(153, 166, 187);
+				EMSCOLOR = UpgradeHelpers.Helpers.Color.White;
 				EMSFONT = UpgradeHelpers.Helpers.Color.Navy;
 				HAZMATFONT = UpgradeHelpers.Helpers.Color.FromArgb(89, 112, 65);
 				SITFOUNDFONT = UpgradeHelpers.Helpers.Color.FromArgb(87, 102, 92);

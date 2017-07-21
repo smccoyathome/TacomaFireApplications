@@ -465,7 +465,7 @@
                                   <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">Siren?</label>
                               </div>
                           </div>
-                          <div class="_cboEMSUnit_2Pos" id="_cboEMSUnit_2Pos">
+                          <div class="_cboEMSUnit_2Pos" id="_cboEMSUnit_2Pos" data-bind="visible : _cboEMSUnit_2.Visible">
                               <select data-role="mobilizecombobox" id="_cboEMSUnit_2" tabindex="83" index="2" class="_cboEMSUnit_2" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: _cboEMSUnit_2, source : _cboEMSUnit_2.ComboBoxItems, comboSelectedIndex : _cboEMSUnit_2.SelectedIndex"></select>
                           </div>
                           <div index="2" class="_chkSirenReport_2">
@@ -840,7 +840,7 @@
           <fieldset id="NavBar" class="NavBar" data-bind="enabled : NavBar.Enabled">
               <button id="_NavButton_0" tabindex="287" index="0" class="_NavButton_0" type="button" data-bind="visible : _NavButton_0.Visible, events : { click : NavButton_Click }, ">Cancel</button>
               <button id="_NavButton_1" tabindex="288" index="1" class="_NavButton_1" type="button" data-bind="visible : _NavButton_1.Visible, events : { click : NavButton_Click }, ">Back</button>
-              <label id="lbNavMessage" tabindex="276" class="lbNavMessage" data-bind="visible : lbNavMessage.Visible, text : lbNavMessage.Text, imagePath : lbNavMessage.ImagePath">Pick Something!</label>
+              <label id="lbNavMessage" tabindex="276" class="lbNavMessage" data-bind="visible : lbNavMessage.Visible, text : lbNavMessage.Text, imagePath : lbNavMessage.ImagePath"></label>
               <button id="_NavButton_2" tabindex="289" index="2" class="_NavButton_2" type="button" data-bind="visible : _NavButton_2.Visible, events : { click : NavButton_Click }, ">Next</button>
               <button id="_NavButton_3" tabindex="290" index="3" class="_NavButton_3" type="button" data-bind="visible : _NavButton_3.Visible, events : { click : NavButton_Click }, ">Save and Quit</button>
               <button id="_NavButton_4" tabindex="286" index="4" class="_NavButton_4" type="button" data-bind="visible : _NavButton_4.Visible, events : { click : NavButton_Click }, ">Finish</button>
