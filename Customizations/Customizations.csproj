@@ -89,8 +89,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppearanceViewModel.cs" />
     <Compile Include="DateTimePicker\DateTimePickerViewModel.cs" />
     <Compile Include="DBCommandExtensions.cs" />
+    <Compile Include="DefaultableBoolean.cs" />
+    <Compile Include="DropDownStyleViewModel.cs" />
+    <Compile Include="CustomGrid\Activation.cs" />
+    <Compile Include="CustomGrid\AllowAddNew.cs" />
+    <Compile Include="CustomGrid\AllowColMoving.cs" />
+    <Compile Include="CustomGrid\AllowColSwapping.cs" />
+    <Compile Include="CustomGrid\AutoFitStyle.cs" />
+    <Compile Include="CustomGrid\BandsCollection.cs" />
+    <Compile Include="CustomGrid\ButtonDisplayStyle.cs" />
+    <Compile Include="CustomGrid\CellClickAction.cs" />
+    <Compile Include="CustomGrid\CellDisplayStyle.cs" />
+    <Compile Include="CustomGrid\CellsCollection.cs" />
+    <Compile Include="CustomGrid\ColScrollRegion.cs" />
+    <Compile Include="CustomGrid\ColumnHeader.cs" />
+    <Compile Include="CustomGrid\ColumnsCollection.cs" />
+    <Compile Include="CustomGrid\ColumnStyle.cs" />
+    <Compile Include="CustomGrid\Controller\UltraGridController.cs" />
+    <Compile Include="CustomGrid\Events.cs" />
+    <Compile Include="CustomGrid\Events\AfterColPosChangedEventArgs.cs" />
+    <Compile Include="CustomGrid\Events\AfterSelectChangeEventArgs.cs" />
+    <Compile Include="CustomGrid\Events\CellEventArgs.cs" />
+    <Compile Include="CustomGrid\Events\ColScrollRegionEventArgs.cs" />
+    <Compile Include="CustomGrid\Events\InitializeLayoutEventArgs.cs" />
+    <Compile Include="CustomGrid\Events\RowEventArgs.cs" />
+    <Compile Include="CustomGrid\Events\RowScrollRegionEventArgs.cs" />
+    <Compile Include="CustomGrid\Extensions\DataTypeExtension.cs" />
+    <Compile Include="CustomGrid\GroupByBox.cs" />
+    <Compile Include="CustomGrid\HeaderBase.cs" />
+    <Compile Include="CustomGrid\HeaderClickAction.cs" />
+    <Compile Include="CustomGrid\Nullable.cs" />
+    <Compile Include="CustomGrid\RowsCollection.cs" />
+    <Compile Include="CustomGrid\RowScrollRegion.cs" />
+    <Compile Include="CustomGrid\RowSizing.cs" />
+    <Compile Include="CustomGrid\Selected.cs" />
+    <Compile Include="CustomGrid\SelectedCellsCollection.cs" />
+    <Compile Include="CustomGrid\SelectedColsCollection.cs" />
+    <Compile Include="CustomGrid\SelectedRowsCollection.cs" />
+    <Compile Include="CustomGrid\SelectType.cs" />
+    <Compile Include="CustomGrid\UltraGrid.cs" />
+    <Compile Include="CustomGrid\UltraGridAction.cs" />
+    <Compile Include="CustomGrid\UltraGridBand.cs" />
+    <Compile Include="CustomGrid\UltraGridBase.cs" />
+    <Compile Include="CustomGrid\UltraGridCardSettings.cs" />
+    <Compile Include="CustomGrid\UltraGridCell.cs" />
+    <Compile Include="CustomGrid\UltraGridColumn.cs" />
+    <Compile Include="CustomGrid\UltraGridLayout.cs" />
+    <Compile Include="CustomGrid\UltraGridOverride.cs" />
+    <Compile Include="CustomGrid\UltraGridRow.cs" />
+    <Compile Include="CustomGrid\ValueList.cs" />
+    <Compile Include="CustomGrid\ValueListItemsCollection.cs" />
+    <Compile Include="HeaderStyle.cs" />
     <Compile Include="SpreadController.cs" />
     <Compile Include="KendoSpreadSheetConverter.cs" />
     <Compile Include="ShapeHelperViewModel.cs" />
@@ -114,6 +166,9 @@
     <Compile Include="DateTimeCellType.cs" />
     <Compile Include="EmptyCellType.cs" />
     <Compile Include="TextCellType.cs" />
+    <Compile Include="UIElementBorderStyle.cs" />
+    <Compile Include="UltraComboEditorViewModel.cs" />
+    <Compile Include="ValueListItemViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">

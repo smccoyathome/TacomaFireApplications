@@ -275,7 +275,8 @@ namespace PTSProject
                 {
                     Shared.ViewManager.NavigateToView(tempNormalized0);
                 });
-                async1.Append(() => Shared.ViewManager.NavigateToView(frmSplash.DefInstance, true));
+                // don't display the splash screen!
+                //async1.Append(() => Shared.ViewManager.NavigateToView(frmSplash.DefInstance, true));
                 //async1.Append(() =>
                 //{
                 //    using (var async2 = Shared.Async())

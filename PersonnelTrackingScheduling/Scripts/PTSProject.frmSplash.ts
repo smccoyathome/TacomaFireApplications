@@ -15,7 +15,7 @@ define("PTSProject.frmSplash", [ "files/text!views/PTSProject.frmSplash.html", "
 
             public bindings(){
             this.bind("frmSplash_KeyPress",this.frmSplash_KeyPress);
-this.bind("Frame1_Click",this.Frame1_Click);
+            this.bind("Frame1_Click",this.Frame1_Click);
 
                 //this.bindCloseEvent();
             }
@@ -44,7 +44,7 @@ this.bind("Frame1_Click",this.Frame1_Click);
             var that = this;
             return setTimeout(function () {
                 that.close();
-            }, 1000);
+            }, 10000);
         }
         public frmSplash_KeyPress(sender: frmSplash, action: string, e: any) {
             

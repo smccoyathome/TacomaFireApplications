@@ -2,555 +2,12 @@
 }
 .PTSProject_frmNewBattSched .frmNewBattSched {
 	background-color: darkolivegreen;
-	min-width: 809px;
-	min-height: 594px;
+	min-width: 815px;
+	min-height: 593px;
 	position: absolute;
 	overflow: hidden;
 	cursor: default;
 }
-/*.PTSProject_frmNewBattSched .MainMenu1 {
-	left: 0px;
-	top: 0px;
-	position: absolute;
-	width: 809px;
-	height: 24px;
-	position: relative;
-	z-index: 16777271;
-}
-.PTSProject_frmNewBattSched .mnuSystem {
-	Width: 57px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched .mnuTimeCard {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuException {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuPrintDailyLeave {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuPrintAll {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuSpacer1 {
-}
-.PTSProject_frmNewBattSched .mnuClose {
-	Width: 260px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuPersonnel {
-	Width: 71px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched .mnuEmpInfo {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuSenoirInq {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuImmune {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_transfer_req {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuPMCerts {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuPPE {
-	Width: 254px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuSchedule {
-	Width: 78px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched .mnuIndSchedule {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuBattalion2 {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuNewBatt3 {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuBattalion3 {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuBattalion4 {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuEMS {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuEMSDaily {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuHazmat {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuMarine {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuBattStaff {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuDispatch {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_watch_duty {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_Vacation {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_PMVacationSched {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_HZMVacationSched {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_FCCVacationSched {
-	Width: 234px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_old {
-	Width: 32px;
-	Height: 19px;
-}
-.PTSProject_frmNewBattSched .mnuNewBatt1 {
-	Width: 212px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuNewBatt2 {
-	Width: 212px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuReports {
-	Width: 59px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched .mnuPersonnelReports {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuAssignReport {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuRoster {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuFRoster {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuDebitReport {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuProlist {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuSenior {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuBenefit {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_emp_facility {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .MnuAuditDDHOL {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_IndivPayrollSO {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuIndTimeCard2 {
-	Width: 211px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuSchedul {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuBDWork {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu181 {
-	Width: 130px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu182 {
-	Width: 130px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu183 {
-	Width: 130px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnupayroll {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuEMSPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuHazPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuMarPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuBattPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuDisPay {
-	Width: 148px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuIndTimeCard {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuIndYearSched {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuDailyStaff {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuOvertime {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .MnuExtraOff {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_sa_report {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuShiftCal {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuTransfer {
-	Width: 250px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuLeaveReports {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuDailyLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuAnnual {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_dailysickleave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuIndLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_sick_usage {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_PMLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuDispatchLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_HZMLeave {
-	Width: 201px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_Battalion {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .MnuCBStaffing {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_LeaveNoSched {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .MnuInsteadOfSCKLeave {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_staffdiscrepancy {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_PMCSRCalc {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_SchedNotes {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_PPEQuery {
-	Width: 243px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnupayrollreports {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_timecard {
-	Width: 203px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuindannualpayroll {
-	Width: 203px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnupersonnelsignoff {
-	Width: 203px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_TrainingReports {
-	Width: 126px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_QuarterlyMinimumDrill {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_FCCMinDrills {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_ReadingAssign {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_OTEPReport {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_PMRecertReport {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_PMBaseStaReport {
-	Width: 263px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuTraining {
-	Width: 63px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched .mnu_trainingtracker {
-	Width: 191px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuTrnReports {
-	Width: 191px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_IndTrainReport {
-	Width: 238px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_IndPMRecert {
-	Width: 238px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuALSProc {
-	Width: 238px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_Queries {
-	Width: 191px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuTrainQuery {
-	Width: 247px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_TrainingQuerynew {
-	Width: 247px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuWindow {
-	Width: 63px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched .mnuCascade {
-	Width: 170px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuPrintScreen {
-	Width: 170px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuHelp {
-	Width: 44px;
-	Height: 20px;
-}
-.PTSProject_frmNewBattSched .mnuContents {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuAbout {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_HelpPrntScrn {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_timecodes {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_payrolllegend {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_legend {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_IndLegend {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_payup_calc {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuTrainCodeHelp {
-	Width: 251px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu181PopUp {
-	Width: 32px;
-	Height: 19px;
-}
-.PTSProject_frmNewBattSched .mnuLeave {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuNewSched {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuPayUp {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuPayDown {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuKOT {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuRover {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuDebit {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuTrade {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuCancelTrade {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuRemove {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuSendTo182 {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuSendTo183 {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuReport {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuTradeDetail {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnu_viewtimecard {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuSADetail {
-	Width: 255px;
-	Height: 22px;
-}
-.PTSProject_frmNewBattSched .mnuReschedSA {
-	Width: 255px;
-	Height: 22px;
-}*/
 .PTSProject_frmNewBattSched .Ctx_mnu181PopUp {
 	width: 61px;
 	height: 4px;
@@ -565,14 +22,13 @@
 	height: 15px;
 	margin-top: 0;
 	margin: 5px;
-	border-color: lightgray;
+	border-color: darkgray;
 }
 .PTSProject_frmNewBattSched .Label1 {
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	color: lightyellow;
 	left: 8px;
 	top: 15px;
@@ -607,11 +63,10 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: Red;
-	left: 184px;
-	top: 15px;
+	font-size: medium;
+	color: white;
+	left: 195px;
+	top: 30px;
 	position: absolute;
 	width: 138px;
 	height: 20px;
@@ -621,11 +76,10 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: Red;
-	left: 190px;
-	top: 15px;
+	font-size: medium;
+	color: white;
+	left: 195px;
+	top: 30px;
 	position: absolute;
 	width: 156px;
 	height: 20px;
@@ -635,8 +89,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
-	font-weight: bold;
+	font-size: small;
 	color: peachpuff;
 	left: 200px;
 	top: 15px;
@@ -661,8 +114,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	color: lightyellow;
 	left: 332px;
 	top: 15px;
@@ -671,7 +123,7 @@
 	height: 17px;
 }
 .PTSProject_frmNewBattSched .cboRovers {
-	background-color: transparent;
+	background-color: white;
 	cursor: default;
 	width: 125px;
 	height: 21px;
@@ -690,8 +142,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	color: lightyellow;
 	left: 520px;
 	top: 15px;
@@ -700,7 +151,7 @@
 	height: 17px;
 }
 .PTSProject_frmNewBattSched .cboDebit {
-	background-color: transparent;
+	background-color: white;
 	cursor: default;
 	width: 125px;
 	height: 21px;
@@ -719,8 +170,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	color: lightyellow;
 	left: 696px;
 	top: 15px;
@@ -733,8 +183,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
-	font-weight: bold;
+	font-size: small;
 	color: peachpuff;
 	left: 768px;
 	top: 15px;
@@ -747,8 +196,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 688px;
 	top: 15px;
@@ -761,8 +209,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	color: lightyellow;
 	left: 680px;
 	top: 50px;
@@ -810,8 +257,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 6px;
 	top: 56px;
@@ -823,8 +269,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 64px;
 	top: 56px;
@@ -837,8 +282,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 142px;
 	top: 56px;
@@ -850,8 +294,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 200px;
 	top: 56px;
@@ -864,8 +307,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 278px;
 	top: 56px;
@@ -877,8 +319,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 336px;
 	top: 56px;
@@ -891,8 +332,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 414px;
 	top: 56px;
@@ -904,8 +344,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 472px;
 	top: 56px;
@@ -918,8 +357,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 550px;
 	top: 56px;
@@ -931,8 +369,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 608px;
 	top: 56px;
@@ -945,8 +382,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 776px;
 	top: 56px;
@@ -966,8 +402,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 72px;
@@ -996,8 +431,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 72px;
@@ -1026,8 +460,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 72px;
@@ -1056,8 +489,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 72px;
@@ -1086,8 +518,7 @@
 	background-color:lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 72px;
@@ -1116,8 +547,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 72px;
@@ -1180,8 +610,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 88px;
@@ -1204,8 +633,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 88px;
@@ -1228,8 +656,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 88px;
@@ -1252,8 +679,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 88px;
@@ -1276,8 +702,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 88px;
@@ -1300,8 +725,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 88px;
@@ -1331,8 +755,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 103px;
@@ -1389,8 +812,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 104px;
@@ -1412,8 +834,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 104px;
@@ -1435,8 +856,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 104px;
@@ -1458,8 +878,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 104px;
@@ -1481,8 +900,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 104px;
@@ -1518,8 +936,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 120px;
@@ -1549,8 +966,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 120px;
@@ -1580,8 +996,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 120px;
@@ -1604,8 +1019,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 120px;
@@ -1635,8 +1049,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 120px;
@@ -1666,8 +1079,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 120px;
@@ -1725,8 +1137,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 136px;
@@ -1750,8 +1161,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 136px;
@@ -1773,8 +1183,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 136px;
@@ -1796,8 +1205,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 136px;
@@ -1819,8 +1227,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 136px;
@@ -1849,8 +1256,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 136px;
@@ -1914,8 +1320,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 152px;
@@ -1939,8 +1344,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 152px;
@@ -1963,8 +1367,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 152px;
@@ -1987,8 +1390,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 152px;
@@ -2011,8 +1413,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 152px;
@@ -2035,8 +1436,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 152px;
@@ -2094,8 +1494,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 168px;
@@ -2119,8 +1518,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 168px;
@@ -2142,8 +1540,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 168px;
@@ -2165,8 +1562,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 168px;
@@ -2188,8 +1584,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 168px;
@@ -2218,8 +1613,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 168px;
@@ -2276,8 +1670,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 184px;
@@ -2301,8 +1694,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 184px;
@@ -2325,8 +1717,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 184px;
@@ -2349,8 +1740,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 184px;
@@ -2373,8 +1763,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 184px;
@@ -2404,8 +1793,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 184px;
@@ -2470,8 +1858,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 6px;
 	top: 204px;
@@ -2483,8 +1870,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 64px;
 	top: 204px;
@@ -2497,8 +1883,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 142px;
 	top: 204px;
@@ -2510,8 +1895,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 200px;
 	top: 204px;
@@ -2524,8 +1908,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 278px;
 	top: 204px;
@@ -2537,8 +1920,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 336px;
 	top: 204px;
@@ -2551,8 +1933,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 414px;
 	top: 204px;
@@ -2564,8 +1945,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 472px;
 	top: 204px;
@@ -2578,8 +1958,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 550px;
 	top: 204px;
@@ -2591,8 +1970,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 608px;
 	top: 204px;
@@ -2605,8 +1983,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 204px;
@@ -2670,8 +2047,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 220px;
@@ -2693,8 +2069,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 220px;
@@ -2716,8 +2091,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 220px;
@@ -2739,8 +2113,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 220px;
@@ -2762,8 +2135,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 220px;
@@ -2785,8 +2157,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 220px;
@@ -2861,8 +2232,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 236px;
@@ -2885,8 +2255,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 236px;
@@ -2899,8 +2268,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 236px;
@@ -2923,8 +2291,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 236px;
@@ -2947,8 +2314,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 236px;
@@ -2971,8 +2337,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 236px;
@@ -3022,8 +2387,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 252px;
@@ -3045,8 +2409,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 252px;
@@ -3075,8 +2438,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 252px;
@@ -3098,8 +2460,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 252px;
@@ -3128,8 +2489,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 252px;
@@ -3151,8 +2511,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 252px;
@@ -3217,8 +2576,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 268px;
@@ -3241,8 +2599,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 268px;
@@ -3265,8 +2622,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 268px;
@@ -3289,8 +2645,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 268px;
@@ -3313,8 +2668,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 268px;
@@ -3337,8 +2691,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 268px;
@@ -3350,7 +2703,7 @@
 	background-color: White;
 	cursor: default;
 	color: black;
-	left: 736px;
+	left: 738px;
 	top: 268px;
 	position: absolute;
 	width: 67px;
@@ -3402,8 +2755,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 284px;
@@ -3425,8 +2777,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 284px;
@@ -3448,8 +2799,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 284px;
@@ -3471,8 +2821,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 284px;
@@ -3494,8 +2843,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 284px;
@@ -3517,8 +2865,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 284px;
@@ -3583,8 +2930,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 300px;
@@ -3607,8 +2953,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 300px;
@@ -3631,8 +2976,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 300px;
@@ -3655,8 +2999,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 300px;
@@ -3679,8 +3022,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 300px;
@@ -3703,8 +3045,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 300px;
@@ -3761,8 +3102,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 316px;
@@ -3784,8 +3124,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 316px;
@@ -3807,8 +3146,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 316px;
@@ -3830,8 +3168,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 316px;
@@ -3855,8 +3192,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 316px;
@@ -3887,8 +3223,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 316px;
@@ -3932,8 +3267,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 278px;
 	top: 331px;
@@ -3967,8 +3301,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 332px;
@@ -3991,8 +3324,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 332px;
@@ -4025,8 +3357,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 414px;
 	top: 332px;
@@ -4050,8 +3381,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 550px;
 	top: 332px;
@@ -4075,8 +3405,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 332px;
@@ -4133,8 +3462,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 6px;
 	top: 352px;
@@ -4146,8 +3474,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 64px;
 	top: 352px;
@@ -4160,8 +3487,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 142px;
 	top: 352px;
@@ -4173,8 +3499,7 @@
 	background-color: lightblue;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 200px;
 	top: 352px;
@@ -4187,9 +3512,8 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: #FFFFC0;
+	font-size: small;
+	color: lightyellow;
 	left: 280px;
 	top: 352px;
 	position: absolute;
@@ -4201,9 +3525,8 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
-	color: #FFFFC0;
+	font-size: small;
+	color: lightyellow;
 	left: 552px;
 	top: 352px;
 	position: absolute;
@@ -4215,8 +3538,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 352px;
@@ -4246,8 +3568,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 368px;
@@ -4276,8 +3597,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 368px;
@@ -4319,8 +3639,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 368px;
@@ -4359,8 +3678,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 384px;
@@ -4390,8 +3708,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 384px;
@@ -4421,8 +3738,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 684px;
 	top: 384px;
@@ -4452,8 +3768,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 400px;
@@ -4477,8 +3792,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 400px;
@@ -4521,8 +3835,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 416px;
@@ -4546,8 +3859,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 416px;
@@ -4578,11 +3890,10 @@
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	font-style: italic;
 	color: lightyellow;
-	left: 688px;
+	left: 685px;
 	top: 416px;
 	position: absolute;
 	width: 121px;
@@ -4593,8 +3904,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 432px;
@@ -4625,8 +3935,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 432px;
@@ -4671,8 +3980,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 448px;
@@ -4696,8 +4004,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 448px;
@@ -4722,11 +4029,10 @@
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	font-style: italic;
 	color: lightyellow;
-	left: 688px;
+	left: 685px;
 	top: 448px;
 	position: absolute;
 	width: 121px;
@@ -4751,8 +4057,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 464px;
@@ -4776,8 +4081,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 464px;
@@ -4801,8 +4105,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 6px;
 	top: 480px;
@@ -4833,8 +4136,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 142px;
 	top: 480px;
@@ -4864,44 +4166,45 @@
 .PTSProject_frmNewBattSched .cmdPayRoll {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 16px;
 	top: 512px;
 	position: absolute;
 	width: 120px;
 	height: 69px;
-	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
+	vertical-align: middle;
 }
 .PTSProject_frmNewBattSched .cmdPayRoll:enabled {
 	color: black;
 }
 .PTSProject_frmNewBattSched .picTrash {
-	background-color: darkolivegreen;
+	background-color: lightgray;
 	cursor: default;
-	background-image: url("/Resources/images/frmNewBattSched.picTrash.Image.png");
+	background-image: url("/Resources/images/frmNewBattSched2.picTrash.Image.png");
 	background-repeat: no-repeat;
-	left: 152px;
+	left: 150px;
 	top: 512px;
 	position: absolute;
 	width: 24px;
 	height: 22px;
+
 }
 .PTSProject_frmNewBattSched .cmdMissing {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
-	left: 186px;
+	font-family: Arial;
+	font-size: small;
+	left: 181px;
 	top: 512px;
 	position: absolute;
-	width: 212px;
+	width: 217px;
 	height: 29px;
-	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
+	vertical-align: middle;
 }
 .PTSProject_frmNewBattSched .cmdMissing:enabled {
 	color: black;
@@ -4909,16 +4212,16 @@
 .PTSProject_frmNewBattSched .cmdRefresh {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
-	left: 408px;
+	font-family: Arial;
+	font-size: small;
+	left: 410px;
 	top: 512px;
 	position: absolute;
 	width: 120px;
 	height: 29px;
-	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
+	vertical-align: middle;
 }
 .PTSProject_frmNewBattSched .cmdRefresh:enabled {
 	color: black;
@@ -4926,16 +4229,16 @@
 .PTSProject_frmNewBattSched .cmdListGray {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
-	left: 552px;
+	font-family: Arial;
+	font-size: small;
+	left: 672px;
 	top: 512px;
 	position: absolute;
-	width: 121px;
+	width: 120px;
 	height: 29px;
-	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
+	vertical-align: middle;
 }
 .PTSProject_frmNewBattSched .cmdListGray:enabled {
 	color: black;
@@ -4943,16 +4246,16 @@
 .PTSProject_frmNewBattSched .cmdSignOff {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
-	left: 680px;
+	font-family: Arial;
+	font-size: small;
+	left: 541px;
 	top: 512px;
 	position: absolute;
 	width: 120px;
 	height: 29px;
-	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
+	vertical-align: middle;
 }
 .PTSProject_frmNewBattSched .cmdSignOff:enabled {
 	color: black;
@@ -4960,14 +4263,14 @@
 .PTSProject_frmNewBattSched .cmdBatt2 {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 148px;
 	top: 552px;
 	position: absolute;
 	width: 120px;
 	height: 29px;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -4977,14 +4280,14 @@
 .PTSProject_frmNewBattSched .cmdBatt3 {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 279px;
 	top: 552px;
 	position: absolute;
 	width: 120px;
 	height: 29px;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -4994,14 +4297,14 @@
 .PTSProject_frmNewBattSched .cmdAvailToWork {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 410px;
 	top: 552px;
 	position: absolute;
 	width: 120px;
 	height: 29px;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -5011,14 +4314,14 @@
 .PTSProject_frmNewBattSched .cmdNotes {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
-	left: 552px;
+	font-family: Arial;
+	font-size: small;
+	left: 541px;
 	top: 552px;
 	position: absolute;
 	width: 120px;
 	height: 29px;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -5028,14 +4331,14 @@
 .PTSProject_frmNewBattSched .cmdClose {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 12px;
-	font-weight: bold;
-	left: 680px;
+	font-family: Arial;
+	font-size: small;
+	left: 672px;
 	top: 552px;
 	position: absolute;
 	width: 120px;
 	height: 29px;
+	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
 }

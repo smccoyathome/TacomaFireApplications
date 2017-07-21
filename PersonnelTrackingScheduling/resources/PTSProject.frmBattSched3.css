@@ -8,254 +8,6 @@
 	overflow: hidden;
 	cursor: default;
 }
-/*.PTSProject_frmBattSched3 .mnutimecard {
-}
-.PTSProject_frmBattSched3 .mnuSpacer1 {
-}
-.PTSProject_frmBattSched3 .mnuClose {
-}
-.PTSProject_frmBattSched3 .mnuSystem {
-}
-.PTSProject_frmBattSched3 .mnuEmpInfo {
-}
-.PTSProject_frmBattSched3 .mnuSeniorInq {
-}
-.PTSProject_frmBattSched3 .mnuImmune {
-}
-.PTSProject_frmBattSched3 .mnu_transfer_req {
-}
-.PTSProject_frmBattSched3 .mnuPMCerts {
-}
-.PTSProject_frmBattSched3 .mnuPPE {
-}
-.PTSProject_frmBattSched3 .mnupersonnel {
-}
-.PTSProject_frmBattSched3 .mnuIndSchedule {
-}
-.PTSProject_frmBattSched3 .mnuBattalion1 {
-}
-.PTSProject_frmBattSched3 .mnuBattalion2 {
-}
-.PTSProject_frmBattSched3 .mnuNewBatt3 {
-}
-.PTSProject_frmBattSched3 .mnuBattalion4 {
-}
-.PTSProject_frmBattSched3 .mnuEMS {
-}
-.PTSProject_frmBattSched3 .mnuEMSDaily {
-}
-.PTSProject_frmBattSched3 .mnuHazmat {
-}
-.PTSProject_frmBattSched3 .mnuMarine {
-}
-.PTSProject_frmBattSched3 .mnuBattStaff {
-}
-.PTSProject_frmBattSched3 .mnuDispatch {
-}
-.PTSProject_frmBattSched3 .mnu_watch_duty {
-}
-.PTSProject_frmBattSched3 .mnu_Vacation {
-}
-.PTSProject_frmBattSched3 .mnuNewBatt1 {
-}
-.PTSProject_frmBattSched3 .mnuNewBatt2 {
-}
-.PTSProject_frmBattSched3 .mnu_old {
-}
-.PTSProject_frmBattSched3 .mnuSchedule {
-}
-.PTSProject_frmBattSched3 .mnuAssignment {
-}
-.PTSProject_frmBattSched3 .mnuRoster {
-}
-.PTSProject_frmBattSched3 .mnuDebitReport {
-}
-.PTSProject_frmBattSched3 .mnuProlist {
-}
-.PTSProject_frmBattSched3 .mnuSenior {
-}
-.PTSProject_frmBattSched3 .mnuBenefit {
-}
-.PTSProject_frmBattSched3 .mnu_emp_facility {
-}
-.PTSProject_frmBattSched3 .MnuAuditDDHOL {
-}
-.PTSProject_frmBattSched3 .mnu_IndivPayrollSO {
-}
-.PTSProject_frmBattSched3 .mnuIndTimeCard2 {
-}
-.PTSProject_frmBattSched3 .mnuPersonnelReports {
-}
-.PTSProject_frmBattSched3 .mnu181 {
-}
-.PTSProject_frmBattSched3 .mnu182 {
-}
-.PTSProject_frmBattSched3 .mnu183 {
-}
-.PTSProject_frmBattSched3 .mnuBDWork {
-}
-.PTSProject_frmBattSched3 .mnuEMSPay {
-}
-.PTSProject_frmBattSched3 .mnuHazPay {
-}
-.PTSProject_frmBattSched3 .mnuMarPay {
-}
-.PTSProject_frmBattSched3 .mnuBattPay {
-}
-.PTSProject_frmBattSched3 .mnuDisPay {
-}
-.PTSProject_frmBattSched3 .mnupayroll {
-}
-.PTSProject_frmBattSched3 .mnuIndTimeCard {
-}
-.PTSProject_frmBattSched3 .mnuIndYearSched {
-}
-.PTSProject_frmBattSched3 .mnuDailyStaff {
-}
-.PTSProject_frmBattSched3 .mnuOvertime {
-}
-.PTSProject_frmBattSched3 .MnuExtraOff {
-}
-.PTSProject_frmBattSched3 .mnu_sa_report {
-}
-.PTSProject_frmBattSched3 .mnuCalendar {
-}
-.PTSProject_frmBattSched3 .mnuTransfer {
-}
-.PTSProject_frmBattSched3 .mnuSchedul {
-}
-.PTSProject_frmBattSched3 .mnuDailyLeave {
-}
-.PTSProject_frmBattSched3 .mnuAnnual {
-}
-.PTSProject_frmBattSched3 .mnu_dailysickleave {
-}
-.PTSProject_frmBattSched3 .mnuIndLeave {
-}
-.PTSProject_frmBattSched3 .mnu_sick_usuage {
-}
-.PTSProject_frmBattSched3 .mnu_PMLeave {
-}
-.PTSProject_frmBattSched3 .mnuDispatchLeave {
-}
-.PTSProject_frmBattSched3 .mnuLeaveReports {
-}
-.PTSProject_frmBattSched3 .MnuCBStaffing {
-}
-.PTSProject_frmBattSched3 .mnu_LeaveNoSched {
-}
-.PTSProject_frmBattSched3 .MnuInsteadOfSCKLeave {
-}
-.PTSProject_frmBattSched3 .mnu_staffdiscrepancy {
-}
-.PTSProject_frmBattSched3 .mnu_SchedNotes {
-}
-.PTSProject_frmBattSched3 .mnu_PPEQuery {
-}
-.PTSProject_frmBattSched3 .mnu_Battalion {
-}
-.PTSProject_frmBattSched3 .mnu_timecard {
-}
-.PTSProject_frmBattSched3 .mnuIndAnnualPayroll {
-}
-.PTSProject_frmBattSched3 .mnupersonnelsignoff {
-}
-.PTSProject_frmBattSched3 .mnupayrollreports {
-}
-.PTSProject_frmBattSched3 .mnu_QuarterlyMinimumDrill {
-}
-.PTSProject_frmBattSched3 .mnu_ReadingAssign {
-}
-.PTSProject_frmBattSched3 .mnu_OTEPReport {
-}
-.PTSProject_frmBattSched3 .mnu_PMRecertReport {
-}
-.PTSProject_frmBattSched3 .mnu_TrainingReports {
-}
-.PTSProject_frmBattSched3 .mnuReports {
-}
-.PTSProject_frmBattSched3 .mnu_trainingtracker {
-}
-.PTSProject_frmBattSched3 .mnu_IndTrainReport {
-}
-.PTSProject_frmBattSched3 .mnu_IndPMRecert {
-}
-.PTSProject_frmBattSched3 .mnuALSProc {
-}
-.PTSProject_frmBattSched3 .mnuTrnReports {
-}
-.PTSProject_frmBattSched3 .mnuTrainQuery {
-}
-.PTSProject_frmBattSched3 .mnu_TrainingQuerynew {
-}
-.PTSProject_frmBattSched3 .mnu_Queries {
-}
-.PTSProject_frmBattSched3 .mnuTraining {
-}
-.PTSProject_frmBattSched3 .mnuCascade {
-}
-.PTSProject_frmBattSched3 .mnuPrintScreen {
-}
-.PTSProject_frmBattSched3 .mnuWindow {
-}
-.PTSProject_frmBattSched3 .mnuContents {
-}
-.PTSProject_frmBattSched3 .mnuAbout {
-}
-.PTSProject_frmBattSched3 .mnu_HelpPrntScrn {
-}
-.PTSProject_frmBattSched3 .mnu_timecodes {
-}
-.PTSProject_frmBattSched3 .mnu_payrolllegend {
-}
-.PTSProject_frmBattSched3 .mnu_legend {
-}
-.PTSProject_frmBattSched3 .mnu_IndLegend {
-}
-.PTSProject_frmBattSched3 .mnu_payup_calc {
-}
-.PTSProject_frmBattSched3 .mnuTrainCodeHelp {
-}
-.PTSProject_frmBattSched3 .mnuHelp {
-}*/
-/*.PTSProject_frmBattSched3 .mnuLeave {
-}
-.PTSProject_frmBattSched3 .mnuNewSched {
-}
-.PTSProject_frmBattSched3 .mnuPayUp {
-}
-.PTSProject_frmBattSched3 .mnuPayDown {
-}
-.PTSProject_frmBattSched3 .mnuKOT {
-}
-.PTSProject_frmBattSched3 .mnuTrade {
-}
-.PTSProject_frmBattSched3 .mnuCancelTrade {
-}
-.PTSProject_frmBattSched3 .mnuRemove {
-}
-.PTSProject_frmBattSched3 .mnuSendTo181 {
-}
-.PTSProject_frmBattSched3 .mnuSendTo182 {
-}
-.PTSProject_frmBattSched3 .mnuSendTo183 {
-}
-.PTSProject_frmBattSched3 .mnuReport {
-}
-.PTSProject_frmBattSched3 .mnuTradeDetail {
-}
-.PTSProject_frmBattSched3 .mnu_viewtimecard {
-}
-.PTSProject_frmBattSched3 .mnuSADetail {
-}
-.PTSProject_frmBattSched3 .mnuReschedSA {
-}
-.PTSProject_frmBattSched3 .mnu182PopUp {
-}
-.PTSProject_frmBattSched3 .MainMenu1 {
-	position: relative;
-	z-index: 16777271;
-}*/
 .PTSProject_frmBattSched3 .Ctx_mnu182PopUp {
 	width: 153px;
 	height: 26px;
@@ -285,8 +37,7 @@
 	background-color: Transparent; 
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
-	font-weight: bold;
+	font-size: small;
 	color: peachpuff;
 	left: 200px;
 	top: 15px;
@@ -299,8 +50,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	color: lightyellow;
 	left: 8px;
 	top: 15px;
@@ -324,8 +74,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	color: lightyellow;
 	left: 336px;
 	top: 15px;
@@ -355,8 +104,7 @@
 	background-color: Transparent;
 	cursor: default;
 	font-family: Arial;
-	font-size: 12.96px;
-	font-weight: bold;
+	font-size: small;
 	color: lightyellow;
 	left: 576px;
 	top: 15px;
@@ -399,8 +147,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -412,8 +159,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -441,8 +187,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -471,8 +216,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -500,8 +244,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -547,8 +290,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -560,8 +302,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -589,8 +330,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -619,8 +359,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -648,8 +387,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -678,8 +416,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -709,8 +446,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -740,8 +476,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -771,8 +506,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -819,8 +553,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -832,8 +565,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -861,8 +593,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -891,8 +622,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -920,8 +650,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -950,8 +679,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -979,8 +707,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -1009,8 +736,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -1038,8 +764,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -1085,8 +810,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -1098,8 +822,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -1127,8 +850,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -1157,8 +879,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -1186,8 +907,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -1216,8 +936,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -1245,8 +964,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -1275,8 +993,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -1304,8 +1021,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -1351,8 +1067,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -1364,8 +1079,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -1394,8 +1108,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -1425,8 +1138,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -1455,8 +1167,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -1486,8 +1197,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -1516,8 +1226,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -1547,8 +1256,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -1577,8 +1285,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -1625,8 +1332,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -1638,8 +1344,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -1668,8 +1373,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -1699,8 +1403,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -1729,8 +1432,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -1760,8 +1462,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -1790,8 +1491,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -1821,8 +1521,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -1851,8 +1550,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -1899,8 +1597,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -1912,8 +1609,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -1941,8 +1637,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -1971,8 +1666,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -2000,8 +1694,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -2030,8 +1723,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -2059,8 +1751,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -2089,8 +1780,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -2118,8 +1808,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -2148,8 +1837,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 156px;
@@ -2177,8 +1865,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 172px;
@@ -2207,8 +1894,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 188px;
@@ -2236,8 +1922,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 204px;
@@ -2266,8 +1951,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 220px;
@@ -2295,8 +1979,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 236px;
@@ -2325,8 +2008,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 252px;
@@ -2354,8 +2036,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 268px;
@@ -2384,8 +2065,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 284px;
@@ -2413,8 +2093,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 300px;
@@ -2460,8 +2139,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -2473,8 +2151,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -2502,8 +2179,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -2532,8 +2208,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -2561,8 +2236,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -2591,8 +2265,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -2620,8 +2293,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -2650,8 +2322,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -2679,8 +2350,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -2709,8 +2379,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 156px;
@@ -2738,8 +2407,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 172px;
@@ -2768,8 +2436,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 188px;
@@ -2797,8 +2464,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 204px;
@@ -2827,8 +2493,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 220px;
@@ -2856,8 +2521,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 236px;
@@ -2886,8 +2550,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 252px;
@@ -2915,8 +2578,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 268px;
@@ -2945,8 +2607,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 284px;
@@ -2974,8 +2635,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 300px;
@@ -3021,8 +2681,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -3034,8 +2693,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -3063,8 +2721,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -3093,8 +2750,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -3122,8 +2778,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -3152,8 +2807,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -3181,8 +2835,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -3211,8 +2864,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -3240,8 +2892,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -3270,8 +2921,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 156px;
@@ -3299,8 +2949,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 172px;
@@ -3329,8 +2978,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 188px;
@@ -3358,8 +3006,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 204px;
@@ -3388,8 +3035,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 220px;
@@ -3417,8 +3063,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 236px;
@@ -3447,8 +3092,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 252px;
@@ -3476,8 +3120,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 268px;
@@ -3506,8 +3149,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 284px;
@@ -3537,8 +3179,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 300px;
@@ -3585,8 +3226,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -3598,8 +3238,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -3627,8 +3266,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -3657,8 +3295,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -3686,8 +3323,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -3716,8 +3352,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -3745,8 +3380,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -3775,8 +3409,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -3804,8 +3437,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -3834,8 +3466,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 156px;
@@ -3863,8 +3494,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 172px;
@@ -3893,8 +3523,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 188px;
@@ -3922,8 +3551,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 204px;
@@ -3952,8 +3580,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 220px;
@@ -3981,8 +3608,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 236px;
@@ -4011,8 +3637,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 252px;
@@ -4040,8 +3665,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 268px;
@@ -4070,8 +3694,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 284px;
@@ -4101,8 +3724,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 300px;
@@ -4149,8 +3771,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -4162,8 +3783,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -4192,8 +3812,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -4224,7 +3843,6 @@
 	cursor: default;
 	font-family: Arial;
 	font-size: 11px;
-	font-weight: bold;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -4254,7 +3872,6 @@
 	cursor: default;
 	font-family: Arial;
 	font-size: 11px;
-	font-weight: bold;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -4284,8 +3901,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -4314,8 +3930,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -4345,8 +3960,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -4375,8 +3989,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -4423,8 +4036,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -4436,8 +4048,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -4466,8 +4077,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -4497,8 +4107,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -4527,8 +4136,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -4558,8 +4166,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -4588,8 +4195,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -4619,8 +4225,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -4649,8 +4254,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -4697,8 +4301,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -4710,8 +4313,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -4739,8 +4341,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -4769,8 +4370,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -4798,8 +4398,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -4828,8 +4427,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -4857,8 +4455,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -4887,8 +4484,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -4916,8 +4512,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -4963,8 +4558,7 @@
 	background-color: peachpuff;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: small;
 	color: black;
 	left: 5px;
 	top: 12px;
@@ -4976,8 +4570,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 28px;
@@ -5006,8 +4599,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 44px;
@@ -5037,8 +4629,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 60px;
@@ -5067,8 +4658,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 76px;
@@ -5098,8 +4688,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 92px;
@@ -5128,8 +4717,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 108px;
@@ -5159,8 +4747,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 124px;
@@ -5189,8 +4776,7 @@
 	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
+	font-size: smaller;
 	color: black;
 	left: 5px;
 	top: 140px;
@@ -5235,9 +4821,8 @@
 /*.PTSProject_frmBattSched3 .cmdTimeCard {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 11px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 32px;
 	top: 528px;
 	position: absolute;
@@ -5253,9 +4838,8 @@
 .PTSProject_frmBattSched3 .cmdRefresh {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 11px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 138px;
 	top: 528px;
 	position: absolute;
@@ -5270,9 +4854,8 @@
 /*.PTSProject_frmBattSched3 .cmdSwitch {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 11px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 232px;
 	top: 528px;
 	position: absolute;
@@ -5280,7 +4863,6 @@
 	height: 21px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmBattSched3 .cmdSwitch:enabled {
 	color: black;
@@ -5288,9 +4870,8 @@
 .PTSProject_frmBattSched3 .cmdSwitch2 {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 11px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 325px;
 	top: 528px;
 	position: absolute;
@@ -5298,7 +4879,6 @@
 	height: 21px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmBattSched3 .cmdSwitch2:enabled {
 	color: black;
@@ -5306,9 +4886,8 @@
 .PTSProject_frmBattSched3 .cmdSwitch3 {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 11px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 417px;
 	top: 528px;
 	position: absolute;
@@ -5316,7 +4895,6 @@
 	height: 21px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmBattSched3 .cmdSwitch3:enabled {
 	color: black;
@@ -5324,9 +4902,8 @@
 .PTSProject_frmBattSched3 .cmdSwitch4 {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 11px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 509px;
 	top: 528px;
 	position: absolute;
@@ -5334,7 +4911,6 @@
 	height: 21px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmBattSched3 .cmdSwitch4:enabled {
 	color: black;
@@ -5342,9 +4918,8 @@
 .PTSProject_frmBattSched3 .cmdAvailToWork {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 11px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 276px;
 	top: 528px;
 	position: absolute;
@@ -5359,9 +4934,8 @@
 .PTSProject_frmBattSched3 .cmdClose {
 	background-color: lightgray;
 	cursor: default;
-	font-family: Microsoft Sans Serif;
-	font-size: 11px;
-	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
 	left: 684px;
 	top: 528px;
 	position: absolute;
