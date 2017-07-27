@@ -379,8 +379,8 @@
       <label id="lbLocked" tabindex="234" class="lbLocked" data-bind="visible : lbLocked.Visible, text : lbLocked.Text, imagePath : lbLocked.ImagePath">Schedule Locked</label>
       <label id="pnSelected" tabindex="235" class="pnSelected" data-bind="visible : pnSelected.Visible, text : pnSelected.Text, imagePath : pnSelected.ImagePath, events : { mousedown : pnSelected_MouseDown }, "></label>
       <label id="lbStaff" tabindex="14" class="lbStaff" data-bind="text : lbStaff.Text, imagePath : lbStaff.ImagePath">Battalion</label>
-      <div class="cboSelectNamePos" id="cboSelectNamePos">
-        <select data-role="combobox" id="cboSelectName" tabindex="5" class="cboSelectName" data-text-field="Text" data-value-field="Value" data-bind="source : cboSelectName.ComboBoxItems, enabled : cboSelectName.Enabled, customText : cboSelectName.CustomText, comboSelectedIndex : cboSelectName.SelectedIndex, events : { change : cboSelectName_SelectionChangeCommitted }, "></select>
+      <div class="cboSelectNamePos" id="cboSelectNamePos" data-bind="DragOver : cboSelectName.cboSelectName_DragOver, DragDrop : cboSelectName.cboSelectName_DragDrop">
+        <select id="cboSelectName" tabindex="5" class="cboSelectName" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboSelectName.ComboBoxItems, customText : cboSelectName.CustomText, comboSelectedIndex : cboSelectName.SelectedIndex, events : { change : cboSelectName_SelectionChangeCommitted }, "></select>
       </div>
       <label id="lbAllStaff" tabindex="15" class="lbAllStaff" data-bind="text : lbAllStaff.Text, imagePath : lbAllStaff.ImagePath">All Staff</label>
       <div class="cboFullListPos" id="cboFullListPos">

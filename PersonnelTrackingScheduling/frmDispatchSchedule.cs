@@ -3257,8 +3257,7 @@ namespace PTSProject
 				string strName = "";
 				DbCommand oCmd = UpgradeHelpers.DB.AdoFactoryManager.GetFactory().CreateCommand();
 				ADORecordSetHelper oRec = null;
-
-				try
+            try
 				{
 
 					oCmd.Connection = modGlobal.oConn;
@@ -3271,13 +3270,13 @@ namespace PTSProject
 					oRec = ADORecordSetHelper.Open(oCmd, "");
 					ViewModel.cboSelectName.Items.Clear();
 
-
-					while ( !oRec.EOF )
+                while ( !oRec.EOF )
 					{
                     strName = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".    :" + Convert.ToString(oRec["employee_id"]);
 						ViewModel.cboSelectName.AddItem(strName);
 						oRec.MoveNext();
-            };
+                    };
+                    ViewModel.cboSelectName.Text = "";
 
 					//Fill All Staff listbox
 					//********* Change to Speciality List
@@ -3292,7 +3291,8 @@ namespace PTSProject
 						strName = Convert.ToString(oRec["name_full"]).Trim() + "  :" + Convert.ToString(oRec["employee_id"]);
 						ViewModel.cboFullList.AddItem(strName);
 						oRec.MoveNext();
-            };
+                    };
+                    ViewModel.cboFullList.Text = "";
 					}
 				catch
 				{
@@ -4429,20 +4429,21 @@ namespace PTSProject
 							ViewModel.mnu_trainingtracker.Enabled = true;
 						}
 
-                //Disable all days on Date Control except Monday
-                //Set Date for current Week
-                //UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
-                UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 2 }), "Enabled", false);
-                //UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
-                UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 3 }), "Enabled", false);
-                //UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
-                UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 4 }), "Enabled", false);
-                //UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
-                UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 5 }), "Enabled", false);
-                //UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
-                UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 6 }), "Enabled", false);
-                //UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
-                UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 7 }), "Enabled", false);
+                // CURRENTLY COMMENTED THIS OUT SINCE THIS FUNCTION DOESN'T WORK WITH CURRENT CALENDAR
+                ////Disable all days on Date Control except Monday
+                ////Set Date for current Week
+                ////UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
+                //UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 2 }), "Enabled", false);
+                ////UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
+                //UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 3 }), "Enabled", false);
+                ////UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
+                //UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 4 }), "Enabled", false);
+                ////UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
+                //UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 5 }), "Enabled", false);
+                ////UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
+                //UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 6 }), "Enabled", false);
+                ////UPGRADE_ISSUE: (2064) SSCalendarWidgets_A.SSDateCombo property calWeek.x was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx
+                //UpgradeHelpers.Helpers.ReflectionHelper.LetMember(UpgradeHelpers.Helpers.ReflectionHelper.Invoke(ViewModel.calWeek.getX(), "DayOfWeek", new object[] { 7 }), "Enabled", false);
 
 
 						if ( DateAndTime.Weekday(DateTime.Now, FirstDayOfWeek.Sunday) == 1 )
