@@ -380,6 +380,7 @@
 	position: absolute;
 	width: 81px;
 	height: 17px;
+    padding: 0px 1px 0px 0px;
 }
 .PTSProject_frmDispatchScheduler ._lbPos1am_1 {
 	background-color: white;
@@ -392,6 +393,7 @@
 	position: absolute;
 	width: 81px;
 	height: 17px;
+    padding: 0px 1px 0px 0px;
 }
 .PTSProject_frmDispatchScheduler ._lbPos1am_2 {
 	background-color: white;
@@ -404,6 +406,7 @@
 	position: absolute;
 	width: 81px;
 	height: 17px;
+    padding: 0px 1px 0px 0px;
 }
 .PTSProject_frmDispatchScheduler ._lbPos1am_3 {
 	background-color: white;
@@ -416,6 +419,7 @@
 	position: absolute;
 	width: 81px;
 	height: 17px;
+    padding: 0px 1px 0px 0px;
 }
 .PTSProject_frmDispatchScheduler ._lbPos1am_4 {
 	background-color: white;
@@ -428,6 +432,7 @@
 	position: absolute;
 	width: 81px;
 	height: 17px;
+    padding: 0px 1px 0px 0px;
 }
 .PTSProject_frmDispatchScheduler ._lbPos1am_5 {
 	background-color: white;
@@ -440,6 +445,7 @@
 	position: absolute;
 	width: 81px;
 	height: 17px;
+    padding: 0px 1px 0px 0px;
 }
 .PTSProject_frmDispatchScheduler ._lbPos1am_6 {
 	background-color: white;
@@ -4230,7 +4236,7 @@
 	height: 21px;
 }
 .PTSProject_frmDispatchScheduler ._lstLeave_0 {
-	background-color: transparent;
+	background-color: white;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
@@ -4244,7 +4250,7 @@
 	visibility: inherit;
 }
 .PTSProject_frmDispatchScheduler ._lstLeave_1 {
-	background-color: transparent;
+	background-color: white;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
@@ -4258,7 +4264,7 @@
 	visibility: inherit;
 }
 .PTSProject_frmDispatchScheduler ._lstLeave_2 {
-	background-color: transparent;
+	background-color: white;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
@@ -4272,7 +4278,7 @@
 	visibility: inherit;
 }
 .PTSProject_frmDispatchScheduler ._lstLeave_3 {
-	background-color: transparent;
+	background-color: white;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
@@ -4286,7 +4292,7 @@
 	visibility: inherit;
 }
 .PTSProject_frmDispatchScheduler ._lstLeave_4 {
-	background-color: transparent;
+	background-color: white;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
@@ -4300,7 +4306,7 @@
 	visibility: inherit;
 }
 .PTSProject_frmDispatchScheduler ._lstLeave_5 {
-	background-color: transparent;
+	background-color: white;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
@@ -4314,7 +4320,7 @@
 	visibility: inherit;
 }
 .PTSProject_frmDispatchScheduler ._lstLeave_6 {
-	background-color: transparent;
+	background-color: white;
 	border-style: inset;
 	cursor: default;
 	font-family: Arial;
