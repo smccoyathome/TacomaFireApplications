@@ -1,6 +1,6 @@
 <div>
     <div data-width="1200" data-height="800" data-removeControlBox="true" name="wzdEms" data-title="TFD Incident Reporting System - Report Entry Wizard" class="TFDIncident_wzdEms" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
-        <form class="wzdEms">                              
+        <form class="wzdEms">
             <div data-bind="spEnabled : Shape1.Enabled, spVisible : Shape1.Visible">
                 <svg version="1.1" class="Shape1_svg" style="left:0px;top:0px;width:1022px;height:29px;position:absolute;">
                     <rect x="0" y="0" height="29" width="1022" id="Shape1" class="Shape1"></rect>
@@ -37,13 +37,10 @@
                             <li data-bind="enabled : tabVitals.Items[3].Enabled, visible : tabVitals.Items[3].Visible">
                                 <span class="k-link" data-bind="text : tabVitals.Items[3].Text">Fourth</span>
                             </li>
-                            <li data-bind="enabled : tabVitals.Items[4].Enabled, visible : tabVitals.Items[4].Visible">
-                                <span class="k-link" data-bind="text : tabVitals.Items[4].Text">More.</span>
-                            </li>
                         </ul>
                         <div id="tabPage1" class="tabPage1">
                             <div>
-                                <input id="_txtTime_0" tabindex="67" index="0" class="_txtTime_0" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtTime_0.BackColor.Value, color : _txtTime_0.ForeColor.Value }, value : _txtTime_0.Text, maskedTextBoxMask : _txtTime_0.Mask, maskedTextBoxPrompt : _txtTime_0.PromptChar, maskedTextBoxFormat : _txtTime_0.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
+                                <input id="_txtTime_0" tabindex="67" index="0" class="_txtTime_0" data-role="maskedtextbox" data-bind="enabled : _txtTime_0.Enabled, style : { backgroundColor : _txtTime_0.BackColor.Value, color : _txtTime_0.ForeColor.Value }, value : _txtTime_0.Text, maskedTextBoxMask : _txtTime_0.Mask, maskedTextBoxPrompt : _txtTime_0.PromptChar, maskedTextBoxFormat : _txtTime_0.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
                                 <label id="_lbVital_0" tabindex="322" index="0" class="_lbVital_0" data-bind="text : _lbVital_0.Text, imagePath : _lbVital_0.ImagePath">TIME</label>
                                 <label id="_lbVital_1" tabindex="330" index="1" class="_lbVital_1" data-bind="text : _lbVital_1.Text, imagePath : _lbVital_1.ImagePath">VITALS POSITION</label>
                                 <div class="_cboVitalsPosition_0Pos" id="_cboVitalsPosition_0Pos">
@@ -51,13 +48,13 @@
                                 </div>
                                 <input id="_txtRespiration_0" tabindex="69" index="0" class="_txtRespiration_0" data-bind="style : { backgroundColor : _txtRespiration_0.BackColor.Value, color : _txtRespiration_0.ForeColor.Value }, readonly : _txtRespiration_0.ReadOnly, value : _txtRespiration_0.Text, events : { change : txtRespiration_TextChanged }, " />
                                 <label id="_lbVital_2" tabindex="324" index="2" class="_lbVital_2" data-bind="text : _lbVital_2.Text, imagePath : _lbVital_2.ImagePath">RESPIRATION</label>
-                                <label id="_Line3_0" tabindex="443" index="0" class="_Line3_0" data-bind="text : _Line3_0.Text, imagePath : _Line3_0.ImagePath"></label>
                                 <input id="_txtPulse_0" tabindex="70" index="0" class="_txtPulse_0" data-bind="style : { backgroundColor : _txtPulse_0.BackColor.Value, color : _txtPulse_0.ForeColor.Value }, readonly : _txtPulse_0.ReadOnly, value : _txtPulse_0.Text, events : { change : txtPulse_TextChanged }, " />
                                 <label id="_lbVital_3" tabindex="323" index="3" class="_lbVital_3" data-bind="text : _lbVital_3.Text, imagePath : _lbVital_3.ImagePath">PULSE</label>
                                 <label id="_lbVital_4" tabindex="329" index="4" class="_lbVital_4" data-bind="text : _lbVital_4.Text, imagePath : _lbVital_4.ImagePath">ECG</label>
                                 <div class="_cboECG_0Pos" id="_cboECG_0Pos">
                                     <select id="_cboECG_0" tabindex="71" index="0" class="_cboECG_0" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboECG_0.ComboBoxItems, customText : _cboECG_0.CustomText, comboSelectedIndex : _cboECG_0.SelectedIndex, events : { blur : cboECG_Leave }, "></select>
                                 </div>
+
                                 <input id="_txtSystolic_0" tabindex="72" index="0" class="_txtSystolic_0" data-bind="style : { backgroundColor : _txtSystolic_0.BackColor.Value, color : _txtSystolic_0.ForeColor.Value }, readonly : _txtSystolic_0.ReadOnly, value : _txtSystolic_0.Text, events : { change : txtSystolic_TextChanged }, " />
                                 <label id="_lbVital_5" tabindex="325" index="5" class="_lbVital_5" data-bind="text : _lbVital_5.Text, imagePath : _lbVital_5.ImagePath">SYSTOLIC</label>
                                 <input id="_txtDiastolic_0" tabindex="73" index="0" class="_txtDiastolic_0" data-bind="style : { backgroundColor : _txtDiastolic_0.BackColor.Value, color : _txtDiastolic_0.ForeColor.Value }, readonly : _txtDiastolic_0.ReadOnly, value : _txtDiastolic_0.Text, events : { change : txtDiastolic_TextChanged }, " />
@@ -92,7 +89,7 @@
                         </div>
                         <div id="tabPage2" class="tabPage2">
                             <div>
-                                <input disabled="disabled" id="_txtTime_1" tabindex="97" index="1" class="_txtTime_1" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtTime_1.BackColor.Value, color : _txtTime_1.ForeColor.Value }, value : _txtTime_1.Text, maskedTextBoxMask : _txtTime_1.Mask, maskedTextBoxPrompt : _txtTime_1.PromptChar, maskedTextBoxFormat : _txtTime_1.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
+                                <input disabled="disabled" id="_txtTime_1" tabindex="97" index="1" class="_txtTime_1" data-role="maskedtextbox" data-bind="enabled : _txtTime_1.Enabled, style : { backgroundColor : _txtTime_1.BackColor.Value, color : _txtTime_1.ForeColor.Value }, value : _txtTime_1.Text, maskedTextBoxMask : _txtTime_1.Mask, maskedTextBoxPrompt : _txtTime_1.PromptChar, maskedTextBoxFormat : _txtTime_1.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
                                 <label id="_lbVital_15" tabindex="309" index="15" class="_lbVital_15" data-bind="text : _lbVital_15.Text, imagePath : _lbVital_15.ImagePath">TIME</label>
                                 <label id="_lbVital_16" tabindex="317" index="16" class="_lbVital_16" data-bind="text : _lbVital_16.Text, imagePath : _lbVital_16.ImagePath">VITALS POSITION</label>
                                 <div class="_cboVitalsPosition_1Pos" id="_cboVitalsPosition_1Pos">
@@ -124,7 +121,6 @@
                                 <label id="_lbVital_25" tabindex="439" index="25" class="_lbVital_25" data-bind="text : _lbVital_25.Text, imagePath : _lbVital_25.ImagePath">Liters</label>
                                 <label id="_lbVital_23" tabindex="315" index="23" class="_lbVital_23" data-bind="text : _lbVital_23.Text, imagePath : _lbVital_23.ImagePath">PULSE OXY</label>
                                 <label id="_lbVital_26" tabindex="305" index="26" class="_lbVital_26" data-bind="text : _lbVital_26.Text, imagePath : _lbVital_26.ImagePath">GCS</label>
-                                <label id="_Line3_1" tabindex="444" index="1" class="_Line3_1" data-bind="text : _Line3_1.Text, imagePath : _Line3_1.ImagePath"></label>
                                 <div class="_cboEyes_1Pos" id="_cboEyes_1Pos">
                                     <select disabled="disabled" id="_cboEyes_1" tabindex="108" index="1" class="_cboEyes_1" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboEyes_1.ComboBoxItems, customText : _cboEyes_1.CustomText, comboSelectedIndex : _cboEyes_1.SelectedIndex, events : { change : cboEyes_SelectionChangeCommitted, blur : cboEyes_Leave }, "></select>
                                 </div>
@@ -143,7 +139,7 @@
                             <div>
                                 <label id="_lbVital_32" tabindex="298" index="32" class="_lbVital_32" data-bind="text : _lbVital_32.Text, imagePath : _lbVital_32.ImagePath">RESPIRATION</label>
                                 <label id="_lbVital_30" tabindex="296" index="30" class="_lbVital_30" data-bind="text : _lbVital_30.Text, imagePath : _lbVital_30.ImagePath">TIME</label>
-                                <input disabled="disabled" id="_txtTime_2" tabindex="127" index="2" class="_txtTime_2" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtTime_2.BackColor.Value, color : _txtTime_2.ForeColor.Value }, value : _txtTime_2.Text, maskedTextBoxMask : _txtTime_2.Mask, maskedTextBoxPrompt : _txtTime_2.PromptChar, maskedTextBoxFormat : _txtTime_2.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
+                                <input disabled="disabled" id="_txtTime_2" tabindex="127" index="2" class="_txtTime_2" data-role="maskedtextbox" data-bind="enabled : _txtTime_2.Enabled, style : { backgroundColor : _txtTime_2.BackColor.Value, color : _txtTime_2.ForeColor.Value }, value : _txtTime_2.Text, maskedTextBoxMask : _txtTime_2.Mask, maskedTextBoxPrompt : _txtTime_2.PromptChar, maskedTextBoxFormat : _txtTime_2.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
                                 <label id="_lbVital_31" tabindex="304" index="31" class="_lbVital_31" data-bind="text : _lbVital_31.Text, imagePath : _lbVital_31.ImagePath">VITALS POSITION</label>
                                 <div class="_cboVitalsPosition_2Pos" id="_cboVitalsPosition_2Pos">
                                     <select disabled="disabled" id="_cboVitalsPosition_2" tabindex="128" index="2" class="_cboVitalsPosition_2" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboVitalsPosition_2.ComboBoxItems, customText : _cboVitalsPosition_2.CustomText, comboSelectedIndex : _cboVitalsPosition_2.SelectedIndex, events : { change : cboVitalsPosition_SelectionChangeCommitted, blur : cboVitalsPosition_Leave }, "></select>
@@ -173,7 +169,6 @@
                                 <input disabled="disabled" id="_txtPulseOxy_2" tabindex="136" index="2" class="_txtPulseOxy_2" data-bind="readonly : _txtPulseOxy_2.ReadOnly, value : _txtPulseOxy_2.Text, events : { change : txtPulseOxy_TextChanged }, " />
                                 <label id="_lbVital_38" tabindex="302" index="38" class="_lbVital_38" data-bind="text : _lbVital_38.Text, imagePath : _lbVital_38.ImagePath">PULSE OXY</label>
                                 <label id="_lbVital_41" tabindex="292" index="41" class="_lbVital_41" data-bind="text : _lbVital_41.Text, imagePath : _lbVital_41.ImagePath">GCS</label>
-                                <label id="_Line3_2" tabindex="445" index="2" class="_Line3_2" data-bind="text : _Line3_2.Text, imagePath : _Line3_2.ImagePath"></label>
                                 <div class="_cboEyes_2Pos" id="_cboEyes_2Pos">
                                     <select disabled="disabled" id="_cboEyes_2" tabindex="138" index="2" class="_cboEyes_2" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboEyes_2.ComboBoxItems, customText : _cboEyes_2.CustomText, comboSelectedIndex : _cboEyes_2.SelectedIndex, events : { change : cboEyes_SelectionChangeCommitted, blur : cboEyes_Leave }, "></select>
                                 </div>
@@ -191,7 +186,7 @@
                         <div id="tabPage4" class="tabPage4">
                             <div>
                                 <label id="_lbVital_45" tabindex="283" index="45" class="_lbVital_45" data-bind="text : _lbVital_45.Text, imagePath : _lbVital_45.ImagePath">TIME</label>
-                                <input disabled="disabled" id="_txtTime_3" tabindex="157" index="3" class="_txtTime_3" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtTime_3.BackColor.Value, color : _txtTime_3.ForeColor.Value }, value : _txtTime_3.Text, maskedTextBoxMask : _txtTime_3.Mask, maskedTextBoxPrompt : _txtTime_3.PromptChar, maskedTextBoxFormat : _txtTime_3.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
+                                <input disabled="disabled" id="_txtTime_3" tabindex="157" index="3" class="_txtTime_3" data-role="maskedtextbox" data-bind="enabled : _txtTime_4.Enabled, style : { backgroundColor : _txtTime_3.BackColor.Value, color : _txtTime_3.ForeColor.Value }, value : _txtTime_3.Text, maskedTextBoxMask : _txtTime_3.Mask, maskedTextBoxPrompt : _txtTime_3.PromptChar, maskedTextBoxFormat : _txtTime_3.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
                                 <label id="_lbVital_46" tabindex="291" index="46" class="_lbVital_46" data-bind="text : _lbVital_46.Text, imagePath : _lbVital_46.ImagePath">VITALS POSITION</label>
                                 <div class="_cboVitalsPosition_3Pos" id="_cboVitalsPosition_3Pos">
                                     <select disabled="disabled" id="_cboVitalsPosition_3" tabindex="158" index="3" class="_cboVitalsPosition_3" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboVitalsPosition_3.ComboBoxItems, customText : _cboVitalsPosition_3.CustomText, comboSelectedIndex : _cboVitalsPosition_3.SelectedIndex, events : { change : cboVitalsPosition_SelectionChangeCommitted, blur : cboVitalsPosition_Leave }, "></select>
@@ -222,7 +217,6 @@
                                 <label id="_lbVital_55" tabindex="441" index="55" class="_lbVital_55" data-bind="text : _lbVital_55.Text, imagePath : _lbVital_55.ImagePath">Liters</label>
                                 <label id="_lbVital_53" tabindex="289" index="53" class="_lbVital_53" data-bind="text : _lbVital_53.Text, imagePath : _lbVital_53.ImagePath">PULSE OXY</label>
                                 <label id="_lbVital_56" tabindex="279" index="56" class="_lbVital_56" data-bind="text : _lbVital_56.Text, imagePath : _lbVital_56.ImagePath">GCS</label>
-                                <label id="_Line3_3" tabindex="446" index="3" class="_Line3_3" data-bind="text : _Line3_3.Text, imagePath : _Line3_3.ImagePath"></label>
                                 <label id="_lbVital_57" tabindex="280" index="57" class="_lbVital_57" data-bind="text : _lbVital_57.Text, imagePath : _lbVital_57.ImagePath">EYES</label>
                                 <div class="_cboEyes_3Pos" id="_cboEyes_3Pos">
                                     <select disabled="disabled" id="_cboEyes_3" tabindex="168" index="3" class="_cboEyes_3" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboEyes_3.ComboBoxItems, customText : _cboEyes_3.CustomText, comboSelectedIndex : _cboEyes_3.SelectedIndex, events : { change : cboEyes_SelectionChangeCommitted, blur : cboEyes_Leave }, "></select>
@@ -237,56 +231,6 @@
                                 <label id="_lbVital_59" tabindex="282" index="59" class="_lbVital_59" data-bind="text : _lbVital_59.Text, imagePath : _lbVital_59.ImagePath">MOTOR</label>
                             </div>
                         </div>
-                        <div id="tabPage5" class="tabPage5">
-                            <div>
-                                <label id="_lbVital_61" tabindex="278" index="61" class="_lbVital_61" data-bind="text : _lbVital_61.Text, imagePath : _lbVital_61.ImagePath">VITALS POSITION</label>
-                                <label id="_lbVital_60" tabindex="270" index="60" class="_lbVital_60" data-bind="text : _lbVital_60.Text, imagePath : _lbVital_60.ImagePath">TIME</label>
-                                <input disabled="disabled" id="_txtTime_4" tabindex="187" index="4" class="_txtTime_4" data-role="maskedtextbox" data-bind="style : { backgroundColor : _txtTime_4.BackColor.Value, color : _txtTime_4.ForeColor.Value }, value : _txtTime_4.Text, maskedTextBoxMask : _txtTime_4.Mask, maskedTextBoxPrompt : _txtTime_4.PromptChar, maskedTextBoxFormat : _txtTime_4.TextMaskFormat, events : { change : txtTime_TextChanged, blur : txtTime_Leave }, " />
-                                <div class="_cboVitalsPosition_4Pos" id="_cboVitalsPosition_4Pos">
-                                    <select disabled="disabled" id="_cboVitalsPosition_4" tabindex="188" index="4" class="_cboVitalsPosition_4" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboVitalsPosition_4.ComboBoxItems, customText : _cboVitalsPosition_4.CustomText, comboSelectedIndex : _cboVitalsPosition_4.SelectedIndex, events : { change : cboVitalsPosition_SelectionChangeCommitted, blur : cboVitalsPosition_Leave }, "></select>
-                                </div>
-                                <label id="_lbVital_62" tabindex="272" index="62" class="_lbVital_62" data-bind="text : _lbVital_62.Text, imagePath : _lbVital_62.ImagePath">RESPIRATION</label>
-                                <input disabled="disabled" id="_txtRespiration_4" tabindex="189" index="4" class="_txtRespiration_4" data-bind="style : { backgroundColor : _txtRespiration_4.BackColor.Value, color : _txtRespiration_4.ForeColor.Value }, readonly : _txtRespiration_4.ReadOnly, value : _txtRespiration_4.Text, events : { change : txtRespiration_TextChanged }, " />
-                                <button disabled="disabled" id="cmdMore" tabindex="201" class="cmdMore" type="button">More...</button>
-                                <label id="_lbVital_63" tabindex="271" index="63" class="_lbVital_63" data-bind="text : _lbVital_63.Text, imagePath : _lbVital_63.ImagePath">PULSE</label>
-                                <input disabled="disabled" id="_txtPulse_4" tabindex="190" index="4" class="_txtPulse_4" data-bind="style : { backgroundColor : _txtPulse_4.BackColor.Value, color : _txtPulse_4.ForeColor.Value }, readonly : _txtPulse_4.ReadOnly, value : _txtPulse_4.Text, events : { change : txtPulse_TextChanged }, " />
-                                <div class="_cboECG_4Pos" id="_cboECG_4Pos">
-                                    <select disabled="disabled" id="_cboECG_4" tabindex="191" index="4" class="_cboECG_4" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboECG_4.ComboBoxItems, customText : _cboECG_4.CustomText, comboSelectedIndex : _cboECG_4.SelectedIndex, events : { blur : cboECG_Leave }, "></select>
-                                </div>
-                                <label id="_lbVital_64" tabindex="277" index="64" class="_lbVital_64" data-bind="text : _lbVital_64.Text, imagePath : _lbVital_64.ImagePath">ECG</label>
-                                <input disabled="disabled" id="_txtSystolic_4" tabindex="192" index="4" class="_txtSystolic_4" data-bind="style : { backgroundColor : _txtSystolic_4.BackColor.Value, color : _txtSystolic_4.ForeColor.Value }, readonly : _txtSystolic_4.ReadOnly, value : _txtSystolic_4.Text, events : { change : txtSystolic_TextChanged }, " />
-                                <label id="_lbVital_65" tabindex="273" index="65" class="_lbVital_65" data-bind="text : _lbVital_65.Text, imagePath : _lbVital_65.ImagePath">SYSTOLIC</label>
-                                <input disabled="disabled" id="_txtDiastolic_4" tabindex="193" index="4" class="_txtDiastolic_4" data-bind="style : { backgroundColor : _txtDiastolic_4.BackColor.Value, color : _txtDiastolic_4.ForeColor.Value }, readonly : _txtDiastolic_4.ReadOnly, value : _txtDiastolic_4.Text, events : { change : txtDiastolic_TextChanged }, " />
-                                <div index="4" class="_chkPalp_4" data-bind="style : { backgroundColor : _chkPalp_4.BackColor.Value, color : _chkPalp_4.ForeColor.Value }">
-                                    <div style="float: left;overflow:hidden">
-                                        <label disabled="disabled" class=" k-state-disabled" style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">OR PALP</label>
-                                    </div>
-                                    <input id="_chkPalp_4" tabindex="194" type="checkbox" disabled="disabled" class=" k-state-disabled" style="float: left" data-bind="checkState : _chkPalp_4.Checked, events : { click : chkPalp_CheckStateChanged }, " />
-                                </div>
-                                <label id="_lbVital_66" tabindex="274" index="66" class="_lbVital_66" data-bind="text : _lbVital_66.Text, imagePath : _lbVital_66.ImagePath">DIASTOLIC</label>
-                                <input disabled="disabled" id="_txtGlucose_4" tabindex="195" index="4" class="_txtGlucose_4" data-bind="readonly : _txtGlucose_4.ReadOnly, value : _txtGlucose_4.Text, events : { change : txtGlucose_TextChanged }, " />
-                                <label id="_lbVital_67" tabindex="275" index="67" class="_lbVital_67" data-bind="text : _lbVital_67.Text, imagePath : _lbVital_67.ImagePath">GLUCOSE</label>
-                                <label id="_lbVital_70" tabindex="442" index="70" class="_lbVital_70" data-bind="text : _lbVital_70.Text, imagePath : _lbVital_70.ImagePath">Liters</label>
-                                <input disabled="disabled" id="_txtPulseOxy_4" tabindex="196" index="4" class="_txtPulseOxy_4" data-bind="readonly : _txtPulseOxy_4.ReadOnly, value : _txtPulseOxy_4.Text, events : { change : txtPulseOxy_TextChanged }, " />
-                                <input disabled="disabled" id="_txtPerOxy_4" tabindex="197" index="4" class="_txtPerOxy_4" data-bind="style : { backgroundColor : _txtPerOxy_4.BackColor.Value, color : _txtPerOxy_4.ForeColor.Value }, readonly : _txtPerOxy_4.ReadOnly, value : _txtPerOxy_4.Text, events : { change : txtPerOxy_TextChanged }, " />
-                                <label id="_lbVital_68" tabindex="276" index="68" class="_lbVital_68" data-bind="text : _lbVital_68.Text, imagePath : _lbVital_68.ImagePath">PULSE OXY</label>
-                                <label id="_lbVital_69" tabindex="437" index="69" class="_lbVital_69" data-bind="text : _lbVital_69.Text, imagePath : _lbVital_69.ImagePath">%ON</label>
-                                <label id="_lbVital_71" tabindex="266" index="71" class="_lbVital_71" data-bind="text : _lbVital_71.Text, imagePath : _lbVital_71.ImagePath">GCS</label>
-                                <label id="_Line3_4" tabindex="447" index="4" class="_Line3_4" data-bind="text : _Line3_4.Text, imagePath : _Line3_4.ImagePath"></label>
-                                <label id="_lbVital_72" tabindex="267" index="72" class="_lbVital_72" data-bind="text : _lbVital_72.Text, imagePath : _lbVital_72.ImagePath">EYES</label>
-                                <div class="_cboEyes_4Pos" id="_cboEyes_4Pos">
-                                    <select disabled="disabled" id="_cboEyes_4" tabindex="198" index="4" class="_cboEyes_4" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboEyes_4.ComboBoxItems, customText : _cboEyes_4.CustomText, comboSelectedIndex : _cboEyes_4.SelectedIndex, events : { change : cboEyes_SelectionChangeCommitted, blur : cboEyes_Leave }, "></select>
-                                </div>
-                                <label id="_lbVital_73" tabindex="268" index="73" class="_lbVital_73" data-bind="text : _lbVital_73.Text, imagePath : _lbVital_73.ImagePath">VERBAL</label>
-                                <div class="_cboVerbal_4Pos" id="_cboVerbal_4Pos">
-                                    <select disabled="disabled" id="_cboVerbal_4" tabindex="199" index="4" class="_cboVerbal_4" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboVerbal_4.ComboBoxItems, customText : _cboVerbal_4.CustomText, comboSelectedIndex : _cboVerbal_4.SelectedIndex, events : { change : cboVerbal_SelectionChangeCommitted, blur : cboVerbal_Leave }, "></select>
-                                </div>
-                                <label id="_lbVital_74" tabindex="269" index="74" class="_lbVital_74" data-bind="text : _lbVital_74.Text, imagePath : _lbVital_74.ImagePath">MOTOR</label>
-                                <div class="_cboMotor_4Pos" id="_cboMotor_4Pos">
-                                    <select disabled="disabled" id="_cboMotor_4" tabindex="200" index="4" class="_cboMotor_4" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : _cboMotor_4.ComboBoxItems, customText : _cboMotor_4.CustomText, comboSelectedIndex : _cboMotor_4.SelectedIndex, events : { change : cboMotor_SelectionChangeCommitted, blur : cboMotor_Leave }, "></select>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <label id="_lbExam_0" tabindex="139" index="0" class="_lbExam_0" data-bind="text : _lbExam_0.Text, imagePath : _lbExam_0.ImagePath">MECH CODE</label>
                     <div class="cboMechCodePos" id="cboMechCodePos">
@@ -298,21 +242,16 @@
                             <div class="cboInjuryTypePos" id="cboInjuryTypePos">
                                 <select disabled="disabled" id="cboInjuryType" tabindex="49" class="cboInjuryType" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboInjuryType.ComboBoxItems, enabled : cboInjuryType.Enabled, customText : cboInjuryType.CustomText, comboSelectedIndex : cboInjuryType.SelectedIndex, events : { change : cboInjuryType_SelectionChangeCommitted, blur : cboInjuryType_Leave }, "></select>
                             </div>
-                            <label id="_lbExam_1" tabindex="201" index="1" class="_lbExam_1" data-bind="text : _lbExam_1.Text, imagePath : _lbExam_1.ImagePath">INJURY TYPE                               BODY PART</label>
+                            <label id="_lbExam_1" tabindex="201" index="1" class="_lbExam_1" data-bind="text : _lbExam_1.Text, imagePath : _lbExam_1.ImagePath">INJURY TYPE</label>
                             <div class="cboBodyPartPos" id="cboBodyPartPos">
                                 <select disabled="disabled" id="cboBodyPart" tabindex="50" class="cboBodyPart" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboBodyPart.ComboBoxItems, enabled : cboBodyPart.Enabled, customText : cboBodyPart.CustomText, comboSelectedIndex : cboBodyPart.SelectedIndex, events : { change : cboBodyPart_SelectionChangeCommitted, blur : cboBodyPart_Leave }, "></select>
                             </div>
+                            <label id="_lbExam_BodyPart" tabindex="201" index="1" class="_lbExam_BodyPart" data-bind="text : _lbExam_BodyPart.Text, imagePath : _lbExam_BodyPart.ImagePath">BODY PART</label>
                             <div class="chkMajTrauma">
                                 <div style="float: left;overflow:hidden">
                                     <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;" data-bind="enabled : chkMajTrauma.Enabled">MAJOR TRAUMA?</label>
                                 </div>
-                                <input id="chkMajTrauma" tabindex="51" type="checkbox" style="float: left" data-bind="enabled : chkMajTrauma.Enabled, events : { click : chkMajTrauma_CheckStateChanged }, " />
-                            </div>
-                            <div class="chkMajorTrauma">
-                                <input id="chkMajorTrauma" tabindex="52" type="checkbox" style="float: left" />
-                                <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">MAJOR TRAUMA</label>
-                                </div>
+                                <input id="chkMajTrauma" tabindex="51" type="checkbox" style="float: left" data-bind="checkState : chkMajTrauma.Unchecked, enabled : chkMajTrauma.Enabled, events : { click : chkMajTrauma_CheckStateChanged }, " />
                             </div>
                         </div>
                     </fieldset>
@@ -446,7 +385,7 @@
                                 <span class="k-link" data-bind="text : vaTabPro2.Items[3].Text">4th Line</span>
                             </li>
                         </ul>
-                      <div id="tabLine1" class="tabLine1">
+                        <div id="tabLine1" class="tabLine1">
                             <div>
                                 <label id="_lbTreatment_5" tabindex="384" index="10" class="_lbTreatment_10" data-bind="text : _lbTreatment_10.Text, imagePath : _lbTreatment_10.ImagePath">GAUGE</label>
                                 <label id="_lbTreatment_6" tabindex="385" index="11" class="_lbTreatment_11" data-bind="text : _lbTreatment_11.Text, imagePath : _lbTreatment_11.ImagePath">ROUTE</label>
@@ -547,11 +486,6 @@
                             <label id="_lbTreatment_1" tabindex="394" index="1" class="_lbTreatment_1" data-bind="text : _lbTreatment_1.Text, imagePath : _lbTreatment_1.ImagePath">Extrication Time (MIN)</label>
                         </div>
                     </fieldset>
-                    <div data-bind="spEnabled : shpMedications.Enabled, spVisible : shpMedications.Visible">
-                        <svg version="1.1" class="shpMedications_svg" style="left:24px;top:136px;width:405px;height:317px;position:absolute;">
-                            <rect x="0" y="0" height="317" width="405" id="shpMedications" class="shpMedications"></rect>
-                        </svg>
-                    </div>
                     <label id="_lbTreatment_2" tabindex="250" index="2" class="_lbTreatment_2" data-bind="text : _lbTreatment_2.Text, imagePath : _lbTreatment_2.ImagePath">MEDICATIONS</label>
                     <div class="cboMedicationsPos" id="cboMedicationsPos">
                         <select id="cboMedications" tabindex="352" class="cboMedications" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboMedications.ComboBoxItems, customText : cboMedications.CustomText, comboSelectedIndex : cboMedications.SelectedIndex, events : { change : cboMedications_SelectionChangeCommitted, blur : cboMedications_Leave }, "></select>
@@ -569,10 +503,11 @@
                 <div id="frmNarration" class="frmNarration" data-bind="visible: frmNarration.Visible">
                     <label id="_lbFrameTitle_4" tabindex="134" index="4" class="_lbFrameTitle_4" data-bind="text : _lbFrameTitle_4.Text, imagePath : _lbFrameTitle_4.ImagePath">EMS NARRATION</label>
                     <button id="FDCaresBtn" tabindex="35" class="FDCaresBtn" type="button" data-bind="enabled : FDCaresBtn.Enabled, events : { click : FDCaresBtn_Click }, ">FDCares Referral</button>
-                    <label id="_lbNarr_0" tabindex="226" index="0" class="_lbNarr_0" data-bind="style : { color : _lbNarr_0.ForeColor.Value }, text : _lbNarr_0.Text, imagePath : _lbNarr_0.ImagePath">INCIDENT LOCATION                                     INCIDENT ZIPCODE </label>
+                    <label id="_lbNarr_0" index="0" class="_lbNarr_0" data-bind="style : { color : _lbNarr_0.ForeColor.Value }, text : _lbNarr_0.Text, imagePath : _lbNarr_0.ImagePath">INCIDENT LOCATION</label>
                     <div class="cboIncidentLocationPos" id="cboIncidentLocationPos">
                         <select id="cboIncidentLocation" tabindex="25" class="cboIncidentLocation" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboIncidentLocation.ComboBoxItems, customText : cboIncidentLocation.CustomText, comboSelectedIndex : cboIncidentLocation.SelectedIndex, events : { change : cboIncidentLocation_SelectionChangeCommitted, blur : cboIncidentLocation_Leave }, "></select>
                     </div>
+                    <label id="_lbZipCode" index="0" class="_lbZipCode" data-bind="style : { color : _lbZipCode.ForeColor.Value }, text : _lbZipCode.Text">INCIDENT ZIPCODE</label>
                     <input id="txtIncidentZipcode" tabindex="26" class="txtIncidentZipcode" data-bind="style : { backgroundColor : txtIncidentZipcode.BackColor.Value, color : txtIncidentZipcode.ForeColor.Value }, value : txtIncidentZipcode.Text, events : { change : txtIncidentZipcode_TextChanged }, " />
                     <label id="_lbNarr_1" tabindex="227" index="1" class="_lbNarr_1" data-bind="style : { color : _lbNarr_1.ForeColor.Value }, text : _lbNarr_1.Text, imagePath : _lbNarr_1.ImagePath">INCIDENT SETTING</label>
                     <div class="cboIncidentSettingPos" id="cboIncidentSettingPos">
@@ -582,7 +517,7 @@
                     <div class="cboResearchCodePos" id="cboResearchCodePos">
                         <select id="cboResearchCode" tabindex="28" class="cboResearchCode" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboResearchCode.ComboBoxItems, customText : cboResearchCode.CustomText, comboSelectedIndex : cboResearchCode.SelectedIndex, events : { change : cboResearchCode_SelectionChangeCommitted, blur : cboResearchCode_Leave }, "></select>
                     </div>
-                    <label id="_lbNarr_3" tabindex="454" index="3" class="_lbNarr_3" data-bind="style : { color : _lbNarr_3.ForeColor.Value }, text : _lbNarr_3.Text, imagePath : _lbNarr_3.ImagePath">Narrative</label>
+                    <label id="_lbNarr_3" tabindex="454" index="3" class="_lbNarr_3" data-bind="style : { color : _lbNarr_3.ForeColor.Value }, text : _lbNarr_3.Text, imagePath : _lbNarr_3.ImagePath">NARRATIVE</label>
                     <textarea id="rtxNarration" tabindex="29" class="rtxNarration" data-bind="style : { backgroundColor : rtxNarration.BackColor.Value }"></textarea>
                 </div>
             </fieldset>
@@ -652,41 +587,36 @@
                     <div class="cboCPRPerformedByPos" id="cboCPRPerformedByPos">
                         <select id="cboCPRPerformedBy" tabindex="320" class="cboCPRPerformedBy" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboCPRPerformedBy.ComboBoxItems, customText : cboCPRPerformedBy.CustomText, comboSelectedIndex : cboCPRPerformedBy.SelectedIndex, events : { change : cboCPRPerformedBy_SelectionChangeCommitted, blur : cboCPRPerformedBy_Leave }, "></select>
                     </div>
-                    <label id="_lbCPR_3" tabindex="223" index="3" class="_lbCPR_3" data-bind="text : _lbCPR_3.Text, imagePath : _lbCPR_3.ImagePath">&lt; 4   4-8  8-15 &gt;15</label>
                     <div class="chkCPRTrained">
                         <div style="float: left;overflow:hidden">
                             <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">CPR TRAINED?</label>
                         </div>
                         <input id="chkCPRTrained" tabindex="321" type="checkbox" style="float: left" />
                     </div>
-                    <div data-bind="spEnabled : Shape2.Enabled, spVisible : Shape2.Visible">
-                        <svg version="1.1" class="Shape2_svg" style="left:400px;top:192px;width:393px;height:149px;position:absolute;">
-                            <rect x="0" y="0" height="149" width="393" id="Shape2" class="Shape2"></rect>
-                        </svg>
-                    </div>
                     <fieldset id="frmArrestToCPR" data-bind="enabled : frmArrestToCPR.Enabled">
+                        <label id="_lbATC" tabindex="224" index="2" class="_lbATC">ARREST TO CPR</label>
                         <div id="frmArrestToCPR" class="frmArrestToCPR">
                             <div index="0" class="_optArrestToCPR_0" data-bind="style : { backgroundColor : _optArrestToCPR_0.BackColor.Value, color : _optArrestToCPR_0.ForeColor.Value }">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ARREST TO CPR</label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">&lt; 4</label>
                                 </div>
                                 <input id="_optArrestToCPR_0" tabindex="329" type="radio" name="frmArrestToCPR_radios" style="float: left" data-bind="customChecked : _optArrestToCPR_0.Checked, events : { change : optArrestToCPR_CheckedChanged }, " />
                             </div>
                             <div index="1" class="_optArrestToCPR_1" data-bind="style : { backgroundColor : _optArrestToCPR_1.BackColor.Value, color : _optArrestToCPR_1.ForeColor.Value }">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">4-8</label>
                                 </div>
                                 <input id="_optArrestToCPR_1" tabindex="330" type="radio" name="frmArrestToCPR_radios" style="float: left" data-bind="customChecked : _optArrestToCPR_1.Checked, events : { change : optArrestToCPR_CheckedChanged }, " />
                             </div>
                             <div index="2" class="_optArrestToCPR_2" data-bind="style : { backgroundColor : _optArrestToCPR_2.BackColor.Value, color : _optArrestToCPR_2.ForeColor.Value }">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">8-15</label>
                                 </div>
                                 <input id="_optArrestToCPR_2" tabindex="331" type="radio" name="frmArrestToCPR_radios" style="float: left" data-bind="customChecked : _optArrestToCPR_2.Checked, events : { change : optArrestToCPR_CheckedChanged }, " />
                             </div>
                             <div index="3" class="_optArrestToCPR_3" data-bind="style : { backgroundColor : _optArrestToCPR_3.BackColor.Value, color : _optArrestToCPR_3.ForeColor.Value }">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">&gt;15</label>
                                 </div>
                                 <input id="_optArrestToCPR_3" tabindex="332" type="radio" name="frmArrestToCPR_radios" style="float: left" data-bind="customChecked : _optArrestToCPR_3.Checked, events : { change : optArrestToCPR_CheckedChanged }, " />
                             </div>
@@ -700,28 +630,29 @@
                     </div>
                     <button id="cmdClear1" tabindex="341" class="cmdClear1" type="button" data-bind="events : { click : cmdClear1_Click }, ">Clear</button>
                     <fieldset id="frmArrestToALS" data-bind="enabled : frmArrestToALS.Enabled">
+                        <label id="_lbATA" index="2" class="_lbATA">ARREST TO ALS</label>
                         <div id="frmArrestToALS" class="frmArrestToALS">
                             <div index="0" class="_optArrestToALS_0">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ARREST TO ALS</label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">&lt; 4</label>
                                 </div>
                                 <input id="_optArrestToALS_0" tabindex="337" type="radio" name="frmArrestToALS_radios" style="float: left" data-bind="customChecked : _optArrestToALS_0.Checked, events : { change : optArrestToALS_CheckedChanged }, " />
                             </div>
                             <div index="1" class="_optArrestToALS_1">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">4-8</label>
                                 </div>
                                 <input id="_optArrestToALS_1" tabindex="338" type="radio" name="frmArrestToALS_radios" style="float: left" data-bind="customChecked : _optArrestToALS_1.Checked, events : { change : optArrestToALS_CheckedChanged }, " />
                             </div>
                             <div index="2" class="_optArrestToALS_2">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">8-15</label>
                                 </div>
                                 <input id="_optArrestToALS_2" tabindex="339" type="radio" name="frmArrestToALS_radios" style="float: left" data-bind="customChecked : _optArrestToALS_2.Checked, events : { change : optArrestToALS_CheckedChanged }, " />
                             </div>
                             <div index="3" class="_optArrestToALS_3">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">&gt;15</label>
                                 </div>
                                 <input id="_optArrestToALS_3" tabindex="340" type="radio" name="frmArrestToALS_radios" style="float: left" data-bind="customChecked : _optArrestToALS_3.Checked, events : { change : optArrestToALS_CheckedChanged }, " />
                             </div>
@@ -730,28 +661,29 @@
                     <button id="cmdClear2" tabindex="342" class="cmdClear2" type="button" data-bind="events : { click : cmdClear2_Click }, ">Clear</button>
                     <button id="cmdAddCPR" tabindex="323" class="cmdAddCPR" type="button" data-bind="events : { click : cmdAddCPR_Click }, ">ADD CPR PERFORMER</button>
                     <fieldset id="frmArrestToShock" data-bind="enabled : frmArrestToShock.Enabled">
+                        <label id="_lbATS" index="2" class="_lbATS">ARREST TO SHOCK</label>
                         <div id="frmArrestToShock" class="frmArrestToShock">
                             <div index="0" class="_optArrestToShock_0">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">ARREST TO SHOCK</label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">&lt; 4</label>
                                 </div>
                                 <input id="_optArrestToShock_0" tabindex="316" type="radio" name="frmArrestToShock_radios" style="float: left" data-bind="customChecked : _optArrestToShock_0.Checked, events : { change : optArrestToShock_CheckedChanged }, " />
                             </div>
                             <div index="1" class="_optArrestToShock_1">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">4-8</label>
                                 </div>
                                 <input id="_optArrestToShock_1" tabindex="317" type="radio" name="frmArrestToShock_radios" style="float: left" data-bind="customChecked : _optArrestToShock_1.Checked, events : { change : optArrestToShock_CheckedChanged }, " />
                             </div>
                             <div index="2" class="_optArrestToShock_2">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">8-15</label>
                                 </div>
                                 <input id="_optArrestToShock_2" tabindex="318" type="radio" name="frmArrestToShock_radios" style="float: left" data-bind="customChecked : _optArrestToShock_2.Checked, events : { change : optArrestToShock_CheckedChanged }, " />
                             </div>
                             <div index="3" class="_optArrestToShock_3">
                                 <div style="float: left;overflow:hidden">
-                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;"></label>
+                                    <label style="float: left; font-family:inherit;font-style:inherit;font-weight:inherit;text-decoration:inherit;">&gt;15</label>
                                 </div>
                                 <input id="_optArrestToShock_3" tabindex="319" type="radio" name="frmArrestToShock_radios" style="float: left" data-bind="customChecked : _optArrestToShock_3.Checked, events : { change : optArrestToShock_CheckedChanged }, " />
                             </div>
@@ -800,11 +732,12 @@
                         <input id="chkDNR" tabindex="293" type="checkbox" style="float: left" />
                     </div>
                     <label id="_lbPInfo_8" tabindex="192" index="8" class="_lbPInfo_8" data-bind="text : _lbPInfo_8.Text, imagePath : _lbPInfo_8.ImagePath">BIRTHDATE         OR</label>
-                    <input id="mskBirthdate" tabindex="289" class="mskBirthdate" data-role="maskedtextbox" data-bind="style : { backgroundColor : mskBirthdate.BackColor.Value, color : mskBirthdate.ForeColor.Value }, value : mskBirthdate.Text, maskedTextBoxMask : mskBirthdate.Mask, maskedTextBoxPrompt : mskBirthdate.PromptChar, maskedTextBoxFormat : mskBirthdate.TextMaskFormat, events : { blur : mskBirthdate_Leave }, " />
+                    <!--<input id="mskBirthdate" tabindex="289" class="mskBirthdate" data-role="maskedtextbox"                                        data-bind="style : { backgroundColor : mskBirthdate.BackColor.Value, color : mskBirthdate.ForeColor.Value }, value : mskBirthdate.Text, maskedTextBoxMask : mskBirthdate.Mask, maskedTextBoxPrompt : mskBirthdate.PromptChar, maskedTextBoxFormat : mskBirthdate.TextMaskFormat, events : { blur : mskBirthdate_Leave }, " />-->
+                    <input data-role="datepicker" data-format="MM/dd/yy" data-custom="true" id="dpBirthdate" tabindex="289" class="dpBirthdate" data-bind="dateTimePickerValue : dpBirthdate.Value, DateTimeMinDate : dpBirthdate.MinDate, DateTimeMaxDate : dpBirthdate.MaxDate, events : { change : dpBirthdate_Click }, " />
                     <label id="_lbPInfo_11" tabindex="211" index="11" class="_lbPInfo_11" data-bind="text : _lbPInfo_11.Text, imagePath : _lbPInfo_11.ImagePath">PRIOR MEDICAL HISTORY</label>
                     <input id="txtPatientAge" tabindex="290" Value="txtPatientAge" class="txtPatientAge" data-bind="style : { backgroundColor : txtPatientAge.BackColor.Value, color : txtPatientAge.ForeColor.Value }, value : txtPatientAge.Text, events : { change : txtPatientAge_TextChanged }, " />
                     <label id="_lbPInfo_9" tabindex="209" index="9" class="_lbPInfo_9" data-bind="text : _lbPInfo_9.Text, imagePath : _lbPInfo_9.ImagePath">AGE</label>
-                    <div id="lstPriorMedicalHistory" tabindex="294" class="lstPriorMedicalHistory" data-role="listbox" style="overflow:auto" data-bind="source : lstPriorMedicalHistory.ListBoxItems, listBoxSelectedIndices : lstPriorMedicalHistory.ListBoxSelectedIndices"></div>
+                    <div id="lstPriorMedicalHistory" tabindex="294" class="lstPriorMedicalHistory" data-role="listbox" data-selectable="multiple" style="overflow:auto" data-bind="source : lstPriorMedicalHistory.ListBoxItems, listBoxSelectedIndices : lstPriorMedicalHistory.ListBoxSelectedIndices"></div>
                     <label id="_lbPInfo_10" tabindex="210" index="10" class="_lbPInfo_10" data-bind="text : _lbPInfo_10.Text, imagePath : _lbPInfo_10.ImagePath">AGE UNITS</label>
                     <div class="cboPatientAgeUnitsPos" id="cboPatientAgeUnitsPos">
                         <select id="cboPatientAgeUnits" tabindex="291" class="cboPatientAgeUnits" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboPatientAgeUnits.ComboBoxItems, customText : cboPatientAgeUnits.CustomText, comboSelectedIndex : cboPatientAgeUnits.SelectedIndex, events : { change : cboPatientAgeUnits_SelectionChangeCommitted, blur : cboPatientAgeUnits_Leave }, "></select>
@@ -924,8 +857,10 @@
                             <label id="_lbProcs_1" tabindex="429" index="1" class="_lbProcs_1" data-bind="visible : _lbProcs_1.Visible, text : _lbProcs_1.Text, imagePath : _lbProcs_1.ImagePath">Enter Other BLS Procedures</label>
                             <input id="txtOtherBLSProcedures" tabindex="236" Value="txtOtherBLSProcedures" class="txtOtherBLSProcedures" data-bind="style : { backgroundColor : txtOtherBLSProcedures.BackColor.Value, color : txtOtherBLSProcedures.ForeColor.Value }, visible : txtOtherBLSProcedures.Visible, value : txtOtherBLSProcedures.Text, events : { change : txtOtherBLSProcedures_TextChanged }, " />
                             <label id="_lbProcs_2" tabindex="431" index="2" class="_lbProcs_2" data-bind="visible : _lbProcs_2.Visible, text : _lbProcs_2.Text, imagePath : _lbProcs_2.ImagePath">Select BLS Personnel</label>
-                            <div id="lstBLSPersonnel" tabindex="237" class="lstBLSPersonnel" data-role="listbox" style="overflow:auto" data-bind="source : lstBLSPersonnel.ListBoxItems, listBoxSelectedIndices : lstBLSPersonnel.ListBoxSelectedIndices, events : { change : lstBLSPersonnel_SelectedIndexChanged }, ">
-                                <option value="lstBLSPersonnel">"lstBLSPersonnel"</option>
+
+
+                            <div id="lstBLSPersonnel" tabindex="237" data-selectable="multiple" class="lstBLSPersonnel" data-role="listbox" style="overflow:auto" data-bind="source : lstBLSPersonnel.ListBoxItems, listBoxSelectedIndices : lstBLSPersonnel.ListBoxSelectedIndices, events : { change : lstBLSPersonnel_SelectedIndexChanged }, ">
+                                <!-- <option value="lstBLSPersonnel">"lstBLSPersonnel"</option>-->
                             </div>
                             <button disabled="disabled" id="cmdAddBLS" tabindex="238" class="cmdAddBLS" type="button" data-bind="enabled : cmdAddBLS.Enabled, events : { click : cmdAddBLS_Click }, ">ADD BLS PROCEDURES</button>
                             <div id="lstBLSProcedures" tabindex="239" class="lstBLSProcedures" data-role="listbox" style="overflow:auto" data-bind="source : lstBLSProcedures.ListBoxItems, listBoxSelectedIndices : lstBLSProcedures.ListBoxSelectedIndices">
@@ -1013,7 +948,7 @@
                     <label id="_lbBasic_0" tabindex="183" index="0" class="_lbBasic_0" data-bind="text : _lbBasic_0.Text, imagePath : _lbBasic_0.ImagePath">AGE</label>
                     <label id="_lbBasic_1" tabindex="184" index="1" class="_lbBasic_1" data-bind="text : _lbBasic_1.Text, imagePath : _lbBasic_1.ImagePath">AGE UNITS</label>
                     <div class="cboAgeUnitsPos" id="cboAgeUnitsPos">
-                        <select id="cboAgeUnits" tabindex="263" class="cboAgeUnits" data-text-field="Text" data-value-field="Value" data-role="combobox" data-bind="source : cboAgeUnits.ComboBoxItems, customText : cboAgeUnits.CustomText, comboSelectedIndex : cboAgeUnits.SelectedIndex, events : { change : cboAgeUnits_SelectionChangeCommitted, blur : cboAgeUnits_Leave }, "></select>
+                        <select id="cboAgeUnits" tabindex="263" class="cboAgeUnits" data-role="mobilizecombobox" index="1" data-text-field="Text" data-value-field="Value" data-bind="widgetvalue: cboAgeUnits, source : cboAgeUnits.ComboBoxItems, events : { change : cboAgeUnits_SelectionChangeCommitted, blur : cboAgeUnits_Leave }, "></select>
                     </div>
                     <fieldset id="frmBasicGender" class="frmBasicGender" data-bind="style : { fontSize : frmBasicGender.Font.Size, fontStyle : frmBasicGender.Font.Style, fontWeight : frmBasicGender.Font.Weight, fontFamily : frmBasicGender.Font.Name, textDecoration : frmBasicGender.Font.Decoration }">
                         <legend id="frmBasicGender_legend" class="frmBasicGender_legend">GENDER</legend>
@@ -1081,10 +1016,10 @@
                     <button id="cmdAbandon" tabindex="3" class="cmdAbandon" type="button" data-bind="events : { click : cmdAbandon_Click }, ">Exit WITHOUT Saving Report</button>
                 </div>
             </fieldset>
-           
+
             <fieldset id="NavBar" class="NavBar" data-bind="enabled : NavBar.Enabled">
                 <button id="_NavButton_0" tabindex="380" index="0" class="_NavButton_0" type="button" data-bind="visible : _NavButton_0.Visible, events : { click : NavButton_Click }, ">Cancel</button>
-                <button id="_NavButton_1" tabindex="381" index="1" class="_NavButton_1" type="button" data-bind="visible : _NavButton_1.Visible, events : { click : NavButton_Click }, ">Back</button>            
+                <button id="_NavButton_1" tabindex="381" index="1" class="_NavButton_1" type="button" data-bind="visible : _NavButton_1.Visible, events : { click : NavButton_Click }, ">Back</button>
                 <button id="_NavButton_2" tabindex="382" index="2" class="_NavButton_2" type="button" data-bind="visible : _NavButton_2.Visible, events : { click : NavButton_Click }, ">Next</button>
                 <button id="_NavButton_3" tabindex="383" index="3" class="_NavButton_3" type="button" data-bind="visible : _NavButton_3.Visible, events : { click : NavButton_Click }, ">Save-Quit</button>
                 <button id="_NavButton_4" tabindex="384" index="4" class="_NavButton_4" type="button" data-bind="visible : _NavButton_4.Visible, events : { click : NavButton_Click }, ">Finish</button>

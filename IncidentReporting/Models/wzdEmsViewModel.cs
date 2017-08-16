@@ -1,6 +1,7 @@
 using UpgradeHelpers.Extensions;
 using UpgradeHelpers.BasicViewModels.Extensions;
 using UpgradeHelpers.Events;
+using System;
 
 namespace TFDIncident.ViewModels
 {
@@ -233,10 +234,6 @@ namespace TFDIncident.ViewModels
 			this._lbTreatment_2 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbFrameTitle_5 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbTreatment_0 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this.shpMedications = ctx.Resolve<VB6Helpers.ViewModels.ShapeHelperViewModel>();
-			this.shpMedications.Enabled = false;
-			this.shpMedications.Name = "shpMedications";
-			this.shpMedications.TabIndex = 394;
 
             // 
             // frmTreatmentInfo
@@ -304,12 +301,7 @@ namespace TFDIncident.ViewModels
 			this.cboCPRPerformedBy.Name = "cboCPRPerformedBy";
 			this.cboCPRPerformedBy.TabIndex = 141;
 			this.cboCPRPerformedBy.Text = "cboCPRPerformedBy";
-			this.Shape2 = ctx.Resolve<VB6Helpers.ViewModels.ShapeHelperViewModel>();
-			this.Shape2.Enabled = false;
-			this.Shape2.Name = "Shape2";
-			this.Shape2.TabIndex = 398;
 			this._lbCPR_2 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbCPR_3 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbCPR_0 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this.lbCPRPatientInfo = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			// 
@@ -443,14 +435,18 @@ namespace TFDIncident.ViewModels
 			this.cboRace.Name = "cboRace";
 			this.cboRace.TabIndex = 35;
 			this.cboRace.Text = "cboRace";
-			this.mskBirthdate = ctx.Resolve<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>();
-			this.mskBirthdate.BackColor = UpgradeHelpers.Helpers.Color.White;
-			this.mskBirthdate.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.mskBirthdate.ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			this.mskBirthdate.Mask = "##/##/####";
-			this.mskBirthdate.Name = "mskBirthdate";
-			this.mskBirthdate.TabIndex = 30;
-			this.mskSSN = ctx.Resolve<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>();
+
+            // 
+            // calBirthdate
+            // 
+            this.dpBirthdate = ctx.Resolve<WNFRMS.Viewmodels.DateTimePickerViewModel>();
+            this.dpBirthdate.AllowDrop = true;
+            this.dpBirthdate.MaxDate = DateTime.Now;
+            this.dpBirthdate.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.dpBirthdate.Name = "dpBirthdate";
+            this.dpBirthdate.TabIndex = 30;
+
+            this.mskSSN = ctx.Resolve<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>();
 			this.mskSSN.BackColor = UpgradeHelpers.Helpers.Color.White;
 			this.mskSSN.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.mskSSN.ForeColor = UpgradeHelpers.Helpers.Color.Navy;
@@ -765,8 +761,6 @@ namespace TFDIncident.ViewModels
 			this.frmProceduresPerformed.Name = "frmProceduresPerformed";
 			this.frmProceduresPerformed.TabIndex = 140;
             this.frmProceduresPerformed.Visible = false;
-
-			this._txtPerOxy_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
 			this._txtPerOxy_3 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
 			this._txtPerOxy_2 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
 			this._txtPerOxy_1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
@@ -814,29 +808,15 @@ namespace TFDIncident.ViewModels
 			this._cboMotor_3 = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
 			this._cboVerbal_3 = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
 			this._cboEyes_3 = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
-			this._cboVitalsPosition_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
-			this._cboECG_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
-			this._txtPulseOxy_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
-			this._txtGlucose_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
-			this._txtDiastolic_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
-			this._txtSystolic_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
-			this._txtRespiration_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
-			this._txtPulse_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
-			this._cboMotor_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
-			this._cboVerbal_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
-			this._cboEyes_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
 			this._txtPulse_1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TextBoxViewModel>();
 			this._txtTime_0 = ctx.Resolve<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>();
 			this._txtTime_1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>();
 			this._txtTime_2 = ctx.Resolve<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>();
 			this._txtTime_3 = ctx.Resolve<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>();
-			this._txtTime_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>();
-			this._lbVital_70 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_55 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_40 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_25 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_10 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_69 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_54 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_39 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_24 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
@@ -854,7 +834,6 @@ namespace TFDIncident.ViewModels
 			this._lbVital_13 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_12 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_11 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._Line3_0 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_16 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_19 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_23 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
@@ -868,7 +847,6 @@ namespace TFDIncident.ViewModels
 			this._lbVital_28 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_27 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_26 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._Line3_1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_31 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_34 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_38 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
@@ -882,7 +860,6 @@ namespace TFDIncident.ViewModels
 			this._lbVital_43 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_42 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_41 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._Line3_2 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_46 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_49 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_53 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
@@ -896,21 +873,6 @@ namespace TFDIncident.ViewModels
 			this._lbVital_58 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_57 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbVital_56 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._Line3_3 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_61 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_64 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_68 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_67 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_66 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_65 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_62 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_63 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_60 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_74 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_73 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_72 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbVital_71 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._Line3_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this.tabVitals = ctx.Resolve<UpgradeHelpers.BasicViewModels.TabControlViewModel>();
 			this.tabVitals.Name = "tabVitals";
 			this.tabVitals.SelectedIndex = 0;
@@ -969,7 +931,9 @@ namespace TFDIncident.ViewModels
 			this.cboInjuryType.TabIndex = 42;
 			this.cboInjuryType.Text = "cboInjuryType";
 			this._lbExam_1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this.cboMechCode = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
+            this._lbExam_BodyPart = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
+
+            this.cboMechCode = ctx.Resolve<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>();
 			// 
 			// cboMechCode
 			// 
@@ -1076,7 +1040,9 @@ namespace TFDIncident.ViewModels
 			this._lbNarr_2 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbNarr_1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			this._lbNarr_0 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
-			this._lbFrameTitle_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
+            this._lbZipCode = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
+
+            this._lbFrameTitle_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 
             // 
             // frmNarration
@@ -1389,7 +1355,6 @@ namespace TFDIncident.ViewModels
 			this._chkPalp_1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
 			this._chkPalp_2 = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
 			this._chkPalp_3 = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
-			this._chkPalp_4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
 			this.chkNoVitals = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
 			// 
 			// chkNoVitals
@@ -1400,11 +1365,13 @@ namespace TFDIncident.ViewModels
 			this.chkNoVitals.Name = "chkNoVitals";
 			this.chkNoVitals.TabIndex = 448;
 			this.chkNoVitals.Text = "Unable to Take Vitals ...see narrative";
-			this.chkMajTrauma = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
-			// 
-			// chkMajTrauma
-			// 
-			this.chkMajTrauma.BackColor = UpgradeHelpers.Helpers.Color.White;
+
+            // 
+            // chkMajTrauma
+            // 
+            this.chkMajTrauma = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
+            this.chkMajTrauma.CheckState = UpgradeHelpers.Helpers.CheckState.Unchecked;
+            this.chkMajTrauma.BackColor = UpgradeHelpers.Helpers.Color.White;
 			this.chkMajTrauma.Enabled = false;
 			this.chkMajTrauma.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.chkMajTrauma.ForeColor = UpgradeHelpers.Helpers.Color.Navy;
@@ -1471,9 +1438,6 @@ namespace TFDIncident.ViewModels
 			this.tabPage4 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TabPageViewModel>();
 			this.tabPage4.Name = "tabPage4";
 			this.tabPage4.Text = "Fourth";
-			this.tabPage5 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TabPageViewModel>();
-			this.tabPage5.Name = "tabPage5";
-			this.tabPage5.Text = "More.";
             this.tabLine1 = ctx.Resolve<UpgradeHelpers.BasicViewModels.TabPageViewModel>();
             this.tabLine1.Name = "tabLine1";
             this.tabLine1.Text = "1st Line";
@@ -1630,41 +1594,34 @@ namespace TFDIncident.ViewModels
 			this.optRespiratoryEffort[0].TabIndex = 52;
 			this.optRespiratoryEffort[0].Text = "NORMAL";
 			this.NoVitals = 0;
-			this.txtTime = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>>(5);
+			this.txtTime = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel>>(4);
 			this.txtTime[0] = _txtTime_0;
 			this.txtTime[1] = _txtTime_1;
             this.txtTime[2] = _txtTime_2;
 			this.txtTime[3] = _txtTime_3;
-			this.txtTime[4] = _txtTime_4;
 			this.txtTime[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.txtTime[0].Mask = "##:##";
 			this.txtTime[0].Name = "_txtTime_0";
 			this.txtTime[0].TabIndex = 55;
-            this.txtTime[1].Enabled = false;
+            this.txtTime[1].Enabled = true;
 			this.txtTime[1].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.txtTime[1].Mask = "##:##";
 			this.txtTime[1].Name = "_txtTime_1";
 			this.txtTime[1].TabIndex = 69;
-			this.txtTime[2].Enabled = false;
+			this.txtTime[2].Enabled = true;
 			this.txtTime[2].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
             this.txtTime[2].Mask = "##:##";
 			this.txtTime[2].Name = "_txtTime_2";
 			this.txtTime[2].TabIndex = 83;
-			this.txtTime[3].Enabled = false;
+			this.txtTime[3].Enabled = true;
 			this.txtTime[3].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.txtTime[3].Mask = "##:##";
 			this.txtTime[3].Name = "_txtTime_3";
             this.txtTime[3].TabIndex = 97;
-			this.txtTime[4].Enabled = false;
-			this.txtTime[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.txtTime[4].Mask = "##:##";
-			this.txtTime[4].Name = "_txtTime_4";
-			this.txtTime[4].TabIndex = 111;
-			this.txtPulse = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(5);
+			this.txtPulse = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(4);
             this.txtPulse[0] = _txtPulse_0;
 			this.txtPulse[2] = _txtPulse_2;
 			this.txtPulse[3] = _txtPulse_3;
-			this.txtPulse[4] = _txtPulse_4;
 			this.txtPulse[1] = _txtPulse_1;
 			this.txtPulse[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.txtPulse[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
@@ -1689,18 +1646,11 @@ namespace TFDIncident.ViewModels
 			this.txtPulse[3].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtPulse[3].Name = "_txtPulse_3";
 			this.txtPulse[3].TabIndex = 100;
-            this.txtPulse[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.txtPulse[4].Enabled = false;
-			this.txtPulse[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.txtPulse[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.txtPulse[4].Name = "_txtPulse_4";
-			this.txtPulse[4].TabIndex = 114;
-			this.txtRespiration = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(5);
+			this.txtRespiration = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(4);
             this.txtRespiration[0] = _txtRespiration_0;
 			this.txtRespiration[1] = _txtRespiration_1;
 			this.txtRespiration[2] = _txtRespiration_2;
 			this.txtRespiration[3] = _txtRespiration_3;
-			this.txtRespiration[4] = _txtRespiration_4;
 			this.txtRespiration[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.txtRespiration[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
             this.txtRespiration[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -1724,18 +1674,11 @@ namespace TFDIncident.ViewModels
 			this.txtRespiration[3].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtRespiration[3].Name = "_txtRespiration_3";
 			this.txtRespiration[3].TabIndex = 99;
-            this.txtRespiration[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.txtRespiration[4].Enabled = false;
-			this.txtRespiration[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.txtRespiration[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.txtRespiration[4].Name = "_txtRespiration_4";
-			this.txtRespiration[4].TabIndex = 113;
-			this.txtSystolic = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(5);
+			this.txtSystolic = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(4);
             this.txtSystolic[0] = _txtSystolic_0;
 			this.txtSystolic[1] = _txtSystolic_1;
 			this.txtSystolic[2] = _txtSystolic_2;
 			this.txtSystolic[3] = _txtSystolic_3;
-			this.txtSystolic[4] = _txtSystolic_4;
 			this.txtSystolic[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.txtSystolic[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
             this.txtSystolic[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -1759,18 +1702,11 @@ namespace TFDIncident.ViewModels
 			this.txtSystolic[3].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtSystolic[3].Name = "_txtSystolic_3";
 			this.txtSystolic[3].TabIndex = 102;
-            this.txtSystolic[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.txtSystolic[4].Enabled = false;
-			this.txtSystolic[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.txtSystolic[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.txtSystolic[4].Name = "_txtSystolic_4";
-			this.txtSystolic[4].TabIndex = 116;
-			this.txtDiastolic = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(5);
+			this.txtDiastolic = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(4);
             this.txtDiastolic[0] = _txtDiastolic_0;
 			this.txtDiastolic[1] = _txtDiastolic_1;
 			this.txtDiastolic[2] = _txtDiastolic_2;
 			this.txtDiastolic[3] = _txtDiastolic_3;
-			this.txtDiastolic[4] = _txtDiastolic_4;
 			this.txtDiastolic[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.txtDiastolic[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
             this.txtDiastolic[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -1794,18 +1730,11 @@ namespace TFDIncident.ViewModels
 			this.txtDiastolic[3].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtDiastolic[3].Name = "_txtDiastolic_3";
 			this.txtDiastolic[3].TabIndex = 103;
-            this.txtDiastolic[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.txtDiastolic[4].Enabled = false;
-			this.txtDiastolic[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.txtDiastolic[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.txtDiastolic[4].Name = "_txtDiastolic_4";
-			this.txtDiastolic[4].TabIndex = 117;
-			this.chkPalp = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>>(5);
+			this.chkPalp = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>>(4);
             this.chkPalp[0] = _chkPalp_0;
 			this.chkPalp[1] = _chkPalp_1;
 			this.chkPalp[2] = _chkPalp_2;
 			this.chkPalp[3] = _chkPalp_3;
-			this.chkPalp[4] = _chkPalp_4;
 			this.chkPalp[0].BackColor = UpgradeHelpers.Helpers.Color.White;
 			this.chkPalp[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
             this.chkPalp[0].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
@@ -1833,19 +1762,11 @@ namespace TFDIncident.ViewModels
 			this.chkPalp[3].Name = "_chkPalp_3";
 			this.chkPalp[3].TabIndex = 104;
 			this.chkPalp[3].Text = "OR PALP";
-			this.chkPalp[4].BackColor = UpgradeHelpers.Helpers.Color.White;
-			this.chkPalp[4].Enabled = false;
-			this.chkPalp[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-            this.chkPalp[4].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			this.chkPalp[4].Name = "_chkPalp_4";
-			this.chkPalp[4].TabIndex = 118;
-			this.chkPalp[4].Text = "OR PALP";
-			this.txtGlucose = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(5);
+			this.txtGlucose = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(4);
 			this.txtGlucose[0] = _txtGlucose_0;
 			this.txtGlucose[1] = _txtGlucose_1;
             this.txtGlucose[2] = _txtGlucose_2;
 			this.txtGlucose[3] = _txtGlucose_3;
-			this.txtGlucose[4] = _txtGlucose_4;
 			this.txtGlucose[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.txtGlucose[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.txtGlucose[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -1869,18 +1790,11 @@ namespace TFDIncident.ViewModels
 			this.txtGlucose[3].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtGlucose[3].Name = "_txtGlucose_3";
 			this.txtGlucose[3].TabIndex = 105;
-			this.txtGlucose[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.txtGlucose[4].Enabled = false;
-            this.txtGlucose[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.txtGlucose[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.txtGlucose[4].Name = "_txtGlucose_4";
-			this.txtGlucose[4].TabIndex = 119;
-			this.txtPulseOxy = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(5);
+			this.txtPulseOxy = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(4);
 			this.txtPulseOxy[0] = _txtPulseOxy_0;
 			this.txtPulseOxy[1] = _txtPulseOxy_1;
             this.txtPulseOxy[2] = _txtPulseOxy_2;
 			this.txtPulseOxy[3] = _txtPulseOxy_3;
-			this.txtPulseOxy[4] = _txtPulseOxy_4;
 			this.txtPulseOxy[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.txtPulseOxy[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.txtPulseOxy[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -1904,14 +1818,7 @@ namespace TFDIncident.ViewModels
 			this.txtPulseOxy[3].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtPulseOxy[3].Name = "_txtPulseOxy_3";
 			this.txtPulseOxy[3].TabIndex = 106;
-			this.txtPulseOxy[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.txtPulseOxy[4].Enabled = false;
-            this.txtPulseOxy[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.txtPulseOxy[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.txtPulseOxy[4].Name = "_txtPulseOxy_4";
-			this.txtPulseOxy[4].TabIndex = 120;
-			this.txtPerOxy = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(5);
-			this.txtPerOxy[4] = _txtPerOxy_4;
+			this.txtPerOxy = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.TextBoxViewModel>>(4);
 			this.txtPerOxy[3] = _txtPerOxy_3;
             this.txtPerOxy[2] = _txtPerOxy_2;
 			this.txtPerOxy[1] = _txtPerOxy_1;
@@ -1939,18 +1846,11 @@ namespace TFDIncident.ViewModels
 			this.txtPerOxy[3].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtPerOxy[3].Name = "_txtPerOxy_3";
 			this.txtPerOxy[3].TabIndex = 107;
-			this.txtPerOxy[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.txtPerOxy[4].Enabled = false;
-            this.txtPerOxy[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.txtPerOxy[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.txtPerOxy[4].Name = "_txtPerOxy_4";
-			this.txtPerOxy[4].TabIndex = 121;
-			this.cboVitalsPosition = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(5);
+			this.cboVitalsPosition = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(4);
 			this.cboVitalsPosition[0] = _cboVitalsPosition_0;
 			this.cboVitalsPosition[1] = _cboVitalsPosition_1;
             this.cboVitalsPosition[2] = _cboVitalsPosition_2;
 			this.cboVitalsPosition[3] = _cboVitalsPosition_3;
-			this.cboVitalsPosition[4] = _cboVitalsPosition_4;
 			this.cboVitalsPosition[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.cboVitalsPosition[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.cboVitalsPosition[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -1958,39 +1858,31 @@ namespace TFDIncident.ViewModels
             this.cboVitalsPosition[0].TabIndex = 56;
 			this.cboVitalsPosition[0].Text = "cboVitalsPosition";
 			this.cboVitalsPosition[1].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.cboVitalsPosition[1].Enabled = false;
+			this.cboVitalsPosition[1].Enabled = true;
 			this.cboVitalsPosition[1].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.cboVitalsPosition[1].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.cboVitalsPosition[1].Name = "_cboVitalsPosition_1";
             this.cboVitalsPosition[1].TabIndex = 70;
 			this.cboVitalsPosition[1].Text = "cboVitalsPosition";
 			this.cboVitalsPosition[2].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.cboVitalsPosition[2].Enabled = false;
+			this.cboVitalsPosition[2].Enabled = true;
 			this.cboVitalsPosition[2].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.cboVitalsPosition[2].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.cboVitalsPosition[2].Name = "_cboVitalsPosition_2";
             this.cboVitalsPosition[2].TabIndex = 84;
 			this.cboVitalsPosition[2].Text = "cboVitalsPosition";
 			this.cboVitalsPosition[3].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.cboVitalsPosition[3].Enabled = false;
+			this.cboVitalsPosition[3].Enabled = true;
 			this.cboVitalsPosition[3].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.cboVitalsPosition[3].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.cboVitalsPosition[3].Name = "_cboVitalsPosition_3";
             this.cboVitalsPosition[3].TabIndex = 98;
 			this.cboVitalsPosition[3].Text = "cboVitalsPosition";
-			this.cboVitalsPosition[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.cboVitalsPosition[4].Enabled = false;
-			this.cboVitalsPosition[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.cboVitalsPosition[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.cboVitalsPosition[4].Name = "_cboVitalsPosition_4";
-            this.cboVitalsPosition[4].TabIndex = 112;
-			this.cboVitalsPosition[4].Text = "cboVitalsPosition";
-			this.cboEyes = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(5);
+			this.cboEyes = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(4);
 			this.cboEyes[0] = _cboEyes_0;
 			this.cboEyes[1] = _cboEyes_1;
 			this.cboEyes[2] = _cboEyes_2;
 			this.cboEyes[3] = _cboEyes_3;
-            this.cboEyes[4] = _cboEyes_4;
 			this.cboEyes[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.cboEyes[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.cboEyes[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -2018,19 +1910,11 @@ namespace TFDIncident.ViewModels
 			this.cboEyes[3].Name = "_cboEyes_3";
 			this.cboEyes[3].TabIndex = 108;
 			this.cboEyes[3].Text = "cboEyes";
-            this.cboEyes[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.cboEyes[4].Enabled = false;
-			this.cboEyes[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.cboEyes[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.cboEyes[4].Name = "_cboEyes_4";
-			this.cboEyes[4].TabIndex = 122;
-			this.cboEyes[4].Text = "cboEyes";
-            this.cboVerbal = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(5);
+            this.cboVerbal = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(4);
 			this.cboVerbal[0] = _cboVerbal_0;
 			this.cboVerbal[1] = _cboVerbal_1;
 			this.cboVerbal[2] = _cboVerbal_2;
 			this.cboVerbal[3] = _cboVerbal_3;
-			this.cboVerbal[4] = _cboVerbal_4;
 			this.cboVerbal[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
             this.cboVerbal[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.cboVerbal[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -2058,19 +1942,11 @@ namespace TFDIncident.ViewModels
 			this.cboVerbal[3].Name = "_cboVerbal_3";
 			this.cboVerbal[3].TabIndex = 109;
 			this.cboVerbal[3].Text = "cboVerbal";
-			this.cboVerbal[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.cboVerbal[4].Enabled = false;
-            this.cboVerbal[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.cboVerbal[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.cboVerbal[4].Name = "_cboVerbal_4";
-			this.cboVerbal[4].TabIndex = 123;
-			this.cboVerbal[4].Text = "cboVerbal";
-			this.cboMotor = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(5);
+			this.cboMotor = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(4);
 			this.cboMotor[0] = _cboMotor_0;
             this.cboMotor[1] = _cboMotor_1;
 			this.cboMotor[2] = _cboMotor_2;
 			this.cboMotor[3] = _cboMotor_3;
-			this.cboMotor[4] = _cboMotor_4;
 			this.cboMotor[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
 			this.cboMotor[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.cboMotor[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -2098,13 +1974,6 @@ namespace TFDIncident.ViewModels
             this.cboMotor[3].Name = "_cboMotor_3";
 			this.cboMotor[3].TabIndex = 110;
 			this.cboMotor[3].Text = "cboMotor";
-			this.cboMotor[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.cboMotor[4].Enabled = false;
-			this.cboMotor[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.cboMotor[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.cboMotor[4].Name = "_cboMotor_4";
-			this.cboMotor[4].TabIndex = 124;
-			this.cboMotor[4].Text = "cboMotor";
 			this.frmSeverity = ctx.Resolve<UpgradeHelpers.BasicViewModels.GroupBoxViewModel>();
 			// 
 			// frmSeverity
@@ -2548,15 +2417,22 @@ namespace TFDIncident.ViewModels
 			this.lbNarr[0].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
 			this.lbNarr[0].Name = "_lbNarr_0";
 			this.lbNarr[0].TabIndex = 226;
-			this.lbNarr[0].Text = "INCIDENT LOCATION                                     INCIDENT ZIPCODE ";
-			this.ReqNarrString = "";
+			this.lbNarr[0].Text = "INCIDENT LOCATION";
+            this._lbZipCode.BackColor = UpgradeHelpers.Helpers.Color.White;
+            this._lbZipCode.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
+            this._lbZipCode.ForeColor = UpgradeHelpers.Helpers.Color.Navy;
+            this._lbZipCode.Name = "_lbZipCode";
+            this._lbZipCode.TabIndex = 226;
+            this._lbZipCode.Text = "INCIDENT ZIPCODE";
+            
+
+            this.ReqNarrString = "";
 			this.ListsLoaded = 0;
-            this.cboECG = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(5);
+            this.cboECG = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.ComboBoxViewModel>>(4);
 			this.cboECG[0] = _cboECG_0;
 			this.cboECG[1] = _cboECG_1;
 			this.cboECG[2] = _cboECG_2;
 			this.cboECG[3] = _cboECG_3;
-			this.cboECG[4] = _cboECG_4;
 			this.cboECG[0].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
             this.cboECG[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			this.cboECG[0].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -2584,13 +2460,6 @@ namespace TFDIncident.ViewModels
 			this.cboECG[3].Name = "_cboECG_3";
 			this.cboECG[3].TabIndex = 101;
 			this.cboECG[3].Text = "cboECG";
-			this.cboECG[4].BackColor = UpgradeHelpers.Helpers.SystemColors.Window;
-			this.cboECG[4].Enabled = false;
-            this.cboECG[4].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.cboECG[4].ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.cboECG[4].Name = "_cboECG_4";
-			this.cboECG[4].TabIndex = 115;
-			this.cboECG[4].Text = "cboECG";
 			this.chkSalineLock = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
 			// 
 			// chkSalineLock
@@ -2714,21 +2583,12 @@ namespace TFDIncident.ViewModels
 			this.imgMain[1] = _imgMain_1;
 			this.imgMain[0].Name = "_imgMain_0";
 			this.imgMain[1].Name = "_imgMain_1";
-			this.chkMajorTrauma = ctx.Resolve<UpgradeHelpers.BasicViewModels.CheckBoxViewModel>();
-			// 
-			// chkMajorTrauma
-			// 
-			this.chkMajorTrauma.BackColor = UpgradeHelpers.Helpers.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-			this.chkMajorTrauma.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 15.6F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			this.chkMajorTrauma.ForeColor = UpgradeHelpers.Helpers.SystemColors.ControlText;
-			this.chkMajorTrauma.Name = "chkMajorTrauma";
-			this.chkMajorTrauma.TabIndex = 200;
-			this.chkMajorTrauma.Text = "MAJOR TRAUMA";
-			this.frmALSAttempts = ctx.Resolve<UpgradeHelpers.BasicViewModels.GroupBoxViewModel>();
-			// 
-			// frmALSAttempts
-			// 
-			this.frmALSAttempts.BackColor = UpgradeHelpers.Helpers.Color.White;
+
+            // 
+            // frmALSAttempts
+            // 
+            this.frmALSAttempts = ctx.Resolve<UpgradeHelpers.BasicViewModels.GroupBoxViewModel>();
+            this.frmALSAttempts.BackColor = UpgradeHelpers.Helpers.Color.White;
 			this.frmALSAttempts.ForeColor = UpgradeHelpers.Helpers.SystemColors.ControlText;
 			this.frmALSAttempts.Name = "frmALSAttempts";
 			this.frmALSAttempts.TabIndex = 423;
@@ -2965,12 +2825,10 @@ namespace TFDIncident.ViewModels
 			lbVitals[1].TabIndex = 331;
 			lbVitals[1].Text = "VITALS";
             this.lbVital = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.LabelViewModel>>(75);
-			lbVital[70] = _lbVital_70;
 			lbVital[55] = _lbVital_55;
 			lbVital[40] = _lbVital_40;
 			lbVital[25] = _lbVital_25;
 			lbVital[10] = _lbVital_10;
-			lbVital[69] = _lbVital_69;
 			lbVital[54] = _lbVital_54;
 			lbVital[39] = _lbVital_39;
 			lbVital[24] = _lbVital_24;
@@ -3027,19 +2885,6 @@ namespace TFDIncident.ViewModels
             lbVital[58] = _lbVital_58;
 			lbVital[57] = _lbVital_57;
 			lbVital[56] = _lbVital_56;
-			lbVital[61] = _lbVital_61;
-			lbVital[64] = _lbVital_64;
-			lbVital[68] = _lbVital_68;
-			lbVital[67] = _lbVital_67;
-			lbVital[66] = _lbVital_66;
-			lbVital[65] = _lbVital_65;
-			lbVital[62] = _lbVital_62;
-			lbVital[63] = _lbVital_63;
-			lbVital[60] = _lbVital_60;
-			lbVital[74] = _lbVital_74;
-			lbVital[73] = _lbVital_73;
-			lbVital[72] = _lbVital_72;
-			lbVital[71] = _lbVital_71;
 			lbVital[10].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
 			lbVital[10].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Italic, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			lbVital[10].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
@@ -3445,111 +3290,6 @@ namespace TFDIncident.ViewModels
 			lbVital[56].Name = "_lbVital_56";
 			lbVital[56].TabIndex = 279;
 			lbVital[56].Text = "GCS";
-			lbVital[70].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[70].Enabled = false;
-			lbVital[70].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Italic, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[70].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[70].Name = "_lbVital_70";
-			lbVital[70].TabIndex = 442;
-			lbVital[70].Text = "Liters";
-			lbVital[69].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[69].Enabled = false;
-			lbVital[69].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[69].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[69].Name = "_lbVital_69";
-			lbVital[69].TabIndex = 437;
-			lbVital[69].Text = "%ON";
-			lbVital[61].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[61].Enabled = false;
-			lbVital[61].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[61].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[61].Name = "_lbVital_61";
-			lbVital[61].TabIndex = 278;
-			lbVital[61].Text = "VITALS POSITION";
-			lbVital[64].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[64].Enabled = false;
-			lbVital[64].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[64].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[64].Name = "_lbVital_64";
-			lbVital[64].TabIndex = 277;
-			lbVital[64].Text = "ECG";
-			lbVital[68].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[68].Enabled = false;
-			lbVital[68].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[68].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[68].Name = "_lbVital_68";
-			lbVital[68].TabIndex = 276;
-			lbVital[68].Text = "PULSE OXY";
-			lbVital[67].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[67].Enabled = false;
-			lbVital[67].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[67].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[67].Name = "_lbVital_67";
-			lbVital[67].TabIndex = 275;
-			lbVital[67].Text = "GLUCOSE";
-			lbVital[66].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[66].Enabled = false;
-			lbVital[66].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[66].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[66].Name = "_lbVital_66";
-			lbVital[66].TabIndex = 274;
-			lbVital[66].Text = "DIASTOLIC";
-			lbVital[65].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[65].Enabled = false;
-			lbVital[65].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[65].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[65].Name = "_lbVital_65";
-			lbVital[65].TabIndex = 273;
-			lbVital[65].Text = "SYSTOLIC";
-			lbVital[62].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[62].Enabled = false;
-			lbVital[62].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[62].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[62].Name = "_lbVital_62";
-			lbVital[62].TabIndex = 272;
-			lbVital[62].Text = "RESPIRATION";
-			lbVital[63].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[63].Enabled = false;
-			lbVital[63].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[63].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[63].Name = "_lbVital_63";
-			lbVital[63].TabIndex = 271;
-			lbVital[63].Text = "PULSE";
-			lbVital[60].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[60].Enabled = false;
-			lbVital[60].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[60].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[60].Name = "_lbVital_60";
-			lbVital[60].TabIndex = 270;
-			lbVital[60].Text = "TIME";
-			lbVital[74].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[74].Enabled = false;
-			lbVital[74].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[74].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[74].Name = "_lbVital_74";
-			lbVital[74].TabIndex = 269;
-			lbVital[74].Text = "MOTOR";
-			lbVital[73].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[73].Enabled = false;
-			lbVital[73].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[73].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[73].Name = "_lbVital_73";
-			lbVital[73].TabIndex = 268;
-			lbVital[73].Text = "VERBAL";
-			lbVital[72].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[72].Enabled = false;
-			lbVital[72].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[72].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbVital[72].Name = "_lbVital_72";
-			lbVital[72].TabIndex = 267;
-			lbVital[72].Text = "EYES";
-			lbVital[71].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
-			lbVital[71].Enabled = false;
-			lbVital[71].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 12F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbVital[71].ForeColor = UpgradeHelpers.Helpers.Color.Maroon;
-			lbVital[71].Name = "_lbVital_71";
-			lbVital[71].TabIndex = 266;
-			lbVital[71].Text = "GCS";
 			this.lbTreatment = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.LabelViewModel>>(30);
 			lbTreatment[6] = _lbTreatment_6;
 			lbTreatment[5] = _lbTreatment_5;
@@ -3952,16 +3692,21 @@ namespace TFDIncident.ViewModels
 			lbExam[1].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
 			lbExam[1].Name = "_lbExam_1";
 			lbExam[1].TabIndex = 201;
-			lbExam[1].Text = "INJURY TYPE                               BODY PART";
-			lbExam[0].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
+			lbExam[1].Text = "INJURY TYPE";
+            this._lbExam_BodyPart.BackColor = UpgradeHelpers.Helpers.Color.Transparent;
+            this._lbExam_BodyPart.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 10.2F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
+            this._lbExam_BodyPart.ForeColor = UpgradeHelpers.Helpers.Color.Navy;
+            this._lbExam_BodyPart.Name = "_lbExam_BodyPart";
+            //this._lbExam_BodyPart.TabIndex = 201;
+            this._lbExam_BodyPart.Text = "BODY PART";
+            lbExam[0].BackColor = UpgradeHelpers.Helpers.Color.Transparent;
 			lbExam[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			lbExam[0].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
 			lbExam[0].Name = "_lbExam_0";
 			lbExam[0].TabIndex = 139;
 			lbExam[0].Text = "MECH CODE";
-			this.lbCPR = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.LabelViewModel>>(4);
+			this.lbCPR = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.LabelViewModel>>(3);
 			lbCPR[2] = _lbCPR_2;
-			lbCPR[3] = _lbCPR_3;
 			lbCPR[0] = _lbCPR_0;
 			lbCPR[1] = _lbCPR_1;
 			lbCPR[2].BackColor = UpgradeHelpers.Helpers.Color.White;
@@ -3970,12 +3715,6 @@ namespace TFDIncident.ViewModels
 			lbCPR[2].Name = "_lbCPR_2";
 			lbCPR[2].TabIndex = 224;
 			lbCPR[2].Text = "TIMES IN MINUTES";
-			lbCPR[3].BackColor = UpgradeHelpers.Helpers.Color.White;
-			lbCPR[3].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 12F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
-			lbCPR[3].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
-			lbCPR[3].Name = "_lbCPR_3";
-			lbCPR[3].TabIndex = 223;
-			lbCPR[3].Text = "< 4   4-8  8-15 >15";
 			lbCPR[0].BackColor = UpgradeHelpers.Helpers.Color.White;
 			lbCPR[0].Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 12F, UpgradeHelpers.Helpers.FontStyle.Bold, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
 			lbCPR[0].ForeColor = UpgradeHelpers.Helpers.Color.Navy;
@@ -4017,32 +3756,6 @@ namespace TFDIncident.ViewModels
 			lbBasic[0].Name = "_lbBasic_0";
 			lbBasic[0].TabIndex = 183;
 			lbBasic[0].Text = "AGE";
-			this.Line3 = ctx.Resolve<System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.LabelViewModel>>(5);
-			Line3[0] = _Line3_0;
-			Line3[1] = _Line3_1;
-			Line3[2] = _Line3_2;
-			Line3[3] = _Line3_3;
-			Line3[4] = _Line3_4;
-			Line3[0].BackColor = UpgradeHelpers.Helpers.Color.Navy;
-			Line3[0].Enabled = false;
-			Line3[0].Name = "_Line3_0";
-			Line3[0].TabIndex = 443;
-			Line3[1].BackColor = UpgradeHelpers.Helpers.Color.Navy;
-			Line3[1].Enabled = false;
-			Line3[1].Name = "_Line3_1";
-			Line3[1].TabIndex = 444;
-			Line3[2].BackColor = UpgradeHelpers.Helpers.Color.Navy;
-			Line3[2].Enabled = false;
-			Line3[2].Name = "_Line3_2";
-			Line3[2].TabIndex = 445;
-			Line3[3].BackColor = UpgradeHelpers.Helpers.Color.Navy;
-			Line3[3].Enabled = false;
-			Line3[3].Name = "_Line3_3";
-			Line3[3].TabIndex = 446;
-			Line3[4].BackColor = UpgradeHelpers.Helpers.Color.Navy;
-			Line3[4].Enabled = false;
-			Line3[4].Name = "_Line3_4";
-			Line3[4].TabIndex = 447;
 			this.Name = "TFDIncident.wzdEms";
 			lstMedications.Items.Add("lstMedications");
 			lstCPRPerformedBy.Items.Add("lstCPRPerformedBy");
@@ -4053,7 +3766,6 @@ namespace TFDIncident.ViewModels
 			tabVitals.Items.Add(tabPage2);
 			tabVitals.Items.Add(tabPage3);
 			tabVitals.Items.Add(tabPage4);
-			tabVitals.Items.Add(tabPage5);
             vaTabPro2.Items.Add(tabLine1);
             vaTabPro2.Items.Add(tabLine2);
             vaTabPro2.Items.Add(tabLine3);
@@ -4225,8 +3937,6 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbTreatment_0 { get; set; }
 
-		public virtual VB6Helpers.ViewModels.ShapeHelperViewModel shpMedications { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.PanelViewModel frmTreatmentInfo { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.RadioButtonViewModel _optArrestToShock_3 { get; set; }
@@ -4263,11 +3973,7 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel cboCPRPerformedBy { get; set; }
 
-		public virtual VB6Helpers.ViewModels.ShapeHelperViewModel Shape2 { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbCPR_2 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbCPR_3 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbCPR_0 { get; set; }
 
@@ -4313,9 +4019,9 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel cboRace { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel mskBirthdate { get; set; }
+        public virtual WNFRMS.Viewmodels.DateTimePickerViewModel dpBirthdate { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel mskSSN { get; set; }
+        public virtual UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel mskSSN { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbPInfo_3 { get; set; }
 
@@ -4463,8 +4169,6 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.PanelViewModel frmProceduresPerformed { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtPerOxy_4 { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtPerOxy_3 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtPerOxy_2 { get; set; }
@@ -4559,28 +4263,6 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel _cboEyes_3 { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel _cboVitalsPosition_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel _cboECG_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtPulseOxy_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtGlucose_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtDiastolic_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtSystolic_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtRespiration_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtPulse_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel _cboMotor_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel _cboVerbal_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel _cboEyes_4 { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.TextBoxViewModel _txtPulse_1 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel _txtTime_0 { get; set; }
@@ -4591,10 +4273,6 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel _txtTime_3 { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.MaskedTextBoxViewModel _txtTime_4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_70 { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_55 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_40 { get; set; }
@@ -4602,8 +4280,6 @@ namespace TFDIncident.ViewModels
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_25 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_10 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_69 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_54 { get; set; }
 
@@ -4639,8 +4315,6 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_11 { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _Line3_0 { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_16 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_19 { get; set; }
@@ -4666,8 +4340,6 @@ namespace TFDIncident.ViewModels
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_27 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_26 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _Line3_1 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_31 { get; set; }
 
@@ -4695,8 +4367,6 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_41 { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _Line3_2 { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_46 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_49 { get; set; }
@@ -4722,36 +4392,6 @@ namespace TFDIncident.ViewModels
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_57 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_56 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _Line3_3 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_61 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_64 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_68 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_67 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_66 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_65 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_62 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_63 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_60 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_74 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_73 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_72 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbVital_71 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _Line3_4 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.TabControlViewModel tabVitals { get; set; }
 
@@ -4787,7 +4427,9 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbExam_1 { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel cboMechCode { get; set; }
+        public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbExam_BodyPart { get; set; }
+
+        public virtual UpgradeHelpers.BasicViewModels.ComboBoxViewModel cboMechCode { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel lbExamDate { get; set; }
 
@@ -4839,7 +4481,9 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbNarr_0 { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbFrameTitle_4 { get; set; }
+        public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbZipCode { get; set; }
+
+        public virtual UpgradeHelpers.BasicViewModels.LabelViewModel _lbFrameTitle_4 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.PanelViewModel frmNarration { get; set; }
 
@@ -4931,8 +4575,6 @@ namespace TFDIncident.ViewModels
 
 		public virtual UpgradeHelpers.BasicViewModels.CheckBoxViewModel _chkPalp_3 { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.CheckBoxViewModel _chkPalp_4 { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.CheckBoxViewModel chkNoVitals { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.CheckBoxViewModel chkMajTrauma { get; set; }
@@ -4954,8 +4596,6 @@ namespace TFDIncident.ViewModels
 		public virtual UpgradeHelpers.BasicViewModels.TabPageViewModel tabPage3 { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.TabPageViewModel tabPage4 { get; set; }
-
-		public virtual UpgradeHelpers.BasicViewModels.TabPageViewModel tabPage5 { get; set; }
 
         public virtual UpgradeHelpers.BasicViewModels.TabPageViewModel tabLine1 { get; set; }
 
@@ -5105,8 +4745,6 @@ namespace TFDIncident.ViewModels
 
 		public virtual System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.PictureBoxViewModel> imgMain { get; set; }
 
-		public virtual UpgradeHelpers.BasicViewModels.CheckBoxViewModel chkMajorTrauma { get; set; }
-
 		public virtual UpgradeHelpers.BasicViewModels.GroupBoxViewModel frmALSAttempts { get; set; }
 
 		public virtual UpgradeHelpers.BasicViewModels.GroupBoxViewModel frmBaseStationContact { get; set; }
@@ -5151,8 +4789,6 @@ namespace TFDIncident.ViewModels
 		public virtual System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.LabelViewModel> lbCPR { get; set; }
 
 		public virtual System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.LabelViewModel> lbBasic { get; set; }
-
-		public virtual System.Collections.Generic.IList<UpgradeHelpers.BasicViewModels.LabelViewModel> Line3 { get; set; }
 
 		public void OntxtMileage_TextChanged()
 		{

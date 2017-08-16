@@ -9,7 +9,7 @@
     </ItemGroup>
   </Target>
   <PropertyGroup>
-    <TypeScriptToolsVersion>2.0</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>
@@ -66,11 +66,13 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Mobilize.WebMap.Client.Controls">
-      <HintPath>..\Packages\Mobilize.WebMap.Client.Controls.0.0.0.0\lib\Mobilize.WebMap.Client.Controls.dll</HintPath>
+    <Reference Include="Mobilize.WebMap.Client.Controls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=72aeb7ea29952ec4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\WebMapClienHelpers\Mobilize.WebMap.Client.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Mobilize.WebMap.Client.Kendo">
-      <HintPath>..\packages\Mobilize.WebMap.Client.Kendo.0.0.0.0\lib\Mobilize.WebMap.Client.Kendo.dll</HintPath>
+    <Reference Include="Mobilize.WebMap.Client.Kendo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=72aeb7ea29952ec4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\UpgradeSupport\WebMapClienHelpers\Mobilize.WebMap.Client.Kendo.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -529,9 +531,11 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61227</DevelopmentServerPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost/prjIncident</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost/prjIncident</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

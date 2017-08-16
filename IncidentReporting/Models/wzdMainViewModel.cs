@@ -279,7 +279,7 @@ namespace TFDIncident.ViewModels
 			this.lbNavMessage.ForeColor = UpgradeHelpers.Helpers.Color.FromArgb(224, 224, 224);
 			this.lbNavMessage.Name = "lbNavMessage";
 			this.lbNavMessage.TabIndex = 276;
-			this.lbNavMessage.Text = "Pick Something!";
+			this.lbNavMessage.Text = "";
 			this.Label23 = ctx.Resolve<UpgradeHelpers.BasicViewModels.LabelViewModel>();
 			// 
 			// Label23

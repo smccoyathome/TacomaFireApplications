@@ -588,14 +588,14 @@ namespace TFDIncident.Controllers
 			return new UpgradeHelpers.WebMap.Server.AppChanges();
 		}
 
-		public System.Web.Mvc.ActionResult mskBirthdate_Leave(TFDIncident.ViewModels.wzdEmsViewModel viewFromClient, object eventSender)
-		{
-			logic.ViewModel = viewFromClient;
-			logic.mskBirthdate_Leave(null, null);
-			return new UpgradeHelpers.WebMap.Server.AppChanges();
-		}
+        public System.Web.Mvc.ActionResult dpBirthdate_Click(TFDIncident.ViewModels.wzdEmsViewModel viewFromClient, object eventSender)
+        {
+            logic.ViewModel = viewFromClient;
+            logic.dpBirthdate_Click(null, null);
+            return new UpgradeHelpers.WebMap.Server.AppChanges();
+        }
 
-		public System.Web.Mvc.ActionResult txtPatientAge_TextChanged(TFDIncident.ViewModels.wzdEmsViewModel viewFromClient, object eventSender)
+        public System.Web.Mvc.ActionResult txtPatientAge_TextChanged(TFDIncident.ViewModels.wzdEmsViewModel viewFromClient, object eventSender)
 		{
 			logic.ViewModel = viewFromClient;
 			logic.txtPatientAge_TextChanged(null, null);
@@ -903,7 +903,7 @@ namespace TFDIncident.Controllers
 			return new UpgradeHelpers.WebMap.Server.AppChanges();
 		}
 
-		public System.Web.Mvc.ActionResult Index()
+        public System.Web.Mvc.ActionResult Index()
 		{
 			ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 			return View();

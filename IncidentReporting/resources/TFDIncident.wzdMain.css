@@ -2672,9 +2672,9 @@
 	font-size: large;
 	font-weight: bold;
 	/* font-style: italic; */
-	color: darkgreen;
-	left: 8px;
-	top: 8px;
+	color: darkblue;
+	left: 20px;
+	top: 10px;
 	position: absolute;
 	width: 701px;
 	height: 41px;
@@ -2704,8 +2704,8 @@
 	cursor: default;
 	font-family: Verdana;
 	font-size: large;
-	color: darkgreen;
-	left: 24px;
+	color: darkblue;
+	left: 20px;
 	top: 40px;
 	position: absolute;
 	width: 230px;
@@ -2718,7 +2718,7 @@
 	cursor: default;
 	font-family: Verdana;
 	font-size: large;
-	color: darkgreen;
+	color: darkblue;
 	left: 272px;
 	top: 40px;
 	position: absolute;
@@ -2727,7 +2727,7 @@
 }
 .TFDIncident_wzdMain .frmSituation {
 	background-color: white;
-	left: 0px;
+	left: 20px;
 	top: 80px;
 	position: absolute;
 	width: 520px;
@@ -2938,7 +2938,7 @@
 	color: #57665C;
 }
 .TFDIncident_wzdMain .FDCaresBtn {
-    background-color:goldenrod;
+    background-color: palegoldenrod;
     font-family: Microsoft Sans Serif;
     font-size:small;
     /*font-weight: bold;*/
@@ -3097,7 +3097,7 @@
 	height: 25px;
 }
 .TFDIncident_wzdMain .Frame2 {
-	background-color: darkolivegreen;
+	background-color: steelblue;
 	border-width: 0px;
 	padding: 0px;
 	cursor: default;
@@ -3241,7 +3241,7 @@
 	cursor: default;
 	font-family: Verdana;
 	font-size: large;
-	color: darkgreen;
+	color: darkblue;
 	left: 620px;
 	top: 40px;
 	position: absolute;
@@ -3321,7 +3321,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 10px;
 	position: absolute;
@@ -3336,7 +3336,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 48px;
 	position: absolute;
@@ -3423,7 +3423,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 86px;
 	position: absolute;
@@ -3455,7 +3455,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 124px;
 	position: absolute;
@@ -3489,7 +3489,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 162px;
 	position: absolute;
@@ -3576,7 +3576,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 200px;
 	position: absolute;
@@ -3627,7 +3627,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 238px;
 	position: absolute;
@@ -3642,7 +3642,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 276px;
 	position: absolute;
@@ -3729,7 +3729,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 314px;
 	position: absolute;
@@ -3761,7 +3761,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 352px;
 	position: absolute;
@@ -3795,7 +3795,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 390px;
 	position: absolute;
@@ -3882,7 +3882,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 428px;
 	position: absolute;
@@ -3897,7 +3897,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	/* font-weight: bold; */
-	color: darkgreen;
+	color: darkblue;
 	left: 12px;
 	top: 466px;
 	position: absolute;
@@ -4925,12 +4925,12 @@
 	padding: 0px;
 	cursor: default;
 	font-family: Verdana;
-	font-size: 23.76px;
+	font-size: large;
 	font-weight: bold;
-	font-style: italic;
+	/* font-style: italic; */
 	color: darkblue;
-	left: 10px;
-	top: 8px;
+	left: 20px;
+	top: 10px;
 	position: absolute;
 	width: 729px;
 	height: 41px;
@@ -5031,11 +5031,11 @@
 	padding: 0px;
 	cursor: default;
 	font-family: Verdana;
-	font-size: small;
+	font-size: medium;
 	/* font-weight: bold; */
 	color: darkblue;
 	left: 200px;
-	top: 164px;
+	top: 180px;
 	position: absolute;
 	width: 73px;
 	height: 25px;
@@ -5046,11 +5046,11 @@
 	padding: 0px;
 	cursor: default;
 	font-family: Verdana;
-	font-size: small;
+	font-size: medium;
 	/* font-weight: bold; */
 	color: darkblue;
-	left: 300px;
-	top: 164px;
+	left: 370px;
+	top: 180px;
 	position: absolute;
 	width: 389px;
 	height: 25px;
@@ -5065,7 +5065,7 @@
 	/* font-weight: bold; */
 	color: steelblue;
 	left: 20px;
-	top: 188px;
+	top: 180px;
 	position: absolute;
 	width: 165px;
 	height: 25px;
@@ -5091,11 +5091,11 @@
 	padding: 0px;
 	cursor: default;
 	font-family: Verdana;
-	font-size: small;
+	font-size: medium;
 	/* font-weight: bold; */
 	color: darkblue;
-	left: 200px;
-	top: 188px;
+	left: 290px;
+	top: 180px;
 	position: absolute;
 	width: 89px;
 	height: 25px;
@@ -5109,8 +5109,8 @@
 	font-size: medium;
 	/* font-weight: bold; */
 	color: darkblue;
-	left: 10px;
-	top: 230px;
+	left: 20px;
+	top: 220px;
 	position: absolute;
 	width: 365px;
 	height: 25px;
@@ -5141,11 +5141,11 @@
 	font-size: medium;
 	/* font-style: italic; */
 	color: steelblue;
-	left: 10px;
+	left: 20px;
 	top: 250px;
 	position: absolute;
 	width: 473px;
-	height: 350px;
+	height: 330px;
 	visibility: inherit;
 }
 .TFDIncident_wzdMain .cmdSave {
@@ -5153,8 +5153,8 @@
 	cursor: default;
 	font-family: Verdana;
 	font-size: medium;
-	left: 496px;
-	top: 300px;
+	left: 520px;
+	top: 250px;
 	position: absolute;
 	width: 267px;
 	height: 33px;
@@ -5171,8 +5171,8 @@
 	cursor: default;
 	font-family: Verdana;
 	font-size: medium;
-	left: 496px;
-	top: 350px;
+	left: 520px;
+	top: 300px;
 	position: absolute;
 	width: 267px;
 	height: 33px;
@@ -5189,8 +5189,8 @@
 	cursor: default;
 	font-family: Verdana;
 	font-size: medium;
-	left: 496px;
-	top: 400px;
+	left: 520px;
+	top: 350px;
 	position: absolute;
 	width: 267px;
 	height: 33px;
