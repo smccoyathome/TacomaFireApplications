@@ -1396,7 +1396,7 @@ namespace PTSProject
 			
 			
 			ViewModel._lbPos1am_1.BeginDrag();
-		}
+		}                                            
 
 		[UpgradeHelpers.Events.Handler]
 		internal void _lbPos1am_0_MouseDown(Object eventSender, UpgradeHelpers.Events.MouseEventArgs eventArgs)
@@ -3344,7 +3344,8 @@ namespace PTSProject
 					while ( !oRec.EOF )
 					{
 						WorkDate = Convert.ToDateTime(oRec["shift_start"]).ToString("M/d/yyyy");
-						AMPM = UpgradeHelpers.Helpers.StringsHelper.Format(oRec["shift_start"], "AM/PM");
+                        AMPM = Convert.ToDateTime(oRec["shift_start"]).ToString("tt");
+                        //AMPM = UpgradeHelpers.Helpers.StringsHelper.Format(oRec["shift_start"], "AM/PM");
 						for ( i = 0; i <= 6; i++ )
 						{
 							if ( ViewModel.lbWeekDay[i].Text == WorkDate )
@@ -3396,778 +3397,779 @@ namespace PTSProject
 						StartDate = ViewModel.calWeek.Value.Date.ToString("M/d/yyyy");
 						EndDate = DateTime.Parse(StartDate).AddDays(7).ToString("M/d/yyyy");
 
-						//Clear Employee Label Array
-						ClearSchedule();
+                //Clear Employee Label Array
+                ClearSchedule();
 
-						oCmd.Connection = modGlobal.oConn;
-						oCmd.CommandType = CommandType.Text;
+                oCmd.Connection = modGlobal.oConn;
+				oCmd.CommandType = CommandType.Text;
 
-						System.DateTime TempDate = DateTime.FromOADate(0);
-						oCmd.CommandText = "spSelect_PayRollYearPayPeriod '" + ((DateTime.TryParse(StartDate, out TempDate)) ? TempDate.ToString("M/d/yyyy") : StartDate) + "' ";
-						oRec = ADORecordSetHelper.Open(oCmd, "");
-						if ( !oRec.EOF )
+				System.DateTime TempDate = DateTime.FromOADate(0);
+				oCmd.CommandText = "spSelect_PayRollYearPayPeriod '" + ((DateTime.TryParse(StartDate, out TempDate)) ? TempDate.ToString("M/d/yyyy") : StartDate) + "' ";
+				oRec = ADORecordSetHelper.Open(oCmd, "");
+				if ( !oRec.EOF )
+				{
+					modGlobal.Shared.gPayrollYear = Convert.ToInt32(oRec["calendar_year"]);
+					modGlobal.Shared.gPayPeriod = Convert.ToInt32(oRec["pay_period"]);
+				}
+				ViewModel.cmdPayroll.Enabled = false;
+
+				if ( cPayroll.CheckPayRollStatus(modGlobal.Shared.gPayrollYear, modGlobal.Shared.gPayPeriod) != 0 )
+				{
+					if ( Convert.ToString(cPayroll.PayrollReconciliation["PayrollStatus"]) == "Open" )
+					{
+						if ( modGlobal.Shared.gSecurity == "BAT" || modGlobal.Shared.gSecurity == "ADM" || modGlobal.Shared.gSecurity == "AID" )
 						{
-							modGlobal.Shared.gPayrollYear = Convert.ToInt32(oRec["calendar_year"]);
-							modGlobal.Shared.gPayPeriod = Convert.ToInt32(oRec["pay_period"]);
+							ViewModel.cmdPayroll.Enabled = true;
+
 						}
-						ViewModel.cmdPayroll.Enabled = false;
+					}
+				}
 
-						if ( cPayroll.CheckPayRollStatus(modGlobal.Shared.gPayrollYear, modGlobal.Shared.gPayPeriod) != 0 )
+				//Select Schedule for selected Week
+				oCmd.CommandText = "sp_GetXSchedule '" + StartDate + "','" + EndDate + "','" + modGlobal.Shared.gType + "'";
+				oRec = ADORecordSetHelper.Open(oCmd, "");
+
+				//Load Employee Schedule label arrays
+
+				while ( !oRec.EOF )
+				{
+					WorkDate = Convert.ToDateTime(oRec["shift_start"]).ToString("M/d/yyyy");
+                    AMPM = Convert.ToDateTime(oRec["shift_start"]).ToString("tt");
+                    //AMPM = UpgradeHelpers.Helpers.StringsHelper.Format(oRec["shift_start"], "AM/PM");
+					//Find WeekDay
+					for ( i = 0; i <= 6; i++ )
+					{
+						if ( ViewModel.lbWeekDay[i].Text == WorkDate )
 						{
-							if ( Convert.ToString(cPayroll.PayrollReconciliation["PayrollStatus"]) == "Open" )
-							{
-								if ( modGlobal.Shared.gSecurity == "BAT" || modGlobal.Shared.gSecurity == "ADM" || modGlobal.Shared.gSecurity == "AID" )
-								{
-									ViewModel.cmdPayroll.Enabled = true;
-
-								}
-							}
+							break;
 						}
-
-						//Select Schedule for selected Week
-						oCmd.CommandText = "sp_GetXSchedule '" + StartDate + "','" + EndDate + "','" + modGlobal.Shared.gType + "'";
-						oRec = ADORecordSetHelper.Open(oCmd, "");
-
-						//Load Employee Schedule label arrays
-
-						while ( !oRec.EOF )
+					}
+					//Find Unit/Position
+					for ( int u = 0; u <= 22; u++ )
+					{
+						if ( modGlobal.Clean(ViewModel.lbUnitArray[u].Text) == modGlobal.Clean(oRec["unit_code"]) )
 						{
-							WorkDate = Convert.ToDateTime(oRec["shift_start"]).ToString("M/d/yyyy");
-							AMPM = UpgradeHelpers.Helpers.StringsHelper.Format(oRec["shift_start"], "AM/PM");
-							//Find WeekDay
-							for ( i = 0; i <= 6; i++ )
+							if ( modGlobal.Clean(ViewModel.lbPositionArray[u].Text) == modGlobal.Clean(oRec["position_code"]) )
 							{
-								if ( ViewModel.lbWeekDay[i].Text == WorkDate )
+								if ( modGlobal.Clean(ViewModel.lbAMPM[u].Text) == modGlobal.Clean(AMPM) )
 								{
-									break;
-								}
-							}
-							//Find Unit/Position
-							for ( int u = 0; u <= 22; u++ )
-							{
-								if ( modGlobal.Clean(ViewModel.lbUnitArray[u].Text) == modGlobal.Clean(oRec["unit_code"]) )
-								{
-									if ( modGlobal.Clean(ViewModel.lbPositionArray[u].Text) == modGlobal.Clean(oRec["position_code"]) )
+									switch ( u )
 									{
-										if ( modGlobal.Clean(ViewModel.lbAMPM[u].Text) == modGlobal.Clean(AMPM) )
-										{
-											switch ( u )
+										case 0: //FCCCP 
+
+                                    ViewModel.lbPos1am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos1am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
 											{
-												case 0: //FCCCP 
-
-                                            ViewModel.lbPos1am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos1am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos1am[i].Text = ViewModel.lbPos1am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos1am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos1am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos1am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP1am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos1am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos1am[i].Enabled = false;
-													}
-
-													break;
-												case 1: //FCCCTO 
-
-                                            ViewModel.lbPos2am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos2am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos2am[i].Text = ViewModel.lbPos2am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos2am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos2am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos2am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP2am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos2am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos2am[i].Enabled = false;
-													}
-
-													break;
-												case 2: //FCCOFF 
-
-                                            ViewModel.lbPos3am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos3am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos3am[i].Text = ViewModel.lbPos3am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos3am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos3am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos3am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP3am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos3am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos3am[i].Enabled = false;
-													}
-													break;
-												case 3:
-                                            ViewModel.lbPos3pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos3pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos3pm[i].Text = ViewModel.lbPos3pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos3pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos3pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos3pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP3pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos3pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos3pm[i].Enabled = false;
-													}
-
-													break;
-												case 4: //FFDISP1 
-
-                                            ViewModel.lbPos4am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos4am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos4am[i].Text = ViewModel.lbPos4am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos4am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos4am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos4am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP4am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos4am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos4am[i].Enabled = false;
-													}
-													break;
-												case 5:
-                                            ViewModel.lbPos4pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos4pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos4pm[i].Text = ViewModel.lbPos4pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos4pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos4pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos4pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP4pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos4pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos4pm[i].Enabled = false;
-													}
-
-													break;
-												case 6: //FFDISP2 
-
-                                            ViewModel.lbPos5am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos5am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos5am[i].Text = ViewModel.lbPos5am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos5am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos5am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos5am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP5am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos5am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos5am[i].Enabled = false;
-													}
-													break;
-												case 7:
-                                            ViewModel.lbPos5pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos5pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos5pm[i].Text = ViewModel.lbPos5pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos5pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos5pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos5pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP5pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos5pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos5pm[i].Enabled = false;
-													}
-
-													break;
-												case 8: //FFDISP3 
-
-                                            ViewModel.lbPos6am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos6am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos6am[i].Text = ViewModel.lbPos6am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos6am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos6am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos6am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP6am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos6am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos6am[i].Enabled = false;
-													}
-													break;
-												case 9:
-                                            ViewModel.lbPos6pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos6pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos6pm[i].Text = ViewModel.lbPos6pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos6pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos6pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos6pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP6pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos6pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos6pm[i].Enabled = false;
-													}
-
-													break;
-												case 10: //FFDISP4 
-
-                                            ViewModel.lbPos7am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos7am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos7am[i].Text = ViewModel.lbPos7am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos7am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos7am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos7am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP7am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos7am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos7am[i].Enabled = false;
-													}
-													break;
-												case 11:
-                                            ViewModel.lbPos7pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos7pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos7pm[i].Text = ViewModel.lbPos7pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos7pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos7pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos7pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP7pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos7pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos7pm[i].Enabled = false;
-													}
-
-													break;
-												case 12: //FFDISP5 
-
-                                            ViewModel.lbPos8am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos8am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos8am[i].Text = ViewModel.lbPos8am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos8am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos8am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos8am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP8am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos8am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos8am[i].Enabled = false;
-													}
-
-													break;
-												case 13: //FFDISP6 
-
-                                            ViewModel.lbPos9am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos9am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos9am[i].Text = ViewModel.lbPos9am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos9am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos9am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos9am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP9am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos9am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos9am[i].Enabled = false;
-													}
-
-													break;
-												case 14:
-                                            ViewModel.lbPos9pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos9pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos9pm[i].Text = ViewModel.lbPos9pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos9pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos9pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos9pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.lbPos9pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos9pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos9pm[i].Enabled = false;
-													}
-
-													break;
-												case 15: //FFDISP7 
-
-                                            ViewModel.lbPos10am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos10am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos10am[i].Text = ViewModel.lbPos10am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos10am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos10am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos10am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP10am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos10am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos10am[i].Enabled = false;
-													}
-													break;
-												case 16:
-                                            ViewModel.lbPos10pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos10pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos10pm[i].Text = ViewModel.lbPos10pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos10pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos10pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos10pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP10pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos10pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos10pm[i].Enabled = false;
-													}
-
-													break;
-												case 17: //TRNDISP 
-
-                                            ViewModel.lbPos11am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos11am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos11am[i].Text = ViewModel.lbPos11am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos11am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos11am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos11am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP11am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos11am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos11am[i].Enabled = false;
-													}
-													break;
-												case 18:
-                                            ViewModel.lbPos11pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos11pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos11pm[i].Text = ViewModel.lbPos11pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos11pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos11pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos11pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP11pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos11pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos11pm[i].Enabled = false;
-													}
-
-													break;
-												case 19: //TRNDISP2 
-
-                                            ViewModel.lbPos12am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos12am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos12am[i].Text = ViewModel.lbPos12am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos12am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos12am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos12am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP12am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos12am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos12am[i].Enabled = false;
-													}
-													break;
-												case 20:
-                                            ViewModel.lbPos12pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos12pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos12pm[i].Text = ViewModel.lbPos12pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos12pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos12pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos12pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP12pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos12pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos12pm[i].Enabled = false;
-													}
-
-													break;
-												case 21: //TRNDISP3 
-
-                                            ViewModel.lbPos13am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos13am[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos13am[i].Text = ViewModel.lbPos13am[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos13am[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos13am[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos13am[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP13am[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos13am[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos13am[i].Enabled = false;
-													}
-													break;
-												case 22:
-                                            ViewModel.lbPos13pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
-													ViewModel.lbPos13pm[i].Tag = Convert.ToString(oRec["employee_id"]);
-													if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
-													{
-														ViewModel.lbPos13pm[i].Text = ViewModel.lbPos13pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
-													{
-														ViewModel.lbPos13pm[i].ForeColor = modGlobal.Shared.RED;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
-													{
-														ViewModel.lbPos13pm[i].ForeColor = modGlobal.Shared.BLUE;
-													}
-													if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
-													{
-														ViewModel.lbPos13pm[i].ForeColor = modGlobal.Shared.GREEN;
-													}
-													if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
-													{
-														ViewModel.shpP13pm[i].Visible = true;
-													}
-													if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
-													{
-														ViewModel.lbPos13pm[i].BackColor = modGlobal.Shared.LT_GRAY;
-														ViewModel.lbPos13pm[i].Enabled = false;
-													}
-													break;
+												ViewModel.lbPos1am[i].Text = ViewModel.lbPos1am[i].Text + Convert.ToString(oRec["CSR_flag"]);
 											}
-										}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos1am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos1am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos1am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP1am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos1am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos1am[i].Enabled = false;
+											}
+
+											break;
+										case 1: //FCCCTO 
+
+                                    ViewModel.lbPos2am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos2am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos2am[i].Text = ViewModel.lbPos2am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos2am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos2am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos2am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP2am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos2am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos2am[i].Enabled = false;
+											}
+
+											break;
+										case 2: //FCCOFF 
+
+                                    ViewModel.lbPos3am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos3am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos3am[i].Text = ViewModel.lbPos3am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos3am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos3am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos3am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP3am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos3am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos3am[i].Enabled = false;
+											}
+											break;
+										case 3:
+                                    ViewModel.lbPos3pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos3pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos3pm[i].Text = ViewModel.lbPos3pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos3pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos3pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos3pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP3pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos3pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos3pm[i].Enabled = false;
+											}
+
+											break;
+										case 4: //FFDISP1 
+
+                                    ViewModel.lbPos4am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos4am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos4am[i].Text = ViewModel.lbPos4am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos4am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos4am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos4am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP4am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos4am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos4am[i].Enabled = false;
+											}
+											break;
+										case 5:
+                                    ViewModel.lbPos4pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos4pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos4pm[i].Text = ViewModel.lbPos4pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos4pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos4pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos4pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP4pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos4pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos4pm[i].Enabled = false;
+											}
+
+											break;
+										case 6: //FFDISP2 
+
+                                    ViewModel.lbPos5am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos5am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos5am[i].Text = ViewModel.lbPos5am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos5am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos5am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos5am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP5am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos5am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos5am[i].Enabled = false;
+											}
+											break;
+										case 7:
+                                    ViewModel.lbPos5pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos5pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos5pm[i].Text = ViewModel.lbPos5pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos5pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos5pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos5pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP5pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos5pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos5pm[i].Enabled = false;
+											}
+
+											break;
+										case 8: //FFDISP3 
+
+                                    ViewModel.lbPos6am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos6am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos6am[i].Text = ViewModel.lbPos6am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos6am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos6am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos6am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP6am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos6am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos6am[i].Enabled = false;
+											}
+											break;
+										case 9:
+                                    ViewModel.lbPos6pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos6pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos6pm[i].Text = ViewModel.lbPos6pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos6pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos6pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos6pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP6pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos6pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos6pm[i].Enabled = false;
+											}
+
+											break;
+										case 10: //FFDISP4 
+
+                                    ViewModel.lbPos7am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos7am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos7am[i].Text = ViewModel.lbPos7am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos7am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos7am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos7am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP7am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos7am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos7am[i].Enabled = false;
+											}
+											break;
+										case 11:
+                                    ViewModel.lbPos7pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos7pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos7pm[i].Text = ViewModel.lbPos7pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos7pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos7pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos7pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP7pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos7pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos7pm[i].Enabled = false;
+											}
+
+											break;
+										case 12: //FFDISP5 
+
+                                    ViewModel.lbPos8am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos8am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos8am[i].Text = ViewModel.lbPos8am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos8am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos8am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos8am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP8am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos8am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos8am[i].Enabled = false;
+											}
+
+											break;
+										case 13: //FFDISP6 
+
+                                    ViewModel.lbPos9am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos9am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos9am[i].Text = ViewModel.lbPos9am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos9am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos9am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos9am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP9am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos9am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos9am[i].Enabled = false;
+											}
+
+											break;
+										case 14:
+                                    ViewModel.lbPos9pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos9pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos9pm[i].Text = ViewModel.lbPos9pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos9pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos9pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos9pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.lbPos9pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos9pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos9pm[i].Enabled = false;
+											}
+
+											break;
+										case 15: //FFDISP7 
+
+                                    ViewModel.lbPos10am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos10am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos10am[i].Text = ViewModel.lbPos10am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos10am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos10am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos10am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP10am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos10am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos10am[i].Enabled = false;
+											}
+											break;
+										case 16:
+                                    ViewModel.lbPos10pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos10pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos10pm[i].Text = ViewModel.lbPos10pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos10pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos10pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos10pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP10pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos10pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos10pm[i].Enabled = false;
+											}
+
+											break;
+										case 17: //TRNDISP 
+
+                                    ViewModel.lbPos11am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos11am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos11am[i].Text = ViewModel.lbPos11am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos11am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos11am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos11am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP11am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos11am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos11am[i].Enabled = false;
+											}
+											break;
+										case 18:
+                                    ViewModel.lbPos11pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos11pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos11pm[i].Text = ViewModel.lbPos11pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos11pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos11pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos11pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP11pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos11pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos11pm[i].Enabled = false;
+											}
+
+											break;
+										case 19: //TRNDISP2 
+
+                                    ViewModel.lbPos12am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos12am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos12am[i].Text = ViewModel.lbPos12am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos12am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos12am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos12am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP12am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos12am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos12am[i].Enabled = false;
+											}
+											break;
+										case 20:
+                                    ViewModel.lbPos12pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos12pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos12pm[i].Text = ViewModel.lbPos12pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos12pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos12pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos12pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP12pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos12pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos12pm[i].Enabled = false;
+											}
+
+											break;
+										case 21: //TRNDISP3 
+
+                                    ViewModel.lbPos13am[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos13am[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos13am[i].Text = ViewModel.lbPos13am[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos13am[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos13am[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos13am[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP13am[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos13am[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos13am[i].Enabled = false;
+											}
+											break;
+										case 22:
+                                    ViewModel.lbPos13pm[i].Text = Convert.ToString(oRec["name_last"]).Trim() + " " + Convert.ToString(oRec["name_first"]).Substring(0, Math.Min(1, Convert.ToString(oRec["name_first"]).Length)) + ".";
+											ViewModel.lbPos13pm[i].Tag = Convert.ToString(oRec["employee_id"]);
+											if ( Convert.ToString(oRec["CSR_flag"]) != "No" )
+											{
+												ViewModel.lbPos13pm[i].Text = ViewModel.lbPos13pm[i].Text + Convert.ToString(oRec["CSR_flag"]);
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "OTP" || modGlobal.Clean(oRec["time_code_id"]) == "EDO" )
+											{
+												ViewModel.lbPos13pm[i].ForeColor = modGlobal.Shared.RED;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "DDF" || modGlobal.Clean(oRec["time_code_id"]) == "UDD" )
+											{
+												ViewModel.lbPos13pm[i].ForeColor = modGlobal.Shared.BLUE;
+											}
+											if ( modGlobal.Clean(oRec["time_code_id"]) == "TRD" )
+											{
+												ViewModel.lbPos13pm[i].ForeColor = modGlobal.Shared.GREEN;
+											}
+											if ( Convert.ToBoolean(oRec["pay_upgrade"]) )
+											{
+												ViewModel.shpP13pm[i].Visible = true;
+											}
+											if ( Convert.ToString(ViewModel.lbWeekDay[i].Tag) == "Locked" )
+											{
+												ViewModel.lbPos13pm[i].BackColor = modGlobal.Shared.LT_GRAY;
+												ViewModel.lbPos13pm[i].Enabled = false;
+											}
+											break;
 									}
 								}
 							}
-							oRec.MoveNext();
 						}
-						;
-
-								GetLeave();
-
 					}
-				catch
-				{
-
-                if (modGlobal.ErrorControl() == modGlobal.eFATALERROR)
-						{
-								return ;
-							}
+					oRec.MoveNext();
 				}
+				;
+
+						GetLeave();
 
 			}
+		catch
+		{
+
+        if (modGlobal.ErrorControl() == modGlobal.eFATALERROR)
+				{
+						return ;
+					}
+		}
+
+	}
 
 
 		public void FillWeekLabels()

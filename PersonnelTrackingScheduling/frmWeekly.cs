@@ -3064,9 +3064,10 @@ namespace PTSProject
 
 					while ( !oRec.EOF )
 					{
-						WorkDate = Convert.ToDateTime(oRec["shift_start"]).ToString("M/d/yyyy");
-						AMPM = UpgradeHelpers.Helpers.StringsHelper.Format(oRec["shift_start"], "AM/PM");
-						for ( i = 0; i <= 6; i++ )
+					WorkDate = Convert.ToDateTime(oRec["shift_start"]).ToString("M/d/yyyy");
+					//AMPM = UpgradeHelpers.Helpers.StringsHelper.Format(oRec["shift_start"], "AM/PM");
+                    AMPM = Convert.ToDateTime(oRec["shift_start"]).ToString("tt");
+                    for ( i = 0; i <= 6; i++ )
 						{
 							if ( ViewModel.lbWeekDay[i].Text == WorkDate )
 							{
@@ -3157,10 +3158,11 @@ namespace PTSProject
 
 						while ( !oRec.EOF )
 						{
-							WorkDate = Convert.ToDateTime(oRec["shift_start"]).ToString("M/d/yyyy");
-							AMPM = UpgradeHelpers.Helpers.StringsHelper.Format(oRec["shift_start"], "AM/PM");
-							//Find WeekDay
-							for ( i = 0; i <= 6; i++ )
+						WorkDate = Convert.ToDateTime(oRec["shift_start"]).ToString("M/d/yyyy");
+                        AMPM = Convert.ToDateTime(oRec["shift_start"]).ToString("tt");
+                    //AMPM = UpgradeHelpers.Helpers.StringsHelper.Format(oRec["shift_start"], "AM/PM");
+                    //Find WeekDay
+                    for ( i = 0; i <= 6; i++ )
 							{
 								if ( ViewModel.lbWeekDay[i].Text == WorkDate )
 								{
