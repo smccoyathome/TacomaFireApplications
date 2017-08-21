@@ -253,8 +253,8 @@ namespace Custom.ViewModels.Grid
 				var index = Rows.IndexOf(value);
 				var pageNumber = index / PageSize;
 				var widgetIndex = Math.Abs(pageNumber * PageSize - index);
-				ActiveRowIndex = new[] { widgetIndex, pageNumber - 1, PageSize };
-			}
+                ActiveRowIndex = new[] { widgetIndex, pageNumber - 1, PageSize };
+            }
 		}
 
 		/// <summary>

@@ -41,7 +41,7 @@ namespace Custom.ViewModels.Grid
 		{
 			get
 			{
-				if (Grid.DataSource != null)
+				if (Grid != null && Grid.DataSource != null)
 					return RowByIndex(index);
 				return Items[index];
 			}

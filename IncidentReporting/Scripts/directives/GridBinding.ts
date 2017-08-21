@@ -230,8 +230,8 @@ module kendo.data.binders.widget {
             this.isUpdating = true;
             if (this.element.options.dataSource) { //If datasource is set
                 try {
-                    var page = this.element.options.dataSource.page;
-                    var pageSize = this.element.options.dataSource.pageSize;
+                    var page = this.element.pager.page();
+                    var pageSize = this.element.pager.pageSize();
                     value = [activeRowIndex, page, pageSize];
                     binding.set(value);
                 } finally {

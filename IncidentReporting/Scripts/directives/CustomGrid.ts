@@ -24,7 +24,7 @@ module Mobilize.Ifgs {
             options.resizable = true;
             options.scrollable = true;
             options.groupable = true;
-            options.selectable = "cell";
+            options.selectable = "row";
             options.navigatable = true;
             options.pageable = true;
             options.editable = false;
@@ -101,9 +101,7 @@ module Mobilize.Ifgs {
                 var table = $(grid).find('table');
                 $(table).attr('tabindex', 0);
                 $(table).unbind('dblclick');
-                $(table).bind('dblclick', () => {
-                    that.trigger("doubleClick");
-                });
+                $(table).bind('dblclick', () => {that.trigger("doubleClick");});
                 $(table).find('tr').unbind('mousedown');
                 $(table).find('tr').bind('mousedown', () => {
                     that.trigger("mousedown");

@@ -21,9 +21,9 @@ namespace TFDIncident
         void UpgradeHelpers.Interfaces.IInitializable.Init()
         {
             this.CallBaseInit(typeof(frmMain));
-            if ( Shared.m_vb6FormDefInstance == null)
+            if (Shared.m_vb6FormDefInstance == null)
             {
-                if ( Shared.m_InitializingDefInstance)
+                if (Shared.m_InitializingDefInstance)
                 {
                     Shared.
                         m_vb6FormDefInstance = this;
@@ -36,14 +36,14 @@ namespace TFDIncident
 
         private void GetHelpText()
         {
-            TFDIncident.clsCommonCodes cCommon = Container.Resolve< clsCommonCodes>();
+            TFDIncident.clsCommonCodes cCommon = Container.Resolve<clsCommonCodes>();
 
             if (~cCommon.GetHelpText(IncidentMain.Shared.gHelpScreen, IncidentMain.Shared.gHelpControl) != 0)
             {
                 ViewModel.txtHelpTitle.Text = "No Help Topic Found for this Screen";
                 ViewModel.txtHelpText.Text = "";
                 return;
-        }
+            }
             ViewModel.txtHelpTitle.Text = IncidentMain.Clean(cCommon.HelpText["help_title"]);
             ViewModel.txtHelpText.Text = IncidentMain.Clean(cCommon.HelpText["help_text"]);
             ViewModel.CurrentHelpID = Convert.ToInt32(cCommon.HelpText["help_id"]);
@@ -52,7 +52,7 @@ namespace TFDIncident
         private void FillHelpList()
         {
             //Fill Help List Tree View Control
-            TFDIncident.clsCommonCodes cCommon = Container.Resolve< clsCommonCodes>();
+            TFDIncident.clsCommonCodes cCommon = Container.Resolve<clsCommonCodes>();
             int ClassIndex = 0;
             int ScreenIndex = 0;
 
@@ -61,7 +61,7 @@ namespace TFDIncident
             {
                 ViewModel.tvHelpList.Visible = false;
                 return;
-        }
+            }
 
             string CurrentClass = "";
             int CurrentScreen = 0;
@@ -74,7 +74,7 @@ namespace TFDIncident
                     ViewModel.mNode = ViewModel.tvHelpList.Add("");
                     ViewModel.mNode.Text = Convert.ToString(cCommon.HelpList["class_title"]);
                     //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.TreeNode.Tag was not upgraded
-                    ViewModel.mNode.Set_Tag( "0");
+                    ViewModel.mNode.Set_Tag("0");
                     ClassIndex = ViewModel.mNode.Index + 1;
                     CurrentClass = IncidentMain.Clean(cCommon.HelpList["class_title"]);
                     if (Convert.ToDouble(cCommon.HelpList["screen_id"]) != CurrentScreen)
@@ -82,42 +82,42 @@ namespace TFDIncident
                         ViewModel.mNode = ViewModel.tvHelpList.Items.Find(ClassIndex.ToString(), true)[0].Add("");
                         ViewModel.mNode.Text = IncidentMain.Clean(cCommon.HelpList["help_title"]);
                         //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.TreeNode.Tag was not upgraded
-                        ViewModel.mNode.Set_Tag( Conversion.Str(cCommon.HelpList["help_id"]));
+                        ViewModel.mNode.Set_Tag(Conversion.Str(cCommon.HelpList["help_id"]));
                         ScreenIndex = ViewModel.mNode.Index + 1;
                         CurrentScreen = Convert.ToInt32(cCommon.HelpList["screen_id"]);
-                }
-                else
-                {
+                    }
+                    else
+                    {
                         ViewModel.mNode = ViewModel.tvHelpList.Items.Find(ScreenIndex.ToString(), true)[0].Add("");
                         ViewModel.mNode.Text = IncidentMain.Clean(cCommon.HelpList["help_title"]);
                         //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.TreeNode.Tag was not upgraded
-                        ViewModel.mNode.Set_Tag( Conversion.Str(cCommon.HelpList["help_id"]));
+                        ViewModel.mNode.Set_Tag(Conversion.Str(cCommon.HelpList["help_id"]));
                     }
-            }
-            else
-            {
+                }
+                else
+                {
                     if (Convert.ToDouble(cCommon.HelpList["screen_id"]) != CurrentScreen)
                     {
                         ViewModel.mNode = ViewModel.tvHelpList.Items.Find(ClassIndex.ToString(), true)[0].Add("");
                         ViewModel.mNode.Text = IncidentMain.Clean(cCommon.HelpList["help_title"]);
                         //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.TreeNode.Tag was not upgraded
-                        ViewModel.mNode.Set_Tag( Conversion.Str(cCommon.HelpList["help_id"]));
+                        ViewModel.mNode.Set_Tag(Conversion.Str(cCommon.HelpList["help_id"]));
                         ScreenIndex = ViewModel.mNode.Index + 1;
                         CurrentScreen = Convert.ToInt32(cCommon.HelpList["screen_id"]);
-                }
-                else
-                {
+                    }
+                    else
+                    {
                         ViewModel.mNode = ViewModel.tvHelpList.Items.Find(ScreenIndex.ToString(), true)[0].Add("");
                         ViewModel.mNode.Text = IncidentMain.Clean(cCommon.HelpList["help_title"]);
                         //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.TreeNode.Tag was not upgraded
-                        ViewModel.mNode.Set_Tag( Conversion.Str(cCommon.HelpList["help_id"]));
+                        ViewModel.mNode.Set_Tag(Conversion.Str(cCommon.HelpList["help_id"]));
                     }
+                }
+                cCommon.HelpList.MoveNext();
             }
-            cCommon.HelpList.MoveNext();
-    }
             ;
 
-                    }
+        }
 
         private void GenerateReport()
         {
@@ -135,9 +135,9 @@ namespace TFDIncident
             //For Security Actions:
 
             int result = 0;
-            TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
-            TFDIncident.clsIncident IncidentCL = Container.Resolve< clsIncident>();
-            TFDIncident.clsNotification NotifyCL = Container.Resolve< clsNotification>();
+            TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
+            TFDIncident.clsIncident IncidentCL = Container.Resolve<clsIncident>();
+            TFDIncident.clsNotification NotifyCL = Container.Resolve<clsNotification>();
             string NameString = "";
 
             //Clear sprSysadm
@@ -157,18 +157,18 @@ namespace TFDIncident
             ViewModel.sprNotify.Text = "";
             ViewModel.sprNotify.BlockMode = false;
 
-            if ( ViewModel.cboSystemAction.Text == "Delete Report")
+            if (ViewModel.cboSystemAction.Text == "Delete Report")
             {
                 ViewModel.cboSysAdm1.Items.Clear();
             }
-            else if ( ViewModel.cboSystemAction.Text == "Reset Report Status" || ViewModel.cboSystemAction.Text == "Change EMS Report Type")
+            else if (ViewModel.cboSystemAction.Text == "Reset Report Status" || ViewModel.cboSystemAction.Text == "Change EMS Report Type")
             {
                 ViewModel.cboSysAdm2.Items.Clear();
             }
             int CurrRow = 1;
             ViewModel.sprSysAdm.Row = CurrRow;
             ViewModel.sprSysAdm.Col = 1;
-            if ( ViewModel.cboSystemAction.Text == "View Security Listing")
+            if (ViewModel.cboSystemAction.Text == "View Security Listing")
             {
                 ViewModel.sprSysAdm.Text = "Employee";
                 ViewModel.sprSysAdm.Col = 2;
@@ -192,7 +192,7 @@ namespace TFDIncident
             }
             CurrRow++;
             clsFire FireReport = null;
-            switch ( ViewModel.cboSystemAction.Text)
+            switch (ViewModel.cboSystemAction.Text)
             {
                 case "Change EMS Report Type":
                     if (ReportLog.GetReportLogSysAdm(ViewModel.txtSysAdm1.Text.Trim()) != 0)
@@ -233,18 +233,18 @@ namespace TFDIncident
                                 ViewModel.cboSysAdm2.AddItem(NameString);
                                 ViewModel.cboSysAdm2.SetItemData(ViewModel.cboSysAdm2.GetNewIndex(), Convert.ToInt32(ReportLog.ReportLogRS["report_id"]));
                                 CurrRow++;
-                        }
-                        ReportLog.ReportLogRS.MoveNext();
-                };
-        }
-        else
-        {
-                result = 0;
-        }
-        break;
-case "Delete Report":
-case "Reset Report Status":
-        if (ReportLog.GetReportLogSysAdm(ViewModel.txtSysAdm1.Text.Trim()) != 0)
+                            }
+                            ReportLog.ReportLogRS.MoveNext();
+                        };
+                    }
+                    else
+                    {
+                        result = 0;
+                    }
+                    break;
+                case "Delete Report":
+                case "Reset Report Status":
+                    if (ReportLog.GetReportLogSysAdm(ViewModel.txtSysAdm1.Text.Trim()) != 0)
                     {
 
                         while (!ReportLog.ReportLogRS.EOF)
@@ -285,7 +285,7 @@ case "Reset Report Status":
                                     {
                                         //Look up Fire Exposure Address
                                         FireReport
-                                            = Container.Resolve< clsFire>();
+                                            = Container.Resolve<clsFire>();
                                         if (FireReport.GetFireExposureAddress(Convert.ToInt32(ReportLog.ReportLogRS["fire_report_id"])) != 0)
                                         {
                                             NameString = FireReport.ExpHouseNumber + " " + FireReport.ExpPrefix + " ";
@@ -296,16 +296,16 @@ case "Reset Report Status":
                                         {
                                             NameString = "";
                                         }
-                                }
-                                else
-                                {
+                                    }
+                                    else
+                                    {
                                         NameString = "";
-                                }
-                                break;
-                }
+                                    }
+                                    break;
+                            }
                             ViewModel.sprSysAdm.Text = NameString;
                             //Load combo box
-                            switch ( ViewModel.cboSystemAction.Text)
+                            switch (ViewModel.cboSystemAction.Text)
                             {
                                 case "Delete Report":
                                     if (Convert.ToDouble(ReportLog.ReportLogRS["rep_type"]) > 2)
@@ -330,7 +330,7 @@ case "Reset Report Status":
                                         ViewModel.cboSysAdm1.SetItemData(ViewModel.cboSysAdm1.GetNewIndex(), Convert.ToInt32(ReportLog.ReportLogRS["report_id"]));
                                     }
                                     break;
-                            default:
+                                default:
                                     switch (Convert.ToInt32(ReportLog.ReportLogRS["rep_type"]))
                                     {
                                         case 1:  //Unit Report 
@@ -350,19 +350,19 @@ case "Reset Report Status":
                                     ViewModel.cboSysAdm2.AddItem(NameString);
                                     ViewModel.cboSysAdm2.SetItemData(ViewModel.cboSysAdm2.GetNewIndex(), Convert.ToInt32(ReportLog.ReportLogRS["report_id"]));
                                     break;
-                    }
+                            }
                             CurrRow++;
                             ReportLog.ReportLogRS.MoveNext();
-                    };
-                    result = -1;
-            }
-            else
-            {
-                    result = 0;
-            }
-            break;
-    case "View Security Listing":
-            if (IncidentCL.GetSecurityByType(ViewModel.cboSysAdm2.GetItemData(ViewModel.cboSysAdm2.SelectedIndex)) != 0)
+                        };
+                        result = -1;
+                    }
+                    else
+                    {
+                        result = 0;
+                    }
+                    break;
+                case "View Security Listing":
+                    if (IncidentCL.GetSecurityByType(ViewModel.cboSysAdm2.GetItemData(ViewModel.cboSysAdm2.SelectedIndex)) != 0)
                     {
 
                         while (!IncidentCL.IncidentSecurity.EOF)
@@ -374,18 +374,18 @@ case "Reset Report Status":
                             ViewModel.sprSysAdm.Text = IncidentMain.Clean(IncidentCL.IncidentSecurity["description"]);
                             CurrRow++;
                             IncidentCL.IncidentSecurity.MoveNext();
-                    };
-                    result = -1;
-            }
-            else
-            {
+                        };
+                        result = -1;
+                    }
+                    else
+                    {
                         ViewManager.ShowMessage("There are no employees with this Security Type", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                         return 0;
-                }
+                    }
 
-                break;
-        case "Manage Notification System":
-                if (NotifyCL.GetNotificationReceiverByType(ViewModel.cboSysAdm2.GetItemData(ViewModel.cboSysAdm2.SelectedIndex)) != 0)
+                    break;
+                case "Manage Notification System":
+                    if (NotifyCL.GetNotificationReceiverByType(ViewModel.cboSysAdm2.GetItemData(ViewModel.cboSysAdm2.SelectedIndex)) != 0)
                     {
                         CurrRow = 2;
 
@@ -398,28 +398,28 @@ case "Reset Report Status":
                             ViewModel.sprNotify.Text = IncidentMain.Clean(NotifyCL.NotificationReceiver["name_full"]);
                             CurrRow++;
                             NotifyCL.NotificationReceiver.MoveNext();
-                    };
-            }
-            else
-            {
+                        };
+                    }
+                    else
+                    {
                         ViewManager.ShowMessage("There are NO Receivers for this List", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                     }
 
 
                     break;
-            case "Update Personnel Security":
+                case "Update Personnel Security":
 
                     break;
-            case "Change Splash Message":
+                case "Change Splash Message":
                     break;
-    }
+            }
             ViewModel.sprSysAdm.Row = 1;
             ViewModel.sprSysAdm.Col = 1;
             ViewModel.sprSysAdm.Action = FarPoint.ViewModels.FPActionConstants.ActionActiveCell;
 
 
             return result;
-    }
+        }
 
         private void ClearSystemAdmin()
         {
@@ -459,12 +459,12 @@ case "Reset Report Status":
 
             LoadFireAdmin();
 
-    }
+        }
 
         private void LoadFireAdmin()
         {
             //Load Admin Inquiry listbox
-            TFDIncident.clsInquiry Inquiry = Container.Resolve< clsInquiry>();
+            TFDIncident.clsInquiry Inquiry = Container.Resolve<clsInquiry>();
             ViewModel.cboInquiryList.Items.Clear();
             Inquiry.GetInquiries(IncidentMain.Shared.gSystemSecurity);
 
@@ -473,10 +473,10 @@ case "Reset Report Status":
                 ViewModel.cboInquiryList.AddItem(IncidentMain.Clean(Inquiry.InquiryManagerRS["inquiry_display"]));
                 ViewModel.cboInquiryList.SetItemData(ViewModel.cboInquiryList.GetNewIndex(), Convert.ToInt32(Inquiry.InquiryManagerRS["inquiry_id"]));
                 Inquiry.InquiryManagerRS.MoveNext();
-        }
+            }
             ;
 
-                    }
+        }
 
         private void InitializeQueryForm()
         {
@@ -518,9 +518,9 @@ case "Reset Report Status":
         private void LoadLists()
         {
             //Load Filter ComboBoxes
-            TFDIncident.clsUnit UnitCL = Container.Resolve< clsUnit>();
-            TFDIncident.clsCommonCodes CommonCodes = Container.Resolve< clsCommonCodes>();
-            TFDIncident.clsInquiry Inquiry = Container.Resolve< clsInquiry>();
+            TFDIncident.clsUnit UnitCL = Container.Resolve<clsUnit>();
+            TFDIncident.clsCommonCodes CommonCodes = Container.Resolve<clsCommonCodes>();
+            TFDIncident.clsInquiry Inquiry = Container.Resolve<clsInquiry>();
 
 
             UnitCL.TFDUnitListRS();
@@ -533,7 +533,7 @@ case "Reset Report Status":
                 ViewModel.cboUnit.AddItem(IncidentMain.Clean(UnitCL.Unit["unit_id"]));
                 ViewModel.cboIncUnit.AddItem(IncidentMain.Clean(UnitCL.Unit["unit_id"]));
                 UnitCL.Unit.MoveNext();
-        }
+            }
             ;
             //?????????????????? CodeTable Class Replace ????????????
 
@@ -549,7 +549,7 @@ case "Reset Report Status":
                 ViewModel.cboIncType.AddItem(IncidentMain.Clean(CommonCodes.IncidentTypeClassRS["description"]));
                 ViewModel.cboIncType.SetItemData(ViewModel.cboIncType.GetNewIndex(), Convert.ToInt32(CommonCodes.IncidentTypeClassRS["incident_type_class"]));
                 CommonCodes.IncidentTypeClassRS.MoveNext();
-        }
+            }
             ;
 
             //*******************************************************
@@ -563,7 +563,7 @@ case "Reset Report Status":
                 ViewModel.cboFieldReport.AddItem(IncidentMain.Clean(Inquiry.InquiryManagerRS["inquiry_display"]));
                 ViewModel.cboFieldReport.SetItemData(ViewModel.cboFieldReport.GetNewIndex(), Convert.ToInt32(Inquiry.InquiryManagerRS["inquiry_id"]));
                 Inquiry.InquiryManagerRS.MoveNext();
-        }
+            }
             ;
             System.DateTime TempDate = DateTime.FromOADate(0);
             ViewModel.calFRStart.SelectionRange = Container.Resolve<UpgradeHelpers.BasicViewModels.SelectionRange>(DateTime.Parse((DateTime.TryParse
@@ -589,16 +589,16 @@ case "Reset Report Status":
                 ViewModel.MainTabs.Items[3].Text = "Admin Inquiry";
                 ViewModel.MainTabs.Items[4].Text = "System Admin";
                 LoadSystemAdmin();
-        }
-        else if (IncidentMain.Shared.gSystemSecurity == IncidentMain.FIREADMIN || IncidentMain.Shared.gSystemSecurity == IncidentMain.INSPECTOR)
-        {
+            }
+            else if (IncidentMain.Shared.gSystemSecurity == IncidentMain.FIREADMIN || IncidentMain.Shared.gSystemSecurity == IncidentMain.INSPECTOR)
+            {
                 //Display Admin Inquiry Tab
                 ViewModel.MainTabs.Items[3].Text = "Admin Inquiry";
                 ViewModel.MainTabs.Items[4].Text = "";
                 LoadFireAdmin();
-        }
-        else if (IncidentMain.Shared.gSystemSecurity == IncidentMain.NOACCESS)
-        {
+            }
+            else if (IncidentMain.Shared.gSystemSecurity == IncidentMain.NOACCESS)
+            {
                 ViewModel.MainTabs.Items[0].Text = "";
                 ViewModel.MainTabs.Items[1].Text = "";
                 ViewModel.MainTabs.Items[2].Text = "";
@@ -616,13 +616,13 @@ case "Reset Report Status":
 
 
 
-    }
+        }
 
         public void LoadUnitList()
-      {
+        {
             //Load UnitList For Selected Date
-            TFDIncident.clsUnit UnitResponse = Container.Resolve< clsUnit>();
-            TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
+            TFDIncident.clsUnit UnitResponse = Container.Resolve<clsUnit>();
+            TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
             UpgradeHelpers.Helpers.Color RowColor = UpgradeHelpers.Helpers.Color.Black;
             string UnitParm = "";
             int StatusParm = 0;
@@ -635,22 +635,22 @@ case "Reset Report Status":
             //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.MonthCalendar.SelectionStart was not upgraded
             string StartDate = Convert.ToDateTime(ViewModel.calUnit.Value).ToString("MM/dd/yyyy");
             string EndDate = DateTime.Parse(StartDate).AddDays(1).ToString("MM/dd/yyyy");
-            if ( ViewModel.cboUnit.SelectedIndex != -1)
+            if (ViewModel.cboUnit.SelectedIndex != -1)
             {
                 UnitParm = ViewModel.cboUnit.Text.Trim();
             }
             else
             {
                 UnitParm = "";
-                if ( ViewModel.optBattalion[0].Checked)
+                if (ViewModel.optBattalion[0].Checked)
                 {
                     BattParm = "1";
                 }
-                else if ( ViewModel.optBattalion[1].Checked)
+                else if (ViewModel.optBattalion[1].Checked)
                 {
                     BattParm = "2";
                 }
-                else if ( ViewModel.optBattalion[2].Checked)
+                else if (ViewModel.optBattalion[2].Checked)
                 {
                     BattParm = "3";
                 }
@@ -658,8 +658,8 @@ case "Reset Report Status":
                 {
                     BattParm = "";
                 }
-        }
-            if ( ViewModel.cboType.SelectedIndex != -1)
+            }
+            if (ViewModel.cboType.SelectedIndex != -1)
             {
                 TypeParm = ViewModel.cboType.GetItemData(ViewModel.cboType.SelectedIndex);
             }
@@ -667,7 +667,7 @@ case "Reset Report Status":
             {
                 TypeParm = 0;
             }
-            if ( ViewModel.cboStatus.SelectedIndex != -1)
+            if (ViewModel.cboStatus.SelectedIndex != -1)
             {
                 StatusParm = ViewModel.cboStatus.GetItemData(ViewModel.cboStatus.SelectedIndex);
             }
@@ -682,32 +682,18 @@ case "Reset Report Status":
                 this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.Arrow);
                 ViewModel.sprUnitList.Rows = Container.Resolve<Custom.ViewModels.Grid.RowsCollection>();
                 return; //no reports
-        }
-            //Create The DataTable to bing in datasource 
-            DataTable sprUnitDataSource = new DataTable();
-            //Create The Columns 
-            DataColumn sprColum = default(DataColumn);
-            sprColum = new System.Data.DataColumn("Unit");
-            sprUnitDataSource.Columns.Add(sprColum);
-            sprColum = new System.Data.DataColumn("Incident #");
-            sprUnitDataSource.Columns.Add(sprColum);
-            sprColum = new System.Data.DataColumn("Time");
-            sprUnitDataSource.Columns.Add(sprColum);
-            sprColum = new System.Data.DataColumn("Location");
-            sprUnitDataSource.Columns.Add(sprColum);
-            sprColum = new System.Data.DataColumn("Type");
-            sprUnitDataSource.Columns.Add(sprColum);
+            }
+            //Create The IList with a serialized List Class 
+            System.Collections.Generic.IList<ItemsUnitGrid> data = Container.Resolve<System.Collections.Generic.IList<ItemsUnitGrid>>();
 
-            DataRow row;
-            Custom.ViewModels.Grid.RowsCollection RowCollection = new Custom.ViewModels.Grid.RowsCollection();
             while (!UnitResponse.UnitListing.EOF)
             {
-                row = sprUnitDataSource.NewRow();
-                row["Unit"] = IncidentMain.Clean(UnitResponse.UnitListing["tfd_unit"]);
-                row["Incident #"] = IncidentMain.Clean(UnitResponse.UnitListing["incident_number"]);
-                row["Time"] = Convert.ToDateTime(UnitResponse.UnitListing["actual_time"]).ToString("HH:mm");
-                row["Location"] = IncidentMain.Clean(UnitResponse.UnitListing["location"]);
-                row["Type"] = IncidentMain.Clean(UnitResponse.UnitListing["inc_descript"]);
+                ItemsUnitGrid unitRow = Container.Resolve<ItemsUnitGrid>();
+                unitRow.Unit = IncidentMain.Clean(UnitResponse.UnitListing["tfd_unit"]);
+                unitRow.Incident_Number = IncidentMain.Clean(UnitResponse.UnitListing["incident_number"]);
+                unitRow.Time = Convert.ToDateTime(UnitResponse.UnitListing["actual_time"]).ToString("HH:mm");
+                unitRow.Location = IncidentMain.Clean(UnitResponse.UnitListing["location"]);
+                unitRow.Type = IncidentMain.Clean(UnitResponse.UnitListing["inc_descript"]);
 
 
                 if (Convert.ToDouble(UnitResponse.UnitListing["report_status"]) == IncidentMain.INCOMPLETE)
@@ -722,14 +708,13 @@ case "Reset Report Status":
                 {
                     RowColor = IncidentMain.Shared.BLACK;
                 }
-                sprUnitDataSource.Rows.Add(row);
+                data.Add(unitRow);
                 UnitResponse.UnitListing.MoveNext();
                 //ViewModel.sprUnitList.BackColor = RowColor; Row Color
             }
-            ViewModel.sprUnitList.DataSource = sprUnitDataSource;
+            ViewModel.sprUnitList.DataSource = data;
             //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
             this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.Arrow);
-
 
         }
 
@@ -739,7 +724,7 @@ case "Reset Report Status":
             ADORecordSetHelper orec = null;
             string UnitParm = "";
             int TypeParm = 0;
-            TFDIncident.clsIncident IncidentCL = Container.Resolve< clsIncident>();
+            TFDIncident.clsIncident IncidentCL = Container.Resolve<clsIncident>();
             UpgradeHelpers.Helpers.Color RowColor = UpgradeHelpers.Helpers.Color.Black;
 
             //Clear Incident Grid
@@ -763,7 +748,7 @@ case "Reset Report Status":
             string EndDate = DateTime.Parse(StartDate).AddDays(1).ToString("MM/dd/yyyy");
 
 
-            if ( ViewModel.cboIncUnit.SelectedIndex != -1)
+            if (ViewModel.cboIncUnit.SelectedIndex != -1)
             {
                 UnitParm = ViewModel.cboIncUnit.Text;
             }
@@ -772,7 +757,7 @@ case "Reset Report Status":
                 UnitParm = "";
             }
 
-            if ( ViewModel.cboIncType.SelectedIndex != -1)
+            if (ViewModel.cboIncType.SelectedIndex != -1)
             {
                 TypeParm = ViewModel.cboIncType.GetItemData(ViewModel.cboIncType.SelectedIndex);
             }
@@ -784,7 +769,7 @@ case "Reset Report Status":
             if (IncidentCL.IncidentListRS(StartDate, EndDate, UnitParm, TypeParm) != 0)
             {
                 orec = IncidentCL.IncidentRS;
-               
+
 
                 while (!orec.EOF)
                 {
@@ -824,8 +809,8 @@ case "Reset Report Status":
                     ViewModel.sprIncident.SetRowHeight(CurrRow, 20.3f);
                     CurrRow++;
                     orec.MoveNext();
-            };
-    }
+                };
+            }
             ViewModel.sprIncident.MaxRows = CurrRow;
             ViewModel.sprIncReports.BlockMode = true;
             ViewModel.sprIncReports.Row = 1;
@@ -858,11 +843,11 @@ case "Reset Report Status":
             //Format Incident Selector Grids
             //Called at Form Load and whenever
             //Incident Selected
-            TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
-            TFDIncident.clsIncident IncidentCL = Container.Resolve< clsIncident>();
-            TFDIncident.clsFire FireReport = Container.Resolve< clsFire>();
-            TFDIncident.clsEMS EMSReport = Container.Resolve< clsEMS>();
-            TFDIncident.clsCasualty Casualty = Container.Resolve< clsCasualty>();
+            TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
+            TFDIncident.clsIncident IncidentCL = Container.Resolve<clsIncident>();
+            TFDIncident.clsFire FireReport = Container.Resolve<clsFire>();
+            TFDIncident.clsEMS EMSReport = Container.Resolve<clsEMS>();
+            TFDIncident.clsCasualty Casualty = Container.Resolve<clsCasualty>();
             int CurrRow = 0;
 
             //Clear Selector Grids
@@ -881,7 +866,7 @@ case "Reset Report Status":
             ViewModel.sprIncReports.Text = "";
             ViewModel.sprIncReports.BlockMode = false;
 
-            if ( ViewModel.CurrIncident != 0)
+            if (ViewModel.CurrIncident != 0)
             {
                 //Unit Reports
                 CurrRow = 2;
@@ -907,10 +892,10 @@ case "Reset Report Status":
                         ViewModel.sprUnitReports.Text = Convert.ToString(ReportLog.ReportLogRS["report_log_id"]);
                         ReportLog.ReportLogRS.MoveNext();
                         CurrRow++;
-                };
-        }
-        else
-        {
+                    };
+                }
+                else
+                {
                     ViewManager.ShowMessage("Error Loading Unit Reports", "Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                 }
 
@@ -936,13 +921,13 @@ case "Reset Report Status":
                                 {
                                     ViewModel.sprIncReports.Text = IncidentMain.Clean(ReportLog.ReportLogRS["display_description"]) + " - " + IncidentMain.Clean(ReportLog.ReportLogRS["responsible_unit_id"]);
                                 }
-                        }
-                        else
-                        {
+                            }
+                            else
+                            {
                                 ViewModel.sprIncReports.Text = IncidentMain.Clean(ReportLog.ReportLogRS["display_description"]) + " - " + IncidentMain.Clean(ReportLog.ReportLogRS["responsible_unit_id"]);
                             }
                             break;
-                    case IncidentMain.EMSBASIC:
+                        case IncidentMain.EMSBASIC:
                             if (EMSReport.GetEMSPatient(Convert.ToInt32(ReportLog.ReportLogRS["report_reference_id"])) != 0)
                             {
                                 ViewModel.sprIncReports.Text = "EMS Patient Report - " + IncidentMain.Clean(EMSReport.NameFirst) + " " + IncidentMain.Clean(EMSReport.NameLast) + " - " + IncidentMain.Clean(ReportLog.ReportLogRS["responsible_unit_id"]);
@@ -952,7 +937,7 @@ case "Reset Report Status":
                                 ViewModel.sprIncReports.Text = "EMS Patient Report - Basic " + IncidentMain.Clean(ReportLog.ReportLogRS["responsible_unit_id"]);
                             }
                             break;
-                    case IncidentMain.FSCASUALTY:
+                        case IncidentMain.FSCASUALTY:
                             if (Casualty.GetFSCasualtyName(Convert.ToInt32(ReportLog.ReportLogRS["report_reference_id"])) != "")
                             {
                                 ViewModel.sprIncReports.Text = "Fire Service Casualty Report - " + Casualty.GetFSCasualtyName(Convert.ToInt32(ReportLog.ReportLogRS["report_reference_id"]));
@@ -962,10 +947,10 @@ case "Reset Report Status":
                                 ViewModel.sprIncReports.Text = "Fire Service Casualty Report - No Name";
                             }
                             break;
-                    default:
+                        default:
                             ViewModel.sprIncReports.Text = IncidentMain.Clean(ReportLog.ReportLogRS["display_description"]) + " - " + IncidentMain.Clean(ReportLog.ReportLogRS["responsible_unit_id"]);
                             break;
-            }
+                    }
                     if (Convert.ToDouble(ReportLog.ReportLogRS["report_status_id"]) == IncidentMain.INCOMPLETE)
                     {
                     }
@@ -986,18 +971,18 @@ case "Reset Report Status":
                         CurrRow++;
                     }
                     ReportLog.ReportLogRS.MoveNext();
-            };
-            if (IncidentCL.GetIncident(ViewModel.CurrIncident) != 0)
-            {
+                };
+                if (IncidentCL.GetIncident(ViewModel.CurrIncident) != 0)
+                {
                     ViewModel.lbIncidentMain.Text = IncidentCL.IncidentNumber;
                 }
                 else
                 {
                     ViewModel.lbIncidentMain.Text = "";
                 }
-        }
+            }
 
-}
+        }
 
 
 
@@ -1014,7 +999,7 @@ case "Reset Report Status":
             //UPGRADE_WARNING: (1068) calIncident.Value of type Variant is being forced to Scalar. More Information: http://www.vbtonet.com/ewis/ewi1068.aspx
             ViewModel.calUnit.Value = ViewModel.calIncident.Value;
             LoadUnitList();
-    }
+        }
 
         //UPGRADE_WARNING: (2074) Calendar event calUnit.Click was upgraded to calUnit.DateChanged which has a new behavior. More Information: http://www.vbtonet.com/ewis/ewi2074.aspx
         [UpgradeHelpers.Events.Handler]
@@ -1028,18 +1013,18 @@ case "Reset Report Status":
             //UPGRADE_WARNING: (1068) calUnit.Value of type Variant is being forced to Scalar. More Information: http://www.vbtonet.com/ewis/ewi1068.aspx
             ViewModel.calIncident.Value = ViewModel.calUnit.Value;
             LoadIncidentList();
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboFieldReport_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
         {
             //Display or Hide  Selection Controls
-            if ( ViewModel.cboFieldReport.SelectedIndex == -1)
+            if (ViewModel.cboFieldReport.SelectedIndex == -1)
             {
                 return;
             }
-            TFDIncident.clsPersonnel PersonnelCL = Container.Resolve< clsPersonnel>();
-            TFDIncident.clsUnit UnitCL = Container.Resolve< clsUnit>();
+            TFDIncident.clsPersonnel PersonnelCL = Container.Resolve<clsPersonnel>();
+            TFDIncident.clsUnit UnitCL = Container.Resolve<clsUnit>();
 
 
             //Reset Parameter controls
@@ -1076,16 +1061,16 @@ case "Reset Report Status":
                     {
                         ViewModel.cboSelection1.AddItem(Convert.ToString(PersonnelCL.OperationsList["name_full"]).Trim() + " :" + Convert.ToString(PersonnelCL.OperationsList["employee_id"]));
                         PersonnelCL.OperationsList.MoveNext();
-                }
+                    }
                     ;
                     ViewModel.lbSelection1.Visible = true;
                     ViewModel.cboSelection1.Visible = true;
                     ViewModel.lbSelection2.Visible = false;
                     ViewModel.cboSelection2.Visible = false;
                     break;
-            case 7:
-            case 8:
-            case 10:
+                case 7:
+                case 8:
+                case 10:
                     //Unit Response Summary Report - 7 
                     //Unit Reporting - 8 
                     //Unit Activity - 10 
@@ -1099,7 +1084,7 @@ case "Reset Report Status":
                     {
                         ViewModel.cboSelection1.AddItem(IncidentMain.Clean(UnitCL.Unit["unit_id"]));
                         UnitCL.Unit.MoveNext();
-                }
+                    }
                     ;
                     ViewModel.cboSelection2.AddItem("All Shifts");
                     ViewModel.cboSelection2.AddItem("A");
@@ -1111,7 +1096,7 @@ case "Reset Report Status":
                     ViewModel.lbSelection2.Visible = true;
                     ViewModel.cboSelection2.Visible = true;
                     break;
-            case 9:
+                case 9:
                     //Battalion Incomplete Reports 
                     ViewModel.lbSelection1.Text = "Select Battalion";
                     ViewModel.lbSelection2.Text = "Select Shift";
@@ -1131,9 +1116,9 @@ case "Reset Report Status":
                     ViewModel.cboSelection2.Visible = true;
 
                     break;
-    }
+            }
 
-}
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboIncType_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
@@ -1141,23 +1126,23 @@ case "Reset Report Status":
             //Reload Incident List
             //First Check for No selection or reset
 
-            if ( ViewModel.cboIncType.SelectedIndex == -1)
+            if (ViewModel.cboIncType.SelectedIndex == -1)
             {
                 return;
             }
 
             LoadIncidentList();
 
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboIncType_Leave(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboIncType.SelectedIndex == -1)
+            if (ViewModel.cboIncType.SelectedIndex == -1)
             {
                 ViewModel.cboIncType.Text = "";
             }
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboIncUnit_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
@@ -1165,24 +1150,24 @@ case "Reset Report Status":
             //Reload Incident List
             //First Check for No selection or reset
 
-            if ( ViewModel.cboIncUnit.SelectedIndex == -1)
+            if (ViewModel.cboIncUnit.SelectedIndex == -1)
             {
                 return;
             }
 
             LoadIncidentList();
 
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboInquiryList_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
         {
             //Load Fields and Filters for selected Query
-            TFDIncident.clsInquiry InquiryCL = Container.Resolve< clsInquiry>();
-            TFDIncident.clsNotification NotificationCL = Container.Resolve< clsNotification>();
+            TFDIncident.clsInquiry InquiryCL = Container.Resolve<clsInquiry>();
+            TFDIncident.clsNotification NotificationCL = Container.Resolve<clsNotification>();
             int CurrRow = 0;
 
-            if ( ViewModel.cboInquiryList.SelectedIndex == -1)
+            if (ViewModel.cboInquiryList.SelectedIndex == -1)
             {
                 return;
             }
@@ -1211,7 +1196,7 @@ case "Reset Report Status":
                 {
                     ViewManager.ShowMessage("Error Retreiving Summary Item Records", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                     return;
-            }
+                }
 
                 while (!InquiryCL.InquiryFields.EOF)
                 {
@@ -1222,11 +1207,11 @@ case "Reset Report Status":
                         ViewModel.lstFields.SetItemData(ViewModel.lstFields.GetNewIndex(), Convert.ToInt32(InquiryCL.InquiryFields["inquiry_field_id"]));
                     }
                     InquiryCL.InquiryFields.MoveNext();
-            }
+                }
                 ;
-                            }
-                            else if (InquiryCL.InquiryView.StartsWith("sp"))
-                            {
+            }
+            else if (InquiryCL.InquiryView.StartsWith("sp"))
+            {
                 ViewModel.SummaryReportFlag = 0;
                 //stored procedures
                 switch (InquiryID)
@@ -1237,9 +1222,9 @@ case "Reset Report Status":
                         {
                             ViewManager.ShowMessage("No Notification Messages Logged", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                             return;
-                    }
-                    else
-                    {
+                        }
+                        else
+                        {
                             ViewModel.sprNoteLog.Visible = true;
                             CurrRow = 5;
                             ViewModel.sprNoteLog.Col = 2;
@@ -1257,23 +1242,23 @@ case "Reset Report Status":
                                 ViewModel.sprNoteLog.Text = Convert.ToString(NotificationCL.NotificationMessage["notification_message_id"]);
                                 CurrRow++;
                                 NotificationCL.NotificationMessage.MoveNext();
+                            }
+                                ;
                         }
-                            ;
-                                                    }
 
-                                                    break;
-                                            }
+                        break;
+                }
 
-                                        }
-                                        else
-                                        {
+            }
+            else
+            {
                 //view
                 ViewModel.SummaryReportFlag = 0;
                 if (~InquiryCL.GetInquiryFieldsRS(InquiryID) != 0)
                 {
                     ViewManager.ShowMessage("Error Retreiving Fields/Filter Records", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                     return;
-            }
+                }
 
                 while (!InquiryCL.InquiryFields.EOF)
                 {
@@ -1290,9 +1275,9 @@ case "Reset Report Status":
                         ViewModel.lstFilters.SetItemData(ViewModel.lstFilters.GetNewIndex(), Convert.ToInt32(InquiryCL.InquiryFields["inquiry_field_id"]));
                     }
                     InquiryCL.InquiryFields.MoveNext();
+                }
+;
             }
-                ;
-                            }
             ViewModel.cmdView.Enabled = false;
             ViewModel.cmdClearSelections.Visible = false;
 
@@ -1301,22 +1286,22 @@ case "Reset Report Status":
         [UpgradeHelpers.Events.Handler]
         internal void cboInquiryList_Leave(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboInquiryList.SelectedIndex == -1)
+            if (ViewModel.cboInquiryList.SelectedIndex == -1)
             {
                 ViewModel.cboInquiryList.Text = "";
             }
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboReportList_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboReportList.SelectedIndex == -1)
+            if (ViewModel.cboReportList.SelectedIndex == -1)
             {
                 return;
             }
 
             InitializeQueryForm();
-            switch ( ViewModel.cboReportList.Text)
+            switch (ViewModel.cboReportList.Text)
             {
                 case "NFPA Survey":
                     ViewModel.lbFilter[0].Text = "Select Report Year";
@@ -1326,7 +1311,7 @@ case "Reset Report Status":
                     ViewModel.cboFilter[0].AddItem("2002");
                     ViewModel.cboFilter[0].Visible = true;
                     break;
-    }
+            }
             ViewModel.cmdView.Text = "View Report";
             //    cmdView.Enabled = True
         }
@@ -1336,19 +1321,19 @@ case "Reset Report Status":
         {
             //Determine if all required parameters have been selected
             //Toggle View Report button as appropriate
-            switch ( ViewModel.cboFieldReport.GetItemData(ViewModel.cboFieldReport.SelectedIndex))
+            switch (ViewModel.cboFieldReport.GetItemData(ViewModel.cboFieldReport.SelectedIndex))
             {
                 case 2:
                 case 4:
                     //1 combobox selection 
                     ViewModel.cmdViewReport.Enabled = ViewModel.cboSelection1.SelectedIndex != -1;
                     break;
-            case 7:
-            case 8:
-            case 9:
-            case 10:
+                case 7:
+                case 8:
+                case 9:
+                case 10:
                     //2 combobox selections 
-                    if ( ViewModel.cboSelection1.SelectedIndex != -1)
+                    if (ViewModel.cboSelection1.SelectedIndex != -1)
                     {
                         ViewModel.cmdViewReport.Enabled = ViewModel.cboSelection2.SelectedIndex != -1;
                     }
@@ -1357,31 +1342,31 @@ case "Reset Report Status":
                         ViewModel.cmdViewReport.Enabled = false;
                     }
                     break;
-            default:
+                default:
                     ViewModel.cmdViewReport.Enabled = false;
                     break;
-    }
+            }
 
-}
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboSelection2_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
         {
             //Determine if all required parameters have been selected
             //Toggle View Report button as appropriate
-            switch ( ViewModel.cboFieldReport.GetItemData(ViewModel.cboFieldReport.SelectedIndex))
+            switch (ViewModel.cboFieldReport.GetItemData(ViewModel.cboFieldReport.SelectedIndex))
             {
                 case 2:
                 case 4:
                     //1 combobox selection 
                     ViewModel.cmdViewReport.Enabled = ViewModel.cboSelection1.SelectedIndex != -1;
                     break;
-            case 7:
-            case 8:
-            case 9:
-            case 10:
+                case 7:
+                case 8:
+                case 9:
+                case 10:
                     //2 combobox selections 
-                    if ( ViewModel.cboSelection1.SelectedIndex != -1)
+                    if (ViewModel.cboSelection1.SelectedIndex != -1)
                     {
                         ViewModel.cmdViewReport.Enabled = ViewModel.cboSelection2.SelectedIndex != -1;
                     }
@@ -1390,17 +1375,17 @@ case "Reset Report Status":
                         ViewModel.cmdViewReport.Enabled = false;
                     }
                     break;
-            default:
+                default:
                     ViewModel.cmdViewReport.Enabled = false;
                     break;
-    }
+            }
 
-}
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboStatus_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboStatus.SelectedIndex == -1)
+            if (ViewModel.cboStatus.SelectedIndex == -1)
             {
                 return;
             }
@@ -1409,16 +1394,16 @@ case "Reset Report Status":
             {
                 LoadUnitList();
             }
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboStatus_Leave(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboStatus.SelectedIndex == -1)
+            if (ViewModel.cboStatus.SelectedIndex == -1)
             {
                 ViewModel.cboStatus.Text = "";
             }
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboSystemAction_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
@@ -1426,19 +1411,19 @@ case "Reset Report Status":
             //Format Sys Admin Selection Controls
             //Based on Action Selection
 
-            if ( ViewModel.cboSystemAction.SelectedIndex == -1)
+            if (ViewModel.cboSystemAction.SelectedIndex == -1)
             {
                 return;
             }
-            TFDIncident.clsCommonCodes CommonCodes = Container.Resolve< clsCommonCodes>();
-            TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
-            TFDIncident.clsPersonnel PersonnelCL = Container.Resolve< clsPersonnel>();
-            TFDIncident.clsNotification NotifyCL = Container.Resolve< clsNotification>();
+            TFDIncident.clsCommonCodes CommonCodes = Container.Resolve<clsCommonCodes>();
+            TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
+            TFDIncident.clsPersonnel PersonnelCL = Container.Resolve<clsPersonnel>();
+            TFDIncident.clsNotification NotifyCL = Container.Resolve<clsNotification>();
 
             ClearSystemAdmin();
 
 
-            switch ( ViewModel.cboSystemAction.Text)
+            switch (ViewModel.cboSystemAction.Text)
             {
                 case "Delete Report":
                 case "Reset Report Status":
@@ -1451,7 +1436,7 @@ case "Reset Report Status":
                     ViewModel.cmdSysButt3.Visible = true;
 
                     break;
-            case "View Security Listing":
+                case "View Security Listing":
                     ViewModel.lbSysAdmin1.Text = "Select Security Type:";
                     ViewModel.lbSysAdmin1.Visible = true;
                     ViewModel.cboSysAdm2.Items.Clear();
@@ -1462,14 +1447,14 @@ case "Reset Report Status":
                         ViewModel.cboSysAdm2.AddItem(IncidentMain.Clean(CommonCodes.SecurityCode["description"]));
                         ViewModel.cboSysAdm2.SetItemData(ViewModel.cboSysAdm2.GetNewIndex(), Convert.ToInt32(CommonCodes.SecurityCode["security_code"]));
                         CommonCodes.SecurityCode.MoveNext();
-                }
+                    }
                     ;
                     ViewModel.cboSysAdm2.Visible = true;
                     ViewModel.cmdSysButt3.Text = "Search..";
                     ViewModel.cmdSysButt3.Visible = true;
 
                     break;
-            case "Update Personnel Security":
+                case "Update Personnel Security":
                     ViewModel.lbSysAdmin1.Text = "Select Personnel:";
                     ViewModel.lbSysAdmin1.Visible = true;
                     ViewModel.lbSysAdmin2.Text = "Select Security Type:";
@@ -1482,7 +1467,7 @@ case "Reset Report Status":
                     {
                         ViewModel.cboSysAdm2.AddItem(IncidentMain.Clean(PersonnelCL.OperationsList["name_full"]) + " -" + Convert.ToString(PersonnelCL.OperationsList["employee_id"]));
                         PersonnelCL.OperationsList.MoveNext();
-                }
+                    }
                     ;
                     CommonCodes.GetSecurityCode();
 
@@ -1491,7 +1476,7 @@ case "Reset Report Status":
                         ViewModel.cboSysAdm1.AddItem(IncidentMain.Clean(CommonCodes.SecurityCode["description"]));
                         ViewModel.cboSysAdm1.SetItemData(ViewModel.cboSysAdm1.GetNewIndex(), Convert.ToInt32(CommonCodes.SecurityCode["security_code"]));
                         CommonCodes.SecurityCode.MoveNext();
-                }
+                    }
                     ;
                     ViewModel.cboSysAdm1.Visible = true;
                     ViewModel.cboSysAdm2.Visible = true;
@@ -1499,7 +1484,7 @@ case "Reset Report Status":
                     ViewModel.cmdSysButt1.Visible = true;
 
                     break;
-            case "Change Splash Message":
+                case "Change Splash Message":
                     ViewModel.lbSysAdmin1.Text = "Enter New Message";
                     ViewModel.txtSysAdm1.Text = "";
                     ViewModel.lbSysAdmin1.Visible = true;
@@ -1514,7 +1499,7 @@ case "Reset Report Status":
                         ViewModel.cboSysAdm1.AddItem(IncidentMain.Clean(CommonCodes.IRSMessage["message_text"]));
                         ViewModel.cboSysAdm1.SetItemData(ViewModel.cboSysAdm1.GetNewIndex(), Convert.ToInt32(CommonCodes.IRSMessage["message_id"]));
                         CommonCodes.IRSMessage.MoveNext();
-                }
+                    }
                     ;
                     ViewModel.cboSysAdm1.Visible = true;
                     ViewModel.cmdSysButt1.Visible = true;
@@ -1524,7 +1509,7 @@ case "Reset Report Status":
                     ViewModel.cmdSysButt3.Visible = false;
 
                     break;
-            case "Manage Notification System":
+                case "Manage Notification System":
                     ViewModel.lbSysAdmin1.Text = "Select Notification List:";
                     ViewModel.lbSysAdmin1.Visible = true;
                     ViewModel.cboSysAdm1.Visible = true;
@@ -1544,7 +1529,7 @@ case "Reset Report Status":
                         ViewModel.cboSysAdm2.AddItem(IncidentMain.Clean(NotifyCL.NotificationReceiverTypeCode["description"]));
                         ViewModel.cboSysAdm2.SetItemData(ViewModel.cboSysAdm2.GetNewIndex(), Convert.ToInt32(NotifyCL.NotificationReceiverTypeCode["notification_receiver_type"]));
                         NotifyCL.NotificationReceiverTypeCode.MoveNext();
-                }
+                    }
                     ;
                     PersonnelCL.GetAllPersonnelList();
 
@@ -1552,10 +1537,10 @@ case "Reset Report Status":
                     {
                         ViewModel.cboSysAdm1.AddItem(IncidentMain.Clean(PersonnelCL.OperationsList["name_full"]) + " -" + Convert.ToString(PersonnelCL.OperationsList["employee_id"]));
                         PersonnelCL.OperationsList.MoveNext();
-                }
+                    }
                     ;
                     break;
-            case "Update Help Files":
+                case "Update Help Files":
                     FillHelpList();
                     ViewModel.txtHelpTitle.Text = "";
                     ViewModel.txtHelpText.Text = "";
@@ -1564,14 +1549,14 @@ case "Reset Report Status":
                     ViewModel.cmdSysButt1.Text = "Update Help";
 
                     break;
-    }
+            }
 
-}
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboType_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboType.SelectedIndex == -1)
+            if (ViewModel.cboType.SelectedIndex == -1)
             {
                 return;
             }
@@ -1579,21 +1564,21 @@ case "Reset Report Status":
             {
                 LoadUnitList();
             }
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboType_Leave(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboType.SelectedIndex == -1)
+            if (ViewModel.cboType.SelectedIndex == -1)
             {
                 ViewModel.cboType.Text = "";
             }
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboUnit_SelectionChangeCommitted(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboUnit.SelectedIndex == -1)
+            if (ViewModel.cboUnit.SelectedIndex == -1)
             {
                 return;
             }
@@ -1612,16 +1597,16 @@ case "Reset Report Status":
                 ViewModel.DontRespond = 0;
             }
 
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cboUnit_Leave(Object eventSender, System.EventArgs eventArgs)
         {
-            if ( ViewModel.cboUnit.SelectedIndex == -1)
+            if (ViewModel.cboUnit.SelectedIndex == -1)
             {
                 ViewModel.cboUnit.Text = "";
             }
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cmdClearIncident_Click(Object eventSender, System.EventArgs eventArgs)
@@ -1629,7 +1614,7 @@ case "Reset Report Status":
             ViewModel.cboIncUnit.SelectedIndex = -1;
             ViewModel.cboIncType.SelectedIndex = -1;
             LoadIncidentList();
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cmdClearSelections_Click(Object eventSender, System.EventArgs eventArgs)
@@ -1655,7 +1640,7 @@ case "Reset Report Status":
             ViewModel.DontRespond = 0;
             LoadUnitList();
 
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cmdExit2_Click(Object eventSender, System.EventArgs eventArgs)
@@ -1696,41 +1681,41 @@ case "Reset Report Status":
         [UpgradeHelpers.Events.Handler]
         internal void cmdSysButt1_Click(Object eventSender, System.EventArgs eventArgs)
         {
-            using ( var async1 = this.Async(true) )
+            using (var async1 = this.Async(true))
             {
                 //Determine Action Based on currently selected activity
 
-                if ( ViewModel.cboSystemAction.SelectedIndex == -1)
+                if (ViewModel.cboSystemAction.SelectedIndex == -1)
                 {
                     this.Return();
-                    return ;
+                    return;
                 }
-                TFDIncident.clsCommonCodes CommonCodes = Container.Resolve< clsCommonCodes>();
-                TFDIncident.clsIncident IncidentCL = Container.Resolve< clsIncident>();
-                TFDIncident.clsNotification NotifyCL = Container.Resolve< clsNotification>();
+                TFDIncident.clsCommonCodes CommonCodes = Container.Resolve<clsCommonCodes>();
+                TFDIncident.clsIncident IncidentCL = Container.Resolve<clsIncident>();
+                TFDIncident.clsNotification NotifyCL = Container.Resolve<clsNotification>();
                 string EmpID = "";
                 int SecCode = 0;
                 int NotifyType = 0;
                 UpgradeHelpers.Helpers.DialogResult Response = (UpgradeHelpers.Helpers.DialogResult)0;
 
                 clsCommonCodes cCommon = null;
-                using ( var async2 = this.Async() )
+                using (var async2 = this.Async())
                 {
 
-                    switch ( ViewModel.cboSystemAction.Text)
+                    switch (ViewModel.cboSystemAction.Text)
                     {
                         case "Update Personnel Security":
-                            if ( ViewModel.cboSysAdm1.SelectedIndex == -1)
+                            if (ViewModel.cboSysAdm1.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select Security Type", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                                 this.Return();
-                                return ;
+                                return;
                             }
-                            else if ( ViewModel.cboSysAdm2.SelectedIndex == -1)
+                            else if (ViewModel.cboSysAdm2.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select Personnel", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             else
                             {
@@ -1757,14 +1742,14 @@ case "Reset Report Status":
                                                 ClearSystemAdmin();
                                             }
                                         });
-                                    }
+                                }
                             }
 
                             break;
-                    case "Change Splash Message":
-                            if ( ViewModel.txtSysAdm1.Text == "")
+                        case "Change Splash Message":
+                            if (ViewModel.txtSysAdm1.Text == "")
                             {
-                                if ( ViewModel.cboSysAdm1.SelectedIndex == -1)
+                                if (ViewModel.cboSysAdm1.SelectedIndex == -1)
                                 {
                                     ViewManager.ShowMessage("Please make Selection", "TFD IRS Sys Adm Error", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                                 }
@@ -1778,25 +1763,25 @@ case "Reset Report Status":
                                     {
                                         ViewManager.ShowMessage("Splash Message Updated", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                                     }
+                                }
                             }
-                    }
-                    else
-                    {
-                            if (~CommonCodes.InsertIRSMessage(ViewModel.txtSysAdm1.Text.Trim()) != 0)
+                            else
+                            {
+                                if (~CommonCodes.InsertIRSMessage(ViewModel.txtSysAdm1.Text.Trim()) != 0)
                                 {
                                     ViewManager.ShowMessage("Error adding new Splash Message", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                     this.Return();
-                                    return ;
+                                    return;
                                 }
                                 else
                                 {
                                     ViewManager.ShowMessage("Splash Message Updated", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                                 }
-                        }
-                        ClearSystemAdmin();
+                            }
+                            ClearSystemAdmin();
 
-                        break;
-                case "View Security Listing":
+                            break;
+                        case "View Security Listing":
                             //Print Displayed Security Listing 
                             //UPGRADE_ISSUE: (2064) FPSpread.vaSpread property sprSysAdm.PrintAbortMsg was not upgraded. More Information: http://www.vbtonet.com/ewis/ewi2064.aspx 
                             ViewModel.sprSysAdm.setPrintAbortMsg("Printing Security Listing - Click Cancel to quit");
@@ -1810,18 +1795,18 @@ case "Reset Report Status":
                             ViewModel.sprSysAdm.Action = FarPoint.ViewModels.FPActionConstants.ActionSmartPrint;
 
                             break;
-                    case "Manage Notification System":
-                            if ( ViewModel.cboSysAdm2.SelectedIndex == -1)
+                        case "Manage Notification System":
+                            if (ViewModel.cboSysAdm2.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select a Notification List", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
-                            else if ( ViewModel.cboSysAdm1.SelectedIndex == -1)
+                            else if (ViewModel.cboSysAdm1.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select a Notification Receiver", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             //Check to make sure that the selected Employee is not already on the list 
                             EmpID = ViewModel.cboSysAdm1.Text.Substring(Math.Max(ViewModel.cboSysAdm1.Text.Length - 5, 0));
@@ -1836,86 +1821,86 @@ case "Reset Report Status":
                                         ViewManager.ShowMessage("Selected Employee is already a member of this Notification list", "IRS System Administration", UpgradeHelpers.Helpers
                                             .BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                                         this.Return();
-                                        return ;
+                                        return;
                                     }
                                     NotifyCL.NotificationReceiver.MoveNext();
-                            };
-                    }
-                    //Add New Notification Receiver 
-                    if (~NotifyCL.AddNotificationReceiver(EmpID, NotifyType) != 0)
-                    {
+                                };
+                            }
+                            //Add New Notification Receiver 
+                            if (~NotifyCL.AddNotificationReceiver(EmpID, NotifyType) != 0)
+                            {
                                 ViewManager.ShowMessage("Error attempting to add new Notification Receiver", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                             }
-                            else if ( ViewModel.sprNotify.Visible)
+                            else if (ViewModel.sprNotify.Visible)
                             {
                                 FillSysReports();
                             }
 
                             break;
-                    case "Update Help Files":
+                        case "Update Help Files":
                             if (IncidentMain.Clean(ViewModel.txtHelpTitle.Text) == "")
                             {
                                 ViewManager.ShowMessage("Please Enter Topic Title", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             else if (IncidentMain.Clean(ViewModel.txtHelpText.Text) == "")
                             {
                                 ViewManager.ShowMessage("Please Enter Help Text", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
-                            cCommon = Container.Resolve< clsCommonCodes>();
+                            cCommon = Container.Resolve<clsCommonCodes>();
                             if (~cCommon.UpdateIRSHelp(ViewModel.CurrentHelpID, IncidentMain.Clean(ViewModel.txtHelpTitle.Text), IncidentMain.Clean(ViewModel.txtHelpText)) != 0)
                             {
                                 ViewManager.ShowMessage("Error attempting to update Help File", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
 
 
                             break;
-            }
+                    }
                 }
             }
 
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cmdSysButt2_Click(Object eventSender, System.EventArgs eventArgs)
         {
-            using ( var async1 = this.Async(true) )
+            using (var async1 = this.Async(true))
             {
                 //Determine Action Based on currently selected activity
 
-                if ( ViewModel.cboSystemAction.SelectedIndex == -1)
+                if (ViewModel.cboSystemAction.SelectedIndex == -1)
                 {
                     this.Return();
-                    return ;
+                    return;
                 }
-                TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
-                TFDIncident.clsCommonCodes CommonCodes = Container.Resolve< clsCommonCodes>();
-                TFDIncident.clsNotification NotifyCL = Container.Resolve< clsNotification>();
-                TFDIncident.clsEMS EMScl = Container.Resolve< clsEMS>();
+                TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
+                TFDIncident.clsCommonCodes CommonCodes = Container.Resolve<clsCommonCodes>();
+                TFDIncident.clsNotification NotifyCL = Container.Resolve<clsNotification>();
+                TFDIncident.clsEMS EMScl = Container.Resolve<clsEMS>();
                 int WorkReport = 0, RefReport = 0;
                 int StatusCode = 0;
                 UpgradeHelpers.Helpers.DialogResult Response = (UpgradeHelpers.Helpers.DialogResult)0;
                 int OldType = 0;
                 string sMessage = "", EmpID = "";
                 int NotifyType = 0;
-                using ( var async2 = this.Async() )
+                using (var async2 = this.Async())
                 {
 
 
 
-                    switch ( ViewModel.cboSystemAction.Text)
+                    switch (ViewModel.cboSystemAction.Text)
                     {
                         case "Delete Report":
-                            if ( ViewModel.cboSysAdm1.SelectedIndex == -1)
+                            if (ViewModel.cboSysAdm1.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select Report to Delete", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             sMessage = "You are about to irrevocably delete all records pertaining to this report." + "\n";
                             sMessage = sMessage + "Are you absolutely, positively, without doubts or second thoughts" + "\n";
@@ -1927,13 +1912,13 @@ case "Reset Report Status":
                                 {
                                     Response = tempNormalized1;
                                 });
-                                    if (Response == UpgradeHelpers.Helpers.DialogResult.Yes)
+                            if (Response == UpgradeHelpers.Helpers.DialogResult.Yes)
                             {
                                 if (~ReportLog.DeleteReport(WorkReport) != 0)
                                 {
                                     ViewManager.ShowMessage("Error Attempting to Delete Report", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                     this.Return();
-                                    return ;
+                                    return;
                                 }
                                 else
                                 {
@@ -1955,18 +1940,18 @@ case "Reset Report Status":
                                                 ClearSystemAdmin();
                                             }
                                         });
-                                    }
+                                }
                             }
                             break;
-                    case "Update Personnel Security":
+                        case "Update Personnel Security":
 
                             break;
-                    case "Change Splash Message":
-                            if ( ViewModel.cboSysAdm1.SelectedIndex == -1)
+                        case "Change Splash Message":
+                            if (ViewModel.cboSysAdm1.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please make Selection", "TFD IRS Sys Adm Error", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             else
                             {
@@ -1978,22 +1963,22 @@ case "Reset Report Status":
                                 {
                                     ViewManager.ShowMessage("Splash Message Deleted", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                                 }
-                        }
-                        ClearSystemAdmin();
-                        break;
-                case "Reset Report Status":
-                        if ( ViewModel.cboSysAdm1.SelectedIndex == -1 || ViewModel.cboSysAdm2.SelectedIndex == -1)
+                            }
+                            ClearSystemAdmin();
+                            break;
+                        case "Reset Report Status":
+                            if (ViewModel.cboSysAdm1.SelectedIndex == -1 || ViewModel.cboSysAdm2.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select Report and New Status", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             WorkReport = ViewModel.cboSysAdm2.GetItemData(ViewModel.cboSysAdm2.SelectedIndex);
                             if (~ReportLog.GetReportLog(WorkReport) != 0)
                             {
                                 ViewManager.ShowMessage("Error Resetting Report Status", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             else
                             {
@@ -2003,7 +1988,7 @@ case "Reset Report Status":
                                 {
                                     ViewManager.ShowMessage("Error Attempting to Reset Report Status", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                     this.Return();
-                                    return ;
+                                    return;
                                 }
                                 else
                                 {
@@ -2025,22 +2010,22 @@ case "Reset Report Status":
                                                 ClearSystemAdmin();
                                             }
                                         });
-                                    }
+                                }
                             }
                             break;
-                    case "Change EMS Report Type":
-                            if ( ViewModel.cboSysAdm1.SelectedIndex == -1 || ViewModel.cboSysAdm2.SelectedIndex == -1)
+                        case "Change EMS Report Type":
+                            if (ViewModel.cboSysAdm1.SelectedIndex == -1 || ViewModel.cboSysAdm2.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select Report and New Type", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             WorkReport = ViewModel.cboSysAdm2.GetItemData(ViewModel.cboSysAdm2.SelectedIndex);
                             if (~ReportLog.GetReportLog(WorkReport) != 0)
                             {
                                 ViewManager.ShowMessage("Error Changing EMS Report Type", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             else
                             {
@@ -2050,7 +2035,7 @@ case "Reset Report Status":
                                 {
                                     ViewManager.ShowMessage("Error Changing EMS Report Type", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                     this.Return();
-                                    return ;
+                                    return;
                                 }
                                 else
                                 {
@@ -2062,7 +2047,7 @@ case "Reset Report Status":
                                         {
                                             Response = tempNormalized7;
                                         });
-                                            if (Response == UpgradeHelpers.Helpers.DialogResult.Yes)
+                                    if (Response == UpgradeHelpers.Helpers.DialogResult.Yes)
                                     {
                                         OldType = EMScl.ActionTaken;
                                         EMScl.ActionTaken = StatusCode;
@@ -2070,7 +2055,7 @@ case "Reset Report Status":
                                         {
                                             ViewManager.ShowMessage("Error Changing EMS Report Type", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                             this.Return();
-                                            return ;
+                                            return;
                                         }
                                         if (StatusCode == 3 || StatusCode == 4 || StatusCode == 5)
                                         {
@@ -2119,23 +2104,23 @@ case "Reset Report Status":
                                                     ClearSystemAdmin();
                                                 }
                                             });
-                                        }
+                                    }
                                 }
-                        }
+                            }
 
-                        break;
-                case "Manage Notification System":
-                        if ( ViewModel.cboSysAdm2.SelectedIndex == -1)
+                            break;
+                        case "Manage Notification System":
+                            if (ViewModel.cboSysAdm2.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select a Notification List", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
-                            else if ( ViewModel.cboSysAdm1.SelectedIndex == -1)
+                            else if (ViewModel.cboSysAdm1.SelectedIndex == -1)
                             {
                                 ViewManager.ShowMessage("Please Select a Notification Receiver", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                 this.Return();
-                                return ;
+                                return;
                             }
                             //Check to make sure that the selected Employee is currently on the list 
                             EmpID = ViewModel.cboSysAdm1.Text.Substring(Math.Max(ViewModel.cboSysAdm1.Text.Length - 5, 0));
@@ -2153,44 +2138,44 @@ case "Reset Report Status":
                                             ViewManager.ShowMessage("Error attempting to Delete Notification Receiver", "IRS System Administration", UpgradeHelpers.Helpers.
                                                 BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                                             this.Return();
-                                            return ;
+                                            return;
                                         }
                                         else
                                         {
-                                            if ( ViewModel.sprNotify.Visible)
+                                            if (ViewModel.sprNotify.Visible)
                                             {
                                                 FillSysReports();
                                             }
                                             this.Return();
-                                            return ;
+                                            return;
+                                        }
                                     }
+                                    NotifyCL.NotificationReceiver.MoveNext();
+                                };
                             }
-                            NotifyCL.NotificationReceiver.MoveNext();
-                    };
-            }
 
-            break;
-}
+                            break;
+                    }
                 }
             }
 
-}
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cmdSysButt3_Click(Object eventSender, System.EventArgs eventArgs)
         {
             //Determine Action Based on currently selected activity
 
-            if ( ViewModel.cboSystemAction.SelectedIndex == -1)
+            if (ViewModel.cboSystemAction.SelectedIndex == -1)
             {
                 return;
             }
-            TFDIncident.clsCommonCodes CommonCodes = Container.Resolve< clsCommonCodes>();
-            TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
-            TFDIncident.clsEMSCodes EMSCodes = Container.Resolve< clsEMSCodes>();
+            TFDIncident.clsCommonCodes CommonCodes = Container.Resolve<clsCommonCodes>();
+            TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
+            TFDIncident.clsEMSCodes EMSCodes = Container.Resolve<clsEMSCodes>();
 
 
-            switch ( ViewModel.cboSystemAction.Text)
+            switch (ViewModel.cboSystemAction.Text)
             {
                 case "Delete Report":
                     if (FillSysReports() != 0)
@@ -2210,7 +2195,7 @@ case "Reset Report Status":
                     }
 
                     break;
-            case "Change EMS Report Type":
+                case "Change EMS Report Type":
                     if (FillSysReports() != 0)
                     {
                         ViewModel.cboSysAdm1.Items.Clear();
@@ -2221,7 +2206,7 @@ case "Reset Report Status":
                             ViewModel.cboSysAdm1.AddItem(IncidentMain.Clean(EMSCodes.ActionTakenCodes["action_taken_description"]));
                             ViewModel.cboSysAdm1.SetItemData(ViewModel.cboSysAdm1.GetNewIndex(), Convert.ToInt32(EMSCodes.ActionTakenCodes["action_taken_code"]));
                             EMSCodes.ActionTakenCodes.MoveNext();
-                    }
+                        }
                         ;
                         ViewModel.txtSysAdm1.Visible = false;
                         ViewModel.lbSysAdmin1.Text = "Select Report:";
@@ -2241,7 +2226,7 @@ case "Reset Report Status":
                         ViewManager.ShowMessage("No Reports Found for this Incident", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                     }
                     break;
-            case "Reset Report Status":
+                case "Reset Report Status":
                     ViewModel.lbSysAdmin1.Text = "Select Report:";
                     ViewModel.lbSysAdmin1.Visible = true;
                     ViewModel.lbSysAdmin2.Text = "Select New Status:";
@@ -2269,30 +2254,30 @@ case "Reset Report Status":
                         ViewManager.ShowMessage("No Reports Found for this Incident", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                     }
                     break;
-            case "View Security Listing":
-                    if ( ViewModel.cboSysAdm2.SelectedIndex == -1)
+                case "View Security Listing":
+                    if (ViewModel.cboSysAdm2.SelectedIndex == -1)
                     {
                         ViewManager.ShowMessage("Please Select a Security Type", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                         return;
-                }
-                FillSysReports();
+                    }
+                    FillSysReports();
                     ViewModel.sprSysAdm.Visible = true;
                     ViewModel.cmdSysButt1.Text = "Print";
                     ViewModel.cmdSysButt1.Visible = true;
 
                     break;
-            case "Manage Notification System":
-                    if ( ViewModel.cboSysAdm2.SelectedIndex == -1)
+                case "Manage Notification System":
+                    if (ViewModel.cboSysAdm2.SelectedIndex == -1)
                     {
                         ViewManager.ShowMessage("Please Select a Notification List Type", "IRS System Administration", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                         return;
-                }
-                FillSysReports();
+                    }
+                    FillSysReports();
                     ViewModel.sprNotify.Visible = true;
                     break;
-    }
+            }
 
-}
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cmdView_Click(Object eventSender, System.EventArgs eventArgs)
@@ -2310,7 +2295,7 @@ case "Reset Report Status":
             //9/20/02 - SM
             //Check for Summarry Report - handle differently to get data and totals
 
-            if ( ViewModel.cmdView.Text == "View Report")
+            if (ViewModel.cmdView.Text == "View Report")
             {
                 GenerateReport();
                 return;
@@ -2319,7 +2304,7 @@ case "Reset Report Status":
             DbCommand ocmd = UpgradeHelpers.DB.AdoFactoryManager.GetFactory().CreateCommand();
             ADORecordSetHelper orec = null;
             int InquiryID = 0;
-            TFDIncident.clsInquiry InquiryCL = Container.Resolve< clsInquiry>();
+            TFDIncident.clsInquiry InquiryCL = Container.Resolve<clsInquiry>();
             string SqlString = "";
             int FilterCount = 0, CurrFilter = 0;
             int DateFlag = 0;
@@ -2342,20 +2327,20 @@ case "Reset Report Status":
                     SqlString = "select ";
                     for (int i = 0; i <= ViewModel.lstFields.Items.Count - 1; i++)
                     {
-                        if ( ViewModel.lstFields.GetSelected( i))
+                        if (ViewModel.lstFields.GetSelected(i))
                         {
                             InquiryCL.GetInquiryFields(ViewModel.lstFields.GetItemData(i));
                             SqlString = SqlString + InquiryCL.FieldName + ",";
+                        }
                     }
-            }
-            SqlString = SqlString.Substring(0, Math.Min(Strings.Len(SqlString) - 1, SqlString.Length));
-            SqlString = SqlString + " from " + InquiryCL.InquiryView;
+                    SqlString = SqlString.Substring(0, Math.Min(Strings.Len(SqlString) - 1, SqlString.Length));
+                    SqlString = SqlString + " from " + InquiryCL.InquiryView;
 
-            FilterCount = 0;
-            DateFlag = 0;
-            for (int i = 0; i <= ViewModel.lstFilters.Items.Count - 1; i++)
+                    FilterCount = 0;
+                    DateFlag = 0;
+                    for (int i = 0; i <= ViewModel.lstFilters.Items.Count - 1; i++)
                     {
-                        if ( ViewModel.lstFilters.GetSelected( i))
+                        if (ViewModel.lstFilters.GetSelected(i))
                         {
                             FilterCount++;
                             InquiryCL.GetInquiryFields(ViewModel.lstFilters.GetItemData(i));
@@ -2363,13 +2348,13 @@ case "Reset Report Status":
                             {
                                 DateFlag = -1;
                             }
+                        }
                     }
-            }
 
-            if (FilterCount != 0)
-            {
-                    if (DateFlag != 0)
+                    if (FilterCount != 0)
                     {
+                        if (DateFlag != 0)
+                        {
                             if (Information.IsDate(ViewModel.calInquiry1.Value))
                             {
                                 //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.MonthCalendar.SelectionStart was not upgraded
@@ -2387,15 +2372,15 @@ case "Reset Report Status":
                                 {
                                     if (Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) != "")
                                     {
-                                        if ( ViewModel.txtFilter[CurrFilter].Visible && IncidentMain.Clean(ViewModel.txtFilter[CurrFilter].Text) != "")
+                                        if (ViewModel.txtFilter[CurrFilter].Visible && IncidentMain.Clean(ViewModel.txtFilter[CurrFilter].Text) != "")
                                         {
                                             SqlString = SqlString + " and ";
                                             SqlString = SqlString + Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag);
                                             SqlString = SqlString + " like ('%" + ViewModel.txtFilter[CurrFilter].Text + "%')";
                                         }
-                                        else if ( ViewModel.cboFilter[CurrFilter].SelectedIndex != -1)
+                                        else if (ViewModel.cboFilter[CurrFilter].SelectedIndex != -1)
                                         {
-                                            if ( ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex) == 0)
+                                            if (ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex) == 0)
                                             {
                                                 SqlString = SqlString + " and ";
                                                 SqlString = SqlString + Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag);
@@ -2403,28 +2388,28 @@ case "Reset Report Status":
                                                 CodeStart = (WorkString.IndexOf(':') + 1) + 2;
                                                 WorkString = WorkString.Substring(CodeStart - 1, Math.Min(Strings.Len(WorkString) - CodeStart + 1, WorkString.Length - (CodeStart - 1)));
                                                 SqlString = SqlString + " = '" + WorkString + "'";
-                                        }
-                                        else
-                                        {
+                                            }
+                                            else
+                                            {
                                                 SqlString = SqlString + " and ";
                                                 SqlString = SqlString + Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) + " = ";
                                                 SqlString = SqlString + ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex).ToString() + " ";
                                             }
+                                        }
                                     }
+                                    CurrFilter++;
+                                    FilterCount--;
+                                };
                             }
-                            CurrFilter++;
-                            FilterCount--;
-                    };
-            }
-            else
-            {
-                    CurrFilter = 0;
+                            else
+                            {
+                                CurrFilter = 0;
 
-                    while (FilterCount != 0)
-                    {
-                            if (Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) != "")
+                                while (FilterCount != 0)
+                                {
+                                    if (Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) != "")
                                     {
-                                        if ( ViewModel.txtFilter[CurrFilter].Visible && IncidentMain.Clean(ViewModel.txtFilter[CurrFilter].Text) != "")
+                                        if (ViewModel.txtFilter[CurrFilter].Visible && IncidentMain.Clean(ViewModel.txtFilter[CurrFilter].Text) != "")
                                         {
                                             if (CurrFilter == 0)
                                             {
@@ -2437,9 +2422,9 @@ case "Reset Report Status":
                                             SqlString = SqlString + Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag);
                                             SqlString = SqlString + " like ('%" + ViewModel.txtFilter[CurrFilter].Text + "%')";
                                         }
-                                        else if ( ViewModel.cboFilter[CurrFilter].SelectedIndex != -1)
+                                        else if (ViewModel.cboFilter[CurrFilter].SelectedIndex != -1)
                                         {
-                                            if ( ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex) == 0)
+                                            if (ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex) == 0)
                                             {
                                                 if (CurrFilter == 0)
                                                 {
@@ -2454,9 +2439,9 @@ case "Reset Report Status":
                                                 CodeStart = (WorkString.IndexOf(':') + 1) + 2;
                                                 WorkString = WorkString.Substring(CodeStart - 1, Math.Min(Strings.Len(WorkString) - CodeStart + 1, WorkString.Length - (CodeStart - 1)));
                                                 SqlString = SqlString + " = '" + WorkString + "'";
-                                        }
-                                        else
-                                        {
+                                            }
+                                            else
+                                            {
                                                 if (CurrFilter == 0)
                                                 {
                                                     SqlString = SqlString + " where ";
@@ -2468,22 +2453,22 @@ case "Reset Report Status":
                                                 SqlString = SqlString + Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) + " = ";
                                                 SqlString = SqlString + ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex).ToString() + " ";
                                             }
+                                        }
                                     }
+                                    CurrFilter++;
+                                    FilterCount--;
+                                };
                             }
-                            CurrFilter++;
-                            FilterCount--;
-                    };
-            }
-    }
-    else
-    {
-            CurrFilter = 0;
+                        }
+                        else
+                        {
+                            CurrFilter = 0;
 
-            while (FilterCount != 0)
-            {
-                    if (Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) != "")
+                            while (FilterCount != 0)
+                            {
+                                if (Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) != "")
                                 {
-                                    if ( ViewModel.txtFilter[CurrFilter].Visible && IncidentMain.Clean(ViewModel.txtFilter[CurrFilter].Text) != "")
+                                    if (ViewModel.txtFilter[CurrFilter].Visible && IncidentMain.Clean(ViewModel.txtFilter[CurrFilter].Text) != "")
                                     {
                                         if (CurrFilter == 0)
                                         {
@@ -2496,9 +2481,9 @@ case "Reset Report Status":
                                         SqlString = SqlString + Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag);
                                         SqlString = SqlString + " like ('%" + ViewModel.txtFilter[CurrFilter].Text + "%')";
                                     }
-                                    else if ( ViewModel.cboFilter[CurrFilter].SelectedIndex != -1)
+                                    else if (ViewModel.cboFilter[CurrFilter].SelectedIndex != -1)
                                     {
-                                        if ( ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex) == 0)
+                                        if (ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex) == 0)
                                         {
                                             if (CurrFilter == 0)
                                             {
@@ -2513,9 +2498,9 @@ case "Reset Report Status":
                                             CodeStart = (WorkString.IndexOf(':') + 1) + 2;
                                             WorkString = WorkString.Substring(CodeStart - 1, Math.Min(Strings.Len(WorkString) - CodeStart + 1, WorkString.Length - (CodeStart - 1)));
                                             SqlString = SqlString + " = '" + WorkString + "'";
-                                    }
-                                    else
-                                    {
+                                        }
+                                        else
+                                        {
                                             if (CurrFilter == 0)
                                             {
                                                 SqlString = SqlString + " where ";
@@ -2527,17 +2512,17 @@ case "Reset Report Status":
                                             SqlString = SqlString + Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) + " = ";
                                             SqlString = SqlString + ViewModel.cboFilter[CurrFilter].GetItemData(ViewModel.cboFilter[CurrFilter].SelectedIndex).ToString() + " ";
                                         }
+                                    }
                                 }
+                                CurrFilter++;
+                                FilterCount--;
+                            };
                         }
-                        CurrFilter++;
-                        FilterCount--;
-                };
-        }
-}
+                    }
 
-SqlString = SqlString + " " + InquiryCL.InquiryOrderBy;
-ocmd.CommandText = SqlString;
-ocmd.CommandTimeout = 240;
+                    SqlString = SqlString + " " + InquiryCL.InquiryOrderBy;
+                    ocmd.CommandText = SqlString;
+                    ocmd.CommandTimeout = 240;
                     //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
                     this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.WaitCursor);
                     orec = ADORecordSetHelper.Open(ocmd, "");
@@ -2556,9 +2541,9 @@ ocmd.CommandTimeout = 240;
                             frmQueryResults.DefInstance);
                     }
 
-            }
-            else
-            {
+                }
+                else
+                {
                     //Process Summary Report Request
                     SqlString = "SELECT ";
                     WhereClause = new System.Text.StringBuilder(" WHERE ");
@@ -2571,7 +2556,7 @@ ocmd.CommandTimeout = 240;
 
                     for (int i = 0; i <= ViewModel.lstFilters.Items.Count - 1; i++)
                     {
-                        if ( ViewModel.lstFilters.GetSelected( i))
+                        if (ViewModel.lstFilters.GetSelected(i))
                         {
                             InquiryCL.GetInquiryFields(ViewModel.lstFilters.GetItemData(i));
                             if (InquiryCL.FlagDate != 0)
@@ -2594,20 +2579,20 @@ ocmd.CommandTimeout = 240;
                                     IncidentMain.Shared.gQueryEndDate = Convert.ToDateTime(ViewModel.calInquiry2.Value).AddDays(1).ToString("M/d/yyyy");
                                     DateFlag = -1;
                                     break;
+                                }
                             }
+                        }
                     }
-            }
-    }
-    //Now Add Selected Fields
-    CurrFilter = 0;
-    for (int i = 0; i <= ViewModel.lstFilters.Items.Count - 1; i++)
+                    //Now Add Selected Fields
+                    CurrFilter = 0;
+                    for (int i = 0; i <= ViewModel.lstFilters.Items.Count - 1; i++)
                     {
                         InquiryCL.GetInquiryFields(ViewModel.lstFilters.GetItemData(i));
                         if (InquiryCL.FlagDate == 0)
                         {
                             SqlString = SqlString + InquiryCL.FieldName + ",";
                             GroupByClause = GroupByClause + InquiryCL.FieldName + ",";
-                            if ( ViewModel.lstFilters.GetSelected( i))
+                            if (ViewModel.lstFilters.GetSelected(i))
                             { //Use Filter
                                 if (DateFlag != 0)
                                 {
@@ -2615,33 +2600,33 @@ ocmd.CommandTimeout = 240;
                                 }
                                 if (Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) != "")
                                 {
-                                    if ( ViewModel.txtFilter[CurrFilter].Visible && IncidentMain.Clean(ViewModel.txtFilter[CurrFilter].Text) != "")
+                                    if (ViewModel.txtFilter[CurrFilter].Visible && IncidentMain.Clean(ViewModel.txtFilter[CurrFilter].Text) != "")
                                     {
                                         WhereClause.Append(Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag));
                                         WhereClause.Append(" like ('%" + ViewModel.txtFilter[CurrFilter].Text + "%')");
                                     }
-                                    else if ( ViewModel.cboFilter[CurrFilter].SelectedIndex != -1)
+                                    else if (ViewModel.cboFilter[CurrFilter].SelectedIndex != -1)
                                     {
                                         WhereClause.Append(Convert.ToString(ViewModel.lbFilter[CurrFilter].Tag) + " = '");
                                         WhereClause.Append(ViewModel.cboFilter[CurrFilter].Text + "'");
                                     }
+                                }
+                                CurrFilter++;
+                                DateFlag = -1;
                             }
-                            CurrFilter++;
-                            DateFlag = -1;
+                        }
                     }
-            }
-    }
-    GroupByClause = GroupByClause.Substring(0, Math.Min(Strings.Len(GroupByClause) - 1, GroupByClause.Length)); //Remove last comma
-    SqlString = SqlString + "Count(*) AS sum_total "; //Add aggregate
-    SqlString = SqlString + " FROM  " + InquiryCL.InquiryView;
-    if (WhereClause.ToString() != " WHERE ")
-    {
-            SqlString = SqlString + WhereClause.ToString();
-    }
-    SqlString = SqlString + " GROUP BY " + GroupByClause;
-    SqlString = SqlString + " ORDER BY " + GroupByClause;
-    ocmd.CommandText = SqlString;
-    ocmd.CommandTimeout = 240;
+                    GroupByClause = GroupByClause.Substring(0, Math.Min(Strings.Len(GroupByClause) - 1, GroupByClause.Length)); //Remove last comma
+                    SqlString = SqlString + "Count(*) AS sum_total "; //Add aggregate
+                    SqlString = SqlString + " FROM  " + InquiryCL.InquiryView;
+                    if (WhereClause.ToString() != " WHERE ")
+                    {
+                        SqlString = SqlString + WhereClause.ToString();
+                    }
+                    SqlString = SqlString + " GROUP BY " + GroupByClause;
+                    SqlString = SqlString + " ORDER BY " + GroupByClause;
+                    ocmd.CommandText = SqlString;
+                    ocmd.CommandTimeout = 240;
                     //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
                     this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.WaitCursor);
                     orec = ADORecordSetHelper.Open(ocmd, "");
@@ -2659,13 +2644,13 @@ ocmd.CommandTimeout = 240;
                         ViewManager.NavigateToView(
                             frmQueryResults.DefInstance);
                     }
+                }
             }
-    }
-    catch (Exception e)
-    {
+            catch (Exception e)
+            {
 
-            //UPGRADE_WARNING: (2081) Err.Number has a new behavior. More Information: http://www.vbtonet.com/ewis/ewi2081.aspx
-            if ( UpgradeHelpers.Helpers.Information.Err().Number == -2147217871)
+                //UPGRADE_WARNING: (2081) Err.Number has a new behavior. More Information: http://www.vbtonet.com/ewis/ewi2081.aspx
+                if (UpgradeHelpers.Helpers.Information.Err().Number == -2147217871)
                 {
                     ViewManager.ShowMessage("Your Query has Timed Out - Please Filter Data Request", "TFD Incident Reporting System", UpgradeHelpers.Helpers.
                         BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
@@ -2677,9 +2662,9 @@ ocmd.CommandTimeout = 240;
                 }
                 //UPGRADE_TODO: (1065) Error handling statement (Resume Next) could not be converted. More Information: http://www.vbtonet.com/ewis/ewi1065.aspx
                 UpgradeHelpers.Helpers.NotUpgradedHelper.NotifyNotUpgradedElement("Resume Next Statement");
-        }
+            }
 
-}
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void cmdViewReport_Click(Object eventSender, System.EventArgs eventArgs)
@@ -2719,32 +2704,32 @@ ocmd.CommandTimeout = 240;
         {
             //Check to determine if [View Results] button can be enabled
             //Check to load filters if Summary Selections are made
-            TFDIncident.clsInquiry InquiryCL = Container.Resolve< clsInquiry>();
+            TFDIncident.clsInquiry InquiryCL = Container.Resolve<clsInquiry>();
             int ItemSelected = 0;
             int InquiryID = 0;
 
-            if ( ViewModel.cboInquiryList.SelectedIndex == -1)
+            if (ViewModel.cboInquiryList.SelectedIndex == -1)
             {
                 return;
             }
 
-            if ( ViewModel.SummaryReportFlag != 0)
+            if (ViewModel.SummaryReportFlag != 0)
             {
                 InquiryID = ViewModel.cboInquiryList.GetItemData(ViewModel.cboInquiryList.SelectedIndex);
                 if (~InquiryCL.GetInquiryFieldsRS(InquiryID) != 0)
                 {
                     ViewManager.ShowMessage("Error Retreiving Summary Item Records", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                     return;
-            }
-            else
-            {
+                }
+                else
+                {
                     ViewModel.cmdClearSelections.Visible = true;
                     ViewModel.lstFilters.Visible = true;
                     ViewModel.lbFilterFields.Visible = true;
                     ViewModel.lstFilters.Items.Clear();
                     for (int i = 0; i <= ViewModel.lstFields.Items.Count - 1; i++)
                     {
-                        if ( ViewModel.lstFields.GetSelected( i))
+                        if (ViewModel.lstFields.GetSelected(i))
                         {
                             InquiryCL.InquiryFields.MoveFirst();
 
@@ -2755,17 +2740,17 @@ ocmd.CommandTimeout = 240;
                                     ViewModel.lstFilters.AddItem(IncidentMain.Clean(InquiryCL.InquiryFields["field_display"]));
                                     ViewModel.lstFilters.SetItemData(ViewModel.lstFilters.GetNewIndex(), Convert.ToInt32(InquiryCL.InquiryFields["inquiry_field_id"]));
                                     break;
-                            }
-                            InquiryCL.InquiryFields.MoveNext();
-                    };
-            }
-    }
-}
-//Check for Number of fields selected - only allow 2
-ItemSelected = 0;
-for (int i = 0; i <= ViewModel.lstFields.Items.Count - 1; i++)
+                                }
+                                InquiryCL.InquiryFields.MoveNext();
+                            };
+                        }
+                    }
+                }
+                //Check for Number of fields selected - only allow 2
+                ItemSelected = 0;
+                for (int i = 0; i <= ViewModel.lstFields.Items.Count - 1; i++)
                 {
-                    if ( ViewModel.lstFields.GetSelected( i))
+                    if (ViewModel.lstFields.GetSelected(i))
                     {
                         ItemSelected++;
                     }
@@ -2773,28 +2758,28 @@ for (int i = 0; i <= ViewModel.lstFields.Items.Count - 1; i++)
                     {
                         ViewModel.lstFields.Enabled = false;
                         break;
+                    }
                 }
-        }
-}
-else
-{
-        ItemSelected = 0;
-        for (int i = 0; i <= ViewModel.lstFields.Items.Count - 1; i++)
+            }
+            else
+            {
+                ItemSelected = 0;
+                for (int i = 0; i <= ViewModel.lstFields.Items.Count - 1; i++)
                 {
-                    if ( ViewModel.lstFields.GetSelected( i))
+                    if (ViewModel.lstFields.GetSelected(i))
                     {
                         for (int x = 0; x <= ViewModel.lstFilters.Items.Count - 1; x++)
                         {
-                            if ( ViewModel.lstFilters.GetSelected( x))
+                            if (ViewModel.lstFilters.GetSelected(x))
                             {
                                 ItemSelected = -1;
                                 break;
                             }
+                        }
+                        break;
                     }
-                    break;
+                }
             }
-    }
-}
             ViewModel.cmdView.Enabled = ItemSelected != 0;
 
         }
@@ -2804,7 +2789,7 @@ else
         {
             //Display or Hide Filter Selection Controls
             //Check to determine if [View Results] button can be enabled
-            TFDIncident.clsInquiry InquiryCL = Container.Resolve< clsInquiry>();
+            TFDIncident.clsInquiry InquiryCL = Container.Resolve<clsInquiry>();
             int InqFieldID = 0;
             string SqlString = "", CodeString = "";
             DbCommand ocmd = UpgradeHelpers.DB.AdoFactoryManager.GetFactory().CreateCommand();
@@ -2819,24 +2804,24 @@ else
             int ItemSelected = 0;
             for (int i = 0; i <= ViewModel.lstFilters.Items.Count - 1; i++)
             {
-                if ( ViewModel.lstFilters.GetSelected( i))
+                if (ViewModel.lstFilters.GetSelected(i))
                 {
                     for (int x = 0; x <= ViewModel.lstFields.Items.Count - 1; x++)
                     {
-                        if ( ViewModel.lstFields.GetSelected( x))
+                        if (ViewModel.lstFields.GetSelected(x))
                         {
                             ItemSelected = -1;
                             break;
                         }
+                    }
+                    break;
                 }
-                break;
-        }
-}
+            }
             ViewModel.cmdView.Enabled = ItemSelected != 0;
 
             for (int i = 0; i <= ViewModel.lstFilters.Items.Count - 1; i++)
             {
-                if ( ViewModel.lstFilters.GetSelected( i))
+                if (ViewModel.lstFilters.GetSelected(i))
                 {
                     InqFieldID = ViewModel.lstFilters.GetItemData(i);
                     if (~InquiryCL.GetInquiryFields(InqFieldID) != 0)
@@ -2878,7 +2863,7 @@ else
                                         ViewModel.cboFilter[CurrFilter].AddItem(IncidentMain.Clean(orec.GetField(1)) + ": " + IncidentMain.Clean(orec.GetField(0)));
                                     }
                                     orec.MoveNext();
-                            };
+                                };
                                 ViewModel.cboFilter[CurrFilter].Visible = true;
                             }
                             else
@@ -2886,27 +2871,27 @@ else
                                 ViewManager.ShowMessage("Error Retrieving Filter Codes", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Error);
                             }
                             CurrFilter++;
-                    }
-                    else
-                    {
+                        }
+                        else
+                        {
                             ViewModel.lbFilter[CurrFilter].Text = InquiryCL.FieldDisplay;
                             ViewModel.lbFilter[CurrFilter].Tag = InquiryCL.FieldName;
                             ViewModel.lbFilter[CurrFilter].Visible = true;
                             ViewModel.txtFilter[CurrFilter].Visible = true;
                             CurrFilter++;
+                        }
                     }
+                }
             }
-    }
-}
 
-}
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void optBattalion_CheckedChanged(Object eventSender, System.EventArgs eventArgs)
         {
             if (((UpgradeHelpers.BasicViewModels.RadioButtonViewModel)eventSender).Checked)
             {
-                if ( ViewModel.isInitializingComponent)
+                if (ViewModel.isInitializingComponent)
                 {
                     return;
                 }
@@ -2918,8 +2903,8 @@ else
                     LoadUnitList();
                     ViewModel.DontRespond = 0;
                 }
+            }
         }
-}
 
 
         public void sprIncident_CellDoubleClick(object eventSender, Stubs._FarPoint.Win.Spread.CellClickEventArgs eventArgs)
@@ -2933,7 +2918,7 @@ else
 
             FormatIncidentSelector();
 
-    }
+        }
 
 
         private void sprIncReports_CellDoubleClick(object eventSender, Stubs._FarPoint.Win.Spread.CellClickEventArgs eventArgs)
@@ -2942,10 +2927,10 @@ else
             int Row = eventArgs.Row;
             //Open Selected Report
             //Column 2 holds report_log_id
-            TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
+            TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
             ViewModel.sprIncReports.Row = Row;
             ViewModel.sprIncReports.Col = 2;
-            if ( ViewModel.sprIncReports.Text == "")
+            if (ViewModel.sprIncReports.Text == "")
             {
                 return;
             }
@@ -2960,9 +2945,9 @@ else
                 //No Access Security for this report
                 ViewManager.ShowMessage("No Security Clearance for this Report", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                 return;
-        }
-        switch (ReportLog.ReportType)
-        {
+            }
+            switch (ReportLog.ReportType)
+            {
                 case 2:
                 case 33:
                     //Incident - Situation Found & Incident Address Correction 
@@ -2972,81 +2957,82 @@ else
                     IncidentMain.MoveForm(frmIncident.DefInstance);
                     FormatIncidentSelector();
                     break;
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 11:
+                case 12:
+                case 13:
+                case 14:
                     //Fire or Rupture 
                     ViewManager.NavigateToView(
                         //Fire or Rupture 
                         frmFireReport.DefInstance);
                     IncidentMain.MoveForm(frmFireReport.DefInstance);
                     break;
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 31:
+                case 7:
+                case 8:
+                case 9:
+                case 10:
+                case 31:
                     //Hazmat 
                     ViewManager.NavigateToView(
                         //Hazmat 
                         frmHazmatReport.DefInstance);
                     IncidentMain.MoveForm(frmHazmatReport.DefInstance);
                     break;
-            case 15:
+                case 15:
                     //EMS 
                     ViewManager.NavigateToView(
                         //EMS 
                         frmEMSReport.DefInstance);
                     IncidentMain.MoveForm(frmEMSReport.DefInstance);
                     break;
-            case 16:
-            case 17:
-            case 18:
-            case 19:
-            case 20:
-            case 21:
-            case 22:
-            case 23:
-            case 24:
+                case 16:
+                case 17:
+                case 18:
+                case 19:
+                case 20:
+                case 21:
+                case 22:
+                case 23:
+                case 24:
                     //All other reports 
                     ViewManager.NavigateToView(
                         //All other reports 
                         frmOtherReports.DefInstance);
                     IncidentMain.MoveForm(frmOtherReports.DefInstance);
                     break;
-            case 27:
+                case 27:
                     //Show Incendiary Form 
                     break;
-            case 28:
-            case 29:
+                case 28:
+                case 29:
                     //Show Juvenile Form 
                     break;
-    }
+            }
 
-    ReportLog = null;
+            ReportLog = null;
 
-}
+        }
 
         internal void sprUnitList_CellDoubleClick(object eventSender, Stubs._FarPoint.Win.Spread.CellClickEventArgs eventArgs)
         {
-            using ( var async1 = this.Async(true) )
+            using (var async1 = this.Async(true))
             {
+                var ActiveRow = ViewModel.sprUnitList.ActiveRow;
                 int Col = eventArgs.Column;
                 int Row = eventArgs.Row;
                 //Test to determine if New Report Wizard Launched
                 int ReportID = 0;
-                TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
+                TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
                 //ViewModel.sprUnitList.Row = Row;
                 //ViewModel.sprUnitList.Col = 7;
                 if (Conversion.Val(ViewModel.sprUnitList.Text) == 0)
                 {
                     this.Return();
-                    return ;
+                    return;
                 }
                 else
                 {
@@ -3059,7 +3045,7 @@ else
                 {
                     ViewManager.ShowMessage("No Incomplete Reports Outstanding - Please Use Report Editing Tab to Update Existing Reports", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK);
                     this.Return();
-                    return ;
+                    return;
                 }
 
                 if (IncidentMain.CheckUnitSecurity(IncidentMain.Shared.gWizardIncidentID, IncidentMain.Shared.gWizardUnitID) != 0)
@@ -3092,7 +3078,7 @@ else
             ViewModel.sprUnitReports.Row = Row;
             ViewModel.sprUnitReports.Col = 2;
 
-            if ( ViewModel.sprUnitReports.Text == "")
+            if (ViewModel.sprUnitReports.Text == "")
             {
                 return;
             }
@@ -3105,19 +3091,19 @@ else
                 //No Access Security for this report
                 ViewManager.ShowMessage("No Security Clearance for this Report", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                 return;
-        }
+            }
             ViewManager.NavigateToView(
                 frmIncident.DefInstance);
             IncidentMain.MoveForm(frmIncident.DefInstance);
 
-    }
+        }
 
-     
+
         [UpgradeHelpers.Events.Handler]
         internal void tvHelpList_AfterSelect(Object eventSender, UpgradeHelpers.BasicViewModels.TreeNodeViewModel eventArgs)
         {
             UpgradeHelpers.BasicViewModels.TreeNodeViewModel Node = eventArgs;
-            TFDIncident.clsCommonCodes cCommon = Container.Resolve< clsCommonCodes>();
+            TFDIncident.clsCommonCodes cCommon = Container.Resolve<clsCommonCodes>();
             int HelpID = 0;
 
             //UPGRADE_WARNING: (1068) Node.Tag of type Variant is being forced to string. More Information: http://www.vbtonet.com/ewis/ewi1068.aspx
@@ -3150,7 +3136,7 @@ else
             }
             GetHelpText();
 
-    }
+        }
 
         [UpgradeHelpers.Events.Handler]
         internal void MainTabs_Selecting(object sender, EventArgs e)
@@ -3180,7 +3166,7 @@ else
         {
             get
             {
-                if ( Shared.m_vb6FormDefInstance == null)
+                if (Shared.m_vb6FormDefInstance == null)
                 {
                     Shared.
                         m_InitializingDefInstance = true;
@@ -3189,18 +3175,18 @@ else
                     Shared.
                         m_InitializingDefInstance = false;
                 }
-                return Shared. m_vb6FormDefInstance;
+                return Shared.m_vb6FormDefInstance;
             }
             set
             {
                 Shared.
                     m_vb6FormDefInstance = value;
             }
-    }
+        }
 
         public static frmMain CreateInstance()
         {
-            TFDIncident.frmMain theInstance = Shared.Container.Resolve< frmMain>();
+            TFDIncident.frmMain theInstance = Shared.Container.Resolve<frmMain>();
             theInstance.Form_Load();
             //The MDI form in the VB6 project had its
             //AutoShowChildren property set to True
@@ -3220,11 +3206,11 @@ else
                 theInstance
                 );
             return theInstance;
-    }
+        }
 
         void ReLoadForm(bool addEvents)
         {
-            using ( var async1 = this.Async(true) )
+            using (var async1 = this.Async(true))
             {
                 async1.Append<TFDIncident.MDIIncident>(() => TFDIncident.MDIIncident.DefInstance);
                 //This form is an MDI child.
@@ -3335,4 +3321,29 @@ else
         }
 
     }
+
+
+    public class ItemsUnitGrid
+    : UpgradeHelpers.Interfaces.IDependentModel, UpgradeHelpers.Interfaces.ICreatesObjects, UpgradeHelpers.Interfaces.IInteractsWithView, UpgradeHelpers.Interfaces.IInitializable
+    {
+
+        void UpgradeHelpers.Interfaces.IInitializable.Init()
+        {
+            this.CallBaseInit(typeof(ItemsUnitGrid));
+        }
+
+        public virtual string Unit { get; set; }
+        public virtual string Incident_Number { get; set; }
+        public virtual string Time { get; set; }
+        public virtual string Location { get; set; }
+        public virtual string Type { get; set; }
+
+        public string UniqueID { get; set; }
+
+        public UpgradeHelpers.Interfaces.IViewManager ViewManager { get; set; }
+
+        public UpgradeHelpers.Interfaces.IIocContainer Container { get; set; }
+
+    }
+
 }
