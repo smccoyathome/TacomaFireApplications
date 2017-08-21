@@ -1,7 +1,7 @@
 <div>
   <div data-width="99.9%" data-height="99%" data-removeControlBox="true" name="frmMain" class="TFDIncident_frmMain" id="#= UniqueID #" data-bind="formVisible : Visible, formTextBinding : Text">
       <form class="frmMain">        
-          <div id="MainTabs" SelectedIndex="0" tabindex="0" class="MainTabs" data-role="tabstrip" data-animation="{ open: { duration: 0, effects: '' }}" data-bind="visible : MainTabs.Visible, selectedIndex : MainTabs.SelectedIndex, events : { select : MainTabs_Selecting }, ">
+          <div id="MainTabs" SelectedIndex="0" tabindex="0" class="MainTabs" data-role="tabstrip" data-animation="{ open: { duration: 0, effects: '' }}" data-bind="visible : MainTabs.Visible, selectedIndex : MainTabs.SelectedIndex, events : { activate : MainTabs_Selecting }, ">
               <ul>
                   <li data-bind="enabled : MainTabs.Items[0].Enabled, visible : MainTabs.Items[0].Visible">
                       <span class="k-link" data-bind="text : MainTabs.Items[0].Text">Unit Response</span>
@@ -39,7 +39,7 @@
                       <label id="Label4" tabindex="5" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Filter By Primary Incident Type</label>
 
                       <!-- $$$$ sprUnitList GRID-->
-                      <div id="sprUnitList" tabindex="17" data-selectionmode="FullRowSelect" class="sprUnitList" data-role="customgrid" data-bind="Visibility : sprUnitList.Visible, CustomGridColumns : sprUnitList.Columns.Items, CustomGridSource : sprUnitList.NeedRefresh, CustomGridOverride : sprUnitList.DisplayLayout, events : {doubleClick : sprUnitList_DoubleClick} "></div>
+                      <div id="sprUnitList" tabindex="17" class="sprUnitList" data-role="customgrid" data-bind="Visibility : sprUnitList.Visible, CustomGridColumns : sprUnitList.Columns.Items, UltraGridActiveRow : sprUnitList.ActiveRow ,UltraGridSelected : sprUnitList.Selected ,CustomGridSource : sprUnitList.NeedRefresh, CustomGridOverride : sprUnitList.DisplayLayout, events : {doubleClick : sprUnitList_DoubleClick} "></div>
 
                       <!-- REMOVED SELECTION RANGE FROM CALENDAR CONTROL TO JUST GET SELECTED DATE-->
                       <div id="calUnit" tabindex="4" class="calUnit" data-role="calendar" data-bind="dateTimePickerValue : calUnit.Value, events : { change : calUnit_DateChanged }, "></div>
