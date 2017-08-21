@@ -105,7 +105,7 @@ define("TFDIncident.wzdEms", ["files/text!views/TFDIncident.wzdEms.html", "files
             this.bind("txtLastName_TextChanged", this.txtLastName_TextChanged);
             this.bind("cboState_Leave", this.cboState_Leave);
             this.bind("txtZipCode_TextChanged", this.txtZipCode_TextChanged);
-            this.bind("mskBirthdate_Leave", this.mskBirthdate_Leave);
+            this.bind("dpBirthdate_Click", this.dpBirthdate_Click);
             this.bind("txtPatientAge_TextChanged", this.txtPatientAge_TextChanged);
             this.bind("cboPatientAgeUnits_SelectionChangeCommitted", this.cboPatientAgeUnits_SelectionChangeCommitted);
             this.bind("cboPatientAgeUnits_Leave", this.cboPatientAgeUnits_Leave);
@@ -417,6 +417,9 @@ define("TFDIncident.wzdEms", ["files/text!views/TFDIncident.wzdEms.html", "files
             return sender.invoke(new Mobilize.Ui.Command.Send(sender, action, null));
         };
         wzdEms.prototype.mskBirthdate_Leave = function (sender, action, e) {
+            return sender.invoke(new Mobilize.Ui.Command.Send(sender, action, null));
+        };
+        wzdEms.prototype.dpBirthdate_Click = function (sender, action, e) {
             return sender.invoke(new Mobilize.Ui.Command.Send(sender, action, null));
         };
         wzdEms.prototype.txtPatientAge_TextChanged = function (sender, action, e) {
