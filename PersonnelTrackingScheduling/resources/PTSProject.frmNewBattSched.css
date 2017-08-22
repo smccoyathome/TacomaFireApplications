@@ -422,7 +422,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_0 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -450,8 +450,9 @@
 	height: 13px;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_4 {
-	fill: red;
-	fill-opacity: 0;
+	background-color: red;
+    fill: red;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -480,7 +481,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_8 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -509,7 +510,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_12 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -538,7 +539,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_16 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -567,28 +568,28 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_44 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_0 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_4 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_8 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -601,7 +602,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_16 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -746,7 +747,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_44 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -765,35 +766,35 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_1 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_5 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_9 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_13 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_17 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -920,14 +921,14 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_45 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_9 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -957,7 +958,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_1 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -987,7 +988,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_5 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1040,7 +1041,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_13 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1070,7 +1071,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_17 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1100,35 +1101,35 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_45 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_2 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_6 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_10 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_14 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1247,7 +1248,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_18 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1276,42 +1277,42 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_46 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_2 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_6 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_10 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_14 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_18 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1457,35 +1458,35 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_46 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_3 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_7 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_11 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_15 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1604,7 +1605,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_19 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1633,35 +1634,35 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_47 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_3 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_7 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_11 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_15 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1784,7 +1785,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_19 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1814,7 +1815,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_47 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -1827,7 +1828,7 @@
 	color: Black;
 }
 .PTSProject_frmNewBattSched ._boxUnit_6 {
-	fill: transparent);
+	fill: transparent;
 	fill-opacity: 0;
 	stroke: Silver;
 	stroke-width: 3;
@@ -2003,42 +2004,42 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_48 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_20 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_24 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_28 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_32 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_36 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -2178,14 +2179,14 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_48 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_20 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -2202,28 +2203,28 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_24 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_28 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_32 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_36 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -2357,28 +2358,28 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_49 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_21 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_29 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_37 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -2429,7 +2430,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_25 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -2480,7 +2481,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_33 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -2532,42 +2533,42 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_49 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_21 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_25 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_29 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_33 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_37 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -2711,42 +2712,42 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_50 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_22 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_26 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_30 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_34 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_38 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -2886,42 +2887,42 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_50 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_22 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_26 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_30 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_34 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_38 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3065,35 +3066,35 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_51 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_23 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_27 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_31 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_35 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3214,7 +3215,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_39 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3244,21 +3245,21 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_51 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_23 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_27 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3278,21 +3279,21 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_31 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_35 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_39 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3425,7 +3426,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_52 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3559,7 +3560,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_52 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3588,7 +3589,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_40 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3617,7 +3618,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_54 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3659,7 +3660,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_53 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3699,7 +3700,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_40 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3729,7 +3730,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_54 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3759,7 +3760,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_53 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3812,21 +3813,21 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_55 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_41 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_41 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3880,7 +3881,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_55 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3926,7 +3927,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_42 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -3957,21 +3958,21 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_56 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_42 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_56 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -4041,14 +4042,14 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_43 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
 }
 .PTSProject_frmNewBattSched ._shpPayUpAM_57 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -4127,7 +4128,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_43 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;
@@ -4158,7 +4159,7 @@
 }
 .PTSProject_frmNewBattSched ._shpPayUpPM_57 {
 	fill: red;
-	fill-opacity: 0;
+	fill-opacity: 1;
 	stroke: black;
 	stroke-width: 1;
 	color: Red;

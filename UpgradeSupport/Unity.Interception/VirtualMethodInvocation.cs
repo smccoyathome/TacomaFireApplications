@@ -11,7 +11,6 @@ using Microsoft.Practices.Unity.InterceptionExtension;
 namespace Microsoft.Practices.Unity.InterceptionExtension
 {
 
-
     public partial class VirtualMethodInvocation 
     {
 		public bool newInstance;
