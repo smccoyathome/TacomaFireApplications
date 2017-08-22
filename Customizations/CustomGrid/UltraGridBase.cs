@@ -18,7 +18,6 @@ using System.Linq;
 using UpgradeHelpers.Helpers;
 using UpgradeHelpers.Interfaces;
 using System.Reflection;
-using System.Linq;
 using Custom.ViewModels.Grid.Event;
 using Newtonsoft.Json;
 
