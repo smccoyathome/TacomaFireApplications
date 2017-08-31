@@ -848,8 +848,9 @@ namespace PTSProject
 		{
 
 			LoadHours();
-			ViewModel.calTrainDate.SelectionRange.Start = DateTime.Now;
-			ViewModel.calTrainDate.SelectionRange.End = DateTime.Now;
+			//ViewModel.calTrainDate.SelectionRange.Start = DateTime.Now;
+			//ViewModel.calTrainDate.SelectionRange.End = DateTime.Now;
+            ViewModel.calTrainDate.Value = DateTime.Now;
 			//        calTrainDate.Value = Now()
 			LoadLists();
 			ClearScreen();

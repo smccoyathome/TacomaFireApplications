@@ -89,6 +89,7 @@ namespace PTSProject
 			int T3 = 0;
 			int T4 = 0;
 			int TotalRows = 0;
+
 			//Retrieve Date, Shift & Total Staffing counts
 			oCmd.CommandText = "spReport_DailyTotalStaffF '" + StartDate + "','" + EndDate + "','" + ViewModel.CurrFilter + "'";
 			ADORecordSetHelper oRec = ADORecordSetHelper.Open(oCmd, "");
@@ -520,32 +521,6 @@ namespace PTSProject
 				}
 			};
 
-			//    '    Retrieve VAC-HOL created on the same day counts
-			//    oCmd.CommandText = "spReport_DailySameDayVACHOLF '" & StartDate & "','" & EndDate & "','" & CurrFilter & "'"
-			//    Set oRec = oCmd.Execute
-			//    CurrRow = 5
-			//    sprDaily.Row = CurrRow
-			//
-			//    Do Until oRec.EOF
-			//        TestDate = Format$(oRec("shift_date"), "m/d/yyyy")
-			//        sprDaily.Col = 1
-			//        If TestDate = sprDaily.Text Then
-			//            If oRec("ampm") = "AM" Then
-			//                sprDaily.Col = 25
-			//                sprDaily.Text = oRec("leave_count")
-			//            Else
-			//                sprDaily.Col = 26
-			//                sprDaily.Text = oRec("leave_count")
-			//            End If
-			//            oRec.MoveNext
-			//        Else
-			//            CurrRow = CurrRow + 1
-			//            sprDaily.Col = 1
-			//            sprDaily.Row = CurrRow
-			//            If sprDaily.Text = "" Then Exit Do
-			//        End If
-			//    Loop
-
 			//   Calculate Actual Staffing Level
 			T1 = 0;
 			T2 = 0;
@@ -593,16 +568,6 @@ namespace PTSProject
 					}
 				}
 			}
-
-			//    For i = 5 To TotalRows
-			//        For x = 25 To 26
-			//            sprDaily.Row = i
-			//            sprDaily.Col = x
-			//            If sprDaily.Text = "" Then
-			//                sprDaily.Text = "0"
-			//            End If
-			//        Next x
-			//    Next i
 
 			//Calculate Monthly Averages/Total Overtime
 			if (TotalDays > 0)
@@ -847,8 +812,8 @@ namespace PTSProject
 			ViewModel.sprDaily.BlockMode = true;
 			ViewModel.sprDaily.Col = 1;
 			ViewModel.sprDaily.Row = 5;
-			ViewModel.sprDaily.Col2 = ViewModel.sprDaily.MaxCols;
-			ViewModel.sprDaily.Row2 = ViewModel.sprDaily.MaxRows;
+			ViewModel.sprDaily.Col2 = 25;
+			ViewModel.sprDaily.Row2 = 40;
 			//ViewModel.sprDaily.Action = (FarPoint.ViewModels.FPActionConstants) 12; //Clear Text
 
 			ViewModel.sprDaily.BackColor = modGlobal.Shared.WHITE; //Clear Cell Color
@@ -870,7 +835,7 @@ namespace PTSProject
 			//Color Calculated columns
 			ViewModel.sprDaily.Col = 11;
 			ViewModel.sprDaily.Col2 = 12;
-			ViewModel.sprDaily.BackColor = Putty;
+            ViewModel.sprDaily.BackColor = Putty;
 			ViewModel.sprDaily.Col = 9;
 			ViewModel.sprDaily.Col2 = 10;
 			ViewModel.sprDaily.BackColor = modGlobal.Shared.LT_GRAY;
@@ -893,11 +858,13 @@ namespace PTSProject
 			oCmd.Connection = modGlobal.oConn;
 			oCmd.CommandType = CommandType.Text;
 			System.DateTime TempDate = DateTime.FromOADate(0);
-			string StartDate = (DateTime.TryParse(ViewModel.ThisMonth.ToString() + "/1/" + ViewModel.ThisYear.ToString()
-						, out TempDate)) ? TempDate.ToString("M/d/yyyy") : ViewModel.ThisMonth.ToString() + "/1/" + ViewModel.ThisYear.ToString();
-			System.DateTime TempDate2 = DateTime.FromOADate(0);
-			System.DateTime ThisDate = DateTime.Parse((DateTime.TryParse(StartDate, out TempDate2)) ? TempDate2.ToString("M/d/yyyy") : StartDate);
-			if (ThisDate.Month == DateTime.Now.Month && ThisDate.Year == DateTime.Now.Year)
+
+            string StartDate = (DateTime.TryParse(ViewModel.ThisMonth.ToString() + "/1/" + ViewModel.ThisYear.ToString()
+                        , out TempDate)) ? TempDate.ToString("M/d/yyyy") : ViewModel.ThisMonth.ToString() + "/1/" + ViewModel.ThisYear.ToString();
+            System.DateTime TempDate2 = DateTime.FromOADate(0);
+
+            System.DateTime ThisDate = DateTime.Parse((DateTime.TryParse(StartDate, out TempDate2)) ? TempDate2.ToString("M/d/yyyy") : StartDate);
+            if (ThisDate.Month == DateTime.Now.Month && ThisDate.Year == DateTime.Now.Year)
 			{
 				EndDate = DateTime.Now.AddDays(1).ToString("M/d/yyyy");
 				ThisMonthFlag = -1;
@@ -915,16 +882,35 @@ namespace PTSProject
 
 			//Clear current grid
 			ClearGrid();
-			ViewModel.sprDaily.Col = 8;
+            // Headings
 			ViewModel.sprDaily.Row = 1;
-			ViewModel.sprDaily.Text = ViewModel.cboMonth.Text + " " + ViewModel.cboYear.Text;
-			int CurrRow = 5;
+            ViewModel.sprDaily.Col = 1;
+            ViewModel.sprDaily.Text = "Tacoma Fire Department";
+            ViewModel.sprDaily.FontBold = true;
+            ViewModel.sprDaily.Col = 8;
+            ViewModel.sprDaily.Text = ViewModel.cboMonth.Text + " " + ViewModel.cboYear.Text;
+            ViewModel.sprDaily.Row = 2;
+            ViewModel.sprDaily.Text = "Daily Staffing Report";
+            ViewModel.sprDaily.Row = 3;
+            ViewModel.sprDaily.Col = 3;
+            ViewModel.sprDaily.Text = "Working CSR";
+            ViewModel.sprDaily.Col = 5;
+            ViewModel.sprDaily.Text = "Working DD";
+            ViewModel.sprDaily.Col = 7;
+            ViewModel.sprDaily.Text = "Trainees";
+            ViewModel.sprDaily.Col = 9;
+            ViewModel.sprDaily.Text = "Working OT";
+            ViewModel.sprDaily.Col = 11;
+            ViewModel.sprDaily.Text = "Total Staffing";
+
+            int CurrRow = 5;
 			string TestDate = "";
 			int T1 = 0;
 			int T2 = 0;
 			int T3 = 0;
 			int T4 = 0;
 			int TotalRows = 0;
+
 			//Retrieve Date, Shift & Total Staffing counts
 			oCmd.CommandText = "spReport_DailyTotalStaff '" + StartDate + "','" + EndDate + "'";
 			ADORecordSetHelper oRec = ADORecordSetHelper.Open(oCmd, "");
@@ -939,7 +925,8 @@ namespace PTSProject
 			{
 				ViewModel.sprDaily.Row = CurrRow;
 				NewDate = Convert.ToDateTime(oRec["shift_date"]).ToString("M/d/yyyy");
-				if (Convert.ToString(oRec["ampm"]) == "AM")
+
+                if (Convert.ToString(oRec["ampm"]) == "AM")
 				{
 					ViewModel.sprDaily.Col = 11;
 					ViewModel.sprDaily.Text = Convert.ToString(oRec["total_count"]);
@@ -1385,33 +1372,7 @@ namespace PTSProject
 					}
 				}
 			};
-			//-- COMMENTING THIS OUT FOR NOW (8/2010)... INFO NOT BEING USED
-			//    'Retrieve VAC-HOL created on the Same Day Counts
-			//    oCmd.CommandText = "spReport_DailySameDayVACHOL '" & StartDate & "','" & EndDate & "'"
-			//    Set oRec = oCmd.Execute
-			//    CurrRow = 5
-			//    sprDaily.Row = CurrRow
-			//
-			//    Do Until oRec.EOF
-			//        TestDate = Format$(oRec("shift_date"), "m/d/yyyy")
-			//        sprDaily.Col = 1
-			//        If TestDate = sprDaily.Text Then
-			//            If oRec("ampm") = "AM" Then
-			//                sprDaily.Col = 25
-			//                sprDaily.Text = oRec("leave_count")
-			//            Else
-			//                sprDaily.Col = 26
-			//                sprDaily.Text = oRec("leave_count")
-			//            End If
-			//            oRec.MoveNext
-			//        Else
-			//            CurrRow = CurrRow + 1
-			//            sprDaily.Col = 1
-			//            sprDaily.Row = CurrRow
-			//            If sprDaily.Text = "" Then Exit Do
-			//        End If
-			//    Loop
-			//   Calculate Actual Staffing Level
+
 			T1 = 0;
 			T2 = 0;
 			T3 = 0;
@@ -1458,16 +1419,6 @@ namespace PTSProject
 					}
 				}
 			}
-
-			//    For i = 5 To TotalRows
-			//        For x = 25 To 26
-			//            sprDaily.Row = i
-			//            sprDaily.Col = x
-			//            If sprDaily.Text = "" Then
-			//                sprDaily.Text = "0"
-			//            End If
-			//        Next x
-			//    Next i
 
 			//Calculate Monthly Averages/Total Overtime
 			if (TotalDays > 0)
@@ -1690,6 +1641,8 @@ namespace PTSProject
 
 				ViewModel.sprDaily.Col = 21;
 				ViewModel.sprDaily.Col2 = ViewModel.sprDaily.MaxCols;
+                ViewModel.sprDaily.MaxRows = CurrRow + 1
+
 				//ViewModel.sprDaily.Action = (FarPoint.ViewModels.FPActionConstants) 16;
 				//Outline
 				;
@@ -1708,8 +1661,8 @@ namespace PTSProject
 			{
 				return;
 			}
-			ViewModel.ThisMonth = ViewModel.cboMonth.GetItemData(ViewModel.cboMonth.SelectedIndex);
-			ViewModel.ThisYear = Convert.ToInt32(Double.Parse(ViewModel.cboYear.Text));
+            ViewModel.ThisMonth = ViewModel.cboMonth.GetItemData(ViewModel.cboMonth.SelectedIndex);
+            ViewModel.ThisYear = Convert.ToInt32(Double.Parse(ViewModel.cboYear.Text));
 			if ( ViewModel.CurrFilter == "*")
 			{
 				FillGrid();
@@ -1858,8 +1811,10 @@ namespace PTSProject
 			ViewModel.cboYear.Text = DateTime.Now.Year.ToString();
 			ViewModel.ThisYear = Convert.ToInt32(Double.Parse(ViewModel.cboYear.Text));
 			ViewModel.CurrFilter = "*";
-
-		}
+            //ViewModel.cboMonth.SelectedIndex = DateTime.Now.Month - 1;
+            //ViewModel.ThisMonth = DateTime.Now.Month - 1;
+            //FillGrid();
+        }
 
 		private void sprDaily_Advance(object eventSender, Stubs._FarPoint.Win.Spread.AdvanceEventArgs eventArgs)
 		{

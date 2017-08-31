@@ -57,6 +57,7 @@ namespace PTSProject
 			oCmd.CommandType = CommandType.Text;
 			oCmd.CommandText = "spReport_Assignments";
 			ADORecordSetHelper oRec = ADORecordSetHelper.Open(oCmd, "");
+
 			ViewModel.sprAssign.Row = 1;
 			ViewModel.sprAssign.Col = 8 - 1;
 			ViewModel.sprAssign.Text = DateTime.Now.ToString("M/d/yyyy HH:mm");

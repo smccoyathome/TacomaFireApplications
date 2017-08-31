@@ -1,7 +1,7 @@
 .PTSProject_frmAssignReport {
 }
 .PTSProject_frmAssignReport .frmAssignReport {
-	background-color: #400000;
+	background-color:  darkslategrey;
 	min-width: 1019px;
 	min-height: 752px;
 	position: absolute;
@@ -9,10 +9,10 @@
 	cursor: default;
 }
 .PTSProject_frmAssignReport .cmdPrint {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
+	font-size: medium;
 	left: 8px;
 	top: 8px;
 	position: absolute;
@@ -21,16 +21,15 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmAssignReport .cmdPrint:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmAssignReport .cmdClose {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: lightgray;
 	cursor: default;
 	font-family: Arial;
-	font-size: 14.4px;
+	font-size: medium;
 	left: 120px;
 	top: 8px;
 	position: absolute;
@@ -39,10 +38,9 @@
 	padding: 0px 0px 0px 0px;
 	display: table-cell;
 	vertical-align: middle;
-	display: table-cell;
 }
 .PTSProject_frmAssignReport .cmdClose:enabled {
-	color: rgba(0, 0, 0, 1);
+	color: black;
 }
 .PTSProject_frmAssignReport .sprAssign {
 	left: 4px;
