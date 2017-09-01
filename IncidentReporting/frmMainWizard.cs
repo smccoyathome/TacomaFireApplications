@@ -2861,7 +2861,8 @@ namespace TFDIncident
             //For This Unit
             int result = 0;
             TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
-            ViewModel.CurrReportLogID = ReportLog.GetNextIncompleteReport(ViewModel.CurrIncident, IncidentMain.Shared.gWizardUnitID);
+            var currLog = ReportLog.GetNextIncompleteReport(ViewModel.CurrIncident, IncidentMain.Shared.gWizardUnitID);
+            ViewModel.CurrReportLogID = currLog;
             if (ViewModel.CurrReportLogID == 0)
             {
                 if (IncidentMain.Shared.gWizardSecurity == IncidentMain.READONLY)

@@ -694,6 +694,8 @@ namespace TFDIncident
                 unitRow.Time = Convert.ToDateTime(UnitResponse.UnitListing["actual_time"]).ToString("HH:mm");
                 unitRow.Location = IncidentMain.Clean(UnitResponse.UnitListing["location"]);
                 unitRow.Type = IncidentMain.Clean(UnitResponse.UnitListing["inc_descript"]);
+                unitRow.IncidentId = UnitResponse.UnitListing["inc_id"].ToString();
+                unitRow.ReportStatus = UnitResponse.UnitListing["report_status"].ToString();
 
 
                 if (Convert.ToDouble(UnitResponse.UnitListing["report_status"]) == IncidentMain.INCOMPLETE)
@@ -708,11 +710,17 @@ namespace TFDIncident
                 {
                     RowColor = IncidentMain.Shared.BLACK;
                 }
+
                 data.Add(unitRow);
                 UnitResponse.UnitListing.MoveNext();
                 //ViewModel.sprUnitList.BackColor = RowColor; Row Color
             }
             ViewModel.sprUnitList.DataSource = data;
+
+
+
+            //ViewModel.sprUnitList.ForeColor.Value != IncidentMain.Shared.RED.Value
+
             //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
             this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.Arrow);
 
@@ -3021,48 +3029,49 @@ namespace TFDIncident
         {
             using (var async1 = this.Async(true))
             {
-                var ActiveRow = ViewModel.sprUnitList.ActiveRow;
-                int Col = eventArgs.Column;
-                int Row = eventArgs.Row;
-                //Test to determine if New Report Wizard Launched
-                int ReportID = 0;
+
+                var IncId = Convert.ToInt32(ViewModel.sprUnitList.ActiveRow.ItemContent[5]);
+                var status = Convert.ToInt32(ViewModel.sprUnitList.ActiveRow.ItemContent[6]);
+                var currUnit = Convert.ToString(ViewModel.sprUnitList.ActiveRow.ItemContent[0]);
+             
                 TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
-                //ViewModel.sprUnitList.Row = Row;
-                //ViewModel.sprUnitList.Col = 7;
-                if (Conversion.Val(ViewModel.sprUnitList.Text) == 0)
+
+                if (IncId > 0)
+                {
+                    IncidentMain.Shared.gWizardIncidentID = IncId;
+                    IncidentMain.Shared.gWizardUnitID = currUnit;
+                }
+                else
                 {
                     this.Return();
                     return;
                 }
-                else
-                {
-                    IncidentMain.Shared.gWizardIncidentID = Convert.ToInt32(Conversion.Val(ViewModel.sprUnitList.Text));
-                }
-                //ViewModel.sprUnitList.Col = 2;
-                IncidentMain.Shared.gWizardUnitID = ViewModel.sprUnitList.Text;
+                
 
-                if (ViewModel.sprUnitList.ForeColor.Value != IncidentMain.Shared.RED.Value)
+                if (status == IncidentMain.INCOMPLETE)
+                {
+                    if (IncidentMain.CheckUnitSecurity(IncidentMain.Shared.gWizardIncidentID, IncidentMain.Shared.gWizardUnitID) != 0)
+                    {
+                        async1.Append(() =>
+                            {
+                                ViewManager.NavigateToView(
+                                    wzdMain.DefInstance, true);
+                            });
+                        async1.Append(() =>
+                        {
+                            LoadUnitList();
+                        });
+                    }
+                    else
+                    {
+                        ViewManager.ShowMessage("No Security Clearance for this Report", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
+                    }
+                }
+                else
                 {
                     ViewManager.ShowMessage("No Incomplete Reports Outstanding - Please Use Report Editing Tab to Update Existing Reports", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK);
                     this.Return();
                     return;
-                }
-
-                if (IncidentMain.CheckUnitSecurity(IncidentMain.Shared.gWizardIncidentID, IncidentMain.Shared.gWizardUnitID) != 0)
-                {
-                    async1.Append(() =>
-                        {
-                            ViewManager.NavigateToView(
-                                wzdMain.DefInstance, true);
-                        });
-                    async1.Append(() =>
-                    {
-                        LoadUnitList();
-                    });
-                }
-                else
-                {
-                    ViewManager.ShowMessage("No Security Clearance for this Report", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK, UpgradeHelpers.Helpers.BoxIcons.Information);
                 }
             }
 
@@ -3337,6 +3346,8 @@ namespace TFDIncident
         public virtual string Time { get; set; }
         public virtual string Location { get; set; }
         public virtual string Type { get; set; }
+        public virtual string IncidentId { get; set; }
+        public virtual string ReportStatus { get; set; }
 
         public string UniqueID { get; set; }
 

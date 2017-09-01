@@ -568,8 +568,8 @@ namespace TFDIncident
 
 				oCmd.Connection = IncidentMain.oIncident;
 				oCmd.CommandType = CommandType.Text;
-				oCmd.CommandText = "spSelect_NextIncompleteReport " + lIncidentID.ToString() + ",'" + sUnit + "'";
-				oRec = ADORecordSetHelper.Open(oCmd, "");
+                oCmd.CommandText = "spSelect_NextIncompleteReport " + lIncidentID.ToString() + ",'" + sUnit + "'";
+                oRec = ADORecordSetHelper.Open(oCmd, "");
 
 
 				if (!oRec.EOF)
