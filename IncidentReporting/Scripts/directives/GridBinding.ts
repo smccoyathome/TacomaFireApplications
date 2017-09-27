@@ -71,6 +71,7 @@ module kendo.data.binders.widget {
                 let columnObject: any;
                 columnObject = {
                     title: colDefinition.Caption,
+                    hidden: colDefinition.Hidden,
                     field: "ItemContent[" + idx.toString() + "]",
                     attributes: {
                         style: "text-align: " + columnAlignment
