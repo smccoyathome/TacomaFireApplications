@@ -160,7 +160,7 @@ namespace Custom.ViewModels.Grid
         /// Gets or sets the unique identifier.
         /// </summary>
         /// <value>The unique identifier.</value>
-        public virtual string UniqueID { get; set; }
+        public string UniqueID { get; set; }
 
         /// <summary>
         /// Gets or sets the visible position.

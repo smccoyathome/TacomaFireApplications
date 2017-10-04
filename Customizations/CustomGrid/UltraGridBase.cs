@@ -18,6 +18,7 @@ using System.Linq;
 using UpgradeHelpers.Helpers;
 using UpgradeHelpers.Interfaces;
 using System.Reflection;
+using System.Linq;
 using Custom.ViewModels.Grid.Event;
 using Newtonsoft.Json;
 
@@ -62,13 +63,16 @@ namespace Custom.ViewModels.Grid
 				if (AvoidSelectColumns) return;
 				ClearDataSource();
 				SetColumns();
-			}
+                this.ViewManager.Events.Publish(
+                    Events.InitializeLayout,
+                    this,
+                    this,
+                    new InitializeLayoutEventArgs(this.DisplayLayout));
+            }
 		}
 
 
-
-
-		[Reference]
+        [Reference]
 		[StateManagement(StateManagementValues.ServerOnly)]
 		public virtual object _dataSource { get; set; }
 
