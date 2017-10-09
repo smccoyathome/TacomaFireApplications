@@ -624,6 +624,7 @@ namespace TFDIncident
             TFDIncident.clsUnit UnitResponse = Container.Resolve<clsUnit>();
             TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
             UpgradeHelpers.Helpers.Color RowColor = UpgradeHelpers.Helpers.Color.Black;
+
             string UnitParm = "";
             int StatusParm = 0;
             string BattParm = "";
