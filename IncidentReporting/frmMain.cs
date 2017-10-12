@@ -3021,19 +3021,18 @@ namespace TFDIncident
 
         }
 
-        internal void sprUnitList_CellDoubleClick(object eventSender, Stubs._FarPoint.Win.Spread.CellClickEventArgs eventArgs)
+        internal void sprUnitList_CellDoubleClick(object eventSender, EventArgs eventArgs)
         {
-            using (var async1 = this.Async(true))
+            using ( var async1 = this.Async(true) )
             {
-                var ActiveRow = ViewModel.sprUnitList.ActiveRow;
-                int Col = eventArgs.Column;
-                int Row = eventArgs.Row;
+                int Col = 5;
+                int Row = ViewModel.sprUnitList.ActiveRowIndex[0];
                 //Test to determine if New Report Wizard Launched
                 int ReportID = 0;
-                TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
+                TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
                 //ViewModel.sprUnitList.Row = Row;
                 //ViewModel.sprUnitList.Col = 7;
-                if (Conversion.Val(ViewModel.sprUnitList.Text) == 0)
+                if (Conversion.Val(((System.Data.DataTable)ViewModel.sprUnitList.DataSource).Rows[Row].ItemArray[Col]) == 0)
                 {
                     this.Return();
                     return;
