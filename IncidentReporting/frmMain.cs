@@ -9,7 +9,7 @@ using UpgradeStubs;
 using UpgradeHelpers.Interfaces;
 using UpgradeHelpers.Extensions;
 using UpgradeHelpers.BasicViewModels.Extensions;
-
+using System.Collections.Generic;
 
 namespace TFDIncident
 {
@@ -696,7 +696,7 @@ namespace TFDIncident
                 unitRow.Location = IncidentMain.Clean(UnitResponse.UnitListing["location"]);
                 unitRow.Type = IncidentMain.Clean(UnitResponse.UnitListing["inc_descript"]);
                 unitRow.IncidentId = IncidentMain.Clean(UnitResponse.UnitListing["inc_id"]);
-                unitRow.ResportStatus = IncidentMain.Clean(UnitResponse.UnitListing["report_status"]);
+                unitRow.ReportStatus = IncidentMain.Clean(UnitResponse.UnitListing["report_status"]);
 
                 if (Convert.ToDouble(UnitResponse.UnitListing["report_status"]) == IncidentMain.INCOMPLETE)
                 {
@@ -715,7 +715,8 @@ namespace TFDIncident
                 //ViewModel.sprUnitList.BackColor = RowColor; Row Color
             }
             ViewModel.sprUnitList.DataSource = data;
-            ViewModel.sprUnitList.Columns["ResportStatus"].Hidden = true;
+
+            ViewModel.sprUnitList.Columns["ReportStatus"].Hidden = true;
             ViewModel.sprUnitList.Columns["IncidentId"].Hidden = true;
             //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
             this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.Arrow);
@@ -3025,26 +3026,30 @@ namespace TFDIncident
         {
             using ( var async1 = this.Async(true) )
             {
-                int Col = 5;
-                int Row = ViewModel.sprUnitList.ActiveRowIndex[0];
-                //Test to determine if New Report Wizard Launched
-                int ReportID = 0;
-                TFDIncident.clsReportLog ReportLog = Container.Resolve< clsReportLog>();
-                //ViewModel.sprUnitList.Row = Row;
-                //ViewModel.sprUnitList.Col = 7;
-                if (Conversion.Val(((System.Data.DataTable)ViewModel.sprUnitList.DataSource).Rows[Row].ItemArray[Col]) == 0)
+                TFDIncident.clsReportLog ReportLog = Container.Resolve<clsReportLog>();
+
+                int Row = ViewModel.sprUnitList.ActiveRowIndex[0];               
+                System.Collections.Generic.IList<ItemsUnitGrid> data = Container.Resolve<System.Collections.Generic.IList<ItemsUnitGrid>>();
+                data = ((System.Collections.Generic.IList < ItemsUnitGrid >) ViewModel.sprUnitList.DataSource);
+                int incidentId = data[Row].IncidentId.ToInt();               
+                var unitId = data[Row].Unit;
+                int reportStatus = data[Row].ReportStatus.ToInt();
+                                       
+                // This type cast (to System.Data.DataTable) errors at the .Rows[] and .ItemArray[] levels
+                //if (Conversion.Val(((System.Data.DataTable)ViewModel.sprUnitList.DataSource).Rows[Row].ItemArray[Col]) == 0)
+
+                if (incidentId == 0)
                 {
                     this.Return();
                     return;
                 }
                 else
                 {
-                    IncidentMain.Shared.gWizardIncidentID = Convert.ToInt32(Conversion.Val(ViewModel.sprUnitList.Text));
+                    IncidentMain.Shared.gWizardIncidentID = incidentId;
+                    IncidentMain.Shared.gWizardUnitID = unitId;
                 }
-                //ViewModel.sprUnitList.Col = 2;
-                IncidentMain.Shared.gWizardUnitID = ViewModel.sprUnitList.Text;
 
-                if (ViewModel.sprUnitList.ForeColor.Value != IncidentMain.Shared.RED.Value)
+                if (reportStatus > 1)
                 {
                     ViewManager.ShowMessage("No Incomplete Reports Outstanding - Please Use Report Editing Tab to Update Existing Reports", "TFD Incident Reporting System", UpgradeHelpers.Helpers.BoxButtons.OK);
                     this.Return();
@@ -3341,7 +3346,7 @@ namespace TFDIncident
         public virtual string Location { get; set; }
         public virtual string Type { get; set; }
         public virtual string IncidentId { get; set; }
-        public virtual string ResportStatus { get; set; }
+        public virtual string ReportStatus { get; set; }
 
 
         public string UniqueID { get; set; }

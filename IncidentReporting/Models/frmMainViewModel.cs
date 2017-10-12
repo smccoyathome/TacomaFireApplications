@@ -263,6 +263,7 @@ namespace TFDIncident.ViewModels
 			this.cboType.TabIndex = 2;
 
 			this.sprUnitList = ctx.Resolve<Custom.ViewModels.Grid.CustomGrid>();
+            this.sprUnitList.Font = ctx.Resolve<UpgradeHelpers.Helpers.Font>("Verdana", 14F, UpgradeHelpers.Helpers.FontStyle.Regular, UpgradeHelpers.Helpers.GraphicsUnit.Point, ((byte)(0)));
             this.sprUnitList.Name = "sprUnitList";
             this.sprUnitList.Enabled = true;
 			this.sprUnitList.TabIndex = 89;
@@ -886,12 +887,12 @@ namespace TFDIncident.ViewModels
 
 			this.sprUnitList_Sheet1 = ctx.Resolve<FarPoint.ViewModels.SheetViewModel>();
 			this.sprUnitList_Sheet1.SheetName = "Sheet1";
-			this.sprUnitList_Sheet1.ColumnHeader.Rows.Get(0).Height = 0F;
-			this.sprUnitList_Sheet1.Columns.Get(0).StyleName = "Font660636234556471528506";
-			this.sprUnitList_Sheet1.Columns.Get(0).Width = 0F;
+            this.sprUnitList_Sheet1.ColumnHeader.Rows.Get(0).Height = 0F;           
+            this.sprUnitList_Sheet1.Columns.Get(0).StyleName = "Font660636234556471528506";
+            this.sprUnitList_Sheet1.Columns.Get(0).Width = 0F;
 			this.sprUnitList_Sheet1.Columns.Get(1).StyleName = "Font660636234556471528506";
-			this.sprUnitList_Sheet1.Columns.Get(1).Width = 15F;
-			this.sprUnitList_Sheet1.Columns.Get(2).StyleName = "Font660636234556471528506";
+			this.sprUnitList_Sheet1.Columns.Get(1).Width = 15F;        
+            this.sprUnitList_Sheet1.Columns.Get(2).StyleName = "Font660636234556471528506";
 			this.sprUnitList_Sheet1.Columns.Get(2).Width = 70F;
 			this.sprUnitList_Sheet1.Columns.Get(3).StyleName = "Font660636234556471528506";
 			this.sprUnitList_Sheet1.Columns.Get(3).Width = 100F;
