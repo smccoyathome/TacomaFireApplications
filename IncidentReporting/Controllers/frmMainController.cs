@@ -36,7 +36,7 @@ namespace TFDIncident.Controllers
 
         public System.Web.Mvc.ActionResult sprIncident_DoubleClick(TFDIncident.ViewModels.frmMainViewModel viewFromClient, object eventSender)
         {
-            logic.sprIncident_CellDoubleClick(viewFromClient.sprIncident, new Stubs._FarPoint.Win.Spread.CellClickEventArgs(viewFromClient.sprIncident.Row, viewFromClient.sprIncident.Col));
+            logic.sprIncident_CellDoubleClick(viewFromClient.sprIncident, null);
             return new UpgradeHelpers.WebMap.Server.AppChanges();
         }
 
