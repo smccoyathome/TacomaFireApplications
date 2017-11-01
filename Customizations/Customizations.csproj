@@ -90,6 +90,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppearanceViewModel.cs" />
+    <Compile Include="CustomGrid\Interfaces\IDataSourceUltraGrid.cs" />
+    <Compile Include="CustomGrid\Interfaces\IDataSourceUltraGridFactory.cs" />
     <Compile Include="DateTimePicker\DateTimePickerViewModel.cs" />
     <Compile Include="DBCommandExtensions.cs" />
     <Compile Include="DefaultableBoolean.cs" />

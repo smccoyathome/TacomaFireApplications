@@ -686,7 +686,9 @@ namespace TFDIncident
             }
             //Create The IList with a serialized List Class 
             System.Collections.Generic.IList<ItemsUnitGrid> data = Container.Resolve<System.Collections.Generic.IList<ItemsUnitGrid>>();
-
+            IList<String> RowsColor = Container.Resolve < IList<String> >();
+            IList<String> RowsBackground = Container.Resolve<IList<String>>();
+            int i = 0;
             while (!UnitResponse.UnitListing.EOF)
             {
                 ItemsUnitGrid unitRow = Container.Resolve<ItemsUnitGrid>();
@@ -700,24 +702,31 @@ namespace TFDIncident
 
                 if (Convert.ToDouble(UnitResponse.UnitListing["report_status"]) == IncidentMain.INCOMPLETE)
                 {
-                    RowColor = IncidentMain.Shared.RED;
+                    RowsBackground.Add(UpgradeHelpers.Helpers.Color.Grey.Name.ToLower());
+                    RowsColor.Add(UpgradeHelpers.Helpers.Color.Red.Name.ToLower());
+
                 }
                 else if (Convert.ToDouble(UnitResponse.UnitListing["report_status"]) == IncidentMain.SAVEDINCOMPLETE)
                 {
-                    RowColor = IncidentMain.Shared.TEAL;
+                    RowsColor.Add(UpgradeHelpers.Helpers.Color.Teal.Name.ToLower());
+                    RowsBackground.Add(UpgradeHelpers.Helpers.Color.White.Name.ToLower());
                 }
                 else
                 {
-                    RowColor = IncidentMain.Shared.BLACK;
+                    RowsColor.Add(UpgradeHelpers.Helpers.Color.Black.Name.ToLower());
+                    RowsBackground.Add(UpgradeHelpers.Helpers.Color.White.Name.ToLower());
                 }
                 data.Add(unitRow);
                 UnitResponse.UnitListing.MoveNext();
-                //ViewModel.sprUnitList.BackColor = RowColor; Row Color
+                i++;
             }
             ViewModel.sprUnitList.DataSource = data;
+            ViewModel.sprUnitList.RowsColors = RowsColor;
+            ViewModel.sprUnitList.RowsBackground = RowsBackground;
 
             ViewModel.sprUnitList.Columns["ReportStatus"].Hidden = true;
             ViewModel.sprUnitList.Columns["IncidentId"].Hidden = true;
+            ViewModel.sprUnitList.Columns["Location"].Width = 150;
             //WEBMAP_UPGRADE_ISSUE: (1101) System.Windows.Forms.Control.Cursor was not upgraded
             this.Set_Cursor(UpgradeHelpers.Helpers.Cursors.Arrow);
 

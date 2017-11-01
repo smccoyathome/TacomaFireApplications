@@ -56,6 +56,7 @@
     <Compile Include="Helpers\ErrObject.cs" />
     <Compile Include="Helpers\Events\DataGridViewCellEventArgs.cs" />
     <Compile Include="Helpers\Events\DataGridViewCellEventHandler.cs" />
+    <Compile Include="Helpers\Events\DataGridViewRowCancelEventArgs.cs" />
     <Compile Include="Helpers\Events\ListViewItemSelectionChangedEventArgs.cs" />
     <Compile Include="Helpers\Events\ListViewItemSelectionChangedEventHandler.cs" />
     <Compile Include="Helpers\Events\MaskInputRefectedEventArgs.cs" />
@@ -74,7 +75,11 @@
     <Compile Include="Helpers\Enumerations\CheckState.cs" />
     <Compile Include="ViewModels\ColumnHeaderViewModel.cs" />
     <Compile Include="ViewModels\DataGridStyle.cs" />
+    <Compile Include="ViewModels\DataGridViewAutoSizeRowsMode.cs" />
+    <Compile Include="ViewModels\DataGridViewCellStyle.cs" />
     <Compile Include="ViewModels\DataGridViewCellViewModel.cs" />
+    <Compile Include="ViewModels\DataGridViewColumnHeadersHeightSizeMode.cs" />
+    <Compile Include="ViewModels\DataGridViewSelectedCellCollection.cs" />
     <Compile Include="ViewModels\DataGridViewViewModel.cs" />
     <Compile Include="ExtensionMethods\GenericIListExtensions.cs" />
     <Compile Include="ExtensionMethods\ListViewExtensions.cs" />

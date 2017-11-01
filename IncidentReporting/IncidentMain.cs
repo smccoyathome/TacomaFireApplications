@@ -1092,9 +1092,9 @@ namespace TFDIncident
 				BLACK = UpgradeHelpers.Helpers.Color.Black;
 				DKGRAY = UpgradeHelpers.Helpers.Color.Gray;
 				LTGRAY = UpgradeHelpers.Helpers.Color.FromArgb(224, 224, 224);
-				RED = UpgradeHelpers.Helpers.Color.FromArgb(192, 0, 0);
+				RED = UpgradeHelpers.Helpers.Color.Red;
 				TEAL = UpgradeHelpers.Helpers.Color.Teal;
-				SALMON = UpgradeHelpers.Helpers.Color.FromArgb(255, 224, 192);
+				SALMON = UpgradeHelpers.Helpers.Color.Salmon;
 				SITFOUNDCOLOR = UpgradeHelpers.Helpers.Color.FromArgb(154, 182, 172);
 				FIRECOLOR = UpgradeHelpers.Helpers.Color.FromArgb(197, 206, 172);
 				RUPTURECOLOR = UpgradeHelpers.Helpers.Color.FromArgb(192, 64, 0);

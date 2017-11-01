@@ -94,7 +94,6 @@ namespace Custom.ViewModels.Grid.Controller
 						//InInitializeRowEvent = row.InInitializeRowEvent,
 						//Hidden = row.Hidden,
 						//CardCaption = row.CardCaption,
-						//Activated = row.Activated,
 						ToolTipText = row.ToolTipText,
 						Index = row.Index,
 						Cells = cellList

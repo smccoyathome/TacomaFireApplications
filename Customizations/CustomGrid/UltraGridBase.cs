@@ -42,13 +42,13 @@ namespace Custom.ViewModels.Grid
 		[JsonProperty]
         public virtual IList<UltraGridBand> Bands { get; set; }
 
-		#region DataSource definition
+        #region DataSource definition
 
-		/// <summary>
-		/// Gets or sets the data source.
-		/// </summary>
-		/// <value>The data source.</value>
-		[StateManagement(StateManagementValues.None)]
+        /// <summary>
+        /// Gets or sets the data source.
+        /// </summary>
+        /// <value>The data source.</value>
+        [StateManagement(StateManagementValues.None)]
 		public object DataSource
 		{
 			get
@@ -272,10 +272,14 @@ namespace Custom.ViewModels.Grid
 		/// </summary>
 		public virtual int[] ActiveRowIndex { get; set; }
 
-		/// <summary>
-		///  Returns a collection of the topmost level of rows in the grid.
-		/// </summary>
-		public virtual RowsCollection Rows { get; set; }
+        public virtual IList<string> RowsColors { get; set; }
+
+        public virtual IList<string> RowsBackground{ get; set; }
+
+        /// <summary>
+        ///  Returns a collection of the topmost level of rows in the grid.
+        /// </summary>
+        public virtual RowsCollection Rows { get; set; }
 		public virtual ColumnsCollection Columns { get; set; }
 
 		/// <summary>

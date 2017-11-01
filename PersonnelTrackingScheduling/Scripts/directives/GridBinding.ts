@@ -12,6 +12,34 @@
 * no warranty express or implied;
 * use at own risk.
 **************************************************************************/
+module WebMap.Client {
+
+    export function checkboxClicked(element) {
+        var isChecked = element.checked;
+        var cell = $(element).parent()["0"];
+        var row = element.closest("tr");
+        var grid = element.closest(".k-grid").kendoBindingTarget.target;
+        var gridId = grid.gridUID;
+        var model = grid.dataItem(row);
+        var columnHeader = grid.columns[cell.cellIndex].field;
+        model.set(columnHeader, isChecked ? "True":"False");
+        let parameters = {
+            gridUid: gridId,
+            editedCell: JSON.stringify(model)
+        }
+        var action = new Mobilize.Application
+            .ActionModel("UltraGrid",
+            "UpdateEditedCells",
+            undefined,
+            parameters,
+            null,
+            new Mobilize.Server.RequestConfig(Mobilize.Contract.Server.RequestType.RawRequest));
+        window.app.sendAction(action, true);
+
+
+    };
+}
+
 module kendo.data.binders.widget {
     export class Grid extends Binder {
         constructor(element: Element, bindings: { [key: string]: Binding; }, options?: any) {
@@ -23,12 +51,12 @@ module kendo.data.binders.widget {
     }
 
     /// Columns Binder
-    export class CustomGridColumns extends Binder {
+    export class UltraGridColumns extends Binder {
         isUpdating: boolean;
         constructor(element: Element, bindings: { [key: string]: Binding; }, options?: any) {
             super(element, bindings, options);
             this.isUpdating = false;
-            var binding = this.bindings["CustomGridColumns"];
+            var binding = this.bindings["UltraGridColumns"];
             if (binding) {
                 var that = this;
                 var value = binding.get();
@@ -45,7 +73,7 @@ module kendo.data.binders.widget {
                 if (!this.isUpdating) {
                     this.isUpdating = true;
                     var that = this;
-                    var binding = this.bindings["CustomGridColumns"];
+                    var binding = this.bindings["UltraGridColumns"];
                     var value = binding.get(); //get the value from the View-Model
                     var columnsObj = ColumnsConverter(value, this);
                     var element = this.element;
@@ -65,58 +93,159 @@ module kendo.data.binders.widget {
     function ColumnsConverter(cols, thisElement) {
         var colsStr = [];
         if (cols) {
-            for (var idx = 0; idx < cols.length; idx++) {
+			//mobilize-note: jcruz. Adding sortFuntion to allow sort the grid columns based on the VisiblePosition. Related with issue 24645.
+
+            var sortFunction = function (a, b) {
+                var firstValue = a.VisiblePosition;
+                var secondValue = b.VisiblePosition;
+                if (firstValue < secondValue) {
+                    return -1;
+                }
+                else if (firstValue > secondValue) {
+                    return 1;
+                }
+                else {
+                    return 0;
+                }
+            };
+
+            for (var idx = 0; idx < cols.Count; idx++) {
                 var colDefinition = cols[idx];
-
-                var widht = colDefinition.Width == 0 ? 25 : colDefinition.Width ;
-
+                if (colDefinition == null)
+                    continue;
                 var columnAlignment = "center";//getKendoAlignment(colDefinition.HorizontalAlignment);
                 let columnObject: any;
+                let field = "ItemContent[" + idx.toString() + "]"; 
+                let image = "Appearances[" + idx.toString() + "].Image"; 
+                var columnTemplate = "";
+                if (!colDefinition.isCheckbox) {
+                    columnTemplate = "#= kendo.toString(" + image + ") !== '' ? '<img  src=' + kendo.toString(" + image + ") + '>' + kendo.toString(" + field + ") : kendo.toString(" + field + ")#";
+                }
+                else {
+                    columnTemplate = '<input type= "checkbox" onclick= "WebMap.Client.checkboxClicked(this)" #= ' + field + ' ==="True" ?\'checked="checked"\' : "" # class="chkbx"/>';
+                }
                 columnObject = {
-                    title: colDefinition.Caption,
-                    hidden: colDefinition.Hidden,
-                    field: "ItemContent[" + idx.toString() + "]",
+                    template: columnTemplate,
+                    title: colDefinition.Caption ? colDefinition.Caption : "", //mobilize-note: jcruz. Adding validation for caption undefined
+                    hidden: colDefinition.Hidden, //mobilize-note: jcruz. Adding hidden property to the columns. Related with issue 24643.
+                    editor: colDefinition.Editable ? allowEdit : ReadOnlyEditor, //mobilize-note: surena. Adding enable property to the columns.
+                    maxValue: colDefinition.MaxValue ? colDefinition.MaxValue : 0, //mobilize-note: surena. Adding maxValue property to the columns.
+                    field: field,
                     attributes: {
-                        style: "text-align: " + columnAlignment
+                        style: "text-align: " + columnAlignment + "; background-color: white;"
                     },
                     headerAttributes: {
                         style: "text-align: " + columnAlignment
                     },
-                    width: widht
-
+                    width: colDefinition.Width,//mobilize-note: scampos. Set width of grid columns. Related with issue 24645.
+                    //mobilize-note: jcruz. Changing the use of Header.Visible position by the use of _position because VisiblePosition property is undefined.
+                    VisiblePosition: colDefinition._position//Header.VisiblePosition //mobilize-note: jcruz. Adding visiblePosition property to allow sort the grid columns. Related with issue 24645. 
                 };
-                if (colDefinition.ValueList.ValueListItems.Count > 0) {
+                if (colDefinition.ValueList && colDefinition.ValueList.ValueListItems && colDefinition.ValueList.ValueListItems.Count > 0) {
                     columnObject.editor = setDropDown;
                 }
 
                 colsStr.push(columnObject);
             }
+
         }
-        return colsStr;
+        return colsStr.sort(sortFunction); //mobilize-note: jcruz. Sorting the grid columns based on the VisiblePosition. Related with issue 24645.
     }
 
     //Sets the datasource for the grid
     //Use the getDataSource function to define a new datasource.
-    export class CustomGridSource extends Binder {
+    export class UltraGridSource extends Binder {
         constructor(element: Element, bindings: { [key: string]: Binding; }, options?: any) {
             super(element, bindings, options);
         }
         refresh(): void {
             var that = this;
-            var binding = this.bindings["CustomGridSource"];
+            var binding = this.bindings["UltraGridSource"];
             var value = binding.get();
             if (value === true) {
                 try {
                     var gridId = $(this.element.element).attr('id');
-                    var source = this.bindings["CustomGridSource"].source;
-                    var uniqueId = source[gridId].UniqueID;
+                    var source = this.bindings["UltraGridSource"].source;
+					//mobilize-note: lfonseca.Using correct way to get the model in multiple levels.
+                    var sourceViewModel = getModelFromBinding(binding);
+                    var uniqueId = sourceViewModel.UniqueID; //source[gridId].UniqueID;
                     this.element.gridUID = uniqueId;
                     //Set default pageSize as 25 items per page
-                    var pageSize = source[gridId].PageSize > 0 ? source[gridId].PageSize : 25;
-                    this.element.setDataSource(getDataSource(uniqueId, this.element));
+                    var pageSize = sourceViewModel.PageSize > 0 ? sourceViewModel.PageSize : 25;
+                    //mobilize-note: ldulate. We need to send pageSize variable as a parameter for getDataSource method.
+                    this.element.setDataSource(getDataSource(uniqueId, pageSize));
+
+
+                    this.element.dataSource.unbind('change', () => {
+                        that.element.bindMouseEvents();
+                    });
+
                     this.element.dataSource.bind('change', () => {
                         that.element.bindMouseEvents();
                     });
+
+
+                    //mobilize-note: lvega  this is a temporary change for color the rows.
+                    that.element.sourceViewModel = sourceViewModel;
+                    that.element.unbind('dataBound');
+                    that.element.bind('dataBound', $.proxy(function (e) {   
+                        var grid = e.sender;
+                        var data = grid.dataSource.view();
+                        var scrModel = this.element.sourceViewModel;
+                        
+                        for (var i = 0; i < data.length; i++) {
+                            let indexFind = data[i].index;
+                            let currentPage = grid.dataSource.page();
+
+                            if (currentPage >= 2)
+                            {
+                                indexFind += (pageSize * ( currentPage  - 1));
+                            }
+
+                            if (data[i]) {
+                                var uid = data[i].uid;
+                                var currenRow = grid.table.find("tr[data-uid='" + uid + "']");
+
+                                var style = data[i].RowAppearance;
+                                if (style) {
+
+                                    if (style.FontData.Bold == true) {
+                                        $(currenRow).css("font-weight", "bold");
+                                    }
+
+                                    if (style.FontData.Italic == true) {
+                                        $(currenRow).css("font-style", "italic");
+                                    }
+                                    if (style.Color) {
+                                        $(currenRow).css("color", style.Color);
+                                    }
+                                }
+
+                                for (var j = 0; j < data[i].ItemContent.length; j++) {
+                                    var positionDifference = scrModel.Columns.Items[j]._position - j;
+                                    var cellStyle = data[i].Appearances[j];//app.Cells.Items[j].Appearance;
+                                    var currentCell = $(currenRow).find("td")[j + positionDifference];
+                                    if (cellStyle) {
+
+                                        if (cellStyle.FontData.Bold == true) {
+                                            $(currentCell).css("font-weight", "bold");
+                                        }
+
+                                        if (cellStyle.FontData.Italic == true) {
+                                            $(currentCell).css("font-style", "italic");
+                                        }
+                                        if (cellStyle.Color) {
+                                            $(currentCell).css("color", cellStyle.Color);
+                                        }
+                                        if (cellStyle.BackColor) {
+                                            $(currentCell).css("background-color", cellStyle.BackColor.Value);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },that));
+                    
                 }
                 finally {
                     binding.set(false); //Set the NeedRefresh property to false
@@ -129,7 +258,8 @@ module kendo.data.binders.widget {
     //Use the GridDatasource Controller to retrieve the grid data.
     function getDataSource(uniqueID, pageSize) {
         return new kendo.data.DataSource({
-            pageSize: 25,
+            //mobilize-note: ldulate. We need to set pageSize property with pageSize method paramenter
+            pageSize: pageSize,
             transport: {
                 read: {
                     url: "UltraGrid/GetDataSource",
@@ -165,7 +295,9 @@ module kendo.data.binders.widget {
                             'cellProperties': {},
                             'comboValues': comboColumns,
                             'ItemContent': row.ItemContent,
-
+                            'Appearances': row.Appearances,
+                            'Color':row.Color,
+                            'RowAppearance': row.RowAppearance
                         };
                         //}
 
@@ -197,6 +329,27 @@ module kendo.data.binders.widget {
         }
     }
 
+    //mobilize-note: surena. Function that closes a cell to avoid edition when is not allowed.
+    function ReadOnlyEditor(event) {
+        event.closest(".k-grid")["0"].kendoBindingTarget.target.closeCell();
+    }
+
+    //mobilize-note: surena. Function that manages the edition in the cells. Shows an input to the user inside the cell.
+    function allowEdit(container, options) {
+        // create an input element
+        var grid = container.closest(".k-grid")["0"].kendoBindingTarget.target;
+        var input;
+        if (grid.columns[container[0].cellIndex].maxValue == 0)
+        {
+            input = $("<input />");
+        } else
+        {
+            input = $("<input maxlength='" + grid.columns[container[0].cellIndex].maxValue + "'/>");
+        }
+        input.attr("name", options.field);
+        // append it to the container
+        input.appendTo(container);
+    }
 
     /// This custom binding support the ActiveRow property
     //Gets or sets the ActiveRow for the UltraGrid component
@@ -205,42 +358,13 @@ module kendo.data.binders.widget {
         constructor(element: Element, bindings: { [key: string]: Binding; }, options?: any) {
             super(element, bindings, options);
             this.isUpdating = false;
-            this.element.bind('change', (event) => {
+            this.element.bind('activeRowUpdate', (event) => {
                 this.update();
             });
-            this.element.bind('dataBound', $.proxy(function (e) {
-                var grid = e.sender;
-                var data = grid.dataSource.view();
-                var scrModel = getModelFromBinding(this.bindings["CustomGridSource"]);
-
-                for (var i = 0; i < data.length; i++) {
-                    let indexFind = data[i].index;
-                    let currentPage = grid.dataSource.page();
-
-                    if (currentPage >= 2) {
-                        indexFind += (25 * (currentPage - 1));
-                    }
-
-                    if (data[i]) {
-                        var uid = data[i].uid;
-                        var currenRow = grid.table.find("tr[data-uid='" + uid + "']");
-
-                        var RowColor = scrModel.RowsColors.uids[i];
-                        if (RowColor) {
-                            $(currenRow).css("color", RowColor);
-                        }
-
-                        var BackgroundColor = scrModel.RowsBackground.uids[i];
-                        if (BackgroundColor) {
-                            $(currenRow).css("background-color", BackgroundColor);
-                        }
-                       
-                    }
-                }
-            }, this));
+            this.element.bind('dataBound', (event) => {
+                this.refresh();
+            });
         }
-
-
         refresh(): void {
             if (this.isUpdating) return;
             var that = this;
@@ -280,35 +404,6 @@ module kendo.data.binders.widget {
         }
     }
 
-
-    function processPathSection(pathSection: string, bindingModel: any) {
-        let arrayExprSections = pathSection.split('[');
-        if (arrayExprSections.length > 1) // It's an array expression, ex: userControl11.txtValues[2]
-        {
-            let arrayName = arrayExprSections[0];
-            let index = arrayExprSections[1].slice(0, -1); // remove ending bracket
-            return bindingModel[arrayName][index];
-        }
-        return bindingModel[pathSection];
-    }
-
-    /**
-     * Gets the model which is binded to the element. To do this it assesses each part of the binding expression path
-     * @param binding
-     * @param numbersOfLastElemetsPathToRemove
-    */
-    export function getModelFromBinding(binding: any, numbersOfLastElemetsPathToRemove: number = 0) {
-        let pathSections = binding.path.split(".").slice(0, -1 * (numbersOfLastElemetsPathToRemove + 1)); //  by default remove the binded property, and removed the n-element last before of binding property.
-        let model = binding.source;
-        for (let i = 0; i < pathSections.length; i++) {
-            let currentParent = pathSections[i];
-            model = processPathSection(currentParent, model);
-            if (model == undefined)
-                return null;
-        }
-        return model;
-    }
-
     export class UltraGridSelected extends Binder {
         isUpdating: boolean;
         gridUid: string;
@@ -319,7 +414,8 @@ module kendo.data.binders.widget {
             this.isUpdating = false;
             var gridId = $(this.element.element).attr('id');
             let binding = bindings["UltraGridSelected"];
-            this.gridUid = binding.source[gridId].UniqueID;
+			//mobilize-todo: lfonseca. Change to run the control Issue 19708 
+            this.gridUid = binding.source.UniqueID;
             this.element.bind('dataBound', (event) => {
                 this.refreshSelection(event);
             });
@@ -461,14 +557,42 @@ module kendo.data.binders.widget {
         }
     }
 
-    export class CustomGridOverride extends Binder {
+    function processPathSection(pathSection: string, bindingModel: any) {
+        let arrayExprSections = pathSection.split('[');
+        if (arrayExprSections.length > 1) // It's an array expression, ex: userControl11.txtValues[2]
+        {
+            let arrayName = arrayExprSections[0];
+            let index = arrayExprSections[1].slice(0, -1); // remove ending bracket
+            return bindingModel[arrayName][index];
+        }
+        return bindingModel[pathSection];
+    }
+
+    /**
+     * Gets the model which is binded to the element. To do this it assesses each part of the binding expression path
+     * @param binding
+     * @param numbersOfLastElemetsPathToRemove
+    */
+    export function getModelFromBinding(binding: any, numbersOfLastElemetsPathToRemove: number = 0) {
+        let pathSections = binding.path.split(".").slice(0, -1 * (numbersOfLastElemetsPathToRemove + 1)); //  by default remove the binded property, and removed the n-element last before of binding property.
+        let model = binding.source;
+        for (let i = 0; i < pathSections.length; i++) {
+            let currentParent = pathSections[i];
+            model = processPathSection(currentParent, model);
+            if (model == undefined)
+                return null;
+        }
+        return model;
+    }
+
+    export class UltraGridOverride extends Binder {
         gridUid: any;
         constructor(element: Element, bindings: { [key: string]: Binding; }, options?: any) {
             super(element, bindings, options);
             let gridId = $(this.element.element).attr('id');
             var that = this;
-            let binding = bindings["CustomGridOverride"];
-            this.gridUid = binding.source[gridId].UniqueID;
+            let binding = that.bindings["UltraGridOverride"];			
+            this.gridUid = getModelFromBinding(binding).UniqueID; //mobilize-note:lvega calcullate the model correctly
             var displayLayoutValue = binding.get();
             if (displayLayoutValue && displayLayoutValue.Override) {
                 displayLayoutValue.Override.bind('change', (event) => {
@@ -480,7 +604,7 @@ module kendo.data.binders.widget {
 
         refresh() {
             var that = this;
-            let binding = this.bindings["CustomGridOverride"];
+            let binding = this.bindings["UltraGridOverride"];
             let displayLayoutValue = binding.get();
             if (!displayLayoutValue) return;
             let overrideValue = displayLayoutValue.Override;
@@ -491,13 +615,15 @@ module kendo.data.binders.widget {
                     options.editable = true;
                     this.element.setOptions(options);
                     this.element.bindJSEvents();
+                    this.element.unbind("edit"); //mobilize-note: surena. Unbinds the event to avoid multiple calls.
                     this.element.bind("edit", (event) => {
                         that.element.trigger("beforeEnterEditMode");
                         that.setIsInEditMode(event, that.gridUid);
                     });
+                    this.element.unbind("save"); //mobilize-note: surena. Unbinds the event to avoid multiple calls.
                     this.element.bind("save", (event) => {
                         that.element.trigger("beforeExitEditMode");
-                        that.element.trigger("cellChange");
+                        //that.element.trigger("cellChange"); //mobilize-note: surena. This event will be fired inside the UpdateEditedCells method in the server.
                         that.updateEditedCell(event, that);
                     });
                     break;
@@ -554,6 +680,25 @@ module kendo.data.binders.widget {
                 undefined,
                 new Mobilize.Server.RequestConfig(Mobilize.Contract.Server.RequestType.RawRequest));
             window.app.sendAction(action, true);
+        }
+    }
+
+    export class GridBands extends Binder {
+        constructor(element: Element, bindings: { [key: string]: Binding; }, options?: any) {
+            super(element, bindings, options);
+        }
+        refresh() {
+            // Hide or show the column header
+            var that = this;
+            let binding = this.bindings["GridBands"];
+            let bands = binding.get();
+            if (bands && bands.length > 0) {
+                if (bands[0].ColHeadersVisible) {
+                    that.element.element.find(".k-grid-header").show();
+                } else {
+                    that.element.element.find(".k-grid-header").hide();
+                }
+            }
         }
     }
 
