@@ -113,7 +113,7 @@ module kendo.data.binders.widget {
                     this.element.gridUID = uniqueId;
                     //Set default pageSize as 25 items per page
                     var pageSize = source[gridId].PageSize > 0 ? source[gridId].PageSize : 25;
-                    this.element.setDataSource(getDataSource(uniqueId, this.element));
+                    this.element.setDataSource(getDataSource(uniqueId, pageSize));
                     this.element.dataSource.bind('change', () => {
                         that.element.bindMouseEvents();
                     });
@@ -129,7 +129,7 @@ module kendo.data.binders.widget {
     //Use the GridDatasource Controller to retrieve the grid data.
     function getDataSource(uniqueID, pageSize) {
         return new kendo.data.DataSource({
-            pageSize: 25,
+            pageSize: pageSize,
             transport: {
                 read: {
                     url: "UltraGrid/GetDataSource",
