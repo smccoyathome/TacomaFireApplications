@@ -788,13 +788,6 @@
         min-height: 530px;
         outline-style: none;
     }
-    .TFDIncident_frmMain .tabPage1 {
-	background-color: #83BCC0;
-	outline-style: none;
-	position: absolute;
-	width: 95%;
-	height: 95%;
-}
 
     .TFDIncident_wzdEms .tabPage1 {
         background-color:  #83BCC0;
@@ -3520,7 +3513,7 @@
         font-size: medium;
         color: Navy;
         left: 20px;
-        top: 133px;
+        top: 155px;
         position: absolute;
         width: 189px;
         height: 25px;

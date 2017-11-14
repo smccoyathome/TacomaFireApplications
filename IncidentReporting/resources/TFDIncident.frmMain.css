@@ -183,9 +183,10 @@
 	left: 375px;
 	top: 45px;
 	position: absolute;
-	 width: 40%; 
-	 height: 70%;
-     font-size: x-small;
+	width: 60%;
+	height: 70%;
+	font-size: small;
+	font-weight: bold;
 }
 
 .TFDIncident_frmMain .sprUnitList .k-tabstrip-wrapper {

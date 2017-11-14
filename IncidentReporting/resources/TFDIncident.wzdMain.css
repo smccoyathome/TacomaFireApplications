@@ -1558,10 +1558,10 @@
 	font-family: Verdana;
 	font-size: large;
 	/* font-weight: bold; */
-	left: 190px;
+	left: 177px;
 	top: 86px;
 	position: absolute;
-	width: 60px;
+	width: 75px;
 	height: 23px;
 }
 .TFDIncident_wzdMain ._cboAmendReason_1 {
@@ -1618,10 +1618,10 @@
 	font-family: Verdana;
 	font-size: large;
 	/* font-weight: bold; */
-	left: 190px;
+	left: 177px;
 	top: 119px;
 	position: absolute;
-	width: 60px;
+	width: 75px;
 	height: 23px;
 }
 .TFDIncident_wzdMain ._cboAmendReason_2 {
@@ -1663,10 +1663,10 @@
 	font-family: Verdana;
 	font-size: large;
 	/* font-weight: bold; */
-	left: 190px;
+	left: 177px;
 	top: 155px;
 	position: absolute;
-	width: 60px;
+	width: 75px;
 	height: 23px;
 }
 .TFDIncident_wzdMain .lbTransport {
@@ -1753,10 +1753,10 @@
 	font-family: Verdana;
 	font-size: large;
 	/* font-weight: bold; */
-	left: 190px;
+	left: 177px;
 	top: 185px;
 	position: absolute;
-	width: 60px;
+	width: 75px;
 	height: 23px;
 }
 .TFDIncident_wzdMain ._cboAmendReason_4 {
@@ -1799,10 +1799,10 @@
 	font-family: Verdana;
 	font-size: large;
 	/* font-weight: bold; */
-	left: 190px;
+	left: 177px;
 	top: 218px;
 	position: absolute;
-	width: 60px;
+	width: 75px;
 	height: 23px;
 }
 .TFDIncident_wzdMain ._cboAmendReason_5 {
@@ -5116,7 +5116,7 @@
 	height: 25px;
 }
 .TFDIncident_wzdMain .chkIC {
-	background-color: rgba(240, 240, 240, 1);
+	background-color: white;
 	cursor: default;
 	font-family: Verdana;
 	font-size: medium;
@@ -5154,7 +5154,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	left: 520px;
-	top: 250px;
+	top: 290px;
 	position: absolute;
 	width: 267px;
 	height: 33px;
@@ -5172,7 +5172,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	left: 520px;
-	top: 300px;
+	top: 340px;
 	position: absolute;
 	width: 267px;
 	height: 33px;
@@ -5190,7 +5190,7 @@
 	font-family: Verdana;
 	font-size: medium;
 	left: 520px;
-	top: 350px;
+	top: 390px;
 	position: absolute;
 	width: 267px;
 	height: 33px;
