@@ -20,11 +20,24 @@ module Mobilize.Ifgs {
         private subscriptions: any;
         public isUpdating: boolean;
 
+        /**
+         * /
+         * Propertie selectable values accepted Handle the Selection Mode of the grid 
+            - true (enables row selection)
+            - row
+            - cell
+            - multiple, row
+            - multiple, cell
+         * Propertie groupable accept true or false , default option false 
+         */
+
         constructor(element: Element, options?: kendo.ui.GridOptions) {
+            var selectable = element.attributes["grid-selectable"];
+            var groupable = element.attributes["grid-group"];
             options.resizable = true;
             options.scrollable = true;
-            options.groupable = true;
-            options.selectable = "row";
+            options.groupable = groupable ? groupable.value: false;
+            options.selectable = selectable ? selectable.value : "row"; 
             options.navigatable = true;
             options.pageable = true;
             options.editable = false;
