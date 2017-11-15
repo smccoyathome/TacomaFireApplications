@@ -39,7 +39,7 @@
                       <label id="Label4" tabindex="5" class="Label4" data-bind="text : Label4.Text, imagePath : Label4.ImagePath">Filter By Primary Incident Type</label>
 
                       <!-- $$$$ sprUnitList GRID-->
-                      <div id="sprUnitList" tabindex="17" class="sprUnitList" grid-selectable="multiple, row" grid-group="true" data-role="customgrid" data-bind="Visibility : sprUnitList.Visible, CustomGridColumns : sprUnitList.Columns.Items,CustomGridSource : sprUnitList.NeedRefresh,UltraGridActiveRow : sprUnitList.ActiveRowIndex, CustomGridOverride : sprUnitList.DisplayLayout, events : {doubleClick : sprUnitList_DoubleClick} "></div>
+                      <div id="sprUnitList" tabindex="17" class="sprUnitList" grid-selectable="row" grid-group="false" data-role="customgrid" data-bind="Visibility : sprUnitList.Visible, CustomGridColumns : sprUnitList.Columns.Items,CustomGridSource : sprUnitList.NeedRefresh,UltraGridActiveRow : sprUnitList.ActiveRowIndex, CustomGridOverride : sprUnitList.DisplayLayout, events : {doubleClick : sprUnitList_DoubleClick} "></div>
 
                       <!-- REMOVED SELECTION RANGE FROM CALENDAR CONTROL TO JUST GET SELECTED DATE-->
                       <div id="calUnit" tabindex="4" class="calUnit" data-role="calendar" data-bind="dateTimePickerValue : calUnit.Value, events : { change : calUnit_DateChanged }, "></div>

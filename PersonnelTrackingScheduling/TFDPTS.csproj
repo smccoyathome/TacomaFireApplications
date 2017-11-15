@@ -1232,7 +1232,6 @@
     <TypeScriptCompile Include="Scripts\directives\Shapes.ts" />
     <TypeScriptCompile Include="Scripts\directives\spread.ts" />
     <TypeScriptCompile Include="Scripts\directives\Tree.ts" />
-    <TypeScriptCompile Include="Scripts\directives\UltraGrid.ts" />
     <TypeScriptCompile Include="Scripts\helpers\jquery.blockUI.d.ts" />
     <TypeScriptCompile Include="Scripts\helpers\jquery.caret.d.ts" />
     <TypeScriptCompile Include="Scripts\helpers\jquery.d.ts" />

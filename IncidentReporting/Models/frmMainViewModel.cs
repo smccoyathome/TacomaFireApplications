@@ -267,7 +267,7 @@ namespace TFDIncident.ViewModels
             this.sprUnitList.Name = "sprUnitList";
             this.sprUnitList.Enabled = true;
 			this.sprUnitList.TabIndex = 89;
-            this.sprUnitList.PageSize = 500;
+            this.sprUnitList.PageSize = 50;
             //this.sprUnitList.TextTip = FarPoint.ViewModels.TextTipPolicy.Off;
             //         this.sprUnitList.Lock = true;
             //         this.sprUnitList.HideLeftRightBorders = true;
